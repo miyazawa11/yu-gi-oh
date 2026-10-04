@@ -1,7 +1,7 @@
-# Scoped card recognition
+# 対象を限定したカード認識
 
-Start with user-provided visible card crops for a 20–50 card deck. Calibration maps zone regions to reference templates labeled by card ID. Match artwork/crop similarity only when absolute score and separation from other card IDs pass thresholds; unknown otherwise. Distinct exemplars of one card are one class. Include lighting, animation, perspective and unrelated cards in holdout data.
+20〜50種のデッキを対象に、ユーザーが用意した表示中のカード画像から始めます。校正ファイルでゾーンとカード ID 付きの参照画像を対応付けます。類似度と別カードとの差がしきい値を超える場合だけ採用し、それ以外は未知です。同じカードの複数画像は同一クラスです。評価用データには照明・演出・角度の違いと対象外カードを含めます。
 
-Recognition does not infer face-down cards, deck order, or opponent hand. No card art is fetched automatically. Populate the SQLite metadata database with a local JSON import containing ID, name, type, attribute, race, level/rank/link, ATK/DEF and effect text. Recognition labels must resolve through that database; missing metadata remains explicit. Knowledge-graph relationships are deferred.
+裏向きカード、デッキ順、相手の手札は推測しません。画像の自動取得はありません。ローカル JSON から SQLite に ID、名前、種類、属性、種族、レベル／ランク／リンク、攻撃力・守備力、効果文を登録します。認識ラベルに対応する情報が DB にない場合は未知とします。知識グラフは今後の検討項目です。
 
-Real cards/ground truth are unavailable in the current Linux environment. Synthetic similarity tests validate algorithmic rejection and integration only. Card deployment remains gated on real-game LP/turn/phase evaluation and a scoped card dataset.
+現在の Linux 環境には実カード画像と正解ラベルがありません。合成画像のテストは類似度・棄却・接続の検証だけです。実運用への移行には実ゲームの LP・ターン・フェイズ評価と対象カードのデータが必要です。

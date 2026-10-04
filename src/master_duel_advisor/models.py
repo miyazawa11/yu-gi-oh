@@ -21,7 +21,7 @@ class Observation(Model, Generic[T]):
     @model_validator(mode="after")
     def unknown_has_no_confidence(self):
         if self.value is None and self.confidence != 0:
-            raise ValueError("Unknown observations must have zero confidence")
+            raise ValueError("未知の観測は信頼度をゼロにしてください")
         return self
 
 
@@ -60,7 +60,7 @@ class CardIdentity(Model):
 class PlayerState(Model):
     lp: Observation[int] = Field(default_factory=Observation[int])
     hand_count: Observation[int] = Field(default_factory=Observation[int])
-    # Empty dictionary means zones were not configured, not an empty board.
+    # 空の辞書はゾーン未設定を意味し、空の盤面ではありません。
     zones: dict[str, Observation[CardIdentity]] = Field(default_factory=dict)
 
 
@@ -103,6 +103,6 @@ class Recommendation(Model):
 
 
 class ActionExecutor(Protocol):
-    """Future authorized applications only. No implementation in this project."""
+    """将来の許可されたアプリ向けです。このプロジェクトに実装はありません。"""
 
     def execute(self, action: Action) -> None: ...

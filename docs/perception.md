@@ -1,9 +1,11 @@
-# Perception and calibration
+# 画面認識と校正
 
-Calibration manifest selects a viewport rectangle in normalized frame coordinates. Each region is normalized within that viewport, making scaling and letterboxing explicit; do not stretch a 16:9 layout across another aspect ratio. Use actual captures for each UI/language/theme mode.
+校正ファイルで表示範囲を正規化矩形として指定します。各領域はその範囲内で正規化し、拡大率と黒帯を明示します。16:9 の配置を異なる縦横比に引き伸ばしません。UI・言語・テーマごとに実画面で校正してください。
 
-Supported regions: self/opponent LP, turn player/number, phase, hand count, self/opponent monster and spell/trap zones, extra-monster zones, graveyard, banished, extra deck and action/selection UI. Region names describe semantic observations, not measured default coordinates. Save screenshots through capture then inspect them and define calibrated crops. A validate-calibration command checks geometry and exemplar assets.
+対応領域は自分・相手の LP、ターンプレイヤー／番号、フェイズ、手札枚数、モンスター／魔法・罠ゾーン、エクストラモンスターゾーン、墓地、除外、エクストラデッキ、操作・選択 UI です。領域名は意味を表し、実測済みの初期座標ではありません。取得した画面を確認して切り抜き領域を指定します。`validate-calibration` で座標・ラベル・参照画像を検証します。
 
-Numeric fields use local Tesseract CLI with a digits-only whitelist, parse the entire recognized token and enforce bounds. Original grayscale and thresholded renderings must agree with confidence >=0.90; only crops shorter than40 pixels are enlarged. Missing OCR or ambiguous output produces unknown. This consensus reduces observed synthetic errors but does not guarantee real-game correctness. Template classification uses resized normalized pixel similarity, absolute threshold and runner-up margin. Multiple exemplars may share a label. High visual similarity is a heuristic confidence, not a calibrated probability. Visible action templates must include a selectable appearance and distinguish disabled buttons; stale/ambiguous/nonactive UI must be rejected through dataset evaluation.
+数値はローカル Tesseract で数字だけを読み、文字列全体と上限を検証します。グレースケールと二値化の結果が一致し、両方の信頼度が0.90以上の場合だけ採用します。高さ40画素未満の画像だけ拡大します。OCR がない場合や結果が曖昧な場合は未知です。この一致判定は合成画像での誤りを減らしますが、実ゲームの正しさを保証しません。
 
-The initial implementation is a calibrated framework, not a trained universal Master Duel detector. Real-game fixture evaluation >=95% field accuracy and negative-action cases is required before reliable live advice. Synthetic templates cannot satisfy this gate.
+テンプレートは縮小した画素の類似度、絶対しきい値、次点との差で分類します。同じラベルに複数画像を登録できます。類似度は目安で、校正された確率ではありません。操作 UI は選択可能な外観を対象とし、無効化されたボタンと区別します。古い・曖昧・非アクティブな UI を棄却できるか評価データで確認します。
+
+初期実装は校正が必要な認識基盤であり、万能な学習済み検出器ではありません。信頼できる助言には実ゲームの各項目で95%以上の精度と操作不能な場面の検証が必要です。合成テンプレートでは移行条件を満たせません。

@@ -42,7 +42,7 @@ def test_wrong_ground_truth_is_failure_and_exit_code(assets,tmp_path):
 def test_empty_dataset_never_validates(pipeline,tmp_path):
     path=tmp_path/"empty.json"
     path.write_text('{"kind":"real_game","samples":[]}')
-    with pytest.raises(ValueError,match="nonempty"):
+    with pytest.raises(ValueError,match="1件以上"):
         evaluate(path,pipeline,tmp_path/"out.json")
 
 
@@ -77,7 +77,7 @@ def test_video_uses_same_pipeline_and_media_times(pipeline,assets):
 
 def test_changed_aspect_fails_closed(pipeline):
     result=pipeline.process(Frame(np.zeros((480,640,3),np.uint8),time.monotonic(),1))
-    assert result["error"] and "aspect ratio" in result["error"]
+    assert result["error"] and "縦横比" in result["error"]
     assert result["recommendation"]["action"] is None
 
 
@@ -111,14 +111,15 @@ def test_http_ui_functional_request_and_stale_abstention(pipeline,assets):
     try:
         address=f"http://127.0.0.1:{server.server_port}"
         with urllib.request.urlopen(address) as response:
-            assert b"Recommended Action" in response.read()
-        # Use a controlled store timestamp instead of a fragile timing assertion.
+            assert "推奨行動" in response.read().decode("utf-8")
+        # 時間経過に依存せず、管理された更新時刻で検証します。
         store.updated=time.monotonic()-2
         with urllib.request.urlopen(address+"/state") as response:
             state=json.load(response)
         assert state["state"]["self"]["lp"]["value"]==8000
         assert state["recommendation"]["recognition_status"]=="stale"
         assert state["recommendation"]["action"] is None
+        assert "新しい画面" in state["recommendation"]["reason"]
     finally:
         server.shutdown()
         server.server_close()
@@ -135,7 +136,7 @@ def test_replay_benchmark_does_not_claim_live_drop_or_gpu(assets):
     assert result["mode"]=="offline_replay"
 
 
-@pytest.mark.skipif(sys.platform=="win32",reason="This verifies the non-Windows platform guard")
+@pytest.mark.skipif(sys.platform=="win32",reason="Windows 以外での実行制限を確認します")
 def test_linux_live_capture_explicit_blocker():
     with pytest.raises(RuntimeError,match="Windows"):
         LiveCaptureSource("dxcam",(0,0,1920,1080))
@@ -145,8 +146,7 @@ def test_run_command_persists_current_outputs(assets,tmp_path):
     output=tmp_path/"run"
     assert main(["run","--video",str(assets["video"]),"--calibration",str(assets["calibration"]),"--database",str(assets["database"]),"--output",str(output)])==0
     summary=json.loads((output/"run.json").read_text())
-    # Per-region gating deliberately tolerates extra work for codec noise;
-    # every scenario must execute while at least half the frames are skipped.
+    # 圧縮ノイズによる追加処理を許容し、全場面を処理して半分以上の画像を省略します。
     assert 4 <= summary["processed"] <= summary["captured"]//2
     assert json.loads((output/"latest.json").read_text())["state"]["sequence"]==9
     assert (output/"events.jsonl").read_text()

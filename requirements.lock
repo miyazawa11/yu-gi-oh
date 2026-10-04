@@ -1,4 +1,4 @@
-# Python 3.12 core/test/build environment and conditional Windows capture dependencies.
+# Python 3.12 の実行・テスト・ビルド環境と OS 条件付き Windows 取得依存です。
 annotated-types==0.8.0
 iniconfig==2.3.0
 numpy==2.2.6

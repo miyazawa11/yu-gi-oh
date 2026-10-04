@@ -27,13 +27,13 @@ class TesseractOCR:
         if self.command is None:
             return None, 0
         gray = cv2.cvtColor(crop, cv2.COLOR_BGR2GRAY)
-        # Upscaling large anti-aliased digits caused 5200→9200 regressions.
-        # Only enlarge genuinely small crops, then require two renderings agree.
+        # 大きな滑らかな数字の拡大により5200を9200と誤認した回帰を防ぎます。
+        # 小さな画像だけ拡大し、2種類の前処理の一致を求めます。
         if gray.shape[0] < 40:
             scale = 40/gray.shape[0]
             gray = cv2.resize(gray, None, fx=scale, fy=scale, interpolation=cv2.INTER_CUBIC)
         _, binary = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
-        # A white page improves sparse numeric OCR. Preserve the shape of digits.
+        # 数字の形を保ち、余白の多い数値画像は白背景にして OCR を助けます。
         if np.mean(binary) < 127:
             binary = 255 - binary
             gray = 255 - gray
@@ -72,7 +72,7 @@ class TesseractOCR:
 
 
 def fingerprint(pixels: np.ndarray) -> np.ndarray:
-    """Color-preserving normalized image descriptor, not a trained embedding."""
+    """色を保つ正規化画像の特徴量です。学習済み埋め込みではありません。"""
     return cv2.resize(pixels, (64, 32), interpolation=cv2.INTER_AREA).astype(np.float32)/255
 
 
@@ -82,15 +82,15 @@ class TemplateMatcher:
         self.templates: list[tuple[str, np.ndarray]] = []
         for exemplar in region.exemplars:
             path = (base/exemplar.image).resolve()
-            # Calibration uses local assets; forbid escaping its own directory.
+            # 校正用のローカル画像が指定フォルダーの外を参照するのを防ぎます。
             if not path.is_relative_to(base.resolve()):
-                raise ValueError("Template assets must be within calibration directory")
+                raise ValueError("参照画像は校正ファイルのフォルダー内に配置してください")
             image = cv2.imread(str(path))
             if image is None:
-                raise ValueError(f"Cannot read exemplar: {path}")
+                raise ValueError(f"参照画像を読み込めません: {path}")
             self.templates.append((exemplar.label, fingerprint(image)))
         if region.kind in {"template", "card", "action"} and not self.templates:
-            raise ValueError("Template regions require exemplars")
+            raise ValueError("テンプレート領域には参照画像が必要です")
 
     def match(self, crop: np.ndarray) -> tuple[str | None, float]:
         descriptor = fingerprint(crop)
@@ -123,30 +123,30 @@ class Perception:
                 continue
             if name in numeric_names:
                 if region.kind not in {"number", "template"}:
-                    raise ValueError(f"Numeric field has incompatible kind: {name}")
+                    raise ValueError(f"数値項目に未対応の認識方式が指定されています: {name}")
                 maximum = 999999 if name.endswith(".lp") else 999 if name == "turn" else 60
                 if any(not label.isdecimal() or int(label) > maximum for label in labels):
-                    raise ValueError(f"Invalid numeric template label: {name}")
+                    raise ValueError(f"数値テンプレートのラベルが不正です: {name}")
             elif name == "phase":
                 if region.kind != "template":
-                    raise ValueError("phase requires templates")
+                    raise ValueError("フェイズ認識にはテンプレートが必要です")
                 for label in labels:
                     Phase(label)
             elif name == "turn_player":
                 if region.kind != "template":
-                    raise ValueError("turn_player requires templates")
+                    raise ValueError("ターンプレイヤー認識にはテンプレートが必要です")
                 for label in labels:
                     Player(label)
             elif name.startswith("action."):
                 if region.kind != "action":
-                    raise ValueError("Action fields require action templates")
+                    raise ValueError("操作項目には操作 UI のテンプレートが必要です")
                 for label in labels:
                     ActionType(label)
             elif re.fullmatch(r"(self|opponent)\.zones\.[a-zA-Z0-9_]+", name):
                 if region.kind != "card":
-                    raise ValueError("Zone identities require card templates")
+                    raise ValueError("ゾーンのカード識別にはカードのテンプレートが必要です")
             else:
-                raise ValueError(f"Unsupported semantic region: {name}")
+                raise ValueError(f"未対応の観測領域です: {name}")
 
     def process(self, frame: Frame) -> GameState:
         crops = self.calibration.crop_regions(frame.pixels)

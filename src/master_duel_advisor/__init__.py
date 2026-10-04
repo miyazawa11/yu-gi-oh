@@ -1,3 +1,3 @@
-"""Pixels in, advice out. No game input or process access."""
+"""画面から推奨を生成します。ゲーム入力とプロセスへのアクセスは行いません。"""
 
 __version__ = "0.1.0"

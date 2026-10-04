@@ -37,7 +37,7 @@ def test_duplicate_exemplars_same_label_not_ambiguity(assets):
 
 def test_template_asset_escape_rejected(assets):
     region = Region(rect=Rect(x=0,y=0,width=1,height=1),kind="template",exemplars=[Exemplar(label="MAIN1",image="../outside.png")])
-    with pytest.raises(ValueError,match="within calibration"):
+    with pytest.raises(ValueError,match="校正ファイル"):
         TemplateMatcher(region,assets["calibration"].parent)
 
 
@@ -69,7 +69,7 @@ def test_missing_tesseract_returns_unknown():
     assert TesseractOCR("nonexistent-ocr-tool").read(np.zeros((60,200,3),np.uint8),999999) == (None,0)
 
 
-@pytest.mark.skipif(shutil.which("tesseract") is None,reason="Optional local OCR tool is not installed")
+@pytest.mark.skipif(shutil.which("tesseract") is None,reason="任意のローカル OCR ツールが未導入です")
 @pytest.mark.parametrize("value",[8000,5200,999999])
 def test_real_ocr_regression_no_forced_upscale(value):
     image=np.full((75,300,3),255,np.uint8)

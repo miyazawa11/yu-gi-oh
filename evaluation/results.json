@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-04T09:07:24.959011+00:00",
+  "run_at": "2026-10-04T09:28:26.632832+00:00",
   "dataset": "artifacts/demo/dataset.json",
   "dataset_kind": "synthetic",
   "sample_count": 4,
@@ -79,16 +79,16 @@
   "action_exact_accuracy": 1.0,
   "recommendation_exact_accuracy": 1.0,
   "total_compute_ms": {
-    "mean": 0.9695615000282487,
-    "p95": 1.1400118499750533
+    "mean": 0.9910435001074802,
+    "p95": 1.173112949913957
   },
   "api_calls": 0,
   "api_cost_usd": 0,
   "real_perception_gate_passed": false,
   "errors": [],
   "limitations": [
-    "Action ground truth covers supported UI candidates, not exhaustive rules",
-    "Synthetic data cannot establish real-game accuracy",
-    "Compute time is not display-to-result latency"
+    "行動の正解は対応する UI 候補を対象とし、全ルールを網羅していません",
+    "合成データから実ゲームの精度を証明することはできません",
+    "処理時間は実画面の変化から結果表示までの遅延ではありません"
   ]
 }

@@ -26,19 +26,19 @@
 
 zone NAME には hand_1、monster_1…5、spell_trap_1…5、extra_monster_1…2、graveyard、banished、extra_deck 等を使えます。画像に見えている個別カードを表す領域のみ登録し、一覧全体からカード1枚を推測しないでください。認識未対応の領域は kind=unobserved として表現できます。テンプレートのない領域や非表示のカードは unknown のままです。
 
-action は操作可能な見た目のボタンだけを登録します。ハイライト、無効化、演出、他の選択 UI と似ている場合、negative fixture を追加し threshold / margin を調整してください。1枚のテンプレートで合法性を証明したとは扱いません。未校正画面に類似ボタンがあっても候補が誤検出され得ます。
+action は操作可能な見た目のボタンだけを登録します。ハイライト、無効化、演出、他の選択 UI と似ている場合、操作不能な場面のテストデータ を追加し 類似度のしきい値（threshold）と次点との差（margin） を調整してください。1枚のテンプレートで合法性を証明したとは扱いません。未校正画面に類似ボタンがあっても候補が誤検出され得ます。
 
 カードメタデータ:
 
 ```json
-[{"card_id":"your-card-id","name":"Card Name","type":"monster","attribute":"DARK","race":"Fiend","level":1,"rank":null,"link":null,"atk":300,"defense":200,"effect_text":"User-provided effect text"}]
+[{"card_id":"your-card-id","name":"カード名","type":"monster","attribute":"DARK","race":"Fiend","level":1,"rank":null,"link":null,"atk":300,"defense":200,"effect_text":"ユーザーが登録する効果文"}]
 ```
 
 `import-cards data/cards.json --database data/cards.sqlite3` で取り込み、card 用テンプレートの label と一致させます。参照画像を自動取得する処理はありません。
 
 `validate-calibration data/layout.json --database data/cards.sqlite3 --image data/screen.png` を実行し、geometry/semantic labels/assets を確認します。実精度は別途 `evaluate` が必要です。
 
-ground truth 例（値は人間が画像から付け、predictionから転記しない）:
+正解ラベルの例（値は人間が画像から付け、予測結果から転記しない）:
 
 ```json
 {

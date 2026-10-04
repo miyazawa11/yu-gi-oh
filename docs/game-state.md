@@ -1,7 +1,7 @@
-# GameState
+# ゲーム状態
 
-Every observation has `value` (null = unknown), confidence in [0,1], source and observation time. Zero LP, empty list and null are different values. Self/opponent contain LP, hand count and named monster/spell-trap/extra-monster zones, graveyard, banished and extra deck observations. Hidden identities remain unknown. Turn number, turn player and phase are independent observations.
+各観測は `value`（null は未知）、0〜1 の信頼度、認識元、観測時刻を持ちます。LP のゼロ、空のリスト、null は別の意味です。自分・相手の LP、手札枚数、名前付きのモンスター／魔法・罠／エクストラモンスターゾーン、墓地、除外、エクストラデッキを表現します。隠れた識別情報は未知のままです。ターン番号、ターンプレイヤー、フェイズは独立した観測です。
 
-Cards have ID/name/confidence and face-up identity only when matched. Unmatched zones remain unknown; no automatic hidden-card reconstruction. Current state also carries calibrated visible UI action candidates. A session-local sequence and capture time provide freshness. Tracking logs observable value changes, not causal NORMAL_SUMMON claims from ambiguous card movement. A transition through unknown clears comparison evidence.
+一致した表向きカードだけに ID・名前と観測の信頼度を付けます。不一致のゾーンは未知で、隠れたカードを自動復元しません。状態には校正済みの表示中の操作候補も含まれます。セッション内の連番と取得時刻で新しさを管理します。追跡は観測した値の変化を記録し、曖昧な移動から通常召喚等の原因を断定しません。途中に未知値が入った場合は、その前後を直接比較しません。
 
-Actions use typed names, optional card/target and UI provenance. No action can reach a game input method. Decisions and UI expose uncertainty and reasons for abstaining.
+行動は型、任意のカード・対象、認識元の UI 領域を持ちます。ゲームに入力する処理へは接続しません。判断結果と表示には不確実性と推奨を控えた理由を示します。

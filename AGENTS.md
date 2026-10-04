@@ -1,14 +1,15 @@
-# Development contract
+# 開発方針
 
-Build a Windows 11 / Python 3.12 observation-only Master Duel advisor. Read `.agent/PLANS.md` before implementation and update progress, evidence, and decisions after meaningful changes.
+Windows 11 / Python 3.12 向けに観測専用の Master Duel アドバイザーを開発します。実装前に `.agent/PLANS.md` を読み、変更後は進捗・検証結果・判断を更新してください。
 
-- Never send mouse/keyboard input to the game; never read game memory, inject DLLs, inspect packets, or bypass anti-cheat.
-- Capture only visible pixels. Never infer hidden opponent cards. Unknown observations remain unknown with provenance and confidence.
-- Separate capture, perception, state, rules, decisions, and presentation. Executor is an interface only; no Master Duel executor implementation.
-- Prefer deterministic CV/OCR; do not call a vision API for every frame. External model use requires explicit opt-in and a budget.
-- Test offline with deterministic fixtures and replay. Synthetic accuracy is not real-game accuracy. Do not mark Windows performance or real-game recognition complete without measured evidence.
-- Rules only recommend actions backed by calibrated visible action UI. Partial state does not prove complete Yu-Gi-Oh legality.
-- Keep documents consistent with implementation. Run `python -m pytest` and the documented demo/evaluation before reporting verified capabilities.
-- Use the existing isolated checkout; do not create worktrees unless requested.
+- ゲームへのマウス・キー入力、ゲームメモリの読み取り、DLL 注入、パケット解析、アンチチート回避は禁止です。
+- 画面に見えている情報だけを取得します。相手の隠れたカードは推測せず、未知情報は認識元と信頼度を持つ未知値として扱います。
+- 取得・認識・状態・ルール・判断・表示を分離します。操作実行はインターフェースのみで、Master Duel 向けの実装を作りません。
+- 決定的な画像処理と OCR を優先し、毎フレーム画像 API を呼びません。外部モデルには明示的な利用設定と予算が必要です。
+- 再現可能なデータと録画で検証します。合成精度を実ゲーム精度と扱わず、実測なしに Windows 性能や実認識の完了を宣言しません。
+- 校正済みの表示中の操作 UI に裏付けられた候補だけを推奨します。部分的な状態で全ルールの合法性を証明したとは扱いません。
+- 文書と実装を一致させ、検証済みの機能を報告する前に `python -m pytest` と記載のデモ・評価を実行します。
+- 既存の隔離されたチェックアウトを使い、依頼がない限り Git worktree を作りません。
+- 説明文、コメント、利用者向けメッセージは日本語にします。識別子、コマンド、JSON キー、機械判定用の値は互換性のため維持します。
 
-The user's development request authorizes creating source, tests, dependency files, and documentation. This is application development, distinct from the earlier onboarding-only scope.
+開発依頼によりソース・テスト・依存関係・文書の作成が許可されています。先行する環境セットアップだけの作業とは区別します。

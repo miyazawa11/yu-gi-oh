@@ -19,7 +19,7 @@ class Rect(Model):
     @model_validator(mode="after")
     def within_frame(self):
         if self.x + self.width > 1.0000001 or self.y + self.height > 1.0000001:
-            raise ValueError("Rectangle extends beyond viewport")
+            raise ValueError("矩形が表示範囲を超えています")
         return self
 
     def crop(self, pixels: np.ndarray) -> np.ndarray:
@@ -28,7 +28,7 @@ class Rect(Model):
         x2, y2 = min(w, math.ceil((self.x+self.width)*w)), min(h, math.ceil((self.y+self.height)*h))
         result = pixels[y1:y2, x1:x2]
         if result.size == 0:
-            raise ValueError("Empty crop")
+            raise ValueError("切り抜き領域が空です")
         return result
 
 
@@ -56,7 +56,7 @@ class Calibration(Model):
         view = self.viewport.crop(pixels)
         ratio = view.shape[1] / view.shape[0]
         if abs(ratio/self.aspect_ratio-1) > self.aspect_tolerance:
-            raise ValueError("Viewport aspect ratio differs from calibration; configure letterboxing/crop")
+            raise ValueError("表示範囲の縦横比が校正と異なります。黒帯や切り抜き範囲を設定してください")
         return {name: region.rect.crop(view) for name, region in self.regions.items()}
 
 

@@ -1,9 +1,9 @@
-# Evaluation contract
+# 評価方針
 
-Automated tests cover schema, geometry, ambiguity/rejection, database, temporal transitions, action filtering, structured decisions, frame gate, replay and HTTP UI. Synthetic end-to-end fixtures run via `python -m master_duel_advisor demo --output artifacts/demo`; reported dataset kind must remain synthetic.
+自動テストはデータ形式、座標、曖昧な認識の棄却、DB、時系列の変化、候補の絞り込み、構造化された判断、変化検出、録画再生、HTTP 画面を対象にします。合成データの一連の検証は `python -m master_duel_advisor demo --output artifacts/demo` で実行し、種別は `synthetic` と報告します。
 
-Ground truth JSON lists image paths and expected observation values, including explicit nulls and action types. Evaluator measures per-field accuracy, known-value precision/recall and state exact accuracy; macro aggregates do not replace per-field thresholds. Missing predictions are failures for known ground truth. Negative/unknown cases measure unsafe false positives. Never evaluate labels copied from predictions. Save current results to evaluation/results.json with run timestamp, data kind and sample counts.
+正解ラベルの JSON は画像パス、期待する観測値、明示的な null、行動の種類を持ちます。項目ごとの正解率、既知値の適合率・再現率、状態全体の完全一致率を計測します。平均値で個別のしきい値を置き換えません。既知の正解に対する未認識は失敗です。操作不能・未知の場面で誤検出を確認し、予測を正解ラベルに転記しません。実行時刻・種別・件数を含めて `evaluation/results.json` に保存します。
 
-Capture benchmarks report received/unique FPS, read-time mean/p95, CPU usage, estimated missed scheduled samples and elapsed time. GPU use and true screen-to-result latency are null unless independently measured. Replay throughput is not live FPS. Target minimum 10 unique FPS, aim 30 on Windows. Compare dxcam/MSS with same scene, rectangle, duration and fullscreen/windowed conditions; then investigate WGC/OBS if needed. Counters never equate duplicate frames with captured FPS.
+取得方式の比較では受領 FPS、意味のある更新率、読み取り時間の平均・95パーセンタイル、CPU、予定した取得の不足率、経過時間を記録します。GPU と実画面から表示までの遅延は別途実測し、未測定は null にします。録画の処理速度をライブ FPS と扱いません。Windows で最低10 FPS、目標30 FPS とし、同じ動きのある場面・矩形・時間・表示モードで dxcam と MSS を比較します。必要なら WGC / OBS を調べます。重複画像を新しい画面として数えません。
 
-Pipeline records capture/read, perception, decision and total compute latency plus zero API calls/cost. Real end-to-end latency requires an external timestamped screen change experiment. Completion requires Windows live validation and held-out real Master Duel samples; neither is available here.
+処理は取得・認識・判断・合計の時間と API 回数・費用（初期実装はゼロ）を記録します。実画面の変化から推奨表示までの遅延には、外部で時刻を付けた計測が必要です。完了条件には Windows のライブ検証と独立した実ゲームの評価データが含まれ、現在は両方不足しています。

@@ -17,12 +17,25 @@
   "game_input_implemented": false,
   "api_calls": 0,
   "api_cost_usd": 0,
-  "source_zip_clean_extract_setup": "passed on Linux",
+  "source_zip_clean_extract_setup": "Linux 上で成功",
   "source_zip_clean_extract_tests": {
     "tests": 64,
     "passed": 64,
     "failed": 0,
     "skipped": 0
   },
-  "source_zip_clean_extract_demo": "passed; real-game gate remains false"
+  "source_zip_clean_extract_demo": "成功。実ゲームの移行条件は未達のまま",
+  "japanese_localization": {
+    "run_at": "2026-10-04T09:34:43.788191+00:00",
+    "pytest": {
+      "tests": 64,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "ui_http": "別ポートの新規サービスで日本語の画面と推奨理由を確認",
+    "ui_labels": "JavaScript で日本語表示と API データの非変更を確認",
+    "cli_help": "日本語の説明・見出し・使い方を確認",
+    "api_compatibility": "JSON キーと機械判定用の行動・状態コードを維持"
+  }
 }

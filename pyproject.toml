@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "master-duel-advisor"
 version = "0.1.0"
-description = "Observation-only, calibrated Master Duel advisor"
+description = "校正型の観測専用 Master Duel アドバイザー"
 requires-python = ">=3.12,<3.13"
 dependencies = ["numpy==2.2.6", "opencv-python-headless==4.12.0.88; sys_platform != 'win32'", "opencv-python==4.12.0.88; sys_platform == 'win32'", "pydantic==2.12.3", "psutil==7.1.3"]
 

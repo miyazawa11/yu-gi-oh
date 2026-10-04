@@ -1,11 +1,11 @@
-# Architecture
+# システム構成
 
-`CaptureSource → FrameGate → calibrated Perception → GameState → Tracker → Rules → Decision → local Advisor UI`
+画面取得 → 変化検出 → 校正済みの認識処理 → GameState → 状態追跡 → ルール → 判断 → 別ウィンドウの表示
 
-Capture sources share frame pixels, monotonic receipt time and optional media timestamp. dxcam and MSS capture a user-selected desktop rectangle on Windows; replay uses OpenCV VideoCapture. No game handles, input control, process access or networking to the game is used. A bounded synchronous loop samples current live frames rather than queueing stale work. Global and per-region visual change detection plus periodic refresh reduce perception frequency. Every processed state replaces the previous observation: failed recognition cannot retain a stale known value. dxcam uses synchronous grab polling because its latest-frame wait can block indefinitely on a static desktop.
+取得方式は画素、単調増加時計による受領時刻、必要に応じて動画内時刻を共通形式で返します。Windows は dxcam / MSS で指定矩形を取得し、録画は OpenCV VideoCapture を使います。ゲームのハンドル取得、入力制御、プロセスへのアクセス、ゲームとの通信は行いません。同期ループで現在の画像を取得し、古いフレームをキューにためません。画面全体と領域ごとの変化検出、定期更新で認識回数を減らします。認識失敗時は前回の値を流用せず未知にします。dxcam の最新画像待機は静止画面で停止し得るため、同期 grab を定期的に呼びます。
 
-Perception uses a calibration manifest with normalized regions, template exemplars, LP OCR and scoped card reference crops. Templates can represent turn, phase and action UI. Unmatched or ambiguous templates return unknown. Zone crops can identify known visible face-up cards; unmatched crops cannot establish emptiness. The local SQLite database provides metadata, not rules extracted automatically from effect prose.
+認識には校正ファイルの正規化領域、参照画像、LP の OCR、対象カードの切り抜き画像を使います。テンプレートでターン・フェイズ・操作 UI を識別し、不一致や曖昧な結果は未知にします。既知の表向きカードを識別できますが、不一致を空きゾーンとは扱いません。SQLite はカード情報を提供し、効果文からルールを自動抽出しません。
 
-Only explicitly recognized action buttons enter rule filtering. Unknown turn/phase, insufficient confidence and stale observations suppress recommendations. Decisions choose among supported observed candidates and always return JSON with action, target, confidence, reason and recognition status. This is a conservative subset, not a complete simulator. An Executor protocol permits future authorized integrations; no executor is implemented.
+明確に認識した操作ボタンだけをルールで絞り込みます。ターン・フェイズが未知、信頼度が不足、情報が古い場合は推奨を抑制します。候補内から選び、行動・対象・信頼度・理由・認識状態を JSON で返します。対応範囲は限定的で、完全なシミュレーターではありません。将来の許可されたアプリ向け操作実行インターフェースはありますが、実装はありません。
 
-Separate loopback HTTP UI polls the latest snapshot. Capture should exclude the advisor window to avoid feedback. API cost is zero in the initial implementation. Timing measures compute and frame receipt; it does not measure physical display-to-photon latency. See evaluation docs for data and deployment gates.
+別のローカル HTTP 画面が最新状態を定期取得します。表示画面は取得領域の外へ置き、認識への混入を防ぎます。初期実装の API 費用はゼロです。計測は処理時間と受領時間で、実画面の変化から表示までの物理的な遅延ではありません。実運用への移行条件は評価文書を参照してください。

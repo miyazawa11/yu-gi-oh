@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop'
 Set-Location (Join-Path $PSScriptRoot '..')
 function Assert-Success {
-    if ($LASTEXITCODE -ne 0) { throw "Command failed with exit code $LASTEXITCODE" }
+    if ($LASTEXITCODE -ne 0) { throw "コマンドが終了コード $LASTEXITCODE で失敗しました" }
 }
 py -3.12 -c "import sys; assert sys.version_info[:2] == (3,12)"
 Assert-Success

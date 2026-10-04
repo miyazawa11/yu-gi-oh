@@ -8,22 +8,22 @@ from .regions import Calibration, Exemplar, Rect, Region, load_calibration
 
 
 def calibrate_region(path: Path, image: Path, name: str, kind: str, rect: Rect, label: str | None = None, viewport: Rect | None = None):
-    """Explicit user-labeled crop. Appends assets without overwriting exemplars."""
+    """指定ラベルの切り抜き画像を追加し、既存の参照画像は上書きしません。"""
     calibration = load_calibration(path) if path.exists() else Calibration(name="user-calibration",regions={},viewport=viewport or Rect(x=0,y=0,width=1,height=1))
     if viewport is not None and viewport != calibration.viewport:
-        raise ValueError("Viewport differs from existing calibration; create a separate layout")
+        raise ValueError("表示範囲が既存の校正と異なります。別の配置設定を作成してください")
     if kind in {"template","card","action"} and not label:
-        raise ValueError("Template/card/action calibration requires a label")
+        raise ValueError("テンプレート・カード・操作の校正にはラベルが必要です")
     if kind in {"number","unobserved"} and label is not None:
-        raise ValueError("Numeric/unobserved regions do not use template labels")
+        raise ValueError("数値・未観測の領域にテンプレートラベルは使いません")
     pixels = cv2.imread(str(image))
     if pixels is None:
-        raise ValueError("Cannot read calibration screenshot")
+        raise ValueError("校正用の画面を読み込めません")
     view = calibration.viewport.crop(pixels)
     calibration.crop_regions(pixels)  # validate actual viewport aspect before writing
     previous = calibration.regions.get(name)
     if previous and (previous.rect != rect or previous.kind != kind):
-        raise ValueError("Existing region geometry/kind differs; create a separate layout")
+        raise ValueError("既存の領域の座標・種類が異なります。別の配置設定を作成してください")
     exemplars = list(previous.exemplars) if previous else []
     asset = None
     if label is not None:
@@ -31,7 +31,7 @@ def calibrate_region(path: Path, image: Path, name: str, kind: str, rect: Rect, 
         asset = path.parent/relative
         asset.parent.mkdir(parents=True,exist_ok=True)
         if not cv2.imwrite(str(asset),rect.crop(view)):
-            raise ValueError("Cannot save template crop")
+            raise ValueError("参照画像の切り抜きを保存できません")
         exemplars.append(Exemplar(label=label,image=relative))
     region = Region(rect=rect,kind=kind,exemplars=exemplars)
     calibration = calibration.model_copy(update={"regions":{**calibration.regions,name:region}})

@@ -30,7 +30,7 @@ class FrameGate:
                 crops.extend(self.calibration.crop_regions(frame.pixels).values())
             except ValueError:
                 self.previous = None
-                return True  # Perception clears stale known state on layout failure.
+                return True  # 配置が不正な場合は認識処理で古い既知状態を消去します。
         thumbnails = [cv2.resize(crop, (160, 90)).astype(np.float32)/255 for crop in crops]
         changed = self.previous is None or any(float(np.mean(np.abs(current-previous))) >= self.threshold for current,previous in zip(thumbnails,self.previous))
         expired = self.last_time is None or frame.captured_at-self.last_time >= self.refresh_seconds
@@ -53,7 +53,7 @@ class Pipeline:
         try:
             state = self.perception.process(frame)
         except ValueError as exc:
-            # Invalid viewport/layout fails closed and clears previous evidence.
+            # 不正な表示範囲・配置では未知として扱い、前回の根拠を流用しません。
             state = GameState(sequence=frame.sequence, captured_at=frame.captured_at, media_time=frame.media_time)
             error = str(exc)
         perception_ms = (time.perf_counter()-start)*1000

@@ -47,5 +47,5 @@ def test_letterboxed_viewport():
     image[60:420] = 200
     calibration = Calibration(name="letterbox", viewport=Rect(x=0,y=.125,width=1,height=.75), regions={"a":Region(rect=Rect(x=0,y=0,width=1,height=1),kind="unobserved")})
     assert np.all(calibration.crop_regions(image)["a"] == 200)
-    with pytest.raises(ValueError, match="aspect ratio"):
+    with pytest.raises(ValueError, match="縦横比"):
         Calibration(name="wrong",regions={}).crop_regions(image)

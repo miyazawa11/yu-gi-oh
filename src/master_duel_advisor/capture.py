@@ -12,8 +12,8 @@ import numpy as np
 
 @dataclass(frozen=True)
 class Frame:
-    pixels: np.ndarray  # BGR uint8, same convention for every backend
-    captured_at: float  # monotonic receipt time; not physical acquisition latency
+    pixels: np.ndarray  # 全取得方式で BGR uint8 に統一します。
+    captured_at: float  # 単調増加時計による受領時刻です。物理的な取得遅延ではありません。
     sequence: int
     media_time: float | None = None
 
@@ -27,11 +27,11 @@ class VideoCaptureSource:
     def __init__(self, path: Path, realtime: bool = False):
         self.cap = cv2.VideoCapture(str(path))
         if not self.cap.isOpened():
-            raise ValueError(f"Cannot open recording: {path}")
+            raise ValueError(f"録画を開けません: {path}")
         self.fps = self.cap.get(cv2.CAP_PROP_FPS)
         if not np.isfinite(self.fps) or self.fps <= 0:
             self.cap.release()
-            raise ValueError("Recording must declare a valid FPS")
+            raise ValueError("録画には有効な FPS が必要です")
         self.realtime, self.sequence = realtime, 0
         self.started = time.monotonic()
 
@@ -61,7 +61,7 @@ class ImageCaptureSource:
             return None
         pixels = cv2.imread(str(path))
         if pixels is None:
-            raise ValueError(f"Cannot read image: {path}")
+            raise ValueError(f"画像を読み込めません: {path}")
         frame = Frame(pixels, time.monotonic(), self.sequence)
         self.sequence += 1
         return frame
@@ -71,16 +71,16 @@ class ImageCaptureSource:
 
 
 class LiveCaptureSource:
-    """Capture a desktop rectangle. User supplies coordinates; no game control."""
+    """ユーザー指定のデスクトップ矩形を取得します。ゲームは操作しません。"""
 
     def __init__(self, backend: str, rect: tuple[int, int, int, int], fps: int = 30):
         if sys.platform != "win32":
-            raise RuntimeError("Live capture requires Windows 11; use replay on this host")
+            raise RuntimeError("ライブ取得には Windows 11 が必要です。この環境では録画再生を使ってください")
         left, top, right, bottom = rect
         if left < 0 or top < 0 or right <= left or bottom <= top:
-            raise ValueError("Rectangle must be positive desktop coordinates left,top,right,bottom")
+            raise ValueError("矩形は正の幅・高さを持つデスクトップ座標 left,top,right,bottom で指定してください")
         if not 1 <= fps <= 240:
-            raise ValueError("FPS must be between 1 and 240")
+            raise ValueError("FPS は1〜240で指定してください")
         self.backend, self.rect, self.sequence = backend, rect, 0
         self.camera = None
         if backend == "dxcam":
@@ -90,12 +90,12 @@ class LiveCaptureSource:
             import mss
             self.camera = mss.mss()
         else:
-            raise ValueError(f"Unsupported backend: {backend}")
+            raise ValueError(f"未対応の取得方式です: {backend}")
 
     def read(self) -> Frame | None:
         if self.backend == "dxcam":
-            # Poll instead of get_latest_frame(), which can wait indefinitely on
-            # a static/inaccessible desktop. Scheduling belongs to the caller.
+            # 静止・取得不能な画面で待ち続ける get_latest_frame() の代わりに定期取得します。
+            # 呼び出し間隔は取得元を利用する側で制御します。
             pixels = self.camera.grab(region=self.rect)
             if pixels is None:
                 return None
