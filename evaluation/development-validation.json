@@ -1,0 +1,28 @@
+{
+  "run_at": "2026-10-04T09:08:01.749530+00:00",
+  "host": "Linux",
+  "python": "3.12.14",
+  "pytest": {
+    "tests": 64,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "setup_script_repeatability": "passed",
+  "pip_check": "passed",
+  "http_ui_functional_request": "passed",
+  "ocr_tool": "Tesseract 5.5.0",
+  "windows_live_validated": false,
+  "real_game_recognition_validated": false,
+  "game_input_implemented": false,
+  "api_calls": 0,
+  "api_cost_usd": 0,
+  "source_zip_clean_extract_setup": "passed on Linux",
+  "source_zip_clean_extract_tests": {
+    "tests": 64,
+    "passed": 64,
+    "failed": 0,
+    "skipped": 0
+  },
+  "source_zip_clean_extract_demo": "passed; real-game gate remains false"
+}

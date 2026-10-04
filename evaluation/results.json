@@ -1,0 +1,94 @@
+{
+  "run_at": "2026-10-04T09:07:24.959011+00:00",
+  "dataset": "artifacts/demo/dataset.json",
+  "dataset_kind": "synthetic",
+  "sample_count": 4,
+  "fields": {
+    "self.lp": {
+      "total": 4,
+      "correct": 4,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "opponent.lp": {
+      "total": 4,
+      "correct": 4,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "turn_player": {
+      "total": 4,
+      "correct": 4,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "phase": {
+      "total": 4,
+      "correct": 4,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "turn": {
+      "total": 4,
+      "correct": 4,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "self.hand_count": {
+      "total": 4,
+      "correct": 4,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "self.zones.monster_1": {
+      "total": 4,
+      "correct": 4,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  "game_state_exact_accuracy": 1.0,
+  "action_exact_accuracy": 1.0,
+  "recommendation_exact_accuracy": 1.0,
+  "total_compute_ms": {
+    "mean": 0.9695615000282487,
+    "p95": 1.1400118499750533
+  },
+  "api_calls": 0,
+  "api_cost_usd": 0,
+  "real_perception_gate_passed": false,
+  "errors": [],
+  "limitations": [
+    "Action ground truth covers supported UI candidates, not exhaustive rules",
+    "Synthetic data cannot establish real-game accuracy",
+    "Compute time is not display-to-result latency"
+  ]
+}
