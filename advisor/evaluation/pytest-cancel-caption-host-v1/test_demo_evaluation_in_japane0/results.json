@@ -1,0 +1,94 @@
+{
+  "run_at": "2026-10-05T20:49:49.300102+00:00",
+  "dataset": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-cancel-caption-host-v1\\test_demo_evaluation_in_japane0\\日本語の作業フォルダー\\dataset.json",
+  "dataset_kind": "synthetic",
+  "sample_count": 4,
+  "fields": {
+    "self.lp": {
+      "total": 4,
+      "correct": 4,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "opponent.lp": {
+      "total": 4,
+      "correct": 4,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "turn_player": {
+      "total": 4,
+      "correct": 4,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "phase": {
+      "total": 4,
+      "correct": 4,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "turn": {
+      "total": 4,
+      "correct": 4,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "self.hand_count": {
+      "total": 4,
+      "correct": 4,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "self.zones.monster_1": {
+      "total": 4,
+      "correct": 4,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  "game_state_exact_accuracy": 1.0,
+  "action_exact_accuracy": 1.0,
+  "recommendation_exact_accuracy": 1.0,
+  "total_compute_ms": {
+    "mean": 2.3444749931513797,
+    "p95": 2.7612849975412246
+  },
+  "api_calls": 0,
+  "api_cost_usd": 0,
+  "real_perception_gate_passed": false,
+  "errors": [],
+  "limitations": [
+    "行動の正解は対応する UI 候補を対象とし、全ルールを網羅していません",
+    "合成データから実ゲームの精度を証明することはできません",
+    "処理時間は実画面の変化から結果表示までの遅延ではありません"
+  ]
+}

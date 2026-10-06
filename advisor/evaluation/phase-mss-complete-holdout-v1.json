@@ -1,0 +1,387 @@
+{
+  "calibration_sha256": "170497ece4845f8b9ce69999eaba6e465016471745329f4d41d798c3ac1631dc",
+  "independent": true,
+  "input_count": 0,
+  "autonomous_purpose_samples": 0,
+  "passed": true,
+  "rows": [
+    {
+      "image": "artifacts\\baseline-tester\\MSS_COMPLETE_HOLDOUT_v1\\frame-00.png",
+      "sha256": "4e41c8b221b101d907d6490a51ab35295708720e33f759beadf4c1a73fffaede",
+      "passed": true,
+      "state": {
+        "sequence": 0,
+        "captured_at": 55525.531,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 55525.531
+        },
+        "turn_player": {
+          "value": "self",
+          "confidence": 0.9954777956008911,
+          "source": "composite:known_main1_clear",
+          "observed_at": 55525.531
+        },
+        "phase": {
+          "value": "MAIN1",
+          "confidence": 0.9954777956008911,
+          "source": "composite:known_main1_clear",
+          "observed_at": 55525.531
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9954777956008911,
+          "source": "composite:known_main1_clear",
+          "observed_at": 55525.531
+        },
+        "prompt": {
+          "value": "none",
+          "confidence": 0.9954777956008911,
+          "source": "composite:known_main1_clear",
+          "observed_at": 55525.531
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9954777956008911,
+          "source": "composite:known_main1_clear",
+          "observed_at": 55525.531
+        },
+        "card_states": {},
+        "facts": {
+          "phase_context.clear_card_menu": {
+            "value": "true",
+            "confidence": 0.9961959719657898,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 55525.531
+          },
+          "phase_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9954777956008911,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 55525.531
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 55525.531
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 55525.531
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 55525.531
+          },
+          "phase_context.self_main1": {
+            "value": "true",
+            "confidence": 0.9966874122619629,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 55525.531
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 55525.531
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 55525.531
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 55525.531
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 55525.531
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "CHANGE_PHASE",
+            "card_id": null,
+            "target": null,
+            "confidence": 0.9966874122619629,
+            "source_region": "action.phase_open",
+            "observed_at": 55525.531
+          }
+        ]
+      }
+    },
+    {
+      "image": "artifacts\\baseline-tester\\MSS_COMPLETE_HOLDOUT_v1\\frame-01.png",
+      "sha256": "93e2898a0e9719ee5072a65160fdd3ca71d9bfba8518263f81d63596802a6211",
+      "passed": true,
+      "state": {
+        "sequence": 1,
+        "captured_at": 55525.562,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 55525.562
+        },
+        "turn_player": {
+          "value": "self",
+          "confidence": 0.9953559041023254,
+          "source": "composite:known_main1_clear",
+          "observed_at": 55525.562
+        },
+        "phase": {
+          "value": "MAIN1",
+          "confidence": 0.9953559041023254,
+          "source": "composite:known_main1_clear",
+          "observed_at": 55525.562
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9953559041023254,
+          "source": "composite:known_main1_clear",
+          "observed_at": 55525.562
+        },
+        "prompt": {
+          "value": "none",
+          "confidence": 0.9953559041023254,
+          "source": "composite:known_main1_clear",
+          "observed_at": 55525.562
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9953559041023254,
+          "source": "composite:known_main1_clear",
+          "observed_at": 55525.562
+        },
+        "card_states": {},
+        "facts": {
+          "phase_context.clear_card_menu": {
+            "value": "true",
+            "confidence": 0.9959322214126587,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 55525.562
+          },
+          "phase_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9953559041023254,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 55525.562
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 55525.562
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 55525.562
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 55525.562
+          },
+          "phase_context.self_main1": {
+            "value": "true",
+            "confidence": 0.9968927502632141,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 55525.562
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 55525.562
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 55525.562
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 55525.562
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 55525.562
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "CHANGE_PHASE",
+            "card_id": null,
+            "target": null,
+            "confidence": 0.9968927502632141,
+            "source_region": "action.phase_open",
+            "observed_at": 55525.562
+          }
+        ]
+      }
+    },
+    {
+      "image": "artifacts\\baseline-tester\\MSS_COMPLETE_HOLDOUT_v1\\frame-02.png",
+      "sha256": "a88864e5b4886febf38926bfa0930f3a0692ceb83cfbf59f89e234635b873ced",
+      "passed": true,
+      "state": {
+        "sequence": 2,
+        "captured_at": 55525.578,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 55525.578
+        },
+        "turn_player": {
+          "value": "self",
+          "confidence": 0.995312511920929,
+          "source": "composite:known_main1_clear",
+          "observed_at": 55525.578
+        },
+        "phase": {
+          "value": "MAIN1",
+          "confidence": 0.995312511920929,
+          "source": "composite:known_main1_clear",
+          "observed_at": 55525.578
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.995312511920929,
+          "source": "composite:known_main1_clear",
+          "observed_at": 55525.578
+        },
+        "prompt": {
+          "value": "none",
+          "confidence": 0.995312511920929,
+          "source": "composite:known_main1_clear",
+          "observed_at": 55525.578
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.995312511920929,
+          "source": "composite:known_main1_clear",
+          "observed_at": 55525.578
+        },
+        "card_states": {},
+        "facts": {
+          "phase_context.clear_card_menu": {
+            "value": "true",
+            "confidence": 0.9962805509567261,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 55525.578
+          },
+          "phase_context.clear_center": {
+            "value": "true",
+            "confidence": 0.995312511920929,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 55525.578
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 55525.578
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 55525.578
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 55525.578
+          },
+          "phase_context.self_main1": {
+            "value": "true",
+            "confidence": 0.9965259432792664,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 55525.578
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 55525.578
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 55525.578
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 55525.578
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 55525.578
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "CHANGE_PHASE",
+            "card_id": null,
+            "target": null,
+            "confidence": 0.9965259432792664,
+            "source_region": "action.phase_open",
+            "observed_at": 55525.578
+          }
+        ]
+      }
+    }
+  ]
+}

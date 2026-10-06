@@ -1,0 +1,12 @@
+{
+  "diagnostic": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\solo-direct-draw-transition-comparison-v1.json",
+  "diagnostic_sha256": "27225b309ef87c8db8c1d386984dc6ffb7cd3798066db7b5a703aa6743a5e859",
+  "command_exit_code": 1,
+  "failure": "NameError: close_pipeline undefined in diagnostic finally after output and fixed recheck completed",
+  "output_written": true,
+  "recognition_metrics_complete": true,
+  "fixed_recheck": "passed after process exit",
+  "native_input_count": 0,
+  "resource_notice": "diagnostic process ended; OS handles released; production code/assets unchanged",
+  "next_step": "do not rerun into existing diagnostic path; import cleanup function in future diagnostics"
+}

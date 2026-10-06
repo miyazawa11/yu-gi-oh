@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="6" skipped="0" tests="15" time="3.628" timestamp="2026-10-06T09:01:09.659409+09:00" hostname="DESKTOP-KILPD1G"><testcase classname="tests.test_hand_search" name="test_source_three_actual_scenes_geometry_detail_and_effect[DRAGONDARK_SEARCH_TRAIN_v1_20261006/effect-menu-before-hand6-slot3]" time="0.359" /><testcase classname="tests.test_hand_search" name="test_source_three_actual_scenes_geometry_detail_and_effect[DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006/effect-menu-before-hand7-slot3]" time="0.271" /><testcase classname="tests.test_hand_search" name="test_source_three_actual_scenes_geometry_detail_and_effect[DRAGONDARK_PILOT_PREPARATION_v1_20261006/ready-effect-menu-hand6-slot3]" time="0.257" /><testcase classname="tests.test_hand_search" name="test_actual_ready_hand6_visible_card_is_not_rejected_for_cut_fanned_shape" time="0.019"><failure message="AssertionError: ready6の可視カードを現axis/高さ条件が取り逃す&#10;assert None is not None">def test_actual_ready_hand6_visible_card_is_not_rejected_for_cut_fanned_shape():
+        pixels=read_image(ROOT/"artifacts/baseline-tester/DRAGONDARK_SEARCH_TRAIN_v1_20261006/post-search-hand-unselected/frame-0000.png")
+        # 既知手札cardの局所診断ROI。原画像へ合成/書込は行いません。
+        rectangle=local_card_rectangle(pixels,(604,587,155,133),(587,637),682)
+&gt;       assert rectangle is not None,"ready6の可視カードを現axis/高さ条件が取り逃す"
+E       AssertionError: ready6の可視カードを現axis/高さ条件が取り逃す
+E       assert None is not None
+
+tests\test_hand_search.py:61: AssertionError</failure></testcase><testcase classname="tests.test_hand_search" name="test_actual_unselected_hand6_background_line_is_not_selected_card_top" time="0.022"><failure message="AssertionError: unselected画面の背景横線をselected上辺として採用している&#10;assert {'bbox': [640, 540, 84, 135], 'left': [640, 527, 640, 682], 'right': [724, 527, 724, 675], 'top': [604, 540, 758, 540]} is None">def test_actual_unselected_hand6_background_line_is_not_selected_card_top():
+        pixels=read_image(ROOT/"artifacts/baseline-tester/DRAGONDARK_SEARCH_TRAIN_v1_20261006/post-search-hand-unselected/frame-0000.png")
+        rectangle=local_card_rectangle(pixels,(604,527,155,180),(527,580),682)
+&gt;       assert rectangle is None,"unselected画面の背景横線をselected上辺として採用している"
+E       AssertionError: unselected画面の背景横線をselected上辺として採用している
+E       assert {'bbox': [640, 540, 84, 135], 'left': [640, 527, 640, 682], 'right': [724, 527, 724, 675], 'top': [604, 540, 758, 540]} is None
+
+tests\test_hand_search.py:67: AssertionError</failure></testcase><testcase classname="tests.test_hand_search" name="test_actual_hand7_selected_card_has_connected_rectangle" time="0.024" /><testcase classname="tests.test_hand_search" name="test_handoff_rechecks_deadline_epoch_and_sequence[fresh]" time="0.265" /><testcase classname="tests.test_hand_search" name="test_handoff_rechecks_deadline_epoch_and_sequence[expired_handoff]" time="0.261"><failure message="AssertionError: expired_handoffをhandoff後early returnが検査していない&#10;assert (None)">case = 'expired_handoff'
+
+    @pytest.mark.parametrize("case",["fresh","expired_handoff","same_sequence","older_sequence","epoch_changed"])
+    def test_handoff_rechecks_deadline_epoch_and_sequence(case):
+        v=synthetic_handoff_vision();context=synthetic_context();at=10.1;seq=62;epoch=42
+        if case=="expired_handoff":at=14.
+        elif case=="same_sequence":seq=61
+        elif case=="older_sequence":seq=60
+        elif case=="epoch_changed":epoch=43
+        frame=synthetic_frame(41,at,seq,epoch);result=v.observe(frame,context,v.recognize(frame))
+        if case=="fresh":assert result["ready"] and not result["failed"]
+&gt;       else:assert result["failed"] and not result["ready"],case+"をhandoff後early returnが検査していない"
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AssertionError: expired_handoffをhandoff後early returnが検査していない
+E       assert (None)
+
+tests\test_hand_search.py:84: AssertionError</failure></testcase><testcase classname="tests.test_hand_search" name="test_handoff_rechecks_deadline_epoch_and_sequence[same_sequence]" time="0.268"><failure message="AssertionError: same_sequenceをhandoff後early returnが検査していない&#10;assert (None)">case = 'same_sequence'
+
+    @pytest.mark.parametrize("case",["fresh","expired_handoff","same_sequence","older_sequence","epoch_changed"])
+    def test_handoff_rechecks_deadline_epoch_and_sequence(case):
+        v=synthetic_handoff_vision();context=synthetic_context();at=10.1;seq=62;epoch=42
+        if case=="expired_handoff":at=14.
+        elif case=="same_sequence":seq=61
+        elif case=="older_sequence":seq=60
+        elif case=="epoch_changed":epoch=43
+        frame=synthetic_frame(41,at,seq,epoch);result=v.observe(frame,context,v.recognize(frame))
+        if case=="fresh":assert result["ready"] and not result["failed"]
+&gt;       else:assert result["failed"] and not result["ready"],case+"をhandoff後early returnが検査していない"
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AssertionError: same_sequenceをhandoff後early returnが検査していない
+E       assert (None)
+
+tests\test_hand_search.py:84: AssertionError</failure></testcase><testcase classname="tests.test_hand_search" name="test_handoff_rechecks_deadline_epoch_and_sequence[older_sequence]" time="0.259"><failure message="AssertionError: older_sequenceをhandoff後early returnが検査していない&#10;assert (None)">case = 'older_sequence'
+
+    @pytest.mark.parametrize("case",["fresh","expired_handoff","same_sequence","older_sequence","epoch_changed"])
+    def test_handoff_rechecks_deadline_epoch_and_sequence(case):
+        v=synthetic_handoff_vision();context=synthetic_context();at=10.1;seq=62;epoch=42
+        if case=="expired_handoff":at=14.
+        elif case=="same_sequence":seq=61
+        elif case=="older_sequence":seq=60
+        elif case=="epoch_changed":epoch=43
+        frame=synthetic_frame(41,at,seq,epoch);result=v.observe(frame,context,v.recognize(frame))
+        if case=="fresh":assert result["ready"] and not result["failed"]
+&gt;       else:assert result["failed"] and not result["ready"],case+"をhandoff後early returnが検査していない"
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AssertionError: older_sequenceをhandoff後early returnが検査していない
+E       assert (None)
+
+tests\test_hand_search.py:84: AssertionError</failure></testcase><testcase classname="tests.test_hand_search" name="test_handoff_rechecks_deadline_epoch_and_sequence[epoch_changed]" time="0.254" /><testcase classname="tests.test_hand_search" name="test_public_anchor_tracking_300ms_gap_boundary[0.299-True]" time="0.354" /><testcase classname="tests.test_hand_search" name="test_public_anchor_tracking_300ms_gap_boundary[0.3-True]" time="0.309"><failure message="AssertionError: assert ('expired_or_repeated_frame' is None) == True">gap = 0.3, allowed = True
+
+    @pytest.mark.parametrize("gap,allowed",[(.299,True),(.300,True),(.301,False)])
+    def test_public_anchor_tracking_300ms_gap_boundary(gap,allowed):
+        v=vision();context=synthetic_context();first=synthetic_frame(25,1.,45)
+        initial=v.observe(first,context,v.recognize(first))
+        assert initial["anchor"] is not None
+        current=synthetic_frame(26,1.+gap,46)
+        result=v.observe(current,context,v.recognize(current))
+&gt;       assert (result["failed"] is None)==allowed
+E       AssertionError: assert ('expired_or_repeated_frame' is None) == True
+
+tests\test_hand_search.py:94: AssertionError</failure></testcase><testcase classname="tests.test_hand_search" name="test_public_anchor_tracking_300ms_gap_boundary[0.301-False]" time="0.311" /><testcase classname="tests.test_hand_search" name="test_anchor_missing_does_not_construct_handoff_from_hand_pixels" time="0.267" /></testsuite></testsuites>

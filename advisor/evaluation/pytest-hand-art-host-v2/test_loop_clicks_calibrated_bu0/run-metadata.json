@@ -1,0 +1,79 @@
+{
+  "run_id": "85a0456f50ab458882dde8004d8df2a6",
+  "mode": "unclassified",
+  "source_sha256": "e6260451be5aa37c539de0c38788cc5ce519c9d414e25c73d782112bf6e869ad",
+  "python": "3.12.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "clock": "perf_counter",
+  "clock_resolution_seconds": 1e-07,
+  "registered_trials": [],
+  "run_purpose": "pilot",
+  "cohort_id": null,
+  "cohort_manifest_sha256": null,
+  "cohort_slot": null,
+  "data_integrity": true,
+  "calibration_sha256": "7991958b2d7250bb24ff8ed4b290ae443a915b36058be269d33e43ae65f13b52",
+  "calibration": {
+    "name": "loop",
+    "viewport": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 1.0,
+      "height": 1.0
+    },
+    "aspect_ratio": 1.7777777777777777,
+    "aspect_tolerance": 0.02,
+    "regions": {
+      "action.confirm": {
+        "rect": {
+          "x": 0.4,
+          "y": 0.4,
+          "width": 0.2,
+          "height": 0.2
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      }
+    },
+    "composites": []
+  },
+  "template_assets_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "template_assets": {},
+  "stable_features_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "stable_features": {},
+  "strategy_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "strategy": null,
+  "limits_sha256": "c563a59c7774bbca07011b1b681ad3be607012a5048350ac436bfbd166cb4530",
+  "limits": {
+    "max_seconds": 1,
+    "max_actions": 2,
+    "min_confidence": 0.98,
+    "max_retries": 1,
+    "max_same_action": 3,
+    "settle_seconds": 0,
+    "verify_seconds": 0.1,
+    "verify_poll_seconds": 0.001,
+    "min_image_change": 0.005,
+    "max_observation_age": 1.0
+  },
+  "capture_sha256": "15fef8e533c9a3b1a9c63be06010b32947728f7bb832291b3d36e9b078132a5c",
+  "capture": {
+    "type": "Frames",
+    "rect": [
+      -1920,
+      785,
+      -1720,
+      885
+    ]
+  },
+  "execution_conditions_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "execution_conditions": null,
+  "recognition_components_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "recognition_components": {},
+  "provenance_frozen_before_capture": true
+}

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="15" skipped="0" tests="15" time="28.575" timestamp="2026-10-06T11:06:22.018816+09:00" hostname="DESKTOP-KILPD1G"><testcase classname="tests.test_source_hand_art" name="test_new_source_requires_same_frame_detail_effect_and_unique_art_pose[0]" time="2.284"><failure message="AssertionError: assert None == 'hand6-slot3'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000001F75E50EBD0&gt;
+index = 0
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_source_requires_same_frame_detail_effect_and_unique_art_pose(vision,index):
+        pixels=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(pixels,0,index,capture_source="saved_image"))
+&gt;       assert result["source_layout"]=="hand6-slot3"
+E       AssertionError: assert None == 'hand6-slot3'
+
+tests\test_source_hand_art.py:37: AssertionError</failure></testcase><testcase classname="tests.test_source_hand_art" name="test_new_source_requires_same_frame_detail_effect_and_unique_art_pose[1]" time="2.128"><failure message="AssertionError: assert None == 'hand6-slot3'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000001F77FCF1EB0&gt;
+index = 1
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_source_requires_same_frame_detail_effect_and_unique_art_pose(vision,index):
+        pixels=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(pixels,0,index,capture_source="saved_image"))
+&gt;       assert result["source_layout"]=="hand6-slot3"
+E       AssertionError: assert None == 'hand6-slot3'
+
+tests\test_source_hand_art.py:37: AssertionError</failure></testcase><testcase classname="tests.test_source_hand_art" name="test_new_source_requires_same_frame_detail_effect_and_unique_art_pose[2]" time="1.859"><failure message="AssertionError: assert None == 'hand6-slot3'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000001F77FE9CB00&gt;
+index = 2
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_source_requires_same_frame_detail_effect_and_unique_art_pose(vision,index):
+        pixels=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(pixels,0,index,capture_source="saved_image"))
+&gt;       assert result["source_layout"]=="hand6-slot3"
+E       AssertionError: assert None == 'hand6-slot3'
+
+tests\test_source_hand_art.py:37: AssertionError</failure></testcase><testcase classname="tests.test_source_hand_art" name="test_new_source_requires_same_frame_detail_effect_and_unique_art_pose[3]" time="2.099"><failure message="AssertionError: assert None == 'hand6-slot3'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000001F77FCAE810&gt;
+index = 3
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_source_requires_same_frame_detail_effect_and_unique_art_pose(vision,index):
+        pixels=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(pixels,0,index,capture_source="saved_image"))
+&gt;       assert result["source_layout"]=="hand6-slot3"
+E       AssertionError: assert None == 'hand6-slot3'
+
+tests\test_source_hand_art.py:37: AssertionError</failure></testcase><testcase classname="tests.test_source_hand_art" name="test_new_source_requires_same_frame_detail_effect_and_unique_art_pose[4]" time="2.272"><failure message="AssertionError: assert None == 'hand6-slot3'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000001F701141220&gt;
+index = 4
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_source_requires_same_frame_detail_effect_and_unique_art_pose(vision,index):
+        pixels=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(pixels,0,index,capture_source="saved_image"))
+&gt;       assert result["source_layout"]=="hand6-slot3"
+E       AssertionError: assert None == 'hand6-slot3'
+
+tests\test_source_hand_art.py:37: AssertionError</failure></testcase><testcase classname="tests.test_source_hand_art" name="test_new_source_requires_same_frame_detail_effect_and_unique_art_pose[5]" time="1.502"><failure message="KeyError: 'source_art_pose'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000001F701143800&gt;
+index = 5
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_source_requires_same_frame_detail_effect_and_unique_art_pose(vision,index):
+        pixels=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(pixels,0,index,capture_source="saved_image"))
+        assert result["source_layout"]=="hand6-slot3"
+&gt;       pose=result["source_art_pose"]["hand6-slot3"]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'source_art_pose'
+
+tests\test_source_hand_art.py:38: KeyError</failure></testcase><testcase classname="tests.test_source_hand_art" name="test_new_source_requires_same_frame_detail_effect_and_unique_art_pose[6]" time="1.965"><failure message="AssertionError: assert None == 'hand6-slot3'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000001F7011BDA60&gt;
+index = 6
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_source_requires_same_frame_detail_effect_and_unique_art_pose(vision,index):
+        pixels=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(pixels,0,index,capture_source="saved_image"))
+&gt;       assert result["source_layout"]=="hand6-slot3"
+E       AssertionError: assert None == 'hand6-slot3'
+
+tests\test_source_hand_art.py:37: AssertionError</failure></testcase><testcase classname="tests.test_source_hand_art" name="test_new_source_requires_same_frame_detail_effect_and_unique_art_pose[7]" time="1.866"><failure message="AssertionError: assert None == 'hand6-slot3'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000001F701204110&gt;
+index = 7
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_source_requires_same_frame_detail_effect_and_unique_art_pose(vision,index):
+        pixels=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(pixels,0,index,capture_source="saved_image"))
+&gt;       assert result["source_layout"]=="hand6-slot3"
+E       AssertionError: assert None == 'hand6-slot3'
+
+tests\test_source_hand_art.py:37: AssertionError</failure></testcase><testcase classname="tests.test_source_hand_art" name="test_new_source_requires_same_frame_detail_effect_and_unique_art_pose[8]" time="1.785"><failure message="AssertionError: assert None == 'hand6-slot3'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000001F701206270&gt;
+index = 8
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_source_requires_same_frame_detail_effect_and_unique_art_pose(vision,index):
+        pixels=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(pixels,0,index,capture_source="saved_image"))
+&gt;       assert result["source_layout"]=="hand6-slot3"
+E       AssertionError: assert None == 'hand6-slot3'
+
+tests\test_source_hand_art.py:37: AssertionError</failure></testcase><testcase classname="tests.test_source_hand_art" name="test_new_source_requires_same_frame_detail_effect_and_unique_art_pose[9]" time="1.776"><failure message="AssertionError: assert None == 'hand6-slot3'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000001F701274560&gt;
+index = 9
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_source_requires_same_frame_detail_effect_and_unique_art_pose(vision,index):
+        pixels=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(pixels,0,index,capture_source="saved_image"))
+&gt;       assert result["source_layout"]=="hand6-slot3"
+E       AssertionError: assert None == 'hand6-slot3'
+
+tests\test_source_hand_art.py:37: AssertionError</failure></testcase><testcase classname="tests.test_source_hand_art" name="test_selected7_art_belongs_to_hand_but_without_effect_produces_no_source" time="1.737"><failure message="AttributeError: 'HandSearchVision' object has no attribute 'source_art'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000001F701276A20&gt;
+
+    def test_selected7_art_belongs_to_hand_but_without_effect_produces_no_source(vision):
+        pixels=read_image(DATA/"DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006/post-reveal-fresh-hand-inspect/frame-0000.png")
+&gt;       pose=vision.source_art.recognize(pixels,[640,522])
+             ^^^^^^^^^^^^^^^^^
+E       AttributeError: 'HandSearchVision' object has no attribute 'source_art'
+
+tests\test_source_hand_art.py:48: AttributeError</failure></testcase><testcase classname="tests.test_source_hand_art" name="test_actual_neighbor_cids_do_not_run_source_pose_or_create_source[roar-detail-negative]" time="1.842"><failure message="KeyError: 'source_art_pose'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000001F701308CE0&gt;
+group = 'roar-detail-negative'
+
+    @pytest.mark.parametrize("group",["roar-detail-negative","thunderstormech-detail-negative"])
+    def test_actual_neighbor_cids_do_not_run_source_pose_or_create_source(vision,group):
+        folder=DATA/"DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006"/group
+        for item in json.loads((folder/"manifest.json").read_text(encoding="utf-8"))["frames"]:
+            result=vision.recognize(Frame(read_image(folder/item["file"]),0,0,capture_source="saved_image"))
+            assert result["detail_cid"] is None and result["source_layout"] is None
+&gt;           assert all(p["status"]=="not_applicable" and p["accepted"] is None for p in result["source_art_pose"].values())
+                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+E           KeyError: 'source_art_pose'
+
+tests\test_source_hand_art.py:61: KeyError</failure></testcase><testcase classname="tests.test_source_hand_art" name="test_actual_neighbor_cids_do_not_run_source_pose_or_create_source[thunderstormech-detail-negative]" time="1.776"><failure message="KeyError: 'source_art_pose'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000001F70130B260&gt;
+group = 'thunderstormech-detail-negative'
+
+    @pytest.mark.parametrize("group",["roar-detail-negative","thunderstormech-detail-negative"])
+    def test_actual_neighbor_cids_do_not_run_source_pose_or_create_source(vision,group):
+        folder=DATA/"DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006"/group
+        for item in json.loads((folder/"manifest.json").read_text(encoding="utf-8"))["frames"]:
+            result=vision.recognize(Frame(read_image(folder/item["file"]),0,0,capture_source="saved_image"))
+            assert result["detail_cid"] is None and result["source_layout"] is None
+&gt;           assert all(p["status"]=="not_applicable" and p["accepted"] is None for p in result["source_art_pose"].values())
+                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+E           KeyError: 'source_art_pose'
+
+tests\test_source_hand_art.py:61: KeyError</failure></testcase><testcase classname="tests.test_source_hand_art" name="test_same_dark_unselected_card_art_is_not_selected_source" time="1.784"><failure message="AttributeError: 'HandSearchVision' object has no attribute 'source_art'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000001F70130A5A0&gt;
+
+    def test_same_dark_unselected_card_art_is_not_selected_source(vision):
+        pixels=read_image(DATA/"DRAGONDARK_SEARCH_TRAIN_v1_20261006/post-search-hand-unselected/frame-0000.png")
+&gt;       pose=vision.source_art.recognize(pixels,[683,524])
+             ^^^^^^^^^^^^^^^^^
+E       AttributeError: 'HandSearchVision' object has no attribute 'source_art'
+
+tests\test_source_hand_art.py:66: AttributeError</failure></testcase><testcase classname="tests.test_source_hand_art" name="test_synthetic_clear_and_weak_second_model_both_pass_alone_but_are_ambiguous" time="1.727"><failure message="AttributeError: 'HandSearchVision' object has no attribute 'source_art'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000001F701276E70&gt;
+
+    def test_synthetic_clear_and_weak_second_model_both_pass_alone_but_are_ambiguous(vision):
+        # 実refの対応点だけを合成移動。実pixel抽出の精度とは扱いません。
+&gt;       points,_=vision.source_art.references[0]
+                 ^^^^^^^^^^^^^^^^^
+E       AttributeError: 'HandSearchVision' object has no attribute 'source_art'
+
+tests\test_source_hand_art.py:72: AttributeError</failure></testcase></testsuite></testsuites>

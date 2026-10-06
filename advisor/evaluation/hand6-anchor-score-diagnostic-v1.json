@@ -1,0 +1,2552 @@
+{
+  "schema": "hand6-anchor-score-diagnostic-v1",
+  "purpose": "known failed replay follow-up method-selection diagnostic; no retracking/ref addition/threshold tuning",
+  "prior_replay": "evaluation/hand6-tracker-original-clock-diagnostic-v1.json",
+  "source_before_sha256": "f96a6532badd8ab46160e1081f430bb8eccdf46e9dcce0a4183528cd9969bb7f",
+  "source_after_sha256": "f96a6532badd8ab46160e1081f430bb8eccdf46e9dcce0a4183528cd9969bb7f",
+  "source_fixed": true,
+  "same_source_as_prior_replay": false,
+  "config_path": "artifacts\\dragondark-hand-search-calibration-v4\\hand-search.json",
+  "config_sha256": "a5997715ebcfe556607238b8a4b6f00ad3c9bfc29ba94fb508e8aadf7c5b865e",
+  "original_manifest_path": "artifacts\\baseline-tester\\DRAGONDARK_HAND6_CHAIN_REVEAL_TRAIN_v3_20261006\\chain-cancel-reveal-continuous\\manifest.json",
+  "input_count": 0,
+  "e2e_count": 0,
+  "original_clock_sequence_preserved": true,
+  "anchor_gates_note": "current source_layout is not used by anchor gate; episode layout from initial context. No uniqueness gate before anchor in current code. At >=.98, points>=6 required.",
+  "rows": [
+    {
+      "original_capture": {
+        "file": "frame-0152.png",
+        "capture_start_utc": "2026-10-06T02:57:13.261219+00:00",
+        "capture_start_perf": 97996.5274206,
+        "capture_end_perf": 97996.5510737,
+        "captured_at_monotonic": 97996.515,
+        "capture_sequence": 157,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "7a8ca3723210136b7a209edb18154436633470141304c0d59e8665e469a7ead3"
+      },
+      "image_shape": [
+        720,
+        1280,
+        3
+      ],
+      "roi": [
+        500,
+        400,
+        330,
+        236
+      ],
+      "static": {
+        "scores": {
+          "source_hand6-slot3": 0.8243839144706726,
+          "source_hand7-slot3": 0.7288411259651184,
+          "effect_hand6-slot3": 0.6578313112258911,
+          "effect_hand7-slot3": 0.6628835201263428,
+          "own_chain": 0.6715272068977356,
+          "ready_hand6-slot3": 0.810574471950531,
+          "ready_hand7-slot3": 0.7233172059059143,
+          "selected_hand6-slot3": 0.8084826469421387,
+          "selected_hand7-slot3": 0.7417952418327332,
+          "gy_panel": 0.8499599099159241
+        },
+        "detail_score": 0.6376129388809204,
+        "detail_cid": null,
+        "detail_recognition": null,
+        "detail_art": {
+          "accepted": false,
+          "keypoints": 0,
+          "references": [
+            {
+              "matches": 0,
+              "accepted": false,
+              "reason": "descriptors_absent"
+            },
+            {
+              "matches": 0,
+              "accepted": false,
+              "reason": "descriptors_absent"
+            }
+          ]
+        },
+        "source_art_pose": {
+          "hand6-slot3": {
+            "status": "not_applicable",
+            "accepted": null,
+            "reason": "detail_or_effect_unconfirmed",
+            "art_bbox": null,
+            "frame_seq": 157,
+            "observed_at": 97996.515,
+            "detail_cid": null,
+            "reference_hashes": [
+              "235d9b0821b36b8cb80d589ce722bd8aec7c401b206316a13e44fd44862e998c",
+              "75b6c19586af5d77218cca353db3f00408a237bbf6147d6e8c7a3c1dd38da29a"
+            ]
+          },
+          "hand7-slot3": {
+            "status": "not_applicable",
+            "accepted": null,
+            "reason": "detail_or_effect_unconfirmed",
+            "art_bbox": null,
+            "frame_seq": 157,
+            "observed_at": 97996.515,
+            "detail_cid": null,
+            "reference_hashes": [
+              "235d9b0821b36b8cb80d589ce722bd8aec7c401b206316a13e44fd44862e998c",
+              "75b6c19586af5d77218cca353db3f00408a237bbf6147d6e8c7a3c1dd38da29a"
+            ]
+          }
+        },
+        "source_geometry_mode": "not_run_source_art_mode",
+        "source_layout": null,
+        "source_geometry": {
+          "hand6-slot3": null,
+          "hand7-slot3": null
+        },
+        "own_chain": false,
+        "gy_panel": false,
+        "ready_layouts": [],
+        "selected_layouts": []
+      },
+      "scores": [
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 0.96,
+          "template_shape": [
+            160,
+            108
+          ],
+          "score": 0.1754739135503769,
+          "bbox": [
+            593,
+            466,
+            108,
+            160
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 1.0,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.19243165850639343,
+          "bbox": [
+            580,
+            460,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 1.04,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.2171086221933365,
+          "bbox": [
+            580,
+            460,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.20024029910564423,
+          "bbox": [
+            588,
+            466,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.22818167507648468,
+          "bbox": [
+            582,
+            460,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.24515870213508606,
+          "bbox": [
+            579,
+            455,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.22797806560993195,
+          "bbox": [
+            587,
+            465,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.25462770462036133,
+          "bbox": [
+            582,
+            460,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.24461789429187775,
+          "bbox": [
+            578,
+            455,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.23997819423675537,
+          "bbox": [
+            586,
+            464,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.25217655301094055,
+          "bbox": [
+            582,
+            461,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.2320137768983841,
+          "bbox": [
+            578,
+            455,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        }
+      ],
+      "best": {
+        "reference_index": 2,
+        "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+        "scale": 1.0,
+        "template_shape": [
+          174,
+          118
+        ],
+        "score": 0.25462770462036133,
+        "bbox": [
+          582,
+          460,
+          118,
+          174
+        ],
+        "point_count": 24,
+        "score_gate": false
+      },
+      "scope_guards": {
+        "manifest_eligible": true,
+        "same_epoch": true,
+        "same_client": true,
+        "after_cancel_before150": true,
+        "source_wrapper": "synthetic live_mss",
+        "layout_context": "synthetic hand6-slot3",
+        "own_chain_clear": true,
+        "gy_clear": true
+      }
+    },
+    {
+      "original_capture": {
+        "file": "frame-0153.png",
+        "capture_start_utc": "2026-10-06T02:57:13.333297+00:00",
+        "capture_start_perf": 97996.5988614,
+        "capture_end_perf": 97996.6201067,
+        "captured_at_monotonic": 97996.593,
+        "capture_sequence": 158,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "9f5a67b2261ce2c4c9878dc2350605a0d333f068a564009467de3d2b26b3f314"
+      },
+      "image_shape": [
+        720,
+        1280,
+        3
+      ],
+      "roi": [
+        500,
+        400,
+        330,
+        236
+      ],
+      "static": {
+        "scores": {
+          "source_hand6-slot3": 0.8329653739929199,
+          "source_hand7-slot3": 0.7322942018508911,
+          "effect_hand6-slot3": 0.6442608833312988,
+          "effect_hand7-slot3": 0.6636714339256287,
+          "own_chain": 0.6533033847808838,
+          "ready_hand6-slot3": 0.8181261420249939,
+          "ready_hand7-slot3": 0.7220736742019653,
+          "selected_hand6-slot3": 0.8190971612930298,
+          "selected_hand7-slot3": 0.7461919188499451,
+          "gy_panel": 0.8505411148071289
+        },
+        "detail_score": 0.6417405009269714,
+        "detail_cid": null,
+        "detail_recognition": null,
+        "detail_art": {
+          "accepted": false,
+          "keypoints": 0,
+          "references": [
+            {
+              "matches": 0,
+              "accepted": false,
+              "reason": "descriptors_absent"
+            },
+            {
+              "matches": 0,
+              "accepted": false,
+              "reason": "descriptors_absent"
+            }
+          ]
+        },
+        "source_art_pose": {
+          "hand6-slot3": {
+            "status": "not_applicable",
+            "accepted": null,
+            "reason": "detail_or_effect_unconfirmed",
+            "art_bbox": null,
+            "frame_seq": 158,
+            "observed_at": 97996.593,
+            "detail_cid": null,
+            "reference_hashes": [
+              "235d9b0821b36b8cb80d589ce722bd8aec7c401b206316a13e44fd44862e998c",
+              "75b6c19586af5d77218cca353db3f00408a237bbf6147d6e8c7a3c1dd38da29a"
+            ]
+          },
+          "hand7-slot3": {
+            "status": "not_applicable",
+            "accepted": null,
+            "reason": "detail_or_effect_unconfirmed",
+            "art_bbox": null,
+            "frame_seq": 158,
+            "observed_at": 97996.593,
+            "detail_cid": null,
+            "reference_hashes": [
+              "235d9b0821b36b8cb80d589ce722bd8aec7c401b206316a13e44fd44862e998c",
+              "75b6c19586af5d77218cca353db3f00408a237bbf6147d6e8c7a3c1dd38da29a"
+            ]
+          }
+        },
+        "source_geometry_mode": "not_run_source_art_mode",
+        "source_layout": null,
+        "source_geometry": {
+          "hand6-slot3": null,
+          "hand7-slot3": null
+        },
+        "own_chain": false,
+        "gy_panel": false,
+        "ready_layouts": [],
+        "selected_layouts": []
+      },
+      "scores": [
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 0.96,
+          "template_shape": [
+            160,
+            108
+          ],
+          "score": 0.7730374932289124,
+          "bbox": [
+            678,
+            464,
+            108,
+            160
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 1.0,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.8434581160545349,
+          "bbox": [
+            675,
+            461,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 1.04,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.6061540246009827,
+          "bbox": [
+            672,
+            458,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.8285607695579529,
+          "bbox": [
+            676,
+            461,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.5602012872695923,
+          "bbox": [
+            673,
+            458,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.47215893864631653,
+          "bbox": [
+            675,
+            452,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.7100397348403931,
+          "bbox": [
+            676,
+            461,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.513996422290802,
+          "bbox": [
+            673,
+            458,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.4469197392463684,
+          "bbox": [
+            674,
+            451,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.649316668510437,
+          "bbox": [
+            675,
+            462,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.48775506019592285,
+          "bbox": [
+            673,
+            457,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.4227384030818939,
+          "bbox": [
+            674,
+            451,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        }
+      ],
+      "best": {
+        "reference_index": 0,
+        "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+        "scale": 1.0,
+        "template_shape": [
+          167,
+          113
+        ],
+        "score": 0.8434581160545349,
+        "bbox": [
+          675,
+          461,
+          113,
+          167
+        ],
+        "point_count": 24,
+        "score_gate": false
+      },
+      "scope_guards": {
+        "manifest_eligible": true,
+        "same_epoch": true,
+        "same_client": true,
+        "after_cancel_before150": true,
+        "source_wrapper": "synthetic live_mss",
+        "layout_context": "synthetic hand6-slot3",
+        "own_chain_clear": true,
+        "gy_clear": true
+      }
+    },
+    {
+      "original_capture": {
+        "file": "frame-0154.png",
+        "capture_start_utc": "2026-10-06T02:57:13.411007+00:00",
+        "capture_start_perf": 97996.6765792,
+        "capture_end_perf": 97996.6982703,
+        "captured_at_monotonic": 97996.671,
+        "capture_sequence": 159,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "3724063ab5af57257e083b3026b43dd6156c46896612a01acc498ad451cfa2d5"
+      },
+      "image_shape": [
+        720,
+        1280,
+        3
+      ],
+      "roi": [
+        500,
+        400,
+        330,
+        236
+      ],
+      "static": {
+        "scores": {
+          "source_hand6-slot3": 0.8372500538825989,
+          "source_hand7-slot3": 0.7387517690658569,
+          "effect_hand6-slot3": 0.6380783915519714,
+          "effect_hand7-slot3": 0.6551259756088257,
+          "own_chain": 0.6361818909645081,
+          "ready_hand6-slot3": 0.8194596171379089,
+          "ready_hand7-slot3": 0.7226126790046692,
+          "selected_hand6-slot3": 0.8264437317848206,
+          "selected_hand7-slot3": 0.7495637536048889,
+          "gy_panel": 0.8508775234222412
+        },
+        "detail_score": 0.6452199220657349,
+        "detail_cid": null,
+        "detail_recognition": null,
+        "detail_art": {
+          "accepted": false,
+          "keypoints": 0,
+          "references": [
+            {
+              "matches": 0,
+              "accepted": false,
+              "reason": "descriptors_absent"
+            },
+            {
+              "matches": 0,
+              "accepted": false,
+              "reason": "descriptors_absent"
+            }
+          ]
+        },
+        "source_art_pose": {
+          "hand6-slot3": {
+            "status": "not_applicable",
+            "accepted": null,
+            "reason": "detail_or_effect_unconfirmed",
+            "art_bbox": null,
+            "frame_seq": 159,
+            "observed_at": 97996.671,
+            "detail_cid": null,
+            "reference_hashes": [
+              "235d9b0821b36b8cb80d589ce722bd8aec7c401b206316a13e44fd44862e998c",
+              "75b6c19586af5d77218cca353db3f00408a237bbf6147d6e8c7a3c1dd38da29a"
+            ]
+          },
+          "hand7-slot3": {
+            "status": "not_applicable",
+            "accepted": null,
+            "reason": "detail_or_effect_unconfirmed",
+            "art_bbox": null,
+            "frame_seq": 159,
+            "observed_at": 97996.671,
+            "detail_cid": null,
+            "reference_hashes": [
+              "235d9b0821b36b8cb80d589ce722bd8aec7c401b206316a13e44fd44862e998c",
+              "75b6c19586af5d77218cca353db3f00408a237bbf6147d6e8c7a3c1dd38da29a"
+            ]
+          }
+        },
+        "source_geometry_mode": "not_run_source_art_mode",
+        "source_layout": null,
+        "source_geometry": {
+          "hand6-slot3": null,
+          "hand7-slot3": null
+        },
+        "own_chain": false,
+        "gy_panel": false,
+        "ready_layouts": [],
+        "selected_layouts": []
+      },
+      "scores": [
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 0.96,
+          "template_shape": [
+            160,
+            108
+          ],
+          "score": 0.5364966988563538,
+          "bbox": [
+            645,
+            455,
+            108,
+            160
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 1.0,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.6667280197143555,
+          "bbox": [
+            642,
+            452,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 1.04,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.9149532914161682,
+          "bbox": [
+            639,
+            449,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.7420573234558105,
+          "bbox": [
+            642,
+            452,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.9412279725074768,
+          "bbox": [
+            639,
+            449,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.6311361789703369,
+          "bbox": [
+            635,
+            446,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.8397905230522156,
+          "bbox": [
+            641,
+            452,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.7726527452468872,
+          "bbox": [
+            639,
+            449,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.5779693722724915,
+          "bbox": [
+            636,
+            446,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.9007123112678528,
+          "bbox": [
+            641,
+            453,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.6925960183143616,
+          "bbox": [
+            639,
+            449,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.548477292060852,
+          "bbox": [
+            636,
+            446,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        }
+      ],
+      "best": {
+        "reference_index": 1,
+        "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+        "scale": 1.0,
+        "template_shape": [
+          174,
+          118
+        ],
+        "score": 0.9412279725074768,
+        "bbox": [
+          639,
+          449,
+          118,
+          174
+        ],
+        "point_count": 24,
+        "score_gate": false
+      },
+      "scope_guards": {
+        "manifest_eligible": true,
+        "same_epoch": true,
+        "same_client": true,
+        "after_cancel_before150": true,
+        "source_wrapper": "synthetic live_mss",
+        "layout_context": "synthetic hand6-slot3",
+        "own_chain_clear": true,
+        "gy_clear": true
+      }
+    },
+    {
+      "original_capture": {
+        "file": "frame-0155.png",
+        "capture_start_utc": "2026-10-06T02:57:13.495750+00:00",
+        "capture_start_perf": 97996.7613079,
+        "capture_end_perf": 97996.7828987,
+        "captured_at_monotonic": 97996.75,
+        "capture_sequence": 160,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "ea4b8ecb4b3c6b51957a7257e4d4fc1eb21d6ef6defb8ae194125054d6b77c53"
+      },
+      "image_shape": [
+        720,
+        1280,
+        3
+      ],
+      "roi": [
+        500,
+        400,
+        330,
+        236
+      ],
+      "static": {
+        "scores": {
+          "source_hand6-slot3": 0.83847975730896,
+          "source_hand7-slot3": 0.7374107837677002,
+          "effect_hand6-slot3": 0.6352507472038269,
+          "effect_hand7-slot3": 0.6703091859817505,
+          "own_chain": 0.6337301731109619,
+          "ready_hand6-slot3": 0.8214072585105896,
+          "ready_hand7-slot3": 0.7232832908630371,
+          "selected_hand6-slot3": 0.8263283371925354,
+          "selected_hand7-slot3": 0.7488610148429871,
+          "gy_panel": 0.8505207896232605
+        },
+        "detail_score": 0.6476986408233643,
+        "detail_cid": null,
+        "detail_recognition": null,
+        "detail_art": {
+          "accepted": false,
+          "keypoints": 0,
+          "references": [
+            {
+              "matches": 0,
+              "accepted": false,
+              "reason": "descriptors_absent"
+            },
+            {
+              "matches": 0,
+              "accepted": false,
+              "reason": "descriptors_absent"
+            }
+          ]
+        },
+        "source_art_pose": {
+          "hand6-slot3": {
+            "status": "not_applicable",
+            "accepted": null,
+            "reason": "detail_or_effect_unconfirmed",
+            "art_bbox": null,
+            "frame_seq": 160,
+            "observed_at": 97996.75,
+            "detail_cid": null,
+            "reference_hashes": [
+              "235d9b0821b36b8cb80d589ce722bd8aec7c401b206316a13e44fd44862e998c",
+              "75b6c19586af5d77218cca353db3f00408a237bbf6147d6e8c7a3c1dd38da29a"
+            ]
+          },
+          "hand7-slot3": {
+            "status": "not_applicable",
+            "accepted": null,
+            "reason": "detail_or_effect_unconfirmed",
+            "art_bbox": null,
+            "frame_seq": 160,
+            "observed_at": 97996.75,
+            "detail_cid": null,
+            "reference_hashes": [
+              "235d9b0821b36b8cb80d589ce722bd8aec7c401b206316a13e44fd44862e998c",
+              "75b6c19586af5d77218cca353db3f00408a237bbf6147d6e8c7a3c1dd38da29a"
+            ]
+          }
+        },
+        "source_geometry_mode": "not_run_source_art_mode",
+        "source_layout": null,
+        "source_geometry": {
+          "hand6-slot3": null,
+          "hand7-slot3": null
+        },
+        "own_chain": false,
+        "gy_panel": false,
+        "ready_layouts": [],
+        "selected_layouts": []
+      },
+      "scores": [
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 0.96,
+          "template_shape": [
+            160,
+            108
+          ],
+          "score": 0.49326762557029724,
+          "bbox": [
+            632,
+            455,
+            108,
+            160
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 1.0,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.5797401666641235,
+          "bbox": [
+            635,
+            449,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 1.04,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.8280733227729797,
+          "bbox": [
+            632,
+            447,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.6358141899108887,
+          "bbox": [
+            635,
+            450,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.8894084095954895,
+          "bbox": [
+            632,
+            447,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.7332552671432495,
+          "bbox": [
+            629,
+            444,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.7272424101829529,
+          "bbox": [
+            635,
+            450,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.9750902652740479,
+          "bbox": [
+            632,
+            447,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.6512863039970398,
+          "bbox": [
+            629,
+            444,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.7916421890258789,
+          "bbox": [
+            635,
+            451,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.8644194006919861,
+          "bbox": [
+            632,
+            447,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.6153104305267334,
+          "bbox": [
+            629,
+            445,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        }
+      ],
+      "best": {
+        "reference_index": 2,
+        "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+        "scale": 1.0,
+        "template_shape": [
+          174,
+          118
+        ],
+        "score": 0.9750902652740479,
+        "bbox": [
+          632,
+          447,
+          118,
+          174
+        ],
+        "point_count": 24,
+        "score_gate": false
+      },
+      "scope_guards": {
+        "manifest_eligible": true,
+        "same_epoch": true,
+        "same_client": true,
+        "after_cancel_before150": true,
+        "source_wrapper": "synthetic live_mss",
+        "layout_context": "synthetic hand6-slot3",
+        "own_chain_clear": true,
+        "gy_clear": true
+      }
+    },
+    {
+      "original_capture": {
+        "file": "frame-0156.png",
+        "capture_start_utc": "2026-10-06T02:57:13.589979+00:00",
+        "capture_start_perf": 97996.8553845,
+        "capture_end_perf": 97996.876896,
+        "captured_at_monotonic": 97996.843,
+        "capture_sequence": 161,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "8bb8f2af184011cf5b00a9fdb94ffcbbb7ee89d74b746189c2e30239018cff13"
+      },
+      "image_shape": [
+        720,
+        1280,
+        3
+      ],
+      "roi": [
+        500,
+        400,
+        330,
+        236
+      ],
+      "static": {
+        "scores": {
+          "source_hand6-slot3": 0.8412491083145142,
+          "source_hand7-slot3": 0.7376627326011658,
+          "effect_hand6-slot3": 0.6356636881828308,
+          "effect_hand7-slot3": 0.6679869294166565,
+          "own_chain": 0.6335434317588806,
+          "ready_hand6-slot3": 0.8240591883659363,
+          "ready_hand7-slot3": 0.7242424488067627,
+          "selected_hand6-slot3": 0.8273791670799255,
+          "selected_hand7-slot3": 0.7497751712799072,
+          "gy_panel": 0.849101722240448
+        },
+        "detail_score": 0.6506272554397583,
+        "detail_cid": null,
+        "detail_recognition": null,
+        "detail_art": {
+          "accepted": false,
+          "keypoints": 0,
+          "references": [
+            {
+              "matches": 0,
+              "accepted": false,
+              "reason": "descriptors_absent"
+            },
+            {
+              "matches": 0,
+              "accepted": false,
+              "reason": "descriptors_absent"
+            }
+          ]
+        },
+        "source_art_pose": {
+          "hand6-slot3": {
+            "status": "not_applicable",
+            "accepted": null,
+            "reason": "detail_or_effect_unconfirmed",
+            "art_bbox": null,
+            "frame_seq": 161,
+            "observed_at": 97996.843,
+            "detail_cid": null,
+            "reference_hashes": [
+              "235d9b0821b36b8cb80d589ce722bd8aec7c401b206316a13e44fd44862e998c",
+              "75b6c19586af5d77218cca353db3f00408a237bbf6147d6e8c7a3c1dd38da29a"
+            ]
+          },
+          "hand7-slot3": {
+            "status": "not_applicable",
+            "accepted": null,
+            "reason": "detail_or_effect_unconfirmed",
+            "art_bbox": null,
+            "frame_seq": 161,
+            "observed_at": 97996.843,
+            "detail_cid": null,
+            "reference_hashes": [
+              "235d9b0821b36b8cb80d589ce722bd8aec7c401b206316a13e44fd44862e998c",
+              "75b6c19586af5d77218cca353db3f00408a237bbf6147d6e8c7a3c1dd38da29a"
+            ]
+          }
+        },
+        "source_geometry_mode": "not_run_source_art_mode",
+        "source_layout": null,
+        "source_geometry": {
+          "hand6-slot3": null,
+          "hand7-slot3": null
+        },
+        "own_chain": false,
+        "gy_panel": false,
+        "ready_layouts": [],
+        "selected_layouts": []
+      },
+      "scores": [
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 0.96,
+          "template_shape": [
+            160,
+            108
+          ],
+          "score": 0.47116804122924805,
+          "bbox": [
+            633,
+            457,
+            108,
+            160
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 1.0,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.5438380837440491,
+          "bbox": [
+            635,
+            451,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 1.04,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.7254314422607422,
+          "bbox": [
+            632,
+            448,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.5946625471115112,
+          "bbox": [
+            635,
+            452,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.7604745626449585,
+          "bbox": [
+            632,
+            448,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.828876793384552,
+          "bbox": [
+            629,
+            445,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.6796247363090515,
+          "bbox": [
+            635,
+            451,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.8996832370758057,
+          "bbox": [
+            632,
+            448,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.7202754616737366,
+          "bbox": [
+            629,
+            444,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.7321423888206482,
+          "bbox": [
+            635,
+            451,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.9540873169898987,
+          "bbox": [
+            632,
+            448,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.6718102693557739,
+          "bbox": [
+            628,
+            446,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        }
+      ],
+      "best": {
+        "reference_index": 3,
+        "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+        "scale": 1.0,
+        "template_shape": [
+          174,
+          118
+        ],
+        "score": 0.9540873169898987,
+        "bbox": [
+          632,
+          448,
+          118,
+          174
+        ],
+        "point_count": 24,
+        "score_gate": false
+      },
+      "scope_guards": {
+        "manifest_eligible": true,
+        "same_epoch": true,
+        "same_client": true,
+        "after_cancel_before150": true,
+        "source_wrapper": "synthetic live_mss",
+        "layout_context": "synthetic hand6-slot3",
+        "own_chain_clear": true,
+        "gy_clear": true
+      }
+    },
+    {
+      "original_capture": {
+        "file": "frame-0157.png",
+        "capture_start_utc": "2026-10-06T02:57:13.668826+00:00",
+        "capture_start_perf": 97996.9352924,
+        "capture_end_perf": 97996.9524691,
+        "captured_at_monotonic": 97996.921,
+        "capture_sequence": 162,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "e1fc5eb489214adba74d61aa6a820ae63a3c8830b6aa1041f68018796b9dafd6"
+      },
+      "image_shape": [
+        720,
+        1280,
+        3
+      ],
+      "roi": [
+        500,
+        400,
+        330,
+        236
+      ],
+      "static": {
+        "scores": {
+          "source_hand6-slot3": 0.8428516387939453,
+          "source_hand7-slot3": 0.7449206113815308,
+          "effect_hand6-slot3": 0.6453039050102234,
+          "effect_hand7-slot3": 0.6845638751983643,
+          "own_chain": 0.6754322052001953,
+          "ready_hand6-slot3": 0.8462676405906677,
+          "ready_hand7-slot3": 0.7345726490020752,
+          "selected_hand6-slot3": 0.8332346677780151,
+          "selected_hand7-slot3": 0.759462833404541,
+          "gy_panel": 0.8476349711418152
+        },
+        "detail_score": 0.6518362760543823,
+        "detail_cid": null,
+        "detail_recognition": null,
+        "detail_art": {
+          "accepted": false,
+          "keypoints": 0,
+          "references": [
+            {
+              "matches": 0,
+              "accepted": false,
+              "reason": "descriptors_absent"
+            },
+            {
+              "matches": 0,
+              "accepted": false,
+              "reason": "descriptors_absent"
+            }
+          ]
+        },
+        "source_art_pose": {
+          "hand6-slot3": {
+            "status": "not_applicable",
+            "accepted": null,
+            "reason": "detail_or_effect_unconfirmed",
+            "art_bbox": null,
+            "frame_seq": 162,
+            "observed_at": 97996.921,
+            "detail_cid": null,
+            "reference_hashes": [
+              "235d9b0821b36b8cb80d589ce722bd8aec7c401b206316a13e44fd44862e998c",
+              "75b6c19586af5d77218cca353db3f00408a237bbf6147d6e8c7a3c1dd38da29a"
+            ]
+          },
+          "hand7-slot3": {
+            "status": "not_applicable",
+            "accepted": null,
+            "reason": "detail_or_effect_unconfirmed",
+            "art_bbox": null,
+            "frame_seq": 162,
+            "observed_at": 97996.921,
+            "detail_cid": null,
+            "reference_hashes": [
+              "235d9b0821b36b8cb80d589ce722bd8aec7c401b206316a13e44fd44862e998c",
+              "75b6c19586af5d77218cca353db3f00408a237bbf6147d6e8c7a3c1dd38da29a"
+            ]
+          }
+        },
+        "source_geometry_mode": "not_run_source_art_mode",
+        "source_layout": null,
+        "source_geometry": {
+          "hand6-slot3": null,
+          "hand7-slot3": null
+        },
+        "own_chain": false,
+        "gy_panel": false,
+        "ready_layouts": [],
+        "selected_layouts": []
+      },
+      "scores": [
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 0.96,
+          "template_shape": [
+            160,
+            108
+          ],
+          "score": 0.21316605806350708,
+          "bbox": [
+            631,
+            400,
+            108,
+            160
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 1.0,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.18213863670825958,
+          "bbox": [
+            627,
+            400,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 1.04,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.19183461368083954,
+          "bbox": [
+            631,
+            400,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.18539157509803772,
+          "bbox": [
+            627,
+            400,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.1886666864156723,
+          "bbox": [
+            628,
+            400,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.15552738308906555,
+          "bbox": [
+            629,
+            400,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.19630581140518188,
+          "bbox": [
+            631,
+            403,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.1979597955942154,
+          "bbox": [
+            627,
+            400,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.16193139553070068,
+          "bbox": [
+            501,
+            455,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.19998489320278168,
+          "bbox": [
+            717,
+            461,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.19027504324913025,
+          "bbox": [
+            627,
+            400,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.1698504090309143,
+          "bbox": [
+            706,
+            455,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        }
+      ],
+      "best": {
+        "reference_index": 0,
+        "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+        "scale": 0.96,
+        "template_shape": [
+          160,
+          108
+        ],
+        "score": 0.21316605806350708,
+        "bbox": [
+          631,
+          400,
+          108,
+          160
+        ],
+        "point_count": 24,
+        "score_gate": false
+      },
+      "scope_guards": {
+        "manifest_eligible": true,
+        "same_epoch": true,
+        "same_client": true,
+        "after_cancel_before150": true,
+        "source_wrapper": "synthetic live_mss",
+        "layout_context": "synthetic hand6-slot3",
+        "own_chain_clear": true,
+        "gy_clear": true
+      }
+    },
+    {
+      "original_capture": {
+        "file": "frame-0158.png",
+        "capture_start_utc": "2026-10-06T02:57:13.740456+00:00",
+        "capture_start_perf": 97997.0057738,
+        "capture_end_perf": 97997.0298004,
+        "captured_at_monotonic": 97997.0,
+        "capture_sequence": 163,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "004270889b0f1b8e2afb5d9a06966f93611e89d1d3a8f9482d60fd1387ed6b15"
+      },
+      "image_shape": [
+        720,
+        1280,
+        3
+      ],
+      "roi": [
+        500,
+        400,
+        330,
+        236
+      ],
+      "static": {
+        "scores": {
+          "source_hand6-slot3": 0.848412036895752,
+          "source_hand7-slot3": 0.7525824904441833,
+          "effect_hand6-slot3": 0.6540933847427368,
+          "effect_hand7-slot3": 0.6628870964050293,
+          "own_chain": 0.6759811639785767,
+          "ready_hand6-slot3": 0.8534640669822693,
+          "ready_hand7-slot3": 0.7351031303405762,
+          "selected_hand6-slot3": 0.8494551181793213,
+          "selected_hand7-slot3": 0.7708457112312317,
+          "gy_panel": 0.8467048406600952
+        },
+        "detail_score": 0.652428388595581,
+        "detail_cid": null,
+        "detail_recognition": null,
+        "detail_art": {
+          "accepted": false,
+          "keypoints": 0,
+          "references": [
+            {
+              "matches": 0,
+              "accepted": false,
+              "reason": "descriptors_absent"
+            },
+            {
+              "matches": 0,
+              "accepted": false,
+              "reason": "descriptors_absent"
+            }
+          ]
+        },
+        "source_art_pose": {
+          "hand6-slot3": {
+            "status": "not_applicable",
+            "accepted": null,
+            "reason": "detail_or_effect_unconfirmed",
+            "art_bbox": null,
+            "frame_seq": 163,
+            "observed_at": 97997.0,
+            "detail_cid": null,
+            "reference_hashes": [
+              "235d9b0821b36b8cb80d589ce722bd8aec7c401b206316a13e44fd44862e998c",
+              "75b6c19586af5d77218cca353db3f00408a237bbf6147d6e8c7a3c1dd38da29a"
+            ]
+          },
+          "hand7-slot3": {
+            "status": "not_applicable",
+            "accepted": null,
+            "reason": "detail_or_effect_unconfirmed",
+            "art_bbox": null,
+            "frame_seq": 163,
+            "observed_at": 97997.0,
+            "detail_cid": null,
+            "reference_hashes": [
+              "235d9b0821b36b8cb80d589ce722bd8aec7c401b206316a13e44fd44862e998c",
+              "75b6c19586af5d77218cca353db3f00408a237bbf6147d6e8c7a3c1dd38da29a"
+            ]
+          }
+        },
+        "source_geometry_mode": "not_run_source_art_mode",
+        "source_layout": null,
+        "source_geometry": {
+          "hand6-slot3": null,
+          "hand7-slot3": null
+        },
+        "own_chain": false,
+        "gy_panel": false,
+        "ready_layouts": [],
+        "selected_layouts": []
+      },
+      "scores": [
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 0.96,
+          "template_shape": [
+            160,
+            108
+          ],
+          "score": 0.20872992277145386,
+          "bbox": [
+            630,
+            476,
+            108,
+            160
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 1.0,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.2104426622390747,
+          "bbox": [
+            611,
+            467,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 0,
+          "reference_hash": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+          "scale": 1.04,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.2452288120985031,
+          "bbox": [
+            610,
+            462,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.21982721984386444,
+          "bbox": [
+            614,
+            468,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.23825566470623016,
+          "bbox": [
+            611,
+            462,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 1,
+          "reference_hash": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.23947197198867798,
+          "bbox": [
+            579,
+            455,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.23790347576141357,
+          "bbox": [
+            613,
+            468,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.25418591499328613,
+          "bbox": [
+            582,
+            462,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 2,
+          "reference_hash": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.24441903829574585,
+          "bbox": [
+            578,
+            455,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 0.96,
+          "template_shape": [
+            167,
+            113
+          ],
+          "score": 0.2593376934528351,
+          "bbox": [
+            613,
+            468,
+            113,
+            167
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 1.0,
+          "template_shape": [
+            174,
+            118
+          ],
+          "score": 0.26476407051086426,
+          "bbox": [
+            609,
+            462,
+            118,
+            174
+          ],
+          "point_count": 24,
+          "score_gate": false
+        },
+        {
+          "reference_index": 3,
+          "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+          "scale": 1.04,
+          "template_shape": [
+            181,
+            123
+          ],
+          "score": 0.24971772730350494,
+          "bbox": [
+            606,
+            455,
+            123,
+            181
+          ],
+          "point_count": 24,
+          "score_gate": false
+        }
+      ],
+      "best": {
+        "reference_index": 3,
+        "reference_hash": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+        "scale": 1.0,
+        "template_shape": [
+          174,
+          118
+        ],
+        "score": 0.26476407051086426,
+        "bbox": [
+          609,
+          462,
+          118,
+          174
+        ],
+        "point_count": 24,
+        "score_gate": false
+      },
+      "scope_guards": {
+        "manifest_eligible": true,
+        "same_epoch": true,
+        "same_client": true,
+        "after_cancel_before150": true,
+        "source_wrapper": "synthetic live_mss",
+        "layout_context": "synthetic hand6-slot3",
+        "own_chain_clear": true,
+        "gy_clear": true
+      }
+    }
+  ]
+}

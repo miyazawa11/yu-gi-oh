@@ -1,0 +1,79 @@
+{
+  "kind": "synthetic",
+  "samples": [
+    {
+      "image": "frame_0.png",
+      "expected": {
+        "self.lp": 8000,
+        "opponent.lp": 8000,
+        "turn_player": "self",
+        "phase": "MAIN1",
+        "turn": 1,
+        "self.hand_count": 5,
+        "self.zones.monster_1": {
+          "card_id": "demo-alpha",
+          "name": "合成カード・アルファ",
+          "card_type": "monster"
+        }
+      },
+      "actions": [
+        "NORMAL_SUMMON"
+      ],
+      "recommendation": "NORMAL_SUMMON"
+    },
+    {
+      "image": "frame_1.png",
+      "expected": {
+        "self.lp": 8000,
+        "opponent.lp": 5200,
+        "turn_player": "self",
+        "phase": "BATTLE",
+        "turn": 2,
+        "self.hand_count": 4,
+        "self.zones.monster_1": {
+          "card_id": "demo-beta",
+          "name": "合成カード・ベータ",
+          "card_type": "monster"
+        }
+      },
+      "actions": [
+        "ATTACK"
+      ],
+      "recommendation": "ATTACK"
+    },
+    {
+      "image": "frame_2.png",
+      "expected": {
+        "self.lp": null,
+        "opponent.lp": null,
+        "turn_player": null,
+        "phase": null,
+        "turn": null,
+        "self.hand_count": null,
+        "self.zones.monster_1": null
+      },
+      "actions": [],
+      "recommendation": null
+    },
+    {
+      "image": "frame_3.png",
+      "expected": {
+        "self.lp": 5200,
+        "opponent.lp": 8000,
+        "turn_player": "opponent",
+        "phase": "MAIN1",
+        "turn": 2,
+        "self.hand_count": 4,
+        "self.zones.monster_1": {
+          "card_id": "demo-alpha",
+          "name": "合成カード・アルファ",
+          "card_type": "monster"
+        }
+      },
+      "actions": [
+        "ACTIVATE"
+      ],
+      "recommendation": "ACTIVATE"
+    }
+  ]
+}

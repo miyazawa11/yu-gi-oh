@@ -1,0 +1,44 @@
+{
+  "schema": "hand-ready-idle-context-diagnostic-v1",
+  "input_count": 0,
+  "e2e_count": 0,
+  "scope": "実資料pixels・合成episode/clock/epochの読み再生。実handoff6/実機操作の証明ではない。旧作業中idle生成の監査。",
+  "inputs": [
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-unselected\\frame-0000.png",
+      "sha256": "8a0a3af28ac40bc618334cd110839de0243e4b39105cdcf555dcde06305d575b"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0041.png",
+      "sha256": "31ca429e6ff6854f1c08e7b953a69441cec903fb8b2a3ff384ca4669f8fbf50f"
+    }
+  ],
+  "composite_conditions": [
+    "phase_context.self_main1",
+    "phase_context.clear_center",
+    "phase_context.clear_card_menu"
+  ],
+  "rows": [
+    {
+      "layout": "hand6-slot3",
+      "self_main1": null,
+      "clear_center": 0.9888659119606018,
+      "clear_card_menu": 0.9847689867019653,
+      "detail_blank": 0.9891083836555481,
+      "inspect_main1": 0.9978134632110596,
+      "hand_result_ready": true,
+      "old_hand_generated_animation": false
+    },
+    {
+      "layout": "hand7-slot3",
+      "self_main1": null,
+      "clear_center": 0.9881306290626526,
+      "clear_card_menu": 0.9847847819328308,
+      "detail_blank": 0.9935145378112793,
+      "inspect_main1": null,
+      "hand_result_ready": true,
+      "old_hand_generated_animation": null
+    }
+  ],
+  "conclusion": "局所収納geometryは静止を示さない。既存idle compositeは両sceneでself_main1 unknownにより成立しない。"
+}

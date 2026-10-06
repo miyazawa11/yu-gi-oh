@@ -1,0 +1,548 @@
+{
+  "calibration_sha256": "2e2f38f6e7e1da069806f24e154edb338e4376390212ee47fe7891b0fe94898d",
+  "independent": true,
+  "input_count": 0,
+  "passed": true,
+  "rows": [
+    {
+      "image": "artifacts\\baseline-tester\\MSS_HOLDOUT_v4\\MSS_HOLDOUT_v4_000.png",
+      "sha256": "17070fd8101b06c58c2bb2d2121d3e162af4af3090f76869aca8eaad06064ef3",
+      "passed": true,
+      "result": {
+        "state": {
+          "sequence": 0,
+          "captured_at": 54374.718,
+          "media_time": null,
+          "turn": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 54374.718
+          },
+          "turn_player": {
+            "value": "self",
+            "confidence": 0.9981008768081665,
+            "source": "composite:known_main1_clear",
+            "observed_at": 54374.718
+          },
+          "phase": {
+            "value": "MAIN1",
+            "confidence": 0.9981008768081665,
+            "source": "composite:known_main1_clear",
+            "observed_at": 54374.718
+          },
+          "terminal": {
+            "value": false,
+            "confidence": 0.9981008768081665,
+            "source": "composite:known_main1_clear",
+            "observed_at": 54374.718
+          },
+          "prompt": {
+            "value": "none",
+            "confidence": 0.9981008768081665,
+            "source": "composite:known_main1_clear",
+            "observed_at": 54374.718
+          },
+          "animation": {
+            "value": false,
+            "confidence": 0.9981008768081665,
+            "source": "composite:known_main1_clear",
+            "observed_at": 54374.718
+          },
+          "card_states": {},
+          "facts": {
+            "phase_context.clear_card_menu": {
+              "value": "true",
+              "confidence": 0.9981008768081665,
+              "source": "template:fact.phase_context.clear_card_menu",
+              "observed_at": 54374.718
+            },
+            "phase_context.clear_center": {
+              "value": "true",
+              "confidence": 0.9988670349121094,
+              "source": "template:fact.phase_context.clear_center",
+              "observed_at": 54374.718
+            },
+            "phase_context.self_main1": {
+              "value": "true",
+              "confidence": 0.998511552810669,
+              "source": "template:fact.phase_context.self_main1",
+              "observed_at": 54374.718
+            }
+          },
+          "material_sets": {},
+          "self": {
+            "lp": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54374.718
+            },
+            "hand_count": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54374.718
+            },
+            "zones": {}
+          },
+          "opponent": {
+            "lp": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54374.718
+            },
+            "hand_count": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54374.718
+            },
+            "zones": {}
+          },
+          "visible_actions": [
+            {
+              "type": "CHANGE_PHASE",
+              "card_id": null,
+              "target": null,
+              "confidence": 0.998511552810669,
+              "source_region": "action.phase_open",
+              "observed_at": 54374.718
+            }
+          ]
+        },
+        "events": [],
+        "legal_actions": [
+          {
+            "type": "CHANGE_PHASE",
+            "card_id": null,
+            "target": null,
+            "confidence": 0.998511552810669,
+            "source_region": "action.phase_open",
+            "observed_at": 54374.718
+          }
+        ],
+        "recommendation": {
+          "action": {
+            "type": "CHANGE_PHASE",
+            "card_id": null,
+            "target": null,
+            "confidence": 0.998511552810669,
+            "source_region": "action.phase_open",
+            "observed_at": 54374.718
+          },
+          "target": null,
+          "confidence": 0.9981008768081665,
+          "reason": "表示中の校正済み候補をターン・フェイズの対応ルールで絞り込み、最も信頼度の高い行動を選びました。基準実装であり、戦略的な最善手や全ルールの合法性は保証しません。",
+          "recognition_status": "partial"
+        },
+        "error": null,
+        "metrics": {
+          "capture_read_ms": 0,
+          "perception_ms": 1.197800003865268,
+          "decision_ms": 0.045599997974932194,
+          "decision_elapsed_ms": 15.999999995983671,
+          "decision_limit_ms": 10000,
+          "total_compute_ms": 1.323600001342129,
+          "api_calls": 0,
+          "api_cost_usd": 0,
+          "cache_hits": 0,
+          "recognized_regions": 4,
+          "ocr_ms": 0,
+          "state_build_ms": 0.12919999426230788,
+          "perception_reused": false
+        },
+        "stage_spans": [
+          {
+            "stage": "recognition",
+            "start": 54374.7548328,
+            "end": 54374.7558723
+          },
+          {
+            "stage": "state_build",
+            "start": 54374.7558723,
+            "end": 54374.7560193
+          },
+          {
+            "stage": "state_build",
+            "start": 54374.7560235,
+            "end": 54374.7560271
+          },
+          {
+            "stage": "candidate",
+            "start": 54374.7560275,
+            "end": 54374.756051
+          },
+          {
+            "stage": "decision",
+            "start": 54374.7560512,
+            "end": 54374.7561496
+          }
+        ],
+        "plan": null,
+        "planner_source": "partial"
+      }
+    },
+    {
+      "image": "artifacts\\baseline-tester\\MSS_HOLDOUT_v4\\MSS_HOLDOUT_v4_001.png",
+      "sha256": "535a054ff94026648c8ea3eb56159e01d8c82ee16c4f5409ea3215ad978e4a9f",
+      "passed": true,
+      "result": {
+        "state": {
+          "sequence": 1,
+          "captured_at": 54374.75,
+          "media_time": null,
+          "turn": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 54374.75
+          },
+          "turn_player": {
+            "value": "self",
+            "confidence": 0.9978629350662231,
+            "source": "composite:known_main1_clear",
+            "observed_at": 54374.75
+          },
+          "phase": {
+            "value": "MAIN1",
+            "confidence": 0.9978629350662231,
+            "source": "composite:known_main1_clear",
+            "observed_at": 54374.75
+          },
+          "terminal": {
+            "value": false,
+            "confidence": 0.9978629350662231,
+            "source": "composite:known_main1_clear",
+            "observed_at": 54374.75
+          },
+          "prompt": {
+            "value": "none",
+            "confidence": 0.9978629350662231,
+            "source": "composite:known_main1_clear",
+            "observed_at": 54374.75
+          },
+          "animation": {
+            "value": false,
+            "confidence": 0.9978629350662231,
+            "source": "composite:known_main1_clear",
+            "observed_at": 54374.75
+          },
+          "card_states": {},
+          "facts": {
+            "phase_context.clear_card_menu": {
+              "value": "true",
+              "confidence": 0.9978629350662231,
+              "source": "template:fact.phase_context.clear_card_menu",
+              "observed_at": 54374.75
+            },
+            "phase_context.clear_center": {
+              "value": "true",
+              "confidence": 0.9987425804138184,
+              "source": "template:fact.phase_context.clear_center",
+              "observed_at": 54374.75
+            },
+            "phase_context.self_main1": {
+              "value": "true",
+              "confidence": 0.9993981122970581,
+              "source": "template:fact.phase_context.self_main1",
+              "observed_at": 54374.75
+            }
+          },
+          "material_sets": {},
+          "self": {
+            "lp": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54374.75
+            },
+            "hand_count": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54374.75
+            },
+            "zones": {}
+          },
+          "opponent": {
+            "lp": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54374.75
+            },
+            "hand_count": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54374.75
+            },
+            "zones": {}
+          },
+          "visible_actions": [
+            {
+              "type": "CHANGE_PHASE",
+              "card_id": null,
+              "target": null,
+              "confidence": 0.9993981122970581,
+              "source_region": "action.phase_open",
+              "observed_at": 54374.75
+            }
+          ]
+        },
+        "events": [],
+        "legal_actions": [
+          {
+            "type": "CHANGE_PHASE",
+            "card_id": null,
+            "target": null,
+            "confidence": 0.9993981122970581,
+            "source_region": "action.phase_open",
+            "observed_at": 54374.75
+          }
+        ],
+        "recommendation": {
+          "action": {
+            "type": "CHANGE_PHASE",
+            "card_id": null,
+            "target": null,
+            "confidence": 0.9993981122970581,
+            "source_region": "action.phase_open",
+            "observed_at": 54374.75
+          },
+          "target": null,
+          "confidence": 0.9978629350662231,
+          "reason": "表示中の校正済み候補をターン・フェイズの対応ルールで絞り込み、最も信頼度の高い行動を選びました。基準実装であり、戦略的な最善手や全ルールの合法性は保証しません。",
+          "recognition_status": "partial"
+        },
+        "error": null,
+        "metrics": {
+          "capture_read_ms": 0,
+          "perception_ms": 1.4999999984866008,
+          "decision_ms": 0.04429999535204843,
+          "decision_elapsed_ms": 0.0,
+          "decision_limit_ms": 10000,
+          "total_compute_ms": 1.6170000017154962,
+          "api_calls": 0,
+          "api_cost_usd": 0,
+          "cache_hits": 0,
+          "recognized_regions": 4,
+          "ocr_ms": 0,
+          "state_build_ms": 0.13609999587060884,
+          "perception_reused": false
+        },
+        "stage_spans": [
+          {
+            "stage": "recognition",
+            "start": 54374.7751015,
+            "end": 54374.776423
+          },
+          {
+            "stage": "state_build",
+            "start": 54374.776423,
+            "end": 54374.7765859
+          },
+          {
+            "stage": "state_build",
+            "start": 54374.7765941,
+            "end": 54374.7766173
+          },
+          {
+            "stage": "candidate",
+            "start": 54374.7766179,
+            "end": 54374.7766368
+          },
+          {
+            "stage": "decision",
+            "start": 54374.776637,
+            "end": 54374.7767106
+          }
+        ],
+        "plan": null,
+        "planner_source": "partial"
+      }
+    },
+    {
+      "image": "artifacts\\baseline-tester\\MSS_HOLDOUT_v4\\MSS_HOLDOUT_v4_002.png",
+      "sha256": "8b60888e599c4cb6ca7356f68a73770b2b28d2b429cd70c0dc945268f0244e85",
+      "passed": true,
+      "result": {
+        "state": {
+          "sequence": 2,
+          "captured_at": 54374.765,
+          "media_time": null,
+          "turn": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 54374.765
+          },
+          "turn_player": {
+            "value": "self",
+            "confidence": 0.998623251914978,
+            "source": "composite:known_main1_clear",
+            "observed_at": 54374.765
+          },
+          "phase": {
+            "value": "MAIN1",
+            "confidence": 0.998623251914978,
+            "source": "composite:known_main1_clear",
+            "observed_at": 54374.765
+          },
+          "terminal": {
+            "value": false,
+            "confidence": 0.998623251914978,
+            "source": "composite:known_main1_clear",
+            "observed_at": 54374.765
+          },
+          "prompt": {
+            "value": "none",
+            "confidence": 0.998623251914978,
+            "source": "composite:known_main1_clear",
+            "observed_at": 54374.765
+          },
+          "animation": {
+            "value": false,
+            "confidence": 0.998623251914978,
+            "source": "composite:known_main1_clear",
+            "observed_at": 54374.765
+          },
+          "card_states": {},
+          "facts": {
+            "phase_context.clear_card_menu": {
+              "value": "true",
+              "confidence": 0.999432384967804,
+              "source": "template:fact.phase_context.clear_card_menu",
+              "observed_at": 54374.765
+            },
+            "phase_context.clear_center": {
+              "value": "true",
+              "confidence": 0.998623251914978,
+              "source": "template:fact.phase_context.clear_center",
+              "observed_at": 54374.765
+            },
+            "phase_context.self_main1": {
+              "value": "true",
+              "confidence": 0.9986928105354309,
+              "source": "template:fact.phase_context.self_main1",
+              "observed_at": 54374.765
+            }
+          },
+          "material_sets": {},
+          "self": {
+            "lp": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54374.765
+            },
+            "hand_count": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54374.765
+            },
+            "zones": {}
+          },
+          "opponent": {
+            "lp": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54374.765
+            },
+            "hand_count": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54374.765
+            },
+            "zones": {}
+          },
+          "visible_actions": [
+            {
+              "type": "CHANGE_PHASE",
+              "card_id": null,
+              "target": null,
+              "confidence": 0.9986928105354309,
+              "source_region": "action.phase_open",
+              "observed_at": 54374.765
+            }
+          ]
+        },
+        "events": [],
+        "legal_actions": [
+          {
+            "type": "CHANGE_PHASE",
+            "card_id": null,
+            "target": null,
+            "confidence": 0.9986928105354309,
+            "source_region": "action.phase_open",
+            "observed_at": 54374.765
+          }
+        ],
+        "recommendation": {
+          "action": {
+            "type": "CHANGE_PHASE",
+            "card_id": null,
+            "target": null,
+            "confidence": 0.9986928105354309,
+            "source_region": "action.phase_open",
+            "observed_at": 54374.765
+          },
+          "target": null,
+          "confidence": 0.998623251914978,
+          "reason": "表示中の校正済み候補をターン・フェイズの対応ルールで絞り込み、最も信頼度の高い行動を選びました。基準実装であり、戦略的な最善手や全ルールの合法性は保証しません。",
+          "recognition_status": "partial"
+        },
+        "error": null,
+        "metrics": {
+          "capture_read_ms": 0,
+          "perception_ms": 1.2395000012475066,
+          "decision_ms": 0.03029999788850546,
+          "decision_elapsed_ms": 0.0,
+          "decision_limit_ms": 10000,
+          "total_compute_ms": 1.3250999982119538,
+          "api_calls": 0,
+          "api_cost_usd": 0,
+          "cache_hits": 0,
+          "recognized_regions": 4,
+          "ocr_ms": 0,
+          "state_build_ms": 0.08940000407164916,
+          "perception_reused": false
+        },
+        "stage_spans": [
+          {
+            "stage": "recognition",
+            "start": 54374.7963101,
+            "end": 54374.7974368
+          },
+          {
+            "stage": "state_build",
+            "start": 54374.7974368,
+            "end": 54374.7975394
+          },
+          {
+            "stage": "state_build",
+            "start": 54374.7975433,
+            "end": 54374.7975562
+          },
+          {
+            "stage": "candidate",
+            "start": 54374.7975566,
+            "end": 54374.7975682
+          },
+          {
+            "stage": "decision",
+            "start": 54374.7975684,
+            "end": 54374.7976318
+          }
+        ],
+        "plan": null,
+        "planner_source": "partial"
+      }
+    }
+  ]
+}

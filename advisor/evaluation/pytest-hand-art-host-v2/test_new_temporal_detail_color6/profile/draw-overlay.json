@@ -1,0 +1,49 @@
+{
+  "schema": "response-self-draw-overlay-v1",
+  "parameters": {
+    "word_bbox": [
+      416,
+      337,
+      455,
+      51
+    ],
+    "self_blue_bbox": [
+      970,
+      294,
+      32,
+      18
+    ],
+    "white_min": 200,
+    "tolerance_native_pixels": 1,
+    "word_score_min": 0.9,
+    "blue_B_minus_R_min": 40,
+    "blue_B_minus_G_min": 10,
+    "blue_ratio_min": 0.15
+  },
+  "references": [
+    {
+      "image": "draw-overlay-method-selection-seq19.png",
+      "original_runtime": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_PILOT_v2_20261006\\screenshots\\verify-failure-0000-last_recognized-seq19.png",
+      "original_sha256": "f5c059b45d69d8a4794afc92ac9c21ecef8557b39cd4fea2ed33277e6dc0fa5f",
+      "original_sequence": 19,
+      "original_captured_at_monotonic": 76294.593,
+      "provenance": "known failed runtime method selection; not independent holdout or successful endpoint",
+      "sha256": "057a56a01ff410b88fe742b89be5b09aebc56043552bca8ff0ff2f5ef7d52a7b"
+    },
+    {
+      "image": "draw-overlay-method-selection-seq20.png",
+      "original_runtime": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_PILOT_v2_20261006\\screenshots\\verify-failure-0000-last_captured-seq20.png",
+      "original_sha256": "c0bdf47e1d53e703aa6febbd8278ff640a6d8ee33e69078e9fdd514dd6b6448b",
+      "original_sequence": 20,
+      "original_captured_at_monotonic": 76294.812,
+      "provenance": "known failed runtime method selection; not independent holdout or successful endpoint",
+      "sha256": "fe6268c9fa5e8b5e18fb65bc0eaee0ac0ee2cf2775d7efdfc2d65e2f29068e76"
+    }
+  ],
+  "prototype_sha256": "e9d6f4a69792b33d43762588c98be4f1c6458877905dc54305437df962938c58",
+  "scope": "overlay-free Draw unchanged OR overlay word+self-blue+modal-absent; idle not asserted",
+  "unverified": "actual opponent Draw and other large phase overlay samples unavailable",
+  "original_training_integrity": false,
+  "original_training_available": 81,
+  "original_training_missing": 1
+}

@@ -1,0 +1,10 @@
+{"timestamp":75965.093,"event":"OBSERVED_CHANGE","path":"turn","before":1,"after":2,"confidence":0.9881861209869385}
+{"timestamp":75965.093,"event":"PHASE_CHANGED","path":"phase","before":"MAIN1","after":"BATTLE","confidence":0.9877495765686035}
+{"timestamp":75965.093,"event":"OBSERVED_CHANGE","path":"self.hand_count","before":5,"after":4,"confidence":0.9881912469863892}
+{"timestamp":75965.093,"event":"OBSERVED_CHANGE","path":"self.zones.monster_1","before":{"card_id":"demo-alpha","name":"合成カード・アルファ","card_type":"monster"},"after":{"card_id":"demo-beta","name":"合成カード・ベータ","card_type":"monster"},"confidence":0.9871585369110107}
+{"timestamp":75965.093,"event":"OBSERVED_CHANGE","path":"opponent.lp","before":8000,"after":5200,"confidence":0.9877917170524597}
+{"timestamp":75965.093,"event":"OBSERVED_CHANGE","path":"turn","before":1,"after":2,"confidence":0.9881861209869385}
+{"timestamp":75965.093,"event":"PHASE_CHANGED","path":"phase","before":"MAIN1","after":"BATTLE","confidence":0.9877495765686035}
+{"timestamp":75965.093,"event":"OBSERVED_CHANGE","path":"self.hand_count","before":5,"after":4,"confidence":0.9881912469863892}
+{"timestamp":75965.093,"event":"OBSERVED_CHANGE","path":"self.zones.monster_1","before":{"card_id":"demo-alpha","name":"合成カード・アルファ","card_type":"monster"},"after":{"card_id":"demo-beta","name":"合成カード・ベータ","card_type":"monster"},"confidence":0.9871585369110107}
+{"timestamp":75965.093,"event":"OBSERVED_CHANGE","path":"opponent.lp","before":8000,"after":5200,"confidence":0.9877917170524597}

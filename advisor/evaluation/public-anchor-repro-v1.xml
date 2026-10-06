@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="2" time="6.845" timestamp="2026-10-06T12:58:23.931679+09:00" hostname="DESKTOP-KILPD1G"><testcase classname="tests.test_public_hand_anchor" name="test_public_art_new_mode_uses_existing_refs_and_full_scene_search_without_ncc_oracle" time="2.340"><failure message="AttributeError: 'HandSearchVision' object has no attribute 'public_mode'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000002952191C6E0&gt;
+
+    def test_public_art_new_mode_uses_existing_refs_and_full_scene_search_without_ncc_oracle(vision):
+&gt;       assert vision.public_mode==MODE
+               ^^^^^^^^^^^^^^^^^^
+E       AttributeError: 'HandSearchVision' object has no attribute 'public_mode'
+
+tests\test_public_hand_anchor.py:53: AttributeError</failure></testcase><testcase classname="tests.test_public_hand_anchor" name="test_original_order_replay_reaches_handoff_and_ready_without_reanchor" time="4.391"><failure message="TypeError: 'NoneType' object is not subscriptable">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000002952191E090&gt;
+
+    def test_original_order_replay_reaches_handoff_and_ready_without_reanchor(vision):
+        context=synthetic_context();observed=[]
+        for frame in frames(151,191):
+            ep=vision.observe(frame,context,vision.recognize(frame));observed.append(deepcopy(ep))
+            assert ep is not None and ep["failed"] is None
+&gt;       assert ep["anchor"]["seq"]==158 and ep["handoff"]["seq"]==179
+               ^^^^^^^^^^^^^^^^^^^
+E       TypeError: 'NoneType' object is not subscriptable
+
+tests\test_public_hand_anchor.py:65: TypeError</failure></testcase></testsuite></testsuites>

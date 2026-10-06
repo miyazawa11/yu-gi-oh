@@ -1,0 +1,70 @@
+{
+  "name": "A2-Ash-left-menu-normalized-local-search-v2",
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "aspect_ratio": 1.7777777777777777,
+  "aspect_tolerance": 0.02,
+  "regions": {
+    "action.normal_summon": {
+      "rect": {
+        "x": 0.29687507812499997,
+        "y": 0.6902779166666666,
+        "width": 0.057812343749999995,
+        "height": 0.10972194444444444
+      },
+      "kind": "action",
+      "exemplars": [
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "normal-layout2-00.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "normal-layout2-01.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "normal-layout2-02.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "normal-layout2-03.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "normal-layout2-04.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "normal-layout2-05.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "normal-layout2-06.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "normal-layout2-07.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "normal-layout2-08.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "normal-layout2-09.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    }
+  },
+  "composites": []
+}

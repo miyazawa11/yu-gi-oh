@@ -1,0 +1,177 @@
+{
+  "name": "合成データ専用 — Master Duel の座標ではありません",
+  "regions": {
+    "self.lp": {
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.25,
+        "height": 0.25
+      },
+      "kind": "template",
+      "threshold": 0.97,
+      "margin": 0.03,
+      "exemplars": [
+        {
+          "label": "8000",
+          "image": "templates/self_lp_8000.png"
+        },
+        {
+          "label": "5200",
+          "image": "templates/self_lp_5200.png"
+        }
+      ]
+    },
+    "opponent.lp": {
+      "rect": {
+        "x": 0.25,
+        "y": 0.0,
+        "width": 0.25,
+        "height": 0.25
+      },
+      "kind": "template",
+      "threshold": 0.97,
+      "margin": 0.03,
+      "exemplars": [
+        {
+          "label": "8000",
+          "image": "templates/opponent_lp_8000.png"
+        },
+        {
+          "label": "5200",
+          "image": "templates/opponent_lp_5200.png"
+        }
+      ]
+    },
+    "turn_player": {
+      "rect": {
+        "x": 0.5,
+        "y": 0.0,
+        "width": 0.25,
+        "height": 0.25
+      },
+      "kind": "template",
+      "threshold": 0.97,
+      "margin": 0.03,
+      "exemplars": [
+        {
+          "label": "self",
+          "image": "templates/turn_player_self.png"
+        },
+        {
+          "label": "opponent",
+          "image": "templates/turn_player_opponent.png"
+        }
+      ]
+    },
+    "phase": {
+      "rect": {
+        "x": 0.75,
+        "y": 0.0,
+        "width": 0.25,
+        "height": 0.25
+      },
+      "kind": "template",
+      "threshold": 0.97,
+      "margin": 0.03,
+      "exemplars": [
+        {
+          "label": "MAIN1",
+          "image": "templates/phase_MAIN1.png"
+        },
+        {
+          "label": "BATTLE",
+          "image": "templates/phase_BATTLE.png"
+        }
+      ]
+    },
+    "turn": {
+      "rect": {
+        "x": 0.0,
+        "y": 0.25,
+        "width": 0.25,
+        "height": 0.25
+      },
+      "kind": "template",
+      "threshold": 0.97,
+      "margin": 0.03,
+      "exemplars": [
+        {
+          "label": "1",
+          "image": "templates/turn_1.png"
+        },
+        {
+          "label": "2",
+          "image": "templates/turn_2.png"
+        }
+      ]
+    },
+    "self.hand_count": {
+      "rect": {
+        "x": 0.25,
+        "y": 0.25,
+        "width": 0.25,
+        "height": 0.25
+      },
+      "kind": "template",
+      "threshold": 0.97,
+      "margin": 0.03,
+      "exemplars": [
+        {
+          "label": "5",
+          "image": "templates/self_hand_count_5.png"
+        },
+        {
+          "label": "4",
+          "image": "templates/self_hand_count_4.png"
+        }
+      ]
+    },
+    "self.zones.monster_1": {
+      "rect": {
+        "x": 0.5,
+        "y": 0.25,
+        "width": 0.25,
+        "height": 0.25
+      },
+      "kind": "card",
+      "threshold": 0.97,
+      "margin": 0.03,
+      "exemplars": [
+        {
+          "label": "demo-alpha",
+          "image": "templates/self_zones_monster_1_demo-alpha.png"
+        },
+        {
+          "label": "demo-beta",
+          "image": "templates/self_zones_monster_1_demo-beta.png"
+        }
+      ]
+    },
+    "action.primary": {
+      "rect": {
+        "x": 0.75,
+        "y": 0.25,
+        "width": 0.25,
+        "height": 0.25
+      },
+      "kind": "action",
+      "threshold": 0.97,
+      "margin": 0.03,
+      "exemplars": [
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "templates/action_primary_NORMAL_SUMMON.png"
+        },
+        {
+          "label": "ATTACK",
+          "image": "templates/action_primary_ATTACK.png"
+        },
+        {
+          "label": "ACTIVATE",
+          "image": "templates/action_primary_ACTIVATE.png"
+        }
+      ]
+    }
+  }
+}

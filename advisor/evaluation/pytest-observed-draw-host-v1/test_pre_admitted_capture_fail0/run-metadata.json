@@ -1,0 +1,21 @@
+{
+  "run_id": "ce36e3b6323d49adb375a9cf26b1cddf",
+  "mode": "live_autonomous",
+  "source_sha256": "c3acec46294c7a6856038601a10785fcc41444923d6b0ab32c37f23ebc82a370",
+  "python": "3.12.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "clock": "perf_counter",
+  "clock_resolution_seconds": 1e-07,
+  "registered_trials": [
+    {
+      "logical_action": "summon",
+      "category": "SPECIAL_SUMMON"
+    }
+  ],
+  "run_purpose": "pilot",
+  "cohort_id": null,
+  "cohort_manifest_sha256": null,
+  "cohort_slot": null,
+  "data_integrity": true,
+  "provenance_frozen_before_capture": true
+}

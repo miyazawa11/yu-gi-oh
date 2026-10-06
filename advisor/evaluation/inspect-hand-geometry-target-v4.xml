@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="17" time="4.678" timestamp="2026-10-06T04:48:29.459394+09:00" hostname="DESKTOP-KILPD1G"><testcase classname="tests.test_hand_geometry" name="test_top_must_connect_both_sides_of_same_raised_rectangle[top0]" time="0.001" /><testcase classname="tests.test_hand_geometry" name="test_top_must_connect_both_sides_of_same_raised_rectangle[top1]" time="0.001" /><testcase classname="tests.test_hand_geometry" name="test_top_must_connect_both_sides_of_same_raised_rectangle[top2]" time="0.001" /><testcase classname="tests.test_hand_geometry" name="test_top_must_connect_both_sides_of_same_raised_rectangle[top3]" time="0.001" /><testcase classname="tests.test_hand_geometry" name="test_two_nearby_rectangles_cannot_supply_disconnected_top" time="0.000" /><testcase classname="tests.test_hand_geometry" name="test_projected_extension_requires_real_edges_and_fixed_gap" time="0.001" /><testcase classname="tests.test_hand_geometry" name="test_invalid_geometry_capture_or_anchor_rejected[pixels0-box0]" time="0.001" /><testcase classname="tests.test_hand_geometry" name="test_invalid_geometry_capture_or_anchor_rejected[pixels1-box1]" time="0.001" /><testcase classname="tests.test_hand_geometry" name="test_invalid_geometry_capture_or_anchor_rejected[pixels2-box2]" time="0.001" /><testcase classname="tests.test_hand_geometry" name="test_invalid_geometry_capture_or_anchor_rejected[pixels3-box3]" time="0.001" /><testcase classname="tests.test_hand_geometry" name="test_known_temporal_scenes_and_post_classes_no_input" time="3.615"><failure message="AssertionError: assert '13581' == '9455'&#10;  &#10;  - 9455&#10;  + 13581">def test_known_temporal_scenes_and_post_classes_no_input():
+        p=build_pipeline(BASE/'calibration.json',Path('data/decks/thunder-dragon-review/cards.sqlite3'),BASE/'normal-route.json')
+        try:
+            folders=[Path('artifacts/baseline-tester/ASH_INSPECT_MENU_TEMPORAL_v4_20261006/menu'),TRAIN/'menu',
+                     Path('artifacts/baseline-tester/ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006/menu')]
+            for folder in folders:
+                for i,path in enumerate(sorted(folder.glob('frame-*.png'))):
+                    s=p.perception.process(Frame(read_image(path),0,i,capture_source='saved_image'))
+                    assert s.prompt.value=='card.menu', str(path)
+                    assert s.facts['inspect_context.hand_selected'].source=='geometry:'+PARAMETERS_SHA256
+                    assert any(a.type.value=='NORMAL_SUMMON' for a in s.visible_actions)
+                    assert all(a.coordinate_proof is None for a in s.visible_actions)
+                    diagnostic=s.facts['inspect_context.hand_source_diagnostic']
+                    assert diagnostic.confidence==0 and json.loads(diagnostic.value)['rgb_not_used_as_gate']
+            for stage in ['post-unselected','post-inspected']:
+                for path in sorted((TRAIN/stage).glob('frame-*.png')):
+                    geometry=recognize_hand_geometry(read_image(path),(380,497,74,79))
+                    assert geometry['passed'] is False
+            for stage in ['driver-first','ash-first','dragondark-first']:
+                image=read_image(Path('artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006')/stage/'frame-0000.png')
+                s=p.perception.process(Frame(image,0,0,capture_source='saved_image'))
+                assert not any(a.type.value=='NORMAL_SUMMON' for a in s.visible_actions)
+            image=read_image(Path('artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0000.png'))
+            s=p.perception.process(Frame(image,0,0,capture_source='saved_image'))
+&gt;           assert s.facts['detail.card_id'].value=='9455'
+E           AssertionError: assert '13581' == '9455'
+E             
+E             - 9455
+E             + 13581
+
+tests\test_hand_geometry.py:79: AssertionError</failure></testcase><testcase classname="tests.test_hand_geometry" name="test_goal_requires_new_geometry_source_and_keeps_identity_receipts[none]" time="0.092" /><testcase classname="tests.test_hand_geometry" name="test_goal_requires_new_geometry_source_and_keeps_identity_receipts[template_source]" time="0.008" /><testcase classname="tests.test_hand_geometry" name="test_goal_requires_new_geometry_source_and_keeps_identity_receipts[wrong_hash]" time="0.011" /><testcase classname="tests.test_hand_geometry" name="test_goal_requires_new_geometry_source_and_keeps_identity_receipts[unknown]" time="0.009" /><testcase classname="tests.test_hand_geometry" name="test_goal_requires_new_geometry_source_and_keeps_identity_receipts[stale]" time="0.010" /><testcase classname="tests.test_hand_geometry" name="test_geometry_config_change_and_saved_freshening_rejected" time="0.806" /></testsuite></testsuites>

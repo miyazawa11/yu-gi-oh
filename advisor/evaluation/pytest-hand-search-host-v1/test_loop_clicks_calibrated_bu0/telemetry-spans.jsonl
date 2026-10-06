@@ -1,0 +1,14 @@
+{"run_id": "164b31e7f64240c2b19fadb45c557692", "mode": "unclassified", "stage": "capture", "start": 89601.6324933, "end": 89601.6324997}
+{"run_id": "164b31e7f64240c2b19fadb45c557692", "mode": "unclassified", "stage": "coordinate", "start": 89601.6327477, "end": 89601.6327586}
+{"run_id": "164b31e7f64240c2b19fadb45c557692", "mode": "unclassified", "stage": "artifact_write", "start": 89601.6327789, "end": 89601.6353593}
+{"run_id": "164b31e7f64240c2b19fadb45c557692", "mode": "unclassified", "stage": "input", "start": 89601.635385, "end": 89601.6353949}
+{"run_id": "164b31e7f64240c2b19fadb45c557692", "mode": "unclassified", "stage": "pre_input_control", "start": 89601.635387, "end": 89601.6353923}
+{"run_id": "164b31e7f64240c2b19fadb45c557692", "mode": "unclassified", "stage": "verify", "start": 89601.6354032, "end": 89601.6371132}
+{"run_id": "164b31e7f64240c2b19fadb45c557692", "mode": "unclassified", "stage": "frontmost_stop_check", "start": 89601.6354074, "end": 89601.6354081}
+{"run_id": "164b31e7f64240c2b19fadb45c557692", "mode": "unclassified", "stage": "poll_wait", "start": 89601.6354093, "end": 89601.6369858}
+{"run_id": "164b31e7f64240c2b19fadb45c557692", "mode": "unclassified", "stage": "frontmost_stop_check", "start": 89601.6370108, "end": 89601.637013}
+{"run_id": "164b31e7f64240c2b19fadb45c557692", "mode": "unclassified", "stage": "capture", "start": 89601.637019, "end": 89601.6370235}
+{"run_id": "164b31e7f64240c2b19fadb45c557692", "mode": "unclassified", "stage": "verify_input_control", "start": 89601.6370406, "end": 89601.6370434}
+{"run_id": "164b31e7f64240c2b19fadb45c557692", "mode": "unclassified", "stage": "recognition", "start": 89601.6370441, "end": 89601.6371072}
+{"run_id": "164b31e7f64240c2b19fadb45c557692", "mode": "unclassified", "stage": "artifact_write", "start": 89601.6381307, "end": 89601.638823}
+{"run_id": "164b31e7f64240c2b19fadb45c557692", "mode": "unclassified", "stage": "log_write", "start": 89601.6389372, "end": 89601.6391263}

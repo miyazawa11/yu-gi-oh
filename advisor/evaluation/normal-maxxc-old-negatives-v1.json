@@ -1,0 +1,366 @@
+{
+  "exploratory": true,
+  "rows": [
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\000-story-list.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\001-gate-loading.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\002-monarch-gate.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\003-duel-node-selected.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\004-duel-rental-tab.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\005-my-deck-thunder.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\006-duel-first-player-loading.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\007-self-turn1-main1-training.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\008-self-turn1-main1-holdout.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\009-phase-menu-end-training.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\010-phase-menu-end-holdout.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\011-self-turn1-end-animation.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\012-self-turn3-draw-animation.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\013-self-turn3-main1-animation.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\014-self-turn3-main1-stable.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\015-ash-hand-menu.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\016-ash-place-select.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\017-ash-summon-animation.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\018-opponent-apophis-chain-response.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\019-apophis-chain-before-cancel.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\020-apophis-resolving.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\021-opponent-summon-response.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\022-main1-new-training-1-summon-confirmed.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\023-main1-new-training-2.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\024-main1-new-holdout-1.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\025-turn3-phase-menu-opening.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\026-turn3-phase-menu-battle-enabled-holdout.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\027-turn3-end-click-menu-closing.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\028-opponent-turn4-main1-chain-negative.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\029-turn4-chain-before-cancel.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\030-opponent-turn4-main1-resolution-negative.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\031-turn4-opponent-special-response.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\032-turn4-opponent-tribute-animation.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\033-turn4-opponent-normal-response.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\034-turn4-opponent-main1-no-modal.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\035-turn4-attack-response-independent.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\036-turn4-battle-resolving-independent.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\037-turn4-second-attack-response.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\038-turn4-second-attack-resolving.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\039-turn4-third-attack-response.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\040-turn4-third-attack-resolving.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\041-opponent-turn4-end-response.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\042-self-turn5-transition.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\043-self-turn5-draw-independent.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\044-self-turn5-main1-independent-ready.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\045-TRAINING-self-turn5-main1-low-lp-v2.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\046-HOLDOUT-v2-frozen-self-turn5-main1.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\047-TRAIN_SEQUENCE_v3_00.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\048-TRAIN_SEQUENCE_v3_01.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\049-TRAIN_SEQUENCE_v3_02.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\050-TRAIN_SEQUENCE_v3_03.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\051-TRAIN_SEQUENCE_v3_04.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\052-TRAIN_SEQUENCE_v3_05.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\053-TRAIN_SEQUENCE_v3_06.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\054-TRAIN_SEQUENCE_v3_07.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\055-TRAIN_SEQUENCE_v3_08.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\056-TRAIN_SEQUENCE_v3_09.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\057-TRAIN_SEQUENCE_v3_10.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\058-TRAIN_SEQUENCE_v3_11.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\059-TRAIN_SEQUENCE_v3_12.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\060-TRAIN_SEQUENCE_v3_13.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\061-TRAIN_SEQUENCE_v3_14.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\062-TRAIN_SEQUENCE_v3_15.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\063-TRAIN_SEQUENCE_v3_16.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\064-TRAIN_SEQUENCE_v3_17.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\065-TRAIN_SEQUENCE_v3_18.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\066-TRAIN_SEQUENCE_v3_19.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\067-HOLDOUT-v3-frozen-self-turn5-main1.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\068-MSS-menu-preparation-before.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\069-MSS-menu-training-stable.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\070-passive-End-before-click.png",
+      "start_allowed": false,
+      "prompt": null
+    },
+    {
+      "image": "artifacts\\baseline-tester\\calibration-20261005\\071-passive-End-banner-after-click.png",
+      "start_allowed": false,
+      "prompt": null
+    }
+  ],
+  "false_start_count": 0
+}

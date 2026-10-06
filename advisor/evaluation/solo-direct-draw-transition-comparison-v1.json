@@ -1,0 +1,1585 @@
+{
+  "schema": "direct-self-draw-transition-method-comparison-v1",
+  "fixed_source_sha256": "c2942844c9787913959acbc9a2cb9f0f0367b4e7de07851dcf89a04a49cabba7",
+  "groups": {
+    "SOLO_END_PILOT_v2_20261006": {
+      "count": 4,
+      "direct_Draw_positive": 3,
+      "old_UI_contradiction": 1
+    },
+    "SOLO_END_PILOT_v3_20261006": {
+      "count": 4,
+      "direct_Draw_positive": 3,
+      "old_UI_contradiction": 1
+    },
+    "attack-response-negative": {
+      "count": 3,
+      "direct_Draw_positive": 0,
+      "old_UI_contradiction": 3
+    },
+    "end-response-after": {
+      "count": 20,
+      "direct_Draw_positive": 20,
+      "old_UI_contradiction": 0
+    },
+    "end-response-before": {
+      "count": 9,
+      "direct_Draw_positive": 0,
+      "old_UI_contradiction": 9
+    },
+    "monster-effect-chain-negative": {
+      "count": 3,
+      "direct_Draw_positive": 0,
+      "old_UI_contradiction": 3
+    },
+    "optional-chain-after": {
+      "count": 10,
+      "direct_Draw_positive": 0,
+      "old_UI_contradiction": 10
+    },
+    "retry1-ritual-chain-negative": {
+      "count": 3,
+      "direct_Draw_positive": 0,
+      "old_UI_contradiction": 3
+    },
+    "ritual-chain-before-negative": {
+      "count": 3,
+      "direct_Draw_positive": 0,
+      "old_UI_contradiction": 3
+    },
+    "summon-response-after": {
+      "count": 10,
+      "direct_Draw_positive": 0,
+      "old_UI_contradiction": 10
+    },
+    "summon-response-before": {
+      "count": 10,
+      "direct_Draw_positive": 0,
+      "old_UI_contradiction": 10
+    },
+    "unknown-chain-response-negative": {
+      "count": 10,
+      "direct_Draw_positive": 0,
+      "old_UI_contradiction": 10
+    }
+  },
+  "missing_original": [
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0009.png"
+  ],
+  "rows": [
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\attack-response-negative\\frame-0000.png",
+      "sha256": "e05a4d3b54c9d4eaddd0cc857e63256db9f9842fe3ebbc93234b5583e5ad2174",
+      "group": "attack-response-negative",
+      "draw_overlay_word": 0.32403078472272173,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7483292818069458,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.8769007921218872,
+        "opponent_turn_end": 0.8930680155754089
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\attack-response-negative\\frame-0001.png",
+      "sha256": "730cd8e74c385522f50bbe0fcbf943cc525bd496e7ebb7bfdade0b423538898e",
+      "group": "attack-response-negative",
+      "draw_overlay_word": 0.3233115155002517,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7486355304718018,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.8768816590309143,
+        "opponent_turn_end": 0.8930794596672058
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\attack-response-negative\\frame-0002.png",
+      "sha256": "187d23795bd80ff6b930d1d091a6fc66975f05e4fc6905e85c698e120ae09915",
+      "group": "attack-response-negative",
+      "draw_overlay_word": 0.3235272962669927,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7488178014755249,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.8768637776374817,
+        "opponent_turn_end": 0.893034815788269
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0000.png",
+      "sha256": "2bf1e2eeef9af635a77a31c007a33a91edf5cc1ff0e36929967094aed7862816",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.2512407394087607,
+      "self_blue_ratio": 0.71875,
+      "old_draw_score": 0.9988617300987244,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6496692895889282,
+        "opponent_turn_end": 0.639653205871582
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0001.png",
+      "sha256": "489d1c1ee81d819c7859b3fa57e6055c7b26ac3383a1aee1e65c5c22dd075063",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.2502337624973027,
+      "self_blue_ratio": 0.7170138888888888,
+      "old_draw_score": 0.9990439414978027,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6554011106491089,
+        "opponent_turn_end": 0.6458055973052979
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0002.png",
+      "sha256": "b5c243046884e07f5e99490725c3a704bd6a4fae712e6b8da2fa2690f1a069e1",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.2502337624973027,
+      "self_blue_ratio": 0.7170138888888888,
+      "old_draw_score": 0.9991793632507324,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6559499502182007,
+        "opponent_turn_end": 0.6462286710739136
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0003.png",
+      "sha256": "030c344fed3491783da2697f6f10d373c9ba6c227fe6c0465c52ccfc6ebaf98a",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.2502337624973027,
+      "self_blue_ratio": 0.7118055555555556,
+      "old_draw_score": 0.9993388056755066,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.656700611114502,
+        "opponent_turn_end": 0.6467163562774658
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0004.png",
+      "sha256": "5fa73fbffcb19f70d1c319480e6c888eaf7b6596f05824d562173aafe2ef1c09",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.2502337624973027,
+      "self_blue_ratio": 0.7118055555555556,
+      "old_draw_score": 0.9994413256645203,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6571378707885742,
+        "opponent_turn_end": 0.6469684839248657
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0005.png",
+      "sha256": "cf25656727b196a4781116265406dfefe8de139d1d78d7680255631b7b9adb86",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.2502337624973027,
+      "self_blue_ratio": 0.7100694444444444,
+      "old_draw_score": 0.9995033144950867,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6567184925079346,
+        "opponent_turn_end": 0.6464023590087891
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0006.png",
+      "sha256": "8d1d5a0261017eb8ea8cf32ef6683c79fb33a5984fd08d8d37a7a2ee0f6d2ece",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.4025749838164425,
+      "self_blue_ratio": 0.7100694444444444,
+      "old_draw_score": 0.9995741844177246,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.655346155166626,
+        "opponent_turn_end": 0.6448526382446289
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0007.png",
+      "sha256": "41dc6da4dcd8c4ec8f6ccf5bf7db9585e8984521af3b7c5b7c99c4ecabdc2a78",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.39379989930230885,
+      "self_blue_ratio": 0.7100694444444444,
+      "old_draw_score": 0.9995830655097961,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6537734270095825,
+        "opponent_turn_end": 0.6431082487106323
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0008.png",
+      "sha256": "b1d615793c7213ea8bda7c138f9462f81c270cf436030af39115a4c1c7077a57",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.3965331223476947,
+      "self_blue_ratio": 0.7083333333333334,
+      "old_draw_score": 0.999538779258728,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6404290199279785,
+        "opponent_turn_end": 0.6286461353302002
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0009.png",
+      "sha256": "dce13431b582773138444218be9cbe82feb05bdf933c1a194fc598854758c5f7",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.2766309429619507,
+      "self_blue_ratio": 0.7083333333333334,
+      "old_draw_score": 0.9995488524436951,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.5971270799636841,
+        "opponent_turn_end": 0.5837019681930542
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0010.png",
+      "sha256": "bc7ae36c439edc7cfd52600561b8d91b85654aa2e3e4d9de510cc423f9a6fcad",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.2502337624973027,
+      "self_blue_ratio": 0.7118055555555556,
+      "old_draw_score": 0.9995083808898926,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6557974815368652,
+        "opponent_turn_end": 0.6456427574157715
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0011.png",
+      "sha256": "8e5f3aefd7a6c15258bdce220c51a437d875edf428deca747e2c31641dc88099",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.2502337624973027,
+      "self_blue_ratio": 0.7118055555555556,
+      "old_draw_score": 0.9994754791259766,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6563093662261963,
+        "opponent_turn_end": 0.6460717916488647
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0012.png",
+      "sha256": "274c2b58c668069b5bcc54ac738952a453312220583ea8f907f61295167c59df",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.2501618355750557,
+      "self_blue_ratio": 0.7135416666666666,
+      "old_draw_score": 0.9994375109672546,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6570587158203125,
+        "opponent_turn_end": 0.6465376615524292
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0013.png",
+      "sha256": "458fe270a5662ece6ec515c30bd66abf3d1e42740734b9c6bb46e9b75605da81",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.2501618355750557,
+      "self_blue_ratio": 0.7135416666666666,
+      "old_draw_score": 0.9994311928749084,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6581302881240845,
+        "opponent_turn_end": 0.647194504737854
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0014.png",
+      "sha256": "15355d680cf06668811ee5810fab708345b0068707f801ad73c113c714ba996c",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.24994605480831475,
+      "self_blue_ratio": 0.7118055555555556,
+      "old_draw_score": 0.9994134902954102,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6588771343231201,
+        "opponent_turn_end": 0.6475576162338257
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0015.png",
+      "sha256": "62bc57d891bf8fab950c42180a85b9d6db30efde4c38b176b5a23153f936ba2c",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.2872761274545062,
+      "self_blue_ratio": 0.7118055555555556,
+      "old_draw_score": 0.9994261264801025,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6596628427505493,
+        "opponent_turn_end": 0.6479724645614624
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0016.png",
+      "sha256": "a4c09361587aa7d6f7e17518bb32d028f022e1839b425548d7c99cbc2121701f",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.40142415306049056,
+      "self_blue_ratio": 0.7100694444444444,
+      "old_draw_score": 0.9994539618492126,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6591165065765381,
+        "opponent_turn_end": 0.6470738649368286
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0017.png",
+      "sha256": "cd439e9507bb88a9475ba9c1f4f3178eef319676c28a041a953c28ff6e306288",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.3931525570020859,
+      "self_blue_ratio": 0.7100694444444444,
+      "old_draw_score": 0.9993982911109924,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6578680276870728,
+        "opponent_turn_end": 0.645540714263916
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0018.png",
+      "sha256": "2e0e498ac0a61309ba585de0975067d99ad89dc5a26edc8b2d6241996920121b",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.39919441847083365,
+      "self_blue_ratio": 0.7118055555555556,
+      "old_draw_score": 0.9993286728858948,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6521285772323608,
+        "opponent_turn_end": 0.6390467882156372
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0019.png",
+      "sha256": "9f6d8d844477d72be65f055e9716fffb82752fec8be5aac4c23bfc18d689441a",
+      "group": "end-response-after",
+      "draw_overlay_word": 0.2764151621952097,
+      "self_blue_ratio": 0.7135416666666666,
+      "old_draw_score": 0.9991704821586609,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6002354621887207,
+        "opponent_turn_end": 0.5860252380371094
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0000.png",
+      "sha256": "d33b71a4da30eb3b47c7fcf89be7bf5f1b6136c2d48e632a2bf0376f50a2fb89",
+      "group": "end-response-before",
+      "draw_overlay_word": 0.2910882543335971,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.725078284740448,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9019275903701782,
+        "opponent_turn_end": 0.9997852444648743
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0001.png",
+      "sha256": "36a1d1cb0bbe416752b8289e70ace92db80291025a0c0aecb5d09913cdaeda26",
+      "group": "end-response-before",
+      "draw_overlay_word": 0.2910882543335971,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7246404886245728,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9019237756729126,
+        "opponent_turn_end": 0.9997897148132324
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0002.png",
+      "sha256": "81d8b98fdd1634be7e0bf9aa28e165399c17bcb8599cda9ba354bf14350e4505",
+      "group": "end-response-before",
+      "draw_overlay_word": 0.34244407681795297,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7241266965866089,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9019129276275635,
+        "opponent_turn_end": 0.9997916221618652
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0003.png",
+      "sha256": "d8d1d3ccd0a396b6abdfaea581a89ec2d89781e0f31fef7f073c025475764401",
+      "group": "end-response-before",
+      "draw_overlay_word": 0.2911601812558441,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7236508727073669,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9019231200218201,
+        "opponent_turn_end": 0.9997648000717163
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0004.png",
+      "sha256": "acc3cfd68dfb75e3a35efc5f2507da049fba174f421d0792e26cf9d36bc1a31c",
+      "group": "end-response-before",
+      "draw_overlay_word": 0.2910882543335971,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7227612733840942,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9019301533699036,
+        "opponent_turn_end": 0.999769926071167
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0005.png",
+      "sha256": "9f518e770d219cbe93e0cbe9090757afb271525979e4a268424ba047933f5464",
+      "group": "end-response-before",
+      "draw_overlay_word": 0.2910882543335971,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7220678329467773,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9019314050674438,
+        "opponent_turn_end": 0.9997565150260925
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0006.png",
+      "sha256": "5c41dc8597e6930a6cb7e3c79e5ee53c203a98b2c33653dc28e94c2a96f38200",
+      "group": "end-response-before",
+      "draw_overlay_word": 0.2910882543335971,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7213376760482788,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9019365310668945,
+        "opponent_turn_end": 0.9997360706329346
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0007.png",
+      "sha256": "a45f1689800c38043383b0d324c14c1b96c252189a20aa03e794f0ebc6358f4b",
+      "group": "end-response-before",
+      "draw_overlay_word": 0.2910882543335971,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.720486044883728,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9019371867179871,
+        "opponent_turn_end": 0.999725878238678
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0008.png",
+      "sha256": "c41accaf13195c87df9f74119810824b84de1a70bc7be3d112d0631ea4ae244d",
+      "group": "end-response-before",
+      "draw_overlay_word": 0.2910882543335971,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7196508646011353,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9019812345504761,
+        "opponent_turn_end": 0.9997501373291016
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\monster-effect-chain-negative\\frame-0000.png",
+      "sha256": "ed0a1592ab905d794e62433288293a63f69d49071c0bb15d16a133ba4dc46a48",
+      "group": "monster-effect-chain-negative",
+      "draw_overlay_word": 0.292886427389772,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7535884380340576,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7578731179237366,
+        "opponent_turn_end": 0.7212734222412109
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\monster-effect-chain-negative\\frame-0001.png",
+      "sha256": "befc5b9086d5065709d3b8f19433aa2d69a0d35e03cd5ac16d458b0627c162fa",
+      "group": "monster-effect-chain-negative",
+      "draw_overlay_word": 0.292886427389772,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.753454327583313,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7578731179237366,
+        "opponent_turn_end": 0.7212734222412109
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\monster-effect-chain-negative\\frame-0002.png",
+      "sha256": "0cb7b88db21b50e1b93afd0643227f98182b2327da882a96c25dbf334709348a",
+      "group": "monster-effect-chain-negative",
+      "draw_overlay_word": 0.292886427389772,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7532467842102051,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7578731179237366,
+        "opponent_turn_end": 0.7212734222412109
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0000.png",
+      "sha256": "42e528e9184218f6effe2ca0dd72f1c7330a303f77bc4e41f4eca3e143fbf1e6",
+      "group": "optional-chain-after",
+      "draw_overlay_word": 0.292886427389772,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7543628811836243,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7434837818145752,
+        "opponent_turn_end": 0.7266955375671387
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0001.png",
+      "sha256": "aa17cb019aaf18d984b89228fbca1c5a3b66a087d9b2a0ea783748d0b5d7a6e3",
+      "group": "optional-chain-after",
+      "draw_overlay_word": 0.292886427389772,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7540402412414551,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7434831857681274,
+        "opponent_turn_end": 0.7266949415206909
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0002.png",
+      "sha256": "ec7b75ff536139a4b7c6f0ffb27d8b0eb60dcbb94b6ab5a8471fc1ccdc6ab0fc",
+      "group": "optional-chain-after",
+      "draw_overlay_word": 0.292814500467525,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7538111805915833,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7434831857681274,
+        "opponent_turn_end": 0.7266949415206909
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0003.png",
+      "sha256": "75df26e564b4f4c24d30310f487b1bf9073c1fc9e2f56684a5c9aae923ef5e6b",
+      "group": "optional-chain-after",
+      "draw_overlay_word": 0.292814500467525,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7536289691925049,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7434825897216797,
+        "opponent_turn_end": 0.7266943454742432
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0004.png",
+      "sha256": "0aee7a01e9a10dc37ec0826e1982869f491148b1fadb722dd158ea50ddbe41ce",
+      "group": "optional-chain-after",
+      "draw_overlay_word": 0.292814500467525,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7535415887832642,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7434831857681274,
+        "opponent_turn_end": 0.7266949415206909
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0005.png",
+      "sha256": "5c7a28d1f86a0b33eb80d12fbd3c92deac2a58d81e9ed8e2a143d5c37cc3c6a1",
+      "group": "optional-chain-after",
+      "draw_overlay_word": 0.292814500467525,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7535289525985718,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7434837818145752,
+        "opponent_turn_end": 0.7266955375671387
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0006.png",
+      "sha256": "912903bd33eb6c5d6b01717e06e10ef6f9d6ffdfb95ff47d25e53505cd88c5ce",
+      "group": "optional-chain-after",
+      "draw_overlay_word": 0.292814500467525,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7537504434585571,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7434837818145752,
+        "opponent_turn_end": 0.7266955375671387
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0007.png",
+      "sha256": "283710adeee9f5c0d51e67f702d920087a0a49a31dd505f830549cf622976c9f",
+      "group": "optional-chain-after",
+      "draw_overlay_word": 0.292814500467525,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7540364265441895,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7434837818145752,
+        "opponent_turn_end": 0.7266955375671387
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0008.png",
+      "sha256": "46f7c264ddafb29ff5d397ad1e54715cc3f5a3e53d372dd286786942c7bdf0da",
+      "group": "optional-chain-after",
+      "draw_overlay_word": 0.292814500467525,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7543312311172485,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7434837818145752,
+        "opponent_turn_end": 0.7266955375671387
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0009.png",
+      "sha256": "ec796dd94711b91ea4311a587fe9bbf78aa5b67d658726317ecff4b7a6a5090a",
+      "group": "optional-chain-after",
+      "draw_overlay_word": 0.292814500467525,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7545210719108582,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7434837818145752,
+        "opponent_turn_end": 0.7266955375671387
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\retry1-ritual-chain-negative\\frame-0000.png",
+      "sha256": "e927435d03276d30c2ec15a7a2bc9a8f0edd3e525fc6f7a855674f0c3bdffdc5",
+      "group": "retry1-ritual-chain-negative",
+      "draw_overlay_word": 0.29180752355606704,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7555106282234192,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7434837818145752,
+        "opponent_turn_end": 0.7266955375671387
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\retry1-ritual-chain-negative\\frame-0001.png",
+      "sha256": "81b1f6862be39582d5b9416895d3c645fd9bcb3abe98c9a1c3b41f02bee5933a",
+      "group": "retry1-ritual-chain-negative",
+      "draw_overlay_word": 0.29180752355606704,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7554511427879333,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7434831857681274,
+        "opponent_turn_end": 0.7266949415206909
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\retry1-ritual-chain-negative\\frame-0002.png",
+      "sha256": "c4bf9efa74be48d5e7b465e6326cc9047430946bca948db1db72408c6d6464fe",
+      "group": "retry1-ritual-chain-negative",
+      "draw_overlay_word": 0.29180752355606704,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7555181980133057,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7434837818145752,
+        "opponent_turn_end": 0.7266955375671387
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\ritual-chain-before-negative\\frame-0000.png",
+      "sha256": "9b717960a6bc8cc81f89d938dbe747c755e929682f56e76bb048422b001e305f",
+      "group": "ritual-chain-before-negative",
+      "draw_overlay_word": 0.292814500467525,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7541401982307434,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7434837818145752,
+        "opponent_turn_end": 0.7266955375671387
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\ritual-chain-before-negative\\frame-0001.png",
+      "sha256": "6247bd0c287a547519082bf90befe4bd12e2e50a5f578fb904d708a3f761b244",
+      "group": "ritual-chain-before-negative",
+      "draw_overlay_word": 0.292886427389772,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7536960244178772,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7434837818145752,
+        "opponent_turn_end": 0.7266955375671387
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\ritual-chain-before-negative\\frame-0002.png",
+      "sha256": "b4b23f7011ab9a61b246c7d8eed846f93d0772abbd12accc54939cb7f409ce69",
+      "group": "ritual-chain-before-negative",
+      "draw_overlay_word": 0.292886427389772,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7533872127532959,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7434831857681274,
+        "opponent_turn_end": 0.7266949415206909
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0000.png",
+      "sha256": "20519d762222052b59fb2dbc54d838e52558b84e1485e6ab01c2e8fefb9b6484",
+      "group": "summon-response-after",
+      "draw_overlay_word": 0.29180752355606704,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7178096771240234,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9018663167953491,
+        "opponent_turn_end": 0.9996868968009949
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0001.png",
+      "sha256": "7b5a332d10e767319e9331550b2a03d2c64ba6928979b545cd731c97f542675b",
+      "group": "summon-response-after",
+      "draw_overlay_word": 0.29180752355606704,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7175818681716919,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9018580317497253,
+        "opponent_turn_end": 0.9997035264968872
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0002.png",
+      "sha256": "bbaa83cf2d1c71b845bccb23c4ab39c7a30a4fb70bd5a178bcc06dab107d5125",
+      "group": "summon-response-after",
+      "draw_overlay_word": 0.29180752355606704,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7174515724182129,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.901831865310669,
+        "opponent_turn_end": 0.999681830406189
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0003.png",
+      "sha256": "598e9d1efb5b58847578dcbc9c6ae01322b45ddab87c2138df2416ca7ddc744d",
+      "group": "summon-response-after",
+      "draw_overlay_word": 0.29173559663382004,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7172870635986328,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9018248319625854,
+        "opponent_turn_end": 0.9996920228004456
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0004.png",
+      "sha256": "1cc3ea3006706341732231e10d9eab7af7efbb3f4a3da4a25bf9b4d005582e8d",
+      "group": "summon-response-after",
+      "draw_overlay_word": 0.29173559663382004,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7170959711074829,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9018408060073853,
+        "opponent_turn_end": 0.9997277855873108
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0005.png",
+      "sha256": "d51c0af40577149394172de7af34402c8b99c690393748c3462f284ca65d0949",
+      "group": "summon-response-after",
+      "draw_overlay_word": 0.29173559663382004,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7169175148010254,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9018433094024658,
+        "opponent_turn_end": 0.9997443556785583
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0006.png",
+      "sha256": "c7e08967d627c3f72f00604ff58d86da857490eb8ce586f15ad69868e7741160",
+      "group": "summon-response-after",
+      "draw_overlay_word": 0.29173559663382004,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7169263958930969,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9018203616142273,
+        "opponent_turn_end": 0.9997348189353943
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0007.png",
+      "sha256": "f26541bc0e7476eef40f73e49e2fd9f51a897577abcaed8bc93234ffc937d205",
+      "group": "summon-response-after",
+      "draw_overlay_word": 0.29173559663382004,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7170592546463013,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.901819109916687,
+        "opponent_turn_end": 0.9997360706329346
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0008.png",
+      "sha256": "bce8a8899b7851a14631162b0fb06ebf23a7a6ec82b6143ad36356ef6178e758",
+      "group": "summon-response-after",
+      "draw_overlay_word": 0.29173559663382004,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7173009514808655,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9018375873565674,
+        "opponent_turn_end": 0.9997169375419617
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0009.png",
+      "sha256": "dd53d427696bd6bc14575a9614dcbe18fc2894305f9d0109f54813dee4e0cef7",
+      "group": "summon-response-after",
+      "draw_overlay_word": 0.29173559663382004,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7176072001457214,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9018375873565674,
+        "opponent_turn_end": 0.9997079968452454
+      },
+      "cancel_caption_score": 1.0,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0000.png",
+      "sha256": "a21ebf409fcdef181d68c86656fd7f6eda578379c1de55bd80b0a74d671cd1a1",
+      "group": "summon-response-before",
+      "draw_overlay_word": 0.29180752355606704,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7591740489006042,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9998442530632019,
+        "opponent_turn_end": 0.9019228219985962
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0001.png",
+      "sha256": "00b82010bb89d13d5bc3faeafb399c3a3855176f5ee8c73bd734238420e1d7fc",
+      "group": "summon-response-before",
+      "draw_overlay_word": 0.29180752355606704,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7594625949859619,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9998525381088257,
+        "opponent_turn_end": 0.9018972516059875
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0002.png",
+      "sha256": "edf9b41b4badf3470a3342fc05fcb26d773d108227b57dd791a9c1a5260d0f2f",
+      "group": "summon-response-before",
+      "draw_overlay_word": 0.29180752355606704,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7597877979278564,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9998244643211365,
+        "opponent_turn_end": 0.9018787741661072
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0003.png",
+      "sha256": "ee2f88b47bedd19e1a5e11d23910e5c4a8acee3c3ad932613bde0ecc5dd8aa4b",
+      "group": "summon-response-before",
+      "draw_overlay_word": 0.29180752355606704,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7600066661834717,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9998308420181274,
+        "opponent_turn_end": 0.9018883109092712
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0004.png",
+      "sha256": "8b84874cb9dbf0be7cc1778f9f9bcd3b5b80708d49f2d286182c868e38b08508",
+      "group": "summon-response-before",
+      "draw_overlay_word": 0.29180752355606704,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7601763010025024,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9998704195022583,
+        "opponent_turn_end": 0.9018966555595398
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0005.png",
+      "sha256": "db85a04f46ce33f5a2b4b22f877fb31b14da25b7bfae4a0a8de91a1515150242",
+      "group": "summon-response-before",
+      "draw_overlay_word": 0.29173559663382004,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7600206136703491,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9998800158500671,
+        "opponent_turn_end": 0.9019061923027039
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0006.png",
+      "sha256": "73da6a5af94318bb6d792e561318e4e0450bd047e8ce9b4bb8ec3e545ef5a0b4",
+      "group": "summon-response-before",
+      "draw_overlay_word": 0.29173559663382004,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7599649429321289,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9998155236244202,
+        "opponent_turn_end": 0.9019049406051636
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0007.png",
+      "sha256": "2b07655352c1d1fb5e7132c39329637e2eaf9892060d9c2bb9a3b4412d572b8d",
+      "group": "summon-response-before",
+      "draw_overlay_word": 0.29173559663382004,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.759747326374054,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9997714757919312,
+        "opponent_turn_end": 0.9018755555152893
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0008.png",
+      "sha256": "480f40736c33238a15cd4d1fab9140601e98b5341827b9fcb7102135760924e7",
+      "group": "summon-response-before",
+      "draw_overlay_word": 0.29173559663382004,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7595321536064148,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9997848868370056,
+        "opponent_turn_end": 0.9019164443016052
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0009.png",
+      "sha256": "d164adb13d9fd62c77a40eea57751f3e905f6e5a364dde71efd8ce11fc5ebb71",
+      "group": "summon-response-before",
+      "draw_overlay_word": 0.29173559663382004,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7592158317565918,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9997612833976746,
+        "opponent_turn_end": 0.9019285440444946
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0000.png",
+      "sha256": "49c5c5c32b4e26501a285b8dbfcadfb09e3768960477a09a680b66ed967e3396",
+      "group": "unknown-chain-response-negative",
+      "draw_overlay_word": 0.292886427389772,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7532012462615967,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7780949473381042,
+        "opponent_turn_end": 0.7817533016204834
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0001.png",
+      "sha256": "ba469f896bd3b0efd40e6eccb8fc1074a0a2628aa938064890ff8875c71d7f9b",
+      "group": "unknown-chain-response-negative",
+      "draw_overlay_word": 0.292886427389772,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7530759572982788,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7780949473381042,
+        "opponent_turn_end": 0.7817533016204834
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0002.png",
+      "sha256": "0f53ea800f48f40c1cd63726e7f26d36985ab9e50304ea103b14328f8cbd03b2",
+      "group": "unknown-chain-response-negative",
+      "draw_overlay_word": 0.292886427389772,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7529380321502686,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7780956029891968,
+        "opponent_turn_end": 0.7817538976669312
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0003.png",
+      "sha256": "7af6d28ca07436e39cae95e5bd5037cde5fe7f1d3e32ae5fe3893a249a6a34de",
+      "group": "unknown-chain-response-negative",
+      "draw_overlay_word": 0.292886427389772,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7527785301208496,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7780956029891968,
+        "opponent_turn_end": 0.7817538976669312
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0004.png",
+      "sha256": "cf8d2e41cdd8c8d73f85a5556638bbbe4b2f972e9dba3fa78e5a89cd0a4fb823",
+      "group": "unknown-chain-response-negative",
+      "draw_overlay_word": 0.292886427389772,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7527064085006714,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7780956029891968,
+        "opponent_turn_end": 0.7817538976669312
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0005.png",
+      "sha256": "0719ac341e48e2ad90cba1c092ecfbddd253871a671ec690c7523df3a9f22356",
+      "group": "unknown-chain-response-negative",
+      "draw_overlay_word": 0.292886427389772,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7528570294380188,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7780956029891968,
+        "opponent_turn_end": 0.7817538976669312
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0006.png",
+      "sha256": "a6466306cc92af7eefc37a661af6855c65d05d097382f1f78a29219d5f7373f4",
+      "group": "unknown-chain-response-negative",
+      "draw_overlay_word": 0.292886427389772,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7531505823135376,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7780956029891968,
+        "opponent_turn_end": 0.7817538976669312
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0007.png",
+      "sha256": "53c28a1f189f48e7fc433f91fc4c1f23855b2fc4615e56f1f6a786c951e4c473",
+      "group": "unknown-chain-response-negative",
+      "draw_overlay_word": 0.292814500467525,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7534745931625366,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7780956029891968,
+        "opponent_turn_end": 0.7817538976669312
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0008.png",
+      "sha256": "305d52b6fe1f7d6f6a3c1e051ad5ff7e14b868a44fdd09a50719679735402ef7",
+      "group": "unknown-chain-response-negative",
+      "draw_overlay_word": 0.292814500467525,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7535719871520996,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7780956029891968,
+        "opponent_turn_end": 0.7817538976669312
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0009.png",
+      "sha256": "ef1b02aabb42c205434b71c64e6301841e898d38dd6861f1950e1c2ea217c380",
+      "group": "unknown-chain-response-negative",
+      "draw_overlay_word": 0.292814500467525,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7537795305252075,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.7780956029891968,
+        "opponent_turn_end": 0.7817538976669312
+      },
+      "cancel_caption_score": 0.8918918918918919,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_PILOT_v2_20261006\\screenshots\\after-0001.png",
+      "sha256": "c0bdf47e1d53e703aa6febbd8278ff640a6d8ee33e69078e9fdd514dd6b6448b",
+      "group": "SOLO_END_PILOT_v2_20261006",
+      "draw_overlay_word": 1.0,
+      "self_blue_ratio": 0.7222222222222222,
+      "old_draw_score": 0.7453644275665283,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6559160947799683,
+        "opponent_turn_end": 0.644848108291626
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_PILOT_v2_20261006\\screenshots\\before-0000.png",
+      "sha256": "2316c8252b67c7969d2bac409cbbbe28492b464a185c2884e129ac3b044e7db5",
+      "group": "SOLO_END_PILOT_v2_20261006",
+      "draw_overlay_word": 0.29180752355606704,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.7208441495895386,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.9018522500991821,
+        "opponent_turn_end": 0.999529242515564
+      },
+      "cancel_caption_score": 0.8922155688622755,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_PILOT_v2_20261006\\screenshots\\verify-failure-0000-last_captured-seq20.png",
+      "sha256": "c0bdf47e1d53e703aa6febbd8278ff640a6d8ee33e69078e9fdd514dd6b6448b",
+      "group": "SOLO_END_PILOT_v2_20261006",
+      "draw_overlay_word": 1.0,
+      "self_blue_ratio": 0.7222222222222222,
+      "old_draw_score": 0.7453644275665283,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6559160947799683,
+        "opponent_turn_end": 0.644848108291626
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_PILOT_v2_20261006\\screenshots\\verify-failure-0000-last_recognized-seq19.png",
+      "sha256": "f5c059b45d69d8a4794afc92ac9c21ecef8557b39cd4fea2ed33277e6dc0fa5f",
+      "group": "SOLO_END_PILOT_v2_20261006",
+      "draw_overlay_word": 1.0,
+      "self_blue_ratio": 0.7204861111111112,
+      "old_draw_score": 0.7457085847854614,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6564069986343384,
+        "opponent_turn_end": 0.644665002822876
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_PILOT_v3_20261006\\screenshots\\after-0001.png",
+      "sha256": "0d6bb4736b4c9cb6e0aaaac2b1b243f99d481491d6d1bb8d2121ad722e7faf4b",
+      "group": "SOLO_END_PILOT_v3_20261006",
+      "draw_overlay_word": 1.0,
+      "self_blue_ratio": 0.734375,
+      "old_draw_score": 0.745307445526123,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6541935205459595,
+        "opponent_turn_end": 0.6431695222854614
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_PILOT_v3_20261006\\screenshots\\before-0000.png",
+      "sha256": "f506c0336d69ae1fab4ce3a50c4ea4f0748c22ec353f837aada19d35cccf4b58",
+      "group": "SOLO_END_PILOT_v3_20261006",
+      "draw_overlay_word": 0.2911601812558441,
+      "self_blue_ratio": 0.0,
+      "old_draw_score": 0.720016598701477,
+      "draw_observation_positive": false,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.901847779750824,
+        "opponent_turn_end": 0.999675452709198
+      },
+      "cancel_caption_score": 0.8959537572254336,
+      "old_ui_positive_contradiction": true,
+      "direct_Draw_evidence_passed": false,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_PILOT_v3_20261006\\screenshots\\verify-failure-0000-last_captured-seq24.png",
+      "sha256": "0d6bb4736b4c9cb6e0aaaac2b1b243f99d481491d6d1bb8d2121ad722e7faf4b",
+      "group": "SOLO_END_PILOT_v3_20261006",
+      "draw_overlay_word": 1.0,
+      "self_blue_ratio": 0.734375,
+      "old_draw_score": 0.745307445526123,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6541935205459595,
+        "opponent_turn_end": 0.6431695222854614
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_PILOT_v3_20261006\\screenshots\\verify-failure-0000-last_recognized-seq23.png",
+      "sha256": "381337d8e5961d2005fbb776a9ff89bfd770fb002a49b325c3c663078848c6d7",
+      "group": "SOLO_END_PILOT_v3_20261006",
+      "draw_overlay_word": 1.0,
+      "self_blue_ratio": 0.734375,
+      "old_draw_score": 0.7454048991203308,
+      "draw_observation_positive": true,
+      "old_full_prompt_scores": {
+        "opponent_summon_success": 0.6537817716598511,
+        "opponent_turn_end": 0.6426972150802612
+      },
+      "cancel_caption_score": 0.0,
+      "old_ui_positive_contradiction": false,
+      "direct_Draw_evidence_passed": true,
+      "scope": "recognition/method comparison only; actual receipt/newseq/client guard still mandatory"
+    }
+  ],
+  "semantic_scope": "after actual declined End, observed selfDraw positive plus contradiction rejection; unknown prompt left unknown, no invented modal absence; known saved duplicates are not independent samples"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-05",
+  "deck_unique_cards": 35,
+  "rules": 94,
+  "pytest": {"passed": 200, "skipped": 4},
+  "synthetic_demo": "thunder-strategy-synthetic.json",
+  "live_input_performed": false,
+  "complete_game_rules": false,
+  "complete_live_automation": false,
+  "remaining": [
+    "effect_and_summon_history_tracking",
+    "material_instance_perception",
+    "complete_prompt_calibration_and_target_selection",
+    "battle_damage_planning",
+    "matchup_and_chain_rulings",
+    "recorded_and_live_acceptance"
+  ]
+}

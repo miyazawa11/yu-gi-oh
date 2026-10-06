@@ -1,0 +1,698 @@
+{
+  "schema": "public-anchor-art-feasibility-v1",
+  "scope": "method-selection diagnosis only; normalized known NCC boxes not independent detector; no replay/threshold/ref changes",
+  "input_count": 0,
+  "e2e_count": 0,
+  "public_reference_hashes": [
+    "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+    "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+    "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+    "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949"
+  ],
+  "native_ref_shapes": [
+    [
+      167,
+      113,
+      3
+    ],
+    [
+      174,
+      118,
+      3
+    ],
+    [
+      174,
+      118,
+      3
+    ],
+    [
+      174,
+      118,
+      3
+    ]
+  ],
+  "reference_art_keypoints": [
+    58,
+    53,
+    52,
+    55
+  ],
+  "rows": [
+    {
+      "sequence": 159,
+      "original_capture": {
+        "file": "frame-0154.png",
+        "capture_start_utc": "2026-10-06T02:57:13.411007+00:00",
+        "capture_start_perf": 97996.6765792,
+        "capture_end_perf": 97996.6982703,
+        "captured_at_monotonic": 97996.671,
+        "capture_sequence": 159,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "3724063ab5af57257e083b3026b43dd6156c46896612a01acc498ad451cfa2d5"
+      },
+      "bbox_from_prior_ncc_diagnostic": [
+        639,
+        449,
+        118,
+        174
+      ],
+      "normalization_scale": [
+        0.8728813559322034,
+        0.8620689655172413
+      ],
+      "native_shape": [
+        174,
+        118,
+        3
+      ],
+      "normalized_art_shape": [
+        72,
+        78,
+        3
+      ],
+      "rgb_art_scores": [
+        0.9548023387892669,
+        0.9818413310243376,
+        0.9547504329367075,
+        0.941734865836173
+      ],
+      "art_sift": {
+        "accepted": true,
+        "keypoints": 52,
+        "references": [
+          {
+            "matches": 33,
+            "accepted": true,
+            "inliers": 32,
+            "ratio": 0.9696969696969697,
+            "spread": [
+              49.388885498046875,
+              41.908973693847656
+            ],
+            "scale": 0.9996328476417651,
+            "shift": [
+              -0.9748839465064518,
+              -0.0031977234981591025
+            ],
+            "reason": []
+          },
+          {
+            "matches": 35,
+            "accepted": true,
+            "inliers": 35,
+            "ratio": 1.0,
+            "spread": [
+              53.04460906982422,
+              41.764217376708984
+            ],
+            "scale": 0.9924425039823164,
+            "shift": [
+              0.37922111802416175,
+              0.47278406253883287
+            ],
+            "reason": []
+          },
+          {
+            "matches": 33,
+            "accepted": true,
+            "inliers": 32,
+            "ratio": 0.9696969696969697,
+            "spread": [
+              50.65032958984375,
+              42.32655334472656
+            ],
+            "scale": 0.9800782924345354,
+            "shift": [
+              1.3168136044753447,
+              0.8896186497693096
+            ],
+            "reason": []
+          },
+          {
+            "matches": 38,
+            "accepted": true,
+            "inliers": 36,
+            "ratio": 0.9473684210526315,
+            "spread": [
+              51.31399917602539,
+              42.7108154296875
+            ],
+            "scale": 0.9704312155453542,
+            "shift": [
+              1.9511693015989817,
+              1.7823944145299535
+            ],
+            "reason": []
+          }
+        ]
+      },
+      "image_sha256": "3724063ab5af57257e083b3026b43dd6156c46896612a01acc498ad451cfa2d5"
+    },
+    {
+      "sequence": 160,
+      "original_capture": {
+        "file": "frame-0155.png",
+        "capture_start_utc": "2026-10-06T02:57:13.495750+00:00",
+        "capture_start_perf": 97996.7613079,
+        "capture_end_perf": 97996.7828987,
+        "captured_at_monotonic": 97996.75,
+        "capture_sequence": 160,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "ea4b8ecb4b3c6b51957a7257e4d4fc1eb21d6ef6defb8ae194125054d6b77c53"
+      },
+      "bbox_from_prior_ncc_diagnostic": [
+        632,
+        447,
+        118,
+        174
+      ],
+      "normalization_scale": [
+        0.8728813559322034,
+        0.8620689655172413
+      ],
+      "native_shape": [
+        174,
+        118,
+        3
+      ],
+      "normalized_art_shape": [
+        72,
+        78,
+        3
+      ],
+      "rgb_art_scores": [
+        0.9522070461612945,
+        0.9741243505949388,
+        0.9821124983706683,
+        0.9601793661434185
+      ],
+      "art_sift": {
+        "accepted": true,
+        "keypoints": 53,
+        "references": [
+          {
+            "matches": 34,
+            "accepted": true,
+            "inliers": 34,
+            "ratio": 1.0,
+            "spread": [
+              49.388885498046875,
+              47.762107849121094
+            ],
+            "scale": 1.0176954500207664,
+            "shift": [
+              -2.456954931725818,
+              -0.6354230724493591
+            ],
+            "reason": []
+          },
+          {
+            "matches": 42,
+            "accepted": true,
+            "inliers": 42,
+            "ratio": 1.0,
+            "spread": [
+              49.85527038574219,
+              41.764217376708984
+            ],
+            "scale": 1.0100229608444722,
+            "shift": [
+              -1.031685930069083,
+              -0.1484671013711532
+            ],
+            "reason": []
+          },
+          {
+            "matches": 39,
+            "accepted": true,
+            "inliers": 39,
+            "ratio": 1.0,
+            "spread": [
+              50.65032958984375,
+              45.390708923339844
+            ],
+            "scale": 0.9959939572522089,
+            "shift": [
+              0.10181452388190135,
+              0.22237854106437946
+            ],
+            "reason": []
+          },
+          {
+            "matches": 34,
+            "accepted": true,
+            "inliers": 34,
+            "ratio": 1.0,
+            "spread": [
+              51.31399917602539,
+              45.76783752441406
+            ],
+            "scale": 0.9889426941998365,
+            "shift": [
+              0.4591322664349522,
+              1.1253076678162486
+            ],
+            "reason": []
+          }
+        ]
+      },
+      "image_sha256": "ea4b8ecb4b3c6b51957a7257e4d4fc1eb21d6ef6defb8ae194125054d6b77c53"
+    },
+    {
+      "sequence": 161,
+      "original_capture": {
+        "file": "frame-0156.png",
+        "capture_start_utc": "2026-10-06T02:57:13.589979+00:00",
+        "capture_start_perf": 97996.8553845,
+        "capture_end_perf": 97996.876896,
+        "captured_at_monotonic": 97996.843,
+        "capture_sequence": 161,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "8bb8f2af184011cf5b00a9fdb94ffcbbb7ee89d74b746189c2e30239018cff13"
+      },
+      "bbox_from_prior_ncc_diagnostic": [
+        632,
+        448,
+        118,
+        174
+      ],
+      "normalization_scale": [
+        0.8728813559322034,
+        0.8620689655172413
+      ],
+      "native_shape": [
+        174,
+        118,
+        3
+      ],
+      "normalized_art_shape": [
+        72,
+        78,
+        3
+      ],
+      "rgb_art_scores": [
+        0.9347326964974024,
+        0.9563138930785989,
+        0.9687906169115319,
+        0.9722517829543973
+      ],
+      "art_sift": {
+        "accepted": true,
+        "keypoints": 59,
+        "references": [
+          {
+            "matches": 36,
+            "accepted": false,
+            "inliers": 36,
+            "ratio": 1.0,
+            "spread": [
+              49.388885498046875,
+              47.20648193359375
+            ],
+            "scale": 1.0291898937153967,
+            "shift": [
+              -3.020740103798771,
+              -1.812680126229522
+            ],
+            "reason": [
+              "shift"
+            ]
+          },
+          {
+            "matches": 38,
+            "accepted": true,
+            "inliers": 38,
+            "ratio": 1.0,
+            "spread": [
+              49.85527038574219,
+              41.764217376708984
+            ],
+            "scale": 1.023483541908064,
+            "shift": [
+              -1.7934881524712738,
+              -1.3917777683363382
+            ],
+            "reason": []
+          },
+          {
+            "matches": 38,
+            "accepted": true,
+            "inliers": 38,
+            "ratio": 1.0,
+            "spread": [
+              50.65032958984375,
+              45.390708923339844
+            ],
+            "scale": 1.007927063404459,
+            "shift": [
+              -0.591435848382553,
+              -0.9031883496269582
+            ],
+            "reason": []
+          },
+          {
+            "matches": 39,
+            "accepted": true,
+            "inliers": 39,
+            "ratio": 1.0,
+            "spread": [
+              51.31399917602539,
+              45.76783752441406
+            ],
+            "scale": 1.0000556279734225,
+            "shift": [
+              -0.15346155681765705,
+              -0.01330200205425261
+            ],
+            "reason": []
+          }
+        ]
+      },
+      "image_sha256": "8bb8f2af184011cf5b00a9fdb94ffcbbb7ee89d74b746189c2e30239018cff13"
+    }
+  ],
+  "negative_diagnostics": [
+    {
+      "name": "post-search-hand-unselected",
+      "box_diagnostic_only": [
+        630,
+        608,
+        92,
+        112
+      ],
+      "art": {
+        "accepted": false,
+        "keypoints": 39,
+        "references": [
+          {
+            "matches": 10,
+            "accepted": false,
+            "inliers": 6,
+            "ratio": 0.6,
+            "spread": [
+              13.831260681152344,
+              18.611053466796875
+            ],
+            "scale": 1.2833007805677359,
+            "shift": [
+              -1.466919643218481,
+              3.229110865956252
+            ],
+            "reason": [
+              "ratio",
+              "scale",
+              "shift",
+              "spread"
+            ]
+          },
+          {
+            "matches": 11,
+            "accepted": false,
+            "inliers": 9,
+            "ratio": 0.8181818181818182,
+            "spread": [
+              39.591094970703125,
+              18.008468627929688
+            ],
+            "scale": 1.1762628587174937,
+            "shift": [
+              -4.3468808901881975,
+              14.49723267516866
+            ],
+            "reason": [
+              "scale",
+              "shift",
+              "spread"
+            ]
+          },
+          {
+            "matches": 10,
+            "accepted": false,
+            "inliers": 6,
+            "ratio": 0.6,
+            "spread": [
+              37.667972564697266,
+              15.208076477050781
+            ],
+            "scale": 1.136391798272421,
+            "shift": [
+              5.032521234626149,
+              9.723503891009358
+            ],
+            "reason": [
+              "ratio",
+              "scale",
+              "shift",
+              "spread"
+            ]
+          },
+          {
+            "matches": 11,
+            "accepted": false,
+            "inliers": 9,
+            "ratio": 0.8181818181818182,
+            "spread": [
+              35.256935119628906,
+              12.78470230102539
+            ],
+            "scale": 1.1432058243852987,
+            "shift": [
+              4.297029587959764,
+              12.272658191725622
+            ],
+            "reason": [
+              "scale",
+              "shift",
+              "spread"
+            ]
+          }
+        ]
+      },
+      "sha256": "8a0a3af28ac40bc618334cd110839de0243e4b39105cdcf555dcde06305d575b"
+    },
+    {
+      "name": "post-search-hand-inspected",
+      "box_diagnostic_only": [
+        630,
+        560,
+        101,
+        150
+      ],
+      "art": {
+        "accepted": true,
+        "keypoints": 51,
+        "references": [
+          {
+            "matches": 26,
+            "accepted": true,
+            "inliers": 26,
+            "ratio": 1.0,
+            "spread": [
+              44.38398742675781,
+              40.305328369140625
+            ],
+            "scale": 1.057390483384468,
+            "shift": [
+              -1.4796851601090273,
+              0.39439060997440106
+            ],
+            "reason": []
+          },
+          {
+            "matches": 29,
+            "accepted": true,
+            "inliers": 29,
+            "ratio": 1.0,
+            "spread": [
+              45.68689727783203,
+              41.32625961303711
+            ],
+            "scale": 1.0481385241858718,
+            "shift": [
+              -0.03287841127445203,
+              1.1094268496122308
+            ],
+            "reason": []
+          },
+          {
+            "matches": 30,
+            "accepted": true,
+            "inliers": 29,
+            "ratio": 0.9666666666666667,
+            "spread": [
+              46.456024169921875,
+              41.63982391357422
+            ],
+            "scale": 1.034697050831654,
+            "shift": [
+              1.203172338230398,
+              1.3588118158340297
+            ],
+            "reason": []
+          },
+          {
+            "matches": 30,
+            "accepted": true,
+            "inliers": 30,
+            "ratio": 1.0,
+            "spread": [
+              46.455936431884766,
+              41.96013641357422
+            ],
+            "scale": 1.0269387900079197,
+            "shift": [
+              1.592074144836033,
+              2.290137441192755
+            ],
+            "reason": []
+          }
+        ]
+      },
+      "sha256": "9babcbb89b3bb05e0c3d6f757917032c6df9208c173fcdf2ff0bd2cd73265932"
+    },
+    {
+      "name": "roar-detail-negative",
+      "box": [
+        27,
+        151,
+        103,
+        150
+      ],
+      "art": {
+        "accepted": false,
+        "keypoints": 34,
+        "references": [
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          },
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          },
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          },
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          }
+        ]
+      },
+      "sha256": "604989a3cd00a26254c16c057dd7d2b09046bf94879b5ee10c3b115e70e3728d"
+    },
+    {
+      "name": "thunderstormech-detail-negative",
+      "box": [
+        27,
+        151,
+        103,
+        150
+      ],
+      "art": {
+        "accepted": false,
+        "keypoints": 28,
+        "references": [
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          },
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          },
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          },
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          }
+        ]
+      },
+      "sha256": "b2570da4c5307ce5586d1ebf6e60cb1c14a1f96bf9dcb4e51384e7c06fa7b381"
+    }
+  ],
+  "limitations": [
+    "art crop boundaries projected by full-card resize require visual validation",
+    "static same-CID hand cannot be rejected by identity alone; public fullface geometry and temporal input episode required",
+    "NativeArtDetails shift3 and scale.9..1.1 apply only normalized coordinate comparison; not full-frame pose legality",
+    "three known frames are diagnosis, not selected replay or holdout"
+  ]
+}

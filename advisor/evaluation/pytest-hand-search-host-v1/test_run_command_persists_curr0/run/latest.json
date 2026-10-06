@@ -1,0 +1,221 @@
+{
+  "state": {
+    "sequence": 9,
+    "captured_at": 89652.5,
+    "media_time": 0.9,
+    "turn": {
+      "value": 2,
+      "confidence": 0.9897103309631348,
+      "source": "template:turn",
+      "observed_at": 89652.5
+    },
+    "turn_player": {
+      "value": "opponent",
+      "confidence": 0.9894441962242126,
+      "source": "template:turn_player",
+      "observed_at": 89652.5
+    },
+    "phase": {
+      "value": "MAIN1",
+      "confidence": 0.9897748231887817,
+      "source": "template:phase",
+      "observed_at": 89652.5
+    },
+    "terminal": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "unknown",
+      "observed_at": 89652.5
+    },
+    "prompt": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "unknown",
+      "observed_at": 89652.5
+    },
+    "animation": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "unknown",
+      "observed_at": 89652.5
+    },
+    "card_states": {},
+    "facts": {},
+    "material_sets": {},
+    "self": {
+      "lp": {
+        "value": 5200,
+        "confidence": 0.9895080327987671,
+        "source": "template:self.lp",
+        "observed_at": 89652.5
+      },
+      "hand_count": {
+        "value": 4,
+        "confidence": 0.9900875687599182,
+        "source": "template:self.hand_count",
+        "observed_at": 89652.5
+      },
+      "zones": {
+        "monster_1": {
+          "value": {
+            "card_id": "demo-alpha",
+            "name": "合成カード・アルファ",
+            "card_type": "monster"
+          },
+          "confidence": 0.9886482357978821,
+          "source": "card:self.zones.monster_1",
+          "observed_at": 89652.5
+        }
+      }
+    },
+    "opponent": {
+      "lp": {
+        "value": 8000,
+        "confidence": 0.9897550344467163,
+        "source": "template:opponent.lp",
+        "observed_at": 89652.5
+      },
+      "hand_count": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "unknown",
+        "observed_at": 89652.5
+      },
+      "zones": {}
+    },
+    "visible_actions": [
+      {
+        "type": "ACTIVATE",
+        "card_id": null,
+        "target": null,
+        "confidence": 0.9891008138656616,
+        "source_region": "action.primary",
+        "observed_at": 89652.5
+      }
+    ]
+  },
+  "events": [
+    {
+      "timestamp": 89652.5,
+      "event": "OBSERVED_CHANGE",
+      "path": "turn",
+      "before": 1,
+      "after": 2,
+      "confidence": 0.9881861209869385
+    },
+    {
+      "timestamp": 89652.5,
+      "event": "PHASE_CHANGED",
+      "path": "phase",
+      "before": "MAIN1",
+      "after": "BATTLE",
+      "confidence": 0.9877495765686035
+    },
+    {
+      "timestamp": 89652.5,
+      "event": "OBSERVED_CHANGE",
+      "path": "self.hand_count",
+      "before": 5,
+      "after": 4,
+      "confidence": 0.9881912469863892
+    },
+    {
+      "timestamp": 89652.5,
+      "event": "OBSERVED_CHANGE",
+      "path": "self.zones.monster_1",
+      "before": {
+        "card_id": "demo-alpha",
+        "name": "合成カード・アルファ",
+        "card_type": "monster"
+      },
+      "after": {
+        "card_id": "demo-beta",
+        "name": "合成カード・ベータ",
+        "card_type": "monster"
+      },
+      "confidence": 0.9871585369110107
+    },
+    {
+      "timestamp": 89652.5,
+      "event": "OBSERVED_CHANGE",
+      "path": "opponent.lp",
+      "before": 8000,
+      "after": 5200,
+      "confidence": 0.9877917170524597
+    }
+  ],
+  "legal_actions": [
+    {
+      "type": "ACTIVATE",
+      "card_id": null,
+      "target": null,
+      "confidence": 0.9891008138656616,
+      "source_region": "action.primary",
+      "observed_at": 89652.5
+    }
+  ],
+  "recommendation": {
+    "action": {
+      "type": "ACTIVATE",
+      "card_id": null,
+      "target": null,
+      "confidence": 0.9891008138656616,
+      "source_region": "action.primary",
+      "observed_at": 89652.5
+    },
+    "target": null,
+    "confidence": 0.9891008138656616,
+    "reason": "表示中の校正済み候補をターン・フェイズの対応ルールで絞り込み、最も信頼度の高い行動を選びました。基準実装であり、戦略的な最善手や全ルールの合法性は保証しません。",
+    "recognition_status": "partial"
+  },
+  "error": null,
+  "metrics": {
+    "capture_read_ms": 0.22869999520480633,
+    "perception_ms": 1.0600999958114699,
+    "decision_ms": 0.12910000805277377,
+    "decision_elapsed_ms": 0.0,
+    "decision_limit_ms": 10000,
+    "total_compute_ms": 1.500999991549179,
+    "api_calls": 0,
+    "api_cost_usd": 0,
+    "cache_hits": 0,
+    "recognized_regions": 8,
+    "ocr_ms": 0,
+    "state_build_ms": 0.07539999205619097,
+    "perception_reused": false
+  },
+  "stage_spans": [
+    {
+      "stage": "recognition",
+      "start": 89652.5345872,
+      "end": 89652.5355487
+    },
+    {
+      "stage": "state_build",
+      "start": 89652.5355487,
+      "end": 89652.535637
+    },
+    {
+      "stage": "state_build",
+      "start": 89652.5356419,
+      "end": 89652.535665
+    },
+    {
+      "stage": "candidate",
+      "start": 89652.5356655,
+      "end": 89652.5357717
+    },
+    {
+      "stage": "decision",
+      "start": 89652.5357721,
+      "end": 89652.5358541
+    }
+  ],
+  "plan": null,
+  "planner_source": "partial",
+  "card_knowledge": {
+    "pending": 0,
+    "ready": 0,
+    "last_error": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "phase": "telemetry_only_no_optimization",
+  "source_sha256": "82fcb1673fd6868bea8bc8612f26988ac1e1b660879889f62b06ab1f9704fb77",
+  "all_tests_before_final_fallback_flag_patch": {
+    "passed": 241,
+    "skipped": 4
+  },
+  "final_targeted_tests": {
+    "passed": 50
+  },
+  "synthetic_demo": {
+    "samples": 4,
+    "state_accuracy": 1,
+    "action_accuracy": 1,
+    "real_perception_gate_passed": false
+  },
+  "lint": "unavailable: ruff not installed",
+  "type_check": "unavailable: mypy/pyright not installed",
+  "compileall": "passed",
+  "pip_check": "passed",
+  "real_e2e_samples": 0,
+  "baseline_average_ms": null,
+  "improvement_ms": null,
+  "full_route_missing_calibration": 54,
+  "benchmark_cli_fixture": {
+    "parent_records": 5,
+    "live_samples": 0,
+    "passed": false
+  },
+  "final_kpi_passed": false
+}

@@ -1,0 +1,843 @@
+{
+  "schema": "stage-up-ready-facts-and-negative-plan-v1",
+  "scope": "saved raw matcher diagnostics; no runtime fact promotion",
+  "ready_frames": 7,
+  "raw_matchers": [
+    {
+      "sequence": 179,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9917455911636353
+        ],
+        "fact.inspect_context.main1": [
+          null,
+          0
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 180,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9916866421699524
+        ],
+        "fact.inspect_context.main1": [
+          null,
+          0
+        ]
+      },
+      "result_ready_candidate": true,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": {
+        "left": [
+          633,
+          605,
+          632,
+          685
+        ],
+        "top": [
+          621,
+          608,
+          720,
+          612
+        ],
+        "bbox": [
+          641,
+          619,
+          71,
+          58
+        ],
+        "point": [
+          681,
+          648
+        ],
+        "role": "handoff_visible_interior"
+      }
+    },
+    {
+      "sequence": 181,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9915856719017029
+        ],
+        "fact.inspect_context.main1": [
+          null,
+          0
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 182,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9914076924324036
+        ],
+        "fact.inspect_context.main1": [
+          null,
+          0
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 183,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9910697340965271
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9843481779098511
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 184,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9906957149505615
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9952602982521057
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 185,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9905562400817871
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9987103939056396
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 186,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9907991886138916
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.998733401298523
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 187,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9911491274833679
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9987747073173523
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 188,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9912621378898621
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9988436102867126
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 189,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9912729859352112
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9988711476325989
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 190,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.991357147693634
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9989154934883118
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 191,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9916301369667053
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9989629983901978
+        ]
+      },
+      "result_ready_candidate": true,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": {
+        "left": [
+          633,
+          607,
+          632,
+          685
+        ],
+        "top": [
+          629,
+          609,
+          718,
+          612
+        ],
+        "bbox": [
+          641,
+          619,
+          69,
+          58
+        ],
+        "point": [
+          681,
+          648
+        ],
+        "role": "handoff_visible_interior"
+      }
+    },
+    {
+      "sequence": 192,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9922290444374084
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.998950719833374
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 193,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9925236701965332
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9988940954208374
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 194,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.992874801158905
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9989109039306641
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 195,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9931874871253967
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9988573789596558
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 196,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9931634068489075
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9988588690757751
+        ]
+      },
+      "result_ready_candidate": true,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": {
+        "left": [
+          631,
+          630,
+          629,
+          707
+        ],
+        "top": [
+          621,
+          623,
+          708,
+          626
+        ],
+        "bbox": [
+          640,
+          632,
+          60,
+          67
+        ],
+        "point": [
+          681,
+          665
+        ],
+        "role": "handoff_visible_interior"
+      }
+    },
+    {
+      "sequence": 197,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9928820133209229
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.998799204826355
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 198,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.992556095123291
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9987808465957642
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 199,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9924010038375854
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9987563490867615
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 200,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.992191731929779
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9987257122993469
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 201,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.991891086101532
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9987043142318726
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 202,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9913848042488098
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.998685896396637
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 203,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9912140369415283
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.998673677444458
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 204,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9911034107208252
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.998661458492279
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 205,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9913198947906494
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9986491799354553
+        ]
+      },
+      "result_ready_candidate": true,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": {
+        "left": [
+          631,
+          630,
+          629,
+          705
+        ],
+        "top": [
+          621,
+          623,
+          709,
+          626
+        ],
+        "bbox": [
+          640,
+          632,
+          61,
+          65
+        ],
+        "point": [
+          681,
+          664
+        ],
+        "role": "handoff_visible_interior"
+      }
+    },
+    {
+      "sequence": 206,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9915976524353027
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9986507296562195
+        ]
+      },
+      "result_ready_candidate": true,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": {
+        "left": [
+          631,
+          630,
+          629,
+          704
+        ],
+        "top": [
+          639,
+          624,
+          742,
+          622
+        ],
+        "bbox": [
+          640,
+          633,
+          86,
+          63
+        ],
+        "point": [
+          681,
+          664
+        ],
+        "role": "handoff_visible_interior"
+      }
+    },
+    {
+      "sequence": 207,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9918694496154785
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9986644983291626
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 208,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9920918941497803
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9986721277236938
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 209,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9923925399780273
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9986629486083984
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 210,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9923648834228516
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.998685896396637
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 211,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9922578930854797
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.998693585395813
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 212,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9923529028892517
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9987547993659973
+        ]
+      },
+      "result_ready_candidate": true,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": {
+        "left": [
+          630,
+          618,
+          622,
+          718
+        ],
+        "top": [
+          621,
+          614,
+          737,
+          620
+        ],
+        "bbox": [
+          639,
+          623,
+          87,
+          87
+        ],
+        "point": [
+          681,
+          666
+        ],
+        "role": "handoff_visible_interior"
+      }
+    },
+    {
+      "sequence": 213,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9925164580345154
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9987884759902954
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 214,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9926583170890808
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9988787770271301
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 215,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9924346804618835
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9989461302757263
+        ]
+      },
+      "result_ready_candidate": true,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": {
+        "left": [
+          631,
+          630,
+          629,
+          706
+        ],
+        "top": [
+          624,
+          624,
+          740,
+          626
+        ],
+        "bbox": [
+          640,
+          633,
+          86,
+          65
+        ],
+        "point": [
+          681,
+          665
+        ],
+        "role": "handoff_visible_interior"
+      }
+    },
+    {
+      "sequence": 216,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9919379949569702
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9989997148513794
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 217,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9916542172431946
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9990211129188538
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 218,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.991400420665741
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9990134835243225
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    },
+    {
+      "sequence": 219,
+      "raw": {
+        "fact.inspect_context.detail_blank": [
+          "true",
+          0.9912272691726685
+        ],
+        "fact.inspect_context.main1": [
+          "true",
+          0.9989094138145447
+        ]
+      },
+      "result_ready_candidate": false,
+      "reason": "raw result predicate diagnosis only; actual Main1 action gating separate",
+      "current_ready_geometry": null
+    }
+  ],
+  "negative_coverage": {
+    "entered": "stage guard immediately returns False in script",
+    "static_sameDark": "oracle-free candidate prior rejected, not identity alone",
+    "Roar_Storm": "oracle-free candidate prior rejected",
+    "points_face_outside": "must fail all-point containment; synthetic not executed",
+    "flowbbox_ROI_outside": "must fail ROI; synthetic not executed",
+    "multiple_candidates": "common-support allpair must fail; synthetic not executed",
+    "other_flow_guard_false": "Python AND shortcircuit retains inlier/ratio/scale/dx checks; no independent synthetic execution"
+  },
+  "input_count": 0,
+  "e2e_count": 0,
+  "serialization_correction": "ready/geometry uses actual saved episode snapshots; initial assumed missing geometry corrected without replay"
+}

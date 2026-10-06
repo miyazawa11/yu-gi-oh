@@ -1,0 +1,11 @@
+{
+  "status": "time_limit",
+  "actions": 0,
+  "elapsed_seconds": 0.01600000000325963,
+  "action_log": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-hand-art-host-v2\\test_stale_candidate_never_cli0\\actions.jsonl",
+  "screenshots": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-hand-art-host-v2\\test_stale_candidate_never_cli0\\screenshots",
+  "logical_actions": 1,
+  "logical_action_log": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-hand-art-host-v2\\test_stale_candidate_never_cli0\\logical-actions.jsonl",
+  "telemetry_mode": "unclassified",
+  "observation_to_click_ms_p95": null
+}

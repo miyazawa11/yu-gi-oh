@@ -1,0 +1,2271 @@
+{
+  "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+  "manifest_sha256": "29651b685e6659857f66a2ad985c33946210e0d67b053db38aa29da52b6f7fbb",
+  "purpose": "exploration_existing_images_not_independent_holdout",
+  "mode": "offline_saved_image",
+  "usable_for_input": false,
+  "images": 75,
+  "passed": 75,
+  "false_cid": 0,
+  "recognition_only_ms": {
+    "calls": 7500,
+    "average": 0.05291068,
+    "p50": 0.036750000000000005,
+    "p95": 0.1283,
+    "max": 0.7772
+  },
+  "input_count": 0,
+  "e2e_count": 0,
+  "rows": [
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0001.png",
+      "sha256": "d19f6fd6de06389dcb0cbd57cb35fdde50ba3c6207b72fc6fe2fe9ff58e9a15f",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9998729825019836,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8938329815864563,
+        "margin": 0.10604000091552734,
+        "frame_seq": 0,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0002.png",
+      "sha256": "54c334d9a248913d936a1df58f7c9f68d9bf7915566e0935a1232600d476e9ea",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9997798204421997,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8937870264053345,
+        "margin": 0.10599279403686523,
+        "frame_seq": 1,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0003.png",
+      "sha256": "4c0059db175b48017523d62fcf0563958d8313eaaeedff01895f2074987036f4",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9996132254600525,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.893699586391449,
+        "margin": 0.10591363906860352,
+        "frame_seq": 2,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0004.png",
+      "sha256": "ef970f1abf9b1b9c4e6a344718f876906fc34b6f444f8628445fb05e81a9bf2f",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9995206594467163,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8936542272567749,
+        "margin": 0.1058664321899414,
+        "frame_seq": 3,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0005.png",
+      "sha256": "00504104366c8137313aa5f185c65651e17c5f4269a05d750d6be46dfa9e3b66",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9995697736740112,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8938030004501343,
+        "margin": 0.10576677322387695,
+        "frame_seq": 4,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0006.png",
+      "sha256": "89b603747c34d5af2d00795277a302c18f7b3eddf3f532ba601ea786fa88b22c",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9995308518409729,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8938521146774292,
+        "margin": 0.1056787371635437,
+        "frame_seq": 5,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0007.png",
+      "sha256": "2759eb6728d2e8d92cdc96ffd76f38ea50ace743e431df2fffc900fe43e50e00",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9994683265686035,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8938329815864563,
+        "margin": 0.10563534498214722,
+        "frame_seq": 6,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0008.png",
+      "sha256": "001b72c8741dc4b7c53b95ddd69ad62e4dceca6bb9983d1e596cb0debe60f42c",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9994096159934998,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.893831729888916,
+        "margin": 0.10557788610458374,
+        "frame_seq": 7,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0009.png",
+      "sha256": "3a83de18a6fe8082f585ac60f86915da2f537875643f95400b4454754e9ad338",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9993783235549927,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8938336372375488,
+        "margin": 0.10554468631744385,
+        "frame_seq": 8,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0010.png",
+      "sha256": "9271af39e32d5fba72a27aa4557248a61d6024eebe13c134e8bac15d0d23ab1b",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9993278980255127,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8937997817993164,
+        "margin": 0.10552811622619629,
+        "frame_seq": 9,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0011.png",
+      "sha256": "7c8ddbaf703cacd9923ca296696a62b938c573cd453a780ac0d742ba8e786104",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9993240833282471,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8938598036766052,
+        "margin": 0.10546427965164185,
+        "frame_seq": 10,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0012.png",
+      "sha256": "975341b98e5ee624cc8edb0270dc193ee3c19fd724101e598d58634613153f3f",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9993042945861816,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8938859701156616,
+        "margin": 0.10541832447052002,
+        "frame_seq": 11,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0013.png",
+      "sha256": "64a0ee56f4e2c59b386228c9206b13f761dab590ba940de5555094e8227fe373",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9992979168891907,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8938834071159363,
+        "margin": 0.1054145097732544,
+        "frame_seq": 12,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0014.png",
+      "sha256": "9485c1e363bb981a1dc1fc880f81156d2c8e1efc1a97c7ac7fc7e629fada7859",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9993463754653931,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8938629627227783,
+        "margin": 0.10548341274261475,
+        "frame_seq": 13,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0015.png",
+      "sha256": "f142b3b4cbfc725f7082881124b9b433d6fb7bd8b9d5739488ac84e4e1afc66d",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9993183016777039,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.893882155418396,
+        "margin": 0.10543614625930786,
+        "frame_seq": 14,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0016.png",
+      "sha256": "eadee0121780967add64e021bf0e3f3a363942d5ca9dfeaf9733bc168c394f5c",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.999285101890564,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8939102292060852,
+        "margin": 0.10537487268447876,
+        "frame_seq": 15,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0017.png",
+      "sha256": "9274c4fd4cdd5fbfc4844d8fc298284131a901eea0ed682d1f1fdcd7749b4248",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9992532134056091,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8939255475997925,
+        "margin": 0.10532766580581665,
+        "frame_seq": 16,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0018.png",
+      "sha256": "4cec8548ea456fb0e015de5ab32d3943eb0e65a80a7f603d5f8064330e2affa6",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9992391467094421,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8938987255096436,
+        "margin": 0.10534042119979858,
+        "frame_seq": 17,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0019.png",
+      "sha256": "55df31f022d64bf1106f84706fd45233c676e73e740df37414c59e6afaf219d6",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9991753697395325,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8938425779342651,
+        "margin": 0.10533279180526733,
+        "frame_seq": 18,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0001.png",
+      "sha256": "1cdd2575c775f1b96e8c4ac288ebe686d42a7dccb5397c33bd23f323559d7698",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9998787045478821,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.8963452577590942,
+        "margin": 0.10353344678878784,
+        "frame_seq": 19,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0002.png",
+      "sha256": "c6338dc65b0269c3c871babffba9bcde68207622042a8f16ac2b6c905792035a",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9997414946556091,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.8963037729263306,
+        "margin": 0.10343772172927856,
+        "frame_seq": 20,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0003.png",
+      "sha256": "362d37b191a97df4e246a18cee71a97ea612f9db5555b357512ee95db28fcfd0",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9997089505195618,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.8963413834571838,
+        "margin": 0.10336756706237793,
+        "frame_seq": 21,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0004.png",
+      "sha256": "0770392fc83c6457645fb4bddd91758ba46f52b5b3eb90777c955304af7f89f3",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9995979070663452,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.8963311910629272,
+        "margin": 0.10326671600341797,
+        "frame_seq": 22,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0005.png",
+      "sha256": "71356096759f1be98c0bb922b043d1a0b480dc9f26b3a7e8370a786796d3ba36",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9995015263557434,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.8963050246238708,
+        "margin": 0.10319650173187256,
+        "frame_seq": 23,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0006.png",
+      "sha256": "b897914e0b5c115843108db65b4c106bb1e93b2debbe834527ed16a66d263342",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9994996190071106,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.8962877988815308,
+        "margin": 0.10321182012557983,
+        "frame_seq": 24,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0007.png",
+      "sha256": "f8f86c52d7a4cc722b7820574128bac6f508de47631c59ef5ab84b5c4d78e72e",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9994957447052002,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.8962750434875488,
+        "margin": 0.10322070121765137,
+        "frame_seq": 25,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0008.png",
+      "sha256": "62cbac638d1d1bd933ea770c4c5035868b295d2df77aa36cf189de55ad16c8d3",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9994593858718872,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.8962411880493164,
+        "margin": 0.1032181978225708,
+        "frame_seq": 26,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0009.png",
+      "sha256": "54fdb391014800b8c8aca3908b0058a555eb0d68af1f28374e1f0db280a4a59b",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9994274377822876,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.896245002746582,
+        "margin": 0.10318243503570557,
+        "frame_seq": 27,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0010.png",
+      "sha256": "ad7d0bb66c0e64467da4b5229a8ce5b9fd82b71058f9e2e4f7f5d699b791ec37",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9994198083877563,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.8962539434432983,
+        "margin": 0.10316586494445801,
+        "frame_seq": 28,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0011.png",
+      "sha256": "908dcdc06e477929f2be0fb762441acc30c83bd50ded256a63e087a0b23f0722",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9994096159934998,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.8962756395339966,
+        "margin": 0.10313397645950317,
+        "frame_seq": 29,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0012.png",
+      "sha256": "38a4021964fd2c625da0579de99465058a6e7329eff673581d3eed4b2784cf4d",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9994555711746216,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.8962194919586182,
+        "margin": 0.10323607921600342,
+        "frame_seq": 30,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0013.png",
+      "sha256": "b6711865b6efa43b47f7dc188c615f4e791fe4d9965fe8bb8f925cd15388ff02",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9994280934333801,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.8961971402168274,
+        "margin": 0.10323095321655273,
+        "frame_seq": 31,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0014.png",
+      "sha256": "45bd4686fd3a84f3024cc7e59ec9030b7f9e5edb11412748a7bfbe3627adcea3",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9994459748268127,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.8962392807006836,
+        "margin": 0.10320669412612915,
+        "frame_seq": 32,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0015.png",
+      "sha256": "43760b9383ec341fcc1a60e94ce6e1fc22911b3332a6379fb0e1599438742563",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9994427561759949,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.8962322473526001,
+        "margin": 0.10321050882339478,
+        "frame_seq": 33,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0016.png",
+      "sha256": "41c341d4f0ef55232ea2c03bfd0094690eb66ed3bab81997e0305e63822f9d33",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9994415044784546,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.8962016105651855,
+        "margin": 0.10323989391326904,
+        "frame_seq": 34,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0017.png",
+      "sha256": "0511c795a3c67df3201b5978babbd34e26e26b1e65044ef22cc209a517b71f13",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9994089603424072,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.8961754441261292,
+        "margin": 0.10323351621627808,
+        "frame_seq": 35,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0018.png",
+      "sha256": "9974c8ac30d88a0308a0a8fad4a92b3b94cde886dcb6a87b820b187e93c9aa63",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9994032382965088,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.8962143659591675,
+        "margin": 0.10318887233734131,
+        "frame_seq": 36,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0019.png",
+      "sha256": "99865cf43d2a1c00ec245a2f8c0807245352e7f90dc2a749cfd33e36f1db7c98",
+      "expected_cid": "13581",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "13581",
+        "namespace": "konami",
+        "score": 0.9993814826011658,
+        "top_candidate": "13581",
+        "top2_cid": "12950",
+        "top2_score": 0.8962386250495911,
+        "margin": 0.10314285755157471,
+        "frame_seq": 37,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "818f2e592dd0557698dde18c1f4f7c8a3a2930c781e8482aeb251ffafeb9debf",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/ash-first/frame-0001.png",
+      "sha256": "204624acca13e58a12e8ba4f587a019bb6aa1911f2da45a10884bf956826a07d",
+      "expected_cid": "12950",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "12950",
+        "namespace": "konami",
+        "score": 0.9998838305473328,
+        "top_candidate": "12950",
+        "top2_cid": "13581",
+        "top2_score": 0.8963707685470581,
+        "margin": 0.10351306200027466,
+        "frame_seq": 38,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/ash-first/frame-0002.png",
+      "sha256": "2208d8a69ca5cc2d705d3ee7726003b83cafd4e363cacb6b0918e28126959ec5",
+      "expected_cid": "12950",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "12950",
+        "namespace": "konami",
+        "score": 0.9997695684432983,
+        "top_candidate": "12950",
+        "top2_cid": "13581",
+        "top2_score": 0.8964046239852905,
+        "margin": 0.10336494445800781,
+        "frame_seq": 39,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/ash-reopened/frame-0000.png",
+      "sha256": "e08c7f50ac174e63e29559a66092dd2bde61cffc1f69b41b0e0e1f1d2b3507c3",
+      "expected_cid": "12950",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "12950",
+        "namespace": "konami",
+        "score": 0.999015748500824,
+        "top_candidate": "12950",
+        "top2_cid": "13581",
+        "top2_score": 0.8960797190666199,
+        "margin": 0.1029360294342041,
+        "frame_seq": 40,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/ash-reopened/frame-0001.png",
+      "sha256": "348d2b46c338a3e7e9330058829e4c99c0e75409b731dabca009f1a621c24918",
+      "expected_cid": "12950",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "12950",
+        "namespace": "konami",
+        "score": 0.9990336298942566,
+        "top_candidate": "12950",
+        "top2_cid": "13581",
+        "top2_score": 0.8960899114608765,
+        "margin": 0.10294371843338013,
+        "frame_seq": 41,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/ash-reopened/frame-0002.png",
+      "sha256": "1fe0e2e844b8fe67612b84ad5166ca89d846db1c94ebaadf65fc0da21905b454",
+      "expected_cid": "12950",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "12950",
+        "namespace": "konami",
+        "score": 0.9990547299385071,
+        "top_candidate": "12950",
+        "top2_cid": "13581",
+        "top2_score": 0.8961607813835144,
+        "margin": 0.10289394855499268,
+        "frame_seq": 42,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/driver-first/frame-0000.png",
+      "sha256": "45ed581f638a4c133cc82e702368b058270eedfc594a05865639aa281f3be7fc",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.80403071641922,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.799724280834198,
+        "margin": 0.004306435585021973,
+        "frame_seq": 43,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/driver-first/frame-0001.png",
+      "sha256": "9667e60711a7a346214c4ce308188b0330ce6a7305aaa9496a7c5aa47445c3e0",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.8019664883613586,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.7937308549880981,
+        "margin": 0.008235633373260498,
+        "frame_seq": 44,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/driver-first/frame-0002.png",
+      "sha256": "7c1566c3d50673e81b41d04bd929661aaaf44640a2515ba703085c74dc4ec437",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.8008131980895996,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7977589964866638,
+        "margin": 0.003054201602935791,
+        "frame_seq": 45,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/driver-reopened/frame-0000.png",
+      "sha256": "682fde2d6cc38676775f5d87d9fd7f6ea3796e5b2342e572d213657cee69f4c6",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.8040064573287964,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7998493909835815,
+        "margin": 0.004157066345214844,
+        "frame_seq": 46,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/driver-reopened/frame-0001.png",
+      "sha256": "3c6abc9868b6cc5c7d218693176763e2124fcfe171ba1c982ec513cc08fcf045",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.8039898872375488,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7998430132865906,
+        "margin": 0.004146873950958252,
+        "frame_seq": 47,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/driver-reopened/frame-0002.png",
+      "sha256": "86e4de96d87d07ab7ed403ef3ce5fff69f38ea9c16a0b01373f9d0dc9fbc007e",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.803986668586731,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.799842357635498,
+        "margin": 0.00414431095123291,
+        "frame_seq": 48,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/dragondark-first/frame-0000.png",
+      "sha256": "151ca6be8e2353bbdf75d3a2e5f90de9a67b2c7cd0610432dc63afcbab69fac3",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.8565174341201782,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8462737798690796,
+        "margin": 0.010243654251098633,
+        "frame_seq": 49,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/dragondark-first/frame-0001.png",
+      "sha256": "54621ab90f48fc4148527e05437d1941b1124693a9e417c6ea761fda3f5fad06",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.8564912676811218,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8462501168251038,
+        "margin": 0.010241150856018066,
+        "frame_seq": 50,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/dragondark-first/frame-0002.png",
+      "sha256": "a5ffaa1bd9a7e813cf363f677272f7e0fa55a89a9918aea98a12bf50ace6e3c2",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.8564733862876892,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8462488651275635,
+        "margin": 0.010224521160125732,
+        "frame_seq": 51,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/dragondark-reopened/frame-0000.png",
+      "sha256": "0681275467cd2811b27ed2a82236d847d1ba2a078967bfdf232e1519dea288c7",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.8545017838478088,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8355762362480164,
+        "margin": 0.01892554759979248,
+        "frame_seq": 52,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/dragondark-reopened/frame-0001.png",
+      "sha256": "c0775bb4943702ac4f967ad569d71b72e6d6d49ab75aab1b03eb4cd03d971657",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.8544711470603943,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8355392217636108,
+        "margin": 0.018931925296783447,
+        "frame_seq": 53,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/dragondark-reopened/frame-0002.png",
+      "sha256": "703f9d1515453ff2f252a038e401a91ad4d24455810208f0961c51cb8d568e8e",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.854427695274353,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8355123996734619,
+        "margin": 0.018915295600891113,
+        "frame_seq": 54,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0000.png",
+      "sha256": "a8f9bd6c4bf7fb0d8e875e21aa0ea82c74f85a229f02cf0774decca7d6f139b4",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.746027946472168,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7388045787811279,
+        "margin": 0.007223367691040039,
+        "frame_seq": 55,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0001.png",
+      "sha256": "8a245051b024cbcc807ef13701e0011361481e8784948101097bc58fe5b2b17a",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.7458996772766113,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7383878231048584,
+        "margin": 0.00751185417175293,
+        "frame_seq": 56,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0002.png",
+      "sha256": "6995bcb77fb2668710c5b991954d28d691a57bddce6e64b4354bd5e012c1fcd7",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.7468552589416504,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.739898681640625,
+        "margin": 0.006956577301025391,
+        "frame_seq": 57,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0003.png",
+      "sha256": "870998b672b3b114550695ab162d11e6ef1918dee9bf8e8b8fb803df30e40d6c",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.7464320659637451,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7396248579025269,
+        "margin": 0.006807208061218262,
+        "frame_seq": 58,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0004.png",
+      "sha256": "eb96d53ee5f40c99662a907de52d38209deb589e94d70bce6034e981b54e829c",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.7456507682800293,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.739193320274353,
+        "margin": 0.0064574480056762695,
+        "frame_seq": 59,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0005.png",
+      "sha256": "d1fccb59e2c3289107966b6595d5ab8b69eea2f86bc9e1781996c13d7c9a5b03",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.7454439401626587,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7385090589523315,
+        "margin": 0.0069348812103271484,
+        "frame_seq": 60,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0006.png",
+      "sha256": "8b31578e42d72abc5bc7760b696160452f20b7e6b6c2d13714507f1e06709c2d",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.7463452219963074,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7382678985595703,
+        "margin": 0.00807732343673706,
+        "frame_seq": 61,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0007.png",
+      "sha256": "2fd682ae18de41f4c00c9a0b2207b6a10465bd31265f7162abbcc2bb89c02ced",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.746465802192688,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7387586832046509,
+        "margin": 0.007707118988037109,
+        "frame_seq": 62,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0008.png",
+      "sha256": "4675f26d47c0b04619d9f4b531292761d98098534b442764a91a7dbf33452098",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.7444661855697632,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7369695901870728,
+        "margin": 0.00749659538269043,
+        "frame_seq": 63,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0009.png",
+      "sha256": "673798e01715fa19c33e9ca57abca4bf61daa20ab05e63810c32a4bca17a4812",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.7445714473724365,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7378561496734619,
+        "margin": 0.006715297698974609,
+        "frame_seq": 64,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0010.png",
+      "sha256": "b37c2c0c135ece581254c72182b1ee6982063ce551ae8229507a87da1335857c",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.7432866096496582,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7378606200218201,
+        "margin": 0.005425989627838135,
+        "frame_seq": 65,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0011.png",
+      "sha256": "f30616f11e05d43628815f98a8ec695b31ac226bafb4fb2340843eb6124cfa99",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.7433217167854309,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7381229400634766,
+        "margin": 0.005198776721954346,
+        "frame_seq": 66,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0012.png",
+      "sha256": "d81f03ae03c569dbdf1d488829dc8c40b785b66c4179e053d1c166d7bfebb9b0",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.7424160242080688,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7385895252227783,
+        "margin": 0.0038264989852905273,
+        "frame_seq": 67,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0013.png",
+      "sha256": "eb9e45f4fd3c85a928ad785538a3dae2f81658abd44ce33421aa26776bfa716b",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.7423911094665527,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7398603558540344,
+        "margin": 0.0025307536125183105,
+        "frame_seq": 68,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0014.png",
+      "sha256": "c63c091692db696ce39ae558a70e1f5967ed247d7edafc8058cf3a550d3be483",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.7416002750396729,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7389495372772217,
+        "margin": 0.002650737762451172,
+        "frame_seq": 69,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0015.png",
+      "sha256": "5572924728162e440810744e2a49d888f6c43cd0779aa4467a19f4dee03e8f56",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.7406409978866577,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7381370067596436,
+        "margin": 0.00250399112701416,
+        "frame_seq": 70,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0016.png",
+      "sha256": "ea6cfaaf28ffbbde2607336d0a73306d288858d5a3361fc1db0ead53d9c00f2a",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.7392501831054688,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7364550828933716,
+        "margin": 0.002795100212097168,
+        "frame_seq": 71,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0017.png",
+      "sha256": "a4645355cfad2f90dcc2826c780f2dc5d6c4624933ca965550bcb06b2e32d953",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.7394275665283203,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7359738349914551,
+        "margin": 0.0034537315368652344,
+        "frame_seq": 72,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0018.png",
+      "sha256": "b84cc6296117a5f8a8e98756257ba6b846f178d47f0f5e0817f327229c637124",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.7399797439575195,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7364276647567749,
+        "margin": 0.003552079200744629,
+        "frame_seq": 73,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0019.png",
+      "sha256": "029ef11e3889870ae89fbfc0c9c94aa34bb6625b70300a2531368b2a99605024",
+      "expected_cid": null,
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": null,
+        "namespace": "konami",
+        "score": 0.7394313812255859,
+        "top_candidate": "12950",
+        "top2_cid": "9455",
+        "top2_score": 0.7349909543991089,
+        "margin": 0.004440426826477051,
+        "frame_seq": 74,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "3c356fae3577b7620e289f3457831c1e696cacd45a3a65d211328af594aa49ac",
+        "unknown_reason": "below_score_threshold",
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    }
+  ]
+}

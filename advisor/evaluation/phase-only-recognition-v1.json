@@ -1,0 +1,1104 @@
+[
+  {
+    "image": "000-story-list.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 0.9510999952908605
+  },
+  {
+    "image": "001-gate-loading.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 1.051200000802055
+  },
+  {
+    "image": "002-monarch-gate.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 0.9911999950418249
+  },
+  {
+    "image": "003-duel-node-selected.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 1.1027000000467524
+  },
+  {
+    "image": "004-duel-rental-tab.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 1.4575000022887252
+  },
+  {
+    "image": "005-my-deck-thunder.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 1.539299999421928
+  },
+  {
+    "image": "006-duel-first-player-loading.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 1.4407999988179654
+  },
+  {
+    "image": "007-self-turn1-main1-training.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": "true",
+        "confidence": 1.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": "true",
+        "confidence": 1.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [
+      "action.phase_open"
+    ],
+    "recognition_ms": 1.4184000028762966
+  },
+  {
+    "image": "008-self-turn1-main1-holdout.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": "true",
+        "confidence": 0.9855608940124512
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": "true",
+        "confidence": 0.9973447918891907
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [
+      "action.phase_open"
+    ],
+    "recognition_ms": 1.637299996218644
+  },
+  {
+    "image": "009-phase-menu-end-training.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": "true",
+        "confidence": 0.9833633303642273
+      },
+      "phase_context.menu_main1": {
+        "value": "true",
+        "confidence": 1.0
+      }
+    },
+    "raw_visible_actions": [
+      "action.phase_end"
+    ],
+    "recognition_ms": 2.086000000417698
+  },
+  {
+    "image": "010-phase-menu-end-holdout.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": "true",
+        "confidence": 0.9831788539886475
+      },
+      "phase_context.menu_main1": {
+        "value": "true",
+        "confidence": 0.9977060556411743
+      }
+    },
+    "raw_visible_actions": [
+      "action.phase_end"
+    ],
+    "recognition_ms": 1.698000000033062
+  },
+  {
+    "image": "011-self-turn1-end-animation.png",
+    "kind": "training_or_design",
+    "phase": "END",
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 1.6548999992664903
+  },
+  {
+    "image": "012-self-turn3-draw-animation.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": "true",
+        "confidence": 0.9972611665725708
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 1.937499997438863
+  },
+  {
+    "image": "013-self-turn3-main1-animation.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 1.5941999954520725
+  },
+  {
+    "image": "014-self-turn3-main1-stable.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": "true",
+        "confidence": 0.9911247491836548
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": "true",
+        "confidence": 0.9970428943634033
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [
+      "action.phase_open"
+    ],
+    "recognition_ms": 1.1133000007248484
+  },
+  {
+    "image": "015-ash-hand-menu.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": "true",
+        "confidence": 0.9903077483177185
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [
+      "action.phase_open"
+    ],
+    "recognition_ms": 1.069500001904089
+  },
+  {
+    "image": "016-ash-place-select.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": "true",
+        "confidence": 0.9844847917556763
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [
+      "action.phase_open"
+    ],
+    "recognition_ms": 1.189999995403923
+  },
+  {
+    "image": "017-ash-summon-animation.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": "true",
+        "confidence": 0.9973670840263367
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 0.9404999946127646
+  },
+  {
+    "image": "018-opponent-apophis-chain-response.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": "true",
+        "confidence": 0.9966050386428833
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 0.9594000002834946
+  },
+  {
+    "image": "019-apophis-chain-before-cancel.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": "true",
+        "confidence": 0.9979255795478821
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 0.9629999985918403
+  },
+  {
+    "image": "020-apophis-resolving.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 1.0094000026583672
+  },
+  {
+    "image": "021-opponent-summon-response.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": "true",
+        "confidence": 0.9973351955413818
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 0.9968999947886914
+  },
+  {
+    "image": "022-main1-new-training-1-summon-confirmed.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": "true",
+        "confidence": 1.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": "true",
+        "confidence": 1.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [
+      "action.phase_open"
+    ],
+    "recognition_ms": 1.0202999983448535
+  },
+  {
+    "image": "023-main1-new-training-2.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": "true",
+        "confidence": 1.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": "true",
+        "confidence": 1.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [
+      "action.phase_open"
+    ],
+    "recognition_ms": 1.0070999996969476
+  },
+  {
+    "image": "024-main1-new-holdout-1.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": "true",
+        "confidence": 0.9919047355651855
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": "true",
+        "confidence": 0.9969305396080017
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [
+      "action.phase_open"
+    ],
+    "recognition_ms": 0.9768000018084422
+  },
+  {
+    "image": "025-turn3-phase-menu-opening.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 1.0994000040227547
+  },
+  {
+    "image": "026-turn3-phase-menu-battle-enabled-holdout.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": "true",
+        "confidence": 0.9831954836845398
+      },
+      "phase_context.menu_main1": {
+        "value": "true",
+        "confidence": 0.9971737265586853
+      }
+    },
+    "raw_visible_actions": [
+      "action.phase_end"
+    ],
+    "recognition_ms": 1.000299998850096
+  },
+  {
+    "image": "027-turn3-end-click-menu-closing.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 0.9967000005417503
+  },
+  {
+    "image": "028-opponent-turn4-main1-chain-negative.png",
+    "kind": "training_or_design",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": "true",
+        "confidence": 0.99696946144104
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 0.9768000018084422
+  },
+  {
+    "image": "044-self-turn5-main1-independent-ready.png",
+    "kind": "independent_holdout",
+    "phase": null,
+    "prompt": null,
+    "animation": null,
+    "turn_player": null,
+    "facts": {
+      "phase_context.self_main1": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_center": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.clear_card_menu": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_title": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_end": {
+        "value": null,
+        "confidence": 0.0
+      },
+      "phase_context.menu_main1": {
+        "value": null,
+        "confidence": 0.0
+      }
+    },
+    "raw_visible_actions": [],
+    "recognition_ms": 1.0003999996115454
+  }
+]

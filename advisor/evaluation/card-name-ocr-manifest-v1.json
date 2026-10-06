@@ -1,0 +1,527 @@
+{
+  "schema": "local-name-ocr-experiment-v1",
+  "split_policy": "各カードの先頭5枚train/残り15枚eval。別対戦独立holdoutではない",
+  "roi_policy": "main name line, furigana/attribute excluded",
+  "samples": [
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0000.png",
+      "sha256": "7b15e9e1fc6d1f736d0112c857838f8f73e22b44b04a0e154724cf8f2dc30df6",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "train",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0001.png",
+      "sha256": "d19f6fd6de06389dcb0cbd57cb35fdde50ba3c6207b72fc6fe2fe9ff58e9a15f",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "train",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0002.png",
+      "sha256": "54c334d9a248913d936a1df58f7c9f68d9bf7915566e0935a1232600d476e9ea",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "train",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0003.png",
+      "sha256": "4c0059db175b48017523d62fcf0563958d8313eaaeedff01895f2074987036f4",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "train",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0004.png",
+      "sha256": "ef970f1abf9b1b9c4e6a344718f876906fc34b6f444f8628445fb05e81a9bf2f",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "train",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0005.png",
+      "sha256": "00504104366c8137313aa5f185c65651e17c5f4269a05d750d6be46dfa9e3b66",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0006.png",
+      "sha256": "89b603747c34d5af2d00795277a302c18f7b3eddf3f532ba601ea786fa88b22c",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0007.png",
+      "sha256": "2759eb6728d2e8d92cdc96ffd76f38ea50ace743e431df2fffc900fe43e50e00",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0008.png",
+      "sha256": "001b72c8741dc4b7c53b95ddd69ad62e4dceca6bb9983d1e596cb0debe60f42c",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0009.png",
+      "sha256": "3a83de18a6fe8082f585ac60f86915da2f537875643f95400b4454754e9ad338",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0010.png",
+      "sha256": "9271af39e32d5fba72a27aa4557248a61d6024eebe13c134e8bac15d0d23ab1b",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0011.png",
+      "sha256": "7c8ddbaf703cacd9923ca296696a62b938c573cd453a780ac0d742ba8e786104",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0012.png",
+      "sha256": "975341b98e5ee624cc8edb0270dc193ee3c19fd724101e598d58634613153f3f",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0013.png",
+      "sha256": "64a0ee56f4e2c59b386228c9206b13f761dab590ba940de5555094e8227fe373",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0014.png",
+      "sha256": "9485c1e363bb981a1dc1fc880f81156d2c8e1efc1a97c7ac7fc7e629fada7859",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0015.png",
+      "sha256": "f142b3b4cbfc725f7082881124b9b433d6fb7bd8b9d5739488ac84e4e1afc66d",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0016.png",
+      "sha256": "eadee0121780967add64e021bf0e3f3a363942d5ca9dfeaf9733bc168c394f5c",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0017.png",
+      "sha256": "9274c4fd4cdd5fbfc4844d8fc298284131a901eea0ed682d1f1fdcd7749b4248",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0018.png",
+      "sha256": "4cec8548ea456fb0e015de5ab32d3943eb0e65a80a7f603d5f8064330e2affa6",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0019.png",
+      "sha256": "55df31f022d64bf1106f84706fd45233c676e73e740df37414c59e6afaf219d6",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "9455",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 9455"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0000.png",
+      "sha256": "cc7b48b8f9310f04894d7a02781995dcaa84c292807449b43433d02ce417b3b5",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "train",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0001.png",
+      "sha256": "1cdd2575c775f1b96e8c4ac288ebe686d42a7dccb5397c33bd23f323559d7698",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "train",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0002.png",
+      "sha256": "c6338dc65b0269c3c871babffba9bcde68207622042a8f16ac2b6c905792035a",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "train",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0003.png",
+      "sha256": "362d37b191a97df4e246a18cee71a97ea612f9db5555b357512ee95db28fcfd0",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "train",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0004.png",
+      "sha256": "0770392fc83c6457645fb4bddd91758ba46f52b5b3eb90777c955304af7f89f3",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "train",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0005.png",
+      "sha256": "71356096759f1be98c0bb922b043d1a0b480dc9f26b3a7e8370a786796d3ba36",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0006.png",
+      "sha256": "b897914e0b5c115843108db65b4c106bb1e93b2debbe834527ed16a66d263342",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0007.png",
+      "sha256": "f8f86c52d7a4cc722b7820574128bac6f508de47631c59ef5ab84b5c4d78e72e",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0008.png",
+      "sha256": "62cbac638d1d1bd933ea770c4c5035868b295d2df77aa36cf189de55ad16c8d3",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0009.png",
+      "sha256": "54fdb391014800b8c8aca3908b0058a555eb0d68af1f28374e1f0db280a4a59b",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0010.png",
+      "sha256": "ad7d0bb66c0e64467da4b5229a8ce5b9fd82b71058f9e2e4f7f5d699b791ec37",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0011.png",
+      "sha256": "908dcdc06e477929f2be0fb762441acc30c83bd50ded256a63e087a0b23f0722",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0012.png",
+      "sha256": "38a4021964fd2c625da0579de99465058a6e7329eff673581d3eed4b2784cf4d",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0013.png",
+      "sha256": "b6711865b6efa43b47f7dc188c615f4e791fe4d9965fe8bb8f925cd15388ff02",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0014.png",
+      "sha256": "45bd4686fd3a84f3024cc7e59ec9030b7f9e5edb11412748a7bfbe3627adcea3",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0015.png",
+      "sha256": "43760b9383ec341fcc1a60e94ce6e1fc22911b3332a6379fb0e1599438742563",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0016.png",
+      "sha256": "41c341d4f0ef55232ea2c03bfd0094690eb66ed3bab81997e0305e63822f9d33",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0017.png",
+      "sha256": "0511c795a3c67df3201b5978babbd34e26e26b1e65044ef22cc209a517b71f13",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0018.png",
+      "sha256": "9974c8ac30d88a0308a0a8fad4a92b3b94cde886dcb6a87b820b187e93c9aa63",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    },
+    {
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0019.png",
+      "sha256": "99865cf43d2a1c00ec245a2f8c0807245352e7f90dc2a749cfd33e36f1db7c98",
+      "roi": [
+        22,
+        108,
+        215,
+        22
+      ],
+      "expected_cid": "13581",
+      "split": "eval",
+      "groundtruth": "既存MSS目視ラベル付き選択menu 13581"
+    }
+  ]
+}

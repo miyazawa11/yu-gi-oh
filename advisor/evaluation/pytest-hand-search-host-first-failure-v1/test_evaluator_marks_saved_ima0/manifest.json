@@ -1,0 +1,1 @@
+{"purpose": "exploration_existing_images_not_independent_holdout", "frames": [{"image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0001.png", "sha256": "d19f6fd6de06389dcb0cbd57cb35fdde50ba3c6207b72fc6fe2fe9ff58e9a15f", "expected_cid": "9455"}]}

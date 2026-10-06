@@ -1,0 +1,11 @@
+{
+  "status": "duel_ended",
+  "actions": 1,
+  "elapsed_seconds": 0.0,
+  "action_log": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-observed-draw-host-v1\\test_fast_loop_reports_latency0\\actions.jsonl",
+  "screenshots": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-observed-draw-host-v1\\test_fast_loop_reports_latency0\\screenshots",
+  "logical_actions": 1,
+  "logical_action_log": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-observed-draw-host-v1\\test_fast_loop_reports_latency0\\logical-actions.jsonl",
+  "telemetry_mode": "unclassified",
+  "observation_to_click_ms_p95": 16.00000000325963
+}

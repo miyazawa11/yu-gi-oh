@@ -1,0 +1,2884 @@
+{
+  "name": "Solo-normal-phase-typed-response-MSS-v1",
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "aspect_ratio": 1.7777777777777777,
+  "aspect_tolerance": 0.02,
+  "regions": {
+    "fact.inspect_context.main1": {
+      "rect": {
+        "x": 0.7398438281249999,
+        "y": 0.44027791666666666,
+        "width": 0.06796859375,
+        "height": 0.0527775
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-menu-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-menu-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-menu-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-menu-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-menu-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-menu-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-menu-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-menu-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-menu-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-menu-09.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-placement-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-placement-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-placement-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-placement-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-placement-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-placement-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-placement-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-placement-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-placement-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-placement-09.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-unselected-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-unselected-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-unselected-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-unselected-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-unselected-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-unselected-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-unselected-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-unselected-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-unselected-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-unselected-09.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-inspected-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-inspected-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-inspected-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-inspected-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-inspected-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-inspected-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-inspected-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-inspected-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-inspected-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-post-inspected-09.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-layout2-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-layout2-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-layout2-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-layout2-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-layout2-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-layout2-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-layout2-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-layout2-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-layout2-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_main1-true-layout2-09.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.inspect_context.clear_center": {
+      "rect": {
+        "x": 0.37500007812499997,
+        "y": 0.5152779166666667,
+        "width": 0.24999984375,
+        "height": 0.024999722222222222
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-menu-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-menu-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-menu-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-menu-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-menu-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-menu-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-menu-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-menu-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-menu-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-menu-09.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-unselected-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-unselected-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-unselected-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-unselected-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-unselected-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-unselected-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-unselected-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-unselected-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-unselected-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-unselected-09.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-inspected-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-inspected-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-inspected-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-inspected-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-inspected-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-inspected-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-inspected-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-inspected-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-inspected-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-post-inspected-09.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-layout2-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-layout2-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-layout2-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-layout2-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-layout2-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-layout2-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-layout2-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-layout2-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-layout2-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_clear_center-true-layout2-09.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.inspect_context.hand_selected": {
+      "rect": {
+        "x": 0.317968828125,
+        "y": 0.8041668055555555,
+        "width": 0.014062343750000001,
+        "height": 0.15555527777777778
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "fact_inspect_context_hand_selected-true-layout2-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_hand_selected-true-layout2-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_hand_selected-true-layout2-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_hand_selected-true-layout2-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_hand_selected-true-layout2-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_hand_selected-true-layout2-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_hand_selected-true-layout2-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_hand_selected-true-layout2-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_hand_selected-true-layout2-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_hand_selected-true-layout2-09.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.inspect_context.summon_enabled": {
+      "rect": {
+        "x": 0.29687507812499997,
+        "y": 0.6902779166666666,
+        "width": 0.057812343749999995,
+        "height": 0.10972194444444444
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "fact_inspect_context_summon_enabled-true-layout2-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_summon_enabled-true-layout2-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_summon_enabled-true-layout2-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_summon_enabled-true-layout2-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_summon_enabled-true-layout2-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_summon_enabled-true-layout2-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_summon_enabled-true-layout2-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_summon_enabled-true-layout2-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_summon_enabled-true-layout2-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_summon_enabled-true-layout2-09.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.inspect_context.placement": {
+      "rect": {
+        "x": 0.36328132812499997,
+        "y": 0.21805569444444445,
+        "width": 0.27031234375,
+        "height": 0.043055277777777776
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement-true-placement-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement-true-placement-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement-true-placement-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement-true-placement-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement-true-placement-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement-true-placement-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement-true-placement-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement-true-placement-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement-true-placement-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement-true-placement-09.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.inspect_context.placement_target": {
+      "rect": {
+        "x": 0.454687578125,
+        "y": 0.5305556944444444,
+        "width": 0.09062484374999999,
+        "height": 0.16944416666666665
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement_target-true-placement-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement_target-true-placement-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement_target-true-placement-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement_target-true-placement-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement_target-true-placement-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement_target-true-placement-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement_target-true-placement-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement_target-true-placement-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement_target-true-placement-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_placement_target-true-placement-09.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.zone.self.monster_2.occupancy": {
+      "rect": {
+        "x": 0.471093828125,
+        "y": 0.5527779166666666,
+        "width": 0.057812343749999995,
+        "height": 0.14999972222222221
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-menu-00.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-menu-01.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-menu-02.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-menu-03.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-menu-04.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-menu-05.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-menu-06.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-menu-07.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-menu-08.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-menu-09.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-unselected-00.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-unselected-01.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-unselected-02.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-unselected-03.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-unselected-04.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-unselected-05.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-unselected-06.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-unselected-07.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-unselected-08.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-unselected-09.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-inspected-00.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-inspected-01.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-inspected-02.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-inspected-03.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-inspected-04.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-inspected-05.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-inspected-06.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-inspected-07.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-inspected-08.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-inspected-09.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-layout2-00.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-layout2-01.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-layout2-02.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-layout2-03.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-layout2-04.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-layout2-05.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-layout2-06.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-layout2-07.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-layout2-08.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-layout2-09.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "stable_rgb_excluded_rows": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "card_id": null,
+      "target": null
+    },
+    "fact.inspect_context.detail_blank": {
+      "rect": {
+        "x": 0.015625078125,
+        "y": 0.19444458333333334,
+        "width": 0.19140609375,
+        "height": 0.4166663888888889
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_blank-true-post-unselected-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_blank-true-post-unselected-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_blank-true-post-unselected-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_blank-true-post-unselected-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_blank-true-post-unselected-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_blank-true-post-unselected-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_blank-true-post-unselected-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_blank-true-post-unselected-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_blank-true-post-unselected-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_blank-true-post-unselected-09.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.inspect_context.detail_panel": {
+      "rect": {
+        "x": 0.20546882812499997,
+        "y": 0.3041668055555556,
+        "width": 0.00937484375,
+        "height": 0.05555527777777778
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-menu-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-menu-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-menu-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-menu-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-menu-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-menu-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-menu-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-menu-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-menu-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-menu-09.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-post-inspected-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-post-inspected-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-post-inspected-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-post-inspected-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-post-inspected-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-post-inspected-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-post-inspected-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-post-inspected-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-post-inspected-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-post-inspected-09.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-layout2-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-layout2-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-layout2-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-layout2-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-layout2-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-layout2-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-layout2-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-layout2-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-layout2-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_inspect_context_detail_panel-true-layout2-09.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "action.inspect_normal": {
+      "rect": {
+        "x": 0.29687507812499997,
+        "y": 0.6902779166666666,
+        "width": 0.057812343749999995,
+        "height": 0.10972194444444444
+      },
+      "kind": "action",
+      "exemplars": [
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_inspect_normal-NORMAL_SUMMON-layout2-00.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_inspect_normal-NORMAL_SUMMON-layout2-01.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_inspect_normal-NORMAL_SUMMON-layout2-02.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_inspect_normal-NORMAL_SUMMON-layout2-03.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_inspect_normal-NORMAL_SUMMON-layout2-04.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_inspect_normal-NORMAL_SUMMON-layout2-05.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_inspect_normal-NORMAL_SUMMON-layout2-06.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_inspect_normal-NORMAL_SUMMON-layout2-07.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_inspect_normal-NORMAL_SUMMON-layout2-08.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_inspect_normal-NORMAL_SUMMON-layout2-09.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": "12950",
+      "target": null
+    },
+    "action.inspect_place": {
+      "rect": {
+        "x": 0.454687578125,
+        "y": 0.5305556944444444,
+        "width": 0.09062484374999999,
+        "height": 0.16944416666666665
+      },
+      "kind": "action",
+      "exemplars": [
+        {
+          "label": "CONFIRM",
+          "image": "action_inspect_place-CONFIRM-placement-00.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_inspect_place-CONFIRM-placement-01.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_inspect_place-CONFIRM-placement-02.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_inspect_place-CONFIRM-placement-03.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_inspect_place-CONFIRM-placement-04.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_inspect_place-CONFIRM-placement-05.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_inspect_place-CONFIRM-placement-06.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_inspect_place-CONFIRM-placement-07.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_inspect_place-CONFIRM-placement-08.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_inspect_place-CONFIRM-placement-09.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": "12950",
+      "target": "self.monster_2"
+    },
+    "action.inspect_zone": {
+      "rect": {
+        "x": 0.471093828125,
+        "y": 0.5527779166666666,
+        "width": 0.057812343749999995,
+        "height": 0.14999972222222221
+      },
+      "kind": "action",
+      "exemplars": [
+        {
+          "label": "SELECT_CARD",
+          "image": "action_inspect_zone-SELECT_CARD-post-unselected-00.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_inspect_zone-SELECT_CARD-post-unselected-01.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_inspect_zone-SELECT_CARD-post-unselected-02.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_inspect_zone-SELECT_CARD-post-unselected-03.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_inspect_zone-SELECT_CARD-post-unselected-04.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_inspect_zone-SELECT_CARD-post-unselected-05.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_inspect_zone-SELECT_CARD-post-unselected-06.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_inspect_zone-SELECT_CARD-post-unselected-07.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_inspect_zone-SELECT_CARD-post-unselected-08.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_inspect_zone-SELECT_CARD-post-unselected-09.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "stable_rgb_excluded_rows": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "card_id": "12950",
+      "target": "self.monster_2"
+    },
+    "fact.phase_context.self_main1": {
+      "rect": {
+        "x": 0.7320313281249999,
+        "y": 0.3902779166666666,
+        "width": 0.07890609374999999,
+        "height": 0.13194416666666667
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-47.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-48.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-49.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-50.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-51.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-52.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-53.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-54.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-55.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-56.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-57.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-58.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-59.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-60.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-61.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-62.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-63.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-64.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-65.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_self_main1-66.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.phase_context.clear_center": {
+      "rect": {
+        "x": 0.37421882812499996,
+        "y": 0.5152779166666667,
+        "width": 0.24999984375,
+        "height": 0.05555527777777778
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_center-7.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_center-22.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_center-23.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_center-45.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.phase_context.clear_card_menu": {
+      "rect": {
+        "x": 0.208593828125,
+        "y": 0.3041668055555556,
+        "width": 0.00937484375,
+        "height": 0.05555527777777778
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-47.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-48.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-49.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-50.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-51.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-52.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-53.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-54.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-55.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-56.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-57.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-58.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-59.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-60.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-61.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-62.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-63.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-64.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-65.png"
+        },
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_clear_card_menu-66.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.phase_context.menu_title": {
+      "rect": {
+        "x": 0.38593757812499996,
+        "y": 0.5152779166666667,
+        "width": 0.23046859375,
+        "height": 0.037499722222222226
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_menu_title-9.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.phase_context.menu_end": {
+      "rect": {
+        "x": 0.742968828125,
+        "y": 0.6388890277777778,
+        "width": 0.08906234375,
+        "height": 0.16666638888888888
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_menu_end-9.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.phase_context.menu_main1": {
+      "rect": {
+        "x": 0.39765632812499996,
+        "y": 0.6430556944444444,
+        "width": 0.09140609375,
+        "height": 0.1652775
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "phase_fact_phase_context_menu_main1-9.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "rgb",
+      "card_id": null,
+      "target": null
+    },
+    "action.phase_open": {
+      "rect": {
+        "x": 0.7320313281249999,
+        "y": 0.3902779166666666,
+        "width": 0.07890609374999999,
+        "height": 0.13194416666666667
+      },
+      "kind": "action",
+      "exemplars": [
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-47.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-48.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-49.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-50.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-51.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-52.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-53.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-54.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-55.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-56.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-57.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-58.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-59.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-60.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-61.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-62.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-63.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-64.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-65.png"
+        },
+        {
+          "label": "CHANGE_PHASE",
+          "image": "phase_action_phase_open-66.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "action.phase_end": {
+      "rect": {
+        "x": 0.742968828125,
+        "y": 0.6388890277777778,
+        "width": 0.08906234375,
+        "height": 0.16666638888888888
+      },
+      "kind": "action",
+      "exemplars": [
+        {
+          "label": "CONFIRM",
+          "image": "phase_action_phase_end-9.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "rgb",
+      "card_id": null,
+      "target": null
+    },
+    "phase": {
+      "rect": {
+        "x": 0.350000078125,
+        "y": 0.4652779166666666,
+        "width": 0.31484359375,
+        "height": 0.07361083333333333
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "END",
+          "image": "phase_phase-11.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.response.prompt.opponent_summon_success": {
+      "rect": {
+        "x": 0.39062507812499997,
+        "y": 0.62361125,
+        "width": 0.20859359375,
+        "height": 0.04722194444444445
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_summon_success_000.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_summon_success_001.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_summon_success_002.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_summon_success_003.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_summon_success_004.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_summon_success_005.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_summon_success_006.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_summon_success_007.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_summon_success_008.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_summon_success_009.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.response.phrase.opponent_summon_success": {
+      "rect": {
+        "x": 0.391406328125,
+        "y": 0.62361125,
+        "width": 0.20546859374999998,
+        "height": 0.023610833333333334
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_summon_success_000.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_summon_success_001.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_summon_success_002.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_summon_success_003.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_summon_success_004.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_summon_success_005.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_summon_success_006.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_summon_success_007.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_summon_success_008.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_summon_success_009.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.response.badge.opponent_summon_success": {
+      "rect": {
+        "x": 0.739062578125,
+        "y": 0.4444445833333333,
+        "width": 0.06718734374999999,
+        "height": 0.036110833333333335
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_summon_success_000.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_summon_success_001.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_summon_success_002.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_summon_success_003.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_summon_success_004.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_summon_success_005.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_summon_success_006.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_summon_success_007.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_summon_success_008.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_summon_success_009.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.response.cancel_enabled.opponent_summon_success": {
+      "rect": {
+        "x": 0.356250078125,
+        "y": 0.9180556944444445,
+        "width": 0.13906234374999998,
+        "height": 0.05555527777777778
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_summon_success_000.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_summon_success_001.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_summon_success_002.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_summon_success_003.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_summon_success_004.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_summon_success_005.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_summon_success_006.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_summon_success_007.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_summon_success_008.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_summon_success_009.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "rgb",
+      "card_id": null,
+      "target": null
+    },
+    "action.cancel_opponent_summon_success": {
+      "rect": {
+        "x": 0.356250078125,
+        "y": 0.9180556944444445,
+        "width": 0.13906234374999998,
+        "height": 0.05555527777777778
+      },
+      "kind": "action",
+      "exemplars": [
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_summon_success_000.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_summon_success_001.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_summon_success_002.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_summon_success_003.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_summon_success_004.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_summon_success_005.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_summon_success_006.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_summon_success_007.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_summon_success_008.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_summon_success_009.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.response.prompt.opponent_turn_end": {
+      "rect": {
+        "x": 0.39062507812499997,
+        "y": 0.62361125,
+        "width": 0.20859359375,
+        "height": 0.04722194444444445
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_000.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_001.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_002.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_003.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_004.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_005.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_006.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_007.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_008.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_009.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_010.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_011.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_012.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_013.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_014.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_015.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_016.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_017.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_018.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_prompt_opponent_turn_end_019.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.response.phrase.opponent_turn_end": {
+      "rect": {
+        "x": 0.391406328125,
+        "y": 0.62361125,
+        "width": 0.20546859374999998,
+        "height": 0.023610833333333334
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_000.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_001.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_002.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_003.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_004.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_005.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_006.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_007.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_008.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_009.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_010.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_011.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_012.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_013.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_014.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_015.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_016.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_017.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_018.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_phrase_opponent_turn_end_019.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.response.badge.opponent_turn_end": {
+      "rect": {
+        "x": 0.739062578125,
+        "y": 0.4444445833333333,
+        "width": 0.06718734374999999,
+        "height": 0.036110833333333335
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_000.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_001.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_002.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_003.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_004.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_005.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_006.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_007.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_008.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_009.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_010.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_011.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_012.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_013.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_014.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_015.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_016.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_017.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_018.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_badge_opponent_turn_end_019.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.response.cancel_enabled.opponent_turn_end": {
+      "rect": {
+        "x": 0.356250078125,
+        "y": 0.9180556944444445,
+        "width": 0.13906234374999998,
+        "height": 0.05555527777777778
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_000.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_001.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_002.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_003.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_004.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_005.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_006.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_007.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_008.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_009.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_010.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_011.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_012.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_013.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_014.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_015.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_016.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_017.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_018.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_cancel_enabled_opponent_turn_end_019.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "rgb",
+      "card_id": null,
+      "target": null
+    },
+    "action.cancel_opponent_turn_end": {
+      "rect": {
+        "x": 0.356250078125,
+        "y": 0.9180556944444445,
+        "width": 0.13906234374999998,
+        "height": 0.05555527777777778
+      },
+      "kind": "action",
+      "exemplars": [
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_000.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_001.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_002.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_003.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_004.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_005.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_006.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_007.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_008.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_009.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_010.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_011.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_012.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_013.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_014.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_015.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_016.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_017.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_018.png"
+        },
+        {
+          "label": "CANCEL",
+          "image": "response_action_cancel_opponent_turn_end_019.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.response.outcome.opponent_end_response": {
+      "rect": {
+        "x": 0.739062578125,
+        "y": 0.4444445833333333,
+        "width": 0.06718734374999999,
+        "height": 0.036110833333333335
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_000.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_001.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_002.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_003.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_004.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_005.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_006.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_007.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_008.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_009.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_010.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_011.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_012.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_013.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_014.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_015.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_016.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_017.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_018.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_opponent_end_response_019.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.response.modal_absent": {
+      "rect": {
+        "x": 0.33203132812499997,
+        "y": 0.61111125,
+        "width": 0.33359359375,
+        "height": 0.058333055555555555
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_000.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_001.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_002.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_003.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_004.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_005.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_006.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_007.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_008.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_009.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_010.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_011.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_012.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_013.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_014.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_015.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_016.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_017.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_018.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_modal_absent_019.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.response.outcome.self_draw": {
+      "rect": {
+        "x": 0.739062578125,
+        "y": 0.4444445833333333,
+        "width": 0.06718734374999999,
+        "height": 0.036110833333333335
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_000.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_001.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_002.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_003.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_004.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_005.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_006.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_007.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_008.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_009.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_010.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_011.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_012.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_013.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_014.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_015.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_016.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_017.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_018.png"
+        },
+        {
+          "label": "true",
+          "image": "response_fact_response_outcome_self_draw_019.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "action.dragondark_hand_activate": {
+      "kind": "action",
+      "rect": {
+        "x": 0.390625,
+        "y": 0.6527777777777778,
+        "width": 0.265625,
+        "height": 0.1527777777777778
+      },
+      "exemplars": [
+        {
+          "label": "ACTIVATE",
+          "image": "hand-search-effect_hand7-slot3-000.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "card_id": "13906",
+      "target": null
+    },
+    "action.dragondark_own_chain_cancel": {
+      "kind": "action",
+      "rect": {
+        "x": 0.35625,
+        "y": 0.9180555555555555,
+        "width": 0.1390625,
+        "height": 0.05555555555555555
+      },
+      "exemplars": [
+        {
+          "label": "CANCEL",
+          "image": "hand-search-own_chain-000.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "card_id": null,
+      "target": null
+    },
+    "action.dragondark_result_hand_inspect": {
+      "kind": "action",
+      "rect": {
+        "x": 0.25,
+        "y": 0.8055555555555556,
+        "width": 0.5078125,
+        "height": 0.19444444444444445
+      },
+      "exemplars": [
+        {
+          "label": "SELECT_CARD",
+          "image": "hand-search-ready_hand7-slot3-000.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "card_id": "13906",
+      "target": "self.hand.received"
+    }
+  },
+  "composites": [
+    {
+      "id": "menu",
+      "when": {
+        "fact.inspect_context.main1": "true",
+        "fact.inspect_context.clear_center": "true",
+        "fact.inspect_context.hand_selected": "true",
+        "fact.inspect_context.summon_enabled": "true",
+        "fact.zone.self.monster_2.occupancy": "empty",
+        "fact.inspect_context.detail_panel": "true"
+      },
+      "emit": {
+        "phase": "MAIN1",
+        "turn_player": "self",
+        "game.terminal": "active",
+        "ui.animation": "idle",
+        "ui.prompt": "card.menu"
+      }
+    },
+    {
+      "id": "placement",
+      "when": {
+        "fact.inspect_context.main1": "true",
+        "fact.inspect_context.placement": "true",
+        "fact.inspect_context.placement_target": "true"
+      },
+      "emit": {
+        "phase": "MAIN1",
+        "turn_player": "self",
+        "game.terminal": "active",
+        "ui.animation": "idle",
+        "ui.prompt": "placement.select"
+      }
+    },
+    {
+      "id": "post_unselected",
+      "when": {
+        "fact.inspect_context.main1": "true",
+        "fact.inspect_context.clear_center": "true",
+        "fact.zone.self.monster_2.occupancy": "occupied",
+        "fact.inspect_context.detail_blank": "true"
+      },
+      "emit": {
+        "phase": "MAIN1",
+        "turn_player": "self",
+        "game.terminal": "active",
+        "ui.animation": "idle",
+        "ui.prompt": "none"
+      }
+    },
+    {
+      "id": "post_inspected",
+      "when": {
+        "fact.inspect_context.main1": "true",
+        "fact.inspect_context.clear_center": "true",
+        "fact.zone.self.monster_2.occupancy": "occupied",
+        "fact.inspect_context.detail_panel": "true"
+      },
+      "emit": {
+        "phase": "MAIN1",
+        "turn_player": "self",
+        "game.terminal": "active",
+        "ui.animation": "idle",
+        "ui.prompt": "field.inspect"
+      }
+    },
+    {
+      "id": "known_main1_clear",
+      "when": {
+        "fact.phase_context.self_main1": "true",
+        "fact.phase_context.clear_center": "true",
+        "fact.phase_context.clear_card_menu": "true"
+      },
+      "emit": {
+        "phase": "MAIN1",
+        "turn_player": "self",
+        "game.terminal": "active",
+        "ui.animation": "idle",
+        "ui.prompt": "none"
+      }
+    },
+    {
+      "id": "stable_phase_menu",
+      "when": {
+        "fact.phase_context.menu_title": "true",
+        "fact.phase_context.menu_end": "true",
+        "fact.phase_context.menu_main1": "true"
+      },
+      "emit": {
+        "phase": "MAIN1",
+        "turn_player": "self",
+        "game.terminal": "active",
+        "ui.animation": "idle",
+        "ui.prompt": "phase.select"
+      }
+    },
+    {
+      "id": "response_opponent_summon_success",
+      "when": {
+        "fact.response.prompt.opponent_summon_success": "true",
+        "fact.response.phrase.opponent_summon_success": "true",
+        "fact.response.badge.opponent_summon_success": "true",
+        "fact.response.cancel_enabled.opponent_summon_success": "true"
+      },
+      "emit": {
+        "ui.prompt": "response.opponent_summon_success",
+        "phase": "MAIN1",
+        "turn_player": "opponent",
+        "ui.animation": "idle",
+        "game.terminal": "active"
+      }
+    },
+    {
+      "id": "response_opponent_turn_end",
+      "when": {
+        "fact.response.prompt.opponent_turn_end": "true",
+        "fact.response.phrase.opponent_turn_end": "true",
+        "fact.response.badge.opponent_turn_end": "true",
+        "fact.response.cancel_enabled.opponent_turn_end": "true"
+      },
+      "emit": {
+        "ui.prompt": "response.opponent_turn_end",
+        "phase": "END",
+        "turn_player": "opponent",
+        "ui.animation": "idle",
+        "game.terminal": "active"
+      }
+    },
+    {
+      "id": "response_self_draw",
+      "when": {
+        "fact.response.modal_absent": "true",
+        "fact.response.outcome.self_draw": "true"
+      },
+      "emit": {
+        "ui.prompt": "none",
+        "phase": "DRAW",
+        "turn_player": "self",
+        "game.terminal": "active"
+      }
+    }
+  ],
+  "recognition_assets": {
+    "detail_name_registry": {
+      "path": "..\\detail-name-registry-v1\\registry.json",
+      "sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950"
+    },
+    "action_evidence_detector": {
+      "path": "ui-bank.json",
+      "sha256": "99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab"
+    }
+  }
+}

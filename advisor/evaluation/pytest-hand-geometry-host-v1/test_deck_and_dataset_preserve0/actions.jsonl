@@ -1,0 +1,4 @@
+{"status": "changed", "state_before": {"unknown": null}, "action": {"type": "ACTIVATE"}}
+{"status": "unchanged", "state_before": {"unknown": null}, "action": {"type": "ACTIVATE"}}
+{"status": "input_blocked", "state_before": {"unknown": null}, "action": {"type": "ACTIVATE"}}
+{"status": "duel_ended", "state_before": {"unknown": null}, "action": {"type": "ACTIVATE"}}

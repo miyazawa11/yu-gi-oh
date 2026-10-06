@@ -1,0 +1,16 @@
+{
+  "source_sha256": "4525ea01ee8099d4bf753821555bfb70d6ac90fdac5a347857e1a74200e1f94b",
+  "calibration_sha256": "7b9c7773ec978aca9ae3d44544997fde35b5d51c3603f8b3bce94677769f7c06",
+  "tests": {
+    "passed": 257,
+    "skipped": 4
+  },
+  "targeted_tests": 65,
+  "compileall": "passed",
+  "sky_holdout_067": "passed_one_image",
+  "host_mss_raw": "rejected_circle",
+  "sandbox_mss_raw": "rejected_black",
+  "autonomous_inputs": 0,
+  "real_logical_samples": 0,
+  "final_kpi_passed": false
+}

@@ -1,0 +1,101 @@
+{
+  "schema": "actual-verification-failure-v1",
+  "role": "last_recognized",
+  "reason": "verify_timeout",
+  "telemetry_mode": "synthetic",
+  "capture_source": "live_mss",
+  "capture_rect": [
+    -1920,
+    785,
+    -1720,
+    885
+  ],
+  "sequence": 1,
+  "captured_at_monotonic": 1.05,
+  "capture_start_perf": 90323.1865336,
+  "capture_end_perf": 90323.1865353,
+  "input_epoch": 7,
+  "image": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-hand-search-host-final-v1\\test_verify_timeout_preserves_1\\screenshots\\verify-failure-0000-last_recognized-seq1.png",
+  "image_sha256": "e466c5924de4acd68e6d35d59666ca1f16bdb077b984255431936f92e9f9d2a0",
+  "state": {
+    "sequence": 1,
+    "captured_at": 1.05,
+    "media_time": null,
+    "turn": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "unknown",
+      "observed_at": 0.0
+    },
+    "turn_player": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "unknown",
+      "observed_at": 0.0
+    },
+    "phase": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "unknown",
+      "observed_at": 0.0
+    },
+    "terminal": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "unknown",
+      "observed_at": 0.0
+    },
+    "prompt": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "unknown",
+      "observed_at": 0.0
+    },
+    "animation": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "unknown",
+      "observed_at": 0.0
+    },
+    "card_states": {},
+    "facts": {},
+    "material_sets": {},
+    "self": {
+      "lp": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "unknown",
+        "observed_at": 0.0
+      },
+      "hand_count": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "unknown",
+        "observed_at": 0.0
+      },
+      "zones": {}
+    },
+    "opponent": {
+      "lp": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "unknown",
+        "observed_at": 0.0
+      },
+      "hand_count": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "unknown",
+        "observed_at": 0.0
+      },
+      "zones": {}
+    },
+    "visible_actions": []
+  },
+  "state_unavailable_reason": null,
+  "expected_facts": {},
+  "expected_prompts": [],
+  "observed_expected_facts": {},
+  "configured_roi_diagnostic_scores": {},
+  "notice": "rawscoreは失敗保存時の診断再計算。実取得clockを保持しfresh化しません。相対手札ROIとは別です"
+}

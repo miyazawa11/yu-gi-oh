@@ -1,0 +1,75 @@
+{
+  "run_at": "2026-10-04T09:47:09.890382+00:00",
+  "host": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.7",
+  "pytest": {
+    "passed": 68,
+    "skipped": 4,
+    "failures": 0,
+    "skip_reason": "Tesseract 未導入"
+  },
+  "pip_check": "passed",
+  "synthetic_state_accuracy": 1.0,
+  "synthetic_samples": 4,
+  "replay": {
+    "captured": 12,
+    "processed": 5
+  },
+  "windows_live_validated": false,
+  "real_game_recognition_validated": false,
+  "real_perception_gate_passed": false,
+  "capture_consent": "別モニターの左上から1280×720を1枚取得する許可。追加取得は都度確認",
+  "fixes": [
+    "Python ランチャーに依存しないセットアップ",
+    "PYTHONUTF8 による依存ファイルの文字コード対応",
+    "日本語パスの画像読み書き",
+    "MSS の負のデスクトップ座標対応。dxcam は未対応として明示"
+  ],
+  "gpu_usage": null,
+  "true_frame_drops": null,
+  "physical_latency_ms": null,
+  "api_calls": 0,
+  "api_cost_usd": 0,
+  "secondary_monitor_snapshot": {
+    "backend": "mss",
+    "rect": [
+      -1920,
+      785,
+      -640,
+      1505
+    ],
+    "image": "artifacts/real-screen-003.png",
+    "result": "Master Duel の設定画面を確認。タイトルバーを含む",
+    "display_mode": "windowed",
+    "configured_resolution": [
+      1280,
+      720
+    ],
+    "recognition_evaluated": false
+  },
+  "agent_loop": {
+    "implemented": true,
+    "mode": "explicit agent-loop command",
+    "unit_tests": 4,
+    "live_game_clicks_tested": false,
+    "live_reason": "実画面の校正済み操作テンプレートとデュエル終了テンプレートが未整備",
+    "safety": {
+      "max_runtime_seconds": 300,
+      "max_clicks": 100,
+      "minimum_confidence": 0.98,
+      "max_same_action": 3,
+      "escape_stop": true,
+      "before_after_screenshots": true,
+      "jsonl_log": true
+    },
+    "verification": "画像差分に加えて認識状態またはボタン候補の変化を要求",
+    "verification_rerun": {
+      "pytest_passed": 68,
+      "pytest_skipped": 4,
+      "pip_check": "passed",
+      "synthetic_demo": "passed",
+      "calibration_files_found": 0,
+      "live_click_verification": "not run; no real-screen calibration JSON"
+    }
+  }
+}

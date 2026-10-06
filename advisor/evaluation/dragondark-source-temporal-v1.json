@@ -1,0 +1,3353 @@
+{
+  "schema": "solo-response-temporal-v1",
+  "passed": false,
+  "cases": 10,
+  "input_count": 0,
+  "e2e_count": 0,
+  "logical_action": "dragondark_hand_search",
+  "training_used": false,
+  "source_sha256": "292c4502cd5afbcb38a0a62437bafdd19be9307695f835e0cfec14fe2566c66c",
+  "manifest": "artifacts\\baseline-tester\\DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006\\menu\\manifest.json",
+  "original_manifest_metadata": {
+    "purpose": "fixed Dragondark source temporal evaluation; not training; input0",
+    "stage": "menu",
+    "capture_session_utc": "2026-10-06T01:03:51.356915+00:00",
+    "capture_source": "mss",
+    "clock_domain": "python_monotonic captured_at; perf_counter duration separate",
+    "input_count": 0
+  },
+  "evaluation_capture_context": "offline_saved_image_observed_at_zero",
+  "scope": "同scene固定後時間的再取得。別scene汎化/実入力/E2Eの評価ではありません",
+  "rows": [
+    {
+      "passed": false,
+      "original_capture": {
+        "file": "frame-0000.png",
+        "capture_start_utc": "2026-10-06T01:03:51.357916+00:00",
+        "capture_start_perf": 91194.7007404,
+        "capture_end_perf": 91194.7171377,
+        "captured_at_monotonic": 91194.687,
+        "capture_sequence": 0,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "365af1d71729946692f8e3d56c5a92c335770a458f057cd9f9b2810d432235b5"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 0,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "template:phase",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9985037446022034,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9993053674697876,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.9967241287231445,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.9990789294242859,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9892290830612183,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": "true",
+            "confidence": 0.0,
+            "source": "diagnostic:background_not_completion",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.1232876712328767, \"yellow_pixels\": 128}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.modal_background_diagnostic": {
+            "value": "{\"raw_scores\": {\"true\": 0.9847124814987183}, \"semantic_use\": \"diagnostic_only_not_modal_absence\"}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.draw_overlay_diagnostic": {
+            "value": "{\"binary_confidence\": \"predicate, not probability\", \"config_sha256\": \"b9de9c0c5a9d9d792838996f41747ff1332687712d58b252dc5bdc541dab30eb\", \"self_blue_ratio\": 0.53125, \"word_score\": 0.29180752355606704}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "hand_search.detail_card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.source_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.layout": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.own_chain": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.diagnostic": {
+            "value": "{\"detail_cid\": null, \"detail_score\": 0.9726441502571106, \"gy_panel\": false, \"own_chain\": false, \"ready_layouts\": [], \"scores\": {\"effect_hand6-slot3\": 0.9952077865600586, \"effect_hand7-slot3\": 0.7262425422668457, \"gy_panel\": 0.8477398157119751, \"own_chain\": 0.6754216551780701, \"ready_hand6-slot3\": 0.8048191070556641, \"ready_hand7-slot3\": 0.7402724623680115, \"selected_hand6-slot3\": 0.8643320798873901, \"selected_hand7-slot3\": 0.7908129692077637, \"source_hand6-slot3\": 0.8927233219146729, \"source_hand7-slot3\": 0.7806417346000671}, \"selected_layouts\": [], \"source_geometry\": {\"hand6-slot3\": null, \"hand7-slot3\": null}, \"source_layout\": null}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": []
+      },
+      "strict_candidates": [],
+      "ui_policy": null
+    },
+    {
+      "passed": false,
+      "original_capture": {
+        "file": "frame-0001.png",
+        "capture_start_utc": "2026-10-06T01:03:51.536078+00:00",
+        "capture_start_perf": 91194.8788786,
+        "capture_end_perf": 91194.8951499,
+        "captured_at_monotonic": 91194.859,
+        "capture_sequence": 1,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "ff34bcd746e39b8b63c55f448315280c1e12dcd3f7331d8e415247af9615a245"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 1,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "template:phase",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9985910058021545,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9993167519569397,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.9968270659446716,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.998747706413269,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": "true",
+            "confidence": 0.989201009273529,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": "true",
+            "confidence": 0.0,
+            "source": "diagnostic:background_not_completion",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.1232876712328767, \"yellow_pixels\": 138}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.modal_background_diagnostic": {
+            "value": "{\"raw_scores\": {\"true\": 0.985261857509613}, \"semantic_use\": \"diagnostic_only_not_modal_absence\"}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.draw_overlay_diagnostic": {
+            "value": "{\"binary_confidence\": \"predicate, not probability\", \"config_sha256\": \"b9de9c0c5a9d9d792838996f41747ff1332687712d58b252dc5bdc541dab30eb\", \"self_blue_ratio\": 0.5243055555555556, \"word_score\": 0.29180752355606704}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "hand_search.detail_card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.source_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.layout": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.own_chain": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.diagnostic": {
+            "value": "{\"detail_cid\": null, \"detail_score\": 0.9730036854743958, \"gy_panel\": false, \"own_chain\": false, \"ready_layouts\": [], \"scores\": {\"effect_hand6-slot3\": 0.9950676560401917, \"effect_hand7-slot3\": 0.7264471650123596, \"gy_panel\": 0.8483875393867493, \"own_chain\": 0.6754848957061768, \"ready_hand6-slot3\": 0.8056172132492065, \"ready_hand7-slot3\": 0.740692675113678, \"selected_hand6-slot3\": 0.8648810386657715, \"selected_hand7-slot3\": 0.791565477848053, \"source_hand6-slot3\": 0.8928515911102295, \"source_hand7-slot3\": 0.7814128994941711}, \"selected_layouts\": [], \"source_geometry\": {\"hand6-slot3\": null, \"hand7-slot3\": null}, \"source_layout\": null}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": []
+      },
+      "strict_candidates": [],
+      "ui_policy": null
+    },
+    {
+      "passed": false,
+      "original_capture": {
+        "file": "frame-0002.png",
+        "capture_start_utc": "2026-10-06T01:03:51.715983+00:00",
+        "capture_start_perf": 91195.0587751,
+        "capture_end_perf": 91195.0747842,
+        "captured_at_monotonic": 91195.046,
+        "capture_sequence": 2,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "af8a5e3ddc93732b88b326b859cb3ddcbf0067a0b348834a553ae0d7ce5c5a6f"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 2,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "template:phase",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9986461400985718,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9992809891700745,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.9965260624885559,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.9984465837478638,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9891767501831055,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": "true",
+            "confidence": 0.0,
+            "source": "diagnostic:background_not_completion",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.1232876712328767, \"yellow_pixels\": 137}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.modal_background_diagnostic": {
+            "value": "{\"raw_scores\": {\"true\": 0.9836899042129517}, \"semantic_use\": \"diagnostic_only_not_modal_absence\"}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.draw_overlay_diagnostic": {
+            "value": "{\"binary_confidence\": \"predicate, not probability\", \"config_sha256\": \"b9de9c0c5a9d9d792838996f41747ff1332687712d58b252dc5bdc541dab30eb\", \"self_blue_ratio\": 0.5225694444444444, \"word_score\": 0.29180752355606704}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "hand_search.detail_card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.source_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.layout": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.own_chain": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.diagnostic": {
+            "value": "{\"detail_cid\": null, \"detail_score\": 0.9710103273391724, \"gy_panel\": false, \"own_chain\": false, \"ready_layouts\": [], \"scores\": {\"effect_hand6-slot3\": 0.9952884316444397, \"effect_hand7-slot3\": 0.7273486852645874, \"gy_panel\": 0.8495280742645264, \"own_chain\": 0.6754984855651855, \"ready_hand6-slot3\": 0.8061637878417969, \"ready_hand7-slot3\": 0.7399202585220337, \"selected_hand6-slot3\": 0.8653776049613953, \"selected_hand7-slot3\": 0.7917532920837402, \"source_hand6-slot3\": 0.8933212161064148, \"source_hand7-slot3\": 0.7822132110595703}, \"selected_layouts\": [], \"source_geometry\": {\"hand6-slot3\": null, \"hand7-slot3\": null}, \"source_layout\": null}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": []
+      },
+      "strict_candidates": [],
+      "ui_policy": null
+    },
+    {
+      "passed": false,
+      "original_capture": {
+        "file": "frame-0003.png",
+        "capture_start_utc": "2026-10-06T01:03:51.900517+00:00",
+        "capture_start_perf": 91195.2433159,
+        "capture_end_perf": 91195.2555844,
+        "captured_at_monotonic": 91195.234,
+        "capture_sequence": 3,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "7fa9b6363630ca7d71992ab44865c62853e8028322546a21b6ec6cc217433236"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 3,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "template:phase",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9988068342208862,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9992915391921997,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.9957932233810425,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.9982957243919373,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9891397356987,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": "true",
+            "confidence": 0.0,
+            "source": "diagnostic:background_not_completion",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.1232876712328767, \"yellow_pixels\": 130}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.modal_background_diagnostic": {
+            "value": "{\"raw_scores\": {\"true\": 0.9832001328468323}, \"semantic_use\": \"diagnostic_only_not_modal_absence\"}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.draw_overlay_diagnostic": {
+            "value": "{\"binary_confidence\": \"predicate, not probability\", \"config_sha256\": \"b9de9c0c5a9d9d792838996f41747ff1332687712d58b252dc5bdc541dab30eb\", \"self_blue_ratio\": 0.5138888888888888, \"word_score\": 0.29180752355606704}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "hand_search.detail_card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.source_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.layout": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.own_chain": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.diagnostic": {
+            "value": "{\"detail_cid\": null, \"detail_score\": 0.969199538230896, \"gy_panel\": false, \"own_chain\": false, \"ready_layouts\": [], \"scores\": {\"effect_hand6-slot3\": 0.9959295988082886, \"effect_hand7-slot3\": 0.7280229926109314, \"gy_panel\": 0.8506960272789001, \"own_chain\": 0.6752055287361145, \"ready_hand6-slot3\": 0.8066203594207764, \"ready_hand7-slot3\": 0.7398692965507507, \"selected_hand6-slot3\": 0.865569531917572, \"selected_hand7-slot3\": 0.7909746766090393, \"source_hand6-slot3\": 0.8935100436210632, \"source_hand7-slot3\": 0.7812638878822327}, \"selected_layouts\": [], \"source_geometry\": {\"hand6-slot3\": null, \"hand7-slot3\": null}, \"source_layout\": null}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": []
+      },
+      "strict_candidates": [],
+      "ui_policy": null
+    },
+    {
+      "passed": false,
+      "original_capture": {
+        "file": "frame-0004.png",
+        "capture_start_utc": "2026-10-06T01:03:52.074561+00:00",
+        "capture_start_perf": 91195.4174054,
+        "capture_end_perf": 91195.4300356,
+        "captured_at_monotonic": 91195.406,
+        "capture_sequence": 4,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "4cc4d6a38313f5dd80ee26c9c54a8a5d14d2febf9cf5b8e60798deb2f8841929"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 4,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "template:phase",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9988634586334229,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9992842674255371,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.995551586151123,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.9982237219810486,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9891550540924072,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": "true",
+            "confidence": 0.0,
+            "source": "diagnostic:background_not_completion",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.1232876712328767, \"yellow_pixels\": 126}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.modal_background_diagnostic": {
+            "value": "{\"raw_scores\": {\"true\": 0.9834318161010742}, \"semantic_use\": \"diagnostic_only_not_modal_absence\"}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.draw_overlay_diagnostic": {
+            "value": "{\"binary_confidence\": \"predicate, not probability\", \"config_sha256\": \"b9de9c0c5a9d9d792838996f41747ff1332687712d58b252dc5bdc541dab30eb\", \"self_blue_ratio\": 0.5069444444444444, \"word_score\": 0.29180752355606704}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "hand_search.detail_card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.source_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.layout": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.own_chain": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.diagnostic": {
+            "value": "{\"detail_cid\": null, \"detail_score\": 0.9664966464042664, \"gy_panel\": false, \"own_chain\": false, \"ready_layouts\": [], \"scores\": {\"effect_hand6-slot3\": 0.9959419965744019, \"effect_hand7-slot3\": 0.7281014323234558, \"gy_panel\": 0.8522645235061646, \"own_chain\": 0.6744683980941772, \"ready_hand6-slot3\": 0.8075873255729675, \"ready_hand7-slot3\": 0.7398819923400879, \"selected_hand6-slot3\": 0.8658647537231445, \"selected_hand7-slot3\": 0.7907918691635132, \"source_hand6-slot3\": 0.8935100436210632, \"source_hand7-slot3\": 0.7809351682662964}, \"selected_layouts\": [], \"source_geometry\": {\"hand6-slot3\": null, \"hand7-slot3\": null}, \"source_layout\": null}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": []
+      },
+      "strict_candidates": [],
+      "ui_policy": null
+    },
+    {
+      "passed": false,
+      "original_capture": {
+        "file": "frame-0005.png",
+        "capture_start_utc": "2026-10-06T01:03:52.256631+00:00",
+        "capture_start_perf": 91195.5994254,
+        "capture_end_perf": 91195.6107918,
+        "captured_at_monotonic": 91195.578,
+        "capture_sequence": 5,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "d4c409a06e4866847d6034d82cff0a2fa3806f673e7d00dac1f8231191d810c1"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 5,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "template:phase",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9988282918930054,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.999234676361084,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.995492160320282,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.9981784224510193,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": "true",
+            "confidence": 0.989126980304718,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": "true",
+            "confidence": 0.0,
+            "source": "diagnostic:background_not_completion",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.1232876712328767, \"yellow_pixels\": 121}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.modal_background_diagnostic": {
+            "value": "{\"raw_scores\": {\"true\": 0.9837064743041992}, \"semantic_use\": \"diagnostic_only_not_modal_absence\"}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.draw_overlay_diagnostic": {
+            "value": "{\"binary_confidence\": \"predicate, not probability\", \"config_sha256\": \"b9de9c0c5a9d9d792838996f41747ff1332687712d58b252dc5bdc541dab30eb\", \"self_blue_ratio\": 0.4965277777777778, \"word_score\": 0.29180752355606704}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "hand_search.detail_card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.source_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.layout": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.own_chain": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.diagnostic": {
+            "value": "{\"detail_cid\": null, \"detail_score\": 0.965828001499176, \"gy_panel\": false, \"own_chain\": false, \"ready_layouts\": [], \"scores\": {\"effect_hand6-slot3\": 0.9958862066268921, \"effect_hand7-slot3\": 0.7278029918670654, \"gy_panel\": 0.8537625670433044, \"own_chain\": 0.6741031408309937, \"ready_hand6-slot3\": 0.8082340359687805, \"ready_hand7-slot3\": 0.7395679950714111, \"selected_hand6-slot3\": 0.8662835359573364, \"selected_hand7-slot3\": 0.7910045385360718, \"source_hand6-slot3\": 0.8933260440826416, \"source_hand7-slot3\": 0.7810273170471191}, \"selected_layouts\": [], \"source_geometry\": {\"hand6-slot3\": {\"bbox\": [642, 586, 85, 76], \"left\": [641, 669, 643, 566], \"right\": [727, 662, 727, 562], \"top\": [640, 586, 728, 586]}, \"hand7-slot3\": null}, \"source_layout\": null}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": []
+      },
+      "strict_candidates": [],
+      "ui_policy": null
+    },
+    {
+      "passed": false,
+      "original_capture": {
+        "file": "frame-0006.png",
+        "capture_start_utc": "2026-10-06T01:03:52.433214+00:00",
+        "capture_start_perf": 91195.776032,
+        "capture_end_perf": 91195.7913799,
+        "captured_at_monotonic": 91195.765,
+        "capture_sequence": 6,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "bd8c4f2c03a5176c183c1dab8c2c7f6a0017d5f28b9b5ca09908046ffaa66133"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 6,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "template:phase",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9987226724624634,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9992233514785767,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.9958090782165527,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.9982662200927734,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9891486763954163,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": "true",
+            "confidence": 0.0,
+            "source": "diagnostic:background_not_completion",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.1232876712328767, \"yellow_pixels\": 123}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.modal_background_diagnostic": {
+            "value": "{\"raw_scores\": {\"true\": 0.9845635890960693}, \"semantic_use\": \"diagnostic_only_not_modal_absence\"}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.draw_overlay_diagnostic": {
+            "value": "{\"binary_confidence\": \"predicate, not probability\", \"config_sha256\": \"b9de9c0c5a9d9d792838996f41747ff1332687712d58b252dc5bdc541dab30eb\", \"self_blue_ratio\": 0.4878472222222222, \"word_score\": 0.29180752355606704}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "hand_search.detail_card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.source_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.layout": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.own_chain": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.diagnostic": {
+            "value": "{\"detail_cid\": null, \"detail_score\": 0.9653307795524597, \"gy_panel\": false, \"own_chain\": false, \"ready_layouts\": [], \"scores\": {\"effect_hand6-slot3\": 0.9955748915672302, \"effect_hand7-slot3\": 0.7266887426376343, \"gy_panel\": 0.8543297052383423, \"own_chain\": 0.6739661693572998, \"ready_hand6-slot3\": 0.8087894320487976, \"ready_hand7-slot3\": 0.7396315932273865, \"selected_hand6-slot3\": 0.8665707111358643, \"selected_hand7-slot3\": 0.7908391356468201, \"source_hand6-slot3\": 0.8932098746299744, \"source_hand7-slot3\": 0.7805250287055969}, \"selected_layouts\": [], \"source_geometry\": {\"hand6-slot3\": null, \"hand7-slot3\": null}, \"source_layout\": null}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": []
+      },
+      "strict_candidates": [],
+      "ui_policy": null
+    },
+    {
+      "passed": false,
+      "original_capture": {
+        "file": "frame-0007.png",
+        "capture_start_utc": "2026-10-06T01:03:52.619488+00:00",
+        "capture_start_perf": 91195.9623735,
+        "capture_end_perf": 91195.9779843,
+        "captured_at_monotonic": 91195.953,
+        "capture_sequence": 7,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "7a16159315c0355752b4238176d00b9d52f79c857a5465e0ba33e62aa2c1593d"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 7,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "template:phase",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9987348914146423,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9992298483848572,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.9959279298782349,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.9984074831008911,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9891639947891235,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": "true",
+            "confidence": 0.0,
+            "source": "diagnostic:background_not_completion",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.1232876712328767, \"yellow_pixels\": 123}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.modal_background_diagnostic": {
+            "value": "{\"raw_scores\": {\"true\": 0.9844444394111633}, \"semantic_use\": \"diagnostic_only_not_modal_absence\"}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.draw_overlay_diagnostic": {
+            "value": "{\"binary_confidence\": \"predicate, not probability\", \"config_sha256\": \"b9de9c0c5a9d9d792838996f41747ff1332687712d58b252dc5bdc541dab30eb\", \"self_blue_ratio\": 0.4791666666666667, \"word_score\": 0.29180752355606704}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "hand_search.detail_card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.source_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.layout": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.own_chain": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.diagnostic": {
+            "value": "{\"detail_cid\": null, \"detail_score\": 0.9650669097900391, \"gy_panel\": false, \"own_chain\": false, \"ready_layouts\": [], \"scores\": {\"effect_hand6-slot3\": 0.9949337244033813, \"effect_hand7-slot3\": 0.724292516708374, \"gy_panel\": 0.8559044599533081, \"own_chain\": 0.6745624542236328, \"ready_hand6-slot3\": 0.8091133832931519, \"ready_hand7-slot3\": 0.739410936832428, \"selected_hand6-slot3\": 0.8669639229774475, \"selected_hand7-slot3\": 0.7908291816711426, \"source_hand6-slot3\": 0.8932897448539734, \"source_hand7-slot3\": 0.7802331447601318}, \"selected_layouts\": [], \"source_geometry\": {\"hand6-slot3\": null, \"hand7-slot3\": null}, \"source_layout\": null}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": []
+      },
+      "strict_candidates": [],
+      "ui_policy": null
+    },
+    {
+      "passed": false,
+      "original_capture": {
+        "file": "frame-0008.png",
+        "capture_start_utc": "2026-10-06T01:03:52.801216+00:00",
+        "capture_start_perf": 91196.1439895,
+        "capture_end_perf": 91196.1590573,
+        "captured_at_monotonic": 91196.125,
+        "capture_sequence": 8,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "1b41faff99b2ee0d1b42e43abc30521d9216c02621f5d8a9057ff50b80f420c9"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 8,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "template:phase",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9986430406570435,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.999259889125824,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.9965062141418457,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.9987051486968994,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9891218543052673,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": "true",
+            "confidence": 0.0,
+            "source": "diagnostic:background_not_completion",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.1232876712328767, \"yellow_pixels\": 126}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.modal_background_diagnostic": {
+            "value": "{\"raw_scores\": {\"true\": 0.9844610095024109}, \"semantic_use\": \"diagnostic_only_not_modal_absence\"}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.draw_overlay_diagnostic": {
+            "value": "{\"binary_confidence\": \"predicate, not probability\", \"config_sha256\": \"b9de9c0c5a9d9d792838996f41747ff1332687712d58b252dc5bdc541dab30eb\", \"self_blue_ratio\": 0.4704861111111111, \"word_score\": 0.29180752355606704}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "hand_search.detail_card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.source_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.layout": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.own_chain": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.diagnostic": {
+            "value": "{\"detail_cid\": null, \"detail_score\": 0.9646112322807312, \"gy_panel\": false, \"own_chain\": false, \"ready_layouts\": [], \"scores\": {\"effect_hand6-slot3\": 0.9941598176956177, \"effect_hand7-slot3\": 0.7216033339500427, \"gy_panel\": 0.8586408495903015, \"own_chain\": 0.6754713654518127, \"ready_hand6-slot3\": 0.8093310594558716, \"ready_hand7-slot3\": 0.7391986846923828, \"selected_hand6-slot3\": 0.8671679496765137, \"selected_hand7-slot3\": 0.7905070185661316, \"source_hand6-slot3\": 0.8931493759155273, \"source_hand7-slot3\": 0.7795588374137878}, \"selected_layouts\": [], \"source_geometry\": {\"hand6-slot3\": null, \"hand7-slot3\": null}, \"source_layout\": null}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": []
+      },
+      "strict_candidates": [],
+      "ui_policy": null
+    },
+    {
+      "passed": false,
+      "original_capture": {
+        "file": "frame-0009.png",
+        "capture_start_utc": "2026-10-06T01:03:52.973695+00:00",
+        "capture_start_perf": 91196.3165192,
+        "capture_end_perf": 91196.3341284,
+        "captured_at_monotonic": 91196.312,
+        "capture_sequence": 9,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "19145258c3354f27601342eea124f8551f34d8188e253fac116a2b53b73405ee"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 9,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "template:phase",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9986216425895691,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9992761015892029,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.9967716336250305,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.999019980430603,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9891301393508911,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": "true",
+            "confidence": 0.0,
+            "source": "diagnostic:background_not_completion",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.1232876712328767, \"yellow_pixels\": 127}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.modal_background_diagnostic": {
+            "value": "{\"raw_scores\": {\"true\": 0.9849044680595398}, \"semantic_use\": \"diagnostic_only_not_modal_absence\"}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "response.draw_overlay_diagnostic": {
+            "value": "{\"binary_confidence\": \"predicate, not probability\", \"config_sha256\": \"b9de9c0c5a9d9d792838996f41747ff1332687712d58b252dc5bdc541dab30eb\", \"self_blue_ratio\": 0.4652777777777778, \"word_score\": 0.29180752355606704}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          },
+          "hand_search.detail_card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.source_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.layout": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.own_chain": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_ready": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.result_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "hand_search:4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+            "observed_at": 0.0
+          },
+          "hand_search.diagnostic": {
+            "value": "{\"detail_cid\": null, \"detail_score\": 0.9641554951667786, \"gy_panel\": false, \"own_chain\": false, \"ready_layouts\": [], \"scores\": {\"effect_hand6-slot3\": 0.9941040277481079, \"effect_hand7-slot3\": 0.719671368598938, \"gy_panel\": 0.8604987859725952, \"own_chain\": 0.6760406494140625, \"ready_hand6-slot3\": 0.8096888065338135, \"ready_hand7-slot3\": 0.7383626699447632, \"selected_hand6-slot3\": 0.8672095537185669, \"selected_hand7-slot3\": 0.7904448509216309, \"source_hand6-slot3\": 0.8925949931144714, \"source_hand7-slot3\": 0.7786126136779785}, \"selected_layouts\": [], \"source_geometry\": {\"hand6-slot3\": null, \"hand7-slot3\": null}, \"source_layout\": null}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": []
+      },
+      "strict_candidates": [],
+      "ui_policy": null
+    }
+  ]
+}

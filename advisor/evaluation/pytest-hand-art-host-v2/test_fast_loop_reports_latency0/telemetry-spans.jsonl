@@ -1,0 +1,14 @@
+{"run_id": "4507f9d7ac4d4f40a9548e4e26e9d68d", "mode": "unclassified", "stage": "capture", "start": 95981.5978116, "end": 95981.5978158}
+{"run_id": "4507f9d7ac4d4f40a9548e4e26e9d68d", "mode": "unclassified", "stage": "coordinate", "start": 95981.5980926, "end": 95981.5981019}
+{"run_id": "4507f9d7ac4d4f40a9548e4e26e9d68d", "mode": "unclassified", "stage": "artifact_write", "start": 95981.598128, "end": 95981.5990252}
+{"run_id": "4507f9d7ac4d4f40a9548e4e26e9d68d", "mode": "unclassified", "stage": "input", "start": 95981.5990511, "end": 95981.5990595}
+{"run_id": "4507f9d7ac4d4f40a9548e4e26e9d68d", "mode": "unclassified", "stage": "pre_input_control", "start": 95981.5990534, "end": 95981.599057}
+{"run_id": "4507f9d7ac4d4f40a9548e4e26e9d68d", "mode": "unclassified", "stage": "verify", "start": 95981.5990694, "end": 95981.6002846}
+{"run_id": "4507f9d7ac4d4f40a9548e4e26e9d68d", "mode": "unclassified", "stage": "frontmost_stop_check", "start": 95981.5990736, "end": 95981.5990745}
+{"run_id": "4507f9d7ac4d4f40a9548e4e26e9d68d", "mode": "unclassified", "stage": "poll_wait", "start": 95981.599076, "end": 95981.6001646}
+{"run_id": "4507f9d7ac4d4f40a9548e4e26e9d68d", "mode": "unclassified", "stage": "frontmost_stop_check", "start": 95981.6001876, "end": 95981.6001906}
+{"run_id": "4507f9d7ac4d4f40a9548e4e26e9d68d", "mode": "unclassified", "stage": "capture", "start": 95981.6001967, "end": 95981.6002012}
+{"run_id": "4507f9d7ac4d4f40a9548e4e26e9d68d", "mode": "unclassified", "stage": "verify_input_control", "start": 95981.6002173, "end": 95981.6002198}
+{"run_id": "4507f9d7ac4d4f40a9548e4e26e9d68d", "mode": "unclassified", "stage": "recognition", "start": 95981.600221, "end": 95981.6002783}
+{"run_id": "4507f9d7ac4d4f40a9548e4e26e9d68d", "mode": "unclassified", "stage": "artifact_write", "start": 95981.6014102, "end": 95981.6021049}
+{"run_id": "4507f9d7ac4d4f40a9548e4e26e9d68d", "mode": "unclassified", "stage": "log_write", "start": 95981.6021874, "end": 95981.6023192}

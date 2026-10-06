@@ -1,0 +1,412 @@
+{
+  "book": "混沌領域から超雷龍・実画面手順",
+  "calibration": "実画面・ターン2の限定検証",
+  "ui_steps": 34,
+  "structural_ready": false,
+  "real_game_validated": false,
+  "missing": [
+    {
+      "region": "action.route_space_open",
+      "reason": "missing_region",
+      "labels": [
+        "SELECT_CARD"
+      ]
+    },
+    {
+      "region": "action.route_space_activate",
+      "reason": "missing_region",
+      "labels": [
+        "ACTIVATE"
+      ]
+    },
+    {
+      "region": "action.route_space_place",
+      "reason": "missing_region",
+      "labels": [
+        "CONFIRM"
+      ]
+    },
+    {
+      "region": "action.route_space_cost",
+      "reason": "missing_region",
+      "labels": [
+        "SELECT_CARD"
+      ]
+    },
+    {
+      "region": "action.route_space_cost_confirm",
+      "reason": "missing_region",
+      "labels": [
+        "CONFIRM"
+      ]
+    },
+    {
+      "region": "action.route_space_chain_pass",
+      "reason": "missing_region",
+      "labels": [
+        "CANCEL"
+      ]
+    },
+    {
+      "region": "action.route_space_white",
+      "reason": "missing_region",
+      "labels": [
+        "SELECT_CARD"
+      ]
+    },
+    {
+      "region": "action.route_space_white_confirm",
+      "reason": "missing_region",
+      "labels": [
+        "CONFIRM"
+      ]
+    },
+    {
+      "region": "action.route_white_open",
+      "reason": "missing_region",
+      "labels": [
+        "SELECT_CARD"
+      ]
+    },
+    {
+      "region": "action.route_white_summon",
+      "reason": "missing_region",
+      "labels": [
+        "SPECIAL_SUMMON"
+      ]
+    },
+    {
+      "region": "action.route_white_place",
+      "reason": "missing_region",
+      "labels": [
+        "CONFIRM"
+      ]
+    },
+    {
+      "region": "action.route_white_banish",
+      "reason": "missing_region",
+      "labels": [
+        "SELECT_CARD"
+      ]
+    },
+    {
+      "region": "action.route_white_banish_confirm",
+      "reason": "missing_region",
+      "labels": [
+        "CONFIRM"
+      ]
+    },
+    {
+      "region": "action.route_white_attack",
+      "reason": "missing_region",
+      "labels": [
+        "CONFIRM"
+      ]
+    },
+    {
+      "region": "action.route_dark_trigger",
+      "reason": "missing_region",
+      "labels": [
+        "SELECT_CARD"
+      ]
+    },
+    {
+      "region": "action.route_dark_activate",
+      "reason": "missing_region",
+      "labels": [
+        "ACTIVATE"
+      ]
+    },
+    {
+      "region": "action.route_dark_chain_pass",
+      "reason": "missing_region",
+      "labels": [
+        "CANCEL"
+      ]
+    },
+    {
+      "region": "action.route_dark_hawk",
+      "reason": "missing_region",
+      "labels": [
+        "SELECT_CARD"
+      ]
+    },
+    {
+      "region": "action.route_dark_hawk_confirm",
+      "reason": "missing_region",
+      "labels": [
+        "CONFIRM"
+      ]
+    },
+    {
+      "region": "action.route_hawk_open",
+      "reason": "missing_region",
+      "labels": [
+        "SELECT_CARD"
+      ]
+    },
+    {
+      "region": "action.route_hawk_activate",
+      "reason": "missing_region",
+      "labels": [
+        "ACTIVATE"
+      ]
+    },
+    {
+      "region": "action.route_hawk_chain_pass",
+      "reason": "missing_region",
+      "labels": [
+        "CANCEL"
+      ]
+    },
+    {
+      "region": "action.route_hawk_dark",
+      "reason": "missing_region",
+      "labels": [
+        "SELECT_CARD"
+      ]
+    },
+    {
+      "region": "action.route_hawk_dark_confirm",
+      "reason": "missing_region",
+      "labels": [
+        "CONFIRM"
+      ]
+    },
+    {
+      "region": "action.route_hawk_attack",
+      "reason": "missing_region",
+      "labels": [
+        "CONFIRM"
+      ]
+    },
+    {
+      "region": "action.route_hawk_place",
+      "reason": "missing_region",
+      "labels": [
+        "CONFIRM"
+      ]
+    },
+    {
+      "region": "action.route_extra_open",
+      "reason": "missing_region",
+      "labels": [
+        "SELECT_CARD"
+      ]
+    },
+    {
+      "region": "action.route_extra_candidates",
+      "reason": "missing_region",
+      "labels": [
+        "CONFIRM"
+      ]
+    },
+    {
+      "region": "action.route_colossus_select",
+      "reason": "missing_region",
+      "labels": [
+        "SELECT_CARD"
+      ]
+    },
+    {
+      "region": "action.route_colossus_summon",
+      "reason": "missing_region",
+      "labels": [
+        "SPECIAL_SUMMON"
+      ]
+    },
+    {
+      "region": "action.route_colossus_tribute",
+      "reason": "missing_region",
+      "labels": [
+        "SELECT_CARD"
+      ]
+    },
+    {
+      "region": "action.route_colossus_tribute_confirm",
+      "reason": "missing_region",
+      "labels": [
+        "CONFIRM"
+      ]
+    },
+    {
+      "region": "action.route_colossus_attack",
+      "reason": "missing_region",
+      "labels": [
+        "CONFIRM"
+      ]
+    },
+    {
+      "region": "action.route_colossus_place",
+      "reason": "missing_region",
+      "labels": [
+        "CONFIRM"
+      ]
+    },
+    {
+      "region": "ui.prompt",
+      "reason": "missing_region",
+      "labels": [
+        "card.menu",
+        "card.select",
+        "card.selected",
+        "chain.response",
+        "extra.menu",
+        "extra.summon_select",
+        "extra.summon_selected",
+        "monster.place",
+        "none",
+        "spell.place",
+        "summon.position",
+        "tribute.select",
+        "tribute.selected",
+        "trigger.select",
+        "trigger.selected"
+      ]
+    },
+    {
+      "region": "ui.animation",
+      "reason": "missing_region",
+      "labels": [
+        "idle",
+        "playing"
+      ]
+    },
+    {
+      "region": "game.terminal",
+      "reason": "missing_region",
+      "labels": [
+        "active",
+        "ended"
+      ]
+    },
+    {
+      "region": "phase",
+      "reason": "missing_exemplar",
+      "labels": [
+        "MAIN2"
+      ]
+    },
+    {
+      "region": "turn",
+      "reason": "missing_region"
+    },
+    {
+      "region": "fact.chain.card",
+      "reason": "missing_region",
+      "labels": [
+        "13906",
+        "13907",
+        "15478"
+      ]
+    },
+    {
+      "region": "fact.chain.owner",
+      "reason": "missing_region",
+      "labels": [
+        "self"
+      ]
+    },
+    {
+      "region": "fact.field.colossus.present",
+      "reason": "missing_region",
+      "labels": [
+        "true"
+      ]
+    },
+    {
+      "region": "fact.field.dark.present",
+      "reason": "missing_region",
+      "labels": [
+        "true"
+      ]
+    },
+    {
+      "region": "fact.field.white.present",
+      "reason": "missing_region",
+      "labels": [
+        "true"
+      ]
+    },
+    {
+      "region": "fact.hand.hawk.present",
+      "reason": "missing_region",
+      "labels": [
+        "true"
+      ]
+    },
+    {
+      "region": "fact.hand.white.present",
+      "reason": "missing_region",
+      "labels": [
+        "true"
+      ]
+    },
+    {
+      "region": "fact.menu.card",
+      "reason": "missing_region",
+      "labels": [
+        "10458",
+        "13907",
+        "15478"
+      ]
+    },
+    {
+      "region": "fact.route.space_dark_ready",
+      "reason": "missing_region",
+      "labels": [
+        "true"
+      ]
+    },
+    {
+      "region": "fact.selection.card",
+      "reason": "missing_region",
+      "labels": [
+        "10458",
+        "13906",
+        "13907",
+        "13923"
+      ]
+    },
+    {
+      "region": "fact.selection.count",
+      "reason": "missing_region",
+      "labels": [
+        "1"
+      ]
+    },
+    {
+      "region": "fact.selection.location",
+      "reason": "missing_region",
+      "labels": [
+        "banished",
+        "deck",
+        "field",
+        "graveyard",
+        "hand"
+      ]
+    },
+    {
+      "region": "fact.zone.monster_1.free",
+      "reason": "missing_region",
+      "labels": [
+        "true"
+      ]
+    },
+    {
+      "region": "fact.zone.monster_2.free",
+      "reason": "missing_region",
+      "labels": [
+        "true"
+      ]
+    },
+    {
+      "region": "fact.zone.spell_2.free",
+      "reason": "missing_region",
+      "labels": [
+        "true"
+      ]
+    }
+  ],
+  "note": "構造検査のみ。画像の識別精度・同じ外観の競合・位置変動・10秒以内の実動作は別途検証が必要"
+}

@@ -1,0 +1,78 @@
+{
+  "schema": "ash-layout2-training-v2",
+  "sources": [
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0000.png",
+      "sha256": "fff1066278088d9f66d542da8f49a1cc78be712cf85b4e37522ee7d0adaa6eef"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0001.png",
+      "sha256": "73ca45a8f7e9e9f59224309548f6a48e4aaefa76c52c66f4a4691d8586687a57"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0002.png",
+      "sha256": "e73c05c23e3641209aa5e91e667d102a62682b67eacbe407db3c64e0701b2cff"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0003.png",
+      "sha256": "feede5507b44ece78b34a4c5b52cc680592ff7d3015bc21c6482ee7b88d24fe6"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0004.png",
+      "sha256": "6433e80abfd6b43e39fbda47a0276eba755e905ddb56086f5329b22a7c35cbe1"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0005.png",
+      "sha256": "dc9e7e03470f49a260f7feb1ac5c86ab4be64897f892e03f201d0fb3219204db"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0006.png",
+      "sha256": "14af77c0842572934f1d94ad3cc34871403705c131dfd878b171d8bb8bbe609b"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0007.png",
+      "sha256": "21e21b7722e1d2b64ca02669ca6516ff09e1a5e5c76bb556343fe79490458f61"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0008.png",
+      "sha256": "cc5e156b6a42a43007c37d9d0ffd08f72ee6cbab785d404526ba7b213124ffa2"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0009.png",
+      "sha256": "841dcd0d1ec3aa13f61bcc99acbde73f3d9320fd68ca04d4131b996490d5f995"
+    }
+  ],
+  "source_manifest": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\manifest.json",
+  "normal_actual_crop": [
+    338,
+    502,
+    74,
+    79
+  ],
+  "normal_nominal_search_anchor": [
+    380,
+    497,
+    74,
+    79
+  ],
+  "hand_actual_crop": [
+    365,
+    584,
+    18,
+    112
+  ],
+  "hand_nominal_relative_anchor": [
+    407,
+    579,
+    18,
+    112
+  ],
+  "score_threshold": 0.98,
+  "position_margin": 0.03,
+  "independent": false,
+  "preflight_failure_used_as_training": false,
+  "input_count": 0,
+  "e2e_count": 0,
+  "profile_id_notice": "solar-menu-v2は既存探索I/F名。A2専用config/hashがAsh-left-layout2参照を明示",
+  "old_stage_policy": "既存placement/post訓練を維持、v1旧menuはv1profileで回帰"
+}

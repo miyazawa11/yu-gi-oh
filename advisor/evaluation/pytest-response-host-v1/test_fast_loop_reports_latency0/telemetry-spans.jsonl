@@ -1,0 +1,14 @@
+{"run_id": "b86a18a11f6a45cba69dc6ec342af8b4", "mode": "unclassified", "stage": "capture", "start": 74482.6486912, "end": 74482.6486951}
+{"run_id": "b86a18a11f6a45cba69dc6ec342af8b4", "mode": "unclassified", "stage": "coordinate", "start": 74482.6489167, "end": 74482.6489256}
+{"run_id": "b86a18a11f6a45cba69dc6ec342af8b4", "mode": "unclassified", "stage": "artifact_write", "start": 74482.6489506, "end": 74482.6496928}
+{"run_id": "b86a18a11f6a45cba69dc6ec342af8b4", "mode": "unclassified", "stage": "input", "start": 74482.6497306, "end": 74482.6497421}
+{"run_id": "b86a18a11f6a45cba69dc6ec342af8b4", "mode": "unclassified", "stage": "pre_input_control", "start": 74482.649733, "end": 74482.6497389}
+{"run_id": "b86a18a11f6a45cba69dc6ec342af8b4", "mode": "unclassified", "stage": "verify", "start": 74482.649754, "end": 74482.6514195}
+{"run_id": "b86a18a11f6a45cba69dc6ec342af8b4", "mode": "unclassified", "stage": "frontmost_stop_check", "start": 74482.6497603, "end": 74482.6497614}
+{"run_id": "b86a18a11f6a45cba69dc6ec342af8b4", "mode": "unclassified", "stage": "poll_wait", "start": 74482.6497634, "end": 74482.6513003}
+{"run_id": "b86a18a11f6a45cba69dc6ec342af8b4", "mode": "unclassified", "stage": "frontmost_stop_check", "start": 74482.6513191, "end": 74482.6513221}
+{"run_id": "b86a18a11f6a45cba69dc6ec342af8b4", "mode": "unclassified", "stage": "capture", "start": 74482.6513268, "end": 74482.6513304}
+{"run_id": "b86a18a11f6a45cba69dc6ec342af8b4", "mode": "unclassified", "stage": "verify_input_control", "start": 74482.651346, "end": 74482.6513481}
+{"run_id": "b86a18a11f6a45cba69dc6ec342af8b4", "mode": "unclassified", "stage": "recognition", "start": 74482.6513489, "end": 74482.6514132}
+{"run_id": "b86a18a11f6a45cba69dc6ec342af8b4", "mode": "unclassified", "stage": "artifact_write", "start": 74482.6526676, "end": 74482.6534207}
+{"run_id": "b86a18a11f6a45cba69dc6ec342af8b4", "mode": "unclassified", "stage": "log_write", "start": 74482.6535173, "end": 74482.6536786}

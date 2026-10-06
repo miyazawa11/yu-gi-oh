@@ -1,0 +1,358 @@
+{
+  "schema": "source-art-extra-rejection-v1",
+  "condition": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\source-selected-art-condition-v2.json",
+  "weak_two_models": {
+    "scope": "synthetic correspondences60+12; real feature-extraction precision not claimed",
+    "first": {
+      "accepted": true,
+      "pairs": 72,
+      "inliers": 60,
+      "ratio": 0.8333333333333334,
+      "spread": [
+        52.9771728515625,
+        45.10941696166992
+      ],
+      "scale": 1.0650003175060594,
+      "angle": 8.194949995500429e-06,
+      "bbox": [
+        640.1799926757812,
+        589.9500122070312,
+        83.070068359375,
+        76.6800537109375
+      ],
+      "guards": {
+        "inliers": true,
+        "ratio": true,
+        "spread": true,
+        "scale": true,
+        "rotation": true,
+        "relative_y": true,
+        "relative_x": true
+      },
+      "reason": []
+    },
+    "second": {
+      "accepted": false,
+      "pairs": 12,
+      "inliers": 12,
+      "ratio": 1.0,
+      "spread": [
+        52.9771728515625,
+        34.04488754272461
+      ],
+      "scale": 1.0650001134284033,
+      "angle": 1.7191221521449505e-05,
+      "bbox": [
+        648.1799926757812,
+        591.9500122070312,
+        83.07000732421875,
+        76.67999267578125
+      ],
+      "guards": {
+        "inliers": true,
+        "ratio": true,
+        "spread": false,
+        "scale": true,
+        "rotation": true,
+        "relative_y": true,
+        "relative_x": true
+      },
+      "reason": [
+        "spread"
+      ]
+    },
+    "ambiguous": false,
+    "source_result": "not_proved"
+  },
+  "old_source6_unknown": [
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0004.png",
+      "pose": {
+        "accepted": false,
+        "primary": [
+          {
+            "accepted": false,
+            "pairs": 16,
+            "inliers": 14,
+            "ratio": 0.875,
+            "spread": [
+              45.98505401611328,
+              31.03577423095703
+            ],
+            "scale": 1.0602523623975435,
+            "angle": 0.13462179786859405,
+            "bbox": [
+              640.5590209960938,
+              590.4053344726562,
+              82.87884521484375,
+              76.5322265625
+            ],
+            "guards": {
+              "inliers": true,
+              "ratio": true,
+              "spread": false,
+              "scale": true,
+              "rotation": true,
+              "relative_y": true,
+              "relative_x": true
+            },
+            "reason": [
+              "spread"
+            ]
+          },
+          {
+            "accepted": false,
+            "pairs": 14,
+            "inliers": 12,
+            "ratio": 0.8571428571428571,
+            "spread": [
+              45.953834533691406,
+              28.934524536132812
+            ],
+            "scale": 1.0687437655255152,
+            "angle": 0.23660023472885638,
+            "bbox": [
+              640.0646362304688,
+              589.9498291015625,
+              83.6790771484375,
+              77.29315185546875
+            ],
+            "guards": {
+              "inliers": true,
+              "ratio": true,
+              "spread": false,
+              "scale": true,
+              "rotation": true,
+              "relative_y": true,
+              "relative_x": true
+            },
+            "reason": [
+              "spread"
+            ]
+          }
+        ],
+        "ambiguity_models": [
+          {
+            "accepted": false,
+            "pairs": 23,
+            "inliers": 16,
+            "ratio": 0.6956521739130435,
+            "spread": [
+              45.98505401611328,
+              31.03577423095703
+            ],
+            "scale": 1.0582441905246818,
+            "angle": 0.16318762719034927,
+            "bbox": [
+              640.7037353515625,
+              590.5015869140625,
+              82.759765625,
+              76.4283447265625
+            ],
+            "guards": {
+              "inliers": true,
+              "ratio": false,
+              "spread": false,
+              "scale": true,
+              "rotation": true,
+              "relative_y": true,
+              "relative_x": true
+            },
+            "reason": [
+              "ratio",
+              "spread"
+            ]
+          },
+          {
+            "accepted": false,
+            "pairs": 7,
+            "reason": "supported_under6",
+            "inliers": 2
+          },
+          {
+            "accepted": false,
+            "pairs": 20,
+            "inliers": 17,
+            "ratio": 0.85,
+            "spread": [
+              51.00330352783203,
+              32.71250915527344
+            ],
+            "scale": 1.0640028560793,
+            "angle": 0.15374078775573724,
+            "bbox": [
+              640.392578125,
+              590.2757568359375,
+              83.197509765625,
+              76.83062744140625
+            ],
+            "guards": {
+              "inliers": true,
+              "ratio": true,
+              "spread": false,
+              "scale": true,
+              "rotation": true,
+              "relative_y": true,
+              "relative_x": true
+            },
+            "reason": [
+              "spread"
+            ]
+          },
+          {
+            "accepted": false,
+            "pairs": 3
+          }
+        ],
+        "ambiguous": false
+      },
+      "legacy_geometry": null,
+      "legacy_detail_score": 0.9447761178016663,
+      "legacy_source_layout": null
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0005.png",
+      "pose": {
+        "accepted": false,
+        "primary": [
+          {
+            "accepted": false,
+            "pairs": 11,
+            "inliers": 9,
+            "ratio": 0.8181818181818182,
+            "spread": [
+              32.60467529296875,
+              27.742454528808594
+            ],
+            "scale": 1.0619559298537413,
+            "angle": 0.9623785997545096,
+            "bbox": [
+              640.0096435546875,
+              589.6312255859375,
+              84.1051025390625,
+              77.84124755859375
+            ],
+            "guards": {
+              "inliers": true,
+              "ratio": true,
+              "spread": false,
+              "scale": true,
+              "rotation": true,
+              "relative_y": true,
+              "relative_x": true
+            },
+            "reason": [
+              "spread"
+            ]
+          },
+          {
+            "accepted": false,
+            "pairs": 13,
+            "inliers": 11,
+            "ratio": 0.8461538461538461,
+            "spread": [
+              32.60650634765625,
+              28.87647247314453
+            ],
+            "scale": 1.0623781417598035,
+            "angle": 0.9153114818290682,
+            "bbox": [
+              640.0174560546875,
+              589.6029052734375,
+              84.07684326171875,
+              77.80523681640625
+            ],
+            "guards": {
+              "inliers": true,
+              "ratio": true,
+              "spread": false,
+              "scale": true,
+              "rotation": true,
+              "relative_y": true,
+              "relative_x": true
+            },
+            "reason": [
+              "spread"
+            ]
+          }
+        ],
+        "ambiguity_models": [
+          {
+            "accepted": false,
+            "pairs": 11,
+            "inliers": 8,
+            "ratio": 0.7272727272727273,
+            "spread": [
+              32.60467529296875,
+              29.868961334228516
+            ],
+            "scale": 1.0722267106600643,
+            "angle": 0.901779536759287,
+            "bbox": [
+              639.6044311523438,
+              589.2263793945312,
+              84.83831787109375,
+              78.50701904296875
+            ],
+            "guards": {
+              "inliers": true,
+              "ratio": true,
+              "spread": false,
+              "scale": true,
+              "rotation": true,
+              "relative_y": true,
+              "relative_x": true
+            },
+            "reason": [
+              "spread"
+            ]
+          },
+          {
+            "accepted": false,
+            "pairs": 3
+          },
+          {
+            "accepted": false,
+            "pairs": 12,
+            "inliers": 9,
+            "ratio": 0.75,
+            "spread": [
+              32.60650634765625,
+              28.87647247314453
+            ],
+            "scale": 1.0666177433027777,
+            "angle": 0.956684115730515,
+            "bbox": [
+              639.80029296875,
+              589.4283447265625,
+              84.466796875,
+              78.17486572265625
+            ],
+            "guards": {
+              "inliers": true,
+              "ratio": true,
+              "spread": false,
+              "scale": true,
+              "rotation": true,
+              "relative_y": true,
+              "relative_x": true
+            },
+            "reason": [
+              "spread"
+            ]
+          },
+          {
+            "accepted": false,
+            "pairs": 3
+          }
+        ],
+        "ambiguous": false
+      },
+      "legacy_geometry": null,
+      "legacy_detail_score": 0.9014905691146851,
+      "legacy_source_layout": null
+    }
+  ],
+  "input_count": 0,
+  "e2e_count": 0
+}

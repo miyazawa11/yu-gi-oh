@@ -1,0 +1,27 @@
+{
+  "schema": "acceptance-cohort-v1",
+  "cohort_id": "fixture",
+  "source_sha256": "cb2523cab9496b98f38df3eeab8297189e8a99a53baeefe6cd259a10496caf5d",
+  "environment": {
+    "python": "3.12.7",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "runs": [
+    {
+      "slot_id": "one",
+      "trials": [
+        "summon"
+      ],
+      "expected_fingerprint": {
+        "calibration_sha256": "3f530c0c449d4f09d01f98e60597c24c620867e2d2e133687ecfb2da9632b671",
+        "template_assets_sha256": "3f530c0c449d4f09d01f98e60597c24c620867e2d2e133687ecfb2da9632b671",
+        "stable_features_sha256": "3f530c0c449d4f09d01f98e60597c24c620867e2d2e133687ecfb2da9632b671",
+        "strategy_sha256": "3f530c0c449d4f09d01f98e60597c24c620867e2d2e133687ecfb2da9632b671",
+        "limits_sha256": "3f530c0c449d4f09d01f98e60597c24c620867e2d2e133687ecfb2da9632b671",
+        "capture_sha256": "3f530c0c449d4f09d01f98e60597c24c620867e2d2e133687ecfb2da9632b671",
+        "execution_conditions_sha256": "56a125edb0959f70ce5f182efac2186d7afd7d834f960ea8b24011df03af10eb",
+        "recognition_components_sha256": "3f530c0c449d4f09d01f98e60597c24c620867e2d2e133687ecfb2da9632b671"
+      }
+    }
+  ]
+}

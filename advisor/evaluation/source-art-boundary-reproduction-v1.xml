@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="5" time="11.454" timestamp="2026-10-06T11:12:55.713738+09:00" hostname="DESKTOP-KILPD1G"><testcase classname="tests.test_source_hand_art" name="test_ambiguous_runtime_pose_never_uses_positive_legacy_geometry" time="2.370"><failure message="AssertionError: assert ('hand6-slot3' is None)">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x00000195B31DE4E0&gt;
+monkeypatch = &lt;_pytest.monkeypatch.MonkeyPatch object at 0x00000195B321FFB0&gt;
+
+    def test_ambiguous_runtime_pose_never_uses_positive_legacy_geometry(vision,monkeypatch):
+        pixels=read_image(DATA/"DRAGONDARK_PILOT_PREPARATION_v1_20261006/ready-effect-menu/frame-0000.png")
+        legacy=HandSearchVision(BASE/"hand-search.json").recognize(Frame(pixels,0,0,capture_source="saved_image"))
+        assert legacy["source_geometry"]["hand6-slot3"] is not None
+        # synthetic矛盾結果。境界側もambiguityを明示拒否しacceptedだけを信用しません。
+        monkeypatch.setattr(vision.source_art,"recognize",lambda *args:{"status":"ambiguous","accepted":True,"ambiguous":True,"art_bbox":[640,590,83,77]})
+        result=vision.recognize(Frame(pixels,0,0,capture_source="saved_image"))
+&gt;       assert result["source_layout"] is None and result["source_geometry"]["hand6-slot3"] is None
+E       AssertionError: assert ('hand6-slot3' is None)
+
+tests\test_source_hand_art.py:91: AssertionError</failure></testcase><testcase classname="tests.test_source_hand_art" name="test_calibrated_perception_and_strict_filter_abstain_for_wrong_context[GY]" time="2.334"><failure message="ValueError: 段階付き手順の画面校正が不足しています: detail_name_registry">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x00000195B4347B30&gt;
+monkeypatch = &lt;_pytest.monkeypatch.MonkeyPatch object at 0x00000195B4347BC0&gt;
+case = 'GY'
+
+    @pytest.mark.parametrize("case",["GY","main1_unknown"])
+    def test_calibrated_perception_and_strict_filter_abstain_for_wrong_context(vision,monkeypatch,case):
+        from master_duel_advisor.cli import build_pipeline,close_pipeline
+        base=vision.path.parent
+&gt;       p=build_pipeline(base/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",base/"solo-route.json",base/"ui-rules.json")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_source_hand_art.py:98: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+calibration = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/evaluation/pytest-source-art-boundary-reproduction-v1/test_calibrated_perception_and0/profile/calibration.json')
+database = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/data/decks/thunder-dragon-review/cards.sqlite3')
+plan_book = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/evaluation/pytest-source-art-boundary-reproduction-v1/test_calibrated_perception_and0/profile/solo-route.json')
+ui_rules = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/evaluation/pytest-source-art-boundary-reproduction-v1/test_calibrated_perception_and0/profile/ui-rules.json')
+deck = None, card_cache = None, card_id_namespace = 'konami'
+
+    def build_pipeline(calibration: Path, database: Path, plan_book: Path | None = None,
+                       ui_rules: Path | None = None, deck: Path | None = None,
+                       card_cache: Path | None = None, card_id_namespace: str = "konami"):
+        required = {"--calibration": calibration, "--database": database,
+                    "--plan-book": plan_book, "--ui-rules": ui_rules, "--deck": deck}
+        missing = [f"{option}: {Path(path).resolve()}" for option, path in required.items()
+                   if path is not None and not Path(path).is_file()]
+        if missing:
+            raise ValueError("必要な設定ファイルがありません。\n" + "\n".join(missing)
+                             + "\ndata/*.json と data/cards.sqlite3 は設定例です。実画面用の校正・カードDB・デッキ・操作手順を用意してください。")
+        knowledge = BackgroundKnowledge(CardKnowledge(card_cache), card_id_namespace) if card_cache else None
+        db = CardDatabase(database, knowledge=knowledge)
+        try:
+            profile = DeckProfile.load(deck) if deck else None
+            layout = load_calibration(calibration)
+            planner = load_planner(plan_book) if plan_book else None
+            if planner and (any(r.follows for r in getattr(planner.book, "rules", []))
+                            or planner.book.audit_profile in {"response_decline", "solo_basic_operations"}):
+                from .route_validation import audit_route
+                report = audit_route(planner.book, layout, calibration.parent)
+                if not report["structural_ready"]:
+                    names = ", ".join(item["region"] for item in report["missing"])
+&gt;                   raise ValueError("段階付き手順の画面校正が不足しています: " + names)
+E                   ValueError: 段階付き手順の画面校正が不足しています: detail_name_registry
+
+src\master_duel_advisor\cli.py:115: ValueError</failure></testcase><testcase classname="tests.test_source_hand_art" name="test_calibrated_perception_and_strict_filter_abstain_for_wrong_context[main1_unknown]" time="2.233"><failure message="ValueError: 段階付き手順の画面校正が不足しています: detail_name_registry">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x00000195B44D5850&gt;
+monkeypatch = &lt;_pytest.monkeypatch.MonkeyPatch object at 0x00000195B44D5CD0&gt;
+case = 'main1_unknown'
+
+    @pytest.mark.parametrize("case",["GY","main1_unknown"])
+    def test_calibrated_perception_and_strict_filter_abstain_for_wrong_context(vision,monkeypatch,case):
+        from master_duel_advisor.cli import build_pipeline,close_pipeline
+        base=vision.path.parent
+&gt;       p=build_pipeline(base/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",base/"solo-route.json",base/"ui-rules.json")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_source_hand_art.py:98: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+calibration = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/evaluation/pytest-source-art-boundary-reproduction-v1/test_calibrated_perception_and1/profile/calibration.json')
+database = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/data/decks/thunder-dragon-review/cards.sqlite3')
+plan_book = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/evaluation/pytest-source-art-boundary-reproduction-v1/test_calibrated_perception_and1/profile/solo-route.json')
+ui_rules = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/evaluation/pytest-source-art-boundary-reproduction-v1/test_calibrated_perception_and1/profile/ui-rules.json')
+deck = None, card_cache = None, card_id_namespace = 'konami'
+
+    def build_pipeline(calibration: Path, database: Path, plan_book: Path | None = None,
+                       ui_rules: Path | None = None, deck: Path | None = None,
+                       card_cache: Path | None = None, card_id_namespace: str = "konami"):
+        required = {"--calibration": calibration, "--database": database,
+                    "--plan-book": plan_book, "--ui-rules": ui_rules, "--deck": deck}
+        missing = [f"{option}: {Path(path).resolve()}" for option, path in required.items()
+                   if path is not None and not Path(path).is_file()]
+        if missing:
+            raise ValueError("必要な設定ファイルがありません。\n" + "\n".join(missing)
+                             + "\ndata/*.json と data/cards.sqlite3 は設定例です。実画面用の校正・カードDB・デッキ・操作手順を用意してください。")
+        knowledge = BackgroundKnowledge(CardKnowledge(card_cache), card_id_namespace) if card_cache else None
+        db = CardDatabase(database, knowledge=knowledge)
+        try:
+            profile = DeckProfile.load(deck) if deck else None
+            layout = load_calibration(calibration)
+            planner = load_planner(plan_book) if plan_book else None
+            if planner and (any(r.follows for r in getattr(planner.book, "rules", []))
+                            or planner.book.audit_profile in {"response_decline", "solo_basic_operations"}):
+                from .route_validation import audit_route
+                report = audit_route(planner.book, layout, calibration.parent)
+                if not report["structural_ready"]:
+                    names = ", ".join(item["region"] for item in report["missing"])
+&gt;                   raise ValueError("段階付き手順の画面校正が不足しています: " + names)
+E                   ValueError: 段階付き手順の画面校正が不足しています: detail_name_registry
+
+src\master_duel_advisor\cli.py:115: ValueError</failure></testcase><testcase classname="tests.test_source_hand_art" name="test_source_art_mode_or_parameters_cannot_silently_change[wrong_mode]" time="2.099" /><testcase classname="tests.test_source_hand_art" name="test_source_art_mode_or_parameters_cannot_silently_change[changed_params]" time="2.281" /></testsuite></testsuites>

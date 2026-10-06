@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="8" skipped="0" tests="16" time="0.342" timestamp="2026-10-06T09:28:41.513918+09:00" hostname="DESKTOP-KILPD1G"><testcase classname="tests.test_hand_search_integration" name="test_normal_three_child_hand_goal_success_is_one_parent_purpose" time="0.099" /><testcase classname="tests.test_hand_search_integration" name="test_hand_goal_each_broken_receipt_join_is_rejected[same_spec_other_goal]" time="0.008"><failure message="AssertionError: same_spec_other_goal&#10;assert not True&#10; +  where True = goal_confirmed(StrategyRule(id='dragondark_hand_result_inspect', card_id='13906', description='Solo公開UI雷電龍手札①→同名追加確認', type=&lt;ActionTy...d_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')), GameState(sequence=50, captured_at=5.0, media_time=None, turn=Observation[int](value=None, confidence=0, source='unkno... hand_count=Observation[int](value=None, confidence=0, source='unknown', observed_at=0), zones={}), visible_actions=[]))&#10; +    where goal_confirmed = &lt;master_duel_advisor.telemetry.ActionTelemetry object at 0x000001C37B029730&gt;.goal_confirmed">tmp_path = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/evaluation/pytest-hand-search-join-v1/test_hand_goal_each_broken_rec0')
+case = 'same_spec_other_goal'
+
+    @pytest.mark.parametrize("case",["same_spec_other_goal","third_ready_missing","different_safe_point","different_handoff",
+        "stale_before_detail","blank_missing","missing_inspect_receipt","same_sequence","stale_final_detail",
+        "neighbor_selected_geometry","missing_selected_geometry","wrong_profile_hash","wrong_chain",
+        "expired_handoff","epoch_unverified"])
+    def test_hand_goal_each_broken_receipt_join_is_rejected(tmp_path,case):
+        tel,rules,after=synthetic_hand_case(tmp_path);step=tel.current_step;goal=rules[-1].logical_hand_search_confirmation
+        if case=="same_spec_other_goal":tel.active["logical_action"]="different-parent-purpose"
+        elif case=="third_ready_missing":step["hand_before"]["facts"].pop(goal.result_ready_fact)
+        elif case=="different_safe_point":
+            step["action"]["hand_search_proof"]["point"][0]+=1;step["screen_point"][0]+=1
+        elif case=="different_handoff":
+            tel.active["hand_episode"]["handoff"]["bbox"][0]+=150
+        elif case=="stale_before_detail":step["hand_before"]["facts"][goal.detail_fact].update(value="13906",confidence=1)
+        elif case=="blank_missing":step["hand_before"]["facts"].pop("inspect_context.detail_blank")
+        elif case=="missing_inspect_receipt":step["input_sent"]=None
+        elif case=="same_sequence":after=after.model_copy(update={"sequence":40})
+        elif case=="stale_final_detail":after.facts[goal.detail_fact]=after.facts[goal.detail_fact].model_copy(update={"observed_at":1.})
+        elif case=="neighbor_selected_geometry":tel.active["hand_episode"]["current_selected_geometry"]["bbox"][0]+=150
+        elif case=="missing_selected_geometry":tel.active["hand_episode"].pop("current_selected_geometry")
+        elif case=="wrong_profile_hash":step["action"]["hand_search_proof"]["profile_sha256"]="other-profile"
+        elif case=="wrong_chain":tel.active["steps"][1]["hand_before"]["facts"].pop(goal.own_chain_fact)
+        elif case=="expired_handoff":tel.active["hand_episode"]["handoff"]["at"]=1.
+        elif case=="epoch_unverified":step["input_epoch_verified"]=False
+&gt;       assert not tel.goal_confirmed(rules[-1],after),case
+E       AssertionError: same_spec_other_goal
+E       assert not True
+E        +  where True = goal_confirmed(StrategyRule(id='dragondark_hand_result_inspect', card_id='13906', description='Solo公開UI雷電龍手札①→同名追加確認', type=&lt;ActionTy...d_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')), GameState(sequence=50, captured_at=5.0, media_time=None, turn=Observation[int](value=None, confidence=0, source='unkno... hand_count=Observation[int](value=None, confidence=0, source='unknown', observed_at=0), zones={}), visible_actions=[]))
+E        +    where goal_confirmed = &lt;master_duel_advisor.telemetry.ActionTelemetry object at 0x000001C37B029730&gt;.goal_confirmed
+
+tests\test_hand_search_integration.py:104: AssertionError</failure></testcase><testcase classname="tests.test_hand_search_integration" name="test_hand_goal_each_broken_receipt_join_is_rejected[third_ready_missing]" time="0.008"><failure message="AssertionError: third_ready_missing&#10;assert not True&#10; +  where True = goal_confirmed(StrategyRule(id='dragondark_hand_result_inspect', card_id='13906', description='Solo公開UI雷電龍手札①→同名追加確認', type=&lt;ActionTy...d_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')), GameState(sequence=50, captured_at=5.0, media_time=None, turn=Observation[int](value=None, confidence=0, source='unkno... hand_count=Observation[int](value=None, confidence=0, source='unknown', observed_at=0), zones={}), visible_actions=[]))&#10; +    where goal_confirmed = &lt;master_duel_advisor.telemetry.ActionTelemetry object at 0x000001C37B0299A0&gt;.goal_confirmed">tmp_path = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/evaluation/pytest-hand-search-join-v1/test_hand_goal_each_broken_rec1')
+case = 'third_ready_missing'
+
+    @pytest.mark.parametrize("case",["same_spec_other_goal","third_ready_missing","different_safe_point","different_handoff",
+        "stale_before_detail","blank_missing","missing_inspect_receipt","same_sequence","stale_final_detail",
+        "neighbor_selected_geometry","missing_selected_geometry","wrong_profile_hash","wrong_chain",
+        "expired_handoff","epoch_unverified"])
+    def test_hand_goal_each_broken_receipt_join_is_rejected(tmp_path,case):
+        tel,rules,after=synthetic_hand_case(tmp_path);step=tel.current_step;goal=rules[-1].logical_hand_search_confirmation
+        if case=="same_spec_other_goal":tel.active["logical_action"]="different-parent-purpose"
+        elif case=="third_ready_missing":step["hand_before"]["facts"].pop(goal.result_ready_fact)
+        elif case=="different_safe_point":
+            step["action"]["hand_search_proof"]["point"][0]+=1;step["screen_point"][0]+=1
+        elif case=="different_handoff":
+            tel.active["hand_episode"]["handoff"]["bbox"][0]+=150
+        elif case=="stale_before_detail":step["hand_before"]["facts"][goal.detail_fact].update(value="13906",confidence=1)
+        elif case=="blank_missing":step["hand_before"]["facts"].pop("inspect_context.detail_blank")
+        elif case=="missing_inspect_receipt":step["input_sent"]=None
+        elif case=="same_sequence":after=after.model_copy(update={"sequence":40})
+        elif case=="stale_final_detail":after.facts[goal.detail_fact]=after.facts[goal.detail_fact].model_copy(update={"observed_at":1.})
+        elif case=="neighbor_selected_geometry":tel.active["hand_episode"]["current_selected_geometry"]["bbox"][0]+=150
+        elif case=="missing_selected_geometry":tel.active["hand_episode"].pop("current_selected_geometry")
+        elif case=="wrong_profile_hash":step["action"]["hand_search_proof"]["profile_sha256"]="other-profile"
+        elif case=="wrong_chain":tel.active["steps"][1]["hand_before"]["facts"].pop(goal.own_chain_fact)
+        elif case=="expired_handoff":tel.active["hand_episode"]["handoff"]["at"]=1.
+        elif case=="epoch_unverified":step["input_epoch_verified"]=False
+&gt;       assert not tel.goal_confirmed(rules[-1],after),case
+E       AssertionError: third_ready_missing
+E       assert not True
+E        +  where True = goal_confirmed(StrategyRule(id='dragondark_hand_result_inspect', card_id='13906', description='Solo公開UI雷電龍手札①→同名追加確認', type=&lt;ActionTy...d_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')), GameState(sequence=50, captured_at=5.0, media_time=None, turn=Observation[int](value=None, confidence=0, source='unkno... hand_count=Observation[int](value=None, confidence=0, source='unknown', observed_at=0), zones={}), visible_actions=[]))
+E        +    where goal_confirmed = &lt;master_duel_advisor.telemetry.ActionTelemetry object at 0x000001C37B0299A0&gt;.goal_confirmed
+
+tests\test_hand_search_integration.py:104: AssertionError</failure></testcase><testcase classname="tests.test_hand_search_integration" name="test_hand_goal_each_broken_receipt_join_is_rejected[different_safe_point]" time="0.009"><failure message="AssertionError: different_safe_point&#10;assert not True&#10; +  where True = goal_confirmed(StrategyRule(id='dragondark_hand_result_inspect', card_id='13906', description='Solo公開UI雷電龍手札①→同名追加確認', type=&lt;ActionTy...d_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')), GameState(sequence=50, captured_at=5.0, media_time=None, turn=Observation[int](value=None, confidence=0, source='unkno... hand_count=Observation[int](value=None, confidence=0, source='unknown', observed_at=0), zones={}), visible_actions=[]))&#10; +    where goal_confirmed = &lt;master_duel_advisor.telemetry.ActionTelemetry object at 0x000001C35A477C50&gt;.goal_confirmed">tmp_path = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/evaluation/pytest-hand-search-join-v1/test_hand_goal_each_broken_rec2')
+case = 'different_safe_point'
+
+    @pytest.mark.parametrize("case",["same_spec_other_goal","third_ready_missing","different_safe_point","different_handoff",
+        "stale_before_detail","blank_missing","missing_inspect_receipt","same_sequence","stale_final_detail",
+        "neighbor_selected_geometry","missing_selected_geometry","wrong_profile_hash","wrong_chain",
+        "expired_handoff","epoch_unverified"])
+    def test_hand_goal_each_broken_receipt_join_is_rejected(tmp_path,case):
+        tel,rules,after=synthetic_hand_case(tmp_path);step=tel.current_step;goal=rules[-1].logical_hand_search_confirmation
+        if case=="same_spec_other_goal":tel.active["logical_action"]="different-parent-purpose"
+        elif case=="third_ready_missing":step["hand_before"]["facts"].pop(goal.result_ready_fact)
+        elif case=="different_safe_point":
+            step["action"]["hand_search_proof"]["point"][0]+=1;step["screen_point"][0]+=1
+        elif case=="different_handoff":
+            tel.active["hand_episode"]["handoff"]["bbox"][0]+=150
+        elif case=="stale_before_detail":step["hand_before"]["facts"][goal.detail_fact].update(value="13906",confidence=1)
+        elif case=="blank_missing":step["hand_before"]["facts"].pop("inspect_context.detail_blank")
+        elif case=="missing_inspect_receipt":step["input_sent"]=None
+        elif case=="same_sequence":after=after.model_copy(update={"sequence":40})
+        elif case=="stale_final_detail":after.facts[goal.detail_fact]=after.facts[goal.detail_fact].model_copy(update={"observed_at":1.})
+        elif case=="neighbor_selected_geometry":tel.active["hand_episode"]["current_selected_geometry"]["bbox"][0]+=150
+        elif case=="missing_selected_geometry":tel.active["hand_episode"].pop("current_selected_geometry")
+        elif case=="wrong_profile_hash":step["action"]["hand_search_proof"]["profile_sha256"]="other-profile"
+        elif case=="wrong_chain":tel.active["steps"][1]["hand_before"]["facts"].pop(goal.own_chain_fact)
+        elif case=="expired_handoff":tel.active["hand_episode"]["handoff"]["at"]=1.
+        elif case=="epoch_unverified":step["input_epoch_verified"]=False
+&gt;       assert not tel.goal_confirmed(rules[-1],after),case
+E       AssertionError: different_safe_point
+E       assert not True
+E        +  where True = goal_confirmed(StrategyRule(id='dragondark_hand_result_inspect', card_id='13906', description='Solo公開UI雷電龍手札①→同名追加確認', type=&lt;ActionTy...d_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')), GameState(sequence=50, captured_at=5.0, media_time=None, turn=Observation[int](value=None, confidence=0, source='unkno... hand_count=Observation[int](value=None, confidence=0, source='unknown', observed_at=0), zones={}), visible_actions=[]))
+E        +    where goal_confirmed = &lt;master_duel_advisor.telemetry.ActionTelemetry object at 0x000001C35A477C50&gt;.goal_confirmed
+
+tests\test_hand_search_integration.py:104: AssertionError</failure></testcase><testcase classname="tests.test_hand_search_integration" name="test_hand_goal_each_broken_receipt_join_is_rejected[different_handoff]" time="0.007"><failure message="AssertionError: different_handoff&#10;assert not True&#10; +  where True = goal_confirmed(StrategyRule(id='dragondark_hand_result_inspect', card_id='13906', description='Solo公開UI雷電龍手札①→同名追加確認', type=&lt;ActionTy...d_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')), GameState(sequence=50, captured_at=5.0, media_time=None, turn=Observation[int](value=None, confidence=0, source='unkno... hand_count=Observation[int](value=None, confidence=0, source='unknown', observed_at=0), zones={}), visible_actions=[]))&#10; +    where goal_confirmed = &lt;master_duel_advisor.telemetry.ActionTelemetry object at 0x000001C37B02B500&gt;.goal_confirmed">tmp_path = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/evaluation/pytest-hand-search-join-v1/test_hand_goal_each_broken_rec3')
+case = 'different_handoff'
+
+    @pytest.mark.parametrize("case",["same_spec_other_goal","third_ready_missing","different_safe_point","different_handoff",
+        "stale_before_detail","blank_missing","missing_inspect_receipt","same_sequence","stale_final_detail",
+        "neighbor_selected_geometry","missing_selected_geometry","wrong_profile_hash","wrong_chain",
+        "expired_handoff","epoch_unverified"])
+    def test_hand_goal_each_broken_receipt_join_is_rejected(tmp_path,case):
+        tel,rules,after=synthetic_hand_case(tmp_path);step=tel.current_step;goal=rules[-1].logical_hand_search_confirmation
+        if case=="same_spec_other_goal":tel.active["logical_action"]="different-parent-purpose"
+        elif case=="third_ready_missing":step["hand_before"]["facts"].pop(goal.result_ready_fact)
+        elif case=="different_safe_point":
+            step["action"]["hand_search_proof"]["point"][0]+=1;step["screen_point"][0]+=1
+        elif case=="different_handoff":
+            tel.active["hand_episode"]["handoff"]["bbox"][0]+=150
+        elif case=="stale_before_detail":step["hand_before"]["facts"][goal.detail_fact].update(value="13906",confidence=1)
+        elif case=="blank_missing":step["hand_before"]["facts"].pop("inspect_context.detail_blank")
+        elif case=="missing_inspect_receipt":step["input_sent"]=None
+        elif case=="same_sequence":after=after.model_copy(update={"sequence":40})
+        elif case=="stale_final_detail":after.facts[goal.detail_fact]=after.facts[goal.detail_fact].model_copy(update={"observed_at":1.})
+        elif case=="neighbor_selected_geometry":tel.active["hand_episode"]["current_selected_geometry"]["bbox"][0]+=150
+        elif case=="missing_selected_geometry":tel.active["hand_episode"].pop("current_selected_geometry")
+        elif case=="wrong_profile_hash":step["action"]["hand_search_proof"]["profile_sha256"]="other-profile"
+        elif case=="wrong_chain":tel.active["steps"][1]["hand_before"]["facts"].pop(goal.own_chain_fact)
+        elif case=="expired_handoff":tel.active["hand_episode"]["handoff"]["at"]=1.
+        elif case=="epoch_unverified":step["input_epoch_verified"]=False
+&gt;       assert not tel.goal_confirmed(rules[-1],after),case
+E       AssertionError: different_handoff
+E       assert not True
+E        +  where True = goal_confirmed(StrategyRule(id='dragondark_hand_result_inspect', card_id='13906', description='Solo公開UI雷電龍手札①→同名追加確認', type=&lt;ActionTy...d_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')), GameState(sequence=50, captured_at=5.0, media_time=None, turn=Observation[int](value=None, confidence=0, source='unkno... hand_count=Observation[int](value=None, confidence=0, source='unknown', observed_at=0), zones={}), visible_actions=[]))
+E        +    where goal_confirmed = &lt;master_duel_advisor.telemetry.ActionTelemetry object at 0x000001C37B02B500&gt;.goal_confirmed
+
+tests\test_hand_search_integration.py:104: AssertionError</failure></testcase><testcase classname="tests.test_hand_search_integration" name="test_hand_goal_each_broken_receipt_join_is_rejected[stale_before_detail]" time="0.007"><failure message="AssertionError: stale_before_detail&#10;assert not True&#10; +  where True = goal_confirmed(StrategyRule(id='dragondark_hand_result_inspect', card_id='13906', description='Solo公開UI雷電龍手札①→同名追加確認', type=&lt;ActionTy...d_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')), GameState(sequence=50, captured_at=5.0, media_time=None, turn=Observation[int](value=None, confidence=0, source='unkno... hand_count=Observation[int](value=None, confidence=0, source='unknown', observed_at=0), zones={}), visible_actions=[]))&#10; +    where goal_confirmed = &lt;master_duel_advisor.telemetry.ActionTelemetry object at 0x000001C37B029610&gt;.goal_confirmed">tmp_path = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/evaluation/pytest-hand-search-join-v1/test_hand_goal_each_broken_rec4')
+case = 'stale_before_detail'
+
+    @pytest.mark.parametrize("case",["same_spec_other_goal","third_ready_missing","different_safe_point","different_handoff",
+        "stale_before_detail","blank_missing","missing_inspect_receipt","same_sequence","stale_final_detail",
+        "neighbor_selected_geometry","missing_selected_geometry","wrong_profile_hash","wrong_chain",
+        "expired_handoff","epoch_unverified"])
+    def test_hand_goal_each_broken_receipt_join_is_rejected(tmp_path,case):
+        tel,rules,after=synthetic_hand_case(tmp_path);step=tel.current_step;goal=rules[-1].logical_hand_search_confirmation
+        if case=="same_spec_other_goal":tel.active["logical_action"]="different-parent-purpose"
+        elif case=="third_ready_missing":step["hand_before"]["facts"].pop(goal.result_ready_fact)
+        elif case=="different_safe_point":
+            step["action"]["hand_search_proof"]["point"][0]+=1;step["screen_point"][0]+=1
+        elif case=="different_handoff":
+            tel.active["hand_episode"]["handoff"]["bbox"][0]+=150
+        elif case=="stale_before_detail":step["hand_before"]["facts"][goal.detail_fact].update(value="13906",confidence=1)
+        elif case=="blank_missing":step["hand_before"]["facts"].pop("inspect_context.detail_blank")
+        elif case=="missing_inspect_receipt":step["input_sent"]=None
+        elif case=="same_sequence":after=after.model_copy(update={"sequence":40})
+        elif case=="stale_final_detail":after.facts[goal.detail_fact]=after.facts[goal.detail_fact].model_copy(update={"observed_at":1.})
+        elif case=="neighbor_selected_geometry":tel.active["hand_episode"]["current_selected_geometry"]["bbox"][0]+=150
+        elif case=="missing_selected_geometry":tel.active["hand_episode"].pop("current_selected_geometry")
+        elif case=="wrong_profile_hash":step["action"]["hand_search_proof"]["profile_sha256"]="other-profile"
+        elif case=="wrong_chain":tel.active["steps"][1]["hand_before"]["facts"].pop(goal.own_chain_fact)
+        elif case=="expired_handoff":tel.active["hand_episode"]["handoff"]["at"]=1.
+        elif case=="epoch_unverified":step["input_epoch_verified"]=False
+&gt;       assert not tel.goal_confirmed(rules[-1],after),case
+E       AssertionError: stale_before_detail
+E       assert not True
+E        +  where True = goal_confirmed(StrategyRule(id='dragondark_hand_result_inspect', card_id='13906', description='Solo公開UI雷電龍手札①→同名追加確認', type=&lt;ActionTy...d_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')), GameState(sequence=50, captured_at=5.0, media_time=None, turn=Observation[int](value=None, confidence=0, source='unkno... hand_count=Observation[int](value=None, confidence=0, source='unknown', observed_at=0), zones={}), visible_actions=[]))
+E        +    where goal_confirmed = &lt;master_duel_advisor.telemetry.ActionTelemetry object at 0x000001C37B029610&gt;.goal_confirmed
+
+tests\test_hand_search_integration.py:104: AssertionError</failure></testcase><testcase classname="tests.test_hand_search_integration" name="test_hand_goal_each_broken_receipt_join_is_rejected[blank_missing]" time="0.008"><failure message="AssertionError: blank_missing&#10;assert not True&#10; +  where True = goal_confirmed(StrategyRule(id='dragondark_hand_result_inspect', card_id='13906', description='Solo公開UI雷電龍手札①→同名追加確認', type=&lt;ActionTy...d_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')), GameState(sequence=50, captured_at=5.0, media_time=None, turn=Observation[int](value=None, confidence=0, source='unkno... hand_count=Observation[int](value=None, confidence=0, source='unknown', observed_at=0), zones={}), visible_actions=[]))&#10; +    where goal_confirmed = &lt;master_duel_advisor.telemetry.ActionTelemetry object at 0x000001C37AFB26C0&gt;.goal_confirmed">tmp_path = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/evaluation/pytest-hand-search-join-v1/test_hand_goal_each_broken_rec5')
+case = 'blank_missing'
+
+    @pytest.mark.parametrize("case",["same_spec_other_goal","third_ready_missing","different_safe_point","different_handoff",
+        "stale_before_detail","blank_missing","missing_inspect_receipt","same_sequence","stale_final_detail",
+        "neighbor_selected_geometry","missing_selected_geometry","wrong_profile_hash","wrong_chain",
+        "expired_handoff","epoch_unverified"])
+    def test_hand_goal_each_broken_receipt_join_is_rejected(tmp_path,case):
+        tel,rules,after=synthetic_hand_case(tmp_path);step=tel.current_step;goal=rules[-1].logical_hand_search_confirmation
+        if case=="same_spec_other_goal":tel.active["logical_action"]="different-parent-purpose"
+        elif case=="third_ready_missing":step["hand_before"]["facts"].pop(goal.result_ready_fact)
+        elif case=="different_safe_point":
+            step["action"]["hand_search_proof"]["point"][0]+=1;step["screen_point"][0]+=1
+        elif case=="different_handoff":
+            tel.active["hand_episode"]["handoff"]["bbox"][0]+=150
+        elif case=="stale_before_detail":step["hand_before"]["facts"][goal.detail_fact].update(value="13906",confidence=1)
+        elif case=="blank_missing":step["hand_before"]["facts"].pop("inspect_context.detail_blank")
+        elif case=="missing_inspect_receipt":step["input_sent"]=None
+        elif case=="same_sequence":after=after.model_copy(update={"sequence":40})
+        elif case=="stale_final_detail":after.facts[goal.detail_fact]=after.facts[goal.detail_fact].model_copy(update={"observed_at":1.})
+        elif case=="neighbor_selected_geometry":tel.active["hand_episode"]["current_selected_geometry"]["bbox"][0]+=150
+        elif case=="missing_selected_geometry":tel.active["hand_episode"].pop("current_selected_geometry")
+        elif case=="wrong_profile_hash":step["action"]["hand_search_proof"]["profile_sha256"]="other-profile"
+        elif case=="wrong_chain":tel.active["steps"][1]["hand_before"]["facts"].pop(goal.own_chain_fact)
+        elif case=="expired_handoff":tel.active["hand_episode"]["handoff"]["at"]=1.
+        elif case=="epoch_unverified":step["input_epoch_verified"]=False
+&gt;       assert not tel.goal_confirmed(rules[-1],after),case
+E       AssertionError: blank_missing
+E       assert not True
+E        +  where True = goal_confirmed(StrategyRule(id='dragondark_hand_result_inspect', card_id='13906', description='Solo公開UI雷電龍手札①→同名追加確認', type=&lt;ActionTy...d_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')), GameState(sequence=50, captured_at=5.0, media_time=None, turn=Observation[int](value=None, confidence=0, source='unkno... hand_count=Observation[int](value=None, confidence=0, source='unknown', observed_at=0), zones={}), visible_actions=[]))
+E        +    where goal_confirmed = &lt;master_duel_advisor.telemetry.ActionTelemetry object at 0x000001C37AFB26C0&gt;.goal_confirmed
+
+tests\test_hand_search_integration.py:104: AssertionError</failure></testcase><testcase classname="tests.test_hand_search_integration" name="test_hand_goal_each_broken_receipt_join_is_rejected[missing_inspect_receipt]" time="0.008" /><testcase classname="tests.test_hand_search_integration" name="test_hand_goal_each_broken_receipt_join_is_rejected[same_sequence]" time="0.008" /><testcase classname="tests.test_hand_search_integration" name="test_hand_goal_each_broken_receipt_join_is_rejected[stale_final_detail]" time="0.008" /><testcase classname="tests.test_hand_search_integration" name="test_hand_goal_each_broken_receipt_join_is_rejected[neighbor_selected_geometry]" time="0.008"><failure message="AssertionError: neighbor_selected_geometry&#10;assert not True&#10; +  where True = goal_confirmed(StrategyRule(id='dragondark_hand_result_inspect', card_id='13906', description='Solo公開UI雷電龍手札①→同名追加確認', type=&lt;ActionTy...d_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')), GameState(sequence=50, captured_at=5.0, media_time=None, turn=Observation[int](value=None, confidence=0, source='unkno... hand_count=Observation[int](value=None, confidence=0, source='unknown', observed_at=0), zones={}), visible_actions=[]))&#10; +    where goal_confirmed = &lt;master_duel_advisor.telemetry.ActionTelemetry object at 0x000001C37B029F10&gt;.goal_confirmed">tmp_path = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/evaluation/pytest-hand-search-join-v1/test_hand_goal_each_broken_rec9')
+case = 'neighbor_selected_geometry'
+
+    @pytest.mark.parametrize("case",["same_spec_other_goal","third_ready_missing","different_safe_point","different_handoff",
+        "stale_before_detail","blank_missing","missing_inspect_receipt","same_sequence","stale_final_detail",
+        "neighbor_selected_geometry","missing_selected_geometry","wrong_profile_hash","wrong_chain",
+        "expired_handoff","epoch_unverified"])
+    def test_hand_goal_each_broken_receipt_join_is_rejected(tmp_path,case):
+        tel,rules,after=synthetic_hand_case(tmp_path);step=tel.current_step;goal=rules[-1].logical_hand_search_confirmation
+        if case=="same_spec_other_goal":tel.active["logical_action"]="different-parent-purpose"
+        elif case=="third_ready_missing":step["hand_before"]["facts"].pop(goal.result_ready_fact)
+        elif case=="different_safe_point":
+            step["action"]["hand_search_proof"]["point"][0]+=1;step["screen_point"][0]+=1
+        elif case=="different_handoff":
+            tel.active["hand_episode"]["handoff"]["bbox"][0]+=150
+        elif case=="stale_before_detail":step["hand_before"]["facts"][goal.detail_fact].update(value="13906",confidence=1)
+        elif case=="blank_missing":step["hand_before"]["facts"].pop("inspect_context.detail_blank")
+        elif case=="missing_inspect_receipt":step["input_sent"]=None
+        elif case=="same_sequence":after=after.model_copy(update={"sequence":40})
+        elif case=="stale_final_detail":after.facts[goal.detail_fact]=after.facts[goal.detail_fact].model_copy(update={"observed_at":1.})
+        elif case=="neighbor_selected_geometry":tel.active["hand_episode"]["current_selected_geometry"]["bbox"][0]+=150
+        elif case=="missing_selected_geometry":tel.active["hand_episode"].pop("current_selected_geometry")
+        elif case=="wrong_profile_hash":step["action"]["hand_search_proof"]["profile_sha256"]="other-profile"
+        elif case=="wrong_chain":tel.active["steps"][1]["hand_before"]["facts"].pop(goal.own_chain_fact)
+        elif case=="expired_handoff":tel.active["hand_episode"]["handoff"]["at"]=1.
+        elif case=="epoch_unverified":step["input_epoch_verified"]=False
+&gt;       assert not tel.goal_confirmed(rules[-1],after),case
+E       AssertionError: neighbor_selected_geometry
+E       assert not True
+E        +  where True = goal_confirmed(StrategyRule(id='dragondark_hand_result_inspect', card_id='13906', description='Solo公開UI雷電龍手札①→同名追加確認', type=&lt;ActionTy...d_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')), GameState(sequence=50, captured_at=5.0, media_time=None, turn=Observation[int](value=None, confidence=0, source='unkno... hand_count=Observation[int](value=None, confidence=0, source='unknown', observed_at=0), zones={}), visible_actions=[]))
+E        +    where goal_confirmed = &lt;master_duel_advisor.telemetry.ActionTelemetry object at 0x000001C37B029F10&gt;.goal_confirmed
+
+tests\test_hand_search_integration.py:104: AssertionError</failure></testcase><testcase classname="tests.test_hand_search_integration" name="test_hand_goal_each_broken_receipt_join_is_rejected[missing_selected_geometry]" time="0.008"><failure message="AssertionError: missing_selected_geometry&#10;assert not True&#10; +  where True = goal_confirmed(StrategyRule(id='dragondark_hand_result_inspect', card_id='13906', description='Solo公開UI雷電龍手札①→同名追加確認', type=&lt;ActionTy...d_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')), GameState(sequence=50, captured_at=5.0, media_time=None, turn=Observation[int](value=None, confidence=0, source='unkno... hand_count=Observation[int](value=None, confidence=0, source='unknown', observed_at=0), zones={}), visible_actions=[]))&#10; +    where goal_confirmed = &lt;master_duel_advisor.telemetry.ActionTelemetry object at 0x000001C37B02BFE0&gt;.goal_confirmed">tmp_path = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/evaluation/pytest-hand-search-join-v1/test_hand_goal_each_broken_rec10')
+case = 'missing_selected_geometry'
+
+    @pytest.mark.parametrize("case",["same_spec_other_goal","third_ready_missing","different_safe_point","different_handoff",
+        "stale_before_detail","blank_missing","missing_inspect_receipt","same_sequence","stale_final_detail",
+        "neighbor_selected_geometry","missing_selected_geometry","wrong_profile_hash","wrong_chain",
+        "expired_handoff","epoch_unverified"])
+    def test_hand_goal_each_broken_receipt_join_is_rejected(tmp_path,case):
+        tel,rules,after=synthetic_hand_case(tmp_path);step=tel.current_step;goal=rules[-1].logical_hand_search_confirmation
+        if case=="same_spec_other_goal":tel.active["logical_action"]="different-parent-purpose"
+        elif case=="third_ready_missing":step["hand_before"]["facts"].pop(goal.result_ready_fact)
+        elif case=="different_safe_point":
+            step["action"]["hand_search_proof"]["point"][0]+=1;step["screen_point"][0]+=1
+        elif case=="different_handoff":
+            tel.active["hand_episode"]["handoff"]["bbox"][0]+=150
+        elif case=="stale_before_detail":step["hand_before"]["facts"][goal.detail_fact].update(value="13906",confidence=1)
+        elif case=="blank_missing":step["hand_before"]["facts"].pop("inspect_context.detail_blank")
+        elif case=="missing_inspect_receipt":step["input_sent"]=None
+        elif case=="same_sequence":after=after.model_copy(update={"sequence":40})
+        elif case=="stale_final_detail":after.facts[goal.detail_fact]=after.facts[goal.detail_fact].model_copy(update={"observed_at":1.})
+        elif case=="neighbor_selected_geometry":tel.active["hand_episode"]["current_selected_geometry"]["bbox"][0]+=150
+        elif case=="missing_selected_geometry":tel.active["hand_episode"].pop("current_selected_geometry")
+        elif case=="wrong_profile_hash":step["action"]["hand_search_proof"]["profile_sha256"]="other-profile"
+        elif case=="wrong_chain":tel.active["steps"][1]["hand_before"]["facts"].pop(goal.own_chain_fact)
+        elif case=="expired_handoff":tel.active["hand_episode"]["handoff"]["at"]=1.
+        elif case=="epoch_unverified":step["input_epoch_verified"]=False
+&gt;       assert not tel.goal_confirmed(rules[-1],after),case
+E       AssertionError: missing_selected_geometry
+E       assert not True
+E        +  where True = goal_confirmed(StrategyRule(id='dragondark_hand_result_inspect', card_id='13906', description='Solo公開UI雷電龍手札①→同名追加確認', type=&lt;ActionTy...d_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')), GameState(sequence=50, captured_at=5.0, media_time=None, turn=Observation[int](value=None, confidence=0, source='unkno... hand_count=Observation[int](value=None, confidence=0, source='unknown', observed_at=0), zones={}), visible_actions=[]))
+E        +    where goal_confirmed = &lt;master_duel_advisor.telemetry.ActionTelemetry object at 0x000001C37B02BFE0&gt;.goal_confirmed
+
+tests\test_hand_search_integration.py:104: AssertionError</failure></testcase><testcase classname="tests.test_hand_search_integration" name="test_hand_goal_each_broken_receipt_join_is_rejected[wrong_profile_hash]" time="0.007" /><testcase classname="tests.test_hand_search_integration" name="test_hand_goal_each_broken_receipt_join_is_rejected[wrong_chain]" time="0.008" /><testcase classname="tests.test_hand_search_integration" name="test_hand_goal_each_broken_receipt_join_is_rejected[expired_handoff]" time="0.007" /><testcase classname="tests.test_hand_search_integration" name="test_hand_goal_each_broken_receipt_join_is_rejected[epoch_unverified]" time="0.008" /></testsuite></testsuites>

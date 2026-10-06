@@ -1,0 +1,216 @@
+{
+  "calibration_sha256": "be737032831c29e15487b8113e03d4e7bd74a7099ed93b8b02dd4076729bd7bb",
+  "independent": false,
+  "rows": [
+    {
+      "image": "000-story-list.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "001-gate-loading.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "002-monarch-gate.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "003-duel-node-selected.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "004-duel-rental-tab.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "005-my-deck-thunder.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "006-duel-first-player-loading.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "007-self-turn1-main1-training.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 1.0,
+      "phase_confidence": 1.0
+    },
+    {
+      "image": "008-self-turn1-main1-holdout.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9855608940124512,
+      "phase_confidence": 0.9855608940124512
+    },
+    {
+      "image": "009-phase-menu-end-training.png",
+      "phase": "MAIN1",
+      "prompt": "phase.select",
+      "confidence": 1.0,
+      "phase_confidence": 1.0
+    },
+    {
+      "image": "010-phase-menu-end-holdout.png",
+      "phase": "MAIN1",
+      "prompt": "phase.select",
+      "confidence": 0.9977060556411743,
+      "phase_confidence": 0.9977060556411743
+    },
+    {
+      "image": "011-self-turn1-end-animation.png",
+      "phase": "END",
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 1.0
+    },
+    {
+      "image": "012-self-turn3-draw-animation.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "013-self-turn3-main1-animation.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "014-self-turn3-main1-stable.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9911247491836548,
+      "phase_confidence": 0.9911247491836548
+    },
+    {
+      "image": "015-ash-hand-menu.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "016-ash-place-select.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "017-ash-summon-animation.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "018-opponent-apophis-chain-response.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "019-apophis-chain-before-cancel.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "020-apophis-resolving.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "021-opponent-summon-response.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "022-main1-new-training-1-summon-confirmed.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 1.0,
+      "phase_confidence": 1.0
+    },
+    {
+      "image": "023-main1-new-training-2.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 1.0,
+      "phase_confidence": 1.0
+    },
+    {
+      "image": "024-main1-new-holdout-1.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9919047355651855,
+      "phase_confidence": 0.9919047355651855
+    },
+    {
+      "image": "025-turn3-phase-menu-opening.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "026-turn3-phase-menu-battle-enabled-holdout.png",
+      "phase": "MAIN1",
+      "prompt": "phase.select",
+      "confidence": 0.9971737265586853,
+      "phase_confidence": 0.9971737265586853
+    },
+    {
+      "image": "027-turn3-end-click-menu-closing.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "028-opponent-turn4-main1-chain-negative.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "045-TRAINING-self-turn5-main1-low-lp-v2.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 1.0,
+      "phase_confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "format": "deck-strategy-v1",
+  "name": "Solo既知normal/phase/任意応答辞退",
+  "source": "v5 normal＋既存phase＋元MSS訓練50枚",
+  "rules": [
+    {
+      "id": "inspect_normal",
+      "card_id": "12950",
+      "description": "有効Ash通常召喚UIを選択",
+      "type": "NORMAL_SUMMON",
+      "source_region": "action.inspect_normal",
+      "target": null,
+      "priority": 1000,
+      "players": [
+        "self"
+      ],
+      "phases": [
+        "MAIN1"
+      ],
+      "prompt": "card.menu",
+      "additional_prompts": [],
+      "follows": [],
+      "observed_facts": {
+        "detail.card_id": "12950",
+        "inspect_context.hand_selected": "true",
+        "inspect_context.summon_enabled": "true",
+        "zone.self.monster_2.occupancy": "empty"
+      },
+      "expected_prompts": [
+        "placement.select"
+      ],
+      "requires": [],
+      "facts": {},
+      "expected_facts": {},
+      "enabled": true,
+      "material_method": null,
+      "logical_action": "normal_ash_inspect_center",
+      "logical_category": "NORMAL_SUMMON",
+      "logical_start": true,
+      "logical_end": false,
+      "logical_count_fact": null,
+      "logical_phase": null,
+      "logical_turn_advance": false,
+      "logical_zone_transition": null,
+      "logical_inspect_confirmation": {
+        "side": "self",
+        "zone": "monster_2",
+        "card_id": "12950",
+        "summon_region": "action.inspect_normal",
+        "placement_region": "action.inspect_place",
+        "inspect_region": "action.inspect_zone",
+        "clear_region": null,
+        "detail_card_fact": "detail.card_id",
+        "hand_selected_fact": "inspect_context.hand_selected",
+        "evidence_mode": "blank_to_detail_with_verified_zone_input",
+        "detail_blank_fact": "inspect_context.detail_blank",
+        "summon_enabled_fact": "inspect_context.summon_enabled"
+      }
+    },
+    {
+      "id": "inspect_place",
+      "card_id": "12950",
+      "description": "中央へ実配置し明示detail空を確認",
+      "type": "CONFIRM",
+      "source_region": "action.inspect_place",
+      "target": "self.monster_2",
+      "priority": 1000,
+      "players": [
+        "self"
+      ],
+      "phases": [
+        "MAIN1"
+      ],
+      "prompt": "placement.select",
+      "additional_prompts": [],
+      "follows": [
+        "inspect_normal"
+      ],
+      "observed_facts": {
+        "inspect_context.placement": "true",
+        "inspect_context.placement_target": "true"
+      },
+      "expected_prompts": [
+        "none"
+      ],
+      "requires": [],
+      "facts": {},
+      "expected_facts": {
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": "true"
+      },
+      "enabled": true,
+      "material_method": null,
+      "logical_action": "normal_ash_inspect_center",
+      "logical_category": "NORMAL_SUMMON",
+      "logical_start": false,
+      "logical_end": false,
+      "logical_count_fact": null,
+      "logical_phase": null,
+      "logical_turn_advance": false,
+      "logical_zone_transition": null,
+      "logical_inspect_confirmation": {
+        "side": "self",
+        "zone": "monster_2",
+        "card_id": "12950",
+        "summon_region": "action.inspect_normal",
+        "placement_region": "action.inspect_place",
+        "inspect_region": "action.inspect_zone",
+        "clear_region": null,
+        "detail_card_fact": "detail.card_id",
+        "hand_selected_fact": "inspect_context.hand_selected",
+        "evidence_mode": "blank_to_detail_with_verified_zone_input",
+        "detail_blank_fact": "inspect_context.detail_blank",
+        "summon_enabled_fact": "inspect_context.summon_enabled"
+      }
+    },
+    {
+      "id": "inspect_zone",
+      "card_id": "12950",
+      "description": "実配置先を選択し新Ash詳細を確認",
+      "type": "SELECT_CARD",
+      "source_region": "action.inspect_zone",
+      "target": "self.monster_2",
+      "priority": 1000,
+      "players": [
+        "self"
+      ],
+      "phases": [
+        "MAIN1"
+      ],
+      "prompt": "none",
+      "additional_prompts": [],
+      "follows": [
+        "inspect_place"
+      ],
+      "observed_facts": {
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": "true"
+      },
+      "expected_prompts": [],
+      "requires": [],
+      "facts": {},
+      "expected_facts": {
+        "detail.card_id": "12950",
+        "zone.self.monster_2.occupancy": "occupied"
+      },
+      "enabled": true,
+      "material_method": null,
+      "logical_action": "normal_ash_inspect_center",
+      "logical_category": "NORMAL_SUMMON",
+      "logical_start": false,
+      "logical_end": true,
+      "logical_count_fact": null,
+      "logical_phase": null,
+      "logical_turn_advance": false,
+      "logical_zone_transition": null,
+      "logical_inspect_confirmation": {
+        "side": "self",
+        "zone": "monster_2",
+        "card_id": "12950",
+        "summon_region": "action.inspect_normal",
+        "placement_region": "action.inspect_place",
+        "inspect_region": "action.inspect_zone",
+        "clear_region": null,
+        "detail_card_fact": "detail.card_id",
+        "hand_selected_fact": "inspect_context.hand_selected",
+        "evidence_mode": "blank_to_detail_with_verified_zone_input",
+        "detail_blank_fact": "inspect_context.detail_blank",
+        "summon_enabled_fact": "inspect_context.summon_enabled"
+      }
+    },
+    {
+      "id": "phase_open",
+      "card_id": null,
+      "description": "フェイズ選択を開く",
+      "type": "CHANGE_PHASE",
+      "source_region": "action.phase_open",
+      "target": null,
+      "priority": 1000,
+      "players": [
+        "self"
+      ],
+      "phases": [
+        "MAIN1"
+      ],
+      "prompt": "none",
+      "additional_prompts": [],
+      "follows": [],
+      "observed_facts": {
+        "phase_context.self_main1": "true",
+        "phase_context.clear_center": "true",
+        "phase_context.clear_card_menu": "true"
+      },
+      "expected_prompts": [
+        "phase.select"
+      ],
+      "requires": [],
+      "facts": {},
+      "expected_facts": {},
+      "enabled": true,
+      "material_method": null,
+      "logical_action": "main1_to_end",
+      "logical_category": "CHANGE_PHASE",
+      "logical_start": true,
+      "logical_end": false,
+      "logical_count_fact": null,
+      "logical_phase": null,
+      "logical_turn_advance": false,
+      "logical_zone_transition": null
+    },
+    {
+      "id": "phase_end",
+      "card_id": null,
+      "description": "Endを選びEndフェイズ到達を確認",
+      "type": "CONFIRM",
+      "source_region": "action.phase_end",
+      "target": null,
+      "priority": 1000,
+      "players": [
+        "self"
+      ],
+      "phases": [
+        "MAIN1"
+      ],
+      "prompt": "phase.select",
+      "additional_prompts": [],
+      "follows": [
+        "phase_open"
+      ],
+      "observed_facts": {
+        "phase_context.menu_title": "true",
+        "phase_context.menu_end": "true",
+        "phase_context.menu_main1": "true"
+      },
+      "expected_prompts": [],
+      "requires": [],
+      "facts": {},
+      "expected_facts": {},
+      "enabled": true,
+      "material_method": null,
+      "logical_action": "main1_to_end",
+      "logical_category": "CHANGE_PHASE",
+      "logical_start": false,
+      "logical_end": true,
+      "logical_count_fact": null,
+      "logical_phase": "END",
+      "logical_turn_advance": false,
+      "logical_zone_transition": null
+    },
+    {
+      "id": "decline_opponent_summon_success",
+      "card_id": null,
+      "description": "Solo試験policyで表示中の任意発動を辞退",
+      "type": "CANCEL",
+      "source_region": "action.cancel_opponent_summon_success",
+      "target": null,
+      "priority": 1000,
+      "players": [
+        "opponent"
+      ],
+      "phases": [
+        "MAIN1"
+      ],
+      "prompt": "response.opponent_summon_success",
+      "additional_prompts": [],
+      "follows": [],
+      "observed_facts": {
+        "response.prompt.opponent_summon_success": "true",
+        "response.cancel_enabled.opponent_summon_success": "true"
+      },
+      "expected_prompts": [
+        "response.opponent_turn_end"
+      ],
+      "requires": [],
+      "facts": {},
+      "expected_facts": {
+        "response.prompt.opponent_turn_end": "true",
+        "response.outcome.opponent_end_response": "true"
+      },
+      "enabled": true,
+      "material_method": null,
+      "logical_action": "decline_opponent_summon_success",
+      "logical_category": "CHAIN",
+      "logical_start": true,
+      "logical_end": true,
+      "logical_count_fact": null,
+      "logical_phase": null,
+      "logical_turn_advance": false,
+      "logical_zone_transition": null,
+      "logical_response_decline": {
+        "kind": "opponent_summon_success",
+        "outcome": "opponent_end_response",
+        "cancel_region": "action.cancel_opponent_summon_success",
+        "modal_absent_fact": "response.modal_absent"
+      }
+    },
+    {
+      "id": "decline_opponent_turn_end",
+      "card_id": null,
+      "description": "Solo試験policyで表示中の任意発動を辞退",
+      "type": "CANCEL",
+      "source_region": "action.cancel_opponent_turn_end",
+      "target": null,
+      "priority": 1000,
+      "players": [
+        "opponent"
+      ],
+      "phases": [
+        "END"
+      ],
+      "prompt": "response.opponent_turn_end",
+      "additional_prompts": [],
+      "follows": [],
+      "observed_facts": {
+        "response.prompt.opponent_turn_end": "true",
+        "response.cancel_enabled.opponent_turn_end": "true"
+      },
+      "expected_prompts": [],
+      "requires": [],
+      "facts": {},
+      "expected_facts": {
+        "response.outcome.self_draw": "true"
+      },
+      "enabled": true,
+      "material_method": null,
+      "logical_action": "decline_opponent_turn_end",
+      "logical_category": "CHAIN",
+      "logical_start": true,
+      "logical_end": true,
+      "logical_count_fact": null,
+      "logical_phase": null,
+      "logical_turn_advance": false,
+      "logical_zone_transition": null,
+      "logical_response_decline": {
+        "kind": "opponent_turn_end",
+        "outcome": "self_draw",
+        "cancel_region": "action.cancel_opponent_turn_end",
+        "modal_absent_fact": "response.modal_absent",
+        "evidence_mode": "observed_self_draw"
+      }
+    },
+    {
+      "id": "dragondark_hand_activate",
+      "description": "Solo公開UI雷電龍手札①→同名追加確認",
+      "type": "ACTIVATE",
+      "source_region": "action.dragondark_hand_activate",
+      "card_id": "13906",
+      "target": null,
+      "priority": 600,
+      "players": [
+        "self"
+      ],
+      "phases": [
+        "MAIN1"
+      ],
+      "prompt": "hand.dragondark.effect_menu",
+      "observed_facts": {
+        "hand_search.source_ready": "true",
+        "hand_search.detail_card_id": "13906"
+      },
+      "expected_facts": {
+        "hand_search.own_chain": "true"
+      },
+      "expected_prompts": [],
+      "follows": [],
+      "logical_action": "dragondark_hand_search",
+      "logical_category": "ACTIVATE_EFFECT",
+      "logical_start": true,
+      "logical_end": false,
+      "logical_hand_search_confirmation": {
+        "card_id": "13906",
+        "activate_region": "action.dragondark_hand_activate",
+        "cancel_region": "action.dragondark_own_chain_cancel",
+        "inspect_region": "action.dragondark_result_hand_inspect",
+        "evidence_mode": "observed_ui_public_face_handoff",
+        "detail_fact": "hand_search.detail_card_id",
+        "source_ready_fact": "hand_search.source_ready",
+        "own_chain_fact": "hand_search.own_chain",
+        "result_ready_fact": "hand_search.result_ready",
+        "result_selected_fact": "hand_search.result_selected"
+      }
+    },
+    {
+      "id": "dragondark_own_chain_decline",
+      "description": "Solo公開UI雷電龍手札①→同名追加確認",
+      "type": "CANCEL",
+      "source_region": "action.dragondark_own_chain_cancel",
+      "card_id": null,
+      "target": null,
+      "priority": 600,
+      "players": [
+        "self"
+      ],
+      "phases": [
+        "MAIN1"
+      ],
+      "prompt": "hand.dragondark.own_chain",
+      "observed_facts": {
+        "hand_search.own_chain": "true"
+      },
+      "expected_facts": {
+        "hand_search.result_ready": "true"
+      },
+      "expected_prompts": [],
+      "follows": [
+        "dragondark_hand_activate"
+      ],
+      "logical_action": "dragondark_hand_search",
+      "logical_category": "ACTIVATE_EFFECT",
+      "logical_start": false,
+      "logical_end": false,
+      "logical_hand_search_confirmation": {
+        "card_id": "13906",
+        "activate_region": "action.dragondark_hand_activate",
+        "cancel_region": "action.dragondark_own_chain_cancel",
+        "inspect_region": "action.dragondark_result_hand_inspect",
+        "evidence_mode": "observed_ui_public_face_handoff",
+        "detail_fact": "hand_search.detail_card_id",
+        "source_ready_fact": "hand_search.source_ready",
+        "own_chain_fact": "hand_search.own_chain",
+        "result_ready_fact": "hand_search.result_ready",
+        "result_selected_fact": "hand_search.result_selected"
+      }
+    },
+    {
+      "id": "dragondark_hand_result_inspect",
+      "description": "Solo公開UI雷電龍手札①→同名追加確認",
+      "type": "SELECT_CARD",
+      "source_region": "action.dragondark_result_hand_inspect",
+      "card_id": "13906",
+      "target": "self.hand.received",
+      "priority": 600,
+      "players": [
+        "self"
+      ],
+      "phases": [
+        "MAIN1"
+      ],
+      "prompt": "hand.dragondark.result_ready",
+      "observed_facts": {
+        "hand_search.result_ready": "true"
+      },
+      "expected_facts": {
+        "hand_search.result_selected": "true",
+        "hand_search.detail_card_id": "13906"
+      },
+      "expected_prompts": [],
+      "follows": [
+        "dragondark_own_chain_decline"
+      ],
+      "logical_action": "dragondark_hand_search",
+      "logical_category": "ACTIVATE_EFFECT",
+      "logical_start": false,
+      "logical_end": true,
+      "logical_hand_search_confirmation": {
+        "card_id": "13906",
+        "activate_region": "action.dragondark_hand_activate",
+        "cancel_region": "action.dragondark_own_chain_cancel",
+        "inspect_region": "action.dragondark_result_hand_inspect",
+        "evidence_mode": "observed_ui_public_face_handoff",
+        "detail_fact": "hand_search.detail_card_id",
+        "source_ready_fact": "hand_search.source_ready",
+        "own_chain_fact": "hand_search.own_chain",
+        "result_ready_fact": "hand_search.result_ready",
+        "result_selected_fact": "hand_search.result_selected"
+      }
+    }
+  ],
+  "min_confidence": 0.98,
+  "inference_mode": "strict",
+  "audit_profile": "solo_basic_operations"
+}

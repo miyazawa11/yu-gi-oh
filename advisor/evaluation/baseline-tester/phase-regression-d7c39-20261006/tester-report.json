@@ -1,0 +1,40 @@
+{
+  "mode": "single-version baseline regression, not acceptance",
+  "source_sha256": "d7c39a500acc6d9ef56f1852ed849b08a371a030fab2fe2efcf01fd852944897",
+  "purpose_count": 1,
+  "autonomous_inputs": 2,
+  "assisted_inputs_in_purpose": 0,
+  "visual_result": "Main1→phase menu→END PHASE / Turn2 End confirmed",
+  "success_rate": 1.0,
+  "misclick_rate": 0.0,
+  "retry_rate": 0.0,
+  "fallback_rate": 0.0,
+  "average_ms": 579.0647999965586,
+  "p50_ms": 579.0647999965586,
+  "p90_ms": 579.0647999965586,
+  "p95_ms": 579.0647999965586,
+  "maximum_ms": 579.0647999965586,
+  "system_internal_ms": 120.84569998842198,
+  "game_wait_estimate_ms": 358.780199989269,
+  "unattributed_ms": 99.43890001886757,
+  "stage_ms": {
+    "capture": 92.1952999997302,
+    "recognition": 14.233900015824474,
+    "state_build": 0.8267999801319093,
+    "candidate": 0.08549999620299786,
+    "decision": 0.14579999697161838,
+    "coordinate": 0.021900006686337292,
+    "input": 13.336499992874451,
+    "verify": 448.0427999951644
+  },
+  "limitations": [
+    "1 purpose only; 100代表Action gate未達、99%一般化不可",
+    "ゲーム待機はpoll/未計測Python含む残差。通信/演出真因分離未実測",
+    "旧source pilot623msと異版・異状態、合算/改善因果判定しない"
+  ],
+  "failure_cases_in_autonomous_run": [],
+  "preflight_errors": "旧保存画像preflightはclock/freshness測定手順エラーで別文書訂正・元ログ保存",
+  "current_state": "Turn3相手Main1、相手通常召喚応答prompt保持。追加入力なし",
+  "applicationChanges": false,
+  "settingsChanges": false
+}

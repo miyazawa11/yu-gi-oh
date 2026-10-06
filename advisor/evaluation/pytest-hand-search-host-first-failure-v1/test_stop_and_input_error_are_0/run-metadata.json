@@ -1,0 +1,15 @@
+{
+  "run_id": "d2214b14217f45efad7408ba4301d092",
+  "mode": "unclassified",
+  "source_sha256": "292c4502cd5afbcb38a0a62437bafdd19be9307695f835e0cfec14fe2566c66c",
+  "python": "3.12.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "clock": "perf_counter",
+  "clock_resolution_seconds": 1e-07,
+  "registered_trials": [],
+  "run_purpose": "pilot",
+  "cohort_id": null,
+  "cohort_manifest_sha256": null,
+  "cohort_slot": null,
+  "data_integrity": true
+}

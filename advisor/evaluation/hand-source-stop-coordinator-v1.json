@@ -1,0 +1,34 @@
+{
+  "schema": "coordinator-diagnostic-review-v1",
+  "status": "recognition_rejected_before_pilot",
+  "fixed_manifest": "evaluation/hand-search-fixed-v1.json",
+  "source_sha256": "292c4502cd5afbcb38a0a62437bafdd19be9307695f835e0cfec14fe2566c66c",
+  "evidence": [
+    "evaluation/dragondark-source-temporal-v1.json",
+    "artifacts/baseline-tester/DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu/manifest.json",
+    "artifacts/baseline-tester/DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu/tester-review.json"
+  ],
+  "capture_cases": 10,
+  "eligible_captures": 10,
+  "start_recognition_passed": 0,
+  "gameplay_inputs": 0,
+  "pilot_trials": 0,
+  "e2e_samples": 0,
+  "failure_category": "Recognition failure",
+  "independent_conditions": {
+    "enabled_effect": "10/10 passed",
+    "detail_card_identity": "10/10 below existing 0.98 RGB threshold",
+    "selected_source_geometry": "9/10 null; frame 5 geometry exists but identity still fails",
+    "whole_hand_rgb": "diagnostic only; not a legality failure criterion"
+  },
+  "coordinator_review": "Read evaluator output and tester review; visually inspected original native frame-0000. The selected Dragondark, Effect button and self Main1 are visible. This visual review does not promote rejected runtime recognition to success.",
+  "next_action": "Implementer read-only diagnosis and bounded alternate-feature comparison before production changes. Preserve original images and clocks. Once used for method selection, these ten images are not an independent holdout for the next version.",
+  "formal_acceptance_gaps": [
+    "Integrate image preflight within admitted runtime purpose so recognition rejection remains in the denominator.",
+    "Keep setup failures and unconsumed or replaced fixed slots visible in the cohort ledger.",
+    "Include autonomous card inspection and menu opening in the purpose starting at the first capture; current prepared-menu pilots exclude this manual preparation.",
+    "Expand special summon and attack coverage before a representative fixed 100-purpose cohort."
+  ],
+  "performance_claim": null,
+  "goal_complete": false
+}

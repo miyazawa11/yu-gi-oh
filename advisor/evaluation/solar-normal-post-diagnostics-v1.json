@@ -1,0 +1,183 @@
+{
+  "mode": "read-only-image-comparison",
+  "independent": false,
+  "training_images": 20,
+  "holdout_images": 3,
+  "regions": {
+    "occupancy": {
+      "same_position_scores": [
+        0.9417474269866943,
+        0.9417493343353271,
+        0.9417563676834106
+      ],
+      "best_shift": [
+        0.9417474269866943,
+        0,
+        0
+      ],
+      "train_BGR_mean": [
+        0.7599868774414062,
+        0.8320549130439758,
+        0.8579739332199097
+      ],
+      "holdout_BGR_mean": [
+        0.7438149452209473,
+        0.8754917979240417,
+        0.9590248465538025
+      ],
+      "channel_bias_corrected_score": 0.9533398747444153,
+      "train_max_feature_deviation": 0.005228757858276367,
+      "holdout_max_feature_deviation": 0.0026143789291381836
+    },
+    "fieldCID": {
+      "same_position_scores": [
+        0.9336869716644287,
+        0.9336856603622437,
+        0.9336869716644287
+      ],
+      "best_shift": [
+        0.9336869716644287,
+        0,
+        0
+      ],
+      "train_BGR_mean": [
+        0.8399866819381714,
+        0.872857928276062,
+        0.8524471521377563
+      ],
+      "holdout_BGR_mean": [
+        0.8232066631317139,
+        0.9259993433952332,
+        0.9722622036933899
+      ],
+      "channel_bias_corrected_score": 0.9561880826950073,
+      "train_max_feature_deviation": 0.0026143789291381836,
+      "holdout_max_feature_deviation": 0.0013071894645690918
+    },
+    "modal_card_art": {
+      "same_position_scores": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "best_shift": [
+        1.0,
+        0,
+        0
+      ],
+      "train_BGR_mean": [
+        0.7684950232505798,
+        0.9494302868843079,
+        0.9609724879264832
+      ],
+      "holdout_BGR_mean": [
+        0.7684629559516907,
+        0.9493841528892517,
+        0.9609451293945312
+      ],
+      "channel_bias_corrected_score": 1.0,
+      "train_max_feature_deviation": 0.0,
+      "holdout_max_feature_deviation": 0.0
+    },
+    "modal_prompt_text": {
+      "same_position_scores": [
+        0.9819173216819763,
+        0.9819568991661072,
+        0.981938362121582
+      ],
+      "best_shift": [
+        0.9819173216819763,
+        0,
+        0
+      ],
+      "train_BGR_mean": [
+        0.33107537031173706,
+        0.32928216457366943,
+        0.28743693232536316
+      ],
+      "holdout_BGR_mean": [
+        0.30778804421424866,
+        0.3219820559024811,
+        0.29691988229751587
+      ],
+      "channel_bias_corrected_score": 0.9750194549560547,
+      "train_max_feature_deviation": 0.007843137718737125,
+      "holdout_max_feature_deviation": 0.006535947322845459
+    },
+    "opponent_art": {
+      "same_position_scores": [
+        0.9999594688415527,
+        0.9999498724937439,
+        0.9999434947967529
+      ],
+      "best_shift": [
+        0.9999594688415527,
+        0,
+        0
+      ],
+      "train_BGR_mean": [
+        0.5736414194107056,
+        0.6824122071266174,
+        0.719476044178009
+      ],
+      "holdout_BGR_mean": [
+        0.5736238360404968,
+        0.6823522448539734,
+        0.7192897796630859
+      ],
+      "channel_bias_corrected_score": 0.9999043941497803,
+      "train_max_feature_deviation": 0.003921568393707275,
+      "holdout_max_feature_deviation": 0.003921568393707275
+    },
+    "field_title": {
+      "same_position_scores": [
+        0.9863204956054688,
+        0.9863204956054688,
+        0.9863313436508179
+      ],
+      "best_shift": [
+        0.9863204956054688,
+        0,
+        0
+      ],
+      "train_BGR_mean": [
+        0.5151019096374512,
+        0.7711981534957886,
+        0.9640727043151855
+      ],
+      "holdout_BGR_mean": [
+        0.5017203092575073,
+        0.7763871550559998,
+        0.9861717224121094
+      ],
+      "channel_bias_corrected_score": 0.9928604960441589,
+      "train_max_feature_deviation": 0.005228757858276367,
+      "holdout_max_feature_deviation": 0.005228767637163401
+    },
+    "field_art": {
+      "same_position_scores": [
+        0.9169806838035583,
+        0.9169806838035583,
+        0.9169806838035583
+      ],
+      "best_shift": [
+        0.9169806838035583,
+        0,
+        0
+      ],
+      "train_BGR_mean": [
+        0.9277108907699585,
+        0.901684582233429,
+        0.8244245648384094
+      ],
+      "holdout_BGR_mean": [
+        0.9122943878173828,
+        0.9711756110191345,
+        0.9756752848625183
+      ],
+      "channel_bias_corrected_score": 0.9576797485351562,
+      "train_max_feature_deviation": 0.003921568393707275,
+      "holdout_max_feature_deviation": 0.0
+    }
+  }
+}

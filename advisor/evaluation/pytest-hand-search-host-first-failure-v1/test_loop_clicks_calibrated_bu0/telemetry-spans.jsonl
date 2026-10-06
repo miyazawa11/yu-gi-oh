@@ -1,0 +1,14 @@
+{"run_id": "08626ef21c9c4a9c9760de7dc6f6f8ab", "mode": "unclassified", "stage": "capture", "start": 90603.2449019, "end": 90603.2449083}
+{"run_id": "08626ef21c9c4a9c9760de7dc6f6f8ab", "mode": "unclassified", "stage": "coordinate", "start": 90603.245141, "end": 90603.2451524}
+{"run_id": "08626ef21c9c4a9c9760de7dc6f6f8ab", "mode": "unclassified", "stage": "artifact_write", "start": 90603.2451743, "end": 90603.2459604}
+{"run_id": "08626ef21c9c4a9c9760de7dc6f6f8ab", "mode": "unclassified", "stage": "input", "start": 90603.2459807, "end": 90603.2459898}
+{"run_id": "08626ef21c9c4a9c9760de7dc6f6f8ab", "mode": "unclassified", "stage": "pre_input_control", "start": 90603.2459826, "end": 90603.2459872}
+{"run_id": "08626ef21c9c4a9c9760de7dc6f6f8ab", "mode": "unclassified", "stage": "verify", "start": 90603.2459963, "end": 90603.2477579}
+{"run_id": "08626ef21c9c4a9c9760de7dc6f6f8ab", "mode": "unclassified", "stage": "frontmost_stop_check", "start": 90603.2460004, "end": 90603.2460011}
+{"run_id": "08626ef21c9c4a9c9760de7dc6f6f8ab", "mode": "unclassified", "stage": "poll_wait", "start": 90603.2460023, "end": 90603.2476331}
+{"run_id": "08626ef21c9c4a9c9760de7dc6f6f8ab", "mode": "unclassified", "stage": "frontmost_stop_check", "start": 90603.2476469, "end": 90603.2476493}
+{"run_id": "08626ef21c9c4a9c9760de7dc6f6f8ab", "mode": "unclassified", "stage": "capture", "start": 90603.2476552, "end": 90603.2476598}
+{"run_id": "08626ef21c9c4a9c9760de7dc6f6f8ab", "mode": "unclassified", "stage": "verify_input_control", "start": 90603.2476804, "end": 90603.2476824}
+{"run_id": "08626ef21c9c4a9c9760de7dc6f6f8ab", "mode": "unclassified", "stage": "recognition", "start": 90603.2476831, "end": 90603.2477484}
+{"run_id": "08626ef21c9c4a9c9760de7dc6f6f8ab", "mode": "unclassified", "stage": "artifact_write", "start": 90603.2489894, "end": 90603.2498167}
+{"run_id": "08626ef21c9c4a9c9760de7dc6f6f8ab", "mode": "unclassified", "stage": "log_write", "start": 90603.2499126, "end": 90603.2500584}

@@ -1,0 +1,90 @@
+{
+  "schema": "logical-benchmark-v1",
+  "samples": 1,
+  "all_records": 1,
+  "excluded_modes": {},
+  "average_ms": 616.4202999934787,
+  "p50_ms": 616.4202999934787,
+  "p90_ms": 616.4202999934787,
+  "p95_ms": 616.4202999934787,
+  "max_ms": 616.4202999934787,
+  "success_rate": 1.0,
+  "misoperation_rate": 0.0,
+  "misclick_rate": 0.0,
+  "misclick_rate_note": "子入力数を分母とする独立レビュー。未レビューは0件扱いにしない",
+  "input_count": 2,
+  "retry_rate": 0.0,
+  "fallback_rate": 0.0,
+  "observed_categories": [
+    "CHANGE_PHASE"
+  ],
+  "required_categories": [
+    "ACTIVATE_EFFECT",
+    "SPECIAL_SUMMON",
+    "NORMAL_SUMMON",
+    "SPELL_TRAP",
+    "ATTACK",
+    "CHANGE_PHASE"
+  ],
+  "observed_step_types": [
+    "CHANGE_PHASE",
+    "CONFIRM"
+  ],
+  "required_step_types": [
+    "ACTIVATE",
+    "SELECT_CARD",
+    "SELECT_TARGET",
+    "CONFIRM",
+    "CANCEL",
+    "NORMAL_SUMMON",
+    "SPECIAL_SUMMON",
+    "ATTACK",
+    "CHANGE_PHASE",
+    "SET"
+  ],
+  "stage_average_ms": {
+    "capture": 110.16730000847019,
+    "recognition": 15.953299996908754,
+    "state_build": 0.7874000002630055,
+    "candidate": 0.08740000339457765,
+    "decision": 0.15189999976428226,
+    "coordinate": 0.019700004486367106,
+    "input": 19.275400001788512,
+    "verify": 470.2846000000136
+  },
+  "gates": {
+    "samples": false,
+    "timings_complete": true,
+    "classification_complete": true,
+    "pre_admitted_trials": true,
+    "coverage": false,
+    "step_coverage": false,
+    "average": true,
+    "p50": true,
+    "p95": true,
+    "success": true,
+    "misclick_review_complete": true,
+    "misclick": true
+  },
+  "passed": false,
+  "successful_e2e_ms": {
+    "samples": 1,
+    "average_ms": 616.4202999934787,
+    "p50_ms": 616.4202999934787,
+    "p90_ms": 616.4202999934787,
+    "p95_ms": 616.4202999934787,
+    "max_ms": 616.4202999934787
+  },
+  "all_attempt_elapsed_ms": {
+    "average_ms": 616.4202999934787,
+    "p50_ms": 616.4202999934787,
+    "p90_ms": 616.4202999934787,
+    "p95_ms": 616.4202999934787,
+    "max_ms": 616.4202999934787
+  },
+  "failure_cases": [],
+  "limitations": [
+    "成功例だけを平均から除外しない。欠測があればKPI不合格",
+    "目的分類の網羅は必要条件。試験シナリオの代表性は別途レビューが必要"
+  ]
+}

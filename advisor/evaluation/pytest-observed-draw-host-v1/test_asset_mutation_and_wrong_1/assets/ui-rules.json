@@ -1,0 +1,19 @@
+{
+  "rules": [
+    {
+      "prompt": "response.opponent_summon_success",
+      "type": "CANCEL",
+      "source_region": "action.cancel_opponent_summon_success",
+      "card_id": null,
+      "target": null
+    },
+    {
+      "prompt": "response.opponent_turn_end",
+      "type": "CANCEL",
+      "source_region": "action.cancel_opponent_turn_end",
+      "card_id": null,
+      "target": null
+    }
+  ],
+  "min_confidence": 0.98
+}

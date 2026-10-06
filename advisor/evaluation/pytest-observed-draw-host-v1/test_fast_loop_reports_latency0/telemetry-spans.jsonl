@@ -1,0 +1,14 @@
+{"run_id": "cc8eaf7765d345f3a88ec2bfe7b70c8d", "mode": "unclassified", "stage": "capture", "start": 78154.5568893, "end": 78154.5568949}
+{"run_id": "cc8eaf7765d345f3a88ec2bfe7b70c8d", "mode": "unclassified", "stage": "coordinate", "start": 78154.5572739, "end": 78154.5572916}
+{"run_id": "cc8eaf7765d345f3a88ec2bfe7b70c8d", "mode": "unclassified", "stage": "artifact_write", "start": 78154.5573333, "end": 78154.558735}
+{"run_id": "cc8eaf7765d345f3a88ec2bfe7b70c8d", "mode": "unclassified", "stage": "input", "start": 78154.5587897, "end": 78154.5588041}
+{"run_id": "cc8eaf7765d345f3a88ec2bfe7b70c8d", "mode": "unclassified", "stage": "pre_input_control", "start": 78154.5587927, "end": 78154.5588007}
+{"run_id": "cc8eaf7765d345f3a88ec2bfe7b70c8d", "mode": "unclassified", "stage": "verify", "start": 78154.5588193, "end": 78154.5604623}
+{"run_id": "cc8eaf7765d345f3a88ec2bfe7b70c8d", "mode": "unclassified", "stage": "frontmost_stop_check", "start": 78154.5588263, "end": 78154.5588276}
+{"run_id": "cc8eaf7765d345f3a88ec2bfe7b70c8d", "mode": "unclassified", "stage": "poll_wait", "start": 78154.5588297, "end": 78154.5602637}
+{"run_id": "cc8eaf7765d345f3a88ec2bfe7b70c8d", "mode": "unclassified", "stage": "frontmost_stop_check", "start": 78154.5602997, "end": 78154.5603054}
+{"run_id": "cc8eaf7765d345f3a88ec2bfe7b70c8d", "mode": "unclassified", "stage": "capture", "start": 78154.5603162, "end": 78154.5603221}
+{"run_id": "cc8eaf7765d345f3a88ec2bfe7b70c8d", "mode": "unclassified", "stage": "verify_input_control", "start": 78154.5603501, "end": 78154.5603539}
+{"run_id": "cc8eaf7765d345f3a88ec2bfe7b70c8d", "mode": "unclassified", "stage": "recognition", "start": 78154.5603555, "end": 78154.5604514}
+{"run_id": "cc8eaf7765d345f3a88ec2bfe7b70c8d", "mode": "unclassified", "stage": "artifact_write", "start": 78154.562434, "end": 78154.5631297}
+{"run_id": "cc8eaf7765d345f3a88ec2bfe7b70c8d", "mode": "unclassified", "stage": "log_write", "start": 78154.5632404, "end": 78154.563442}

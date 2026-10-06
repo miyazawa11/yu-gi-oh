@@ -1,0 +1,51 @@
+{
+  "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+  "manifest_sha256": "3f38f9f44b66f04aa03f71725624454e601ec48006c6d68114540ee20266ae3a",
+  "purpose": "exploration_existing_images_not_independent_holdout",
+  "mode": "offline_saved_image",
+  "usable_for_input": false,
+  "images": 1,
+  "passed": 1,
+  "false_cid": 0,
+  "recognition_only_ms": {
+    "calls": 1,
+    "average": 0.2614,
+    "p50": 0.2614,
+    "p95": 0.2614,
+    "max": 0.2614
+  },
+  "input_count": 0,
+  "e2e_count": 0,
+  "rows": [
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0001.png",
+      "sha256": "d19f6fd6de06389dcb0cbd57cb35fdde50ba3c6207b72fc6fe2fe9ff58e9a15f",
+      "expected_cid": "9455",
+      "mode": "offline_saved_image",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "cid": "9455",
+        "namespace": "konami",
+        "score": 0.9998729825019836,
+        "top_candidate": "9455",
+        "top2_cid": "12950",
+        "top2_score": 0.8938329815864563,
+        "margin": 0.10604000091552734,
+        "frame_seq": 0,
+        "observed_at": 0.0,
+        "roi": [
+          24,
+          106,
+          217,
+          24
+        ],
+        "registry_sha256": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+        "reference_sha256": "cb373c704ea6df3962530604836fd4dfc2a74690078f9225ac41b766d82239c5",
+        "unknown_reason": null,
+        "scope": "selected_detail_only"
+      },
+      "passed": true
+    }
+  ]
+}

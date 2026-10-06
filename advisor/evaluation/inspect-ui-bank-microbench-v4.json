@@ -1,0 +1,211 @@
+{
+  "schema": "inspect-ui-bank-microbench-v4",
+  "input_count": 0,
+  "e2e_count": 0,
+  "offline_clock": 0,
+  "image": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_INSPECT_PREFLIGHT_v3_20261006\\frame.png",
+  "image_sha256": "b830d2eb146af0ef47551bcfd7111b6d4c45d7aed9cf382062db3980679c8a0c",
+  "iterations": 20,
+  "legacy_detector_sha256": "d23fe218af54afc642b04e792ab8cb7d548cadd030c938a9470e60a0866fe6e4",
+  "bank_sha256": "5773996a24154a694d011e9cbdf4c7c7e893218fb4ca28352b33b6a11dea53e2",
+  "notice": "既知画像の追加認識コスト。手札探索/2表示参照により正確性coverageを回復、速度改善主張無し",
+  "summary": {
+    "legacy_button_ms": {
+      "average_ms": 33.940954999707174,
+      "p50_ms": 33.97759998915717,
+      "max_ms": 35.87340000376571
+    },
+    "bank_button_ms": {
+      "average_ms": 47.34374999970896,
+      "p50_ms": 47.20860000088578,
+      "max_ms": 49.94060000171885
+    },
+    "bank_hand_ms": {
+      "average_ms": 4.85058000049321,
+      "p50_ms": 4.82814999850234,
+      "max_ms": 5.9298999985912815
+    }
+  },
+  "rows": [
+    {
+      "index": 0,
+      "legacy_button_ms": 33.998299986706115,
+      "legacy_detected": false,
+      "bank_button_ms": 48.05290000513196,
+      "bank_detected": true,
+      "bank_hand_ms": 4.535800006124191,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 1,
+      "bank_button_ms": 47.57340000651311,
+      "bank_detected": true,
+      "legacy_button_ms": 34.345000007306226,
+      "legacy_detected": false,
+      "bank_hand_ms": 5.9298999985912815,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 2,
+      "legacy_button_ms": 34.05659999407362,
+      "legacy_detected": false,
+      "bank_button_ms": 46.88539999187924,
+      "bank_detected": true,
+      "bank_hand_ms": 4.476200003409758,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 3,
+      "bank_button_ms": 46.285999997053295,
+      "bank_detected": true,
+      "legacy_button_ms": 33.33560000464786,
+      "legacy_detected": false,
+      "bank_hand_ms": 4.810599988559261,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 4,
+      "legacy_button_ms": 34.28400000848342,
+      "legacy_detected": false,
+      "bank_button_ms": 46.353600002476014,
+      "bank_detected": true,
+      "bank_hand_ms": 5.449100004625507,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 5,
+      "bank_button_ms": 47.90839999623131,
+      "bank_detected": true,
+      "legacy_button_ms": 33.83890000986867,
+      "legacy_detected": false,
+      "bank_hand_ms": 4.372800001874566,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 6,
+      "legacy_button_ms": 33.24770000472199,
+      "legacy_detected": false,
+      "bank_button_ms": 47.27850000199396,
+      "bank_detected": true,
+      "bank_hand_ms": 5.067999998573214,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 7,
+      "bank_button_ms": 47.40349999337923,
+      "bank_detected": true,
+      "legacy_button_ms": 35.87340000376571,
+      "legacy_detected": false,
+      "bank_hand_ms": 4.157999996095896,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 8,
+      "legacy_button_ms": 33.956899991608225,
+      "legacy_detected": false,
+      "bank_button_ms": 45.71310000028461,
+      "bank_detected": true,
+      "bank_hand_ms": 4.3978999892715365,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 9,
+      "bank_button_ms": 46.706100009032525,
+      "bank_detected": true,
+      "legacy_button_ms": 34.563699999125674,
+      "legacy_detected": false,
+      "bank_hand_ms": 5.026300001190975,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 10,
+      "legacy_button_ms": 34.88110000034794,
+      "legacy_detected": false,
+      "bank_button_ms": 47.60959999111947,
+      "bank_detected": true,
+      "bank_hand_ms": 4.445000013220124,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 11,
+      "bank_button_ms": 46.310699995956384,
+      "bank_detected": true,
+      "legacy_button_ms": 33.890799997607246,
+      "legacy_detected": false,
+      "bank_hand_ms": 4.916399993817322,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 12,
+      "legacy_button_ms": 32.708599988836795,
+      "legacy_detected": false,
+      "bank_button_ms": 49.94060000171885,
+      "bank_detected": true,
+      "bank_hand_ms": 4.787300000316463,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 13,
+      "bank_button_ms": 47.37390000082087,
+      "bank_detected": true,
+      "legacy_button_ms": 34.27419999206904,
+      "legacy_detected": false,
+      "bank_hand_ms": 4.304400004912168,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 14,
+      "legacy_button_ms": 33.45160000026226,
+      "legacy_detected": false,
+      "bank_button_ms": 46.68200000014622,
+      "bank_detected": true,
+      "bank_hand_ms": 5.302499994286336,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 15,
+      "bank_button_ms": 46.578499997849576,
+      "bank_detected": true,
+      "legacy_button_ms": 33.00830000080168,
+      "legacy_detected": false,
+      "bank_hand_ms": 5.438699998194352,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 16,
+      "legacy_button_ms": 34.439800001564436,
+      "legacy_detected": false,
+      "bank_button_ms": 48.60949999419972,
+      "bank_detected": true,
+      "bank_hand_ms": 5.514600008609705,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 17,
+      "bank_button_ms": 47.1386999997776,
+      "bank_detected": true,
+      "legacy_button_ms": 33.771700007491745,
+      "legacy_detected": false,
+      "bank_hand_ms": 4.845700008445419,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 18,
+      "legacy_button_ms": 34.07049999805167,
+      "legacy_detected": false,
+      "bank_button_ms": 46.85710000921972,
+      "bank_detected": true,
+      "bank_hand_ms": 4.185900004813448,
+      "bank_hand_detected": true
+    },
+    {
+      "index": 19,
+      "bank_button_ms": 49.61349999939557,
+      "bank_detected": true,
+      "legacy_button_ms": 32.82239999680314,
+      "legacy_detected": false,
+      "bank_hand_ms": 5.046499994932674,
+      "bank_hand_detected": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "duel_ended",
+  "actions": 0,
+  "elapsed_seconds": 0.014999999999417923,
+  "action_log": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-hand-art-host-v2\\test_settle_rechecks_decision_0\\actions.jsonl",
+  "screenshots": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-hand-art-host-v2\\test_settle_rechecks_decision_0\\screenshots",
+  "logical_actions": 1,
+  "logical_action_log": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-hand-art-host-v2\\test_settle_rechecks_decision_0\\logical-actions.jsonl",
+  "telemetry_mode": "unclassified",
+  "observation_to_click_ms_p95": null
+}

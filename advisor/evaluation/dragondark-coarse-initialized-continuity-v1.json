@@ -1,0 +1,143 @@
+{
+  "schema": "known-public-instance-coarse-initialized-LK-comparison-v1",
+  "thresholds": "same FB1.5/RANSAC2/min6/.7ratio/scale.75..1.2/dx40/dy-8..120; coarse margin.03; no CID inference from hand fragment",
+  "failure": {
+    "index": 30,
+    "sequence": 50,
+    "coarse_ncc": 0.27801111340522766,
+    "coarse_margin": 0.10909660160541534,
+    "coarse_bbox": [
+      549,
+      601,
+      82,
+      78
+    ],
+    "valid_points": 5,
+    "reason": "fewer_than6_forward_back_points"
+  },
+  "rows": [
+    {
+      "index": 26,
+      "sequence": 46,
+      "coarse_ncc": 0.9199509620666504,
+      "coarse_margin": 0.6823165863752365,
+      "coarse_bbox": [
+        582,
+        448,
+        118,
+        113
+      ],
+      "valid_points": 24,
+      "inliers": 24,
+      "inlier_ratio": 1.0,
+      "scale_step": 1.0092319577055562,
+      "delta": [
+        -0.0313720703125,
+        1.6263427734375
+      ],
+      "bbox": [
+        581.4124145507812,
+        447.81536865234375,
+        119.11236572265625,
+        175.6219482421875
+      ],
+      "passed": true
+    },
+    {
+      "index": 27,
+      "sequence": 47,
+      "coarse_ncc": 0.6949065327644348,
+      "coarse_margin": 0.5097841620445251,
+      "coarse_bbox": [
+        588,
+        524,
+        107,
+        103
+      ],
+      "valid_points": 24,
+      "inliers": 24,
+      "inlier_ratio": 1.0,
+      "scale_step": 0.9400556292460861,
+      "delta": [
+        -0.14263916015625,
+        67.56304931640625
+      ],
+      "bbox": [
+        584.75390625,
+        520.5838623046875,
+        112.14422607421875,
+        165.21099853515625
+      ],
+      "passed": true
+    },
+    {
+      "index": 28,
+      "sequence": 48,
+      "coarse_ncc": 0.7201910614967346,
+      "coarse_margin": 0.674795925617218,
+      "coarse_bbox": [
+        591,
+        602,
+        101,
+        96
+      ],
+      "valid_points": 20,
+      "inliers": 20,
+      "inlier_ratio": 1.0,
+      "scale_step": 0.9229564064862972,
+      "delta": [
+        -0.21160888671875,
+        73.23114013671875
+      ],
+      "bbox": [
+        588.7633056640625,
+        600.1121826171875,
+        103.70220947265625,
+        152.61669921875
+      ],
+      "passed": true
+    },
+    {
+      "index": 29,
+      "sequence": 49,
+      "coarse_ncc": 0.860309362411499,
+      "coarse_margin": 0.815092422068119,
+      "coarse_bbox": [
+        589,
+        596,
+        104,
+        99
+      ],
+      "valid_points": 20,
+      "inliers": 20,
+      "inlier_ratio": 1.0,
+      "scale_step": 0.9933861332593149,
+      "delta": [
+        0.06658935546875,
+        -4.24346923828125
+      ],
+      "bbox": [
+        589.2576904296875,
+        596.430908203125,
+        102.8465576171875,
+        151.4923095703125
+      ],
+      "passed": true
+    },
+    {
+      "index": 30,
+      "sequence": 50,
+      "coarse_ncc": 0.27801111340522766,
+      "coarse_margin": 0.10909660160541534,
+      "coarse_bbox": [
+        549,
+        601,
+        82,
+        78
+      ],
+      "valid_points": 5
+    }
+  ],
+  "mean_ms": 12.734174993966008,
+  "source": "known v2 native method selection; no new holdout/input/E2E"
+}

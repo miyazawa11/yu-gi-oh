@@ -1,0 +1,578 @@
+{
+  "schema": "dragondark-known-face-family-and-small-feature-time-comparison-v1",
+  "public_family_sources": [
+    {
+      "file": "frame-0023.png",
+      "capture_start_utc": "2026-10-05T22:17:45.039942+00:00",
+      "capture_start_perf": 81228.5003935,
+      "capture_end_perf": 81228.5225386,
+      "captured_at_monotonic": 81228.5,
+      "capture_sequence": 43,
+      "foreground_before": 264156,
+      "foreground_after": 264156,
+      "rect_before": [
+        -1918,
+        817,
+        -638,
+        1537
+      ],
+      "rect_after": [
+        -1918,
+        817,
+        -638,
+        1537
+      ],
+      "eligible": true,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "sha256": "4d2bb4996a526dc4648998d0dbd08a0a0c05a501f506d801bc86f6463166e713"
+    },
+    {
+      "file": "frame-0024.png",
+      "capture_start_utc": "2026-10-05T22:17:45.126968+00:00",
+      "capture_start_perf": 81228.5873808,
+      "capture_end_perf": 81228.6060312,
+      "captured_at_monotonic": 81228.578,
+      "capture_sequence": 44,
+      "foreground_before": 264156,
+      "foreground_after": 264156,
+      "rect_before": [
+        -1918,
+        817,
+        -638,
+        1537
+      ],
+      "rect_after": [
+        -1918,
+        817,
+        -638,
+        1537
+      ],
+      "eligible": true,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "sha256": "8dca378f00d3bdead05bb8a48f48cb371dcbbe5ae6131fb9289eefce612e31c7"
+    },
+    {
+      "file": "frame-0025.png",
+      "capture_start_utc": "2026-10-05T22:17:45.208547+00:00",
+      "capture_start_perf": 81228.6700456,
+      "capture_end_perf": 81228.6886839,
+      "captured_at_monotonic": 81228.656,
+      "capture_sequence": 45,
+      "foreground_before": 264156,
+      "foreground_after": 264156,
+      "rect_before": [
+        -1918,
+        817,
+        -638,
+        1537
+      ],
+      "rect_after": [
+        -1918,
+        817,
+        -638,
+        1537
+      ],
+      "eligible": true,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "sha256": "25d4da06a9b4558b016cb9c2f659d2f00b252e867e759c206348a05656084de8"
+    },
+    {
+      "file": "frame-0026.png",
+      "capture_start_utc": "2026-10-05T22:17:45.293442+00:00",
+      "capture_start_perf": 81228.7537604,
+      "capture_end_perf": 81228.7724989,
+      "captured_at_monotonic": 81228.75,
+      "capture_sequence": 46,
+      "foreground_before": 264156,
+      "foreground_after": 264156,
+      "rect_before": [
+        -1918,
+        817,
+        -638,
+        1537
+      ],
+      "rect_after": [
+        -1918,
+        817,
+        -638,
+        1537
+      ],
+      "eligible": true,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "sha256": "a2fa57a2af219bdaa2a2dcdf9b01c13012ca4fb67b0b59c637e705715cc95132"
+    }
+  ],
+  "public_family_scores": [
+    {
+      "index": 0,
+      "public_family_ncc": 0.25988683104515076
+    },
+    {
+      "index": 1,
+      "public_family_ncc": 0.25988566875457764
+    },
+    {
+      "index": 2,
+      "public_family_ncc": 0.25988438725471497
+    },
+    {
+      "index": 3,
+      "public_family_ncc": 0.2598890960216522
+    },
+    {
+      "index": 4,
+      "public_family_ncc": 0.2599145472049713
+    },
+    {
+      "index": 5,
+      "public_family_ncc": 0.25994735956192017
+    },
+    {
+      "index": 6,
+      "public_family_ncc": 0.2599565088748932
+    },
+    {
+      "index": 7,
+      "public_family_ncc": 0.25997602939605713
+    },
+    {
+      "index": 8,
+      "public_family_ncc": 0.25998276472091675
+    },
+    {
+      "index": 9,
+      "public_family_ncc": 0.25998207926750183
+    },
+    {
+      "index": 10,
+      "public_family_ncc": 0.2599736750125885
+    },
+    {
+      "index": 11,
+      "public_family_ncc": 0.2599734961986542
+    },
+    {
+      "index": 12,
+      "public_family_ncc": 0.2599622309207916
+    },
+    {
+      "index": 13,
+      "public_family_ncc": 0.2599656581878662
+    },
+    {
+      "index": 14,
+      "public_family_ncc": 0.259979784488678
+    },
+    {
+      "index": 15,
+      "public_family_ncc": 0.2599789500236511
+    },
+    {
+      "index": 16,
+      "public_family_ncc": 0.2599789500236511
+    },
+    {
+      "index": 17,
+      "public_family_ncc": 0.2639113664627075
+    },
+    {
+      "index": 18,
+      "public_family_ncc": 0.18198052048683167
+    },
+    {
+      "index": 19,
+      "public_family_ncc": 0.2612924873828888
+    },
+    {
+      "index": 20,
+      "public_family_ncc": 0.273049533367157
+    },
+    {
+      "index": 21,
+      "public_family_ncc": 0.2736741006374359
+    },
+    {
+      "index": 22,
+      "public_family_ncc": 0.27575409412384033
+    },
+    {
+      "index": 23,
+      "public_family_ncc": 1.0
+    },
+    {
+      "index": 24,
+      "public_family_ncc": 1.0
+    },
+    {
+      "index": 25,
+      "public_family_ncc": 1.0
+    },
+    {
+      "index": 26,
+      "public_family_ncc": 1.0
+    },
+    {
+      "index": 27,
+      "public_family_ncc": 0.2636600732803345
+    },
+    {
+      "index": 28,
+      "public_family_ncc": 0.2502215504646301
+    },
+    {
+      "index": 29,
+      "public_family_ncc": 0.2799704372882843
+    },
+    {
+      "index": 30,
+      "public_family_ncc": 0.28347471356391907
+    },
+    {
+      "index": 31,
+      "public_family_ncc": 0.25800472497940063
+    },
+    {
+      "index": 32,
+      "public_family_ncc": 0.29468125104904175
+    },
+    {
+      "index": 33,
+      "public_family_ncc": 0.3039446771144867
+    },
+    {
+      "index": 34,
+      "public_family_ncc": 0.3101326525211334
+    },
+    {
+      "index": 35,
+      "public_family_ncc": 0.2948824167251587
+    },
+    {
+      "index": 36,
+      "public_family_ncc": 0.2661285400390625
+    },
+    {
+      "index": 37,
+      "public_family_ncc": 0.26330921053886414
+    },
+    {
+      "index": 38,
+      "public_family_ncc": 0.2985326647758484
+    },
+    {
+      "index": 39,
+      "public_family_ncc": 0.31067973375320435
+    },
+    {
+      "index": 40,
+      "public_family_ncc": 0.31445398926734924
+    },
+    {
+      "index": 41,
+      "public_family_ncc": 0.2738497257232666
+    },
+    {
+      "index": 42,
+      "public_family_ncc": 0.2569848895072937
+    },
+    {
+      "index": 43,
+      "public_family_ncc": 0.25767818093299866
+    },
+    {
+      "index": 44,
+      "public_family_ncc": 0.29004567861557007
+    },
+    {
+      "index": 45,
+      "public_family_ncc": 0.2877645790576935
+    },
+    {
+      "index": 46,
+      "public_family_ncc": 0.2873178720474243
+    },
+    {
+      "index": 47,
+      "public_family_ncc": 0.28701382875442505
+    },
+    {
+      "index": 48,
+      "public_family_ncc": 0.28613901138305664
+    },
+    {
+      "index": 49,
+      "public_family_ncc": 0.286338746547699
+    },
+    {
+      "index": 50,
+      "public_family_ncc": 0.2878378629684448
+    },
+    {
+      "index": 51,
+      "public_family_ncc": 0.2940247356891632
+    },
+    {
+      "index": 52,
+      "public_family_ncc": 0.2943769693374634
+    },
+    {
+      "index": 53,
+      "public_family_ncc": 0.2919193208217621
+    },
+    {
+      "index": 54,
+      "public_family_ncc": 0.2908063232898712
+    },
+    {
+      "index": 55,
+      "public_family_ncc": 0.29076412320137024
+    },
+    {
+      "index": 56,
+      "public_family_ncc": 0.2915670871734619
+    },
+    {
+      "index": 57,
+      "public_family_ncc": 0.2930639088153839
+    },
+    {
+      "index": 58,
+      "public_family_ncc": 0.2940340042114258
+    },
+    {
+      "index": 59,
+      "public_family_ncc": 0.2941158711910248
+    },
+    {
+      "index": 60,
+      "public_family_ncc": 0.2958136796951294
+    },
+    {
+      "index": 61,
+      "public_family_ncc": 0.2973424196243286
+    },
+    {
+      "index": 62,
+      "public_family_ncc": 0.2978125512599945
+    },
+    {
+      "index": 63,
+      "public_family_ncc": 0.2980956435203552
+    },
+    {
+      "index": 64,
+      "public_family_ncc": 0.29830875992774963
+    },
+    {
+      "index": 65,
+      "public_family_ncc": 0.2984775900840759
+    },
+    {
+      "index": 66,
+      "public_family_ncc": 0.29791709780693054
+    },
+    {
+      "index": 67,
+      "public_family_ncc": 0.29698899388313293
+    },
+    {
+      "index": 68,
+      "public_family_ncc": 0.29661887884140015
+    },
+    {
+      "index": 69,
+      "public_family_ncc": 0.2977878749370575
+    },
+    {
+      "index": 70,
+      "public_family_ncc": 0.2979138195514679
+    },
+    {
+      "index": 71,
+      "public_family_ncc": 0.29886022210121155
+    },
+    {
+      "index": 72,
+      "public_family_ncc": 0.3013041019439697
+    },
+    {
+      "index": 73,
+      "public_family_ncc": 0.30323338508605957
+    },
+    {
+      "index": 74,
+      "public_family_ncc": 0.3037569224834442
+    },
+    {
+      "index": 75,
+      "public_family_ncc": 0.3045012056827545
+    },
+    {
+      "index": 76,
+      "public_family_ncc": 0.3038579821586609
+    },
+    {
+      "index": 77,
+      "public_family_ncc": 0.3026389479637146
+    },
+    {
+      "index": 78,
+      "public_family_ncc": 0.3013024926185608
+    },
+    {
+      "index": 79,
+      "public_family_ncc": 0.3002840578556061
+    },
+    {
+      "index": 80,
+      "public_family_ncc": 0.29848557710647583
+    },
+    {
+      "index": 81,
+      "public_family_ncc": 0.29675471782684326
+    },
+    {
+      "index": 82,
+      "public_family_ncc": 0.2956690192222595
+    },
+    {
+      "index": 83,
+      "public_family_ncc": 0.29415297508239746
+    },
+    {
+      "index": 84,
+      "public_family_ncc": 0.29421502351760864
+    },
+    {
+      "index": 85,
+      "public_family_ncc": 0.29481467604637146
+    },
+    {
+      "index": 86,
+      "public_family_ncc": 0.29514291882514954
+    },
+    {
+      "index": 87,
+      "public_family_ncc": 0.2958296835422516
+    },
+    {
+      "index": 88,
+      "public_family_ncc": 0.2981194853782654
+    },
+    {
+      "index": 89,
+      "public_family_ncc": 0.2991046607494354
+    },
+    {
+      "index": 90,
+      "public_family_ncc": 0.2982519865036011
+    },
+    {
+      "index": 91,
+      "public_family_ncc": 0.29926204681396484
+    },
+    {
+      "index": 92,
+      "public_family_ncc": 0.30122050642967224
+    },
+    {
+      "index": 93,
+      "public_family_ncc": 0.2988259196281433
+    },
+    {
+      "index": 94,
+      "public_family_ncc": 0.29811495542526245
+    },
+    {
+      "index": 95,
+      "public_family_ncc": 0.3009648323059082
+    },
+    {
+      "index": 96,
+      "public_family_ncc": 0.3033149242401123
+    },
+    {
+      "index": 97,
+      "public_family_ncc": 0.30401381850242615
+    },
+    {
+      "index": 98,
+      "public_family_ncc": 0.3059166967868805
+    }
+  ],
+  "tracking_anchor": {
+    "file": "frame-0025.png",
+    "capture_start_utc": "2026-10-05T22:17:45.208547+00:00",
+    "capture_start_perf": 81228.6700456,
+    "capture_end_perf": 81228.6886839,
+    "captured_at_monotonic": 81228.656,
+    "capture_sequence": 45,
+    "foreground_before": 264156,
+    "foreground_after": 264156,
+    "rect_before": [
+      -1918,
+      817,
+      -638,
+      1537
+    ],
+    "rect_after": [
+      -1918,
+      817,
+      -638,
+      1537
+    ],
+    "eligible": true,
+    "shape": [
+      720,
+      1280,
+      3
+    ],
+    "sha256": "25d4da06a9b4558b016cb9c2f659d2f00b252e867e759c206348a05656084de8"
+  },
+  "tracking_method": "24 sparse points within full-card face, LK21/maxlevel3, forward/back1.5px, RANSAC2px/min6/.7ratio, scale .75..1.2, dx40/dy-8..120",
+  "tracking_failed": {
+    "index": 27,
+    "reason": "fewer_than6_forward_back_points",
+    "points": 0
+  },
+  "tracking_rows": [
+    {
+      "index": 26,
+      "capture_sequence": 46,
+      "points": 24,
+      "inliers": 24,
+      "inlier_ratio": 1.0,
+      "scale_step": 1.0092319075456684,
+      "center_delta": [
+        -0.0313720703125,
+        1.6263427734375
+      ],
+      "bbox": [
+        581.412353515625,
+        447.8153381347656,
+        119.11248779296875,
+        175.62203979492188
+      ],
+      "passed_fixed_continuity": true,
+      "role": "publicly known instance motion only, not hand CID recognition"
+    }
+  ],
+  "tracking_total_ms": 28.999800008023158,
+  "scope": "known method-selection, not independent holdout. No generic tracker or partial-hand CID assignment. Original hashes unchanged."
+}

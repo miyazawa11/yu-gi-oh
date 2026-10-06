@@ -1,0 +1,102 @@
+{
+  "schema": "logical-benchmark-v1",
+  "samples": 1,
+  "all_records": 1,
+  "excluded_modes": {},
+  "average_ms": 623.4106000047177,
+  "p50_ms": 623.4106000047177,
+  "p90_ms": 623.4106000047177,
+  "p95_ms": 623.4106000047177,
+  "max_ms": 623.4106000047177,
+  "success_rate": 1.0,
+  "misoperation_rate": 0.0,
+  "misclick_rate": 0.0,
+  "misclick_rate_note": "確定送信Trueと送信不明Noneの子入力数を分母とする独立レビュー。確定未送信Falseのみ除外。未レビューは0件扱いにしない",
+  "misclick_denominator": 2,
+  "unknown_input_count": 0,
+  "cohort_integrity_errors": [
+    "事前固定manifestなし（参考統計のみ）"
+  ],
+  "run_purposes": [
+    "legacy_unknown"
+  ],
+  "input_count": 2,
+  "retry_rate": 0.0,
+  "fallback_rate": 0.0,
+  "observed_categories": [
+    "CHANGE_PHASE"
+  ],
+  "required_categories": [
+    "ACTIVATE_EFFECT",
+    "SPECIAL_SUMMON",
+    "NORMAL_SUMMON",
+    "SPELL_TRAP",
+    "ATTACK",
+    "CHANGE_PHASE"
+  ],
+  "observed_step_types": [
+    "CHANGE_PHASE",
+    "CONFIRM"
+  ],
+  "required_step_types": [
+    "ACTIVATE",
+    "SELECT_CARD",
+    "SELECT_TARGET",
+    "CONFIRM",
+    "CANCEL",
+    "NORMAL_SUMMON",
+    "SPECIAL_SUMMON",
+    "ATTACK",
+    "CHANGE_PHASE",
+    "SET"
+  ],
+  "stage_average_ms": {
+    "capture": 117.07849998492748,
+    "recognition": 16.502200007380452,
+    "state_build": 0.7972000021254644,
+    "candidate": 0.09620000491850078,
+    "decision": 0.14419999934034422,
+    "coordinate": 0.021800005924887955,
+    "input": 22.978400003921706,
+    "verify": 474.2612000045483
+  },
+  "gates": {
+    "samples": false,
+    "timings_complete": true,
+    "acceptance_cohort_integrity": false,
+    "classification_complete": true,
+    "pre_admitted_trials": true,
+    "coverage": false,
+    "step_coverage": false,
+    "average": true,
+    "p50": true,
+    "p95": true,
+    "success": true,
+    "misclick_review_complete": true,
+    "misclick": true
+  },
+  "passed": false,
+  "successful_e2e_ms": {
+    "samples": 1,
+    "average_ms": 623.4106000047177,
+    "p50_ms": 623.4106000047177,
+    "p90_ms": 623.4106000047177,
+    "p95_ms": 623.4106000047177,
+    "max_ms": 623.4106000047177
+  },
+  "all_attempt_elapsed_ms": {
+    "average_ms": 623.4106000047177,
+    "p50_ms": 623.4106000047177,
+    "p90_ms": 623.4106000047177,
+    "p95_ms": 623.4106000047177,
+    "max_ms": 623.4106000047177
+  },
+  "failure_cases": [],
+  "limitations": [
+    "成功例だけを平均から除外しない。欠測があればKPI不合格",
+    "目的分類の網羅は必要条件。試験シナリオの代表性は別途レビューが必要",
+    "misoperation_rateは誤クリックの目的別率。意味的な行動判断の誤りを網羅する独立監査は未実装",
+    "候補起点の未登録目的では、入力に到達しないfallbackを目的分母に含められない。予定trial必須",
+    "verification_residual_msはpoll待機・未計測処理を含む残差。通信/演出の直接実測ではない"
+  ]
+}

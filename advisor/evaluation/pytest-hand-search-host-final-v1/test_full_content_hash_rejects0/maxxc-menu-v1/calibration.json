@@ -1,0 +1,1566 @@
+{
+  "name": "MaxxC-same-slot-normal-summon-MSS-v1",
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "aspect_ratio": 1.7777777777777777,
+  "aspect_tolerance": 0.02,
+  "regions": {
+    "fact.normal_context.hand_layout": {
+      "rect": {
+        "x": 0.31953132812499996,
+        "y": 0.8541668055555556,
+        "width": 0.01718734375,
+        "height": 0.14583305555555554
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-09.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-10.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-11.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-12.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-13.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-14.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-15.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-16.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-17.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-18.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_hand_layout-true-initial-19.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.normal_context.main1": {
+      "rect": {
+        "x": 0.7320313281249999,
+        "y": 0.3902779166666666,
+        "width": 0.07890609374999999,
+        "height": 0.13194416666666667
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-09.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-10.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-11.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-12.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-13.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-14.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-15.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-16.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-17.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-18.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_main1-true-initial-19.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.normal_context.clear_center": {
+      "rect": {
+        "x": 0.37421882812499996,
+        "y": 0.5152779166666667,
+        "width": 0.24999984375,
+        "height": 0.05555527777777778
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-09.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-10.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-11.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-12.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-13.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-14.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-15.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-16.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-17.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-18.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_center-true-initial-19.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.normal_context.clear_card_menu": {
+      "rect": {
+        "x": 0.208593828125,
+        "y": 0.3041668055555556,
+        "width": 0.00937484375,
+        "height": 0.05555527777777778
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-09.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-10.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-11.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-12.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-13.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-14.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-15.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-16.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-17.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-18.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_clear_card_menu-true-initial-19.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.normal_context.hand_card": {
+      "rect": {
+        "x": 0.338281328125,
+        "y": 0.9027779166666666,
+        "width": 0.04687484375,
+        "height": 0.08611083333333333
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-00.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-01.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-02.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-03.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-04.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-05.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-06.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-07.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-08.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-09.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-10.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-11.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-12.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-13.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-14.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-15.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-16.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-17.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-18.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_normal_context_hand_card-9455-initial-19.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.selection.card_id": {
+      "rect": {
+        "x": 0.015625078125,
+        "y": 0.1347223611111111,
+        "width": 0.09218734375,
+        "height": 0.043055277777777776
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-00.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-01.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-02.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-03.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-04.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-05.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-06.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-07.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-08.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-09.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-10.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-11.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-12.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-13.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-14.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-15.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-16.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-17.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-18.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-menu-19.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-00.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-01.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-02.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-03.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-04.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-05.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-06.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-07.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-08.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-09.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-10.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-11.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-12.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-13.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-14.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-15.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-16.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-17.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-18.png"
+        },
+        {
+          "label": "9455",
+          "image": "fact_selection_card_id-9455-placement-19.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.normal_context.summon_enabled": {
+      "rect": {
+        "x": 0.33906257812499996,
+        "y": 0.6888890277777777,
+        "width": 0.05703109375,
+        "height": 0.13611083333333332
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-09.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-10.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-11.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-12.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-13.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-14.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-15.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-16.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-17.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-18.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_summon_enabled-true-menu-19.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.normal_context.placement": {
+      "rect": {
+        "x": 0.37500007812499997,
+        "y": 0.21527791666666668,
+        "width": 0.25624984375,
+        "height": 0.05416638888888889
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-09.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-10.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-11.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-12.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-13.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-14.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-15.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-16.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-17.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-18.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement-true-placement-19.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.normal_context.placement_target": {
+      "rect": {
+        "x": 0.454687578125,
+        "y": 0.5305556944444444,
+        "width": 0.09062484374999999,
+        "height": 0.16944416666666665
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-00.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-01.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-02.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-03.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-04.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-05.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-06.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-07.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-08.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-09.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-10.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-11.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-12.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-13.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-14.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-15.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-16.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-17.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-18.png"
+        },
+        {
+          "label": "true",
+          "image": "fact_normal_context_placement_target-true-placement-19.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "fact.zone.self.monster_2.occupancy": {
+      "rect": {
+        "x": 0.469531328125,
+        "y": 0.5500001388888889,
+        "width": 0.06093734375,
+        "height": 0.14999972222222221
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-00.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-01.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-02.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-03.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-04.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-05.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-06.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-07.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-08.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-09.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-10.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-11.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-12.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-13.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-14.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-15.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-16.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-17.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-18.png"
+        },
+        {
+          "label": "empty",
+          "image": "fact_zone_self_monster_2_occupancy-empty-initial-19.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-00.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-01.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-02.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-03.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-04.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-05.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-06.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-07.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-08.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-09.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-10.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-11.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-12.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-13.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-14.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-15.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-16.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-17.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-18.png"
+        },
+        {
+          "label": "occupied",
+          "image": "fact_zone_self_monster_2_occupancy-occupied-post-19.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "self.zones.monster_2": {
+      "rect": {
+        "x": 0.47578132812499996,
+        "y": 0.57361125,
+        "width": 0.04765609375,
+        "height": 0.08055527777777778
+      },
+      "kind": "card",
+      "exemplars": [
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-00.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-01.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-02.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-03.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-04.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-05.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-06.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-07.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-08.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-09.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-10.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-11.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-12.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-13.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-14.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-15.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-16.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-17.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-18.png"
+        },
+        {
+          "label": "9455",
+          "image": "self_zones_monster_2-9455-post-19.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": null,
+      "target": null
+    },
+    "action.normal_hand": {
+      "rect": {
+        "x": 0.338281328125,
+        "y": 0.9027779166666666,
+        "width": 0.04687484375,
+        "height": 0.08611083333333333
+      },
+      "kind": "action",
+      "exemplars": [
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-00.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-01.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-02.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-03.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-04.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-05.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-06.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-07.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-08.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-09.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-10.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-11.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-12.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-13.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-14.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-15.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-16.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-17.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-18.png"
+        },
+        {
+          "label": "SELECT_CARD",
+          "image": "action_normal_hand-SELECT_CARD-initial-19.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": "9455",
+      "target": null
+    },
+    "action.normal_summon": {
+      "rect": {
+        "x": 0.33906257812499996,
+        "y": 0.6888890277777777,
+        "width": 0.05703109375,
+        "height": 0.13611083333333332
+      },
+      "kind": "action",
+      "exemplars": [
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-00.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-01.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-02.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-03.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-04.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-05.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-06.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-07.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-08.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-09.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-10.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-11.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-12.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-13.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-14.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-15.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-16.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-17.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-18.png"
+        },
+        {
+          "label": "NORMAL_SUMMON",
+          "image": "action_normal_summon-NORMAL_SUMMON-menu-19.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": "9455",
+      "target": null
+    },
+    "action.normal_place": {
+      "rect": {
+        "x": 0.454687578125,
+        "y": 0.5305556944444444,
+        "width": 0.09062484374999999,
+        "height": 0.16944416666666665
+      },
+      "kind": "action",
+      "exemplars": [
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-00.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-01.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-02.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-03.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-04.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-05.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-06.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-07.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-08.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-09.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-10.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-11.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-12.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-13.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-14.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-15.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-16.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-17.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-18.png"
+        },
+        {
+          "label": "CONFIRM",
+          "image": "action_normal_place-CONFIRM-placement-19.png"
+        }
+      ],
+      "threshold": 0.98,
+      "margin": 0.03,
+      "feature": "stable_rgb",
+      "card_id": "9455",
+      "target": "self.monster_2"
+    }
+  },
+  "composites": [
+    {
+      "id": "normal_initial",
+      "when": {
+        "fact.normal_context.hand_layout": "true",
+        "fact.normal_context.main1": "true",
+        "fact.normal_context.clear_center": "true",
+        "fact.normal_context.clear_card_menu": "true",
+        "fact.normal_context.hand_card": "9455",
+        "fact.zone.self.monster_2.occupancy": "empty"
+      },
+      "emit": {
+        "phase": "MAIN1",
+        "turn_player": "self",
+        "game.terminal": "active",
+        "ui.animation": "idle",
+        "ui.prompt": "none"
+      }
+    },
+    {
+      "id": "normal_menu",
+      "when": {
+        "fact.selection.card_id": "9455",
+        "fact.normal_context.summon_enabled": "true"
+      },
+      "emit": {
+        "phase": "MAIN1",
+        "turn_player": "self",
+        "game.terminal": "active",
+        "ui.animation": "idle",
+        "ui.prompt": "card.menu"
+      }
+    },
+    {
+      "id": "normal_place",
+      "when": {
+        "fact.selection.card_id": "9455",
+        "fact.normal_context.placement": "true",
+        "fact.normal_context.placement_target": "true"
+      },
+      "emit": {
+        "phase": "MAIN1",
+        "turn_player": "self",
+        "game.terminal": "active",
+        "ui.animation": "idle",
+        "ui.prompt": "placement.select"
+      }
+    }
+  ]
+}

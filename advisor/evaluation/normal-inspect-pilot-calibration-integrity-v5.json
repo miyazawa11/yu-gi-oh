@@ -1,0 +1,15 @@
+{
+  "schema": "calibration-fingerprint-integrity-review-v5",
+  "calibration_path": "artifacts\\ash-normal-inspect-calibration-v5\\calibration.json",
+  "raw_file_sha256": "f59a2c018516d809f63e8e30620aece6e177c7736696d5452b33d60625b99672",
+  "fixed_file_sha256": "f59a2c018516d809f63e8e30620aece6e177c7736696d5452b33d60625b99672",
+  "normalized_model_value_hash": "3133a97712a1f821bf15c29600bed6e21911ee9fb0ab6c8872ea6539994f6ec1",
+  "metadata_calibration_sha256": "3133a97712a1f821bf15c29600bed6e21911ee9fb0ab6c8872ea6539994f6ec1",
+  "metadata_model_value_hash": "3133a97712a1f821bf15c29600bed6e21911ee9fb0ab6c8872ea6539994f6ec1",
+  "metadata_model_equals_fixed_file_parsed": true,
+  "raw_file_matches_fixed": true,
+  "normalized_hash_matches_metadata": true,
+  "source_metadata_matches_fixed": true,
+  "components_metadata_matches_fixed": true,
+  "notice": "raw bytes SHA and canonical model JSON value_hash have different domains; no evidence of asset mutation"
+}

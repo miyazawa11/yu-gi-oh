@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-04",
+  "scope": "Windows実画面・限定校正の認識と判断・入力なし",
+  "initial_duel_measurement": {
+    "frames": 60,
+    "elapsed_seconds": 3.038464199998998,
+    "received_fps": 19.74681814583163,
+    "p95_ms": {"capture": 19.076514999869687, "perception": 1.0168449998673168, "decision": 0.14732500058016734, "total": 20.361849999062542},
+    "manual_observation": {"phase": "MAIN1", "turn_player": "opponent", "self_lp": 8000, "opponent_lp": 7800, "self_monster": "13923"},
+    "recognition": {"phase": null, "turn_player": null, "self_lp": 8000, "opponent_lp": null, "self_monster": "13923", "action": null},
+    "findings": ["相手ターンの赤いフェイズ表示と7800のLPテンプレートが未登録だったため棄却", "自分LP8000と超雷龍を認識", "未知のフェイズで操作候補を採用しなかった"]
+  },
+  "followup_menu_measurement": {
+    "frames": 60,
+    "received_fps": 19.87821413329216,
+    "p95_total_compute_ms": 18.842320001022017,
+    "scene": "フリーマッチメニュー",
+    "recognized_actions": 0,
+    "recommendation": null,
+    "finding": "対戦画面でない場面を未知として扱い非操作"
+  },
+  "calibration_changes": ["相手MAIN1表示・相手ターン側・LP7800の参照を追加。新しい対戦画面での検証は未完了"],
+  "actual_clicks": 0,
+  "click_interval_seconds": null,
+  "real_perception_gate_passed": false,
+  "pending": ["更新した校正の別対戦・別フレームによる精度評価", "全手札・ダイアログ・位置・対象・終了表示の校正", "実クリックと操作結果の確認", "展開の一連の動作とクリック間隔1秒目標の検証"]
+}

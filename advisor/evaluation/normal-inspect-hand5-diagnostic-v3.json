@@ -1,0 +1,157 @@
+{
+  "schema": "inspect-v3-menu-readonly-diagnostic",
+  "image": "artifacts\\baseline-tester\\ASH_INSPECT_PREFLIGHT_v3_20261006\\frame.png",
+  "sha256": "b830d2eb146af0ef47551bcfd7111b6d4c45d7aed9cf382062db3980679c8a0c",
+  "input_count": 0,
+  "e2e_count": 0,
+  "training_used": false,
+  "offline_time": 0,
+  "rows": [
+    {
+      "version": 1,
+      "button": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9934301972389221,
+        "position_runner_up_score": 0.7595233917236328,
+        "position_runner_up_bbox": [
+          336,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.2339068055152893,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 0,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "button_search_ms": 31.38240000407677,
+      "hand_fixed": {
+        "true": 0.9349969625473022
+      },
+      "hand_relative_bbox": [
+        407,
+        579,
+        18,
+        112
+      ],
+      "hand_relative_scores": {
+        "true": 0.9349969625473022
+      },
+      "hand_local_search_best": [
+        0.9361217617988586,
+        [
+          408,
+          579,
+          18,
+          112
+        ]
+      ],
+      "hand_local_search_count": 625
+    },
+    {
+      "version": 3,
+      "button": {
+        "candidate_type": null,
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9683364629745483,
+        "position_runner_up_score": 0.7703172564506531,
+        "position_runner_up_bbox": [
+          336,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.19801920652389526,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 0,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "d23fe218af54afc642b04e792ab8cb7d548cadd030c938a9470e60a0866fe6e4",
+        "profile_sha256": "fa1b99d8d46881d2181bdf1149852a5b5cd15ffa71e4500963823115b10c208e",
+        "unknown_reason": "below_score_threshold",
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "button_search_ms": 34.98170000966638,
+      "hand_fixed": {
+        "true": 0.9787962436676025
+      },
+      "hand_relative_bbox": [
+        407,
+        579,
+        18,
+        112
+      ],
+      "hand_relative_scores": {
+        "true": 0.9787962436676025
+      },
+      "hand_local_search_best": [
+        0.9803921580314636,
+        [
+          408,
+          578,
+          18,
+          112
+        ]
+      ],
+      "hand_local_search_count": 625
+    }
+  ]
+}

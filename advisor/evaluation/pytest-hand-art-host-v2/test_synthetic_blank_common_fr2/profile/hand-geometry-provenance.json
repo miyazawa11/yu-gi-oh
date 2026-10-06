@@ -1,0 +1,53 @@
+{
+  "schema": "ash-hand-geometry-v5",
+  "new_training_images": 0,
+  "parameters": {
+    "roi_offset": [
+      20,
+      70,
+      135,
+      150
+    ],
+    "canny": [
+      50,
+      150
+    ],
+    "hough_rho": 1,
+    "hough_theta_degrees": 1,
+    "hough_threshold": 40,
+    "minimum_line_length": 65,
+    "maximum_line_gap": 8,
+    "maximum_vertical_dx": 3,
+    "maximum_horizontal_dy": 3,
+    "left_offset": [
+      30,
+      48
+    ],
+    "right_offset": [
+      126,
+      150
+    ],
+    "top_offset": [
+      70,
+      94
+    ],
+    "pair_width": [
+      80,
+      120
+    ],
+    "minimum_overlap": 65,
+    "connection_tolerance": 8,
+    "maximum_lines": 128
+  },
+  "diagnostics": [
+    "normal-inspect-hand-temporal-diagnostic-v4.json",
+    "normal-inspect-hand-geometry-diagnostic-v4.json"
+  ],
+  "diagnostics_are_unseen_holdout": false,
+  "scope": "既知Normal button直下のhand source形状、CID/合法種類は独立AND",
+  "connection_tolerance_basis": "Hough maxGap8/axis3維持、実edge支持の左右投影と上辺交差、交差から下65pxの同一矩形",
+  "binary_confidence_not_probability": true,
+  "rgb_raw_score_retained_as_diagnostic": true,
+  "input_count": 0,
+  "e2e_count": 0
+}

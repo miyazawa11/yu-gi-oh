@@ -1,0 +1,17 @@
+{
+  "schema": "stage-up-negative-diagnostic-v1",
+  "scope": "explicit synthetic stage-guard boundary calls plus real static images; no runtime inputs",
+  "cases": {
+    "entered": false,
+    "point_outside": false,
+    "flowbbox_outside": false,
+    "staticDark": false,
+    "otherRoar": false,
+    "otherStorm": false,
+    "multiple_instance": false,
+    "other_flow_guard_false": false
+  },
+  "all_rejected": true,
+  "input_count": 0,
+  "e2e_count": 0
+}

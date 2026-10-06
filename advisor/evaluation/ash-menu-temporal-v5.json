@@ -1,0 +1,1882 @@
+{
+  "schema": "ash-menu-temporal-recognition-v4",
+  "passed": true,
+  "cases": 10,
+  "input_count": 0,
+  "e2e_count": 0,
+  "training_used": false,
+  "source_sha256": "ea92677c811e34bc17a000a0dcb0b55febac11e024a17deb2e32942e9ffa30fe",
+  "manifest": "artifacts\\baseline-tester\\ASH_INSPECT_MENU_TEMPORAL_v5_20261006\\menu\\manifest.json",
+  "original_manifest_metadata": {
+    "purpose": "v5 fixed temporal evaluation; not training; KPI excluded",
+    "stage": "menu",
+    "capture_session_utc": "2026-10-05T19:53:14.198748+00:00",
+    "capture_source": "mss",
+    "clock_domain": "python_monotonic captured_at; perf_counter duration separate",
+    "input_count": 0
+  },
+  "evaluation_capture_context": "offline_saved_image_observed_at_zero",
+  "scope": "同scene固定後時間的再取得、offline候補をlive入力許可へ昇格しない",
+  "rows": [
+    {
+      "index": 0,
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0000.png",
+        "capture_start_utc": "2026-10-05T19:53:14.198748+00:00",
+        "capture_start_perf": 72557.8329747,
+        "capture_end_perf": 72557.8539028,
+        "captured_at_monotonic": 72557.828,
+        "capture_sequence": 0,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "7f83684cd2f2049f0e66ffd6aa90d836b35a59e8462d46a052bb6fc70bf9f479"
+      },
+      "recognition_observed_at": 0,
+      "offline_coordinate_proof_absent": true,
+      "state": {
+        "sequence": 0,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "self",
+          "confidence": 0.9953467845916748,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "MAIN1",
+          "confidence": 0.9953467845916748,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9953467845916748,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "card.menu",
+          "confidence": 0.9953467845916748,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9953467845916748,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9979313015937805,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9991477727890015,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "geometry:db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": "true",
+            "confidence": 0.9953467845916748,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.9979678988456726,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.9992009997367859,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": "12950",
+            "confidence": 0.9991613030433655,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_source_diagnostic": {
+            "value": "{\"geometry\": {\"confidence_semantics\": \"binary geometric constraints satisfied; not CID/probability/legal-action proof\", \"edge_supported_vertical_projections\": [[522, 568, 522, 693], [419, 567, 419, 716], [520, 567, 520, 669], [513, 567, 513, 685], [425, 567, 425, 706], [417, 568, 417, 691], [410, 567, 410, 661]], \"line_count\": 17, \"parameters_sha256\": \"db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2\", \"passed\": true, \"roi\": [400, 567, 135, 150], \"schema\": \"raised-hand-connected-lines-v1\", \"selected_rectangle\": {\"left\": [419, 567, 419, 716], \"right\": [522, 568, 522, 693], \"top\": [404, 568, 530, 568]}, \"top_lines\": [[404, 568, 530, 568], [429, 573, 534, 573], [401, 586, 534, 586], [444, 575, 519, 575], [430, 584, 516, 584]], \"unknown_reason\": null, \"vertical_lines\": [[522, 693, 522, 568], [419, 716, 419, 585], [520, 669, 520, 571], [513, 685, 513, 571], [425, 706, 425, 585], [416, 691, 418, 573], [409, 661, 410, 570]]}, \"rgb_not_used_as_gate\": true, \"rgb_raw_score\": 0.9647085070610046, \"rgb_threshold\": 0.98}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "NORMAL_SUMMON",
+            "card_id": "12950",
+            "target": null,
+            "confidence": 0.9953467845916748,
+            "source_region": "action.inspect_normal",
+            "observed_at": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0001.png",
+        "capture_start_utc": "2026-10-05T19:53:14.340476+00:00",
+        "capture_start_perf": 72557.9738292,
+        "capture_end_perf": 72557.9919839,
+        "captured_at_monotonic": 72557.968,
+        "capture_sequence": 1,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "054919f1c981583e2ec481d313c0c33d933ca0d2ce99ede30cd67cf4b0ea79fd"
+      },
+      "recognition_observed_at": 0,
+      "offline_coordinate_proof_absent": true,
+      "state": {
+        "sequence": 1,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "self",
+          "confidence": 0.9952044486999512,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "MAIN1",
+          "confidence": 0.9952044486999512,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9952044486999512,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "card.menu",
+          "confidence": 0.9952044486999512,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9952044486999512,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9979450702667236,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9991469383239746,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "geometry:db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": "true",
+            "confidence": 0.9952044486999512,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.9980946779251099,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.9993799924850464,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": "12950",
+            "confidence": 0.999161958694458,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_source_diagnostic": {
+            "value": "{\"geometry\": {\"confidence_semantics\": \"binary geometric constraints satisfied; not CID/probability/legal-action proof\", \"edge_supported_vertical_projections\": [[419, 567, 419, 716], [522, 568, 522, 693], [409, 567, 409, 659], [425, 567, 425, 706], [418, 568, 418, 640], [520, 567, 520, 669], [513, 567, 513, 683], [511, 567, 511, 670]], \"line_count\": 19, \"parameters_sha256\": \"db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2\", \"passed\": true, \"roi\": [400, 567, 135, 150], \"schema\": \"raised-hand-connected-lines-v1\", \"selected_rectangle\": {\"left\": [419, 567, 419, 716], \"right\": [522, 568, 522, 693], \"top\": [404, 568, 530, 568]}, \"top_lines\": [[404, 568, 530, 568], [401, 586, 534, 586], [430, 584, 516, 584], [444, 575, 519, 575], [428, 573, 534, 573]], \"unknown_reason\": null, \"vertical_lines\": [[419, 716, 419, 568], [522, 693, 522, 571], [409, 659, 409, 567], [425, 706, 425, 585], [417, 640, 418, 573], [520, 669, 520, 571], [513, 683, 513, 570], [511, 670, 511, 567]]}, \"rgb_not_used_as_gate\": true, \"rgb_raw_score\": 0.9697010517120361, \"rgb_threshold\": 0.98}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "NORMAL_SUMMON",
+            "card_id": "12950",
+            "target": null,
+            "confidence": 0.9952044486999512,
+            "source_region": "action.inspect_normal",
+            "observed_at": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0002.png",
+        "capture_start_utc": "2026-10-05T19:53:14.499154+00:00",
+        "capture_start_perf": 72558.1324957,
+        "capture_end_perf": 72558.1449577,
+        "captured_at_monotonic": 72558.109,
+        "capture_sequence": 2,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "01f0be734810f858401948fe470877d7e98d608d1af0eb97f8f58dfdf90bea1f"
+      },
+      "recognition_observed_at": 0,
+      "offline_coordinate_proof_absent": true,
+      "state": {
+        "sequence": 2,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "self",
+          "confidence": 0.9953052997589111,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "MAIN1",
+          "confidence": 0.9953052997589111,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9953052997589111,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "card.menu",
+          "confidence": 0.9953052997589111,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9953052997589111,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9980307817459106,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9991623759269714,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "geometry:db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": "true",
+            "confidence": 0.9953052997589111,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.9978847503662109,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.9995020627975464,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": "12950",
+            "confidence": 0.9990706443786621,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_source_diagnostic": {
+            "value": "{\"geometry\": {\"confidence_semantics\": \"binary geometric constraints satisfied; not CID/probability/legal-action proof\", \"edge_supported_vertical_projections\": [[522, 568, 522, 716], [419, 567, 419, 716], [513, 567, 513, 685], [417, 568, 417, 648], [425, 567, 425, 703], [511, 567, 511, 670], [429, 568, 429, 661]], \"line_count\": 17, \"parameters_sha256\": \"db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2\", \"passed\": true, \"roi\": [400, 567, 135, 150], \"schema\": \"raised-hand-connected-lines-v1\", \"selected_rectangle\": {\"left\": [419, 567, 419, 716], \"right\": [522, 568, 522, 716], \"top\": [404, 568, 530, 568]}, \"top_lines\": [[404, 568, 530, 568], [420, 586, 534, 586], [445, 575, 519, 575], [430, 584, 516, 584], [456, 573, 534, 573]], \"unknown_reason\": null, \"vertical_lines\": [[522, 716, 522, 568], [419, 716, 419, 568], [513, 685, 513, 568], [417, 648, 417, 568], [425, 703, 425, 585], [511, 670, 511, 567], [428, 661, 430, 596]]}, \"rgb_not_used_as_gate\": true, \"rgb_raw_score\": 0.9782056212425232, \"rgb_threshold\": 0.98}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "NORMAL_SUMMON",
+            "card_id": "12950",
+            "target": null,
+            "confidence": 0.9953052997589111,
+            "source_region": "action.inspect_normal",
+            "observed_at": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0003.png",
+        "capture_start_utc": "2026-10-05T19:53:14.635709+00:00",
+        "capture_start_perf": 72558.2690525,
+        "capture_end_perf": 72558.28302,
+        "captured_at_monotonic": 72558.25,
+        "capture_sequence": 3,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "abb62e23b359ff6df52b29920a99f877565debd242990f3e30b994f950d9867f"
+      },
+      "recognition_observed_at": 0,
+      "offline_coordinate_proof_absent": true,
+      "state": {
+        "sequence": 3,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "self",
+          "confidence": 0.9955388307571411,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "MAIN1",
+          "confidence": 0.9955388307571411,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9955388307571411,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "card.menu",
+          "confidence": 0.9955388307571411,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9955388307571411,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9980629682540894,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9991745948791504,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "geometry:db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": "true",
+            "confidence": 0.9955388307571411,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.9980233907699585,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.999475359916687,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": "12950",
+            "confidence": 0.9990783333778381,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_source_diagnostic": {
+            "value": "{\"geometry\": {\"confidence_semantics\": \"binary geometric constraints satisfied; not CID/probability/legal-action proof\", \"edge_supported_vertical_projections\": [[419, 585, 419, 716], [522, 568, 522, 654], [513, 567, 513, 685], [425, 567, 425, 703], [511, 567, 511, 646], [429, 567, 429, 661]], \"line_count\": 17, \"parameters_sha256\": \"db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2\", \"passed\": true, \"roi\": [400, 567, 135, 150], \"schema\": \"raised-hand-connected-lines-v1\", \"selected_rectangle\": {\"left\": [419, 585, 419, 716], \"right\": [522, 568, 522, 654], \"top\": [401, 586, 534, 586]}, \"top_lines\": [[401, 586, 534, 586], [404, 568, 530, 568], [445, 575, 519, 575], [430, 584, 516, 584]], \"unknown_reason\": null, \"vertical_lines\": [[419, 716, 419, 585], [522, 654, 522, 571], [513, 685, 513, 570], [425, 703, 425, 600], [510, 646, 512, 574], [428, 661, 430, 596]]}, \"rgb_not_used_as_gate\": true, \"rgb_raw_score\": 0.9832952618598938, \"rgb_threshold\": 0.98}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "NORMAL_SUMMON",
+            "card_id": "12950",
+            "target": null,
+            "confidence": 0.9955388307571411,
+            "source_region": "action.inspect_normal",
+            "observed_at": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0004.png",
+        "capture_start_utc": "2026-10-05T19:53:14.792573+00:00",
+        "capture_start_perf": 72558.425907,
+        "capture_end_perf": 72558.4441238,
+        "captured_at_monotonic": 72558.421,
+        "capture_sequence": 4,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "6122f20346abfec9c1e65a6d2c09473c89b5ff781459237721271ef638ef4398"
+      },
+      "recognition_observed_at": 0,
+      "offline_coordinate_proof_absent": true,
+      "state": {
+        "sequence": 4,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "self",
+          "confidence": 0.9956769943237305,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "MAIN1",
+          "confidence": 0.9956769943237305,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9956769943237305,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "card.menu",
+          "confidence": 0.9956769943237305,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9956769943237305,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9981073141098022,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9991583228111267,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "geometry:db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": "true",
+            "confidence": 0.9956769943237305,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.9976391196250916,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.99928879737854,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": "12950",
+            "confidence": 0.9990764260292053,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_source_diagnostic": {
+            "value": "{\"geometry\": {\"confidence_semantics\": \"binary geometric constraints satisfied; not CID/probability/legal-action proof\", \"edge_supported_vertical_projections\": [[522, 568, 522, 654], [419, 585, 419, 716], [513, 567, 513, 685], [416, 585, 416, 696], [425, 567, 425, 703], [511, 567, 511, 645]], \"line_count\": 17, \"parameters_sha256\": \"db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2\", \"passed\": true, \"roi\": [400, 567, 135, 150], \"schema\": \"raised-hand-connected-lines-v1\", \"selected_rectangle\": {\"left\": [419, 585, 419, 716], \"right\": [522, 568, 522, 654], \"top\": [401, 586, 534, 586]}, \"top_lines\": [[404, 568, 530, 568], [401, 586, 534, 586], [430, 584, 516, 584], [445, 575, 519, 575]], \"unknown_reason\": null, \"vertical_lines\": [[522, 654, 522, 568], [419, 716, 419, 585], [513, 685, 513, 570], [416, 696, 417, 602], [425, 703, 425, 600], [511, 645, 511, 580]]}, \"rgb_not_used_as_gate\": true, \"rgb_raw_score\": 0.9881171584129333, \"rgb_threshold\": 0.98}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "NORMAL_SUMMON",
+            "card_id": "12950",
+            "target": null,
+            "confidence": 0.9956769943237305,
+            "source_region": "action.inspect_normal",
+            "observed_at": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0005.png",
+        "capture_start_utc": "2026-10-05T19:53:14.948110+00:00",
+        "capture_start_perf": 72558.5814416,
+        "capture_end_perf": 72558.5958466,
+        "captured_at_monotonic": 72558.562,
+        "capture_sequence": 5,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "cb65f3c27f089b3ad7256d05a61d7e9ea86e431e6c8585b3937c08c98e3c1956"
+      },
+      "recognition_observed_at": 0,
+      "offline_coordinate_proof_absent": true,
+      "state": {
+        "sequence": 5,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "self",
+          "confidence": 0.9954310655593872,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "MAIN1",
+          "confidence": 0.9954310655593872,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9954310655593872,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "card.menu",
+          "confidence": 0.9954310655593872,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9954310655593872,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9981915354728699,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9991461634635925,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "geometry:db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": "true",
+            "confidence": 0.9954310655593872,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.9969538450241089,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.9990789294242859,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": "12950",
+            "confidence": 0.9990726113319397,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_source_diagnostic": {
+            "value": "{\"geometry\": {\"confidence_semantics\": \"binary geometric constraints satisfied; not CID/probability/legal-action proof\", \"edge_supported_vertical_projections\": [[419, 585, 419, 716], [522, 568, 522, 654], [513, 567, 513, 683], [425, 567, 425, 703], [511, 567, 511, 670], [428, 568, 428, 699]], \"line_count\": 13, \"parameters_sha256\": \"db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2\", \"passed\": true, \"roi\": [400, 567, 135, 150], \"schema\": \"raised-hand-connected-lines-v1\", \"selected_rectangle\": {\"left\": [419, 585, 419, 716], \"right\": [522, 568, 522, 654], \"top\": [420, 586, 534, 586]}, \"top_lines\": [[404, 568, 530, 568], [420, 586, 534, 586], [430, 584, 516, 584]], \"unknown_reason\": null, \"vertical_lines\": [[419, 716, 419, 585], [522, 654, 522, 568], [513, 683, 513, 570], [425, 703, 425, 602], [511, 670, 511, 567], [428, 622, 429, 699]]}, \"rgb_not_used_as_gate\": true, \"rgb_raw_score\": 0.9919468760490417, \"rgb_threshold\": 0.98}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "NORMAL_SUMMON",
+            "card_id": "12950",
+            "target": null,
+            "confidence": 0.9954310655593872,
+            "source_region": "action.inspect_normal",
+            "observed_at": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0006.png",
+        "capture_start_utc": "2026-10-05T19:53:15.094182+00:00",
+        "capture_start_perf": 72558.7276822,
+        "capture_end_perf": 72558.7431916,
+        "captured_at_monotonic": 72558.718,
+        "capture_sequence": 6,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "304b60f6982771ac6c1ab9df1381ab54d7f79c6da9da1e2142470076b3b7a260"
+      },
+      "recognition_observed_at": 0,
+      "offline_coordinate_proof_absent": true,
+      "state": {
+        "sequence": 6,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "self",
+          "confidence": 0.9953163862228394,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "MAIN1",
+          "confidence": 0.9953163862228394,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9953163862228394,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "card.menu",
+          "confidence": 0.9953163862228394,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9953163862228394,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9983323216438293,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9991421103477478,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "geometry:db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": "true",
+            "confidence": 0.9953163862228394,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.9964824914932251,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.9989870190620422,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": "12950",
+            "confidence": 0.9990649223327637,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_source_diagnostic": {
+            "value": "{\"geometry\": {\"confidence_semantics\": \"binary geometric constraints satisfied; not CID/probability/legal-action proof\", \"edge_supported_vertical_projections\": [[522, 568, 522, 716], [417, 585, 417, 655], [419, 585, 419, 716], [425, 567, 425, 703], [520, 567, 520, 633], [513, 567, 513, 685], [511, 567, 511, 670], [428, 568, 428, 670]], \"line_count\": 16, \"parameters_sha256\": \"db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2\", \"passed\": true, \"roi\": [400, 567, 135, 150], \"schema\": \"raised-hand-connected-lines-v1\", \"selected_rectangle\": {\"left\": [417, 585, 417, 655], \"right\": [522, 568, 522, 716], \"top\": [420, 586, 521, 586]}, \"top_lines\": [[430, 584, 516, 584], [450, 568, 530, 568], [420, 586, 521, 586]], \"unknown_reason\": null, \"vertical_lines\": [[522, 716, 522, 568], [417, 655, 417, 585], [419, 716, 419, 585], [425, 703, 425, 603], [520, 633, 520, 568], [513, 685, 513, 570], [511, 670, 511, 567], [428, 670, 429, 588]]}, \"rgb_not_used_as_gate\": true, \"rgb_raw_score\": 0.9926844835281372, \"rgb_threshold\": 0.98}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "NORMAL_SUMMON",
+            "card_id": "12950",
+            "target": null,
+            "confidence": 0.9953163862228394,
+            "source_region": "action.inspect_normal",
+            "observed_at": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0007.png",
+        "capture_start_utc": "2026-10-05T19:53:15.234767+00:00",
+        "capture_start_perf": 72558.868084,
+        "capture_end_perf": 72558.8883212,
+        "captured_at_monotonic": 72558.859,
+        "capture_sequence": 7,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "3f9df75044c40428a8646ea64bf0bbcba9006ce5b34b2b500a35f8c0d9ca0dd5"
+      },
+      "recognition_observed_at": 0,
+      "offline_coordinate_proof_absent": true,
+      "state": {
+        "sequence": 7,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "self",
+          "confidence": 0.9951077103614807,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "MAIN1",
+          "confidence": 0.9951077103614807,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9951077103614807,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "card.menu",
+          "confidence": 0.9951077103614807,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9951077103614807,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9984134435653687,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9991363883018494,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "geometry:db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": "true",
+            "confidence": 0.9951077103614807,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.9963517785072327,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.9990089535713196,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": "12950",
+            "confidence": 0.9991057515144348,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_source_diagnostic": {
+            "value": "{\"geometry\": {\"confidence_semantics\": \"binary geometric constraints satisfied; not CID/probability/legal-action proof\", \"edge_supported_vertical_projections\": [[419, 585, 419, 716], [513, 567, 513, 685], [416, 585, 416, 695], [522, 568, 522, 654], [425, 568, 425, 703], [511, 567, 511, 670], [428, 568, 428, 670]], \"line_count\": 15, \"parameters_sha256\": \"db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2\", \"passed\": true, \"roi\": [400, 567, 135, 150], \"schema\": \"raised-hand-connected-lines-v1\", \"selected_rectangle\": {\"left\": [419, 585, 419, 716], \"right\": [513, 567, 513, 685], \"top\": [401, 586, 534, 586]}, \"top_lines\": [[401, 586, 534, 586], [448, 568, 530, 568], [430, 584, 516, 584]], \"unknown_reason\": null, \"vertical_lines\": [[419, 716, 419, 585], [513, 685, 513, 570], [416, 695, 417, 630], [522, 654, 522, 571], [425, 703, 425, 603], [511, 670, 511, 567], [428, 670, 428, 602]]}, \"rgb_not_used_as_gate\": true, \"rgb_raw_score\": 0.9918234944343567, \"rgb_threshold\": 0.98}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "NORMAL_SUMMON",
+            "card_id": "12950",
+            "target": null,
+            "confidence": 0.9951077103614807,
+            "source_region": "action.inspect_normal",
+            "observed_at": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0008.png",
+        "capture_start_utc": "2026-10-05T19:53:15.388034+00:00",
+        "capture_start_perf": 72559.0213379,
+        "capture_end_perf": 72559.0333222,
+        "captured_at_monotonic": 72559.0,
+        "capture_sequence": 8,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "19bc6cb2130a6c694d88295224de366365444cfed7b46b85d30fcb26c3dce7a0"
+      },
+      "recognition_observed_at": 0,
+      "offline_coordinate_proof_absent": true,
+      "state": {
+        "sequence": 8,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "self",
+          "confidence": 0.9948313236236572,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "MAIN1",
+          "confidence": 0.9948313236236572,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9948313236236572,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "card.menu",
+          "confidence": 0.9948313236236572,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9948313236236572,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9985466599464417,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9991518259048462,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "geometry:db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": "true",
+            "confidence": 0.9948313236236572,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.9964309930801392,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.999122142791748,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": "12950",
+            "confidence": 0.9991427659988403,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_source_diagnostic": {
+            "value": "{\"geometry\": {\"confidence_semantics\": \"binary geometric constraints satisfied; not CID/probability/legal-action proof\", \"edge_supported_vertical_projections\": [[419, 585, 419, 716], [522, 568, 522, 654], [417, 585, 417, 694], [513, 567, 513, 685], [520, 567, 520, 633], [425, 568, 425, 703], [510, 567, 510, 652]], \"line_count\": 18, \"parameters_sha256\": \"db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2\", \"passed\": true, \"roi\": [400, 567, 135, 150], \"schema\": \"raised-hand-connected-lines-v1\", \"selected_rectangle\": {\"left\": [419, 585, 419, 716], \"right\": [522, 568, 522, 654], \"top\": [401, 586, 534, 586]}, \"top_lines\": [[401, 586, 534, 586], [403, 568, 530, 568], [430, 584, 516, 584], [445, 575, 519, 575]], \"unknown_reason\": null, \"vertical_lines\": [[419, 716, 419, 585], [522, 654, 522, 568], [416, 694, 418, 585], [513, 685, 513, 570], [520, 633, 520, 568], [425, 703, 425, 603], [510, 652, 511, 580]]}, \"rgb_not_used_as_gate\": true, \"rgb_raw_score\": 0.9893692135810852, \"rgb_threshold\": 0.98}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "NORMAL_SUMMON",
+            "card_id": "12950",
+            "target": null,
+            "confidence": 0.9948313236236572,
+            "source_region": "action.inspect_normal",
+            "observed_at": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0009.png",
+        "capture_start_utc": "2026-10-05T19:53:15.540781+00:00",
+        "capture_start_perf": 72559.1740707,
+        "capture_end_perf": 72559.1854284,
+        "captured_at_monotonic": 72559.156,
+        "capture_sequence": 9,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "7380629679827f91a62d1910aa8789fff604ef4901823350b191a7246feaeb91"
+      },
+      "recognition_observed_at": 0,
+      "offline_coordinate_proof_absent": true,
+      "state": {
+        "sequence": 9,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "self",
+          "confidence": 0.9946931600570679,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "MAIN1",
+          "confidence": 0.9946931600570679,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9946931600570679,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "card.menu",
+          "confidence": 0.9946931600570679,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9946931600570679,
+          "source": "composite:menu",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": "true",
+            "confidence": 0.9987103939056396,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9991486072540283,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "geometry:db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": "true",
+            "confidence": 0.9946931600570679,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": "empty",
+            "confidence": 0.9967716336250305,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": "true",
+            "confidence": 0.9993244409561157,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": "12950",
+            "confidence": 0.999111533164978,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_source_diagnostic": {
+            "value": "{\"geometry\": {\"confidence_semantics\": \"binary geometric constraints satisfied; not CID/probability/legal-action proof\", \"edge_supported_vertical_projections\": [[419, 585, 419, 716], [522, 568, 522, 654], [513, 567, 513, 685], [416, 585, 416, 694]], \"line_count\": 14, \"parameters_sha256\": \"db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2\", \"passed\": true, \"roi\": [400, 567, 135, 150], \"schema\": \"raised-hand-connected-lines-v1\", \"selected_rectangle\": {\"left\": [419, 585, 419, 716], \"right\": [522, 568, 522, 654], \"top\": [417, 586, 534, 586]}, \"top_lines\": [[417, 586, 534, 586], [403, 568, 530, 568], [430, 584, 516, 584], [445, 575, 519, 575]], \"unknown_reason\": null, \"vertical_lines\": [[419, 716, 419, 585], [522, 654, 522, 568], [513, 685, 513, 568], [416, 694, 417, 585]]}, \"rgb_not_used_as_gate\": true, \"rgb_raw_score\": 0.9837362766265869, \"rgb_threshold\": 0.98}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "NORMAL_SUMMON",
+            "card_id": "12950",
+            "target": null,
+            "confidence": 0.9946931600570679,
+            "source_region": "action.inspect_normal",
+            "observed_at": 0.0
+          }
+        ]
+      }
+    }
+  ]
+}

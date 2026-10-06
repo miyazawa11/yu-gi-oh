@@ -1,0 +1,440 @@
+{
+  "schema": "known-public-instance-entry-raise-storage-stage-comparison-v1",
+  "change": "observed entry->one raised display permits -50 vertical only after entry; quality thresholds unchanged. Original -8 resumes after raise. Not monotonically descending UI.",
+  "failure": {
+    "index": 42,
+    "sequence": 62,
+    "stage_before": "raised",
+    "coarse_ncc": 0.6989642381668091,
+    "coarse_margin": 0.6246736720204353,
+    "valid_points": 6,
+    "inliers": 5,
+    "inlier_ratio": 0.8333333333333334,
+    "scale_step": 0.9898480270970734,
+    "delta": [
+      0.0091552734375,
+      13.989501953125
+    ],
+    "bbox": [
+      589.7966918945312,
+      609.890625,
+      101.85394287109375,
+      150.10491943359375
+    ],
+    "entered": true,
+    "raised": true,
+    "passed": false,
+    "reason": "quality_or_stage_bound"
+  },
+  "rows": [
+    {
+      "index": 26,
+      "sequence": 46,
+      "stage_before": "descending",
+      "coarse_ncc": 0.9199509620666504,
+      "coarse_margin": 0.6823165863752365,
+      "valid_points": 24,
+      "inliers": 24,
+      "inlier_ratio": 1.0,
+      "scale_step": 1.0092319577055562,
+      "delta": [
+        -0.0313720703125,
+        1.6263427734375
+      ],
+      "bbox": [
+        581.4124145507812,
+        447.81536865234375,
+        119.11236572265625,
+        175.6219482421875
+      ],
+      "entered": false,
+      "raised": false,
+      "passed": true
+    },
+    {
+      "index": 27,
+      "sequence": 47,
+      "stage_before": "descending",
+      "coarse_ncc": 0.6949065327644348,
+      "coarse_margin": 0.5097841620445251,
+      "valid_points": 24,
+      "inliers": 24,
+      "inlier_ratio": 1.0,
+      "scale_step": 0.9400556292460861,
+      "delta": [
+        -0.14263916015625,
+        67.56304931640625
+      ],
+      "bbox": [
+        584.75390625,
+        520.5838623046875,
+        112.14422607421875,
+        165.21099853515625
+      ],
+      "entered": false,
+      "raised": false,
+      "passed": true
+    },
+    {
+      "index": 28,
+      "sequence": 48,
+      "stage_before": "descending",
+      "coarse_ncc": 0.7201910614967346,
+      "coarse_margin": 0.674795925617218,
+      "valid_points": 20,
+      "inliers": 20,
+      "inlier_ratio": 1.0,
+      "scale_step": 0.9229564064862972,
+      "delta": [
+        -0.21160888671875,
+        73.23114013671875
+      ],
+      "bbox": [
+        588.7633056640625,
+        600.1121826171875,
+        103.70220947265625,
+        152.61669921875
+      ],
+      "entered": true,
+      "raised": false,
+      "passed": true
+    },
+    {
+      "index": 29,
+      "sequence": 49,
+      "stage_before": "entered",
+      "coarse_ncc": 0.860309362411499,
+      "coarse_margin": 0.779414638876915,
+      "valid_points": 20,
+      "inliers": 20,
+      "inlier_ratio": 1.0,
+      "scale_step": 0.9933861332593149,
+      "delta": [
+        0.06658935546875,
+        -4.24346923828125
+      ],
+      "bbox": [
+        589.2576904296875,
+        596.430908203125,
+        102.8465576171875,
+        151.4923095703125
+      ],
+      "entered": true,
+      "raised": false,
+      "passed": true
+    },
+    {
+      "index": 30,
+      "sequence": 50,
+      "stage_before": "entered",
+      "coarse_ncc": 0.6376076936721802,
+      "coarse_margin": 0.4020502418279648,
+      "valid_points": 10,
+      "inliers": 7,
+      "inlier_ratio": 0.7,
+      "scale_step": 1.0204320948654058,
+      "delta": [
+        0.09088134765625,
+        -33.9381103515625
+      ],
+      "bbox": [
+        588.2881469726562,
+        560.9385986328125,
+        104.9674072265625,
+        154.60076904296875
+      ],
+      "entered": true,
+      "raised": true,
+      "passed": true
+    },
+    {
+      "index": 31,
+      "sequence": 51,
+      "stage_before": "raised",
+      "coarse_ncc": 0.9985553622245789,
+      "coarse_margin": 0.8940865099430084,
+      "valid_points": 7,
+      "inliers": 7,
+      "inlier_ratio": 1.0,
+      "scale_step": 1.0000285722243345,
+      "delta": [
+        -0.0067138671875,
+        -0.00518798828125
+      ],
+      "bbox": [
+        588.3016967773438,
+        560.9459838867188,
+        104.9268798828125,
+        154.57562255859375
+      ],
+      "entered": true,
+      "raised": true,
+      "passed": true
+    },
+    {
+      "index": 32,
+      "sequence": 52,
+      "stage_before": "raised",
+      "coarse_ncc": 0.995354950428009,
+      "coarse_margin": 0.8975614011287689,
+      "valid_points": 7,
+      "inliers": 7,
+      "inlier_ratio": 1.0,
+      "scale_step": 0.999865583618424,
+      "delta": [
+        -0.016357421875,
+        -0.014892578125
+      ],
+      "bbox": [
+        588.3602905273438,
+        560.9874877929688,
+        104.77703857421875,
+        154.46282958984375
+      ],
+      "entered": true,
+      "raised": true,
+      "passed": true
+    },
+    {
+      "index": 33,
+      "sequence": 53,
+      "stage_before": "raised",
+      "coarse_ncc": 0.9986571073532104,
+      "coarse_margin": 0.90119219571352,
+      "valid_points": 7,
+      "inliers": 7,
+      "inlier_ratio": 1.0,
+      "scale_step": 0.9998540847839708,
+      "delta": [
+        -0.0087890625,
+        -0.0098876953125
+      ],
+      "bbox": [
+        588.3733520507812,
+        560.9983520507812,
+        104.73333740234375,
+        154.421142578125
+      ],
+      "entered": true,
+      "raised": true,
+      "passed": true
+    },
+    {
+      "index": 34,
+      "sequence": 54,
+      "stage_before": "raised",
+      "coarse_ncc": 0.9997885823249817,
+      "coarse_margin": 0.8995885998010635,
+      "valid_points": 7,
+      "inliers": 7,
+      "inlier_ratio": 1.0,
+      "scale_step": 1.000004546217073,
+      "delta": [
+        -0.0040283203125,
+        -0.0029296875
+      ],
+      "bbox": [
+        588.3568115234375,
+        560.98681640625,
+        104.75830078125,
+        154.4384765625
+      ],
+      "entered": true,
+      "raised": true,
+      "passed": true
+    },
+    {
+      "index": 35,
+      "sequence": 55,
+      "stage_before": "raised",
+      "coarse_ncc": 0.9901103377342224,
+      "coarse_margin": 0.844990536570549,
+      "valid_points": 7,
+      "inliers": 7,
+      "inlier_ratio": 1.0,
+      "scale_step": 1.0003076012483256,
+      "delta": [
+        0.019775390625,
+        0.0179443359375
+      ],
+      "bbox": [
+        588.3290405273438,
+        560.9599609375,
+        104.85333251953125,
+        154.5281982421875
+      ],
+      "entered": true,
+      "raised": true,
+      "passed": true
+    },
+    {
+      "index": 36,
+      "sequence": 56,
+      "stage_before": "raised",
+      "coarse_ncc": 0.9903942942619324,
+      "coarse_margin": 0.8688992261886597,
+      "valid_points": 7,
+      "inliers": 7,
+      "inlier_ratio": 1.0,
+      "scale_step": 1.000436641213144,
+      "delta": [
+        0.02752685546875,
+        0.0294189453125
+      ],
+      "bbox": [
+        588.2210083007812,
+        560.879150390625,
+        105.12451171875,
+        154.7484130859375
+      ],
+      "entered": true,
+      "raised": true,
+      "passed": true
+    },
+    {
+      "index": 37,
+      "sequence": 57,
+      "stage_before": "raised",
+      "coarse_ncc": 0.9929956793785095,
+      "coarse_margin": 0.8863529190421104,
+      "valid_points": 7,
+      "inliers": 7,
+      "inlier_ratio": 1.0,
+      "scale_step": 1.0002172674398124,
+      "delta": [
+        -0.021240234375,
+        -0.01116943359375
+      ],
+      "bbox": [
+        588.2581176757812,
+        560.8984375,
+        105.0078125,
+        154.68756103515625
+      ],
+      "entered": true,
+      "raised": true,
+      "passed": true
+    },
+    {
+      "index": 38,
+      "sequence": 58,
+      "stage_before": "raised",
+      "coarse_ncc": 0.9965850710868835,
+      "coarse_margin": 0.8939669281244278,
+      "valid_points": 7,
+      "inliers": 7,
+      "inlier_ratio": 1.0,
+      "scale_step": 0.9997604572676423,
+      "delta": [
+        -0.012939453125,
+        -0.01409912109375
+      ],
+      "bbox": [
+        588.31494140625,
+        560.9415893554688,
+        104.86822509765625,
+        154.57305908203125
+      ],
+      "entered": true,
+      "raised": true,
+      "passed": true
+    },
+    {
+      "index": 39,
+      "sequence": 59,
+      "stage_before": "raised",
+      "coarse_ncc": 0.9994156360626221,
+      "coarse_margin": 0.900387741625309,
+      "valid_points": 7,
+      "inliers": 7,
+      "inlier_ratio": 1.0,
+      "scale_step": 1.000017980462613,
+      "delta": [
+        -0.007568359375,
+        -0.00579833984375
+      ],
+      "bbox": [
+        588.3308715820312,
+        560.9509887695312,
+        104.8211669921875,
+        154.54266357421875
+      ],
+      "entered": true,
+      "raised": true,
+      "passed": true
+    },
+    {
+      "index": 40,
+      "sequence": 60,
+      "stage_before": "raised",
+      "coarse_ncc": 0.9999473094940186,
+      "coarse_margin": 0.900126501917839,
+      "valid_points": 7,
+      "inliers": 7,
+      "inlier_ratio": 1.0,
+      "scale_step": 1.0000227242878257,
+      "delta": [
+        -0.0030517578125,
+        -0.00048828125
+      ],
+      "bbox": [
+        588.3314819335938,
+        560.9520263671875,
+        104.81390380859375,
+        154.53961181640625
+      ],
+      "entered": true,
+      "raised": true,
+      "passed": true
+    },
+    {
+      "index": 41,
+      "sequence": 61,
+      "stage_before": "raised",
+      "coarse_ncc": 0.6731961369514465,
+      "coarse_margin": 0.5678841099143028,
+      "valid_points": 7,
+      "inliers": 7,
+      "inlier_ratio": 1.0,
+      "scale_step": 0.9808733904465174,
+      "delta": [
+        -0.02392578125,
+        32.7318115234375
+      ],
+      "bbox": [
+        589.304443359375,
+        595.1580200195312,
+        102.820068359375,
+        151.5911865234375
+      ],
+      "entered": true,
+      "raised": true,
+      "passed": true
+    },
+    {
+      "index": 42,
+      "sequence": 62,
+      "stage_before": "raised",
+      "coarse_ncc": 0.6989642381668091,
+      "coarse_margin": 0.6246736720204353,
+      "valid_points": 6,
+      "inliers": 5,
+      "inlier_ratio": 0.8333333333333334,
+      "scale_step": 0.9898480270970734,
+      "delta": [
+        0.0091552734375,
+        13.989501953125
+      ],
+      "bbox": [
+        589.7966918945312,
+        609.890625,
+        101.85394287109375,
+        150.10491943359375
+      ],
+      "entered": true,
+      "raised": true,
+      "passed": false
+    }
+  ],
+  "source": "method-selection99 native source verified; no input/holdout/E2E"
+}

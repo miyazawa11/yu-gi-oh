@@ -1,0 +1,233 @@
+{
+  "schema": "thunderstormech-route-readonly-v1",
+  "runtime_verified": false,
+  "input_count": 0,
+  "e2e_count": 0,
+  "source_card": {
+    "card_id": "15011",
+    "name": "天雷震龍－サンダー・ドラゴン",
+    "type": "Effect Monster",
+    "attribute": "LIGHT",
+    "race": "Thunder",
+    "level": 9,
+    "rank": null,
+    "link": null,
+    "atk": 3000,
+    "defense": 2000,
+    "effect_text": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by banishing 1 Level 8 or lower Thunder monster from your hand or face-up field, during the turn a Thunder monster's effect was activated in the hand. Once per opponent's turn (Quick Effect): You can banish 2 cards from your GY, including a Thunder monster, then target 1 Thunder monster you control; your opponent cannot target it with card effects this turn. Once per turn, during your End Phase: You can send 1 \"Thunder Dragon\" card from your Deck to the GY.",
+    "effect_language": "en",
+    "effect_source": "https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Thunder+Dragonlord&misc=yes",
+    "effect_fetched_at": "2026-10-04T15:06:10.722916+00:00",
+    "external_ids": {
+      "ygoprodeck": "5206415",
+      "konami": "15011"
+    },
+    "master_duel_verified": false
+  },
+  "observed_md_clause": "雷族モンスターの効果が手札で発動したターン、自分の手札・フィールド（表側表示）からレベル8以下の雷族モンスター1体を除外した場合に特殊召喚できる。",
+  "md_raw_clause_agreement": true,
+  "agreement_scope": "summon clause only; UI order/rulings/once hidden state not inferred",
+  "existing_rule": {
+    "id": "lord_summon",
+    "card_id": "15011",
+    "description": "手札雷族発動済みなら手札/表側場のレベル8以下雷族を除外して天雷震龍",
+    "type": "SPECIAL_SUMMON",
+    "source_region": "action.lord_summon",
+    "priority": 500,
+    "facts": {
+      "hand_thunder.activated": "true",
+      "lord.cost.valid": "true",
+      "window.lord_summon": "open",
+      "summon.allowed": "true"
+    },
+    "requires": [
+      {
+        "zone_prefix": "hand_",
+        "card_id": "15011"
+      }
+    ],
+    "players": [
+      "self"
+    ],
+    "phases": [
+      "MAIN1",
+      "MAIN2"
+    ],
+    "prompt": "none",
+    "enabled": true
+  },
+  "cost_candidates": [
+    {
+      "cid": "13908",
+      "attribute": "DARK",
+      "level": 6,
+      "race": "Thunder",
+      "eligible_zone": [
+        "hand",
+        "face_up_field"
+      ],
+      "acquisition_identity_evidence": true,
+      "currently_present": "unknown"
+    },
+    {
+      "cid": "13906",
+      "attribute": "DARK",
+      "level": 5,
+      "race": "Thunder",
+      "eligible_zone": [
+        "hand",
+        "face_up_field"
+      ],
+      "acquisition_identity_evidence": true,
+      "currently_present": "unknown"
+    }
+  ],
+  "not_cost_sources": [
+    "GY discard Dragondark",
+    "level9 Thunderstormech itself"
+  ],
+  "observations": [
+    {
+      "cid": "15011",
+      "image": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\thunderstormech-detail-negative\\frame-0000.png",
+      "sha256": "b2570da4c5307ce5586d1ebf6e60cb1c14a1f96bf9dcb4e51384e7c06fa7b381",
+      "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\thunderstormech-detail-negative\\manifest.json",
+      "original_capture": {
+        "file": "frame-0000.png",
+        "capture_start_utc": "2026-10-06T01:50:39.536035+00:00",
+        "capture_start_perf": 94002.8468808,
+        "capture_end_perf": 94002.8642461,
+        "captured_at_monotonic": 94002.828,
+        "capture_sequence": 5,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "b2570da4c5307ce5586d1ebf6e60cb1c14a1f96bf9dcb4e51384e7c06fa7b381"
+      },
+      "status": "assisted acquisition-time visible hand identity; not current runtime fresh fact"
+    },
+    {
+      "cid": "13908",
+      "image": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\roar-detail-negative\\frame-0000.png",
+      "sha256": "604989a3cd00a26254c16c057dd7d2b09046bf94879b5ee10c3b115e70e3728d",
+      "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\roar-detail-negative\\manifest.json",
+      "original_capture": {
+        "file": "frame-0000.png",
+        "capture_start_utc": "2026-10-06T01:47:40.858509+00:00",
+        "capture_start_perf": 93824.1719838,
+        "capture_end_perf": 93824.1958308,
+        "captured_at_monotonic": 93824.171,
+        "capture_sequence": 0,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "604989a3cd00a26254c16c057dd7d2b09046bf94879b5ee10c3b115e70e3728d"
+      },
+      "status": "assisted acquisition-time visible hand identity; not current runtime fresh fact"
+    },
+    {
+      "cid": "13906",
+      "image": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\dragondark-restored-positive\\frame-0000.png",
+      "sha256": "29485e2cb0ee422ab11d17c903a2c84fc0ea83471cfc17d6e503e54ac790c557",
+      "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\dragondark-restored-positive\\manifest.json",
+      "original_capture": {
+        "file": "frame-0000.png",
+        "capture_start_utc": "2026-10-06T01:52:31.937151+00:00",
+        "capture_start_perf": 94115.246755,
+        "capture_end_perf": 94115.2637048,
+        "captured_at_monotonic": 94115.234,
+        "capture_sequence": 10,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "29485e2cb0ee422ab11d17c903a2c84fc0ea83471cfc17d6e503e54ac790c557"
+      },
+      "status": "assisted acquisition-time visible hand identity; not current runtime fresh fact"
+    },
+    {
+      "cid": "15011",
+      "image": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\004-inspect-visible-rightmost-neighbor-after.png",
+      "sha256": "c51439e52a87d8bdcfff2742c3abfcf6bbaa7512f2f6d3f6fbb0082cc21e81a4",
+      "status": "Sky screenshot; current MD summon clause visually reviewed; no runtime clock or native receipt assertion"
+    }
+  ],
+  "required_fresh_facts": [
+    "source15011 in actual hand via fresh inspect",
+    "cost candidate current hand/face-up-field identity and membership",
+    "same-turn actual Thunder hand effect activation receipt plus public chain wording",
+    "game-presented enabled SPECIAL_SUMMON UI for source",
+    "own available monster zone and fresh placement/result UI"
+  ],
+  "unknowns": {
+    "source_ui_order": "unobserved",
+    "cost_selection_ui": "unobserved",
+    "effect_use_13908": "unknown",
+    "effect_use_13906": "unknown until actual same-turn runtime receipt; shared hand/banished effect use",
+    "additional_chain_ui": "unobserved",
+    "current_summon_legality": "unknown until fresh game UI",
+    "summon_once_limit": "not inferred; saved text has no once clause for summon procedure"
+  },
+  "completion_candidate": [
+    "actual SPECIAL_SUMMON/cost/placement inputs linked to same purpose",
+    "specified zone occupied after placement",
+    "blank detail then actual zone inspect with fresh15011 detail",
+    "same client/new sequence/input epoch intact"
+  ],
+  "limitations": [
+    "previous acquisition is not current live state",
+    "no exact coordinates or source UI sequence specified",
+    "Roar banish trigger and Dark shared effect exclusion are separate follow-up operations, not silently completed",
+    "no paper restrictions or unshown rulings supplemented"
+  ]
+}

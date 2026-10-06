@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="16" skipped="0" tests="26" time="57.105" timestamp="2026-10-06T12:41:39.580423+09:00" hostname="DESKTOP-KILPD1G"><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[valid]" time="2.034"><failure message="TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'">current_case = (&lt;master_duel_advisor.pipeline.Pipeline object at 0x0000021EBFC41E20&gt;, LogicalHandSearchConfirmation(card_id='13906', ..._start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593))
+case = 'valid'
+
+    @pytest.mark.parametrize("case",["valid","closed","missing_sent","unverified_epoch","wrong_spec","duplicate_cancel",
+        "wrong_epoch","old_sequence","old_clock","saved","different_client","wrong_profile","stale_source",
+        "wrong_parent_point","wrong_proof_client","different_parent_purpose"])
+    def test_parent_receipt_permission_boundaries(current_case,case):
+        p,goal,context,frame=current_case;step=context["steps"][0]
+        if case=="closed":context["result"]="interrupted"  # 元実trial同様、救済再開禁止。
+        elif case=="missing_sent":step["input_sent"]=None
+        elif case=="unverified_epoch":step["input_epoch_verified"]=False
+        elif case=="wrong_spec":context["hand_search_confirmation"]["card_id"]="other"
+        elif case=="duplicate_cancel":context["steps"].append(deepcopy(step))
+        elif case=="wrong_epoch":frame.input_epoch+=1
+        elif case=="old_sequence":frame.sequence=step["before_sequence"]
+        elif case=="old_clock":frame.captured_at=step["capture_monotonic"]
+        elif case=="saved":frame.capture_source="image"
+        elif case=="different_client":frame.capture_rect=(0,0,1280,720)
+        elif case=="wrong_profile":step["action"]["hand_search_proof"]["profile_sha256"]="wrong"
+        elif case=="stale_source":step["hand_before"]["facts"][goal.source_ready_fact]["observed_at"]-=1
+        elif case=="wrong_parent_point":step["screen_point"][0]+=1
+        elif case=="wrong_proof_client":step["action"]["hand_search_proof"]["client_rect"][0]+=1
+        elif case=="different_parent_purpose":context["logical_action"]="different-purpose"
+&gt;       assert activation_parent_valid(context,goal,frame,p.perception.hand_vision.sha256,
+            logical_action="dragondark_hand_search")== (case=="valid")
+E       TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'
+
+tests\test_own_chain_parent_permission.py:57: TypeError</failure></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[closed]" time="1.980"><failure message="TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'">current_case = (&lt;master_duel_advisor.pipeline.Pipeline object at 0x0000021EC216DEB0&gt;, LogicalHandSearchConfirmation(card_id='13906', ..._start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593))
+case = 'closed'
+
+    @pytest.mark.parametrize("case",["valid","closed","missing_sent","unverified_epoch","wrong_spec","duplicate_cancel",
+        "wrong_epoch","old_sequence","old_clock","saved","different_client","wrong_profile","stale_source",
+        "wrong_parent_point","wrong_proof_client","different_parent_purpose"])
+    def test_parent_receipt_permission_boundaries(current_case,case):
+        p,goal,context,frame=current_case;step=context["steps"][0]
+        if case=="closed":context["result"]="interrupted"  # 元実trial同様、救済再開禁止。
+        elif case=="missing_sent":step["input_sent"]=None
+        elif case=="unverified_epoch":step["input_epoch_verified"]=False
+        elif case=="wrong_spec":context["hand_search_confirmation"]["card_id"]="other"
+        elif case=="duplicate_cancel":context["steps"].append(deepcopy(step))
+        elif case=="wrong_epoch":frame.input_epoch+=1
+        elif case=="old_sequence":frame.sequence=step["before_sequence"]
+        elif case=="old_clock":frame.captured_at=step["capture_monotonic"]
+        elif case=="saved":frame.capture_source="image"
+        elif case=="different_client":frame.capture_rect=(0,0,1280,720)
+        elif case=="wrong_profile":step["action"]["hand_search_proof"]["profile_sha256"]="wrong"
+        elif case=="stale_source":step["hand_before"]["facts"][goal.source_ready_fact]["observed_at"]-=1
+        elif case=="wrong_parent_point":step["screen_point"][0]+=1
+        elif case=="wrong_proof_client":step["action"]["hand_search_proof"]["client_rect"][0]+=1
+        elif case=="different_parent_purpose":context["logical_action"]="different-purpose"
+&gt;       assert activation_parent_valid(context,goal,frame,p.perception.hand_vision.sha256,
+            logical_action="dragondark_hand_search")== (case=="valid")
+E       TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'
+
+tests\test_own_chain_parent_permission.py:57: TypeError</failure></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[missing_sent]" time="2.036"><failure message="TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'">current_case = (&lt;master_duel_advisor.pipeline.Pipeline object at 0x0000021EC2368B30&gt;, LogicalHandSearchConfirmation(card_id='13906', ..._start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593))
+case = 'missing_sent'
+
+    @pytest.mark.parametrize("case",["valid","closed","missing_sent","unverified_epoch","wrong_spec","duplicate_cancel",
+        "wrong_epoch","old_sequence","old_clock","saved","different_client","wrong_profile","stale_source",
+        "wrong_parent_point","wrong_proof_client","different_parent_purpose"])
+    def test_parent_receipt_permission_boundaries(current_case,case):
+        p,goal,context,frame=current_case;step=context["steps"][0]
+        if case=="closed":context["result"]="interrupted"  # 元実trial同様、救済再開禁止。
+        elif case=="missing_sent":step["input_sent"]=None
+        elif case=="unverified_epoch":step["input_epoch_verified"]=False
+        elif case=="wrong_spec":context["hand_search_confirmation"]["card_id"]="other"
+        elif case=="duplicate_cancel":context["steps"].append(deepcopy(step))
+        elif case=="wrong_epoch":frame.input_epoch+=1
+        elif case=="old_sequence":frame.sequence=step["before_sequence"]
+        elif case=="old_clock":frame.captured_at=step["capture_monotonic"]
+        elif case=="saved":frame.capture_source="image"
+        elif case=="different_client":frame.capture_rect=(0,0,1280,720)
+        elif case=="wrong_profile":step["action"]["hand_search_proof"]["profile_sha256"]="wrong"
+        elif case=="stale_source":step["hand_before"]["facts"][goal.source_ready_fact]["observed_at"]-=1
+        elif case=="wrong_parent_point":step["screen_point"][0]+=1
+        elif case=="wrong_proof_client":step["action"]["hand_search_proof"]["client_rect"][0]+=1
+        elif case=="different_parent_purpose":context["logical_action"]="different-purpose"
+&gt;       assert activation_parent_valid(context,goal,frame,p.perception.hand_vision.sha256,
+            logical_action="dragondark_hand_search")== (case=="valid")
+E       TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'
+
+tests\test_own_chain_parent_permission.py:57: TypeError</failure></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[unverified_epoch]" time="2.009"><failure message="TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'">current_case = (&lt;master_duel_advisor.pipeline.Pipeline object at 0x0000021EC479A510&gt;, LogicalHandSearchConfirmation(card_id='13906', ..._start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593))
+case = 'unverified_epoch'
+
+    @pytest.mark.parametrize("case",["valid","closed","missing_sent","unverified_epoch","wrong_spec","duplicate_cancel",
+        "wrong_epoch","old_sequence","old_clock","saved","different_client","wrong_profile","stale_source",
+        "wrong_parent_point","wrong_proof_client","different_parent_purpose"])
+    def test_parent_receipt_permission_boundaries(current_case,case):
+        p,goal,context,frame=current_case;step=context["steps"][0]
+        if case=="closed":context["result"]="interrupted"  # 元実trial同様、救済再開禁止。
+        elif case=="missing_sent":step["input_sent"]=None
+        elif case=="unverified_epoch":step["input_epoch_verified"]=False
+        elif case=="wrong_spec":context["hand_search_confirmation"]["card_id"]="other"
+        elif case=="duplicate_cancel":context["steps"].append(deepcopy(step))
+        elif case=="wrong_epoch":frame.input_epoch+=1
+        elif case=="old_sequence":frame.sequence=step["before_sequence"]
+        elif case=="old_clock":frame.captured_at=step["capture_monotonic"]
+        elif case=="saved":frame.capture_source="image"
+        elif case=="different_client":frame.capture_rect=(0,0,1280,720)
+        elif case=="wrong_profile":step["action"]["hand_search_proof"]["profile_sha256"]="wrong"
+        elif case=="stale_source":step["hand_before"]["facts"][goal.source_ready_fact]["observed_at"]-=1
+        elif case=="wrong_parent_point":step["screen_point"][0]+=1
+        elif case=="wrong_proof_client":step["action"]["hand_search_proof"]["client_rect"][0]+=1
+        elif case=="different_parent_purpose":context["logical_action"]="different-purpose"
+&gt;       assert activation_parent_valid(context,goal,frame,p.perception.hand_vision.sha256,
+            logical_action="dragondark_hand_search")== (case=="valid")
+E       TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'
+
+tests\test_own_chain_parent_permission.py:57: TypeError</failure></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[wrong_spec]" time="2.094"><failure message="TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'">current_case = (&lt;master_duel_advisor.pipeline.Pipeline object at 0x0000021EC5CFCB00&gt;, LogicalHandSearchConfirmation(card_id='13906', ..._start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593))
+case = 'wrong_spec'
+
+    @pytest.mark.parametrize("case",["valid","closed","missing_sent","unverified_epoch","wrong_spec","duplicate_cancel",
+        "wrong_epoch","old_sequence","old_clock","saved","different_client","wrong_profile","stale_source",
+        "wrong_parent_point","wrong_proof_client","different_parent_purpose"])
+    def test_parent_receipt_permission_boundaries(current_case,case):
+        p,goal,context,frame=current_case;step=context["steps"][0]
+        if case=="closed":context["result"]="interrupted"  # 元実trial同様、救済再開禁止。
+        elif case=="missing_sent":step["input_sent"]=None
+        elif case=="unverified_epoch":step["input_epoch_verified"]=False
+        elif case=="wrong_spec":context["hand_search_confirmation"]["card_id"]="other"
+        elif case=="duplicate_cancel":context["steps"].append(deepcopy(step))
+        elif case=="wrong_epoch":frame.input_epoch+=1
+        elif case=="old_sequence":frame.sequence=step["before_sequence"]
+        elif case=="old_clock":frame.captured_at=step["capture_monotonic"]
+        elif case=="saved":frame.capture_source="image"
+        elif case=="different_client":frame.capture_rect=(0,0,1280,720)
+        elif case=="wrong_profile":step["action"]["hand_search_proof"]["profile_sha256"]="wrong"
+        elif case=="stale_source":step["hand_before"]["facts"][goal.source_ready_fact]["observed_at"]-=1
+        elif case=="wrong_parent_point":step["screen_point"][0]+=1
+        elif case=="wrong_proof_client":step["action"]["hand_search_proof"]["client_rect"][0]+=1
+        elif case=="different_parent_purpose":context["logical_action"]="different-purpose"
+&gt;       assert activation_parent_valid(context,goal,frame,p.perception.hand_vision.sha256,
+            logical_action="dragondark_hand_search")== (case=="valid")
+E       TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'
+
+tests\test_own_chain_parent_permission.py:57: TypeError</failure></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[duplicate_cancel]" time="1.985"><failure message="TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'">current_case = (&lt;master_duel_advisor.pipeline.Pipeline object at 0x0000021EC627E2A0&gt;, LogicalHandSearchConfirmation(card_id='13906', ..._start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593))
+case = 'duplicate_cancel'
+
+    @pytest.mark.parametrize("case",["valid","closed","missing_sent","unverified_epoch","wrong_spec","duplicate_cancel",
+        "wrong_epoch","old_sequence","old_clock","saved","different_client","wrong_profile","stale_source",
+        "wrong_parent_point","wrong_proof_client","different_parent_purpose"])
+    def test_parent_receipt_permission_boundaries(current_case,case):
+        p,goal,context,frame=current_case;step=context["steps"][0]
+        if case=="closed":context["result"]="interrupted"  # 元実trial同様、救済再開禁止。
+        elif case=="missing_sent":step["input_sent"]=None
+        elif case=="unverified_epoch":step["input_epoch_verified"]=False
+        elif case=="wrong_spec":context["hand_search_confirmation"]["card_id"]="other"
+        elif case=="duplicate_cancel":context["steps"].append(deepcopy(step))
+        elif case=="wrong_epoch":frame.input_epoch+=1
+        elif case=="old_sequence":frame.sequence=step["before_sequence"]
+        elif case=="old_clock":frame.captured_at=step["capture_monotonic"]
+        elif case=="saved":frame.capture_source="image"
+        elif case=="different_client":frame.capture_rect=(0,0,1280,720)
+        elif case=="wrong_profile":step["action"]["hand_search_proof"]["profile_sha256"]="wrong"
+        elif case=="stale_source":step["hand_before"]["facts"][goal.source_ready_fact]["observed_at"]-=1
+        elif case=="wrong_parent_point":step["screen_point"][0]+=1
+        elif case=="wrong_proof_client":step["action"]["hand_search_proof"]["client_rect"][0]+=1
+        elif case=="different_parent_purpose":context["logical_action"]="different-purpose"
+&gt;       assert activation_parent_valid(context,goal,frame,p.perception.hand_vision.sha256,
+            logical_action="dragondark_hand_search")== (case=="valid")
+E       TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'
+
+tests\test_own_chain_parent_permission.py:57: TypeError</failure></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[wrong_epoch]" time="2.185"><failure message="dataclasses.FrozenInstanceError: cannot assign to field 'input_epoch'">current_case = (&lt;master_duel_advisor.pipeline.Pipeline object at 0x0000021EC6404F80&gt;, LogicalHandSearchConfirmation(card_id='13906', ..._start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593))
+case = 'wrong_epoch'
+
+    @pytest.mark.parametrize("case",["valid","closed","missing_sent","unverified_epoch","wrong_spec","duplicate_cancel",
+        "wrong_epoch","old_sequence","old_clock","saved","different_client","wrong_profile","stale_source",
+        "wrong_parent_point","wrong_proof_client","different_parent_purpose"])
+    def test_parent_receipt_permission_boundaries(current_case,case):
+        p,goal,context,frame=current_case;step=context["steps"][0]
+        if case=="closed":context["result"]="interrupted"  # 元実trial同様、救済再開禁止。
+        elif case=="missing_sent":step["input_sent"]=None
+        elif case=="unverified_epoch":step["input_epoch_verified"]=False
+        elif case=="wrong_spec":context["hand_search_confirmation"]["card_id"]="other"
+        elif case=="duplicate_cancel":context["steps"].append(deepcopy(step))
+&gt;       elif case=="wrong_epoch":frame.input_epoch+=1
+                                 ^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:47: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = Frame(pixels=array([[[ 39,  28,  22],
+        [129, 125, 130],
+        [206, 206, 222],
+        ...,
+        [202, 202...e_start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593)
+name = 'input_epoch', value = 96850594
+
+&gt;   ???
+E   dataclasses.FrozenInstanceError: cannot assign to field 'input_epoch'
+
+&lt;string&gt;:4: FrozenInstanceError</failure></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[old_sequence]" time="2.139"><failure message="dataclasses.FrozenInstanceError: cannot assign to field 'sequence'">current_case = (&lt;master_duel_advisor.pipeline.Pipeline object at 0x0000021EC479B830&gt;, LogicalHandSearchConfirmation(card_id='13906', ..._start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593))
+case = 'old_sequence'
+
+    @pytest.mark.parametrize("case",["valid","closed","missing_sent","unverified_epoch","wrong_spec","duplicate_cancel",
+        "wrong_epoch","old_sequence","old_clock","saved","different_client","wrong_profile","stale_source",
+        "wrong_parent_point","wrong_proof_client","different_parent_purpose"])
+    def test_parent_receipt_permission_boundaries(current_case,case):
+        p,goal,context,frame=current_case;step=context["steps"][0]
+        if case=="closed":context["result"]="interrupted"  # 元実trial同様、救済再開禁止。
+        elif case=="missing_sent":step["input_sent"]=None
+        elif case=="unverified_epoch":step["input_epoch_verified"]=False
+        elif case=="wrong_spec":context["hand_search_confirmation"]["card_id"]="other"
+        elif case=="duplicate_cancel":context["steps"].append(deepcopy(step))
+        elif case=="wrong_epoch":frame.input_epoch+=1
+&gt;       elif case=="old_sequence":frame.sequence=step["before_sequence"]
+                                  ^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = Frame(pixels=array([[[ 39,  28,  22],
+        [129, 125, 130],
+        [206, 206, 222],
+        ...,
+        [202, 202...e_start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593)
+name = 'sequence', value = 0
+
+&gt;   ???
+E   dataclasses.FrozenInstanceError: cannot assign to field 'sequence'
+
+&lt;string&gt;:4: FrozenInstanceError</failure></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[old_clock]" time="2.107"><failure message="dataclasses.FrozenInstanceError: cannot assign to field 'captured_at'">current_case = (&lt;master_duel_advisor.pipeline.Pipeline object at 0x0000021EC0F07B90&gt;, LogicalHandSearchConfirmation(card_id='13906', ..._start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593))
+case = 'old_clock'
+
+    @pytest.mark.parametrize("case",["valid","closed","missing_sent","unverified_epoch","wrong_spec","duplicate_cancel",
+        "wrong_epoch","old_sequence","old_clock","saved","different_client","wrong_profile","stale_source",
+        "wrong_parent_point","wrong_proof_client","different_parent_purpose"])
+    def test_parent_receipt_permission_boundaries(current_case,case):
+        p,goal,context,frame=current_case;step=context["steps"][0]
+        if case=="closed":context["result"]="interrupted"  # 元実trial同様、救済再開禁止。
+        elif case=="missing_sent":step["input_sent"]=None
+        elif case=="unverified_epoch":step["input_epoch_verified"]=False
+        elif case=="wrong_spec":context["hand_search_confirmation"]["card_id"]="other"
+        elif case=="duplicate_cancel":context["steps"].append(deepcopy(step))
+        elif case=="wrong_epoch":frame.input_epoch+=1
+        elif case=="old_sequence":frame.sequence=step["before_sequence"]
+&gt;       elif case=="old_clock":frame.captured_at=step["capture_monotonic"]
+                               ^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:49: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = Frame(pixels=array([[[ 39,  28,  22],
+        [129, 125, 130],
+        [206, 206, 222],
+        ...,
+        [202, 202...e_start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593)
+name = 'captured_at', value = 96850.468
+
+&gt;   ???
+E   dataclasses.FrozenInstanceError: cannot assign to field 'captured_at'
+
+&lt;string&gt;:4: FrozenInstanceError</failure></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[saved]" time="2.110"><failure message="dataclasses.FrozenInstanceError: cannot assign to field 'capture_source'">current_case = (&lt;master_duel_advisor.pipeline.Pipeline object at 0x0000021EC5DC6330&gt;, LogicalHandSearchConfirmation(card_id='13906', ..._start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593))
+case = 'saved'
+
+    @pytest.mark.parametrize("case",["valid","closed","missing_sent","unverified_epoch","wrong_spec","duplicate_cancel",
+        "wrong_epoch","old_sequence","old_clock","saved","different_client","wrong_profile","stale_source",
+        "wrong_parent_point","wrong_proof_client","different_parent_purpose"])
+    def test_parent_receipt_permission_boundaries(current_case,case):
+        p,goal,context,frame=current_case;step=context["steps"][0]
+        if case=="closed":context["result"]="interrupted"  # 元実trial同様、救済再開禁止。
+        elif case=="missing_sent":step["input_sent"]=None
+        elif case=="unverified_epoch":step["input_epoch_verified"]=False
+        elif case=="wrong_spec":context["hand_search_confirmation"]["card_id"]="other"
+        elif case=="duplicate_cancel":context["steps"].append(deepcopy(step))
+        elif case=="wrong_epoch":frame.input_epoch+=1
+        elif case=="old_sequence":frame.sequence=step["before_sequence"]
+        elif case=="old_clock":frame.captured_at=step["capture_monotonic"]
+&gt;       elif case=="saved":frame.capture_source="image"
+                           ^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:50: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = Frame(pixels=array([[[ 39,  28,  22],
+        [129, 125, 130],
+        [206, 206, 222],
+        ...,
+        [202, 202...e_start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593)
+name = 'capture_source', value = 'image'
+
+&gt;   ???
+E   dataclasses.FrozenInstanceError: cannot assign to field 'capture_source'
+
+&lt;string&gt;:4: FrozenInstanceError</failure></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[different_client]" time="2.329"><failure message="dataclasses.FrozenInstanceError: cannot assign to field 'capture_rect'">current_case = (&lt;master_duel_advisor.pipeline.Pipeline object at 0x0000021EC47C5940&gt;, LogicalHandSearchConfirmation(card_id='13906', ..._start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593))
+case = 'different_client'
+
+    @pytest.mark.parametrize("case",["valid","closed","missing_sent","unverified_epoch","wrong_spec","duplicate_cancel",
+        "wrong_epoch","old_sequence","old_clock","saved","different_client","wrong_profile","stale_source",
+        "wrong_parent_point","wrong_proof_client","different_parent_purpose"])
+    def test_parent_receipt_permission_boundaries(current_case,case):
+        p,goal,context,frame=current_case;step=context["steps"][0]
+        if case=="closed":context["result"]="interrupted"  # 元実trial同様、救済再開禁止。
+        elif case=="missing_sent":step["input_sent"]=None
+        elif case=="unverified_epoch":step["input_epoch_verified"]=False
+        elif case=="wrong_spec":context["hand_search_confirmation"]["card_id"]="other"
+        elif case=="duplicate_cancel":context["steps"].append(deepcopy(step))
+        elif case=="wrong_epoch":frame.input_epoch+=1
+        elif case=="old_sequence":frame.sequence=step["before_sequence"]
+        elif case=="old_clock":frame.captured_at=step["capture_monotonic"]
+        elif case=="saved":frame.capture_source="image"
+&gt;       elif case=="different_client":frame.capture_rect=(0,0,1280,720)
+                                      ^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:51: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = Frame(pixels=array([[[ 39,  28,  22],
+        [129, 125, 130],
+        [206, 206, 222],
+        ...,
+        [202, 202...e_start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593)
+name = 'capture_rect', value = (0, 0, 1280, 720)
+
+&gt;   ???
+E   dataclasses.FrozenInstanceError: cannot assign to field 'capture_rect'
+
+&lt;string&gt;:4: FrozenInstanceError</failure></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[wrong_profile]" time="2.133"><failure message="TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'">current_case = (&lt;master_duel_advisor.pipeline.Pipeline object at 0x0000021EC5E3CA10&gt;, LogicalHandSearchConfirmation(card_id='13906', ..._start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593))
+case = 'wrong_profile'
+
+    @pytest.mark.parametrize("case",["valid","closed","missing_sent","unverified_epoch","wrong_spec","duplicate_cancel",
+        "wrong_epoch","old_sequence","old_clock","saved","different_client","wrong_profile","stale_source",
+        "wrong_parent_point","wrong_proof_client","different_parent_purpose"])
+    def test_parent_receipt_permission_boundaries(current_case,case):
+        p,goal,context,frame=current_case;step=context["steps"][0]
+        if case=="closed":context["result"]="interrupted"  # 元実trial同様、救済再開禁止。
+        elif case=="missing_sent":step["input_sent"]=None
+        elif case=="unverified_epoch":step["input_epoch_verified"]=False
+        elif case=="wrong_spec":context["hand_search_confirmation"]["card_id"]="other"
+        elif case=="duplicate_cancel":context["steps"].append(deepcopy(step))
+        elif case=="wrong_epoch":frame.input_epoch+=1
+        elif case=="old_sequence":frame.sequence=step["before_sequence"]
+        elif case=="old_clock":frame.captured_at=step["capture_monotonic"]
+        elif case=="saved":frame.capture_source="image"
+        elif case=="different_client":frame.capture_rect=(0,0,1280,720)
+        elif case=="wrong_profile":step["action"]["hand_search_proof"]["profile_sha256"]="wrong"
+        elif case=="stale_source":step["hand_before"]["facts"][goal.source_ready_fact]["observed_at"]-=1
+        elif case=="wrong_parent_point":step["screen_point"][0]+=1
+        elif case=="wrong_proof_client":step["action"]["hand_search_proof"]["client_rect"][0]+=1
+        elif case=="different_parent_purpose":context["logical_action"]="different-purpose"
+&gt;       assert activation_parent_valid(context,goal,frame,p.perception.hand_vision.sha256,
+            logical_action="dragondark_hand_search")== (case=="valid")
+E       TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'
+
+tests\test_own_chain_parent_permission.py:57: TypeError</failure></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[stale_source]" time="2.061"><failure message="TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'">current_case = (&lt;master_duel_advisor.pipeline.Pipeline object at 0x0000021EC22BC860&gt;, LogicalHandSearchConfirmation(card_id='13906', ..._start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593))
+case = 'stale_source'
+
+    @pytest.mark.parametrize("case",["valid","closed","missing_sent","unverified_epoch","wrong_spec","duplicate_cancel",
+        "wrong_epoch","old_sequence","old_clock","saved","different_client","wrong_profile","stale_source",
+        "wrong_parent_point","wrong_proof_client","different_parent_purpose"])
+    def test_parent_receipt_permission_boundaries(current_case,case):
+        p,goal,context,frame=current_case;step=context["steps"][0]
+        if case=="closed":context["result"]="interrupted"  # 元実trial同様、救済再開禁止。
+        elif case=="missing_sent":step["input_sent"]=None
+        elif case=="unverified_epoch":step["input_epoch_verified"]=False
+        elif case=="wrong_spec":context["hand_search_confirmation"]["card_id"]="other"
+        elif case=="duplicate_cancel":context["steps"].append(deepcopy(step))
+        elif case=="wrong_epoch":frame.input_epoch+=1
+        elif case=="old_sequence":frame.sequence=step["before_sequence"]
+        elif case=="old_clock":frame.captured_at=step["capture_monotonic"]
+        elif case=="saved":frame.capture_source="image"
+        elif case=="different_client":frame.capture_rect=(0,0,1280,720)
+        elif case=="wrong_profile":step["action"]["hand_search_proof"]["profile_sha256"]="wrong"
+        elif case=="stale_source":step["hand_before"]["facts"][goal.source_ready_fact]["observed_at"]-=1
+        elif case=="wrong_parent_point":step["screen_point"][0]+=1
+        elif case=="wrong_proof_client":step["action"]["hand_search_proof"]["client_rect"][0]+=1
+        elif case=="different_parent_purpose":context["logical_action"]="different-purpose"
+&gt;       assert activation_parent_valid(context,goal,frame,p.perception.hand_vision.sha256,
+            logical_action="dragondark_hand_search")== (case=="valid")
+E       TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'
+
+tests\test_own_chain_parent_permission.py:57: TypeError</failure></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[wrong_parent_point]" time="2.145"><failure message="TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'">current_case = (&lt;master_duel_advisor.pipeline.Pipeline object at 0x0000021EC7918A10&gt;, LogicalHandSearchConfirmation(card_id='13906', ..._start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593))
+case = 'wrong_parent_point'
+
+    @pytest.mark.parametrize("case",["valid","closed","missing_sent","unverified_epoch","wrong_spec","duplicate_cancel",
+        "wrong_epoch","old_sequence","old_clock","saved","different_client","wrong_profile","stale_source",
+        "wrong_parent_point","wrong_proof_client","different_parent_purpose"])
+    def test_parent_receipt_permission_boundaries(current_case,case):
+        p,goal,context,frame=current_case;step=context["steps"][0]
+        if case=="closed":context["result"]="interrupted"  # 元実trial同様、救済再開禁止。
+        elif case=="missing_sent":step["input_sent"]=None
+        elif case=="unverified_epoch":step["input_epoch_verified"]=False
+        elif case=="wrong_spec":context["hand_search_confirmation"]["card_id"]="other"
+        elif case=="duplicate_cancel":context["steps"].append(deepcopy(step))
+        elif case=="wrong_epoch":frame.input_epoch+=1
+        elif case=="old_sequence":frame.sequence=step["before_sequence"]
+        elif case=="old_clock":frame.captured_at=step["capture_monotonic"]
+        elif case=="saved":frame.capture_source="image"
+        elif case=="different_client":frame.capture_rect=(0,0,1280,720)
+        elif case=="wrong_profile":step["action"]["hand_search_proof"]["profile_sha256"]="wrong"
+        elif case=="stale_source":step["hand_before"]["facts"][goal.source_ready_fact]["observed_at"]-=1
+        elif case=="wrong_parent_point":step["screen_point"][0]+=1
+        elif case=="wrong_proof_client":step["action"]["hand_search_proof"]["client_rect"][0]+=1
+        elif case=="different_parent_purpose":context["logical_action"]="different-purpose"
+&gt;       assert activation_parent_valid(context,goal,frame,p.perception.hand_vision.sha256,
+            logical_action="dragondark_hand_search")== (case=="valid")
+E       TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'
+
+tests\test_own_chain_parent_permission.py:57: TypeError</failure></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[wrong_proof_client]" time="2.049"><failure message="TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'">current_case = (&lt;master_duel_advisor.pipeline.Pipeline object at 0x0000021EC4A6A960&gt;, LogicalHandSearchConfirmation(card_id='13906', ..._start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593))
+case = 'wrong_proof_client'
+
+    @pytest.mark.parametrize("case",["valid","closed","missing_sent","unverified_epoch","wrong_spec","duplicate_cancel",
+        "wrong_epoch","old_sequence","old_clock","saved","different_client","wrong_profile","stale_source",
+        "wrong_parent_point","wrong_proof_client","different_parent_purpose"])
+    def test_parent_receipt_permission_boundaries(current_case,case):
+        p,goal,context,frame=current_case;step=context["steps"][0]
+        if case=="closed":context["result"]="interrupted"  # 元実trial同様、救済再開禁止。
+        elif case=="missing_sent":step["input_sent"]=None
+        elif case=="unverified_epoch":step["input_epoch_verified"]=False
+        elif case=="wrong_spec":context["hand_search_confirmation"]["card_id"]="other"
+        elif case=="duplicate_cancel":context["steps"].append(deepcopy(step))
+        elif case=="wrong_epoch":frame.input_epoch+=1
+        elif case=="old_sequence":frame.sequence=step["before_sequence"]
+        elif case=="old_clock":frame.captured_at=step["capture_monotonic"]
+        elif case=="saved":frame.capture_source="image"
+        elif case=="different_client":frame.capture_rect=(0,0,1280,720)
+        elif case=="wrong_profile":step["action"]["hand_search_proof"]["profile_sha256"]="wrong"
+        elif case=="stale_source":step["hand_before"]["facts"][goal.source_ready_fact]["observed_at"]-=1
+        elif case=="wrong_parent_point":step["screen_point"][0]+=1
+        elif case=="wrong_proof_client":step["action"]["hand_search_proof"]["client_rect"][0]+=1
+        elif case=="different_parent_purpose":context["logical_action"]="different-purpose"
+&gt;       assert activation_parent_valid(context,goal,frame,p.perception.hand_vision.sha256,
+            logical_action="dragondark_hand_search")== (case=="valid")
+E       TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'
+
+tests\test_own_chain_parent_permission.py:57: TypeError</failure></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[different_parent_purpose]" time="2.092"><failure message="TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'">current_case = (&lt;master_duel_advisor.pipeline.Pipeline object at 0x0000021EBFC80230&gt;, LogicalHandSearchConfirmation(card_id='13906', ..._start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593))
+case = 'different_parent_purpose'
+
+    @pytest.mark.parametrize("case",["valid","closed","missing_sent","unverified_epoch","wrong_spec","duplicate_cancel",
+        "wrong_epoch","old_sequence","old_clock","saved","different_client","wrong_profile","stale_source",
+        "wrong_parent_point","wrong_proof_client","different_parent_purpose"])
+    def test_parent_receipt_permission_boundaries(current_case,case):
+        p,goal,context,frame=current_case;step=context["steps"][0]
+        if case=="closed":context["result"]="interrupted"  # 元実trial同様、救済再開禁止。
+        elif case=="missing_sent":step["input_sent"]=None
+        elif case=="unverified_epoch":step["input_epoch_verified"]=False
+        elif case=="wrong_spec":context["hand_search_confirmation"]["card_id"]="other"
+        elif case=="duplicate_cancel":context["steps"].append(deepcopy(step))
+        elif case=="wrong_epoch":frame.input_epoch+=1
+        elif case=="old_sequence":frame.sequence=step["before_sequence"]
+        elif case=="old_clock":frame.captured_at=step["capture_monotonic"]
+        elif case=="saved":frame.capture_source="image"
+        elif case=="different_client":frame.capture_rect=(0,0,1280,720)
+        elif case=="wrong_profile":step["action"]["hand_search_proof"]["profile_sha256"]="wrong"
+        elif case=="stale_source":step["hand_before"]["facts"][goal.source_ready_fact]["observed_at"]-=1
+        elif case=="wrong_parent_point":step["screen_point"][0]+=1
+        elif case=="wrong_proof_client":step["action"]["hand_search_proof"]["client_rect"][0]+=1
+        elif case=="different_parent_purpose":context["logical_action"]="different-purpose"
+&gt;       assert activation_parent_valid(context,goal,frame,p.perception.hand_vision.sha256,
+            logical_action="dragondark_hand_search")== (case=="valid")
+E       TypeError: activation_parent_valid() got an unexpected keyword argument 'logical_action'
+
+tests\test_own_chain_parent_permission.py:57: TypeError</failure></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_current_known_or_merged_conflict_never_allowed_by_unknown_exception[terminal-True-synthetic]" time="2.842" /><testcase classname="tests.test_own_chain_parent_permission" name="test_current_known_or_merged_conflict_never_allowed_by_unknown_exception[turn_player-opponent-synthetic]" time="2.598" /><testcase classname="tests.test_own_chain_parent_permission" name="test_current_known_or_merged_conflict_never_allowed_by_unknown_exception[phase-DRAW-synthetic]" time="2.415" /><testcase classname="tests.test_own_chain_parent_permission" name="test_current_known_or_merged_conflict_never_allowed_by_unknown_exception[animation-True-synthetic]" time="2.164" /><testcase classname="tests.test_own_chain_parent_permission" name="test_current_known_or_merged_conflict_never_allowed_by_unknown_exception[phase-None-conflicting_positive_evidence]" time="2.326" /><testcase classname="tests.test_own_chain_parent_permission" name="test_current_known_or_merged_conflict_never_allowed_by_unknown_exception[turn_player-None-conflicting_positive_evidence]" time="2.502" /><testcase classname="tests.test_own_chain_parent_permission" name="test_current_known_or_merged_conflict_never_allowed_by_unknown_exception[animation-None-conflicting_positive_evidence]" time="2.149" /><testcase classname="tests.test_own_chain_parent_permission" name="test_positive_main1_does_not_escape_new_mode_into_old_idle_branch[closed_parent]" time="2.079" /><testcase classname="tests.test_own_chain_parent_permission" name="test_positive_main1_does_not_escape_new_mode_into_old_idle_branch[caption_missing]" time="2.150" /><testcase classname="tests.test_own_chain_parent_permission" name="test_current_exact_own_chain_and_parent_receipt_allow_cancel_without_inventing_phase_or_idle" time="2.123" /></testsuite></testsuites>

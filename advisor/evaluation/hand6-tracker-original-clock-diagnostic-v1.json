@@ -1,0 +1,6828 @@
+{
+  "schema": "hand6-tracker-original-clock-diagnostic-v1",
+  "mode": "saved replay with explicitly synthetic live_mss wrapper and input receipts; not runtime evidence",
+  "input_count": 0,
+  "e2e_count": 0,
+  "source_before_sha256": "d935ee6c8c760a02a3928fc21f370c0ed00bc2d9797cc0bea6502d8bf80bfbea",
+  "source_after_sha256": "d935ee6c8c760a02a3928fc21f370c0ed00bc2d9797cc0bea6502d8bf80bfbea",
+  "source_fixed": true,
+  "config": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\dragondark-hand-search-calibration-v4\\hand-search.json",
+  "config_sha256": "a5997715ebcfe556607238b8a4b6f00ad3c9bfc29ba94fb508e8aadf7c5b865e",
+  "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_HAND6_CHAIN_REVEAL_TRAIN_v3_20261006\\chain-cancel-reveal-continuous\\manifest.json",
+  "manifest_sha256": "35b72017bfe3b26c965989d3d1bc2cb148670177758933e92c1b3206b6494310",
+  "synthetic_context": {
+    "action_id": "synthetic-hand6-original-clock-replay",
+    "hand_search_confirmation": {
+      "card_id": "13906"
+    },
+    "steps": [
+      {
+        "input_sent": true,
+        "before_sequence": 0,
+        "hand_before": {
+          "facts": {
+            "hand_search.layout": {
+              "value": "hand6-slot3"
+            }
+          }
+        }
+      },
+      {
+        "input_sent": true,
+        "before_sequence": 150,
+        "client_rect": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "input_epoch": 97996062
+      }
+    ]
+  },
+  "original_clock_sequence_preserved": true,
+  "range_requested": [
+    151,
+    315
+  ],
+  "stop_policy": "first permanent failure or first handoff; no reanchor/frame selection",
+  "rows": [
+    {
+      "original_capture": {
+        "file": "frame-0146.png",
+        "capture_start_utc": "2026-10-06T02:57:12.837951+00:00",
+        "capture_start_perf": 97996.1035828,
+        "capture_end_perf": 97996.1244015,
+        "captured_at_monotonic": 97996.093,
+        "capture_sequence": 151,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "cf9dd6070f35f47e2b4d58e8cd6ea5a41c56fb65c8578533a950814f40a863c3"
+      },
+      "own_chain": true,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0147.png",
+        "capture_start_utc": "2026-10-06T02:57:12.910185+00:00",
+        "capture_start_perf": 97996.1757481,
+        "capture_end_perf": 97996.1938179,
+        "captured_at_monotonic": 97996.171,
+        "capture_sequence": 152,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "932fc3a743285d5fe84760308c51202f2a9bd105c4ac8d51c11ff775c33ac17c"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0148.png",
+        "capture_start_utc": "2026-10-06T02:57:12.976141+00:00",
+        "capture_start_perf": 97996.2420261,
+        "capture_end_perf": 97996.2627076,
+        "captured_at_monotonic": 97996.234,
+        "capture_sequence": 153,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "30b8fb15662a50ca71953c80338e6ee100e5b1bad468d1781b380031d373a609"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0149.png",
+        "capture_start_utc": "2026-10-06T02:57:13.040776+00:00",
+        "capture_start_perf": 97996.3065151,
+        "capture_end_perf": 97996.3256466,
+        "captured_at_monotonic": 97996.296,
+        "capture_sequence": 154,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "ed6e46acbb8ae723ab27f94ad147f7ed06b34ecd071eec4e6504d10e94ee6853"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0150.png",
+        "capture_start_utc": "2026-10-06T02:57:13.117931+00:00",
+        "capture_start_perf": 97996.3834335,
+        "capture_end_perf": 97996.4034825,
+        "captured_at_monotonic": 97996.375,
+        "capture_sequence": 155,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "690dbfba4cc0b3437390522114456f41453bcb51ab17900863b5f91ec7fee5ed"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0151.png",
+        "capture_start_utc": "2026-10-06T02:57:13.202562+00:00",
+        "capture_start_perf": 97996.4677842,
+        "capture_end_perf": 97996.4860966,
+        "captured_at_monotonic": 97996.453,
+        "capture_sequence": 156,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "e4a03eccbc6db1e06b99786008d1e3e33d421874eb667b1bb548cac881d00b3f"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0152.png",
+        "capture_start_utc": "2026-10-06T02:57:13.261219+00:00",
+        "capture_start_perf": 97996.5274206,
+        "capture_end_perf": 97996.5510737,
+        "captured_at_monotonic": 97996.515,
+        "capture_sequence": 157,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "7a8ca3723210136b7a209edb18154436633470141304c0d59e8665e469a7ead3"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0153.png",
+        "capture_start_utc": "2026-10-06T02:57:13.333297+00:00",
+        "capture_start_perf": 97996.5988614,
+        "capture_end_perf": 97996.6201067,
+        "captured_at_monotonic": 97996.593,
+        "capture_sequence": 158,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "9f5a67b2261ce2c4c9878dc2350605a0d333f068a564009467de3d2b26b3f314"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0154.png",
+        "capture_start_utc": "2026-10-06T02:57:13.411007+00:00",
+        "capture_start_perf": 97996.6765792,
+        "capture_end_perf": 97996.6982703,
+        "captured_at_monotonic": 97996.671,
+        "capture_sequence": 159,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "3724063ab5af57257e083b3026b43dd6156c46896612a01acc498ad451cfa2d5"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0155.png",
+        "capture_start_utc": "2026-10-06T02:57:13.495750+00:00",
+        "capture_start_perf": 97996.7613079,
+        "capture_end_perf": 97996.7828987,
+        "captured_at_monotonic": 97996.75,
+        "capture_sequence": 160,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "ea4b8ecb4b3c6b51957a7257e4d4fc1eb21d6ef6defb8ae194125054d6b77c53"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0156.png",
+        "capture_start_utc": "2026-10-06T02:57:13.589979+00:00",
+        "capture_start_perf": 97996.8553845,
+        "capture_end_perf": 97996.876896,
+        "captured_at_monotonic": 97996.843,
+        "capture_sequence": 161,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "8bb8f2af184011cf5b00a9fdb94ffcbbb7ee89d74b746189c2e30239018cff13"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0157.png",
+        "capture_start_utc": "2026-10-06T02:57:13.668826+00:00",
+        "capture_start_perf": 97996.9352924,
+        "capture_end_perf": 97996.9524691,
+        "captured_at_monotonic": 97996.921,
+        "capture_sequence": 162,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "e1fc5eb489214adba74d61aa6a820ae63a3c8830b6aa1041f68018796b9dafd6"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0158.png",
+        "capture_start_utc": "2026-10-06T02:57:13.740456+00:00",
+        "capture_start_perf": 97997.0057738,
+        "capture_end_perf": 97997.0298004,
+        "captured_at_monotonic": 97997.0,
+        "capture_sequence": 163,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "004270889b0f1b8e2afb5d9a06966f93611e89d1d3a8f9482d60fd1387ed6b15"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0159.png",
+        "capture_start_utc": "2026-10-06T02:57:13.810180+00:00",
+        "capture_start_perf": 97997.0761497,
+        "capture_end_perf": 97997.0971288,
+        "captured_at_monotonic": 97997.062,
+        "capture_sequence": 164,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "7a88e2fe1bfd3a790d9624314335caa86860418c3131fa171be6df65936c970e"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0160.png",
+        "capture_start_utc": "2026-10-06T02:57:13.880820+00:00",
+        "capture_start_perf": 97997.1473629,
+        "capture_end_perf": 97997.1688516,
+        "captured_at_monotonic": 97997.14,
+        "capture_sequence": 165,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "a7a74fb16775f5c0c9aae08c30176f5e1d6d887c06d8402876fcb8a7dfeb9143"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0161.png",
+        "capture_start_utc": "2026-10-06T02:57:13.959166+00:00",
+        "capture_start_perf": 97997.2244427,
+        "capture_end_perf": 97997.2464694,
+        "captured_at_monotonic": 97997.218,
+        "capture_sequence": 166,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "f180d07f29f9a24608b097ba806110d636b0d096b94a06a32900117ef429f48e"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0162.png",
+        "capture_start_utc": "2026-10-06T02:57:14.056387+00:00",
+        "capture_start_perf": 97997.3221509,
+        "capture_end_perf": 97997.3443881,
+        "captured_at_monotonic": 97997.312,
+        "capture_sequence": 167,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "a9db517edbf27a7bb7209ac1bfccbb07a6fadd8671d24094fce85f21e1a2fd92"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0163.png",
+        "capture_start_utc": "2026-10-06T02:57:14.142190+00:00",
+        "capture_start_perf": 97997.4081067,
+        "capture_end_perf": 97997.4245626,
+        "captured_at_monotonic": 97997.39,
+        "capture_sequence": 168,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "da01e2ae32e68d527336d922f37ee54edfd6c548522bd4b1623f6e8b66e6c3c6"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0164.png",
+        "capture_start_utc": "2026-10-06T02:57:14.232734+00:00",
+        "capture_start_perf": 97997.4988754,
+        "capture_end_perf": 97997.5232949,
+        "captured_at_monotonic": 97997.5,
+        "capture_sequence": 169,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "1f19bdda5ca2e71bc4f186931b9b81ade8ca24b06164ae2593a735814716068f"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0165.png",
+        "capture_start_utc": "2026-10-06T02:57:14.322257+00:00",
+        "capture_start_perf": 97997.5877085,
+        "capture_end_perf": 97997.6040685,
+        "captured_at_monotonic": 97997.578,
+        "capture_sequence": 170,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "df243a190d7b279c6c9a9cceb004bf09cde77633afc24f77dcb62baf84b6d717"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0166.png",
+        "capture_start_utc": "2026-10-06T02:57:14.409238+00:00",
+        "capture_start_perf": 97997.6753626,
+        "capture_end_perf": 97997.6950525,
+        "captured_at_monotonic": 97997.671,
+        "capture_sequence": 171,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "6affdcd5279f9dc5b3463f4ae7b076544d30a8fc8a8e0bcbbc7595442cd55d27"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0167.png",
+        "capture_start_utc": "2026-10-06T02:57:14.481965+00:00",
+        "capture_start_perf": 97997.7473176,
+        "capture_end_perf": 97997.7664752,
+        "captured_at_monotonic": 97997.734,
+        "capture_sequence": 172,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "e9fd0f892fa7911d17915dea43b10d98a9fc06bfe90b71f7d105e52899f8c4ef"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0168.png",
+        "capture_start_utc": "2026-10-06T02:57:14.550141+00:00",
+        "capture_start_perf": 97997.8156325,
+        "capture_end_perf": 97997.8344957,
+        "captured_at_monotonic": 97997.812,
+        "capture_sequence": 173,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "1324f6a5f9a10dc4b540b0b24fcd8715c5afb855e751f98a5ed4b43f2649270a"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0169.png",
+        "capture_start_utc": "2026-10-06T02:57:14.624716+00:00",
+        "capture_start_perf": 97997.8902369,
+        "capture_end_perf": 97997.9098396,
+        "captured_at_monotonic": 97997.875,
+        "capture_sequence": 174,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "c6bac996cc991b2e8bfc3a52836a8bdbfedf5637afc1f52127b46ab0471bd1c8"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0170.png",
+        "capture_start_utc": "2026-10-06T02:57:14.693881+00:00",
+        "capture_start_perf": 97997.9602729,
+        "capture_end_perf": 97997.9809203,
+        "captured_at_monotonic": 97997.953,
+        "capture_sequence": 175,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "eeb4c08efcfdc3133b8057d2bd0322221d4fab11720e54e10965c70e034e9e57"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0171.png",
+        "capture_start_utc": "2026-10-06T02:57:14.760787+00:00",
+        "capture_start_perf": 97998.0266019,
+        "capture_end_perf": 97998.048071,
+        "captured_at_monotonic": 97998.015,
+        "capture_sequence": 176,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "6d950a875495a1be9c2ed45cd4f3a2e74460afe669bb76abc2398382cbd2ec38"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0172.png",
+        "capture_start_utc": "2026-10-06T02:57:14.832409+00:00",
+        "capture_start_perf": 97998.0985095,
+        "capture_end_perf": 97998.1193241,
+        "captured_at_monotonic": 97998.093,
+        "capture_sequence": 177,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "d14a87295510b87b224b70098ec2a829bed57f94dbf6e6d5934cc0345775e920"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0173.png",
+        "capture_start_utc": "2026-10-06T02:57:14.906114+00:00",
+        "capture_start_perf": 97998.1714074,
+        "capture_end_perf": 97998.1862186,
+        "captured_at_monotonic": 97998.156,
+        "capture_sequence": 178,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "70737bc4c1c248efe302ca82670d9871d08a559d97bcb9d6fdb676c004953758"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0174.png",
+        "capture_start_utc": "2026-10-06T02:57:14.973449+00:00",
+        "capture_start_perf": 97998.2387599,
+        "capture_end_perf": 97998.2574547,
+        "captured_at_monotonic": 97998.234,
+        "capture_sequence": 179,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "b428d6dac9d5518d3fcdd38363e7d0b3fb98737836871ef6a5f939a082b1b07c"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0175.png",
+        "capture_start_utc": "2026-10-06T02:57:15.040371+00:00",
+        "capture_start_perf": 97998.3064404,
+        "capture_end_perf": 97998.3264313,
+        "captured_at_monotonic": 97998.296,
+        "capture_sequence": 180,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "d48f0ada9e09ea99eb683d1ad2f69277274caa51c68ffd1dc0e6bd7f0dd61523"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0176.png",
+        "capture_start_utc": "2026-10-06T02:57:15.113759+00:00",
+        "capture_start_perf": 97998.3801471,
+        "capture_end_perf": 97998.3974605,
+        "captured_at_monotonic": 97998.375,
+        "capture_sequence": 181,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "5cc0fc627ef62664c4e86c57c314839e1381f57c0ffa2fbd6f99fc88363f8033"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0177.png",
+        "capture_start_utc": "2026-10-06T02:57:15.180740+00:00",
+        "capture_start_perf": 97998.4460951,
+        "capture_end_perf": 97998.4659371,
+        "captured_at_monotonic": 97998.437,
+        "capture_sequence": 182,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "bbe7a9cf192ddb540205fd370b729b18fb440b5f9bae072fa2b893c032d71570"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0178.png",
+        "capture_start_utc": "2026-10-06T02:57:15.252837+00:00",
+        "capture_start_perf": 97998.5187182,
+        "capture_end_perf": 97998.5352987,
+        "captured_at_monotonic": 97998.5,
+        "capture_sequence": 183,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "912892461231f6b1abb552dd1b133b05b2ea913a4a76280eaf4f275a3e13d664"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0179.png",
+        "capture_start_utc": "2026-10-06T02:57:15.318964+00:00",
+        "capture_start_perf": 97998.5847562,
+        "capture_end_perf": 97998.6045463,
+        "captured_at_monotonic": 97998.578,
+        "capture_sequence": 184,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "b2fe1432bf3867654619767ce23d038dbf3732027046b1d8ccf8ce6d2076d6e6"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0180.png",
+        "capture_start_utc": "2026-10-06T02:57:15.388690+00:00",
+        "capture_start_perf": 97998.6546136,
+        "capture_end_perf": 97998.6737263,
+        "captured_at_monotonic": 97998.64,
+        "capture_sequence": 185,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "711cbf0ade30a0605d7cf4375852ab94710e670a95b290ac5ea0c6a532763bb9"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0181.png",
+        "capture_start_utc": "2026-10-06T02:57:15.462054+00:00",
+        "capture_start_perf": 97998.7281128,
+        "capture_end_perf": 97998.751604,
+        "captured_at_monotonic": 97998.718,
+        "capture_sequence": 186,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "201db3b02aedb1bb1c7a298738af1c9ab51b35849138cae33f6ff2f2f13197a0"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0182.png",
+        "capture_start_utc": "2026-10-06T02:57:15.538980+00:00",
+        "capture_start_perf": 97998.8042297,
+        "capture_end_perf": 97998.8201836,
+        "captured_at_monotonic": 97998.796,
+        "capture_sequence": 187,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "5eccff3779b73c68a9b972363da56714597ada850521e6a67ecca846281c71b9"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0183.png",
+        "capture_start_utc": "2026-10-06T02:57:15.609770+00:00",
+        "capture_start_perf": 97998.8756589,
+        "capture_end_perf": 97998.8972926,
+        "captured_at_monotonic": 97998.875,
+        "capture_sequence": 188,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "0e2b415da23928d09f79271d393a636d06d9562b5e9fc2d287ccde70df8030b1"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0184.png",
+        "capture_start_utc": "2026-10-06T02:57:15.681353+00:00",
+        "capture_start_perf": 97998.9467315,
+        "capture_end_perf": 97998.9657271,
+        "captured_at_monotonic": 97998.937,
+        "capture_sequence": 189,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "4477b05e588fe8dfcfb0b0713ccad316c9951759474cf76b8984def2fa7f91b2"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0185.png",
+        "capture_start_utc": "2026-10-06T02:57:15.748700+00:00",
+        "capture_start_perf": 97999.0139077,
+        "capture_end_perf": 97999.0351738,
+        "captured_at_monotonic": 97999.0,
+        "capture_sequence": 190,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "85860260a4e1b88f93a1d4da10ddddf18cfb55309c99112a7868b6aaa4a84834"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0186.png",
+        "capture_start_utc": "2026-10-06T02:57:15.818030+00:00",
+        "capture_start_perf": 97999.0835733,
+        "capture_end_perf": 97999.1057444,
+        "captured_at_monotonic": 97999.078,
+        "capture_sequence": 191,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "217f925ea247c682154c68ff322710b34c709924e863cee7700d8b9119f241f4"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0187.png",
+        "capture_start_utc": "2026-10-06T02:57:15.906993+00:00",
+        "capture_start_perf": 97999.172566,
+        "capture_end_perf": 97999.1957509,
+        "captured_at_monotonic": 97999.171,
+        "capture_sequence": 192,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "bbd8dc4271e15321aab516f48c42e3ff935ae318dfdee363eb628fdcfebb67e3"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0188.png",
+        "capture_start_utc": "2026-10-06T02:57:15.982065+00:00",
+        "capture_start_perf": 97999.2482122,
+        "capture_end_perf": 97999.2638466,
+        "captured_at_monotonic": 97999.234,
+        "capture_sequence": 193,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "87665160ced5bbca3608994af273e660b0c2df3764af40a4cac01cdb8d02c974"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0189.png",
+        "capture_start_utc": "2026-10-06T02:57:16.048551+00:00",
+        "capture_start_perf": 97999.3137774,
+        "capture_end_perf": 97999.3343856,
+        "captured_at_monotonic": 97999.312,
+        "capture_sequence": 194,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "62c83fcc4de674fde8d4e68a2ba0971f473f96a937a4efce1e6b9dcc13f25705"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0190.png",
+        "capture_start_utc": "2026-10-06T02:57:16.121945+00:00",
+        "capture_start_perf": 97999.3873876,
+        "capture_end_perf": 97999.4017534,
+        "captured_at_monotonic": 97999.375,
+        "capture_sequence": 195,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "fa495d7923d65bd9a933949aee6fa2731f9c03074650bdbcb0378052678464d3"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0191.png",
+        "capture_start_utc": "2026-10-06T02:57:16.187666+00:00",
+        "capture_start_perf": 97999.4532194,
+        "capture_end_perf": 97999.4728733,
+        "captured_at_monotonic": 97999.437,
+        "capture_sequence": 196,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "4dc66d487ee5781dd91199a20232b3bdd7448da27e7ab87c603829e9e4a1a668"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0192.png",
+        "capture_start_utc": "2026-10-06T02:57:16.262934+00:00",
+        "capture_start_perf": 97999.5281356,
+        "capture_end_perf": 97999.548296,
+        "captured_at_monotonic": 97999.515,
+        "capture_sequence": 197,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "867ac98f40c50c3cdfe46a2e6ae0ddd5c9722f7faa67f66059750e90cb94e519"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0193.png",
+        "capture_start_utc": "2026-10-06T02:57:16.335928+00:00",
+        "capture_start_perf": 97999.6015362,
+        "capture_end_perf": 97999.6171823,
+        "captured_at_monotonic": 97999.593,
+        "capture_sequence": 198,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "1fe1d02740b504358d2e219e89192abcec4db268b6099bf890979188b5b49564"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0194.png",
+        "capture_start_utc": "2026-10-06T02:57:16.416691+00:00",
+        "capture_start_perf": 97999.6821036,
+        "capture_end_perf": 97999.7012838,
+        "captured_at_monotonic": 97999.671,
+        "capture_sequence": 199,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "7a4a11ebe43514f7c869c7bb701000f19d1609c8c150d8e41acbd9109ad6bb89"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0195.png",
+        "capture_start_utc": "2026-10-06T02:57:16.498166+00:00",
+        "capture_start_perf": 97999.7637875,
+        "capture_end_perf": 97999.7840437,
+        "captured_at_monotonic": 97999.75,
+        "capture_sequence": 200,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "efbf46859fec1d2c5f7298efeec763fe93aded8399fea6487d0ac19aeb51cbc0"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0196.png",
+        "capture_start_utc": "2026-10-06T02:57:16.584208+00:00",
+        "capture_start_perf": 97999.8502735,
+        "capture_end_perf": 97999.8684544,
+        "captured_at_monotonic": 97999.843,
+        "capture_sequence": 201,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "00ceee2b90dad015e1646f7544a9d3b75e8562cf168b55d83b21f8740b40bb7e"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0197.png",
+        "capture_start_utc": "2026-10-06T02:57:16.659575+00:00",
+        "capture_start_perf": 97999.9254425,
+        "capture_end_perf": 97999.9435924,
+        "captured_at_monotonic": 97999.921,
+        "capture_sequence": 202,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "94c9dd55582c9279f59c2065a51229b096cd902d21725cbb0446b3f9238f9222"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0198.png",
+        "capture_start_utc": "2026-10-06T02:57:16.735877+00:00",
+        "capture_start_perf": 98000.0010441,
+        "capture_end_perf": 98000.0208711,
+        "captured_at_monotonic": 98000.0,
+        "capture_sequence": 203,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "b862ee46ccaa4b8dc2bfcfb036499e712125a85ac364e6baad15254be0662b0d"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0199.png",
+        "capture_start_utc": "2026-10-06T02:57:16.819500+00:00",
+        "capture_start_perf": 98000.0856402,
+        "capture_end_perf": 98000.1034852,
+        "captured_at_monotonic": 98000.078,
+        "capture_sequence": 204,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "d335831af02b15099ad3bb4e29c2439e0c4f21c86ec9c746fe3762e5286851a6"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0200.png",
+        "capture_start_utc": "2026-10-06T02:57:16.896380+00:00",
+        "capture_start_perf": 98000.1618859,
+        "capture_end_perf": 98000.1806497,
+        "captured_at_monotonic": 98000.156,
+        "capture_sequence": 205,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "49e16b46e489e3879998716483b81ba36fe6b5df50115cf06b5d7242a2f1c171"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0201.png",
+        "capture_start_utc": "2026-10-06T02:57:16.975671+00:00",
+        "capture_start_perf": 98000.2412015,
+        "capture_end_perf": 98000.257517,
+        "captured_at_monotonic": 98000.234,
+        "capture_sequence": 206,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "014987a190c9d9ef3b4057077db4f703c5744b09831a9cbbadd59219ea35dee8"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0202.png",
+        "capture_start_utc": "2026-10-06T02:57:17.054206+00:00",
+        "capture_start_perf": 98000.3199827,
+        "capture_end_perf": 98000.3402367,
+        "captured_at_monotonic": 98000.312,
+        "capture_sequence": 207,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "280ab31d01e778aa29ef46ce9e8b813f3b4f7a06521985a433568d98097032ed"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0203.png",
+        "capture_start_utc": "2026-10-06T02:57:17.146590+00:00",
+        "capture_start_perf": 98000.4118719,
+        "capture_end_perf": 98000.428942,
+        "captured_at_monotonic": 98000.406,
+        "capture_sequence": 208,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "9797be8bc725643814d0192425c0d24e170249481c6f89ab445a382befde20c2"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0204.png",
+        "capture_start_utc": "2026-10-06T02:57:17.220864+00:00",
+        "capture_start_perf": 98000.4864589,
+        "capture_end_perf": 98000.5060485,
+        "captured_at_monotonic": 98000.484,
+        "capture_sequence": 209,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "18c758f4a96ffad004a03fd0a67de1d95c83813e6c304bc9137f7222d65d395b"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0205.png",
+        "capture_start_utc": "2026-10-06T02:57:17.291047+00:00",
+        "capture_start_perf": 98000.5565917,
+        "capture_end_perf": 98000.5756119,
+        "captured_at_monotonic": 98000.546,
+        "capture_sequence": 210,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "830da83d192cd59e37c0a302993fb8c31fe675f35904104c5d5f9f7eb11ee01a"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0206.png",
+        "capture_start_utc": "2026-10-06T02:57:17.360831+00:00",
+        "capture_start_perf": 98000.6260859,
+        "capture_end_perf": 98000.6446555,
+        "captured_at_monotonic": 98000.609,
+        "capture_sequence": 211,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "b6a9f15ac26f0d2fde50e708cd52d7a6f44ff0d40aa39ed25c95c7e8a04513e1"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0207.png",
+        "capture_start_utc": "2026-10-06T02:57:17.440061+00:00",
+        "capture_start_perf": 98000.7059838,
+        "capture_end_perf": 98000.7211229,
+        "captured_at_monotonic": 98000.687,
+        "capture_sequence": 212,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "53f4f503e1718f431c65a3432277a38bc9ca67cea8eac18d8a7264647e5469f0"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0208.png",
+        "capture_start_utc": "2026-10-06T02:57:17.519559+00:00",
+        "capture_start_perf": 98000.7848739,
+        "capture_end_perf": 98000.8047939,
+        "captured_at_monotonic": 98000.781,
+        "capture_sequence": 213,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "245d7dc16af2cca0f849a45fbda147d0eb0bd6c7a7f7d00b718136f4049ab5bd"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0209.png",
+        "capture_start_utc": "2026-10-06T02:57:17.604694+00:00",
+        "capture_start_perf": 98000.8701486,
+        "capture_end_perf": 98000.8904343,
+        "captured_at_monotonic": 98000.859,
+        "capture_sequence": 214,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "c0e4aefcd50273020888c6c30fabcc725966fb3ee36197ce3e77622ce9886e21"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0210.png",
+        "capture_start_utc": "2026-10-06T02:57:17.683333+00:00",
+        "capture_start_perf": 98000.9486518,
+        "capture_end_perf": 98000.9655191,
+        "captured_at_monotonic": 98000.937,
+        "capture_sequence": 215,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "9dd376fe8b5199f2566475e2a95e9fdc28e4fd905b2bbf5793a49adb393fe7bf"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0211.png",
+        "capture_start_utc": "2026-10-06T02:57:17.770848+00:00",
+        "capture_start_perf": 98001.0371941,
+        "capture_end_perf": 98001.0575933,
+        "captured_at_monotonic": 98001.031,
+        "capture_sequence": 216,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "ed07bd92f67e3b6de205ef7bec0e7162f2d6c0cb9b3d71f12278ee7b955cd472"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0212.png",
+        "capture_start_utc": "2026-10-06T02:57:17.843633+00:00",
+        "capture_start_perf": 98001.1096797,
+        "capture_end_perf": 98001.124527,
+        "captured_at_monotonic": 98001.093,
+        "capture_sequence": 217,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "b66f126de4d2b907946c074f11ea4c61a00ef4ccccc2b03f13eaa113a2fa3a1b"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0213.png",
+        "capture_start_utc": "2026-10-06T02:57:17.922044+00:00",
+        "capture_start_perf": 98001.1872961,
+        "capture_end_perf": 98001.2074764,
+        "captured_at_monotonic": 98001.171,
+        "capture_sequence": 218,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "30fe2dfe18613972baa7ead1f138c2cb149fc9554d3d80c6493ba3b191b95e78"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0214.png",
+        "capture_start_utc": "2026-10-06T02:57:17.996462+00:00",
+        "capture_start_perf": 98001.2616622,
+        "capture_end_perf": 98001.2770364,
+        "captured_at_monotonic": 98001.25,
+        "capture_sequence": 219,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "928e0684fe5394cb89b2ffcf59fa278d93a2a10081f0413315190bcbd67c858e"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0215.png",
+        "capture_start_utc": "2026-10-06T02:57:18.078382+00:00",
+        "capture_start_perf": 98001.3437236,
+        "capture_end_perf": 98001.3613637,
+        "captured_at_monotonic": 98001.328,
+        "capture_sequence": 220,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "afe63995b4975571ab3ef6ac1bedafac56a3b1fdde1c3e4d4112b50921ecae0c"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0216.png",
+        "capture_start_utc": "2026-10-06T02:57:18.150742+00:00",
+        "capture_start_perf": 98001.4168665,
+        "capture_end_perf": 98001.4382062,
+        "captured_at_monotonic": 98001.406,
+        "capture_sequence": 221,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "b58ef7b85042e414f2aa1a0a39544d284849f8a7e19baaf188500a62d8e993a9"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0217.png",
+        "capture_start_utc": "2026-10-06T02:57:18.217834+00:00",
+        "capture_start_perf": 98001.4837868,
+        "capture_end_perf": 98001.4992945,
+        "captured_at_monotonic": 98001.468,
+        "capture_sequence": 222,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "aa0d4991abb1d8f0431abcbf611319f5809c50b9a388da3f6d560e3dad90743a"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0218.png",
+        "capture_start_utc": "2026-10-06T02:57:18.279377+00:00",
+        "capture_start_perf": 98001.5445936,
+        "capture_end_perf": 98001.5624459,
+        "captured_at_monotonic": 98001.531,
+        "capture_sequence": 223,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "3f430bd0a5f4e9b1b6515fd25ba0cbb37b4e1c27b5c5017e022f2c23cbee9825"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0219.png",
+        "capture_start_utc": "2026-10-06T02:57:18.344206+00:00",
+        "capture_start_perf": 98001.6099723,
+        "capture_end_perf": 98001.6254432,
+        "captured_at_monotonic": 98001.593,
+        "capture_sequence": 224,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "66dbb6b4d899eaf26e8ba65c73fa41a8692214a858fad48e94dcfea27b5d8e2d"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0220.png",
+        "capture_start_utc": "2026-10-06T02:57:18.412104+00:00",
+        "capture_start_perf": 98001.67799,
+        "capture_end_perf": 98001.6931351,
+        "captured_at_monotonic": 98001.671,
+        "capture_sequence": 225,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "12e74ed29a9e67ab9c5489faca0410a27b0c2b78cd8e0d1525ecdeccc7242a5a"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0221.png",
+        "capture_start_utc": "2026-10-06T02:57:18.493340+00:00",
+        "capture_start_perf": 98001.7586386,
+        "capture_end_perf": 98001.7769358,
+        "captured_at_monotonic": 98001.75,
+        "capture_sequence": 226,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "9468cc967cb086c0eb492971803c1878d8f7e1e4df98a05b5fb2412bcd082fe6"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0222.png",
+        "capture_start_utc": "2026-10-06T02:57:18.553969+00:00",
+        "capture_start_perf": 98001.8195134,
+        "capture_end_perf": 98001.8397411,
+        "captured_at_monotonic": 98001.812,
+        "capture_sequence": 227,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "b884b7f67500bceac386efd708bc711da3920fdd22cd83bcfe6629bc55951c01"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0223.png",
+        "capture_start_utc": "2026-10-06T02:57:18.617085+00:00",
+        "capture_start_perf": 98001.8828443,
+        "capture_end_perf": 98001.90186,
+        "captured_at_monotonic": 98001.875,
+        "capture_sequence": 228,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "1ee7d07df87f99ad54b2c34aa8766474214dac69641036b8e7875504816e5d93"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0224.png",
+        "capture_start_utc": "2026-10-06T02:57:18.696914+00:00",
+        "capture_start_perf": 98001.9626133,
+        "capture_end_perf": 98001.9781894,
+        "captured_at_monotonic": 98001.953,
+        "capture_sequence": 229,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "5a2cd4e4511b08f6d6b424f2f8347def14f243130babd75273fbb7db04bb80ed"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0225.png",
+        "capture_start_utc": "2026-10-06T02:57:18.777180+00:00",
+        "capture_start_perf": 98002.0425416,
+        "capture_end_perf": 98002.0625151,
+        "captured_at_monotonic": 98002.031,
+        "capture_sequence": 230,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "0f27baf54aa903beeaae8c7721e7c5a274ced50a83385a8e15d89d16892cbdfd"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0226.png",
+        "capture_start_utc": "2026-10-06T02:57:18.864059+00:00",
+        "capture_start_perf": 98002.129763,
+        "capture_end_perf": 98002.1450032,
+        "captured_at_monotonic": 98002.109,
+        "capture_sequence": 231,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "fe3623c5e90c95c23866f919e080d5ab423da8fc79dc87ae7fb1062e9411a096"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0227.png",
+        "capture_start_utc": "2026-10-06T02:57:18.941138+00:00",
+        "capture_start_perf": 98002.2070615,
+        "capture_end_perf": 98002.2218925,
+        "captured_at_monotonic": 98002.187,
+        "capture_sequence": 232,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "b638b29738c8dd61f836899c013e4b6c1ce664908c8e7203e5a6370c285ac7b2"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0228.png",
+        "capture_start_utc": "2026-10-06T02:57:19.024405+00:00",
+        "capture_start_perf": 98002.2896488,
+        "capture_end_perf": 98002.3055512,
+        "captured_at_monotonic": 98002.281,
+        "capture_sequence": 233,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "6ea803fdbf54bed3c6b54524f80957d370a35a9e811758fe6b086aa9577817cf"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0229.png",
+        "capture_start_utc": "2026-10-06T02:57:19.103143+00:00",
+        "capture_start_perf": 98002.3688518,
+        "capture_end_perf": 98002.3874586,
+        "captured_at_monotonic": 98002.359,
+        "capture_sequence": 234,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "c4cbb549144126d48f23eefd3a93b38062d4a1b5ae60649c5c971dbde6188efc"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0230.png",
+        "capture_start_utc": "2026-10-06T02:57:19.168445+00:00",
+        "capture_start_perf": 98002.4340319,
+        "capture_end_perf": 98002.4502851,
+        "captured_at_monotonic": 98002.421,
+        "capture_sequence": 235,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "7afaa0c28631c08d977956de6f996781db89961833c27b63f69767b38891759f"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0231.png",
+        "capture_start_utc": "2026-10-06T02:57:19.254734+00:00",
+        "capture_start_perf": 98002.5205061,
+        "capture_end_perf": 98002.5412565,
+        "captured_at_monotonic": 98002.515,
+        "capture_sequence": 236,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "412670281c4bb88784d41469a86a4a728696658437a1ad9b65edac7070c4c763"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0232.png",
+        "capture_start_utc": "2026-10-06T02:57:19.319582+00:00",
+        "capture_start_perf": 98002.5849871,
+        "capture_end_perf": 98002.6046993,
+        "captured_at_monotonic": 98002.578,
+        "capture_sequence": 237,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "5eb015c55be9e13d046e61c5c09a9789ba292f6831148edaccfc4aae2d294180"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0233.png",
+        "capture_start_utc": "2026-10-06T02:57:19.387931+00:00",
+        "capture_start_perf": 98002.653103,
+        "capture_end_perf": 98002.6746099,
+        "captured_at_monotonic": 98002.64,
+        "capture_sequence": 238,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "13d7a2e37e360e4ed4d265723d0dbd41e97745c4a54c625d8c34111032fa201f"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0234.png",
+        "capture_start_utc": "2026-10-06T02:57:19.475132+00:00",
+        "capture_start_perf": 98002.7410984,
+        "capture_end_perf": 98002.7578298,
+        "captured_at_monotonic": 98002.734,
+        "capture_sequence": 239,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "9cbbd85f15bee8ef977f7d9e5659a3807404d5469283d1565aa42aef0f867041"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0235.png",
+        "capture_start_utc": "2026-10-06T02:57:19.534480+00:00",
+        "capture_start_perf": 98002.8006283,
+        "capture_end_perf": 98002.818817,
+        "captured_at_monotonic": 98002.796,
+        "capture_sequence": 240,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "42b219314dffe99cef2f93f7eac592dbfcf0c2b16455874f920ac55dc7da4b77"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0236.png",
+        "capture_start_utc": "2026-10-06T02:57:19.618174+00:00",
+        "capture_start_perf": 98002.883616,
+        "capture_end_perf": 98002.9024215,
+        "captured_at_monotonic": 98002.875,
+        "capture_sequence": 241,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "481c520a1bcf462822209b69fc3e50ce43a8527f7040ad9e8db1ffa7edbd4b06"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0237.png",
+        "capture_start_utc": "2026-10-06T02:57:19.701887+00:00",
+        "capture_start_perf": 98002.9670718,
+        "capture_end_perf": 98002.9860501,
+        "captured_at_monotonic": 98002.953,
+        "capture_sequence": 242,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "f51e57caa302fc00ea87d86ff6c3d57bec5e7a44380899f040caf408c026fd1f"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0238.png",
+        "capture_start_utc": "2026-10-06T02:57:19.792053+00:00",
+        "capture_start_perf": 98003.0576209,
+        "capture_end_perf": 98003.0769356,
+        "captured_at_monotonic": 98003.046,
+        "capture_sequence": 243,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "d5eede13a6635c5e4301a2e4ec022f572b50bb7014829266bddede6780789da3"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0239.png",
+        "capture_start_utc": "2026-10-06T02:57:19.878572+00:00",
+        "capture_start_perf": 98003.1443161,
+        "capture_end_perf": 98003.1592198,
+        "captured_at_monotonic": 98003.125,
+        "capture_sequence": 244,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "f8a61002a2c7f1a4715a7192b7a6ce59cb707674bf2b4af2d473f98cd0a378c1"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0240.png",
+        "capture_start_utc": "2026-10-06T02:57:19.951110+00:00",
+        "capture_start_perf": 98003.2170143,
+        "capture_end_perf": 98003.2362149,
+        "captured_at_monotonic": 98003.203,
+        "capture_sequence": 245,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "3ece2f374dd62e81240bdf27014eb6a9565acd864391f9370df64a995e58469d"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0241.png",
+        "capture_start_utc": "2026-10-06T02:57:20.033875+00:00",
+        "capture_start_perf": 98003.2995045,
+        "capture_end_perf": 98003.3184065,
+        "captured_at_monotonic": 98003.296,
+        "capture_sequence": 246,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "e25d26592d965a2278c8d860cdba404f068dd07bedf60aa37b5d6c0affa3124d"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0242.png",
+        "capture_start_utc": "2026-10-06T02:57:20.116563+00:00",
+        "capture_start_perf": 98003.3816899,
+        "capture_end_perf": 98003.4038322,
+        "captured_at_monotonic": 98003.375,
+        "capture_sequence": 247,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "f5a5a047f197ed6899a69bc1ebb10f23859fe87952eca1f2c41a5e9197953173"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0243.png",
+        "capture_start_utc": "2026-10-06T02:57:20.195298+00:00",
+        "capture_start_perf": 98003.4607353,
+        "capture_end_perf": 98003.4793405,
+        "captured_at_monotonic": 98003.453,
+        "capture_sequence": 248,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "78dac1f226230022e682d0ae9ec3e4201fe4d177cbe478be9b63323029609d7b"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0244.png",
+        "capture_start_utc": "2026-10-06T02:57:20.272890+00:00",
+        "capture_start_perf": 98003.539459,
+        "capture_end_perf": 98003.5555235,
+        "captured_at_monotonic": 98003.531,
+        "capture_sequence": 249,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "9b3eb3aec97027ef304d9fdfb762a5c3bee7b8b055667bb30e6fa15f552f458c"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0245.png",
+        "capture_start_utc": "2026-10-06T02:57:20.349364+00:00",
+        "capture_start_perf": 98003.6145936,
+        "capture_end_perf": 98003.6326478,
+        "captured_at_monotonic": 98003.609,
+        "capture_sequence": 250,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "e52e91511097062a55ff5866fd0ac1b658e5b8195ec7aa9c34f6b983d43fed7e"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0246.png",
+        "capture_start_utc": "2026-10-06T02:57:20.429819+00:00",
+        "capture_start_perf": 98003.6957758,
+        "capture_end_perf": 98003.7167974,
+        "captured_at_monotonic": 98003.687,
+        "capture_sequence": 251,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "f09ae53eae7ae7474e3ae7bbe6b1ff1e630b6e16d791beb0d323398f8f1af7a5"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0247.png",
+        "capture_start_utc": "2026-10-06T02:57:20.514893+00:00",
+        "capture_start_perf": 98003.7807524,
+        "capture_end_perf": 98003.7985771,
+        "captured_at_monotonic": 98003.765,
+        "capture_sequence": 252,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "6eea0beabfe2485d9d5efaa0dfa71d6712705ac4024f2d018f0bb89cc62776f9"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0248.png",
+        "capture_start_utc": "2026-10-06T02:57:20.586353+00:00",
+        "capture_start_perf": 98003.851958,
+        "capture_end_perf": 98003.8691951,
+        "captured_at_monotonic": 98003.843,
+        "capture_sequence": 253,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "faba4756367ffcee2575503cbbdfcf2e61777f6427a1fd338f0f7e06691c335e"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0249.png",
+        "capture_start_utc": "2026-10-06T02:57:20.664672+00:00",
+        "capture_start_perf": 98003.9307846,
+        "capture_end_perf": 98003.9512247,
+        "captured_at_monotonic": 98003.921,
+        "capture_sequence": 254,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "b63a0af789d2d5a1ffee444774f1ac68081169c421722c2cdc5eeff8e6b1fdc0"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0250.png",
+        "capture_start_utc": "2026-10-06T02:57:20.746882+00:00",
+        "capture_start_perf": 98004.012481,
+        "capture_end_perf": 98004.0279976,
+        "captured_at_monotonic": 98004.0,
+        "capture_sequence": 255,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "be9537b27a46d0b059cce994c0acbbf4c8ec54df46110c1afd7d524a936c6495"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0251.png",
+        "capture_start_utc": "2026-10-06T02:57:20.814517+00:00",
+        "capture_start_perf": 98004.0801698,
+        "capture_end_perf": 98004.0976353,
+        "captured_at_monotonic": 98004.062,
+        "capture_sequence": 256,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "e27f94b5bffadb565c79f7e61c9d928a0436bc79795cc139f589c5d1f9ad33be"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0252.png",
+        "capture_start_utc": "2026-10-06T02:57:20.894869+00:00",
+        "capture_start_perf": 98004.1599921,
+        "capture_end_perf": 98004.1816041,
+        "captured_at_monotonic": 98004.156,
+        "capture_sequence": 257,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "f0c62f3f02dd043b5c171097638b226d963c9bcebf61a99514e8f12eaf836ee8"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0253.png",
+        "capture_start_utc": "2026-10-06T02:57:20.980437+00:00",
+        "capture_start_perf": 98004.2465885,
+        "capture_end_perf": 98004.2646476,
+        "captured_at_monotonic": 98004.234,
+        "capture_sequence": 258,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "ba8319a1a3b83555595133c682c451aa0e1de386c4076e08a9dcb2e68a377e17"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0254.png",
+        "capture_start_utc": "2026-10-06T02:57:21.070622+00:00",
+        "capture_start_perf": 98004.3361082,
+        "capture_end_perf": 98004.3542856,
+        "captured_at_monotonic": 98004.328,
+        "capture_sequence": 259,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "dab870605544fec46ad174901a5308f7a6e8e0c69c9b9245f334bd2ded6d4741"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0255.png",
+        "capture_start_utc": "2026-10-06T02:57:21.133774+00:00",
+        "capture_start_perf": 98004.3990756,
+        "capture_end_perf": 98004.4169617,
+        "captured_at_monotonic": 98004.39,
+        "capture_sequence": 260,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "9b667e7bad3afbdceeeb3c24190570abac959dbd35916e69c704cfb547761e55"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0256.png",
+        "capture_start_utc": "2026-10-06T02:57:21.213255+00:00",
+        "capture_start_perf": 98004.4795194,
+        "capture_end_perf": 98004.5012843,
+        "captured_at_monotonic": 98004.468,
+        "capture_sequence": 261,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "69e72bf9a2dbc078b8db28c4397583429a7c49fca9a9c912f803d25a37f6f4f3"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0257.png",
+        "capture_start_utc": "2026-10-06T02:57:21.298577+00:00",
+        "capture_start_perf": 98004.5644367,
+        "capture_end_perf": 98004.5845925,
+        "captured_at_monotonic": 98004.562,
+        "capture_sequence": 262,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "fe01cf7a4166ce83e62bc2834d55af5bc64e1586209d3a36dcd922f23cd2d90e"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0258.png",
+        "capture_start_utc": "2026-10-06T02:57:21.383771+00:00",
+        "capture_start_perf": 98004.6491831,
+        "capture_end_perf": 98004.6671812,
+        "captured_at_monotonic": 98004.64,
+        "capture_sequence": 263,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "1958a506afff521d7da8f20110c8cde549c97f76bf191e27461220bc440ced1d"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0259.png",
+        "capture_start_utc": "2026-10-06T02:57:21.453259+00:00",
+        "capture_start_perf": 98004.7189539,
+        "capture_end_perf": 98004.7377515,
+        "captured_at_monotonic": 98004.703,
+        "capture_sequence": 264,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "1b574f3b4ae68300c2ac4cde5da5c2f28522fc63f3d53c7dbc1355411a8e17cb"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0260.png",
+        "capture_start_utc": "2026-10-06T02:57:21.524051+00:00",
+        "capture_start_perf": 98004.7891676,
+        "capture_end_perf": 98004.8073106,
+        "captured_at_monotonic": 98004.781,
+        "capture_sequence": 265,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "01fa4a706696152995962076a694eb140429846b3f818ac5cd77e49e0e4b9f01"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0261.png",
+        "capture_start_utc": "2026-10-06T02:57:21.598110+00:00",
+        "capture_start_perf": 98004.8632763,
+        "capture_end_perf": 98004.8818233,
+        "captured_at_monotonic": 98004.859,
+        "capture_sequence": 266,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "ca0bec4de4945f8c876cfc102c2ce2bb0724e7319f5599e9d0b7831621d24280"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0262.png",
+        "capture_start_utc": "2026-10-06T02:57:21.686779+00:00",
+        "capture_start_perf": 98004.9523944,
+        "capture_end_perf": 98004.9739694,
+        "captured_at_monotonic": 98004.953,
+        "capture_sequence": 267,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "174ecc2a68dc0aadbe012565780e611bef4d7cb254f00c237b0290cae5f9a21e"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0263.png",
+        "capture_start_utc": "2026-10-06T02:57:21.758415+00:00",
+        "capture_start_perf": 98005.0248438,
+        "capture_end_perf": 98005.0470136,
+        "captured_at_monotonic": 98005.015,
+        "capture_sequence": 268,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "abb2727aae311f741ab9a1503749b781650d0799cb6567f17bb2a6044f430a80"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0264.png",
+        "capture_start_utc": "2026-10-06T02:57:21.835574+00:00",
+        "capture_start_perf": 98005.1006657,
+        "capture_end_perf": 98005.1189179,
+        "captured_at_monotonic": 98005.093,
+        "capture_sequence": 269,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "7f0b867ab39eb8a49fd6dae7fde2d10fb35d0e02c278dccd9fdb28cc0ca3b134"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0265.png",
+        "capture_start_utc": "2026-10-06T02:57:21.900398+00:00",
+        "capture_start_perf": 98005.1668142,
+        "capture_end_perf": 98005.1881681,
+        "captured_at_monotonic": 98005.156,
+        "capture_sequence": 270,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "d9f09bd8e0876b43108f256c49fba54d226cd312a67795823793705198672dd2"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0266.png",
+        "capture_start_utc": "2026-10-06T02:57:21.981955+00:00",
+        "capture_start_perf": 98005.2470661,
+        "capture_end_perf": 98005.2657148,
+        "captured_at_monotonic": 98005.234,
+        "capture_sequence": 271,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "33b9b37f72a54521252ecf00dcee6d73059b7c62fec0f456dca75513f10effc2"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0267.png",
+        "capture_start_utc": "2026-10-06T02:57:22.063080+00:00",
+        "capture_start_perf": 98005.3284295,
+        "capture_end_perf": 98005.349895,
+        "captured_at_monotonic": 98005.328,
+        "capture_sequence": 272,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "ebe55f9e0d2954eb99b31c6b088770541883aa4f6a3e3b442a49ab8dd0e67a8c"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0268.png",
+        "capture_start_utc": "2026-10-06T02:57:22.148160+00:00",
+        "capture_start_perf": 98005.4138784,
+        "capture_end_perf": 98005.4319147,
+        "captured_at_monotonic": 98005.406,
+        "capture_sequence": 273,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "104d50c80736c69bce2e92fd3b02720926beef3c8df3234590812422db0cfc29"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0269.png",
+        "capture_start_utc": "2026-10-06T02:57:22.227737+00:00",
+        "capture_start_perf": 98005.4929518,
+        "capture_end_perf": 98005.513545,
+        "captured_at_monotonic": 98005.484,
+        "capture_sequence": 274,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "7df89a43e76ac7d4826691429e9b37df4c448111b23d19d23316337bfeffca34"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0270.png",
+        "capture_start_utc": "2026-10-06T02:57:22.292756+00:00",
+        "capture_start_perf": 98005.5587156,
+        "capture_end_perf": 98005.5771383,
+        "captured_at_monotonic": 98005.546,
+        "capture_sequence": 275,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "aadd54d7546ca23eaf21e1cebbd4699e133cb01333e5935fd8ff4febfd8a0433"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0271.png",
+        "capture_start_utc": "2026-10-06T02:57:22.373026+00:00",
+        "capture_start_perf": 98005.6387175,
+        "capture_end_perf": 98005.6603413,
+        "captured_at_monotonic": 98005.625,
+        "capture_sequence": 276,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "56333be220401e5fe185b8cb90a537db9c61341ef8a3d9f12acad859842ef9ac"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0272.png",
+        "capture_start_utc": "2026-10-06T02:57:22.464359+00:00",
+        "capture_start_perf": 98005.7295127,
+        "capture_end_perf": 98005.7558053,
+        "captured_at_monotonic": 98005.734,
+        "capture_sequence": 277,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "8a36085cce43bd47bcf8dfa53eac77a261d9964197e2ff309f47e23452a2a690"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0273.png",
+        "capture_start_utc": "2026-10-06T02:57:22.555822+00:00",
+        "capture_start_perf": 98005.8219572,
+        "capture_end_perf": 98005.8495847,
+        "captured_at_monotonic": 98005.828,
+        "capture_sequence": 278,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "4f4193f27f17d41be099c6d66d971d45c8c474e319acb2ea9d455cb80fe067b5"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0274.png",
+        "capture_start_utc": "2026-10-06T02:57:22.644291+00:00",
+        "capture_start_perf": 98005.9093928,
+        "capture_end_perf": 98005.9362992,
+        "captured_at_monotonic": 98005.906,
+        "capture_sequence": 279,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "f96a32909a328faa60d27743775982114eeef8c8ba3c178124a38c10c724b060"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0275.png",
+        "capture_start_utc": "2026-10-06T02:57:22.742153+00:00",
+        "capture_start_perf": 98006.0081935,
+        "capture_end_perf": 98006.0333712,
+        "captured_at_monotonic": 98006.0,
+        "capture_sequence": 280,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "ca14d080969a030f9d96dfa24fc7820d5bc9c6d3cd9b232f4a00d320ec320832"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0276.png",
+        "capture_start_utc": "2026-10-06T02:57:22.840830+00:00",
+        "capture_start_perf": 98006.1060354,
+        "capture_end_perf": 98006.1341606,
+        "captured_at_monotonic": 98006.109,
+        "capture_sequence": 281,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "a91930a4a56da7a3aca74d84fe6eba295ab7df2d15897fc63d4f0b4b97e1c923"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0277.png",
+        "capture_start_utc": "2026-10-06T02:57:22.941853+00:00",
+        "capture_start_perf": 98006.2071023,
+        "capture_end_perf": 98006.2278345,
+        "captured_at_monotonic": 98006.203,
+        "capture_sequence": 282,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "67d4cb0bd3e2d5c349b7861a12beaa71f451b24010f784c086ff87c92fc213cb"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0278.png",
+        "capture_start_utc": "2026-10-06T02:57:23.031775+00:00",
+        "capture_start_perf": 98006.2974366,
+        "capture_end_perf": 98006.31591,
+        "captured_at_monotonic": 98006.281,
+        "capture_sequence": 283,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "82fde6f7f05f4bee455f87220cffcfa836eb188a359d36700a6c36aeb81ee763"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0279.png",
+        "capture_start_utc": "2026-10-06T02:57:23.102128+00:00",
+        "capture_start_perf": 98006.3676255,
+        "capture_end_perf": 98006.3906384,
+        "captured_at_monotonic": 98006.359,
+        "capture_sequence": 284,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "cdc9b9247b69439bad7cb3e10f506ba1e3231dc87bf11a064887994f16e7e5e4"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0280.png",
+        "capture_start_utc": "2026-10-06T02:57:23.205462+00:00",
+        "capture_start_perf": 98006.4706874,
+        "capture_end_perf": 98006.4890763,
+        "captured_at_monotonic": 98006.453,
+        "capture_sequence": 285,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "8bf4ca1daa11408d509712f78329c8e04ab441ee6945ff400ad11bcaadcdb87d"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0281.png",
+        "capture_start_utc": "2026-10-06T02:57:23.296137+00:00",
+        "capture_start_perf": 98006.5620671,
+        "capture_end_perf": 98006.5837955,
+        "captured_at_monotonic": 98006.562,
+        "capture_sequence": 286,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "635a54ed3f8dd180d044747b9a13698d820f8e7885154ec4fbcb6f3a8f4c2bae"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0282.png",
+        "capture_start_utc": "2026-10-06T02:57:23.367756+00:00",
+        "capture_start_perf": 98006.6332843,
+        "capture_end_perf": 98006.6542282,
+        "captured_at_monotonic": 98006.625,
+        "capture_sequence": 287,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "c775c361bf81f6dd433ab3324ec6e77bd90f811652c0d1d7bcf130c8b8ed32ac"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0283.png",
+        "capture_start_utc": "2026-10-06T02:57:23.442106+00:00",
+        "capture_start_perf": 98006.7074401,
+        "capture_end_perf": 98006.7244187,
+        "captured_at_monotonic": 98006.703,
+        "capture_sequence": 288,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "d7a46deb87532c1eb567ba3667ffd87c4539ba586de03b71398486062019d76d"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0284.png",
+        "capture_start_utc": "2026-10-06T02:57:23.511957+00:00",
+        "capture_start_perf": 98006.7774671,
+        "capture_end_perf": 98006.8013103,
+        "captured_at_monotonic": 98006.765,
+        "capture_sequence": 289,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "d8129a799449d7d6ed18f2530c504f6ae5109209e147843da415cb2f72d8da64"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0285.png",
+        "capture_start_utc": "2026-10-06T02:57:23.604085+00:00",
+        "capture_start_perf": 98006.8692882,
+        "capture_end_perf": 98006.8910717,
+        "captured_at_monotonic": 98006.859,
+        "capture_sequence": 290,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "4f0dd596ee7ef5e202e3b16207b39870be1889e5f10330b2d519ea7a8d329bea"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0286.png",
+        "capture_start_utc": "2026-10-06T02:57:23.687926+00:00",
+        "capture_start_perf": 98006.9537021,
+        "capture_end_perf": 98006.9743985,
+        "captured_at_monotonic": 98006.953,
+        "capture_sequence": 291,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "ef878271ca55462f399083e97b1eda9299ac3d40591180598af369f46081f4bf"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0287.png",
+        "capture_start_utc": "2026-10-06T02:57:23.770295+00:00",
+        "capture_start_perf": 98007.0358426,
+        "capture_end_perf": 98007.0567983,
+        "captured_at_monotonic": 98007.031,
+        "capture_sequence": 292,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "285c518bbad6d893f817f9a95439459b04204a696d64f369d24363fe5008548c"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0288.png",
+        "capture_start_utc": "2026-10-06T02:57:23.853635+00:00",
+        "capture_start_perf": 98007.1191827,
+        "capture_end_perf": 98007.1409914,
+        "captured_at_monotonic": 98007.109,
+        "capture_sequence": 293,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "433b0ea1f61b59ac022073827e4eba202eae75b568e7625eb9660e99afcf1ad5"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0289.png",
+        "capture_start_utc": "2026-10-06T02:57:23.944354+00:00",
+        "capture_start_perf": 98007.2094632,
+        "capture_end_perf": 98007.2308074,
+        "captured_at_monotonic": 98007.203,
+        "capture_sequence": 294,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "5ae1a86d2a17c535b119a1a499d8d1232d8baa85a73ec43617529f02815a01a9"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0290.png",
+        "capture_start_utc": "2026-10-06T02:57:24.030184+00:00",
+        "capture_start_perf": 98007.2964618,
+        "capture_end_perf": 98007.3134619,
+        "captured_at_monotonic": 98007.281,
+        "capture_sequence": 295,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "f41e7f275f2a7f12dd6d392989bdfa9675142d99f62e77c90cbceead7d73182f"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0291.png",
+        "capture_start_utc": "2026-10-06T02:57:24.117677+00:00",
+        "capture_start_perf": 98007.3831776,
+        "capture_end_perf": 98007.4046544,
+        "captured_at_monotonic": 98007.375,
+        "capture_sequence": 296,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "2861af1919e49153d96f93bbf91ec6c42b7c5bca0c0d183332ffa3213281f9b5"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0292.png",
+        "capture_start_utc": "2026-10-06T02:57:24.203881+00:00",
+        "capture_start_perf": 98007.4691614,
+        "capture_end_perf": 98007.4875255,
+        "captured_at_monotonic": 98007.453,
+        "capture_sequence": 297,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "afd3fd5799cdf0ada029183198e42585428a820c47101763513436fc2ef661e6"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0293.png",
+        "capture_start_utc": "2026-10-06T02:57:24.284779+00:00",
+        "capture_start_perf": 98007.5506762,
+        "capture_end_perf": 98007.5707752,
+        "captured_at_monotonic": 98007.546,
+        "capture_sequence": 298,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "9d5eea53cb4937a0dd8b6a81d4dc994065b959c946be1f53bbd3fa44a462376a"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0294.png",
+        "capture_start_utc": "2026-10-06T02:57:24.365704+00:00",
+        "capture_start_perf": 98007.631696,
+        "capture_end_perf": 98007.6545688,
+        "captured_at_monotonic": 98007.625,
+        "capture_sequence": 299,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "fb428f96ee55996640d5d8dd33482960e5087879fabd11bf107364a808056af1"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0295.png",
+        "capture_start_utc": "2026-10-06T02:57:24.450924+00:00",
+        "capture_start_perf": 98007.7164453,
+        "capture_end_perf": 98007.7365961,
+        "captured_at_monotonic": 98007.703,
+        "capture_sequence": 300,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "9c0559d5c1cadf5f9594da0429767b4eeb6e752c476d74b42b973b514a04de61"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0296.png",
+        "capture_start_utc": "2026-10-06T02:57:24.538218+00:00",
+        "capture_start_perf": 98007.8037879,
+        "capture_end_perf": 98007.8205792,
+        "captured_at_monotonic": 98007.796,
+        "capture_sequence": 301,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "44650b5e4ab34b48e2468aa3953568a31a8d13c421f916f17bf6f3e129e01487"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0297.png",
+        "capture_start_utc": "2026-10-06T02:57:24.627548+00:00",
+        "capture_start_perf": 98007.8935848,
+        "capture_end_perf": 98007.9122761,
+        "captured_at_monotonic": 98007.89,
+        "capture_sequence": 302,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "3f2b0103aa13be1afbee09a4339c80365e3fa21cbd953a9fc3a6a7359bf19a4f"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0298.png",
+        "capture_start_utc": "2026-10-06T02:57:24.697363+00:00",
+        "capture_start_perf": 98007.9627577,
+        "capture_end_perf": 98007.9807039,
+        "captured_at_monotonic": 98007.953,
+        "capture_sequence": 303,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "cf9af1930e9811f1a7fbe63b31de796896076b51405ac973c38accb8d4e76a57"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0299.png",
+        "capture_start_utc": "2026-10-06T02:57:24.774145+00:00",
+        "capture_start_perf": 98008.0401607,
+        "capture_end_perf": 98008.056067,
+        "captured_at_monotonic": 98008.031,
+        "capture_sequence": 304,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "5aa5bf9ce79a2f1a9386fcfa7ca445791c3e9fb5ab5aa25563716a9f507e03ce"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0300.png",
+        "capture_start_utc": "2026-10-06T02:57:24.854600+00:00",
+        "capture_start_perf": 98008.1199739,
+        "capture_end_perf": 98008.1398582,
+        "captured_at_monotonic": 98008.109,
+        "capture_sequence": 305,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "e1cac0163fd361259140685bfeed938185ce09536bf1bc283a638b9309f7a673"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0301.png",
+        "capture_start_utc": "2026-10-06T02:57:24.948262+00:00",
+        "capture_start_perf": 98008.2137806,
+        "capture_end_perf": 98008.2369533,
+        "captured_at_monotonic": 98008.203,
+        "capture_sequence": 306,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "a309254acdffe79a0c366792733c1291a8fc545b02b5dea6610b3585e11364ff"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0302.png",
+        "capture_start_utc": "2026-10-06T02:57:25.029239+00:00",
+        "capture_start_perf": 98008.2946382,
+        "capture_end_perf": 98008.3136283,
+        "captured_at_monotonic": 98008.281,
+        "capture_sequence": 307,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "cea9c421e387454d839048268e3d6ddd98856aa478ef343a6d0a60d43287d9c1"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0303.png",
+        "capture_start_utc": "2026-10-06T02:57:25.108849+00:00",
+        "capture_start_perf": 98008.37404,
+        "capture_end_perf": 98008.3914901,
+        "captured_at_monotonic": 98008.359,
+        "capture_sequence": 308,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "26fdd35814178ef2335ef91738a8c5a454765c4de733108997e75b4984a43ab1"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0304.png",
+        "capture_start_utc": "2026-10-06T02:57:25.180477+00:00",
+        "capture_start_perf": 98008.4460514,
+        "capture_end_perf": 98008.4654656,
+        "captured_at_monotonic": 98008.437,
+        "capture_sequence": 309,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "803b53e31f42ccf2f768215d79236af5f3a77216ae92f1b12bcad78d9afad330"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0305.png",
+        "capture_start_utc": "2026-10-06T02:57:25.267276+00:00",
+        "capture_start_perf": 98008.5328041,
+        "capture_end_perf": 98008.54987,
+        "captured_at_monotonic": 98008.515,
+        "capture_sequence": 310,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "041185f8055fd43570df30830ea4f04cbdf8f30d83d9ffce51da7d374d3fccef"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0306.png",
+        "capture_start_utc": "2026-10-06T02:57:25.353219+00:00",
+        "capture_start_perf": 98008.6189405,
+        "capture_end_perf": 98008.6402665,
+        "captured_at_monotonic": 98008.609,
+        "capture_sequence": 311,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "5552d824bdb51ecee37a2d1d1ac821a4078f7282d2ed1e9d80d1fa99f18313d7"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0307.png",
+        "capture_start_utc": "2026-10-06T02:57:25.428149+00:00",
+        "capture_start_perf": 98008.6934096,
+        "capture_end_perf": 98008.7096489,
+        "captured_at_monotonic": 98008.687,
+        "capture_sequence": 312,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "d9c6a43eedafebb2161116142edbc02cd281b7825ffc42f52eb519c93cc3c473"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0308.png",
+        "capture_start_utc": "2026-10-06T02:57:25.499332+00:00",
+        "capture_start_perf": 98008.7658608,
+        "capture_end_perf": 98008.7875179,
+        "captured_at_monotonic": 98008.765,
+        "capture_sequence": 313,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "9ed7f7334dd2506d8abfebc69d4fa3e4cb5c7dfa105a3963b23d41a3f9f9500e"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0309.png",
+        "capture_start_utc": "2026-10-06T02:57:25.587210+00:00",
+        "capture_start_perf": 98008.8528464,
+        "capture_end_perf": 98008.8721348,
+        "captured_at_monotonic": 98008.843,
+        "capture_sequence": 314,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "9c2930db1540d17644b1baaa4d5b5b902e615c679c22bd8514de4192d8906cb6"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    },
+    {
+      "original_capture": {
+        "file": "frame-0310.png",
+        "capture_start_utc": "2026-10-06T02:57:25.660842+00:00",
+        "capture_start_perf": 98008.9260506,
+        "capture_end_perf": 98008.9445751,
+        "captured_at_monotonic": 98008.921,
+        "capture_sequence": 315,
+        "input_epoch_before": 97996062,
+        "input_epoch_after": 97996062,
+        "input_epoch_clock": "opaque_session_token",
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "f21aa170e3008705c3afeaf50f97692d65234371115a55e37ea9d24407bf9a06"
+      },
+      "own_chain": false,
+      "gy_panel": false,
+      "tracker_failed": null,
+      "point_count": 0,
+      "tracked_box": null,
+      "anchor": null,
+      "handoff": null
+    }
+  ],
+  "episode": {
+    "action_id": "synthetic-hand6-original-clock-replay",
+    "layout": "hand6-slot3",
+    "profile_sha256": "a5997715ebcfe556607238b8a4b6f00ad3c9bfc29ba94fb508e8aadf7c5b865e",
+    "source_sequence": 0,
+    "anchor": null,
+    "handoff": null,
+    "trace": [],
+    "failed": null,
+    "ready": false
+  },
+  "processed": 165
+}

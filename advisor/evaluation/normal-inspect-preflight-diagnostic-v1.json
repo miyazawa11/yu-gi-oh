@@ -1,0 +1,94 @@
+{
+  "button_evidence": {
+    "candidate_type": null,
+    "profile_id": "solar-menu-v2",
+    "evidence_bbox": [
+      338,
+      502,
+      74,
+      79
+    ],
+    "bbox_semantics": "template_evidence_crop_not_button_boundary",
+    "search_bbox": [
+      316,
+      473,
+      202,
+      127
+    ],
+    "score": 0.9763731956481934,
+    "position_runner_up_score": 0.7933652400970459,
+    "position_runner_up_bbox": [
+      444,
+      501,
+      74,
+      79
+    ],
+    "position_margin": 0.18300795555114746,
+    "type_runner_up": null,
+    "type_margin": null,
+    "unverified_alternatives": [
+      "SPECIAL_SUMMON",
+      "FLIP_SUMMON",
+      "DISABLED_NORMAL_SUMMON"
+    ],
+    "frame_seq": 0,
+    "observed_at": 0.0,
+    "capture_context": {
+      "mode": "offline_saved_image",
+      "capture_source": "saved_image",
+      "client_rect": null,
+      "captured_at_clock": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence"
+    },
+    "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+    "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+    "unknown_reason": "below_score_threshold",
+    "scope": "readonly_ui_location_candidate",
+    "usable_for_input": false
+  },
+  "fixed_roi_diagnostics": {
+    "fact.inspect_context.hand_selected": {
+      "match": [
+        null,
+        0
+      ],
+      "label_scores": [
+        [
+          "true",
+          0.8546899557113647
+        ]
+      ]
+    },
+    "fact.zone.self.monster_2.occupancy": {
+      "match": [
+        null,
+        0
+      ],
+      "label_scores": [
+        [
+          "empty",
+          0.9785739779472351
+        ],
+        [
+          "occupied",
+          0.7594541311264038
+        ]
+      ]
+    },
+    "action.inspect_normal": {
+      "match": [
+        null,
+        0
+      ],
+      "label_scores": [
+        [
+          "NORMAL_SUMMON",
+          0.765243411064148
+        ]
+      ]
+    }
+  },
+  "input_count": 0,
+  "e2e_count": 0,
+  "training_used": false
+}

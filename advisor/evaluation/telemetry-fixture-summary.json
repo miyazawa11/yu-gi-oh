@@ -1,0 +1,87 @@
+{
+  "schema": "logical-benchmark-v1",
+  "samples": 0,
+  "all_records": 5,
+  "excluded_modes": {
+    "unclassified": 5
+  },
+  "average_ms": null,
+  "p50_ms": null,
+  "p90_ms": null,
+  "p95_ms": null,
+  "max_ms": null,
+  "success_rate": null,
+  "misoperation_rate": null,
+  "misclick_rate": null,
+  "misclick_rate_note": "子入力数を分母とする独立レビュー。未レビューは0件扱いにしない",
+  "input_count": 0,
+  "retry_rate": null,
+  "fallback_rate": null,
+  "observed_categories": [],
+  "required_categories": [
+    "ACTIVATE_EFFECT",
+    "SPECIAL_SUMMON",
+    "NORMAL_SUMMON",
+    "SPELL_TRAP",
+    "ATTACK",
+    "CHANGE_PHASE"
+  ],
+  "observed_step_types": [],
+  "required_step_types": [
+    "ACTIVATE",
+    "SELECT_CARD",
+    "SELECT_TARGET",
+    "CONFIRM",
+    "CANCEL",
+    "NORMAL_SUMMON",
+    "SPECIAL_SUMMON",
+    "ATTACK",
+    "CHANGE_PHASE",
+    "SET"
+  ],
+  "stage_average_ms": {
+    "capture": null,
+    "recognition": null,
+    "state_build": null,
+    "candidate": null,
+    "decision": null,
+    "coordinate": null,
+    "input": null,
+    "verify": null
+  },
+  "gates": {
+    "samples": false,
+    "timings_complete": false,
+    "classification_complete": false,
+    "pre_admitted_trials": false,
+    "coverage": false,
+    "step_coverage": false,
+    "average": false,
+    "p50": false,
+    "p95": false,
+    "success": false,
+    "misclick_review_complete": false,
+    "misclick": false
+  },
+  "passed": false,
+  "successful_e2e_ms": {
+    "samples": 0,
+    "average_ms": null,
+    "p50_ms": null,
+    "p90_ms": null,
+    "p95_ms": null,
+    "max_ms": null
+  },
+  "all_attempt_elapsed_ms": {
+    "average_ms": null,
+    "p50_ms": null,
+    "p90_ms": null,
+    "p95_ms": null,
+    "max_ms": null
+  },
+  "failure_cases": [],
+  "limitations": [
+    "成功例だけを平均から除外しない。欠測があればKPI不合格",
+    "目的分類の網羅は必要条件。試験シナリオの代表性は別途レビューが必要"
+  ]
+}

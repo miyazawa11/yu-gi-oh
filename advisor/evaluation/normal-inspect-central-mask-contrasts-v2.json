@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "case": "known_solar_field",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": 0.7855971455574036,
+          "occupied": 0.7128181457519531
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": 0.7124552726745605
+        }
+      }
+    },
+    {
+      "case": "known_no_button_opponent",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": 0.9935155510902405,
+          "occupied": 0.7713561058044434
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": 0.7711410522460938
+        }
+      }
+    }
+  ],
+  "training_used": false,
+  "input_count": 0,
+  "same_fixed_exclusion": true,
+  "note": "Solarは別card占有でありempty負例ではない。CIDを本featureから生成しない"
+}

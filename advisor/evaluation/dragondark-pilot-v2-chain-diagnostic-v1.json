@@ -1,0 +1,582 @@
+{
+  "schema": "hand-pilot-own-chain-diagnostic-v1",
+  "code_assets_edited": false,
+  "run_id": "a1797ba960b648fa9cb43e4adfaaef0e",
+  "logical_result": {
+    "result": "interrupted",
+    "failure_reason": "time_limit",
+    "total_ms": 20201.075999997556,
+    "successful_e2e_ms": null,
+    "input_count": 1,
+    "retry_count": 0
+  },
+  "actual_step": {
+    "input_sent": true,
+    "input_epoch_verified": true,
+    "capture_source": "live_mss",
+    "before_sequence": 0,
+    "after_sequence": 20,
+    "screen_point": [
+      -1235,
+      1341
+    ],
+    "result": "changed"
+  },
+  "state_after": {
+    "sequence": 20,
+    "captured_at": 96856.187,
+    "phase": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "template:phase",
+      "observed_at": 96856.187
+    },
+    "prompt": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "unknown",
+      "observed_at": 96856.187
+    },
+    "animation": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "unknown",
+      "observed_at": 96856.187
+    }
+  },
+  "facts_after": {
+    "inspect_context.main1": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "template:fact.inspect_context.main1",
+      "observed_at": 96856.187
+    },
+    "hand_search.own_chain": {
+      "value": "true",
+      "confidence": 1.0,
+      "source": "hand_search:a5997715ebcfe556607238b8a4b6f00ad3c9bfc29ba94fb508e8aadf7c5b865e",
+      "observed_at": 96856.187
+    },
+    "hand_search.detail_card_id": {
+      "value": "13906",
+      "confidence": 1.0,
+      "source": "hand_search:a5997715ebcfe556607238b8a4b6f00ad3c9bfc29ba94fb508e8aadf7c5b865e",
+      "observed_at": 96856.187
+    }
+  },
+  "main1_region": {
+    "rect": {
+      "x": 0.7398438281249999,
+      "y": 0.44027791666666666,
+      "width": 0.06796859375,
+      "height": 0.0527775
+    },
+    "kind": "template",
+    "exemplars": [
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-menu-00.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-menu-01.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-menu-02.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-menu-03.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-menu-04.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-menu-05.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-menu-06.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-menu-07.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-menu-08.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-menu-09.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-placement-00.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-placement-01.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-placement-02.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-placement-03.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-placement-04.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-placement-05.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-placement-06.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-placement-07.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-placement-08.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-placement-09.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-unselected-00.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-unselected-01.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-unselected-02.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-unselected-03.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-unselected-04.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-unselected-05.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-unselected-06.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-unselected-07.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-unselected-08.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-unselected-09.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-inspected-00.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-inspected-01.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-inspected-02.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-inspected-03.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-inspected-04.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-inspected-05.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-inspected-06.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-inspected-07.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-inspected-08.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-post-inspected-09.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-layout2-00.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-layout2-01.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-layout2-02.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-layout2-03.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-layout2-04.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-layout2-05.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-layout2-06.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-layout2-07.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-layout2-08.png"
+      },
+      {
+        "label": "true",
+        "image": "fact_inspect_context_main1-true-layout2-09.png"
+      }
+    ],
+    "threshold": 0.98,
+    "margin": 0.03,
+    "feature": "stable_rgb",
+    "card_id": null,
+    "target": null
+  },
+  "raw_main1": [
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_HAND_SEARCH_PILOT_v2_20261006\\screenshots\\after-0001.png",
+      "sha256": "2177863e9ef9711f8d9cc5821f76458dea2cac52542e3cce0775083e62ec987b",
+      "scores": {
+        "true": 0.9586390852928162
+      },
+      "adopted": [
+        null,
+        0
+      ],
+      "native_mean_BGR": [
+        148.06987295825772,
+        154.6040532365396,
+        132.10496067755597
+      ],
+      "difference_to_old1": {
+        "native_abs_BGR": [
+          13.970356926799758,
+          13.246521476104054,
+          8.421657592256503
+        ],
+        "feature_score": 0.957292914390564
+      },
+      "difference_to_old2": {
+        "native_abs_BGR": [
+          7.304597701149425,
+          10.04658197217181,
+          7.773744706594071
+        ],
+        "feature_score": 0.9713714122772217
+      }
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\own-chain-optional-before\\frame-0000.png",
+      "sha256": "9616a9ec3d347fb6a821957a75dbfe25675c984e7879a6b3709109ac50862a4b",
+      "scores": {
+        "true": 0.9663552045822144
+      },
+      "adopted": [
+        null,
+        0
+      ],
+      "native_mean_BGR": [
+        136.78070175438597,
+        146.88747731397459,
+        129.55807622504537
+      ]
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\own-chain-before\\frame-0000.png",
+      "sha256": "a1879cdf018613c6ff9749cfd8d8127ed387f0f89c5433035559feee88325b2a",
+      "scores": {
+        "true": 0.9668893814086914
+      },
+      "adopted": [
+        null,
+        0
+      ],
+      "native_mean_BGR": [
+        145.5468844525106,
+        153.14367816091954,
+        132.81760435571687
+      ]
+    }
+  ],
+  "windows": {
+    "pre_verify": {
+      "wall_ms": 319.13479999639094,
+      "internal_union_ms": 313.9319000329124,
+      "poll_ms": 0.0,
+      "residual_ms": 5.202899963478558,
+      "stages": {
+        "capture": {
+          "calls": 1,
+          "sum_ms": 22.520099999383092,
+          "p50_ms": 22.520099999383092,
+          "p95_ms": 22.520099999383092,
+          "max_ms": 22.520099999383092
+        },
+        "normal_ui_bank": {
+          "calls": 1,
+          "sum_ms": 46.233699991717,
+          "p50_ms": 46.233699991717,
+          "p95_ms": 46.233699991717,
+          "max_ms": 46.233699991717
+        },
+        "recognition": {
+          "calls": 1,
+          "sum_ms": 71.18520000949502,
+          "p50_ms": 71.18520000949502,
+          "p95_ms": 71.18520000949502,
+          "max_ms": 71.18520000949502
+        },
+        "state_build": {
+          "calls": 2,
+          "sum_ms": 0.17349999689031392,
+          "p50_ms": 0.08674999844515696,
+          "p95_ms": 0.15951499590300955,
+          "max_ms": 0.16759999562054873
+        },
+        "candidate": {
+          "calls": 1,
+          "sum_ms": 0.0897999998414889,
+          "p50_ms": 0.0897999998414889,
+          "p95_ms": 0.0897999998414889,
+          "max_ms": 0.0897999998414889
+        },
+        "decision": {
+          "calls": 1,
+          "sum_ms": 0.14849999570287764,
+          "p50_ms": 0.14849999570287764,
+          "p95_ms": 0.14849999570287764,
+          "max_ms": 0.14849999570287764
+        },
+        "coordinate": {
+          "calls": 1,
+          "sum_ms": 0.022400010493583977,
+          "p50_ms": 0.022400010493583977,
+          "p95_ms": 0.022400010493583977,
+          "max_ms": 0.022400010493583977
+        },
+        "artifact_write": {
+          "calls": 1,
+          "sum_ms": 33.311600011074916,
+          "p50_ms": 33.311600011074916,
+          "p95_ms": 33.311600011074916,
+          "max_ms": 33.311600011074916
+        },
+        "input": {
+          "calls": 1,
+          "sum_ms": 185.99700000777375,
+          "p50_ms": 185.99700000777375,
+          "p95_ms": 185.99700000777375,
+          "max_ms": 185.99700000777375
+        },
+        "pre_input_control": {
+          "calls": 1,
+          "sum_ms": 7.241899991640821,
+          "p50_ms": 7.241899991640821,
+          "p95_ms": 7.241899991640821,
+          "max_ms": 7.241899991640821
+        },
+        "post_input_control": {
+          "calls": 1,
+          "sum_ms": 0.48380000225733966,
+          "p50_ms": 0.48380000225733966,
+          "p95_ms": 0.48380000225733966,
+          "max_ms": 0.48380000225733966
+        }
+      }
+    },
+    "step1_verify": {
+      "wall_ms": 5526.058999996167,
+      "internal_union_ms": 4505.683100040187,
+      "poll_ms": 1006.0019999655196,
+      "residual_ms": 14.373899990459904,
+      "stages": {
+        "verify": {
+          "calls": 1,
+          "sum_ms": 5526.058999996167,
+          "p50_ms": 5526.058999996167,
+          "p95_ms": 5526.058999996167,
+          "max_ms": 5526.058999996167
+        },
+        "frontmost_stop_check": {
+          "calls": 40,
+          "sum_ms": 472.8784000471933,
+          "p50_ms": 0.3356500019435771,
+          "p95_ms": 25.30099000869067,
+          "max_ms": 338.44789999420755
+        },
+        "poll_wait": {
+          "calls": 20,
+          "sum_ms": 1006.0019999655196,
+          "p50_ms": 50.27309999422869,
+          "p95_ms": 50.53809500168427,
+          "max_ms": 50.56079999485519
+        },
+        "capture": {
+          "calls": 20,
+          "sum_ms": 1288.882599925273,
+          "p50_ms": 44.44724999484606,
+          "p95_ms": 189.46684000693506,
+          "max_ms": 327.2897999995621
+        },
+        "verify_input_control": {
+          "calls": 40,
+          "sum_ms": 602.8722000628477,
+          "p50_ms": 0.05985000461805612,
+          "p95_ms": 17.071165003289913,
+          "max_ms": 554.198500001803
+        },
+        "normal_ui_bank": {
+          "calls": 20,
+          "sum_ms": 1752.7349999872968,
+          "p50_ms": 71.72140000329819,
+          "p95_ms": 181.58543499448572,
+          "max_ms": 229.06139999395236
+        },
+        "recognition": {
+          "calls": 20,
+          "sum_ms": 2104.5511999400333,
+          "p50_ms": 86.90774999558926,
+          "p95_ms": 219.50693499893535,
+          "max_ms": 242.42349999258295
+        },
+        "state_build": {
+          "calls": 20,
+          "sum_ms": 3.369600060977973,
+          "p50_ms": 0.15535000420641154,
+          "p95_ms": 0.23447500207112176,
+          "max_ms": 0.291000003926456
+        },
+        "predicate": {
+          "calls": 20,
+          "sum_ms": 33.12910000386182,
+          "p50_ms": 0.4783500044140965,
+          "p95_ms": 3.2704950004699773,
+          "max_ms": 20.92709999124054
+        }
+      }
+    },
+    "post_verify_abstain": {
+      "wall_ms": 14355.882200004999,
+      "internal_union_ms": 9061.921300002723,
+      "poll_ms": 0.0,
+      "residual_ms": 5293.960900002276,
+      "stages": {
+        "artifact_write": {
+          "calls": 1,
+          "sum_ms": 39.03550001268741,
+          "p50_ms": 39.03550001268741,
+          "p95_ms": 39.03550001268741,
+          "max_ms": 39.03550001268741
+        },
+        "log_write": {
+          "calls": 94,
+          "sum_ms": 7.374499968136661,
+          "p50_ms": 0.05935000081080943,
+          "p95_ms": 0.12196000097901555,
+          "max_ms": 1.4559999981429428
+        },
+        "state_build": {
+          "calls": 185,
+          "sum_ms": 18.651799953659065,
+          "p50_ms": 0.1016000023810193,
+          "p95_ms": 0.22045999066904173,
+          "max_ms": 0.5354999884730205
+        },
+        "candidate": {
+          "calls": 93,
+          "sum_ms": 1.9836999563267455,
+          "p50_ms": 0.01920000067912042,
+          "p95_ms": 0.034020000020973364,
+          "max_ms": 0.051700000767596066
+        },
+        "decision": {
+          "calls": 93,
+          "sum_ms": 10.865300122532062,
+          "p50_ms": 0.11059999815188348,
+          "p95_ms": 0.20814000745303918,
+          "max_ms": 0.3293000045232475
+        },
+        "capture": {
+          "calls": 92,
+          "sum_ms": 2574.2270000628196,
+          "p50_ms": 27.70589999272488,
+          "p95_ms": 35.74465999408858,
+          "max_ms": 41.860299999825656
+        },
+        "normal_ui_bank": {
+          "calls": 92,
+          "sum_ms": 5109.899099988979,
+          "p50_ms": 53.40269999578595,
+          "p95_ms": 71.37329000397585,
+          "max_ms": 82.93839999532793
+        },
+        "recognition": {
+          "calls": 92,
+          "sum_ms": 6409.7834999265615,
+          "p50_ms": 67.22709999303333,
+          "p95_ms": 87.50843999878272,
+          "max_ms": 100.74099998746533
+        }
+      }
+    }
+  },
+  "conclusion": "実ACTIVATE後fresh自己chainを確認したが通常画面用Main1 RGB未達で後続Cancel生成が遮断。旧chainでも同Main1未達。ROI閾値変更でなくparent receipt+exact self chain+enabledCancelの限定stageへ。",
+  "missing_endpoint": "afterseq20はstep1途中結果。time_limit時の最終runtime frame/stateが未保存、後刻画像で代用しない。",
+  "limitations": "verify内20画像は保存されていない。game UI出現時刻は不明。normal_ui_bankはrecognition子span、重複加算不可。postverify residualはouter idle/未計測等を含みpuregameではない。",
+  "input_hashes": {
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_HAND_SEARCH_PILOT_v2_20261006\\logical-actions.jsonl": "46cb708e3d2de61a98bf41c536826723cc8cf9c9afcb3e009b7e00bab53ea58f",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_HAND_SEARCH_PILOT_v2_20261006\\actions.jsonl": "aaa6d9ed623b195f9314104e33366eb5db73dbcd39c1092e59f40a9ca88c4b54",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_HAND_SEARCH_PILOT_v2_20261006\\telemetry-spans.jsonl": "d65a4c844c8451ad55f584b6ae0cd6d9b2c2a2c835166dc3d82bdd543689104c",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_HAND_SEARCH_PILOT_v2_20261006\\telemetry-events.jsonl": "979ee72c68a4b5093fe0ba0d456f096ba5cee99593b80326b92f57b5d17dd4d4",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_HAND_SEARCH_PILOT_v2_20261006\\performance.jsonl": "7edc91c16e40153e5e9596a32b361b461f343f9b6a39ed2ac5520f726cc21e4f",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_HAND_SEARCH_PILOT_v2_20261006\\run-metadata.json": "1b40142057faf6141942f240fca966620152c20b9371d4d1c3b942e0410618a4"
+  }
+}

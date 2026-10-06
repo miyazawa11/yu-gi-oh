@@ -1,0 +1,11 @@
+{
+  "status": "action_limit",
+  "actions": 34,
+  "elapsed_seconds": 0.3279999999940628,
+  "action_log": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-cancel-caption-host-v1\\test_route_runs_through_real_p0\\actions.jsonl",
+  "screenshots": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-cancel-caption-host-v1\\test_route_runs_through_real_p0\\screenshots",
+  "logical_actions": 5,
+  "logical_action_log": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-cancel-caption-host-v1\\test_route_runs_through_real_p0\\logical-actions.jsonl",
+  "telemetry_mode": "unclassified",
+  "observation_to_click_ms_p95": 16.00000000325963
+}

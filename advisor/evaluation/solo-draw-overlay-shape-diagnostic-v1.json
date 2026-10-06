@@ -1,0 +1,4998 @@
+{
+  "schema": "solo-draw-overlay-single-method-diagnostic-v1",
+  "fixed_source_sha256": "8a61a55cc99c223d5c36a78980d7ee8b7c043cd181afeca41cf02e94c4471d14",
+  "method": {
+    "white_min_rgb": 200,
+    "native_tolerance": 1,
+    "score": "minimum tolerant recall and precision",
+    "shape_acceptance": 0.85,
+    "blue_B_minus_R_min": 40,
+    "blue_B_minus_G_min": 10,
+    "blue_ratio_min": 0.15,
+    "white_word_bbox": [
+      416,
+      337,
+      455,
+      51
+    ],
+    "self_blue_bbox": [
+      970,
+      294,
+      32,
+      18
+    ],
+    "prototype_pixels": 13903,
+    "prototype_sha256": "e9d6f4a69792b33d43762588c98be4f1c6458877905dc54305437df962938c58"
+  },
+  "scope": "Known runtime timeout used for method selection, not holdout. Alternative overlay only; old Draw no-overlay mode retained separately. No actual opponent Draw or other large phase overlay negative yet.",
+  "groups": {
+    "actual_timeout_overlay": {
+      "count": 2,
+      "shape_min": 1.0,
+      "shape_max": 1.0,
+      "blue_min": 0.7204861111111112,
+      "blue_max": 0.7222222222222222,
+      "alternative_positive": 2
+    },
+    "attack-response-negative": {
+      "count": 3,
+      "shape_min": 0.3233115155002517,
+      "shape_max": 0.32403078472272173,
+      "blue_min": 0.0,
+      "blue_max": 0.0,
+      "alternative_positive": 0
+    },
+    "end-response-after": {
+      "count": 20,
+      "shape_min": 0.24994605480831475,
+      "shape_max": 0.4025749838164425,
+      "blue_min": 0.7083333333333334,
+      "blue_max": 0.71875,
+      "alternative_positive": 0
+    },
+    "end-response-before": {
+      "count": 9,
+      "shape_min": 0.2910882543335971,
+      "shape_max": 0.34244407681795297,
+      "blue_min": 0.0,
+      "blue_max": 0.0,
+      "alternative_positive": 0
+    },
+    "monster-effect-chain-negative": {
+      "count": 3,
+      "shape_min": 0.292886427389772,
+      "shape_max": 0.292886427389772,
+      "blue_min": 0.0,
+      "blue_max": 0.0,
+      "alternative_positive": 0
+    },
+    "old_normal_menu": {
+      "count": 10,
+      "shape_min": 0.2910882543335971,
+      "shape_max": 0.2911601812558441,
+      "blue_min": 0.5625,
+      "blue_max": 0.5729166666666666,
+      "alternative_positive": 0
+    },
+    "old_normal_placement": {
+      "count": 10,
+      "shape_min": 0.27612745450622167,
+      "shape_max": 0.2880673235992232,
+      "blue_min": 0.5243055555555556,
+      "blue_max": 0.5694444444444444,
+      "alternative_positive": 0
+    },
+    "old_normal_post-inspected": {
+      "count": 10,
+      "shape_min": 0.2911601812558441,
+      "shape_max": 0.2911601812558441,
+      "blue_min": 0.4965277777777778,
+      "blue_max": 0.5208333333333334,
+      "alternative_positive": 0
+    },
+    "old_normal_post-transition": {
+      "count": 104,
+      "shape_min": 0.2736100122275768,
+      "shape_max": 0.3370495576494282,
+      "blue_min": 0.46875,
+      "blue_max": 0.5659722222222222,
+      "alternative_positive": 0
+    },
+    "old_normal_post-unselected": {
+      "count": 10,
+      "shape_min": 0.2911601812558441,
+      "shape_max": 0.29159174278932604,
+      "blue_min": 0.5,
+      "blue_max": 0.5277777777777778,
+      "alternative_positive": 0
+    },
+    "old_normal_selection-before": {
+      "count": 1,
+      "shape_min": 0.2911601812558441,
+      "shape_max": 0.2911601812558441,
+      "blue_min": 0.5017361111111112,
+      "blue_max": 0.5017361111111112,
+      "alternative_positive": 0
+    },
+    "old_normal_selection-closed": {
+      "count": 1,
+      "shape_min": 0.2911601812558441,
+      "shape_max": 0.2911601812558441,
+      "blue_min": 0.5052083333333334,
+      "blue_max": 0.5052083333333334,
+      "alternative_positive": 0
+    },
+    "optional-chain-after": {
+      "count": 10,
+      "shape_min": 0.292814500467525,
+      "shape_max": 0.292886427389772,
+      "blue_min": 0.0,
+      "blue_max": 0.0,
+      "alternative_positive": 0
+    },
+    "retry1-ritual-chain-negative": {
+      "count": 3,
+      "shape_min": 0.29180752355606704,
+      "shape_max": 0.29180752355606704,
+      "blue_min": 0.0,
+      "blue_max": 0.0,
+      "alternative_positive": 0
+    },
+    "ritual-chain-before-negative": {
+      "count": 3,
+      "shape_min": 0.292814500467525,
+      "shape_max": 0.292886427389772,
+      "blue_min": 0.0,
+      "blue_max": 0.0,
+      "alternative_positive": 0
+    },
+    "summon-response-after": {
+      "count": 10,
+      "shape_min": 0.29173559663382004,
+      "shape_max": 0.29180752355606704,
+      "blue_min": 0.0,
+      "blue_max": 0.0,
+      "alternative_positive": 0
+    },
+    "summon-response-before": {
+      "count": 10,
+      "shape_min": 0.29173559663382004,
+      "shape_max": 0.29180752355606704,
+      "blue_min": 0.0,
+      "blue_max": 0.0,
+      "alternative_positive": 0
+    },
+    "unknown-chain-response-negative": {
+      "count": 10,
+      "shape_min": 0.292814500467525,
+      "shape_max": 0.292886427389772,
+      "blue_min": 0.0,
+      "blue_max": 0.0,
+      "alternative_positive": 0
+    }
+  },
+  "synthetic_negatives": {
+    "horizontal_reverse": 0.7704092641875854,
+    "shift_6px": 0.8593828670071207,
+    "full_white": 0.6940745528980823,
+    "blank": 0.0
+  },
+  "missing_original": [
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0009.png",
+      "sha256": "d1715baefc4930d4046d031d34c31658a779b3203b2a8e151718a9b6ab751301",
+      "reason": "known original image overwritten; no decode/substitution"
+    }
+  ],
+  "rows": [
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\attack-response-negative\\frame-0000.png",
+      "sha256": "e05a4d3b54c9d4eaddd0cc857e63256db9f9842fe3ebbc93234b5583e5ad2174",
+      "group": "attack-response-negative",
+      "white_shape_score": 0.32403078472272173,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\attack-response-negative\\frame-0001.png",
+      "sha256": "730cd8e74c385522f50bbe0fcbf943cc525bd496e7ebb7bfdade0b423538898e",
+      "group": "attack-response-negative",
+      "white_shape_score": 0.3233115155002517,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\attack-response-negative\\frame-0002.png",
+      "sha256": "187d23795bd80ff6b930d1d091a6fc66975f05e4fc6905e85c698e120ae09915",
+      "group": "attack-response-negative",
+      "white_shape_score": 0.3235272962669927,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0000.png",
+      "sha256": "2bf1e2eeef9af635a77a31c007a33a91edf5cc1ff0e36929967094aed7862816",
+      "group": "end-response-after",
+      "white_shape_score": 0.2512407394087607,
+      "blue_ratio": 0.71875,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0001.png",
+      "sha256": "489d1c1ee81d819c7859b3fa57e6055c7b26ac3383a1aee1e65c5c22dd075063",
+      "group": "end-response-after",
+      "white_shape_score": 0.2502337624973027,
+      "blue_ratio": 0.7170138888888888,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0002.png",
+      "sha256": "b5c243046884e07f5e99490725c3a704bd6a4fae712e6b8da2fa2690f1a069e1",
+      "group": "end-response-after",
+      "white_shape_score": 0.2502337624973027,
+      "blue_ratio": 0.7170138888888888,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0003.png",
+      "sha256": "030c344fed3491783da2697f6f10d373c9ba6c227fe6c0465c52ccfc6ebaf98a",
+      "group": "end-response-after",
+      "white_shape_score": 0.2502337624973027,
+      "blue_ratio": 0.7118055555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0004.png",
+      "sha256": "5fa73fbffcb19f70d1c319480e6c888eaf7b6596f05824d562173aafe2ef1c09",
+      "group": "end-response-after",
+      "white_shape_score": 0.2502337624973027,
+      "blue_ratio": 0.7118055555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0005.png",
+      "sha256": "cf25656727b196a4781116265406dfefe8de139d1d78d7680255631b7b9adb86",
+      "group": "end-response-after",
+      "white_shape_score": 0.2502337624973027,
+      "blue_ratio": 0.7100694444444444,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0006.png",
+      "sha256": "8d1d5a0261017eb8ea8cf32ef6683c79fb33a5984fd08d8d37a7a2ee0f6d2ece",
+      "group": "end-response-after",
+      "white_shape_score": 0.4025749838164425,
+      "blue_ratio": 0.7100694444444444,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0007.png",
+      "sha256": "41dc6da4dcd8c4ec8f6ccf5bf7db9585e8984521af3b7c5b7c99c4ecabdc2a78",
+      "group": "end-response-after",
+      "white_shape_score": 0.39379989930230885,
+      "blue_ratio": 0.7100694444444444,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0008.png",
+      "sha256": "b1d615793c7213ea8bda7c138f9462f81c270cf436030af39115a4c1c7077a57",
+      "group": "end-response-after",
+      "white_shape_score": 0.3965331223476947,
+      "blue_ratio": 0.7083333333333334,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0009.png",
+      "sha256": "dce13431b582773138444218be9cbe82feb05bdf933c1a194fc598854758c5f7",
+      "group": "end-response-after",
+      "white_shape_score": 0.2766309429619507,
+      "blue_ratio": 0.7083333333333334,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0010.png",
+      "sha256": "bc7ae36c439edc7cfd52600561b8d91b85654aa2e3e4d9de510cc423f9a6fcad",
+      "group": "end-response-after",
+      "white_shape_score": 0.2502337624973027,
+      "blue_ratio": 0.7118055555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0011.png",
+      "sha256": "8e5f3aefd7a6c15258bdce220c51a437d875edf428deca747e2c31641dc88099",
+      "group": "end-response-after",
+      "white_shape_score": 0.2502337624973027,
+      "blue_ratio": 0.7118055555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0012.png",
+      "sha256": "274c2b58c668069b5bcc54ac738952a453312220583ea8f907f61295167c59df",
+      "group": "end-response-after",
+      "white_shape_score": 0.2501618355750557,
+      "blue_ratio": 0.7135416666666666,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0013.png",
+      "sha256": "458fe270a5662ece6ec515c30bd66abf3d1e42740734b9c6bb46e9b75605da81",
+      "group": "end-response-after",
+      "white_shape_score": 0.2501618355750557,
+      "blue_ratio": 0.7135416666666666,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0014.png",
+      "sha256": "15355d680cf06668811ee5810fab708345b0068707f801ad73c113c714ba996c",
+      "group": "end-response-after",
+      "white_shape_score": 0.24994605480831475,
+      "blue_ratio": 0.7118055555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0015.png",
+      "sha256": "62bc57d891bf8fab950c42180a85b9d6db30efde4c38b176b5a23153f936ba2c",
+      "group": "end-response-after",
+      "white_shape_score": 0.2872761274545062,
+      "blue_ratio": 0.7118055555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0016.png",
+      "sha256": "a4c09361587aa7d6f7e17518bb32d028f022e1839b425548d7c99cbc2121701f",
+      "group": "end-response-after",
+      "white_shape_score": 0.40142415306049056,
+      "blue_ratio": 0.7100694444444444,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0017.png",
+      "sha256": "cd439e9507bb88a9475ba9c1f4f3178eef319676c28a041a953c28ff6e306288",
+      "group": "end-response-after",
+      "white_shape_score": 0.3931525570020859,
+      "blue_ratio": 0.7100694444444444,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0018.png",
+      "sha256": "2e0e498ac0a61309ba585de0975067d99ad89dc5a26edc8b2d6241996920121b",
+      "group": "end-response-after",
+      "white_shape_score": 0.39919441847083365,
+      "blue_ratio": 0.7118055555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0019.png",
+      "sha256": "9f6d8d844477d72be65f055e9716fffb82752fec8be5aac4c23bfc18d689441a",
+      "group": "end-response-after",
+      "white_shape_score": 0.2764151621952097,
+      "blue_ratio": 0.7135416666666666,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0000.png",
+      "sha256": "d33b71a4da30eb3b47c7fcf89be7bf5f1b6136c2d48e632a2bf0376f50a2fb89",
+      "group": "end-response-before",
+      "white_shape_score": 0.2910882543335971,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0001.png",
+      "sha256": "36a1d1cb0bbe416752b8289e70ace92db80291025a0c0aecb5d09913cdaeda26",
+      "group": "end-response-before",
+      "white_shape_score": 0.2910882543335971,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0002.png",
+      "sha256": "81d8b98fdd1634be7e0bf9aa28e165399c17bcb8599cda9ba354bf14350e4505",
+      "group": "end-response-before",
+      "white_shape_score": 0.34244407681795297,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0003.png",
+      "sha256": "d8d1d3ccd0a396b6abdfaea581a89ec2d89781e0f31fef7f073c025475764401",
+      "group": "end-response-before",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0004.png",
+      "sha256": "acc3cfd68dfb75e3a35efc5f2507da049fba174f421d0792e26cf9d36bc1a31c",
+      "group": "end-response-before",
+      "white_shape_score": 0.2910882543335971,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0005.png",
+      "sha256": "9f518e770d219cbe93e0cbe9090757afb271525979e4a268424ba047933f5464",
+      "group": "end-response-before",
+      "white_shape_score": 0.2910882543335971,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0006.png",
+      "sha256": "5c41dc8597e6930a6cb7e3c79e5ee53c203a98b2c33653dc28e94c2a96f38200",
+      "group": "end-response-before",
+      "white_shape_score": 0.2910882543335971,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0007.png",
+      "sha256": "a45f1689800c38043383b0d324c14c1b96c252189a20aa03e794f0ebc6358f4b",
+      "group": "end-response-before",
+      "white_shape_score": 0.2910882543335971,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0008.png",
+      "sha256": "c41accaf13195c87df9f74119810824b84de1a70bc7be3d112d0631ea4ae244d",
+      "group": "end-response-before",
+      "white_shape_score": 0.2910882543335971,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\monster-effect-chain-negative\\frame-0000.png",
+      "sha256": "ed0a1592ab905d794e62433288293a63f69d49071c0bb15d16a133ba4dc46a48",
+      "group": "monster-effect-chain-negative",
+      "white_shape_score": 0.292886427389772,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\monster-effect-chain-negative\\frame-0001.png",
+      "sha256": "befc5b9086d5065709d3b8f19433aa2d69a0d35e03cd5ac16d458b0627c162fa",
+      "group": "monster-effect-chain-negative",
+      "white_shape_score": 0.292886427389772,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\monster-effect-chain-negative\\frame-0002.png",
+      "sha256": "0cb7b88db21b50e1b93afd0643227f98182b2327da882a96c25dbf334709348a",
+      "group": "monster-effect-chain-negative",
+      "white_shape_score": 0.292886427389772,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0000.png",
+      "sha256": "42e528e9184218f6effe2ca0dd72f1c7330a303f77bc4e41f4eca3e143fbf1e6",
+      "group": "optional-chain-after",
+      "white_shape_score": 0.292886427389772,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0001.png",
+      "sha256": "aa17cb019aaf18d984b89228fbca1c5a3b66a087d9b2a0ea783748d0b5d7a6e3",
+      "group": "optional-chain-after",
+      "white_shape_score": 0.292886427389772,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0002.png",
+      "sha256": "ec7b75ff536139a4b7c6f0ffb27d8b0eb60dcbb94b6ab5a8471fc1ccdc6ab0fc",
+      "group": "optional-chain-after",
+      "white_shape_score": 0.292814500467525,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0003.png",
+      "sha256": "75df26e564b4f4c24d30310f487b1bf9073c1fc9e2f56684a5c9aae923ef5e6b",
+      "group": "optional-chain-after",
+      "white_shape_score": 0.292814500467525,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0004.png",
+      "sha256": "0aee7a01e9a10dc37ec0826e1982869f491148b1fadb722dd158ea50ddbe41ce",
+      "group": "optional-chain-after",
+      "white_shape_score": 0.292814500467525,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0005.png",
+      "sha256": "5c7a28d1f86a0b33eb80d12fbd3c92deac2a58d81e9ed8e2a143d5c37cc3c6a1",
+      "group": "optional-chain-after",
+      "white_shape_score": 0.292814500467525,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0006.png",
+      "sha256": "912903bd33eb6c5d6b01717e06e10ef6f9d6ffdfb95ff47d25e53505cd88c5ce",
+      "group": "optional-chain-after",
+      "white_shape_score": 0.292814500467525,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0007.png",
+      "sha256": "283710adeee9f5c0d51e67f702d920087a0a49a31dd505f830549cf622976c9f",
+      "group": "optional-chain-after",
+      "white_shape_score": 0.292814500467525,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0008.png",
+      "sha256": "46f7c264ddafb29ff5d397ad1e54715cc3f5a3e53d372dd286786942c7bdf0da",
+      "group": "optional-chain-after",
+      "white_shape_score": 0.292814500467525,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0009.png",
+      "sha256": "ec796dd94711b91ea4311a587fe9bbf78aa5b67d658726317ecff4b7a6a5090a",
+      "group": "optional-chain-after",
+      "white_shape_score": 0.292814500467525,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\retry1-ritual-chain-negative\\frame-0000.png",
+      "sha256": "e927435d03276d30c2ec15a7a2bc9a8f0edd3e525fc6f7a855674f0c3bdffdc5",
+      "group": "retry1-ritual-chain-negative",
+      "white_shape_score": 0.29180752355606704,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\retry1-ritual-chain-negative\\frame-0001.png",
+      "sha256": "81b1f6862be39582d5b9416895d3c645fd9bcb3abe98c9a1c3b41f02bee5933a",
+      "group": "retry1-ritual-chain-negative",
+      "white_shape_score": 0.29180752355606704,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\retry1-ritual-chain-negative\\frame-0002.png",
+      "sha256": "c4bf9efa74be48d5e7b465e6326cc9047430946bca948db1db72408c6d6464fe",
+      "group": "retry1-ritual-chain-negative",
+      "white_shape_score": 0.29180752355606704,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\ritual-chain-before-negative\\frame-0000.png",
+      "sha256": "9b717960a6bc8cc81f89d938dbe747c755e929682f56e76bb048422b001e305f",
+      "group": "ritual-chain-before-negative",
+      "white_shape_score": 0.292814500467525,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\ritual-chain-before-negative\\frame-0001.png",
+      "sha256": "6247bd0c287a547519082bf90befe4bd12e2e50a5f578fb904d708a3f761b244",
+      "group": "ritual-chain-before-negative",
+      "white_shape_score": 0.292886427389772,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\ritual-chain-before-negative\\frame-0002.png",
+      "sha256": "b4b23f7011ab9a61b246c7d8eed846f93d0772abbd12accc54939cb7f409ce69",
+      "group": "ritual-chain-before-negative",
+      "white_shape_score": 0.292886427389772,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0000.png",
+      "sha256": "20519d762222052b59fb2dbc54d838e52558b84e1485e6ab01c2e8fefb9b6484",
+      "group": "summon-response-after",
+      "white_shape_score": 0.29180752355606704,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0001.png",
+      "sha256": "7b5a332d10e767319e9331550b2a03d2c64ba6928979b545cd731c97f542675b",
+      "group": "summon-response-after",
+      "white_shape_score": 0.29180752355606704,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0002.png",
+      "sha256": "bbaa83cf2d1c71b845bccb23c4ab39c7a30a4fb70bd5a178bcc06dab107d5125",
+      "group": "summon-response-after",
+      "white_shape_score": 0.29180752355606704,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0003.png",
+      "sha256": "598e9d1efb5b58847578dcbc9c6ae01322b45ddab87c2138df2416ca7ddc744d",
+      "group": "summon-response-after",
+      "white_shape_score": 0.29173559663382004,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0004.png",
+      "sha256": "1cc3ea3006706341732231e10d9eab7af7efbb3f4a3da4a25bf9b4d005582e8d",
+      "group": "summon-response-after",
+      "white_shape_score": 0.29173559663382004,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0005.png",
+      "sha256": "d51c0af40577149394172de7af34402c8b99c690393748c3462f284ca65d0949",
+      "group": "summon-response-after",
+      "white_shape_score": 0.29173559663382004,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0006.png",
+      "sha256": "c7e08967d627c3f72f00604ff58d86da857490eb8ce586f15ad69868e7741160",
+      "group": "summon-response-after",
+      "white_shape_score": 0.29173559663382004,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0007.png",
+      "sha256": "f26541bc0e7476eef40f73e49e2fd9f51a897577abcaed8bc93234ffc937d205",
+      "group": "summon-response-after",
+      "white_shape_score": 0.29173559663382004,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0008.png",
+      "sha256": "bce8a8899b7851a14631162b0fb06ebf23a7a6ec82b6143ad36356ef6178e758",
+      "group": "summon-response-after",
+      "white_shape_score": 0.29173559663382004,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0009.png",
+      "sha256": "dd53d427696bd6bc14575a9614dcbe18fc2894305f9d0109f54813dee4e0cef7",
+      "group": "summon-response-after",
+      "white_shape_score": 0.29173559663382004,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0000.png",
+      "sha256": "a21ebf409fcdef181d68c86656fd7f6eda578379c1de55bd80b0a74d671cd1a1",
+      "group": "summon-response-before",
+      "white_shape_score": 0.29180752355606704,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0001.png",
+      "sha256": "00b82010bb89d13d5bc3faeafb399c3a3855176f5ee8c73bd734238420e1d7fc",
+      "group": "summon-response-before",
+      "white_shape_score": 0.29180752355606704,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0002.png",
+      "sha256": "edf9b41b4badf3470a3342fc05fcb26d773d108227b57dd791a9c1a5260d0f2f",
+      "group": "summon-response-before",
+      "white_shape_score": 0.29180752355606704,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0003.png",
+      "sha256": "ee2f88b47bedd19e1a5e11d23910e5c4a8acee3c3ad932613bde0ecc5dd8aa4b",
+      "group": "summon-response-before",
+      "white_shape_score": 0.29180752355606704,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0004.png",
+      "sha256": "8b84874cb9dbf0be7cc1778f9f9bcd3b5b80708d49f2d286182c868e38b08508",
+      "group": "summon-response-before",
+      "white_shape_score": 0.29180752355606704,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0005.png",
+      "sha256": "db85a04f46ce33f5a2b4b22f877fb31b14da25b7bfae4a0a8de91a1515150242",
+      "group": "summon-response-before",
+      "white_shape_score": 0.29173559663382004,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0006.png",
+      "sha256": "73da6a5af94318bb6d792e561318e4e0450bd047e8ce9b4bb8ec3e545ef5a0b4",
+      "group": "summon-response-before",
+      "white_shape_score": 0.29173559663382004,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0007.png",
+      "sha256": "2b07655352c1d1fb5e7132c39329637e2eaf9892060d9c2bb9a3b4412d572b8d",
+      "group": "summon-response-before",
+      "white_shape_score": 0.29173559663382004,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0008.png",
+      "sha256": "480f40736c33238a15cd4d1fab9140601e98b5341827b9fcb7102135760924e7",
+      "group": "summon-response-before",
+      "white_shape_score": 0.29173559663382004,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0009.png",
+      "sha256": "d164adb13d9fd62c77a40eea57751f3e905f6e5a364dde71efd8ce11fc5ebb71",
+      "group": "summon-response-before",
+      "white_shape_score": 0.29173559663382004,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0000.png",
+      "sha256": "49c5c5c32b4e26501a285b8dbfcadfb09e3768960477a09a680b66ed967e3396",
+      "group": "unknown-chain-response-negative",
+      "white_shape_score": 0.292886427389772,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0001.png",
+      "sha256": "ba469f896bd3b0efd40e6eccb8fc1074a0a2628aa938064890ff8875c71d7f9b",
+      "group": "unknown-chain-response-negative",
+      "white_shape_score": 0.292886427389772,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0002.png",
+      "sha256": "0f53ea800f48f40c1cd63726e7f26d36985ab9e50304ea103b14328f8cbd03b2",
+      "group": "unknown-chain-response-negative",
+      "white_shape_score": 0.292886427389772,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0003.png",
+      "sha256": "7af6d28ca07436e39cae95e5bd5037cde5fe7f1d3e32ae5fe3893a249a6a34de",
+      "group": "unknown-chain-response-negative",
+      "white_shape_score": 0.292886427389772,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0004.png",
+      "sha256": "cf8d2e41cdd8c8d73f85a5556638bbbe4b2f972e9dba3fa78e5a89cd0a4fb823",
+      "group": "unknown-chain-response-negative",
+      "white_shape_score": 0.292886427389772,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0005.png",
+      "sha256": "0719ac341e48e2ad90cba1c092ecfbddd253871a671ec690c7523df3a9f22356",
+      "group": "unknown-chain-response-negative",
+      "white_shape_score": 0.292886427389772,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0006.png",
+      "sha256": "a6466306cc92af7eefc37a661af6855c65d05d097382f1f78a29219d5f7373f4",
+      "group": "unknown-chain-response-negative",
+      "white_shape_score": 0.292886427389772,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0007.png",
+      "sha256": "53c28a1f189f48e7fc433f91fc4c1f23855b2fc4615e56f1f6a786c951e4c473",
+      "group": "unknown-chain-response-negative",
+      "white_shape_score": 0.292814500467525,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0008.png",
+      "sha256": "305d52b6fe1f7d6f6a3c1e051ad5ff7e14b868a44fdd09a50719679735402ef7",
+      "group": "unknown-chain-response-negative",
+      "white_shape_score": 0.292814500467525,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0009.png",
+      "sha256": "ef1b02aabb42c205434b71c64e6301841e898d38dd6861f1950e1c2ea217c380",
+      "group": "unknown-chain-response-negative",
+      "white_shape_score": 0.292814500467525,
+      "blue_ratio": 0.0,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0000.png",
+      "sha256": "8e82ae997dc817e1dd39c24c1975ab5a53e3fa2f2e7b6d515b72395d3f5e3572",
+      "group": "old_normal_menu",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.5625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0001.png",
+      "sha256": "9e061493abbe859147c4f72f13be6c1cf2401a0b83b3f71cfb76ef77a32e4a65",
+      "group": "old_normal_menu",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.5677083333333334,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0002.png",
+      "sha256": "bf293c433e4073865780312537d2a28c81a0027a1dbc145ce87d19c3d4972240",
+      "group": "old_normal_menu",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.5694444444444444,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0003.png",
+      "sha256": "9db102fe201ccb773f121780a586001238bf4f5d0c4dc0a75079352654a8f01a",
+      "group": "old_normal_menu",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.5729166666666666,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0004.png",
+      "sha256": "3f57f3caeb9d39ca532f8645829c273f0e8c887f2b77de616cad6be093ca2558",
+      "group": "old_normal_menu",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.5677083333333334,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0005.png",
+      "sha256": "1c89607f61009250e5ae1933b7107ec2ef73be4c58069f7130386dc68c491577",
+      "group": "old_normal_menu",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.5677083333333334,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0006.png",
+      "sha256": "d0aca4e5debf455b529a6160fd21f76c8e7b6a4784cc2d5029e47da0f70d9905",
+      "group": "old_normal_menu",
+      "white_shape_score": 0.2910882543335971,
+      "blue_ratio": 0.5677083333333334,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0007.png",
+      "sha256": "1d907f5d935ee0d003f22b4a329a7d91520be02b677b128a83bac2d9be9f0040",
+      "group": "old_normal_menu",
+      "white_shape_score": 0.2910882543335971,
+      "blue_ratio": 0.5677083333333334,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0008.png",
+      "sha256": "dbbcccd115e1f14741dfd8f62145d722930d7cdaf6a1ad931432f3f92f77edf4",
+      "group": "old_normal_menu",
+      "white_shape_score": 0.2910882543335971,
+      "blue_ratio": 0.5642361111111112,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0009.png",
+      "sha256": "e780135141f5ca231614d4a20a7184dbf9c4815d984d6050a89937302f4694a7",
+      "group": "old_normal_menu",
+      "white_shape_score": 0.2910882543335971,
+      "blue_ratio": 0.5625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0000.png",
+      "sha256": "4be4bd395a93cec2d98dd83cbcc5a27b5e39f641acec8eccbd5af6aa53a7edf6",
+      "group": "old_normal_placement",
+      "white_shape_score": 0.28447097748687333,
+      "blue_ratio": 0.5659722222222222,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0001.png",
+      "sha256": "2208dcbc354a54d345a2cda8afed28be624f536a5d925b7eade7605fe3b82d55",
+      "group": "old_normal_placement",
+      "white_shape_score": 0.2859814428540603,
+      "blue_ratio": 0.5677083333333334,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0002.png",
+      "sha256": "fb9dbaa42b92140aa7687df0fd531fbcc6064d8a8ff367727f1fd2bd245e2d23",
+      "group": "old_normal_placement",
+      "white_shape_score": 0.2829605121196864,
+      "blue_ratio": 0.5694444444444444,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0003.png",
+      "sha256": "b741d7c325fa4f181e90dcf14400c9210fb6984922890ff628a34f2aacaf54e4",
+      "group": "old_normal_placement",
+      "white_shape_score": 0.27612745450622167,
+      "blue_ratio": 0.5677083333333334,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0004.png",
+      "sha256": "e703283e3f85970abb6671c192a0999c9e2bc7aeb3e0063a615d1f76d38744a4",
+      "group": "old_normal_placement",
+      "white_shape_score": 0.2880673235992232,
+      "blue_ratio": 0.5677083333333334,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0005.png",
+      "sha256": "65c0a2e4f7c789dc1838c585cf5d70ce9ef448b14256b55e79ef1a5129eb61f0",
+      "group": "old_normal_placement",
+      "white_shape_score": 0.2859814428540603,
+      "blue_ratio": 0.5607638888888888,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0006.png",
+      "sha256": "9801d8985ef2ecb7f5e5da5cd0ee91e983038cea67d152546cb25e29cad318e5",
+      "group": "old_normal_placement",
+      "white_shape_score": 0.28612529669855424,
+      "blue_ratio": 0.5555555555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0007.png",
+      "sha256": "0a88684278e4ecc440b70d41e3090560e2512746c07246b14142d9cfc19c79e4",
+      "group": "old_normal_placement",
+      "white_shape_score": 0.2764151621952097,
+      "blue_ratio": 0.5451388888888888,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0008.png",
+      "sha256": "a2d2a8a9d62b1ae6015cefb92b032dd3dd293baa7352cd25c0cd88198c6b6f09",
+      "group": "old_normal_placement",
+      "white_shape_score": 0.28195353520822847,
+      "blue_ratio": 0.5347222222222222,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0009.png",
+      "sha256": "3ab88b152cfd7d969107f6bfa231413a3a1ef34c4c104a8406e7a43b314a91af",
+      "group": "old_normal_placement",
+      "white_shape_score": 0.28634107746529525,
+      "blue_ratio": 0.5243055555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0000.png",
+      "sha256": "5a2e70e279bce665a9aac341e22d69d8db37cf23fd92cce42fa83bc444160a7b",
+      "group": "old_normal_post-inspected",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.5,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0001.png",
+      "sha256": "50e41d7570c098afcaf1753621344b3667508d3aef02b8b08818cdc2c7e0d915",
+      "group": "old_normal_post-inspected",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.4965277777777778,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0002.png",
+      "sha256": "5b0997b2a982e608012e473123736c3247bdf35f5e9ab91f0ebb5bfc1c836ce0",
+      "group": "old_normal_post-inspected",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.4965277777777778,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0003.png",
+      "sha256": "124bb90d9c22f2356f718170769b4fd55285d38f3b56e539cd785b1ffb0ba673",
+      "group": "old_normal_post-inspected",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.4982638888888889,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0004.png",
+      "sha256": "20dd6a52c37446c8c10b09da12a47a9ae2c3b8f83af72284dcb22f45f04563ee",
+      "group": "old_normal_post-inspected",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.5,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0005.png",
+      "sha256": "0618d51e9416872726b4432748c246a7fe7a5a15d2d984dcf09f296e0d7b13e8",
+      "group": "old_normal_post-inspected",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.5017361111111112,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0006.png",
+      "sha256": "9628859984f3288f30a74a398f16911de9800d9b805e65de3f1e72da2b31fdd7",
+      "group": "old_normal_post-inspected",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.5069444444444444,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0007.png",
+      "sha256": "977e3507afd05bc3ca878fa8b33db70a29f880807d623a9984d9606fc1ecad3d",
+      "group": "old_normal_post-inspected",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.5104166666666666,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0008.png",
+      "sha256": "002486295491cd6e4422684291603258bab75b118a31751121b71032288ee603",
+      "group": "old_normal_post-inspected",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.5138888888888888,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0009.png",
+      "sha256": "2e135bb8fe4a8307709a677dd85bd8cf3f274a93984ecd7ad25b866cce88c067",
+      "group": "old_normal_post-inspected",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.5208333333333334,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0000.png",
+      "sha256": "697d9cca33398dd50968847d8985bcf9a12be1d527e9971d76b7e0d0764d2268",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28432712364237933,
+      "blue_ratio": 0.5520833333333334,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0001.png",
+      "sha256": "6ed7f411a79f28932b8c0847f845f5bd118a2d4d471e62d5bb76efbcd0b37ba9",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2859814428540603,
+      "blue_ratio": 0.5538194444444444,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0002.png",
+      "sha256": "8313cb33810c35888b04b82eb0fb0bc772397965b13251a062c507c8c76ac940",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2820254621304754,
+      "blue_ratio": 0.5572916666666666,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0003.png",
+      "sha256": "f6e236736b43a10a2c562deb020024d738958ad5d276ce322207625d26014017",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2839674890311444,
+      "blue_ratio": 0.5590277777777778,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0004.png",
+      "sha256": "c259a28a89f056a6a1d198c5b2d9254fb783ee44722a50a5261216427091a92c",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.27979572754081855,
+      "blue_ratio": 0.5590277777777778,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0005.png",
+      "sha256": "7928a00b6809cc9e14e16fd76916034b75ac59a8201464dbfb67f24dd8fbf70b",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28432712364237933,
+      "blue_ratio": 0.5572916666666666,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0006.png",
+      "sha256": "2b7155786975f5db8d8b594e0a1774845106b3b26543bedcb6d2d16380c3bf15",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28454290440912033,
+      "blue_ratio": 0.5590277777777778,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0007.png",
+      "sha256": "3c77bda02455e5fa19178b28976b13cf8af256fc5b0ba599c5b49b09738cdb8e",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28411134287563833,
+      "blue_ratio": 0.5607638888888888,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0008.png",
+      "sha256": "78466fac79b1052af27f6d1b8935718b0898dedf8bb014392a3900264725fb50",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2859814428540603,
+      "blue_ratio": 0.5607638888888888,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0009.png",
+      "sha256": "0aaeb6296389a952a0187fbd9a17931fd78a67fc9d82fca949a7f9fbbd3cbded",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.27979572754081855,
+      "blue_ratio": 0.5625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0010.png",
+      "sha256": "7686b19682fc24b50eba173e06bbf176077895f6f58df590b15fc5bbd0870b0d",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2835359274976624,
+      "blue_ratio": 0.5625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0011.png",
+      "sha256": "2c461b50e66b5d9cd612907ba84ce720a15c4b0cbc16a358ee5250ad9111b75b",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2859814428540603,
+      "blue_ratio": 0.5625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0012.png",
+      "sha256": "753f0e156226d443629fec7b7b0494ffda8513c7866076755443308ab96ea35f",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28166582751924046,
+      "blue_ratio": 0.5625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0013.png",
+      "sha256": "520446ca2e4c76674778a53125cfcebf5fc91ff3c12de9c9881e1caf0aa0af20",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2859814428540603,
+      "blue_ratio": 0.5625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0014.png",
+      "sha256": "d356ad49364c242d24b17c80cd8e1e731b524720d8748e9249fadcb40a399f09",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2780694814068906,
+      "blue_ratio": 0.5625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0015.png",
+      "sha256": "af57b57d07f839ae92f3704e39aa8c9e56da77a80a74aea613c3c87a08bc979b",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28670071207653025,
+      "blue_ratio": 0.5625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0016.png",
+      "sha256": "c34766d1ce1f182ad11beef5854692ebb3a2cbd0fae16e7d68c331675b271a1d",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2839674890311444,
+      "blue_ratio": 0.5625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0017.png",
+      "sha256": "1796ceea939e1bc4390d2b28ceb3c5a3fdebf3184eb3e0f5fffa35b11c503b71",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.27979572754081855,
+      "blue_ratio": 0.5625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0018.png",
+      "sha256": "877f0b98c14ae5eb939665765f84e3db620ca00475fa722f83344e952c7dc586",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2834640005754154,
+      "blue_ratio": 0.5625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0019.png",
+      "sha256": "322a6201e75d50ac2d14067bb8d581e2af165e719d4185e287b1f158686460da",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28454290440912033,
+      "blue_ratio": 0.5607638888888888,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0020.png",
+      "sha256": "33c8984ab93ce33b9201217c13448639a43d7d04a8d6bc67fbbc0c3ab9530bb6",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.27979572754081855,
+      "blue_ratio": 0.5572916666666666,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0021.png",
+      "sha256": "fe2726f3af4662f620dc232011645c726bad63dcd71186c8b7b691b3175db73b",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2835359274976624,
+      "blue_ratio": 0.5572916666666666,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0022.png",
+      "sha256": "2c9bf5906f4b589619e0537c65e7cbef335df11b8fc4b7115fe4591d1a7ab929",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2880673235992232,
+      "blue_ratio": 0.5572916666666666,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0023.png",
+      "sha256": "12f016a442237826381b672d24b370da1fed16626bc563c3a17008a6904aa71e",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28166582751924046,
+      "blue_ratio": 0.5555555555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0024.png",
+      "sha256": "b749e86f0480106e9288e3f19a4802210d2458b88acec986fe899d6891a43b09",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2859095159318133,
+      "blue_ratio": 0.5538194444444444,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0025.png",
+      "sha256": "6c800f7fdbab1135370647450abfb8f1d3d741bba60aba9154b81a1dfec65a9c",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2780694814068906,
+      "blue_ratio": 0.5503472222222222,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0026.png",
+      "sha256": "31abda994162e4835aa0e55e2374dc5395b52d94a541e4606c9f5aa1f8fc0750",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2835359274976624,
+      "blue_ratio": 0.5416666666666666,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0027.png",
+      "sha256": "957677acd541dc0021e889de44f63d79a1e932cd6ad76e4090b9ba97518dafb2",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28195353520822847,
+      "blue_ratio": 0.5399305555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0028.png",
+      "sha256": "8bec0843ac46717c54909aaa447ff79b85a517fa21745b501bd797bf863e6383",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28641300438754225,
+      "blue_ratio": 0.5364583333333334,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0029.png",
+      "sha256": "a854bba74a54d54d3687d23fdf13f792c70c2091e4db019063fd839edbb2da98",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28317629288642737,
+      "blue_ratio": 0.5347222222222222,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0030.png",
+      "sha256": "cfbe0cd193613cdddc3b24e3d924775313183f9adb81e1c8c0ba7555efb0f561",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.27627130835071567,
+      "blue_ratio": 0.5260416666666666,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0031.png",
+      "sha256": "17955e6c65ca3767527daea2f4908cc36fb052a0ada65554150d3b0ff163088e",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.27943609292958355,
+      "blue_ratio": 0.5208333333333334,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0032.png",
+      "sha256": "17ee4d815fd56f426e7ff3456f285bca43b0d69ecc5a796e7fbcf3bff31822a0",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.27727828526217363,
+      "blue_ratio": 0.515625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0033.png",
+      "sha256": "fdc87db72690d149b1651750a70036dd069e077bf451652ff5c04be327892595",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.27929223908508954,
+      "blue_ratio": 0.5138888888888888,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0034.png",
+      "sha256": "3406854f0c173c8c091b8209d736c0cb22f1d842063de8c0671ea4947379adb0",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.3370495576494282,
+      "blue_ratio": 0.5069444444444444,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0035.png",
+      "sha256": "f78dff49b707d585bae5e55ecab5e0a3cce3c3b7b9d0b9cfe193a787735a251d",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2896497158886571,
+      "blue_ratio": 0.5052083333333334,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0036.png",
+      "sha256": "7e604bb489a336e1763c49c5e731c90e3a0ada67d87078be09134eea982ea03f",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2873480543767532,
+      "blue_ratio": 0.5017361111111112,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0037.png",
+      "sha256": "fa87e51073477a5e6681afc404312671dc5a85ebe136c1bde3c99a9750c155be",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2892181543551751,
+      "blue_ratio": 0.5,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0038.png",
+      "sha256": "ec99f20848ff65a839001154a58e19b1485a713c01425b9352663d555dbbc8aa",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2835359274976624,
+      "blue_ratio": 0.4947916666666667,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0039.png",
+      "sha256": "1f1ea79eeee405e4d2308433badc97d6021b1e8e0cd1e8e5ba71ecf7100970db",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2859814428540603,
+      "blue_ratio": 0.4930555555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0040.png",
+      "sha256": "4b4f96339c2b452bdfc65dab26ac52b40ff83244bc49f5e4105ccc13bd66222e",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2805149967632885,
+      "blue_ratio": 0.4895833333333333,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0041.png",
+      "sha256": "506e0d15801d9ed3c62f41ae67e9c7d47992711f90ea8dc947f266dd203cb50b",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28432712364237933,
+      "blue_ratio": 0.4878472222222222,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0042.png",
+      "sha256": "ee12a515092f7d4e2b4e77de6d480019d9be2daad76f931291e12d1c3b58c498",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28109041214126446,
+      "blue_ratio": 0.4861111111111111,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0043.png",
+      "sha256": "5a7a2c031ddbaf31c551f965c191bf543c3c8f97b2eb8bb755219701705bdbf0",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2834640005754154,
+      "blue_ratio": 0.4826388888888889,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0044.png",
+      "sha256": "a47d663e340868cbdac84fa68dc05db5e1209502b34716a6b76cb6290282fc81",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28634107746529525,
+      "blue_ratio": 0.4861111111111111,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0045.png",
+      "sha256": "dfbc550ebb9120cd9101f1006f3fc5b81757d8bccf27bc8b133d37d7acf5852a",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28109041214126446,
+      "blue_ratio": 0.4826388888888889,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0046.png",
+      "sha256": "568f25645c30a280c88bc5e6196e42554b3d1a4345191b71b18bb344879090ae",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2871322736100122,
+      "blue_ratio": 0.4774305555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0047.png",
+      "sha256": "d4b62cf70336d261a22dfcff6b9b4ace3764a861a77df4c7bcd50bd6819f83db",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2880673235992232,
+      "blue_ratio": 0.4809027777777778,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0048.png",
+      "sha256": "66269520e57c399c6c17d611513a908e5ee6e312912e5c0f5a2da9ca89a69a21",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2835359274976624,
+      "blue_ratio": 0.4756944444444444,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0049.png",
+      "sha256": "b0e588808fcfc9e000f795fab5c3c0f9312c36fc01fda959bfda449505c6524d",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28634107746529525,
+      "blue_ratio": 0.4739583333333333,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0050.png",
+      "sha256": "70cfab9637a8ac09836923952c8c59d7e9bb49d76db4a839d311a17cf8fdfe97",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2780694814068906,
+      "blue_ratio": 0.46875,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0051.png",
+      "sha256": "b720899d66575dff340a01c962969abbc0c9d655ddefecb3648738bbf5226160",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2860533697763073,
+      "blue_ratio": 0.46875,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0052.png",
+      "sha256": "c48e14655e05ad10e807b336527f66c3ebe61f1c13ba39406a2217631e715728",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28454290440912033,
+      "blue_ratio": 0.46875,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0053.png",
+      "sha256": "a7e28db5abd1878f1907f446e9cfd0f52da0b62639b449851773c1e388b84d24",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.27612745450622167,
+      "blue_ratio": 0.4722222222222222,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0054.png",
+      "sha256": "d31adb476cf6d108169a90ca8b92c4e84f99e1c5906d34c3670e52902f85ed8e",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2835359274976624,
+      "blue_ratio": 0.46875,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0055.png",
+      "sha256": "b7ae8c93aeda0e73af5c454ffff745d2ac294861693438951d422b2947dbdc62",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2892181543551751,
+      "blue_ratio": 0.4704861111111111,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0056.png",
+      "sha256": "631a93b816afcbf3039c9eca84a3551a445e50593737ce380b0c240155f07add",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2784291160181256,
+      "blue_ratio": 0.4704861111111111,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0057.png",
+      "sha256": "ac3834b3d7c1ade460de821ad26a8043490bad36f16e96ddf12af515cdd1159e",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28432712364237933,
+      "blue_ratio": 0.4739583333333333,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0058.png",
+      "sha256": "5419dc389861223083b13fc7f60f9e01969e43553ed732d17da1e9fd9099ec7e",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2859814428540603,
+      "blue_ratio": 0.4756944444444444,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0059.png",
+      "sha256": "c8041cc7f94b8c94b02b0b20774421e5ed6ec89199affbe563116b44cf69f606",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28411134287563833,
+      "blue_ratio": 0.4774305555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0060.png",
+      "sha256": "d96682fa45060fc97073e645c4714d4d76e8a71a1bd7f6b4a41c51cb79e3dd21",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2859814428540603,
+      "blue_ratio": 0.4791666666666667,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0061.png",
+      "sha256": "4fa7acaef226eb92ba2c02575805938d4d85da2344f6e91fbca718de713441bb",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2784291160181256,
+      "blue_ratio": 0.4878472222222222,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0062.png",
+      "sha256": "6eaca52d0fc9d09fc5208adaecc2efcde9b77a65b946cec53f6742d67513b1d2",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28706034668776526,
+      "blue_ratio": 0.4878472222222222,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0063.png",
+      "sha256": "10af71a8d9f8cea34f5936eb8d921d4282a3401405c094a4cf4c534c19fef4e0",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28195353520822847,
+      "blue_ratio": 0.4895833333333333,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0064.png",
+      "sha256": "3450cf02cc8a6bdfea12e7002cd9a4dea293e234e23b2cec4f2d04ab9de78524",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2826008775084514,
+      "blue_ratio": 0.4930555555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0065.png",
+      "sha256": "be0fcdc867e07d937b606173b463238d08e882c7773905e021c46553d77e418c",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2892181543551751,
+      "blue_ratio": 0.4965277777777778,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0066.png",
+      "sha256": "6f5dca288f6d31c447094f727821e625ba8572984d4323822df585dccde7df8c",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2780694814068906,
+      "blue_ratio": 0.5,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0067.png",
+      "sha256": "f7d976fe905ea851b8e6a056ef2d65e94e11b4de19bf012b1d9741ad258f9ed2",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2835359274976624,
+      "blue_ratio": 0.4982638888888889,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0068.png",
+      "sha256": "c6942863ae4e720f973645bd9eedf55c8ce1c3c5266b65dc4c1b10e21e371412",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28109041214126446,
+      "blue_ratio": 0.5086805555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0069.png",
+      "sha256": "2961d3ed42e6d9b2c70c86c4bae08a6d1745226759d4843f47fbd5f0ce6c413b",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2770625044954326,
+      "blue_ratio": 0.5104166666666666,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0070.png",
+      "sha256": "0f9ac6ac5266bad18393d7bf25f9a08e44962632a6d2112a54f96290ec8c468c",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2839674890311444,
+      "blue_ratio": 0.5121527777777778,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0071.png",
+      "sha256": "38ceb3903ba08a70e091584e2bcc7c45f9f6c2764ef7a4d5c9a244ec9efc45f8",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28109041214126446,
+      "blue_ratio": 0.515625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0072.png",
+      "sha256": "192db25c65a05e06b5a2312d807b6ad7e83624b6885d07846fae3d4e38a89dcc",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2829605121196864,
+      "blue_ratio": 0.5173611111111112,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0073.png",
+      "sha256": "1443272c3f8105c1b43803cb74fcaa62f43c6dd48faf3c3b77789a526b6bfa40",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28454290440912033,
+      "blue_ratio": 0.5190972222222222,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0074.png",
+      "sha256": "d86d59a9203f458f82c2459afc8996602efff1858ea55bdd5294827ea89f0650",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2770625044954326,
+      "blue_ratio": 0.5190972222222222,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0075.png",
+      "sha256": "ab88d72c47cc5219d3f1603c16eba021ab8a7146aad2e035f6107c34d27a77cc",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2839674890311444,
+      "blue_ratio": 0.5295138888888888,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0076.png",
+      "sha256": "c294f151058d9fef14147995e3d175cd2270d70689ed65189d6dba770bd68439",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28195353520822847,
+      "blue_ratio": 0.5329861111111112,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0077.png",
+      "sha256": "c2e8315aa01d7cf6fb60213ce241ac1f1277800a6167a34e0ca37d49aa11bda8",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2836797813421564,
+      "blue_ratio": 0.5381944444444444,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0078.png",
+      "sha256": "2194e442ac14e2c4ad20c20461b6f7c98f1655c9838829fde11ae227e1ae7aaf",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2859814428540603,
+      "blue_ratio": 0.5486111111111112,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0079.png",
+      "sha256": "e4c3594ceb1bb3fde50b1416e6d73248faff000181df7780faad79e19aace8ed",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.27979572754081855,
+      "blue_ratio": 0.5520833333333334,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0080.png",
+      "sha256": "dc7aacf269999ea398c953e2eefbe986aa62ecb020b24735d21e6eae3ef5bbcc",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2835359274976624,
+      "blue_ratio": 0.5538194444444444,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0081.png",
+      "sha256": "f7b87d3542ac8d5e2930c0984ced51808b44eb67480c694ab0d0b7093c231683",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2894339351219161,
+      "blue_ratio": 0.5555555555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0082.png",
+      "sha256": "f7085ca437f8fc9ad23d29338e1335b79470810200cf86ef07b5b9282989b6e6",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.27727828526217363,
+      "blue_ratio": 0.5572916666666666,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0083.png",
+      "sha256": "6629ac4903bad8d7d7c8666530ff360b5250df263c2540e0f9a793dbd95a86fc",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2872761274545062,
+      "blue_ratio": 0.5590277777777778,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0084.png",
+      "sha256": "b46e97401ed053634eb1e842cfee278c0fdcc3b3df89a7543de054a8f2473e9c",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28130619290800546,
+      "blue_ratio": 0.5590277777777778,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0085.png",
+      "sha256": "371860c3ad9bb36597ca146a807a2f9e7df20ab52ba61468cbe254f261615806",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.27727828526217363,
+      "blue_ratio": 0.5607638888888888,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0086.png",
+      "sha256": "50ec969acc7b32dd2002f32754664288e8ec6aacd7b601934ae6865f8981865a",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2838955621088974,
+      "blue_ratio": 0.5607638888888888,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0087.png",
+      "sha256": "56c3096dc47495728d86781f8b8c3f44ba0d802ba0145db63f56d64393333fa0",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28195353520822847,
+      "blue_ratio": 0.5625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0088.png",
+      "sha256": "664737f12e3a8137d1dce9d7ac718e4b5910804b44403e2c2090e95d59cdfcfd",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2834640005754154,
+      "blue_ratio": 0.5607638888888888,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0089.png",
+      "sha256": "57fae224284a850accc6f4603e5b9fe8f6c0cbff4d27d9211dc0ccab3d289b7c",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28454290440912033,
+      "blue_ratio": 0.5607638888888888,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0090.png",
+      "sha256": "1c34bbbb8eb9134c1de963c6a05761a33a2b36864fd5be25871be8c128d12f0b",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28188160828598147,
+      "blue_ratio": 0.5625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0091.png",
+      "sha256": "59ff72c5ce19939e6986be6b9a02457e2cd0247f22c4172d30cd61b0bbc97f4d",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2859814428540603,
+      "blue_ratio": 0.5642361111111112,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0092.png",
+      "sha256": "1f5648b007f98a32ef63b103330ecf03e2fec91ea6e44da9f2301fa25db7c9b9",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2780694814068906,
+      "blue_ratio": 0.5642361111111112,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0093.png",
+      "sha256": "bd85ea06ea23eee001485dd9c47597912a1b6e03fb153a886723124f773d9a91",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28432712364237933,
+      "blue_ratio": 0.5659722222222222,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0094.png",
+      "sha256": "28fa0e405992dedaa0f42c7a5d4ff1eefbcbb1164fb7c4eb0235b003e52ae835",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28454290440912033,
+      "blue_ratio": 0.5642361111111112,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0095.png",
+      "sha256": "c174c3179776568b28c34434bc981c35a84c7ef9225b356d04e7d13e97465ff0",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.27612745450622167,
+      "blue_ratio": 0.5625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0096.png",
+      "sha256": "f2fa3af55abffca21e6d57d2fe38cac9b006c07c0b53af389cd70ba55429c200",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2838955621088974,
+      "blue_ratio": 0.5625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0097.png",
+      "sha256": "e33e6dd32fb7215dff18989b8ac7dee0bd0d9f33857948988e0d7ceb280bd642",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28195353520822847,
+      "blue_ratio": 0.5625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0098.png",
+      "sha256": "918f2d8867362ae5d35121ead3bc15120a711c035b55c8eb34077b9b79b6dc5b",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2834640005754154,
+      "blue_ratio": 0.5625,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0099.png",
+      "sha256": "f53c4663f316db4f5d134ad9cf85ac32a2ab1d940d87b83cfe9968181c61ddad",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2839674890311444,
+      "blue_ratio": 0.5572916666666666,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0100.png",
+      "sha256": "ff6e5061ae8a3470a8b4722f0012551e32273a443c53c7a43929d186a41e082b",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.27979572754081855,
+      "blue_ratio": 0.5572916666666666,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0101.png",
+      "sha256": "2c34f1c043e01f1907aa0a8d82896ed94e25b7981fc38cec231c7c021981236d",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.28432712364237933,
+      "blue_ratio": 0.5572916666666666,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0102.png",
+      "sha256": "d194b6e85de31ef178ad6e56ee5fe7dd36e83f18b1fff5c94ecbb15d7d51c2f3",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2839674890311444,
+      "blue_ratio": 0.5590277777777778,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-transition\\frame-0103.png",
+      "sha256": "abff35626ce5f7025888a6873593c0124966a9b7b07b309d81dcc452f21d990b",
+      "group": "old_normal_post-transition",
+      "white_shape_score": 0.2736100122275768,
+      "blue_ratio": 0.5590277777777778,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0000.png",
+      "sha256": "9e7e40f376ef23b5084f6614ad8bf7895dd78776e6b428699f7fbdda8a8afb17",
+      "group": "old_normal_post-unselected",
+      "white_shape_score": 0.29159174278932604,
+      "blue_ratio": 0.5277777777777778,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0001.png",
+      "sha256": "3a4c2de0620afabff54b74ea7a15046eccd20de203caee433f6fd64c5d076acd",
+      "group": "old_normal_post-unselected",
+      "white_shape_score": 0.29137596202258503,
+      "blue_ratio": 0.5243055555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0002.png",
+      "sha256": "62f2c91105cdb73508627c0e3062a1dbdc24611e026f06509db3e7e33a6fb9c1",
+      "group": "old_normal_post-unselected",
+      "white_shape_score": 0.29137596202258503,
+      "blue_ratio": 0.5225694444444444,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0003.png",
+      "sha256": "9419c7056335b1b7ebe67ada10c63dedd644c7bf2ee7bdd7722051e83fc2bc7f",
+      "group": "old_normal_post-unselected",
+      "white_shape_score": 0.29137596202258503,
+      "blue_ratio": 0.5138888888888888,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0004.png",
+      "sha256": "b82c3ac166db9012f30d0d1a47fef38bea3322e4dafe46d55493afb8588e310b",
+      "group": "old_normal_post-unselected",
+      "white_shape_score": 0.29137596202258503,
+      "blue_ratio": 0.5138888888888888,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0005.png",
+      "sha256": "40f83dcf04e88c3037a309cfdc771a9c0e677922e4b0811563534ddd1872dc8a",
+      "group": "old_normal_post-unselected",
+      "white_shape_score": 0.29137596202258503,
+      "blue_ratio": 0.5121527777777778,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0006.png",
+      "sha256": "1dc03d8e14a63200967af5c970dc9acb91b39eb3051874f03ca4e5fc6c1ffeaf",
+      "group": "old_normal_post-unselected",
+      "white_shape_score": 0.29137596202258503,
+      "blue_ratio": 0.5086805555555556,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0007.png",
+      "sha256": "8d2f244f5f14568bdce2902f8885c29b2de8abfad62bd68b7952a74054c00e0b",
+      "group": "old_normal_post-unselected",
+      "white_shape_score": 0.29137596202258503,
+      "blue_ratio": 0.5034722222222222,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0008.png",
+      "sha256": "5cd2c167a0d3e3c0d7ad1b7c3e000ba6a00785252d399b5fdf94451ce1205e50",
+      "group": "old_normal_post-unselected",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.5,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0009.png",
+      "sha256": "a3945b81208d89668dfc5258fe0d7bf49396888bf076924660362f3ac3995106",
+      "group": "old_normal_post-unselected",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.5017361111111112,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\selection-before\\frame-0000.png",
+      "sha256": "5c87f2a0a0ef23d7da51013d72d758ff08f74f9dc35d4e162e906b52787fecf9",
+      "group": "old_normal_selection-before",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.5017361111111112,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\selection-closed\\frame-0000.png",
+      "sha256": "2c88abd3740831dcf30119c54f113a5c28dc8ba4049b14fd898bbfbe0538a432",
+      "group": "old_normal_selection-closed",
+      "white_shape_score": 0.2911601812558441,
+      "blue_ratio": 0.5052083333333334,
+      "candidate_method_pass": false,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_PILOT_v2_20261006\\screenshots\\verify-failure-0000-last_recognized-seq19.png",
+      "sha256": "f5c059b45d69d8a4794afc92ac9c21ecef8557b39cd4fea2ed33277e6dc0fa5f",
+      "group": "actual_timeout_overlay",
+      "white_shape_score": 1.0,
+      "blue_ratio": 0.7204861111111112,
+      "candidate_method_pass": true,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_PILOT_v2_20261006\\screenshots\\verify-failure-0000-last_captured-seq20.png",
+      "sha256": "c0bdf47e1d53e703aa6febbd8278ff640a6d8ee33e69078e9fdd514dd6b6448b",
+      "group": "actual_timeout_overlay",
+      "white_shape_score": 1.0,
+      "blue_ratio": 0.7222222222222222,
+      "candidate_method_pass": true,
+      "native_bbox": [
+        416,
+        337,
+        455,
+        51
+      ],
+      "self_blue_bbox": [
+        970,
+        294,
+        32,
+        18
+      ],
+      "training_used": false
+    }
+  ]
+}

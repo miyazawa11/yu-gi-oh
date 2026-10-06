@@ -1,0 +1,2026 @@
+{
+  "run_id": "57d29fdb00414c95ba2d476655e7e41d",
+  "mode": "unclassified",
+  "source_sha256": "c3acec46294c7a6856038601a10785fcc41444923d6b0ab32c37f23ebc82a370",
+  "python": "3.12.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "clock": "perf_counter",
+  "clock_resolution_seconds": 1e-07,
+  "registered_trials": [],
+  "run_purpose": "pilot",
+  "cohort_id": null,
+  "cohort_manifest_sha256": null,
+  "cohort_slot": null,
+  "data_integrity": true,
+  "calibration_sha256": "5a9a3093a6b36f4d9abdf934ee7b87b7cc2f23cf6a35ae51ee5596a9dc4e43a3",
+  "calibration": {
+    "name": "synthetic_route_not_real_screen",
+    "viewport": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 1.0,
+      "height": 1.0
+    },
+    "aspect_ratio": 1.7777777777777777,
+    "aspect_tolerance": 0.02,
+    "regions": {
+      "action.route_space_open": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_space_activate": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_space_place": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_space_cost": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_space_cost_confirm": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_space_chain_pass": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_space_white": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_space_white_confirm": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_white_open": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_white_summon": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_white_place": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_white_banish": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_white_banish_confirm": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_white_attack": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_dark_trigger": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_dark_activate": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_dark_chain_pass": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_dark_hawk": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_dark_hawk_confirm": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_hawk_open": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_hawk_activate": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_hawk_chain_pass": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_hawk_dark": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_hawk_dark_confirm": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_hawk_attack": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_hawk_place": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_extra_open": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_extra_candidates": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_colossus_select": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_colossus_summon": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_colossus_tribute": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_colossus_tribute_confirm": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_colossus_attack": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.route_colossus_place": {
+        "rect": {
+          "x": 0.1,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      }
+    },
+    "composites": []
+  },
+  "template_assets_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "template_assets": {},
+  "stable_features_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "stable_features": {},
+  "strategy_sha256": "885aa504ffbae7bbacfb201f656b2486b059265eaedbbd5c0c9d4d355e7f92e1",
+  "strategy": {
+    "format": "deck-strategy-v1",
+    "name": "混沌領域から超雷龍・実画面手順",
+    "source": "evaluation/live-provisional-test.md（UI校正は別途必要）",
+    "rules": [
+      {
+        "id": "route_space_open",
+        "card_id": "15478",
+        "description": "手札の混沌領域の操作メニューを開く",
+        "type": "SELECT_CARD",
+        "source_region": "action.route_space_open",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "none",
+        "additional_prompts": [],
+        "follows": [],
+        "observed_facts": {
+          "route.space_dark_ready": "true"
+        },
+        "expected_prompts": [
+          "card.menu"
+        ],
+        "requires": [],
+        "facts": {
+          "unused.space_search": "true"
+        },
+        "expected_facts": {
+          "menu.card": "15478"
+        },
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "space_search",
+        "logical_category": "ACTIVATE_EFFECT",
+        "logical_start": true,
+        "logical_end": false,
+        "logical_count_fact": "count.self.hand.10458",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_space_activate",
+        "card_id": "15478",
+        "description": "混沌領域を発動",
+        "type": "ACTIVATE",
+        "source_region": "action.route_space_activate",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "card.menu",
+        "additional_prompts": [],
+        "follows": [
+          "route_space_open"
+        ],
+        "observed_facts": {
+          "menu.card": "15478"
+        },
+        "expected_prompts": [
+          "spell.place"
+        ],
+        "requires": [
+          {
+            "side": "self",
+            "zone_prefix": "hand_",
+            "card_id": "15478"
+          }
+        ],
+        "facts": {
+          "hand.space_cost.valid": "true",
+          "deck.space_target.valid": "true",
+          "window.space_search": "open",
+          "unused.space_search": "true"
+        },
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "space_search",
+        "logical_category": "ACTIVATE_EFFECT",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.hand.10458",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_space_place",
+        "card_id": null,
+        "description": "混沌領域を空いた魔法罠ゾーンへ配置",
+        "type": "CONFIRM",
+        "source_region": "action.route_space_place",
+        "target": "spell_2",
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "spell.place",
+        "additional_prompts": [],
+        "follows": [
+          "route_space_activate"
+        ],
+        "observed_facts": {
+          "zone.spell_2.free": "true"
+        },
+        "expected_prompts": [
+          "card.select"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "space_search",
+        "logical_category": "ACTIVATE_EFFECT",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.hand.10458",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_space_cost",
+        "card_id": "13906",
+        "description": "手札コストとして雷電龍を選ぶ",
+        "type": "SELECT_CARD",
+        "source_region": "action.route_space_cost",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "card.select",
+        "additional_prompts": [],
+        "follows": [
+          "route_space_place"
+        ],
+        "observed_facts": {
+          "selection.location": "hand"
+        },
+        "expected_prompts": [
+          "card.selected"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {
+          "selection.card": "13906",
+          "selection.count": "1"
+        },
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "space_search",
+        "logical_category": "ACTIVATE_EFFECT",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.hand.10458",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_space_cost_confirm",
+        "card_id": null,
+        "description": "雷電龍1枚の手札コストを確定",
+        "type": "CONFIRM",
+        "source_region": "action.route_space_cost_confirm",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "card.selected",
+        "additional_prompts": [],
+        "follows": [
+          "route_space_cost"
+        ],
+        "observed_facts": {
+          "selection.card": "13906",
+          "selection.count": "1"
+        },
+        "expected_prompts": [
+          "chain.response",
+          "card.select"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "space_search",
+        "logical_category": "ACTIVATE_EFFECT",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.hand.10458",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_space_chain_pass",
+        "card_id": null,
+        "description": "自分の混沌領域への追加チェーンを行わない",
+        "type": "CANCEL",
+        "source_region": "action.route_space_chain_pass",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "chain.response",
+        "additional_prompts": [],
+        "follows": [
+          "route_space_cost_confirm"
+        ],
+        "observed_facts": {
+          "chain.owner": "self",
+          "chain.card": "15478"
+        },
+        "expected_prompts": [
+          "card.select"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "space_search",
+        "logical_category": "ACTIVATE_EFFECT",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.hand.10458",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_space_white",
+        "card_id": "10458",
+        "description": "ワイバースターをサーチ対象に選ぶ",
+        "type": "SELECT_CARD",
+        "source_region": "action.route_space_white",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "card.select",
+        "additional_prompts": [],
+        "follows": [
+          "route_space_cost_confirm",
+          "route_space_chain_pass"
+        ],
+        "observed_facts": {
+          "selection.location": "deck"
+        },
+        "expected_prompts": [
+          "card.selected"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {
+          "selection.card": "10458",
+          "selection.count": "1"
+        },
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "space_search",
+        "logical_category": "ACTIVATE_EFFECT",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.hand.10458",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_space_white_confirm",
+        "card_id": null,
+        "description": "ワイバースターのサーチを確定",
+        "type": "CONFIRM",
+        "source_region": "action.route_space_white_confirm",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "card.selected",
+        "additional_prompts": [],
+        "follows": [
+          "route_space_white"
+        ],
+        "observed_facts": {
+          "selection.card": "10458",
+          "selection.count": "1"
+        },
+        "expected_prompts": [
+          "none"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {
+          "hand.white.present": "true"
+        },
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "space_search",
+        "logical_category": "ACTIVATE_EFFECT",
+        "logical_start": false,
+        "logical_end": true,
+        "logical_count_fact": "count.self.hand.10458",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_white_open",
+        "card_id": "10458",
+        "description": "ワイバースターの操作メニューを開く",
+        "type": "SELECT_CARD",
+        "source_region": "action.route_white_open",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "none",
+        "additional_prompts": [],
+        "follows": [
+          "route_space_white_confirm"
+        ],
+        "observed_facts": {},
+        "expected_prompts": [
+          "card.menu"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {
+          "menu.card": "10458"
+        },
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "white_summon",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": true,
+        "logical_end": false,
+        "logical_count_fact": "count.self.field.10458",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_white_summon",
+        "card_id": "10458",
+        "description": "ワイバースターを特殊召喚",
+        "type": "SPECIAL_SUMMON",
+        "source_region": "action.route_white_summon",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "card.menu",
+        "additional_prompts": [],
+        "follows": [
+          "route_white_open"
+        ],
+        "observed_facts": {
+          "menu.card": "10458"
+        },
+        "expected_prompts": [
+          "monster.place"
+        ],
+        "requires": [
+          {
+            "side": "self",
+            "zone_prefix": "hand_",
+            "card_id": "10458"
+          }
+        ],
+        "facts": {
+          "gy.dark.banishable": "true",
+          "window.white_summon": "open",
+          "unused.white_summon": "true",
+          "summon.allowed": "true"
+        },
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "white_summon",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.field.10458",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_white_place",
+        "card_id": null,
+        "description": "ワイバースターの配置位置を選ぶ",
+        "type": "CONFIRM",
+        "source_region": "action.route_white_place",
+        "target": "monster_1",
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "monster.place",
+        "additional_prompts": [],
+        "follows": [
+          "route_white_summon"
+        ],
+        "observed_facts": {
+          "zone.monster_1.free": "true"
+        },
+        "expected_prompts": [
+          "card.select"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "white_summon",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.field.10458",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_white_banish",
+        "card_id": "13906",
+        "description": "墓地の雷電龍を除外コストに選ぶ",
+        "type": "SELECT_CARD",
+        "source_region": "action.route_white_banish",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "card.select",
+        "additional_prompts": [],
+        "follows": [
+          "route_white_place"
+        ],
+        "observed_facts": {
+          "selection.location": "graveyard"
+        },
+        "expected_prompts": [
+          "card.selected"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {
+          "selection.card": "13906",
+          "selection.count": "1"
+        },
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "white_summon",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.field.10458",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_white_banish_confirm",
+        "card_id": null,
+        "description": "雷電龍の除外を確定",
+        "type": "CONFIRM",
+        "source_region": "action.route_white_banish_confirm",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "card.selected",
+        "additional_prompts": [],
+        "follows": [
+          "route_white_banish"
+        ],
+        "observed_facts": {
+          "selection.card": "13906",
+          "selection.count": "1"
+        },
+        "expected_prompts": [
+          "summon.position"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "white_summon",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.field.10458",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_white_attack",
+        "card_id": null,
+        "description": "ワイバースターを攻撃表示にする",
+        "type": "CONFIRM",
+        "source_region": "action.route_white_attack",
+        "target": "attack",
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "summon.position",
+        "additional_prompts": [],
+        "follows": [
+          "route_white_banish_confirm"
+        ],
+        "observed_facts": {},
+        "expected_prompts": [
+          "trigger.select"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {
+          "field.white.present": "true"
+        },
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "white_summon",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": false,
+        "logical_end": true,
+        "logical_count_fact": "count.self.field.10458",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_dark_trigger",
+        "card_id": "13906",
+        "description": "除外された雷電龍の誘発を選ぶ",
+        "type": "SELECT_CARD",
+        "source_region": "action.route_dark_trigger",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "trigger.select",
+        "additional_prompts": [],
+        "follows": [
+          "route_white_attack"
+        ],
+        "observed_facts": {},
+        "expected_prompts": [
+          "trigger.selected"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {
+          "selection.card": "13906",
+          "selection.count": "1"
+        },
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "dark_search",
+        "logical_category": "ACTIVATE_EFFECT",
+        "logical_start": true,
+        "logical_end": false,
+        "logical_count_fact": "count.self.hand.13907",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_dark_activate",
+        "card_id": "13906",
+        "description": "雷電龍の誘発効果を発動",
+        "type": "ACTIVATE",
+        "source_region": "action.route_dark_activate",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "trigger.selected",
+        "additional_prompts": [],
+        "follows": [
+          "route_dark_trigger"
+        ],
+        "observed_facts": {
+          "selection.card": "13906",
+          "selection.count": "1"
+        },
+        "expected_prompts": [
+          "chain.response",
+          "card.select"
+        ],
+        "requires": [],
+        "facts": {
+          "event.dark.banished_or_field_to_gy": "true",
+          "deck.other_td_card.available": "true",
+          "window.dark_trigger": "open",
+          "unused.13906": "true"
+        },
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "dark_search",
+        "logical_category": "ACTIVATE_EFFECT",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.hand.13907",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_dark_chain_pass",
+        "card_id": null,
+        "description": "自分の雷電龍への追加チェーンを行わない",
+        "type": "CANCEL",
+        "source_region": "action.route_dark_chain_pass",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "chain.response",
+        "additional_prompts": [],
+        "follows": [
+          "route_dark_activate"
+        ],
+        "observed_facts": {
+          "chain.owner": "self",
+          "chain.card": "13906"
+        },
+        "expected_prompts": [
+          "card.select"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "dark_search",
+        "logical_category": "ACTIVATE_EFFECT",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.hand.13907",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_dark_hawk",
+        "card_id": "13907",
+        "description": "雷鳥龍をサーチ対象に選ぶ",
+        "type": "SELECT_CARD",
+        "source_region": "action.route_dark_hawk",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "card.select",
+        "additional_prompts": [],
+        "follows": [
+          "route_dark_activate",
+          "route_dark_chain_pass"
+        ],
+        "observed_facts": {
+          "selection.location": "deck"
+        },
+        "expected_prompts": [
+          "card.selected"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {
+          "selection.card": "13907",
+          "selection.count": "1"
+        },
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "dark_search",
+        "logical_category": "ACTIVATE_EFFECT",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.hand.13907",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_dark_hawk_confirm",
+        "card_id": null,
+        "description": "雷鳥龍のサーチを確定",
+        "type": "CONFIRM",
+        "source_region": "action.route_dark_hawk_confirm",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "card.selected",
+        "additional_prompts": [],
+        "follows": [
+          "route_dark_hawk"
+        ],
+        "observed_facts": {
+          "selection.card": "13907",
+          "selection.count": "1"
+        },
+        "expected_prompts": [
+          "none"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {
+          "hand.hawk.present": "true"
+        },
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "dark_search",
+        "logical_category": "ACTIVATE_EFFECT",
+        "logical_start": false,
+        "logical_end": true,
+        "logical_count_fact": "count.self.hand.13907",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_hawk_open",
+        "card_id": "13907",
+        "description": "雷鳥龍の操作メニューを開く",
+        "type": "SELECT_CARD",
+        "source_region": "action.route_hawk_open",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "none",
+        "additional_prompts": [],
+        "follows": [
+          "route_dark_hawk_confirm"
+        ],
+        "observed_facts": {},
+        "expected_prompts": [
+          "card.menu"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {
+          "menu.card": "13907"
+        },
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "hawk_revive",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": true,
+        "logical_end": false,
+        "logical_count_fact": "count.self.field.13906",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_hawk_activate",
+        "card_id": "13907",
+        "description": "雷鳥龍の手札効果を発動",
+        "type": "ACTIVATE",
+        "source_region": "action.route_hawk_activate",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "card.menu",
+        "additional_prompts": [],
+        "follows": [
+          "route_hawk_open"
+        ],
+        "observed_facts": {
+          "menu.card": "13907"
+        },
+        "expected_prompts": [
+          "card.select",
+          "chain.response"
+        ],
+        "requires": [
+          {
+            "side": "self",
+            "zone_prefix": "hand_",
+            "card_id": "13907"
+          }
+        ],
+        "facts": {
+          "target.hawk.revivable": "true",
+          "summon.allowed": "true",
+          "hand_effect.allowed": "true",
+          "window.hawk_hand": "open",
+          "unused.13907": "true"
+        },
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "hawk_revive",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.field.13906",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_hawk_chain_pass",
+        "card_id": null,
+        "description": "自分の雷鳥龍への追加チェーンを行わない",
+        "type": "CANCEL",
+        "source_region": "action.route_hawk_chain_pass",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "chain.response",
+        "additional_prompts": [],
+        "follows": [
+          "route_hawk_activate"
+        ],
+        "observed_facts": {
+          "chain.owner": "self",
+          "chain.card": "13907"
+        },
+        "expected_prompts": [
+          "card.select"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "hawk_revive",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.field.13906",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_hawk_dark",
+        "card_id": "13906",
+        "description": "除外されている雷電龍を蘇生対象に選ぶ",
+        "type": "SELECT_CARD",
+        "source_region": "action.route_hawk_dark",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "card.select",
+        "additional_prompts": [],
+        "follows": [
+          "route_hawk_activate",
+          "route_hawk_chain_pass"
+        ],
+        "observed_facts": {
+          "selection.location": "banished"
+        },
+        "expected_prompts": [
+          "card.selected"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {
+          "selection.card": "13906",
+          "selection.count": "1"
+        },
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "hawk_revive",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.field.13906",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_hawk_dark_confirm",
+        "card_id": null,
+        "description": "雷電龍の蘇生対象を確定",
+        "type": "CONFIRM",
+        "source_region": "action.route_hawk_dark_confirm",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "card.selected",
+        "additional_prompts": [],
+        "follows": [
+          "route_hawk_dark"
+        ],
+        "observed_facts": {
+          "selection.card": "13906",
+          "selection.count": "1"
+        },
+        "expected_prompts": [
+          "summon.position"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "hawk_revive",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.field.13906",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_hawk_attack",
+        "card_id": null,
+        "description": "雷電龍を攻撃表示にする",
+        "type": "CONFIRM",
+        "source_region": "action.route_hawk_attack",
+        "target": "attack",
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "summon.position",
+        "additional_prompts": [],
+        "follows": [
+          "route_hawk_dark_confirm"
+        ],
+        "observed_facts": {},
+        "expected_prompts": [
+          "monster.place"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "hawk_revive",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.field.13906",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_hawk_place",
+        "card_id": null,
+        "description": "雷電龍を空いたモンスターゾーンへ配置",
+        "type": "CONFIRM",
+        "source_region": "action.route_hawk_place",
+        "target": "monster_2",
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "monster.place",
+        "additional_prompts": [],
+        "follows": [
+          "route_hawk_attack"
+        ],
+        "observed_facts": {
+          "zone.monster_2.free": "true"
+        },
+        "expected_prompts": [
+          "none"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {
+          "field.dark.present": "true"
+        },
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "hawk_revive",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": false,
+        "logical_end": true,
+        "logical_count_fact": "count.self.field.13906",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_extra_open",
+        "card_id": null,
+        "description": "EXデッキの操作メニューを開く",
+        "type": "SELECT_CARD",
+        "source_region": "action.route_extra_open",
+        "target": "extra",
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "none",
+        "additional_prompts": [],
+        "follows": [
+          "route_hawk_place"
+        ],
+        "observed_facts": {},
+        "expected_prompts": [
+          "extra.menu"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "colossus_summon",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": true,
+        "logical_end": false,
+        "logical_count_fact": "count.self.field.13923",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_extra_candidates",
+        "card_id": null,
+        "description": "EXの特殊召喚候補を表示",
+        "type": "CONFIRM",
+        "source_region": "action.route_extra_candidates",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "extra.menu",
+        "additional_prompts": [],
+        "follows": [
+          "route_extra_open"
+        ],
+        "observed_facts": {},
+        "expected_prompts": [
+          "extra.summon_select"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "colossus_summon",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.field.13923",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_colossus_select",
+        "card_id": "13923",
+        "description": "超雷龍を特殊召喚候補から選ぶ",
+        "type": "SELECT_CARD",
+        "source_region": "action.route_colossus_select",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "extra.summon_select",
+        "additional_prompts": [],
+        "follows": [
+          "route_extra_candidates"
+        ],
+        "observed_facts": {},
+        "expected_prompts": [
+          "extra.summon_selected"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {
+          "selection.card": "13923",
+          "selection.count": "1"
+        },
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "colossus_summon",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.field.13923",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_colossus_summon",
+        "card_id": "13923",
+        "description": "超雷龍の特殊召喚を確定",
+        "type": "SPECIAL_SUMMON",
+        "source_region": "action.route_colossus_summon",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "extra.summon_selected",
+        "additional_prompts": [],
+        "follows": [
+          "route_colossus_select"
+        ],
+        "observed_facts": {
+          "selection.card": "13923",
+          "selection.count": "1"
+        },
+        "expected_prompts": [
+          "tribute.select"
+        ],
+        "requires": [],
+        "facts": {
+          "hand_thunder.activated": "true",
+          "materials.colossus.valid": "true",
+          "window.colossus": "open",
+          "summon.allowed": "true"
+        },
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": "colossus",
+        "logical_action": "colossus_summon",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.field.13923",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_colossus_tribute",
+        "card_id": "13906",
+        "description": "場の雷電龍をリリース素材に選ぶ",
+        "type": "SELECT_CARD",
+        "source_region": "action.route_colossus_tribute",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "tribute.select",
+        "additional_prompts": [],
+        "follows": [
+          "route_colossus_summon"
+        ],
+        "observed_facts": {
+          "selection.location": "field"
+        },
+        "expected_prompts": [
+          "tribute.selected"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {
+          "selection.card": "13906",
+          "selection.count": "1"
+        },
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "colossus_summon",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.field.13923",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_colossus_tribute_confirm",
+        "card_id": null,
+        "description": "雷電龍1体のリリースを確定",
+        "type": "CONFIRM",
+        "source_region": "action.route_colossus_tribute_confirm",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "tribute.selected",
+        "additional_prompts": [],
+        "follows": [
+          "route_colossus_tribute"
+        ],
+        "observed_facts": {
+          "selection.card": "13906",
+          "selection.count": "1"
+        },
+        "expected_prompts": [
+          "summon.position"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "colossus_summon",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.field.13923",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_colossus_attack",
+        "card_id": null,
+        "description": "超雷龍を攻撃表示にする",
+        "type": "CONFIRM",
+        "source_region": "action.route_colossus_attack",
+        "target": "attack",
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "summon.position",
+        "additional_prompts": [],
+        "follows": [
+          "route_colossus_tribute_confirm"
+        ],
+        "observed_facts": {},
+        "expected_prompts": [
+          "monster.place"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "colossus_summon",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": false,
+        "logical_end": false,
+        "logical_count_fact": "count.self.field.13923",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "route_colossus_place",
+        "card_id": null,
+        "description": "超雷龍を配置して召喚完了を確認",
+        "type": "CONFIRM",
+        "source_region": "action.route_colossus_place",
+        "target": "monster_2",
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1",
+          "MAIN2"
+        ],
+        "prompt": "monster.place",
+        "additional_prompts": [],
+        "follows": [
+          "route_colossus_attack"
+        ],
+        "observed_facts": {
+          "zone.monster_2.free": "true"
+        },
+        "expected_prompts": [
+          "none"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {
+          "field.colossus.present": "true"
+        },
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "colossus_summon",
+        "logical_category": "SPECIAL_SUMMON",
+        "logical_start": false,
+        "logical_end": true,
+        "logical_count_fact": "count.self.field.13923",
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      }
+    ],
+    "min_confidence": 0.98,
+    "inference_mode": "provisional",
+    "audit_profile": "full_deck"
+  },
+  "limits_sha256": "9659b05f6d616c3db72689e3cfeb853d717a87db89ffa6f84f092ee69b8af5f2",
+  "limits": {
+    "max_seconds": 5,
+    "max_actions": 34,
+    "min_confidence": 0.98,
+    "max_retries": 1,
+    "max_same_action": 3,
+    "settle_seconds": 0,
+    "verify_seconds": 3,
+    "verify_poll_seconds": 0.001,
+    "min_image_change": 0.005,
+    "max_observation_age": 1.0
+  },
+  "capture_sha256": "3fc06131b0bb287569bd8b6baa1a58d376b0e0d13efe8f91dc96e62dffd05252",
+  "capture": {
+    "type": "Capture",
+    "rect": [
+      0,
+      0,
+      160,
+      90
+    ]
+  },
+  "execution_conditions_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "execution_conditions": null,
+  "recognition_components_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "recognition_components": {},
+  "provenance_frozen_before_capture": true
+}

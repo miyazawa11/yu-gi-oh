@@ -1,0 +1,68 @@
+{
+  "baseline_mode": "single_version_pilot",
+  "source_sha256": "0f6ef470e7a0395c9672b961a63b21c1a8098fc859cf223b85726bd44980d1e4",
+  "created_utc": "2026-10-05T16:18:07.319790+00:00",
+  "purpose_count": 1,
+  "autonomous_inputs": 2,
+  "assisted_inputs": 2,
+  "assisted_purpose_count": 0,
+  "visual_result": "Main1→phase menu→END PHASE / Turn2 End verified from saved images",
+  "failure_cases": [
+    {
+      "stage": "State failure / Recognition failure",
+      "mode": "passive_preflight",
+      "context": "Normal summon passive preflight was incompatible with the then-live observed state. All three independent frames were safely rule_blocked; no input issued. Card identity was not verified at preflight. Subsequent detailed observations identify the previously assumed MaxxC artwork as Batteryman Solar CID13581, base1500/1500; a MaxxC position mismatch is not established.",
+      "attempt_counted_in_e2e": false
+    },
+    {
+      "stage": "Capture environment failure",
+      "mode": "passive_preflight",
+      "context": "Sandbox WindowsDesktop.find cannot see masterduel; ordinary user environment finds HWND264156 and matching rect.",
+      "attempt_counted_in_e2e": false
+    }
+  ],
+  "system_internal_ms": 157.61850000853883,
+  "game_wait_estimate_ms": 365.9954000104335,
+  "unattributed_ms": 99.79669998574536,
+  "stage_ms": {
+    "capture": 117.07849998492748,
+    "recognition": 16.502200007380452,
+    "state_build": 0.7972000021254644,
+    "candidate": 0.09620000491850078,
+    "decision": 0.14419999934034422,
+    "coordinate": 0.021800005924887955,
+    "input": 22.978400003921706,
+    "verify": 474.2612000045483
+  },
+  "total_ms": 623.4106000047177,
+  "deck": "Current selected Thunder Dragon cards visually present; deck name and full list not proven",
+  "solo": "Opponent label 滅びゆく世界, NPC Mangju-God field; inherited currently selected solo session",
+  "limitations": [
+    "Only one phase objective; cannot infer representative 100 action success or latency.",
+    "Old pilot from another source version is not merged.",
+    "wait estimate includes polling and unmeasured Python; no direct animation/network separation.",
+    "No normal summon autonomous trial attempted; no holdout post summon obtained.",
+    "Latency improvement unknown: no comparable prior version measurements."
+  ],
+  "application_changes": false,
+  "settings_changes": false,
+  "next_work": "Support current hand layouts and chain prompts with independently validated calibration; maintain conservative no-action on unknown state.",
+  "hand_identity_correction": {
+    "correctedUtc": "2026-10-05T16:32:17.7159464+00:00",
+    "originalPreflightContext": "Normal summon calibration frozen for MaxxC slot in five-card hand, live six-card hand has MaxxC at different slot. All three independent frames safely rule_blocked; no input issued.",
+    "originalCorrectionText": "Baseline hand slot2 previously described as G was not Japanese-name verified. Subsequent Turn4 card detail identifies same yellow battery artwork as 太陽電池メン ATK1600/DEF1600. MaxxC presence not confirmed; no G-labelled current screenshots may be used for training.",
+    "correctedIdentity": {
+      "japaneseName": "太陽電池メン",
+      "konamiId": "13581",
+      "baseAtk": 1500,
+      "baseDef": 1500
+    },
+    "scope": "Document identity correction only; original measurement timestamps and phase objective telemetry unchanged.",
+    "evidence": [
+      "advisor/artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0000.png",
+      "advisor/artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-post/frame-0000.png",
+      "advisor/artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/collection-report.json"
+    ],
+    "correctionDocument": "hand-identity-correction.json"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "mode": "computer_use_visual_assisted",
+  "date": "2026-10-05",
+  "duel_finished": true,
+  "win_banner_captured": false,
+  "outcome": "victory_inferred_from_lethal_damage_and_return_to_home",
+  "final_self_lp_observed": 8000,
+  "opponent_lp_before_last_attack": 1500,
+  "last_damage_displayed": 1800,
+  "last_attacker": "暗黒竜 コラプサーペント",
+  "final_attack_turn": 5,
+  "automatic_agent_loop": false,
+  "real_accuracy_gate": false,
+  "speed_target_met": false,
+  "limitations": [
+    "WIN表示は取得できず、ダメージ表示とホーム復帰から勝利と推定",
+    "既存agent-loopの全自動認識・判断・入力の試合完走ではない",
+    "取得と承認サービス待ちが10秒を超えるケースを観測"
+  ]
+}

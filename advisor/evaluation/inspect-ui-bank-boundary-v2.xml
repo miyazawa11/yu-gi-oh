@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="14" time="7.238" timestamp="2026-10-06T04:28:00.464993+09:00" hostname="DESKTOP-KILPD1G"><testcase classname="tests.test_ui_evidence_bank" name="test_same_position_synonyms_do_not_reduce_margin" time="0.142" /><testcase classname="tests.test_ui_evidence_bank" name="test_two_different_valid_positions_remain_ambiguous" time="0.002" /><testcase classname="tests.test_ui_evidence_bank" name="test_known_start_layouts_recovered_without_new_training[1]" time="0.075" /><testcase classname="tests.test_ui_evidence_bank" name="test_known_start_layouts_recovered_without_new_training[2]" time="0.072" /><testcase classname="tests.test_ui_evidence_bank" name="test_known_start_layouts_recovered_without_new_training[3]" time="0.071" /><testcase classname="tests.test_ui_evidence_bank" name="test_freshening_saved_image_still_rejected" time="0.020" /><testcase classname="tests.test_ui_evidence_bank" name="test_config_cannot_expand_scope_or_lower_thresholds[mutation0]" time="0.017" /><testcase classname="tests.test_ui_evidence_bank" name="test_config_cannot_expand_scope_or_lower_thresholds[mutation1]" time="0.004" /><testcase classname="tests.test_ui_evidence_bank" name="test_config_cannot_expand_scope_or_lower_thresholds[mutation2]" time="0.008" /><testcase classname="tests.test_ui_evidence_bank" name="test_config_cannot_expand_scope_or_lower_thresholds[mutation3]" time="0.004" /><testcase classname="tests.test_ui_evidence_bank" name="test_reference_hash_change_rejected" time="0.122" /><testcase classname="tests.test_ui_evidence_bank" name="test_existing_stage_and_menu_regression_no_input" time="4.595" /><testcase classname="tests.test_ui_evidence_bank" name="test_new_bank_fixed_fingerprint_and_old_profile_unchanged" time="1.241" /><testcase classname="tests.test_ui_evidence_bank" name="test_bank_scope_rejected_even_if_field_mask_removed" time="0.628"><failure message="pydantic_core._pydantic_core.ValidationError: 1 validation error for Region&#10;stable_rgb_excluded_rows&#10;  Instance is frozen [type=frozen_instance, input_value=[], input_type=list]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance">def test_bank_scope_rejected_even_if_field_mask_removed():
+        p = build_pipeline(BASE/'calibration.json',Path('data/decks/thunder-dragon-review/cards.sqlite3'),BASE/'normal-route.json')
+        try:
+            for region in p.perception.calibration.regions.values():
+&gt;               region.stable_rgb_excluded_rows = []
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_ui_evidence_bank.py:118: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.regions.Region'&gt;
+name = 'stable_rgb_excluded_rows', value = []
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for Region
+E       stable_rgb_excluded_rows
+E         Instance is frozen [type=frozen_instance, input_value=[], input_type=list]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</failure></testcase></testsuite></testsuites>

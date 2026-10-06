@@ -1,0 +1,930 @@
+{
+  "schema": "readonly-single-mask-comparison-v1",
+  "condition": "descriptor rows6..24 excluded(all columns); native y418.25..482.375 at fixed ROI603,398,74,108",
+  "retained_pixels": {
+    "fact.zone.self.monster_2.occupancy": {
+      "empty": {
+        "original_pixels": 674,
+        "retained_pixels": 330
+      },
+      "occupied": {
+        "original_pixels": 1933,
+        "retained_pixels": 778
+      }
+    },
+    "action.inspect_zone": {
+      "SELECT_CARD": {
+        "original_pixels": 1994,
+        "retained_pixels": 778
+      }
+    }
+  },
+  "rows": [
+    {
+      "case": "menu/0",
+      "label": "menu",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9976290464401245,
+            "excluded_center_rgb": 0.9978609681129456
+          },
+          "occupied": {
+            "original_rgb": 0.7601168751716614,
+            "excluded_center_rgb": 0.7785859704017639
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7589126825332642,
+            "excluded_center_rgb": 0.7783725261688232
+          }
+        }
+      }
+    },
+    {
+      "case": "menu/1",
+      "label": "menu",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9977667331695557,
+            "excluded_center_rgb": 0.9980352520942688
+          },
+          "occupied": {
+            "original_rgb": 0.7600120306015015,
+            "excluded_center_rgb": 0.7778231501579285
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7589166164398193,
+            "excluded_center_rgb": 0.7776148319244385
+          }
+        }
+      }
+    },
+    {
+      "case": "menu/2",
+      "label": "menu",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9981720447540283,
+            "excluded_center_rgb": 0.9984155297279358
+          },
+          "occupied": {
+            "original_rgb": 0.7594777941703796,
+            "excluded_center_rgb": 0.7771124243736267
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7584419846534729,
+            "excluded_center_rgb": 0.7769041061401367
+          }
+        }
+      }
+    },
+    {
+      "case": "menu/3",
+      "label": "menu",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9984745979309082,
+            "excluded_center_rgb": 0.9986611008644104
+          },
+          "occupied": {
+            "original_rgb": 0.7581253051757812,
+            "excluded_center_rgb": 0.7762420773506165
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7571295499801636,
+            "excluded_center_rgb": 0.776032030582428
+          }
+        }
+      }
+    },
+    {
+      "case": "menu/4",
+      "label": "menu",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9987422823905945,
+            "excluded_center_rgb": 0.9987918138504028
+          },
+          "occupied": {
+            "original_rgb": 0.7563549280166626,
+            "excluded_center_rgb": 0.7756489515304565
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7553975582122803,
+            "excluded_center_rgb": 0.7754456996917725
+          }
+        }
+      }
+    },
+    {
+      "case": "menu/5",
+      "label": "menu",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9987984895706177,
+            "excluded_center_rgb": 0.9986809492111206
+          },
+          "occupied": {
+            "original_rgb": 0.7545750141143799,
+            "excluded_center_rgb": 0.7745686173439026
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7536183595657349,
+            "excluded_center_rgb": 0.7743586301803589
+          }
+        }
+      }
+    },
+    {
+      "case": "menu/6",
+      "label": "menu",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9989187717437744,
+            "excluded_center_rgb": 0.9987760186195374
+          },
+          "occupied": {
+            "original_rgb": 0.7538033723831177,
+            "excluded_center_rgb": 0.7743451595306396
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7528054714202881,
+            "excluded_center_rgb": 0.7741250395774841
+          }
+        }
+      }
+    },
+    {
+      "case": "menu/7",
+      "label": "menu",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9988605976104736,
+            "excluded_center_rgb": 0.9988353848457336
+          },
+          "occupied": {
+            "original_rgb": 0.7531596422195435,
+            "excluded_center_rgb": 0.7741838693618774
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7521499395370483,
+            "excluded_center_rgb": 0.7739637494087219
+          }
+        }
+      }
+    },
+    {
+      "case": "menu/8",
+      "label": "menu",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9987015128135681,
+            "excluded_center_rgb": 0.9988155961036682
+          },
+          "occupied": {
+            "original_rgb": 0.7529391646385193,
+            "excluded_center_rgb": 0.7736915349960327
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7519650459289551,
+            "excluded_center_rgb": 0.7734731435775757
+          }
+        }
+      }
+    },
+    {
+      "case": "menu/9",
+      "label": "menu",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9986841082572937,
+            "excluded_center_rgb": 0.9987799525260925
+          },
+          "occupied": {
+            "original_rgb": 0.7533090710639954,
+            "excluded_center_rgb": 0.7739486694335938
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7523865699768066,
+            "excluded_center_rgb": 0.773740291595459
+          }
+        }
+      }
+    },
+    {
+      "case": "placement/0",
+      "label": "placement",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9815528988838196,
+            "excluded_center_rgb": 0.9689680933952332
+          },
+          "occupied": {
+            "original_rgb": 0.7552938461303711,
+            "excluded_center_rgb": 0.7780768871307373
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7540346384048462,
+            "excluded_center_rgb": 0.7779625654220581
+          }
+        }
+      }
+    },
+    {
+      "case": "placement/1",
+      "label": "placement",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9814695119857788,
+            "excluded_center_rgb": 0.9687779545783997
+          },
+          "occupied": {
+            "original_rgb": 0.7565374970436096,
+            "excluded_center_rgb": 0.7804996967315674
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7552887201309204,
+            "excluded_center_rgb": 0.7803720235824585
+          }
+        }
+      }
+    },
+    {
+      "case": "placement/2",
+      "label": "placement",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9822666645050049,
+            "excluded_center_rgb": 0.9704733490943909
+          },
+          "occupied": {
+            "original_rgb": 0.7585060596466064,
+            "excluded_center_rgb": 0.7838432788848877
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7572593688964844,
+            "excluded_center_rgb": 0.7837105393409729
+          }
+        }
+      }
+    },
+    {
+      "case": "placement/3",
+      "label": "placement",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9820474982261658,
+            "excluded_center_rgb": 0.9697880744934082
+          },
+          "occupied": {
+            "original_rgb": 0.7583619952201843,
+            "excluded_center_rgb": 0.7829056978225708
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7571524977684021,
+            "excluded_center_rgb": 0.7828032374382019
+          }
+        }
+      }
+    },
+    {
+      "case": "placement/4",
+      "label": "placement",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9821463823318481,
+            "excluded_center_rgb": 0.9701722860336304
+          },
+          "occupied": {
+            "original_rgb": 0.7561283707618713,
+            "excluded_center_rgb": 0.776841938495636
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7549773454666138,
+            "excluded_center_rgb": 0.7767142057418823
+          }
+        }
+      }
+    },
+    {
+      "case": "placement/5",
+      "label": "placement",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9818244576454163,
+            "excluded_center_rgb": 0.9695425033569336
+          },
+          "occupied": {
+            "original_rgb": 0.7569296956062317,
+            "excluded_center_rgb": 0.778666615486145
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7557201385498047,
+            "excluded_center_rgb": 0.7785389423370361
+          }
+        }
+      }
+    },
+    {
+      "case": "placement/6",
+      "label": "placement",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9829590320587158,
+            "excluded_center_rgb": 0.9716458916664124
+          },
+          "occupied": {
+            "original_rgb": 0.7575572729110718,
+            "excluded_center_rgb": 0.7798377275466919
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.756309449672699,
+            "excluded_center_rgb": 0.7797570824623108
+          }
+        }
+      }
+    },
+    {
+      "case": "placement/7",
+      "label": "placement",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9825420379638672,
+            "excluded_center_rgb": 0.9702277779579163
+          },
+          "occupied": {
+            "original_rgb": 0.7598017454147339,
+            "excluded_center_rgb": 0.7849236726760864
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7584931254386902,
+            "excluded_center_rgb": 0.7848178148269653
+          }
+        }
+      }
+    },
+    {
+      "case": "placement/8",
+      "label": "placement",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9836106896400452,
+            "excluded_center_rgb": 0.9713844060897827
+          },
+          "occupied": {
+            "original_rgb": 0.7573327422142029,
+            "excluded_center_rgb": 0.7784666419029236
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7561259269714355,
+            "excluded_center_rgb": 0.778337299823761
+          }
+        }
+      }
+    },
+    {
+      "case": "placement/9",
+      "label": "placement",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.9837076663970947,
+            "excluded_center_rgb": 0.9708496928215027
+          },
+          "occupied": {
+            "original_rgb": 0.7616133689880371,
+            "excluded_center_rgb": 0.7892971634864807
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.7603805065155029,
+            "excluded_center_rgb": 0.7891829013824463
+          }
+        }
+      }
+    },
+    {
+      "case": "post-unselected/0",
+      "label": "post-unselected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7814792394638062,
+            "excluded_center_rgb": 0.810469388961792
+          },
+          "occupied": {
+            "original_rgb": 0.9981464147567749,
+            "excluded_center_rgb": 0.9982929229736328
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.9992572665214539,
+            "excluded_center_rgb": 0.9987869262695312
+          }
+        }
+      }
+    },
+    {
+      "case": "post-unselected/1",
+      "label": "post-unselected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7812639474868774,
+            "excluded_center_rgb": 0.8100534677505493
+          },
+          "occupied": {
+            "original_rgb": 0.9984655976295471,
+            "excluded_center_rgb": 0.9988977909088135
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.9999357461929321,
+            "excluded_center_rgb": 0.9999210238456726
+          }
+        }
+      }
+    },
+    {
+      "case": "post-unselected/2",
+      "label": "post-unselected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7812309861183167,
+            "excluded_center_rgb": 0.8099901080131531
+          },
+          "occupied": {
+            "original_rgb": 0.9984622001647949,
+            "excluded_center_rgb": 0.9988927245140076
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.9999508261680603,
+            "excluded_center_rgb": 0.9999361634254456
+          }
+        }
+      }
+    },
+    {
+      "case": "post-unselected/3",
+      "label": "post-unselected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7812096476554871,
+            "excluded_center_rgb": 0.8099346160888672
+          },
+          "occupied": {
+            "original_rgb": 0.9984763860702515,
+            "excluded_center_rgb": 0.9989213347434998
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.9999829530715942,
+            "excluded_center_rgb": 0.9999815225601196
+          }
+        }
+      }
+    },
+    {
+      "case": "post-unselected/4",
+      "label": "post-unselected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7811960577964783,
+            "excluded_center_rgb": 0.8098950386047363
+          },
+          "occupied": {
+            "original_rgb": 0.998466968536377,
+            "excluded_center_rgb": 0.9989145994186401
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.9999908208847046,
+            "excluded_center_rgb": 0.999989926815033
+          }
+        }
+      }
+    },
+    {
+      "case": "post-unselected/5",
+      "label": "post-unselected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7811960577964783,
+            "excluded_center_rgb": 0.8098950386047363
+          },
+          "occupied": {
+            "original_rgb": 0.9984655976295471,
+            "excluded_center_rgb": 0.9989095330238342
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.9999809861183167,
+            "excluded_center_rgb": 0.999984860420227
+          }
+        }
+      }
+    },
+    {
+      "case": "post-unselected/6",
+      "label": "post-unselected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7811824679374695,
+            "excluded_center_rgb": 0.8098673224449158
+          },
+          "occupied": {
+            "original_rgb": 0.9984649419784546,
+            "excluded_center_rgb": 0.9989078640937805
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.999977707862854,
+            "excluded_center_rgb": 0.9999831914901733
+          }
+        }
+      }
+    },
+    {
+      "case": "post-unselected/7",
+      "label": "post-unselected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7811844348907471,
+            "excluded_center_rgb": 0.8098752498626709
+          },
+          "occupied": {
+            "original_rgb": 0.9984642267227173,
+            "excluded_center_rgb": 0.9989045262336731
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.9999757409095764,
+            "excluded_center_rgb": 0.9999798536300659
+          }
+        }
+      }
+    },
+    {
+      "case": "post-unselected/8",
+      "label": "post-unselected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7812038064002991,
+            "excluded_center_rgb": 0.8099227547645569
+          },
+          "occupied": {
+            "original_rgb": 0.9984703063964844,
+            "excluded_center_rgb": 0.9989112615585327
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.9999829530715942,
+            "excluded_center_rgb": 0.9999865293502808
+          }
+        }
+      }
+    },
+    {
+      "case": "post-unselected/9",
+      "label": "post-unselected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7812173962593079,
+            "excluded_center_rgb": 0.8099663257598877
+          },
+          "occupied": {
+            "original_rgb": 0.9984737038612366,
+            "excluded_center_rgb": 0.9989246726036072
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.9999849200248718,
+            "excluded_center_rgb": 0.9999781847000122
+          }
+        }
+      }
+    },
+    {
+      "case": "post-inspected/0",
+      "label": "post-inspected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7814229726791382,
+            "excluded_center_rgb": 0.8093563318252563
+          },
+          "occupied": {
+            "original_rgb": 0.9986596703529358,
+            "excluded_center_rgb": 0.9991716742515564
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.9923273324966431,
+            "excluded_center_rgb": 0.9980912804603577
+          }
+        }
+      }
+    },
+    {
+      "case": "post-inspected/1",
+      "label": "post-inspected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7814481854438782,
+            "excluded_center_rgb": 0.8094038367271423
+          },
+          "occupied": {
+            "original_rgb": 0.9986732006072998,
+            "excluded_center_rgb": 0.9991951584815979
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.9923411011695862,
+            "excluded_center_rgb": 0.9981164932250977
+          }
+        }
+      }
+    },
+    {
+      "case": "post-inspected/2",
+      "label": "post-inspected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7814501523971558,
+            "excluded_center_rgb": 0.8094078302383423
+          },
+          "occupied": {
+            "original_rgb": 0.9986664652824402,
+            "excluded_center_rgb": 0.9991884827613831
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.9923338890075684,
+            "excluded_center_rgb": 0.9981080889701843
+          }
+        }
+      }
+    },
+    {
+      "case": "post-inspected/3",
+      "label": "post-inspected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.781442403793335,
+            "excluded_center_rgb": 0.8093959093093872
+          },
+          "occupied": {
+            "original_rgb": 0.9986698031425476,
+            "excluded_center_rgb": 0.9991901516914368
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.992337167263031,
+            "excluded_center_rgb": 0.998109757900238
+          }
+        }
+      }
+    },
+    {
+      "case": "post-inspected/4",
+      "label": "post-inspected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7814229726791382,
+            "excluded_center_rgb": 0.8093523383140564
+          },
+          "occupied": {
+            "original_rgb": 0.9986684918403625,
+            "excluded_center_rgb": 0.9991766810417175
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.992335855960846,
+            "excluded_center_rgb": 0.9980963468551636
+          }
+        }
+      }
+    },
+    {
+      "case": "post-inspected/5",
+      "label": "post-inspected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7813997268676758,
+            "excluded_center_rgb": 0.8092969059944153
+          },
+          "occupied": {
+            "original_rgb": 0.99867182970047,
+            "excluded_center_rgb": 0.9991800785064697
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.9923391342163086,
+            "excluded_center_rgb": 0.998099684715271
+          }
+        }
+      }
+    },
+    {
+      "case": "post-inspected/6",
+      "label": "post-inspected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7813957929611206,
+            "excluded_center_rgb": 0.8092849850654602
+          },
+          "occupied": {
+            "original_rgb": 0.9986616969108582,
+            "excluded_center_rgb": 0.9991716742515564
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.9923319220542908,
+            "excluded_center_rgb": 0.9980980157852173
+          }
+        }
+      }
+    },
+    {
+      "case": "post-inspected/7",
+      "label": "post-inspected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7813880443572998,
+            "excluded_center_rgb": 0.8092691898345947
+          },
+          "occupied": {
+            "original_rgb": 0.9986616969108582,
+            "excluded_center_rgb": 0.9991716742515564
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.9923319220542908,
+            "excluded_center_rgb": 0.9980980157852173
+          }
+        }
+      }
+    },
+    {
+      "case": "post-inspected/8",
+      "label": "post-inspected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.781386137008667,
+            "excluded_center_rgb": 0.8092731237411499
+          },
+          "occupied": {
+            "original_rgb": 0.998663067817688,
+            "excluded_center_rgb": 0.9991716742515564
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.9923332333564758,
+            "excluded_center_rgb": 0.9980980157852173
+          }
+        }
+      }
+    },
+    {
+      "case": "post-inspected/9",
+      "label": "post-inspected",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7813977599143982,
+            "excluded_center_rgb": 0.8092969059944153
+          },
+          "occupied": {
+            "original_rgb": 0.998663067817688,
+            "excluded_center_rgb": 0.9991700053215027
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.9923332333564758,
+            "excluded_center_rgb": 0.9980963468551636
+          }
+        }
+      }
+    },
+    {
+      "case": "newpost",
+      "label": "diagnostic_occupied",
+      "scores": {
+        "fact.zone.self.monster_2.occupancy": {
+          "empty": {
+            "original_rgb": 0.7431517839431763,
+            "excluded_center_rgb": 0.7979837656021118
+          },
+          "occupied": {
+            "original_rgb": 0.9418432712554932,
+            "excluded_center_rgb": 0.9804576635360718
+          }
+        },
+        "action.inspect_zone": {
+          "SELECT_CARD": {
+            "original_rgb": 0.9315856099128723,
+            "excluded_center_rgb": 0.9806576371192932
+          }
+        }
+      }
+    }
+  ],
+  "training_used": false,
+  "method_selection_diagnostic_not_holdout": true,
+  "input_count": 0,
+  "e2e_count": 0
+}

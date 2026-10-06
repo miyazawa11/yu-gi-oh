@@ -1,0 +1,24 @@
+{
+  "scope": "known actual MSS negative diagnostic; not new holdout/E2E",
+  "rows": [
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\MSS_END_LABELED_v4\\frame-0441.png",
+      "sha256": "33d5480e2fabd84cd46a65cabc88840e6f8c532ef70d1ed7e9a161fc18763d42",
+      "independent_visual_label": "self End badge and END PHASE overlay, not DRAW PHASE",
+      "word_score": 0.6675537653743796,
+      "self_blue_ratio": 0.6927083333333334,
+      "alternative_passed": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\MSS_END_LABELED_v4\\frame-0443.png",
+      "sha256": "251168ac744ebfa6f7cf04bf8c52ee2cb75306365a2e8e8ca80bef6ce3232546",
+      "independent_visual_label": "self End badge and END PHASE overlay, not DRAW PHASE",
+      "word_score": 0.6733798460763863,
+      "self_blue_ratio": 0.7065972222222222,
+      "alternative_passed": false
+    }
+  ],
+  "actual_opponent_draw": "unverified",
+  "actual_other_phase": "END PHASE2 only; MAIN/BATTLE/STANDBY not verified",
+  "config_sha256": "b9de9c0c5a9d9d792838996f41747ff1332687712d58b252dc5bdc541dab30eb"
+}

@@ -1,0 +1,1971 @@
+{
+  "schema": "cancel-native-shape-diagnostic-v1",
+  "input_count": 0,
+  "e2e_count": 0,
+  "runtime_source_assets_unchanged": true,
+  "original_training_integrity": false,
+  "original_training_available": 81,
+  "original_training_missing": [
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0009.png"
+  ],
+  "new10_classification": "known method selection, not independent holdout",
+  "input_checks": [
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\attack-response-negative\\frame-0000.png",
+      "expected_sha256": "e05a4d3b54c9d4eaddd0cc857e63256db9f9842fe3ebbc93234b5583e5ad2174",
+      "actual_sha256": "e05a4d3b54c9d4eaddd0cc857e63256db9f9842fe3ebbc93234b5583e5ad2174",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\attack-response-negative\\frame-0001.png",
+      "expected_sha256": "730cd8e74c385522f50bbe0fcbf943cc525bd496e7ebb7bfdade0b423538898e",
+      "actual_sha256": "730cd8e74c385522f50bbe0fcbf943cc525bd496e7ebb7bfdade0b423538898e",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\attack-response-negative\\frame-0002.png",
+      "expected_sha256": "187d23795bd80ff6b930d1d091a6fc66975f05e4fc6905e85c698e120ae09915",
+      "actual_sha256": "187d23795bd80ff6b930d1d091a6fc66975f05e4fc6905e85c698e120ae09915",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0000.png",
+      "expected_sha256": "2bf1e2eeef9af635a77a31c007a33a91edf5cc1ff0e36929967094aed7862816",
+      "actual_sha256": "2bf1e2eeef9af635a77a31c007a33a91edf5cc1ff0e36929967094aed7862816",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0001.png",
+      "expected_sha256": "489d1c1ee81d819c7859b3fa57e6055c7b26ac3383a1aee1e65c5c22dd075063",
+      "actual_sha256": "489d1c1ee81d819c7859b3fa57e6055c7b26ac3383a1aee1e65c5c22dd075063",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0002.png",
+      "expected_sha256": "b5c243046884e07f5e99490725c3a704bd6a4fae712e6b8da2fa2690f1a069e1",
+      "actual_sha256": "b5c243046884e07f5e99490725c3a704bd6a4fae712e6b8da2fa2690f1a069e1",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0003.png",
+      "expected_sha256": "030c344fed3491783da2697f6f10d373c9ba6c227fe6c0465c52ccfc6ebaf98a",
+      "actual_sha256": "030c344fed3491783da2697f6f10d373c9ba6c227fe6c0465c52ccfc6ebaf98a",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0004.png",
+      "expected_sha256": "5fa73fbffcb19f70d1c319480e6c888eaf7b6596f05824d562173aafe2ef1c09",
+      "actual_sha256": "5fa73fbffcb19f70d1c319480e6c888eaf7b6596f05824d562173aafe2ef1c09",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0005.png",
+      "expected_sha256": "cf25656727b196a4781116265406dfefe8de139d1d78d7680255631b7b9adb86",
+      "actual_sha256": "cf25656727b196a4781116265406dfefe8de139d1d78d7680255631b7b9adb86",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0006.png",
+      "expected_sha256": "8d1d5a0261017eb8ea8cf32ef6683c79fb33a5984fd08d8d37a7a2ee0f6d2ece",
+      "actual_sha256": "8d1d5a0261017eb8ea8cf32ef6683c79fb33a5984fd08d8d37a7a2ee0f6d2ece",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0007.png",
+      "expected_sha256": "41dc6da4dcd8c4ec8f6ccf5bf7db9585e8984521af3b7c5b7c99c4ecabdc2a78",
+      "actual_sha256": "41dc6da4dcd8c4ec8f6ccf5bf7db9585e8984521af3b7c5b7c99c4ecabdc2a78",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0008.png",
+      "expected_sha256": "b1d615793c7213ea8bda7c138f9462f81c270cf436030af39115a4c1c7077a57",
+      "actual_sha256": "b1d615793c7213ea8bda7c138f9462f81c270cf436030af39115a4c1c7077a57",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0009.png",
+      "expected_sha256": "dce13431b582773138444218be9cbe82feb05bdf933c1a194fc598854758c5f7",
+      "actual_sha256": "dce13431b582773138444218be9cbe82feb05bdf933c1a194fc598854758c5f7",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0010.png",
+      "expected_sha256": "bc7ae36c439edc7cfd52600561b8d91b85654aa2e3e4d9de510cc423f9a6fcad",
+      "actual_sha256": "bc7ae36c439edc7cfd52600561b8d91b85654aa2e3e4d9de510cc423f9a6fcad",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0011.png",
+      "expected_sha256": "8e5f3aefd7a6c15258bdce220c51a437d875edf428deca747e2c31641dc88099",
+      "actual_sha256": "8e5f3aefd7a6c15258bdce220c51a437d875edf428deca747e2c31641dc88099",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0012.png",
+      "expected_sha256": "274c2b58c668069b5bcc54ac738952a453312220583ea8f907f61295167c59df",
+      "actual_sha256": "274c2b58c668069b5bcc54ac738952a453312220583ea8f907f61295167c59df",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0013.png",
+      "expected_sha256": "458fe270a5662ece6ec515c30bd66abf3d1e42740734b9c6bb46e9b75605da81",
+      "actual_sha256": "458fe270a5662ece6ec515c30bd66abf3d1e42740734b9c6bb46e9b75605da81",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0014.png",
+      "expected_sha256": "15355d680cf06668811ee5810fab708345b0068707f801ad73c113c714ba996c",
+      "actual_sha256": "15355d680cf06668811ee5810fab708345b0068707f801ad73c113c714ba996c",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0015.png",
+      "expected_sha256": "62bc57d891bf8fab950c42180a85b9d6db30efde4c38b176b5a23153f936ba2c",
+      "actual_sha256": "62bc57d891bf8fab950c42180a85b9d6db30efde4c38b176b5a23153f936ba2c",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0016.png",
+      "expected_sha256": "a4c09361587aa7d6f7e17518bb32d028f022e1839b425548d7c99cbc2121701f",
+      "actual_sha256": "a4c09361587aa7d6f7e17518bb32d028f022e1839b425548d7c99cbc2121701f",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0017.png",
+      "expected_sha256": "cd439e9507bb88a9475ba9c1f4f3178eef319676c28a041a953c28ff6e306288",
+      "actual_sha256": "cd439e9507bb88a9475ba9c1f4f3178eef319676c28a041a953c28ff6e306288",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0018.png",
+      "expected_sha256": "2e0e498ac0a61309ba585de0975067d99ad89dc5a26edc8b2d6241996920121b",
+      "actual_sha256": "2e0e498ac0a61309ba585de0975067d99ad89dc5a26edc8b2d6241996920121b",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0019.png",
+      "expected_sha256": "9f6d8d844477d72be65f055e9716fffb82752fec8be5aac4c23bfc18d689441a",
+      "actual_sha256": "9f6d8d844477d72be65f055e9716fffb82752fec8be5aac4c23bfc18d689441a",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0000.png",
+      "expected_sha256": "d33b71a4da30eb3b47c7fcf89be7bf5f1b6136c2d48e632a2bf0376f50a2fb89",
+      "actual_sha256": "d33b71a4da30eb3b47c7fcf89be7bf5f1b6136c2d48e632a2bf0376f50a2fb89",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0001.png",
+      "expected_sha256": "36a1d1cb0bbe416752b8289e70ace92db80291025a0c0aecb5d09913cdaeda26",
+      "actual_sha256": "36a1d1cb0bbe416752b8289e70ace92db80291025a0c0aecb5d09913cdaeda26",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0002.png",
+      "expected_sha256": "81d8b98fdd1634be7e0bf9aa28e165399c17bcb8599cda9ba354bf14350e4505",
+      "actual_sha256": "81d8b98fdd1634be7e0bf9aa28e165399c17bcb8599cda9ba354bf14350e4505",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0003.png",
+      "expected_sha256": "d8d1d3ccd0a396b6abdfaea581a89ec2d89781e0f31fef7f073c025475764401",
+      "actual_sha256": "d8d1d3ccd0a396b6abdfaea581a89ec2d89781e0f31fef7f073c025475764401",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0004.png",
+      "expected_sha256": "acc3cfd68dfb75e3a35efc5f2507da049fba174f421d0792e26cf9d36bc1a31c",
+      "actual_sha256": "acc3cfd68dfb75e3a35efc5f2507da049fba174f421d0792e26cf9d36bc1a31c",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0005.png",
+      "expected_sha256": "9f518e770d219cbe93e0cbe9090757afb271525979e4a268424ba047933f5464",
+      "actual_sha256": "9f518e770d219cbe93e0cbe9090757afb271525979e4a268424ba047933f5464",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0006.png",
+      "expected_sha256": "5c41dc8597e6930a6cb7e3c79e5ee53c203a98b2c33653dc28e94c2a96f38200",
+      "actual_sha256": "5c41dc8597e6930a6cb7e3c79e5ee53c203a98b2c33653dc28e94c2a96f38200",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0007.png",
+      "expected_sha256": "a45f1689800c38043383b0d324c14c1b96c252189a20aa03e794f0ebc6358f4b",
+      "actual_sha256": "a45f1689800c38043383b0d324c14c1b96c252189a20aa03e794f0ebc6358f4b",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0008.png",
+      "expected_sha256": "c41accaf13195c87df9f74119810824b84de1a70bc7be3d112d0631ea4ae244d",
+      "actual_sha256": "c41accaf13195c87df9f74119810824b84de1a70bc7be3d112d0631ea4ae244d",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0009.png",
+      "expected_sha256": "a9f002de3b0301dd4815ea28febcf893da089a106b90bbb27b214988591efae7",
+      "actual_sha256": "d1715baefc4930d4046d031d34c31658a779b3203b2a8e151718a9b6ab751301",
+      "matched": false
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\monster-effect-chain-negative\\frame-0000.png",
+      "expected_sha256": "ed0a1592ab905d794e62433288293a63f69d49071c0bb15d16a133ba4dc46a48",
+      "actual_sha256": "ed0a1592ab905d794e62433288293a63f69d49071c0bb15d16a133ba4dc46a48",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\monster-effect-chain-negative\\frame-0001.png",
+      "expected_sha256": "befc5b9086d5065709d3b8f19433aa2d69a0d35e03cd5ac16d458b0627c162fa",
+      "actual_sha256": "befc5b9086d5065709d3b8f19433aa2d69a0d35e03cd5ac16d458b0627c162fa",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\monster-effect-chain-negative\\frame-0002.png",
+      "expected_sha256": "0cb7b88db21b50e1b93afd0643227f98182b2327da882a96c25dbf334709348a",
+      "actual_sha256": "0cb7b88db21b50e1b93afd0643227f98182b2327da882a96c25dbf334709348a",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0000.png",
+      "expected_sha256": "42e528e9184218f6effe2ca0dd72f1c7330a303f77bc4e41f4eca3e143fbf1e6",
+      "actual_sha256": "42e528e9184218f6effe2ca0dd72f1c7330a303f77bc4e41f4eca3e143fbf1e6",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0001.png",
+      "expected_sha256": "aa17cb019aaf18d984b89228fbca1c5a3b66a087d9b2a0ea783748d0b5d7a6e3",
+      "actual_sha256": "aa17cb019aaf18d984b89228fbca1c5a3b66a087d9b2a0ea783748d0b5d7a6e3",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0002.png",
+      "expected_sha256": "ec7b75ff536139a4b7c6f0ffb27d8b0eb60dcbb94b6ab5a8471fc1ccdc6ab0fc",
+      "actual_sha256": "ec7b75ff536139a4b7c6f0ffb27d8b0eb60dcbb94b6ab5a8471fc1ccdc6ab0fc",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0003.png",
+      "expected_sha256": "75df26e564b4f4c24d30310f487b1bf9073c1fc9e2f56684a5c9aae923ef5e6b",
+      "actual_sha256": "75df26e564b4f4c24d30310f487b1bf9073c1fc9e2f56684a5c9aae923ef5e6b",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0004.png",
+      "expected_sha256": "0aee7a01e9a10dc37ec0826e1982869f491148b1fadb722dd158ea50ddbe41ce",
+      "actual_sha256": "0aee7a01e9a10dc37ec0826e1982869f491148b1fadb722dd158ea50ddbe41ce",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0005.png",
+      "expected_sha256": "5c7a28d1f86a0b33eb80d12fbd3c92deac2a58d81e9ed8e2a143d5c37cc3c6a1",
+      "actual_sha256": "5c7a28d1f86a0b33eb80d12fbd3c92deac2a58d81e9ed8e2a143d5c37cc3c6a1",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0006.png",
+      "expected_sha256": "912903bd33eb6c5d6b01717e06e10ef6f9d6ffdfb95ff47d25e53505cd88c5ce",
+      "actual_sha256": "912903bd33eb6c5d6b01717e06e10ef6f9d6ffdfb95ff47d25e53505cd88c5ce",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0007.png",
+      "expected_sha256": "283710adeee9f5c0d51e67f702d920087a0a49a31dd505f830549cf622976c9f",
+      "actual_sha256": "283710adeee9f5c0d51e67f702d920087a0a49a31dd505f830549cf622976c9f",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0008.png",
+      "expected_sha256": "46f7c264ddafb29ff5d397ad1e54715cc3f5a3e53d372dd286786942c7bdf0da",
+      "actual_sha256": "46f7c264ddafb29ff5d397ad1e54715cc3f5a3e53d372dd286786942c7bdf0da",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0009.png",
+      "expected_sha256": "ec796dd94711b91ea4311a587fe9bbf78aa5b67d658726317ecff4b7a6a5090a",
+      "actual_sha256": "ec796dd94711b91ea4311a587fe9bbf78aa5b67d658726317ecff4b7a6a5090a",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\retry1-ritual-chain-negative\\frame-0000.png",
+      "expected_sha256": "e927435d03276d30c2ec15a7a2bc9a8f0edd3e525fc6f7a855674f0c3bdffdc5",
+      "actual_sha256": "e927435d03276d30c2ec15a7a2bc9a8f0edd3e525fc6f7a855674f0c3bdffdc5",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\retry1-ritual-chain-negative\\frame-0001.png",
+      "expected_sha256": "81b1f6862be39582d5b9416895d3c645fd9bcb3abe98c9a1c3b41f02bee5933a",
+      "actual_sha256": "81b1f6862be39582d5b9416895d3c645fd9bcb3abe98c9a1c3b41f02bee5933a",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\retry1-ritual-chain-negative\\frame-0002.png",
+      "expected_sha256": "c4bf9efa74be48d5e7b465e6326cc9047430946bca948db1db72408c6d6464fe",
+      "actual_sha256": "c4bf9efa74be48d5e7b465e6326cc9047430946bca948db1db72408c6d6464fe",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\ritual-chain-before-negative\\frame-0000.png",
+      "expected_sha256": "9b717960a6bc8cc81f89d938dbe747c755e929682f56e76bb048422b001e305f",
+      "actual_sha256": "9b717960a6bc8cc81f89d938dbe747c755e929682f56e76bb048422b001e305f",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\ritual-chain-before-negative\\frame-0001.png",
+      "expected_sha256": "6247bd0c287a547519082bf90befe4bd12e2e50a5f578fb904d708a3f761b244",
+      "actual_sha256": "6247bd0c287a547519082bf90befe4bd12e2e50a5f578fb904d708a3f761b244",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\ritual-chain-before-negative\\frame-0002.png",
+      "expected_sha256": "b4b23f7011ab9a61b246c7d8eed846f93d0772abbd12accc54939cb7f409ce69",
+      "actual_sha256": "b4b23f7011ab9a61b246c7d8eed846f93d0772abbd12accc54939cb7f409ce69",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0000.png",
+      "expected_sha256": "20519d762222052b59fb2dbc54d838e52558b84e1485e6ab01c2e8fefb9b6484",
+      "actual_sha256": "20519d762222052b59fb2dbc54d838e52558b84e1485e6ab01c2e8fefb9b6484",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0001.png",
+      "expected_sha256": "7b5a332d10e767319e9331550b2a03d2c64ba6928979b545cd731c97f542675b",
+      "actual_sha256": "7b5a332d10e767319e9331550b2a03d2c64ba6928979b545cd731c97f542675b",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0002.png",
+      "expected_sha256": "bbaa83cf2d1c71b845bccb23c4ab39c7a30a4fb70bd5a178bcc06dab107d5125",
+      "actual_sha256": "bbaa83cf2d1c71b845bccb23c4ab39c7a30a4fb70bd5a178bcc06dab107d5125",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0003.png",
+      "expected_sha256": "598e9d1efb5b58847578dcbc9c6ae01322b45ddab87c2138df2416ca7ddc744d",
+      "actual_sha256": "598e9d1efb5b58847578dcbc9c6ae01322b45ddab87c2138df2416ca7ddc744d",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0004.png",
+      "expected_sha256": "1cc3ea3006706341732231e10d9eab7af7efbb3f4a3da4a25bf9b4d005582e8d",
+      "actual_sha256": "1cc3ea3006706341732231e10d9eab7af7efbb3f4a3da4a25bf9b4d005582e8d",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0005.png",
+      "expected_sha256": "d51c0af40577149394172de7af34402c8b99c690393748c3462f284ca65d0949",
+      "actual_sha256": "d51c0af40577149394172de7af34402c8b99c690393748c3462f284ca65d0949",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0006.png",
+      "expected_sha256": "c7e08967d627c3f72f00604ff58d86da857490eb8ce586f15ad69868e7741160",
+      "actual_sha256": "c7e08967d627c3f72f00604ff58d86da857490eb8ce586f15ad69868e7741160",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0007.png",
+      "expected_sha256": "f26541bc0e7476eef40f73e49e2fd9f51a897577abcaed8bc93234ffc937d205",
+      "actual_sha256": "f26541bc0e7476eef40f73e49e2fd9f51a897577abcaed8bc93234ffc937d205",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0008.png",
+      "expected_sha256": "bce8a8899b7851a14631162b0fb06ebf23a7a6ec82b6143ad36356ef6178e758",
+      "actual_sha256": "bce8a8899b7851a14631162b0fb06ebf23a7a6ec82b6143ad36356ef6178e758",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0009.png",
+      "expected_sha256": "dd53d427696bd6bc14575a9614dcbe18fc2894305f9d0109f54813dee4e0cef7",
+      "actual_sha256": "dd53d427696bd6bc14575a9614dcbe18fc2894305f9d0109f54813dee4e0cef7",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0000.png",
+      "expected_sha256": "a21ebf409fcdef181d68c86656fd7f6eda578379c1de55bd80b0a74d671cd1a1",
+      "actual_sha256": "a21ebf409fcdef181d68c86656fd7f6eda578379c1de55bd80b0a74d671cd1a1",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0001.png",
+      "expected_sha256": "00b82010bb89d13d5bc3faeafb399c3a3855176f5ee8c73bd734238420e1d7fc",
+      "actual_sha256": "00b82010bb89d13d5bc3faeafb399c3a3855176f5ee8c73bd734238420e1d7fc",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0002.png",
+      "expected_sha256": "edf9b41b4badf3470a3342fc05fcb26d773d108227b57dd791a9c1a5260d0f2f",
+      "actual_sha256": "edf9b41b4badf3470a3342fc05fcb26d773d108227b57dd791a9c1a5260d0f2f",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0003.png",
+      "expected_sha256": "ee2f88b47bedd19e1a5e11d23910e5c4a8acee3c3ad932613bde0ecc5dd8aa4b",
+      "actual_sha256": "ee2f88b47bedd19e1a5e11d23910e5c4a8acee3c3ad932613bde0ecc5dd8aa4b",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0004.png",
+      "expected_sha256": "8b84874cb9dbf0be7cc1778f9f9bcd3b5b80708d49f2d286182c868e38b08508",
+      "actual_sha256": "8b84874cb9dbf0be7cc1778f9f9bcd3b5b80708d49f2d286182c868e38b08508",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0005.png",
+      "expected_sha256": "db85a04f46ce33f5a2b4b22f877fb31b14da25b7bfae4a0a8de91a1515150242",
+      "actual_sha256": "db85a04f46ce33f5a2b4b22f877fb31b14da25b7bfae4a0a8de91a1515150242",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0006.png",
+      "expected_sha256": "73da6a5af94318bb6d792e561318e4e0450bd047e8ce9b4bb8ec3e545ef5a0b4",
+      "actual_sha256": "73da6a5af94318bb6d792e561318e4e0450bd047e8ce9b4bb8ec3e545ef5a0b4",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0007.png",
+      "expected_sha256": "2b07655352c1d1fb5e7132c39329637e2eaf9892060d9c2bb9a3b4412d572b8d",
+      "actual_sha256": "2b07655352c1d1fb5e7132c39329637e2eaf9892060d9c2bb9a3b4412d572b8d",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0008.png",
+      "expected_sha256": "480f40736c33238a15cd4d1fab9140601e98b5341827b9fcb7102135760924e7",
+      "actual_sha256": "480f40736c33238a15cd4d1fab9140601e98b5341827b9fcb7102135760924e7",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0009.png",
+      "expected_sha256": "d164adb13d9fd62c77a40eea57751f3e905f6e5a364dde71efd8ce11fc5ebb71",
+      "actual_sha256": "d164adb13d9fd62c77a40eea57751f3e905f6e5a364dde71efd8ce11fc5ebb71",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0000.png",
+      "expected_sha256": "49c5c5c32b4e26501a285b8dbfcadfb09e3768960477a09a680b66ed967e3396",
+      "actual_sha256": "49c5c5c32b4e26501a285b8dbfcadfb09e3768960477a09a680b66ed967e3396",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0001.png",
+      "expected_sha256": "ba469f896bd3b0efd40e6eccb8fc1074a0a2628aa938064890ff8875c71d7f9b",
+      "actual_sha256": "ba469f896bd3b0efd40e6eccb8fc1074a0a2628aa938064890ff8875c71d7f9b",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0002.png",
+      "expected_sha256": "0f53ea800f48f40c1cd63726e7f26d36985ab9e50304ea103b14328f8cbd03b2",
+      "actual_sha256": "0f53ea800f48f40c1cd63726e7f26d36985ab9e50304ea103b14328f8cbd03b2",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0003.png",
+      "expected_sha256": "7af6d28ca07436e39cae95e5bd5037cde5fe7f1d3e32ae5fe3893a249a6a34de",
+      "actual_sha256": "7af6d28ca07436e39cae95e5bd5037cde5fe7f1d3e32ae5fe3893a249a6a34de",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0004.png",
+      "expected_sha256": "cf8d2e41cdd8c8d73f85a5556638bbbe4b2f972e9dba3fa78e5a89cd0a4fb823",
+      "actual_sha256": "cf8d2e41cdd8c8d73f85a5556638bbbe4b2f972e9dba3fa78e5a89cd0a4fb823",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0005.png",
+      "expected_sha256": "0719ac341e48e2ad90cba1c092ecfbddd253871a671ec690c7523df3a9f22356",
+      "actual_sha256": "0719ac341e48e2ad90cba1c092ecfbddd253871a671ec690c7523df3a9f22356",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0006.png",
+      "expected_sha256": "a6466306cc92af7eefc37a661af6855c65d05d097382f1f78a29219d5f7373f4",
+      "actual_sha256": "a6466306cc92af7eefc37a661af6855c65d05d097382f1f78a29219d5f7373f4",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0007.png",
+      "expected_sha256": "53c28a1f189f48e7fc433f91fc4c1f23855b2fc4615e56f1f6a786c951e4c473",
+      "actual_sha256": "53c28a1f189f48e7fc433f91fc4c1f23855b2fc4615e56f1f6a786c951e4c473",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0008.png",
+      "expected_sha256": "305d52b6fe1f7d6f6a3c1e051ad5ff7e14b868a44fdd09a50719679735402ef7",
+      "actual_sha256": "305d52b6fe1f7d6f6a3c1e051ad5ff7e14b868a44fdd09a50719679735402ef7",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0009.png",
+      "expected_sha256": "ef1b02aabb42c205434b71c64e6301841e898d38dd6861f1950e1c2ea217c380",
+      "actual_sha256": "ef1b02aabb42c205434b71c64e6301841e898d38dd6861f1950e1c2ea217c380",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0000.png",
+      "expected_sha256": "b76e2a2b853d2dee4b3e0351f7fe1128e76ab5e6ab9eb526036e6dbb3b13778d",
+      "actual_sha256": "b76e2a2b853d2dee4b3e0351f7fe1128e76ab5e6ab9eb526036e6dbb3b13778d",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0001.png",
+      "expected_sha256": "f57e3297e4ea3c2c7006869ca1c54b7d103d2c5014b8558677f7430e5c119393",
+      "actual_sha256": "f57e3297e4ea3c2c7006869ca1c54b7d103d2c5014b8558677f7430e5c119393",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0002.png",
+      "expected_sha256": "f0ab218ddd2f2222ac183b52ac034f5897aa16c85daa3d5e2ce9d5a2e3381ca7",
+      "actual_sha256": "f0ab218ddd2f2222ac183b52ac034f5897aa16c85daa3d5e2ce9d5a2e3381ca7",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0003.png",
+      "expected_sha256": "a7b98c9a9cfcb61c3c0e64955863337e780d8839b09a182a8c7a652cb9e9fbe9",
+      "actual_sha256": "a7b98c9a9cfcb61c3c0e64955863337e780d8839b09a182a8c7a652cb9e9fbe9",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0004.png",
+      "expected_sha256": "1e9bd2a5f0c489054dc1c640a5b95b335fbd098f8f5add71cf0885df49830157",
+      "actual_sha256": "1e9bd2a5f0c489054dc1c640a5b95b335fbd098f8f5add71cf0885df49830157",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0005.png",
+      "expected_sha256": "a7fbf44c8d44096013595cd49dc9fd695b0cd2d2effa69899238ca3ef267cc55",
+      "actual_sha256": "a7fbf44c8d44096013595cd49dc9fd695b0cd2d2effa69899238ca3ef267cc55",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0006.png",
+      "expected_sha256": "f67b05a40f34f53a30b548fb01355993cdc9c58ea9ee5f5f1b1a3978321bfd9b",
+      "actual_sha256": "f67b05a40f34f53a30b548fb01355993cdc9c58ea9ee5f5f1b1a3978321bfd9b",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0007.png",
+      "expected_sha256": "789fa224969dce01a5b38fa8e23502957d0ce63a3d3bf9a9412cd41d44394738",
+      "actual_sha256": "789fa224969dce01a5b38fa8e23502957d0ce63a3d3bf9a9412cd41d44394738",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0008.png",
+      "expected_sha256": "345ce4d9420e22419e53d351fabc74958ba9dd73ec3a4461121670139e251a4d",
+      "actual_sha256": "345ce4d9420e22419e53d351fabc74958ba9dd73ec3a4461121670139e251a4d",
+      "matched": true
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0009.png",
+      "expected_sha256": "4bfe35f7f5ff581c9b336bce6c3b08d647f17307b73720eb7a16a55e4411fa94",
+      "actual_sha256": "4bfe35f7f5ff581c9b336bce6c3b08d647f17307b73720eb7a16a55e4411fa94",
+      "matched": true
+    }
+  ],
+  "fixed_derived_asset_checks": [
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_000.png",
+      "sha256": "f930919443c5cb0c60b753609d915becfc78c898ad1e1f7e5125f97ac0af4072",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_001.png",
+      "sha256": "29e8a8c6270199c2d547c240816491b63eb2f4805b61a2a96a4692b03c6bdedc",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_002.png",
+      "sha256": "641bdb4ddfc36b9c828650d7a0e3b0591a635a605bab1c0bc18e9c1ee6680770",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_003.png",
+      "sha256": "ebaf5318eb7164efba07bcc4a7ba3749959d25dd73297eec3b2845d23b955cd9",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_004.png",
+      "sha256": "6e3a3194b7f50b173156d2a87026fa8fa116b86aab74bc48d3445dcf1c4782a0",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_005.png",
+      "sha256": "49fa2ae8902bf6df28589dccbe3114b169018923a7e3a806e662a8b84e8a488e",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_006.png",
+      "sha256": "a12d612fa8aa0711c4ec8564b5019c42ec43249710b39f74ba16ac207f6ebb38",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_007.png",
+      "sha256": "bdbdeac8f52a1c9250394009fc7b10597c85feabb84f79463f54e92ec382bf7f",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_008.png",
+      "sha256": "8f7a80309b5d067d5604c62b00efd817de413b9601b0cefc0322c478f1c0549d",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_009.png",
+      "sha256": "18f9f28036623e9c970a3cd96eee5a7dc174964362764eea3dab099e998b2f1e",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_010.png",
+      "sha256": "d87bcc41dc8aed421d9db7fdcdef2fd67f76a9597b60bf74867dc92bb6c966f1",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_011.png",
+      "sha256": "b37666e77d21219391995782d5364ce0c7aacdc5b500f2371612a346329c5794",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_012.png",
+      "sha256": "16f9608f3cd99497db51217f90d1b4bea31f2b8ba6ca307e7d1373263eed403d",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_013.png",
+      "sha256": "3ccab0aecf83fadf389ec39f0fc1043c8959a6f8e7f3f7a5424caf1b03bbb06e",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_014.png",
+      "sha256": "4c8bc0520fce1817cbdfc6d327e87b830d620b91c65dbaf00899e84193e56aee",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_015.png",
+      "sha256": "e62b1759c21aa0a556687ce57d9f7128b0e2064607e532b498d0243af53c01c2",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_016.png",
+      "sha256": "456a0532d6d661ae488e492490629a4fad4508beb9781787b5eb0e7ab996872e",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_017.png",
+      "sha256": "ebb4eed9af74037b48eee092f57c8edea349e1a7862c46b6ab1f2519aa51c3c1",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_018.png",
+      "sha256": "ebb4eed9af74037b48eee092f57c8edea349e1a7862c46b6ab1f2519aa51c3c1",
+      "source": "fixed derived crop created before original-frame loss"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solo-basic-calibration-v2\\response_action_cancel_opponent_turn_end_019.png",
+      "sha256": "398d5b76edd8366bc730693b81135be934039d15df37bf3235cec760beaacd74",
+      "source": "fixed derived crop created before original-frame loss"
+    }
+  ],
+  "old_normal_input_checks": [
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0000.png",
+      "sha256": "8e82ae997dc817e1dd39c24c1975ab5a53e3fa2f2e7b6d515b72395d3f5e3572"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0001.png",
+      "sha256": "9e061493abbe859147c4f72f13be6c1cf2401a0b83b3f71cfb76ef77a32e4a65"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0002.png",
+      "sha256": "bf293c433e4073865780312537d2a28c81a0027a1dbc145ce87d19c3d4972240"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0003.png",
+      "sha256": "9db102fe201ccb773f121780a586001238bf4f5d0c4dc0a75079352654a8f01a"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0004.png",
+      "sha256": "3f57f3caeb9d39ca532f8645829c273f0e8c887f2b77de616cad6be093ca2558"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0005.png",
+      "sha256": "1c89607f61009250e5ae1933b7107ec2ef73be4c58069f7130386dc68c491577"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0006.png",
+      "sha256": "d0aca4e5debf455b529a6160fd21f76c8e7b6a4784cc2d5029e47da0f70d9905"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0007.png",
+      "sha256": "1d907f5d935ee0d003f22b4a329a7d91520be02b677b128a83bac2d9be9f0040"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0008.png",
+      "sha256": "dbbcccd115e1f14741dfd8f62145d722930d7cdaf6a1ad931432f3f92f77edf4"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0009.png",
+      "sha256": "e780135141f5ca231614d4a20a7184dbf9c4815d984d6050a89937302f4694a7"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0000.png",
+      "sha256": "4be4bd395a93cec2d98dd83cbcc5a27b5e39f641acec8eccbd5af6aa53a7edf6"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0001.png",
+      "sha256": "2208dcbc354a54d345a2cda8afed28be624f536a5d925b7eade7605fe3b82d55"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0002.png",
+      "sha256": "fb9dbaa42b92140aa7687df0fd531fbcc6064d8a8ff367727f1fd2bd245e2d23"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0003.png",
+      "sha256": "b741d7c325fa4f181e90dcf14400c9210fb6984922890ff628a34f2aacaf54e4"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0004.png",
+      "sha256": "e703283e3f85970abb6671c192a0999c9e2bc7aeb3e0063a615d1f76d38744a4"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0005.png",
+      "sha256": "65c0a2e4f7c789dc1838c585cf5d70ce9ef448b14256b55e79ef1a5129eb61f0"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0006.png",
+      "sha256": "9801d8985ef2ecb7f5e5da5cd0ee91e983038cea67d152546cb25e29cad318e5"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0007.png",
+      "sha256": "0a88684278e4ecc440b70d41e3090560e2512746c07246b14142d9cfc19c79e4"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0008.png",
+      "sha256": "a2d2a8a9d62b1ae6015cefb92b032dd3dd293baa7352cd25c0cd88198c6b6f09"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0009.png",
+      "sha256": "3ab88b152cfd7d969107f6bfa231413a3a1ef34c4c104a8406e7a43b314a91af"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0000.png",
+      "sha256": "9e7e40f376ef23b5084f6614ad8bf7895dd78776e6b428699f7fbdda8a8afb17"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0001.png",
+      "sha256": "3a4c2de0620afabff54b74ea7a15046eccd20de203caee433f6fd64c5d076acd"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0002.png",
+      "sha256": "62f2c91105cdb73508627c0e3062a1dbdc24611e026f06509db3e7e33a6fb9c1"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0003.png",
+      "sha256": "9419c7056335b1b7ebe67ada10c63dedd644c7bf2ee7bdd7722051e83fc2bc7f"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0004.png",
+      "sha256": "b82c3ac166db9012f30d0d1a47fef38bea3322e4dafe46d55493afb8588e310b"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0005.png",
+      "sha256": "40f83dcf04e88c3037a309cfdc771a9c0e677922e4b0811563534ddd1872dc8a"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0006.png",
+      "sha256": "1dc03d8e14a63200967af5c970dc9acb91b39eb3051874f03ca4e5fc6c1ffeaf"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0007.png",
+      "sha256": "8d2f244f5f14568bdce2902f8885c29b2de8abfad62bd68b7952a74054c00e0b"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0008.png",
+      "sha256": "5cd2c167a0d3e3c0d7ad1b7c3e000ba6a00785252d399b5fdf94451ce1205e50"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0009.png",
+      "sha256": "a3945b81208d89668dfc5258fe0d7bf49396888bf076924660362f3ac3995106"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0000.png",
+      "sha256": "5a2e70e279bce665a9aac341e22d69d8db37cf23fd92cce42fa83bc444160a7b"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0001.png",
+      "sha256": "50e41d7570c098afcaf1753621344b3667508d3aef02b8b08818cdc2c7e0d915"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0002.png",
+      "sha256": "5b0997b2a982e608012e473123736c3247bdf35f5e9ab91f0ebb5bfc1c836ce0"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0003.png",
+      "sha256": "124bb90d9c22f2356f718170769b4fd55285d38f3b56e539cd785b1ffb0ba673"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0004.png",
+      "sha256": "20dd6a52c37446c8c10b09da12a47a9ae2c3b8f83af72284dcb22f45f04563ee"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0005.png",
+      "sha256": "0618d51e9416872726b4432748c246a7fe7a5a15d2d984dcf09f296e0d7b13e8"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0006.png",
+      "sha256": "9628859984f3288f30a74a398f16911de9800d9b805e65de3f1e72da2b31fdd7"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0007.png",
+      "sha256": "977e3507afd05bc3ca878fa8b33db70a29f880807d623a9984d9606fc1ecad3d"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0008.png",
+      "sha256": "002486295491cd6e4422684291603258bab75b118a31751121b71032288ee603"
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0009.png",
+      "sha256": "2e135bb8fe4a8307709a677dd85bd8cf3f274a93984ecd7ad25b866cce88c067"
+    }
+  ],
+  "caption_roi": [
+    506,
+    674,
+    78,
+    14
+  ],
+  "click_bbox": [
+    456,
+    661,
+    178,
+    40
+  ],
+  "relative_caption_roi": [
+    50,
+    13,
+    78,
+    14
+  ],
+  "feature": "bright yellow caption shape",
+  "condition": {
+    "r_min": 160,
+    "g_min": 160,
+    "b_max": 100,
+    "tolerance_native_pixels": 1
+  },
+  "prototype": "pixel vote >= half across20 existing fixed End crops",
+  "prototype_pixels": 219,
+  "prototype_sha256": "9386ccaebe43eac17b2b845e3e4eb6aa5be6906b2fee77fd234053f3d5b11864",
+  "score": "min(recall and precision with native1px dilation)",
+  "threshold_selected": false,
+  "rows": [
+    {
+      "class": "attack-response-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\attack-response-negative\\frame-0000.png",
+      "yellow_pixels": 219,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "attack-response-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\attack-response-negative\\frame-0001.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "attack-response-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\attack-response-negative\\frame-0002.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0000.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0001.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0002.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0003.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0004.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0005.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0006.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0007.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0008.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0009.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0010.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0011.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0012.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0013.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0014.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0015.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0016.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0017.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0018.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0019.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0000.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "effect_other_label_not_disabled_cancel",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0000.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0001.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "effect_other_label_not_disabled_cancel",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0001.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0002.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "effect_other_label_not_disabled_cancel",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0002.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0003.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "effect_other_label_not_disabled_cancel",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0003.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0004.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "effect_other_label_not_disabled_cancel",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0004.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0005.png",
+      "yellow_pixels": 220,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "effect_other_label_not_disabled_cancel",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0005.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0006.png",
+      "yellow_pixels": 222,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "effect_other_label_not_disabled_cancel",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0006.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0007.png",
+      "yellow_pixels": 226,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "effect_other_label_not_disabled_cancel",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0007.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "end-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0008.png",
+      "yellow_pixels": 222,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "effect_other_label_not_disabled_cancel",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0008.png",
+      "yellow_pixels": 0,
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "monster-effect-chain-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\monster-effect-chain-negative\\frame-0000.png",
+      "yellow_pixels": 218,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "monster-effect-chain-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\monster-effect-chain-negative\\frame-0001.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "monster-effect-chain-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\monster-effect-chain-negative\\frame-0002.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "optional-chain-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0000.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "optional-chain-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0001.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "optional-chain-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0002.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "optional-chain-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0003.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "optional-chain-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0004.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "optional-chain-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0005.png",
+      "yellow_pixels": 219,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "optional-chain-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0006.png",
+      "yellow_pixels": 221,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "optional-chain-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0007.png",
+      "yellow_pixels": 224,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "optional-chain-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0008.png",
+      "yellow_pixels": 224,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "optional-chain-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\optional-chain-after\\frame-0009.png",
+      "yellow_pixels": 221,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "retry1-ritual-chain-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\retry1-ritual-chain-negative\\frame-0000.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "retry1-ritual-chain-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\retry1-ritual-chain-negative\\frame-0001.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "retry1-ritual-chain-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\retry1-ritual-chain-negative\\frame-0002.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "ritual-chain-before-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\ritual-chain-before-negative\\frame-0000.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "ritual-chain-before-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\ritual-chain-before-negative\\frame-0001.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "ritual-chain-before-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\ritual-chain-before-negative\\frame-0002.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "summon-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0000.png",
+      "yellow_pixels": 221,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "summon-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0001.png",
+      "yellow_pixels": 226,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "summon-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0002.png",
+      "yellow_pixels": 227,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "summon-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0003.png",
+      "yellow_pixels": 222,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "summon-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0004.png",
+      "yellow_pixels": 219,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "summon-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0005.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "summon-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0006.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "summon-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0007.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "summon-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0008.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "summon-response-after",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0009.png",
+      "yellow_pixels": 217,
+      "shape_score": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "class": "summon-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0000.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "summon-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0001.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "summon-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0002.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "summon-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0003.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "summon-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0004.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "summon-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0005.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "summon-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0006.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "summon-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0007.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "summon-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0008.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "summon-response-before",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0009.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "unknown-chain-response-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0000.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "unknown-chain-response-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0001.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "unknown-chain-response-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0002.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "unknown-chain-response-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0003.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "unknown-chain-response-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0004.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "unknown-chain-response-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0005.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "unknown-chain-response-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0006.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "unknown-chain-response-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0007.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "unknown-chain-response-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0008.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "unknown-chain-response-negative",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\unknown-chain-response-negative\\frame-0009.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "fixed_new_known_method_selection",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0000.png",
+      "yellow_pixels": 352,
+      "shape_score": 0.8977272727272727,
+      "recall": 1.0,
+      "precision": 0.8977272727272727
+    },
+    {
+      "class": "fixed_new_known_method_selection",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0001.png",
+      "yellow_pixels": 352,
+      "shape_score": 0.8977272727272727,
+      "recall": 1.0,
+      "precision": 0.8977272727272727
+    },
+    {
+      "class": "fixed_new_known_method_selection",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0002.png",
+      "yellow_pixels": 336,
+      "shape_score": 0.8928571428571429,
+      "recall": 1.0,
+      "precision": 0.8928571428571429
+    },
+    {
+      "class": "fixed_new_known_method_selection",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0003.png",
+      "yellow_pixels": 336,
+      "shape_score": 0.8928571428571429,
+      "recall": 1.0,
+      "precision": 0.8928571428571429
+    },
+    {
+      "class": "fixed_new_known_method_selection",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0004.png",
+      "yellow_pixels": 334,
+      "shape_score": 0.8922155688622755,
+      "recall": 1.0,
+      "precision": 0.8922155688622755
+    },
+    {
+      "class": "fixed_new_known_method_selection",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0005.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "fixed_new_known_method_selection",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0006.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "fixed_new_known_method_selection",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0007.png",
+      "yellow_pixels": 333,
+      "shape_score": 0.8918918918918919,
+      "recall": 1.0,
+      "precision": 0.8918918918918919
+    },
+    {
+      "class": "fixed_new_known_method_selection",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0008.png",
+      "yellow_pixels": 334,
+      "shape_score": 0.8922155688622755,
+      "recall": 1.0,
+      "precision": 0.8922155688622755
+    },
+    {
+      "class": "fixed_new_known_method_selection",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v1_20261006\\end\\frame-0009.png",
+      "yellow_pixels": 335,
+      "shape_score": 0.8925373134328358,
+      "recall": 1.0,
+      "precision": 0.8925373134328358
+    },
+    {
+      "class": "normal_menu",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0000.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_menu",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0001.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_menu",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0002.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_menu",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0003.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_menu",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0004.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_menu",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0005.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_menu",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0006.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_menu",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0007.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_menu",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0008.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_menu",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0009.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_placement",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0000.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_placement",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0001.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_placement",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0002.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_placement",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0003.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_placement",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0004.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_placement",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0005.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_placement",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0006.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_placement",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0007.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_placement",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0008.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_placement",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0009.png",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "normal_post-unselected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0000.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.45714285714285713
+    },
+    {
+      "class": "normal_post-unselected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0001.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.45714285714285713
+    },
+    {
+      "class": "normal_post-unselected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0002.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.4444444444444444
+    },
+    {
+      "class": "normal_post-unselected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0003.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.4444444444444444
+    },
+    {
+      "class": "normal_post-unselected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0004.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.4444444444444444
+    },
+    {
+      "class": "normal_post-unselected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0005.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.45714285714285713
+    },
+    {
+      "class": "normal_post-unselected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0006.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.45714285714285713
+    },
+    {
+      "class": "normal_post-unselected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0007.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.45714285714285713
+    },
+    {
+      "class": "normal_post-unselected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0008.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.45714285714285713
+    },
+    {
+      "class": "normal_post-unselected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0009.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.45714285714285713
+    },
+    {
+      "class": "normal_post-inspected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0000.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.45714285714285713
+    },
+    {
+      "class": "normal_post-inspected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0001.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.45714285714285713
+    },
+    {
+      "class": "normal_post-inspected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0002.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.45714285714285713
+    },
+    {
+      "class": "normal_post-inspected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0003.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.45714285714285713
+    },
+    {
+      "class": "normal_post-inspected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0004.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.45714285714285713
+    },
+    {
+      "class": "normal_post-inspected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0005.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.45714285714285713
+    },
+    {
+      "class": "normal_post-inspected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0006.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.45714285714285713
+    },
+    {
+      "class": "normal_post-inspected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0007.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.45714285714285713
+    },
+    {
+      "class": "normal_post-inspected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0008.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.45714285714285713
+    },
+    {
+      "class": "normal_post-inspected",
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0009.png",
+      "shape_score": 0.0547945205479452,
+      "recall": 0.0547945205479452,
+      "precision": 0.45714285714285713
+    },
+    {
+      "class": "synthetic_uniform_yellow",
+      "shape_score": 0.51007326007326,
+      "recall": 1.0,
+      "precision": 0.51007326007326
+    },
+    {
+      "class": "synthetic_zero",
+      "shape_score": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    {
+      "class": "synthetic_reversed_letters",
+      "shape_score": 0.730593607305936,
+      "recall": 0.730593607305936,
+      "precision": 0.730593607305936
+    },
+    {
+      "class": "synthetic_shift4px",
+      "shape_score": 0.6073059360730594,
+      "recall": 0.6073059360730594,
+      "precision": 0.639269406392694
+    }
+  ],
+  "limitations": [
+    "Color is enabled-display proxy; disabledCancel actual images unavailable",
+    "Caption is common across prompts; semantic whole-text/phrase/phase AND remains mandatory",
+    "Missing original frame not restored; retained derived crops used as such"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "action_limit",
+  "actions": 2,
+  "elapsed_seconds": 0.625,
+  "action_log": "evaluation\\baseline-tester\\phase-regression-d7c39-20261006\\actions.jsonl",
+  "screenshots": "evaluation\\baseline-tester\\phase-regression-d7c39-20261006\\screenshots",
+  "logical_actions": 1,
+  "logical_action_log": "evaluation\\baseline-tester\\phase-regression-d7c39-20261006\\logical-actions.jsonl",
+  "telemetry_mode": "live_autonomous",
+  "observation_to_click_ms_p95": 76.4500000012049
+}

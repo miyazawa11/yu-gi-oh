@@ -1,0 +1,1926 @@
+{
+  "schema": "dragondark-hand-search-v1",
+  "tracking": {
+    "corners": 24,
+    "quality": 0.02,
+    "distance": 5,
+    "window": 21,
+    "levels": 3,
+    "fb": 1.5,
+    "ransac": 2.0,
+    "minimum_inliers": 6,
+    "ratio": 0.7,
+    "scale": [
+      0.75,
+      1.2
+    ],
+    "dx": 40,
+    "dy": [
+      -8,
+      120
+    ],
+    "entry_raise_dy": -50,
+    "entry_y": 585,
+    "max_gap": 0.3
+  },
+  "scenes": {
+    "source_hand6-slot3": {
+      "rect": [
+        320,
+        540,
+        650,
+        180
+      ],
+      "references": [
+        {
+          "image": "hand-search-source_hand6-slot3-000.png",
+          "sha256": "5a1ae98bc87bfbdbc7f387e6bf40b3167490e09c48d13537f8416204c754fe0e",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0000.png",
+          "original_sha256": "b0daa93144dc768f13fddadd16cb2411b98e322d19563a87f956a4dd5de784ef",
+          "capture_sequence": 0,
+          "captured_at_monotonic": 79256.89,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-source_hand6-slot3-001.png",
+          "sha256": "3267ba8a5bf636e38b765aa7cb6d6d7bfcf42a4c45c4d50fd199defd0a29935a",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0001.png",
+          "original_sha256": "2f3b4a3425d2d9465e32ce76635b70429781646390e7396de945bfb9329d6388",
+          "capture_sequence": 1,
+          "captured_at_monotonic": 79257.062,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-source_hand6-slot3-002.png",
+          "sha256": "24e210945e92e088c8cb06bc7f217353e589f991e57b1f2b9a7e8be311f231b3",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0002.png",
+          "original_sha256": "bdd80566b4fe8b136828a533be5c28a168be4b4b891ff892efeed875db916658",
+          "capture_sequence": 2,
+          "captured_at_monotonic": 79257.234,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-source_hand6-slot3-003.png",
+          "sha256": "4ac30e03fed29cd33a53a38f4798e64b51e8619b586a0ff0d9e133f910d4296e",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0003.png",
+          "original_sha256": "bf72cadcb6faa1992d70b9940f0971e294ad8122f81cd829581d3624e9dbe821",
+          "capture_sequence": 3,
+          "captured_at_monotonic": 79257.421,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-source_hand6-slot3-004.png",
+          "sha256": "9bfdc975ceb2e35a68d1ca44970896d7341c541f0eb2baee034204cce1313404",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0004.png",
+          "original_sha256": "498d8ac9947d28ca626b42faa6a22c96a885e2db6f12009f11561d9e86181b60",
+          "capture_sequence": 4,
+          "captured_at_monotonic": 79257.593,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-source_hand6-slot3-005.png",
+          "sha256": "af7f0262952b3b2219c35af1c22145914a23e12008e921febc7acdeaf1e7368f",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0005.png",
+          "original_sha256": "c676b2a9606855af1ea8e1c7676fea5e54437a147817b8a5af7712bbd120021d",
+          "capture_sequence": 5,
+          "captured_at_monotonic": 79257.781,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-source_hand6-slot3-006.png",
+          "sha256": "2070b626818c2760fb724016539e9559249f28704b441061f89d185d64f0976e",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0006.png",
+          "original_sha256": "5034086480ce6f4668826e274f0a588940e36332eeed795aec0a999badb8849b",
+          "capture_sequence": 6,
+          "captured_at_monotonic": 79257.953,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-source_hand6-slot3-007.png",
+          "sha256": "379f90364fefaf9af47c5b731f2d49d1db8ef8bd947f3a37df38dd95ba7c0f55",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0007.png",
+          "original_sha256": "8c65f463bc91f4d9244af338bd39b1cd8235053d75c5dc591a6ce38ad390dd6f",
+          "capture_sequence": 7,
+          "captured_at_monotonic": 79258.14,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-source_hand6-slot3-008.png",
+          "sha256": "98f308c266986b2ed6fb0b9ed066f16d0a39e7edf4b416b59b5e71f19c107453",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0008.png",
+          "original_sha256": "ea52e06f750f6247f570e7deb7e4c4e2a969ec792db9f93b9187a9d2b65459cb",
+          "capture_sequence": 8,
+          "captured_at_monotonic": 79258.312,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-source_hand6-slot3-009.png",
+          "sha256": "a84801e8101d026ca9f5567a03a9a6b89738591ef22f02d94051014ffdf870f6",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0009.png",
+          "original_sha256": "4f6097f46f9c6b4e6a4d358afde09576890e0d93b0d53eeec3c4f6adf4107c70",
+          "capture_sequence": 9,
+          "captured_at_monotonic": 79258.484,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        }
+      ]
+    },
+    "source_hand7-slot3": {
+      "rect": [
+        320,
+        540,
+        650,
+        180
+      ],
+      "references": [
+        {
+          "image": "hand-search-source_hand7-slot3-000.png",
+          "sha256": "3908eaddebcafb3ce898019e99b91952e9e6676abfdc2269542d0fb7bda72529",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0000.png",
+          "original_sha256": "0ed957a314cc7503287353f06860dde9691b6eaff6c071cf15073a04a6a163ca",
+          "capture_sequence": 0,
+          "captured_at_monotonic": 81008.875,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-source_hand7-slot3-001.png",
+          "sha256": "a380289523ca2faeef6d34b25f871c5bb4abf6f349cb3b3d3b7cbae55ffd8bb6",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0001.png",
+          "original_sha256": "6527500c44172679c4776cb71092dd370d6718c6927949b31fe05ed1e1960068",
+          "capture_sequence": 1,
+          "captured_at_monotonic": 81009.046,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-source_hand7-slot3-002.png",
+          "sha256": "9b4c8b18eba9da51a5eb26d50a1875ba3d6c9996ef67e98d809af6e2f41f955e",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0002.png",
+          "original_sha256": "276087419ece90e39da6344dbc2996f279b9a541f38ec1157ffbf6b304c957ec",
+          "capture_sequence": 2,
+          "captured_at_monotonic": 81009.218,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-source_hand7-slot3-003.png",
+          "sha256": "f03a5e917a991086b7b9194da6fab1519e2e4083e923192b3a70ddf2db9e2acb",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0003.png",
+          "original_sha256": "e32492e5bdaad9305f7d1ef9315ad558b94aee97f2d54fdb9b4ce4c4b0e592e1",
+          "capture_sequence": 3,
+          "captured_at_monotonic": 81009.406,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-source_hand7-slot3-004.png",
+          "sha256": "c661d207445d7c8f8100d443215ce6c984468b3503a0b00574653b83f57fb3b3",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0004.png",
+          "original_sha256": "2b4a100da47204b3175c7997720d0104a151e605a1f119d8af55f3a0d9af9143",
+          "capture_sequence": 4,
+          "captured_at_monotonic": 81009.578,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-source_hand7-slot3-005.png",
+          "sha256": "4c01b2f1857d9eb37c435492a1491db1dd00d2999e6ff72012201162ddb35bae",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0005.png",
+          "original_sha256": "c5717d376064eb3935a3ce10db47fb355292f41431884278424bbf19f4ae784a",
+          "capture_sequence": 5,
+          "captured_at_monotonic": 81009.765,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-source_hand7-slot3-006.png",
+          "sha256": "a6000ca9acffd74513c8f5b1140b4d779cb0d0749cff4eeacb71db3287fe66e8",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0006.png",
+          "original_sha256": "bf215025d7859338c657971c207142426b8a3e1c2709cac9b3bf5290d443818a",
+          "capture_sequence": 6,
+          "captured_at_monotonic": 81009.953,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-source_hand7-slot3-007.png",
+          "sha256": "708e865c534436912c586c1efbe6c97a38a099844ced0fe8a09bee39e54835eb",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0007.png",
+          "original_sha256": "325ba85022f948c6a5bc821eec00338952f3255eae9eff9087f412d80d37f238",
+          "capture_sequence": 7,
+          "captured_at_monotonic": 81010.125,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-source_hand7-slot3-008.png",
+          "sha256": "45a0355a2ae3b71f6c0284b1aff84e9e244e5400bfcdc4f0d6a3cd5bf104794d",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0008.png",
+          "original_sha256": "2c1fa76ed2a552635c48dec79ee5503c8d423bf1178a2b3068eefd87edbbe231",
+          "capture_sequence": 8,
+          "captured_at_monotonic": 81010.296,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-source_hand7-slot3-009.png",
+          "sha256": "b5bee44f1d41abac4f28368e9158793566f63f416b549c6a3996877c81f9e3ce",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0009.png",
+          "original_sha256": "bb49a9f2342deab8660a35bef5b67226418c412cdaf0ef9ac6e911d8cdefe93f",
+          "capture_sequence": 9,
+          "captured_at_monotonic": 81010.484,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        }
+      ]
+    },
+    "effect_hand6-slot3": {
+      "rect": [
+        645,
+        487,
+        78,
+        91
+      ],
+      "references": [
+        {
+          "image": "hand-search-effect_hand6-slot3-000.png",
+          "sha256": "0f2ba4cd7cc5ea87b8e473eb2f15d5186818e2d5a2db7f0e3ac81dbcabd4074d",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0000.png",
+          "original_sha256": "b0daa93144dc768f13fddadd16cb2411b98e322d19563a87f956a4dd5de784ef",
+          "capture_sequence": 0,
+          "captured_at_monotonic": 79256.89,
+          "rect": [
+            645,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-effect_hand6-slot3-001.png",
+          "sha256": "a4777a0ecc0b579984cc062fcadcca42ec4103416e9033f674af216052e3a38b",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0001.png",
+          "original_sha256": "2f3b4a3425d2d9465e32ce76635b70429781646390e7396de945bfb9329d6388",
+          "capture_sequence": 1,
+          "captured_at_monotonic": 79257.062,
+          "rect": [
+            645,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-effect_hand6-slot3-002.png",
+          "sha256": "17e4fa39498590b3df3b782b4f2ec5f66b43a82afeaedb37e81807c5f6cf0dbc",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0002.png",
+          "original_sha256": "bdd80566b4fe8b136828a533be5c28a168be4b4b891ff892efeed875db916658",
+          "capture_sequence": 2,
+          "captured_at_monotonic": 79257.234,
+          "rect": [
+            645,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-effect_hand6-slot3-003.png",
+          "sha256": "1f86ab63af2cdfab241689fea26b1e9679948a87ebae25daeb4ab833884e75ab",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0003.png",
+          "original_sha256": "bf72cadcb6faa1992d70b9940f0971e294ad8122f81cd829581d3624e9dbe821",
+          "capture_sequence": 3,
+          "captured_at_monotonic": 79257.421,
+          "rect": [
+            645,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-effect_hand6-slot3-004.png",
+          "sha256": "7ed0880b3d1351761283a72f119ce7eb4ffe747e0ac32ea18c41ce97582593bf",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0004.png",
+          "original_sha256": "498d8ac9947d28ca626b42faa6a22c96a885e2db6f12009f11561d9e86181b60",
+          "capture_sequence": 4,
+          "captured_at_monotonic": 79257.593,
+          "rect": [
+            645,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-effect_hand6-slot3-005.png",
+          "sha256": "f21d443cae2b60862d335acc58d7934ab669c5087bbc3ae50c752ef8801459be",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0005.png",
+          "original_sha256": "c676b2a9606855af1ea8e1c7676fea5e54437a147817b8a5af7712bbd120021d",
+          "capture_sequence": 5,
+          "captured_at_monotonic": 79257.781,
+          "rect": [
+            645,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-effect_hand6-slot3-006.png",
+          "sha256": "bc4d208e10d27705128114b0dd24fe6fe35dd5e747877316faa1b75b39a1912c",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0006.png",
+          "original_sha256": "5034086480ce6f4668826e274f0a588940e36332eeed795aec0a999badb8849b",
+          "capture_sequence": 6,
+          "captured_at_monotonic": 79257.953,
+          "rect": [
+            645,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-effect_hand6-slot3-007.png",
+          "sha256": "531465cf95c66e4b7439734fdee9e966a9dfd0c001a5ef96fae4806c4ed7980f",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0007.png",
+          "original_sha256": "8c65f463bc91f4d9244af338bd39b1cd8235053d75c5dc591a6ce38ad390dd6f",
+          "capture_sequence": 7,
+          "captured_at_monotonic": 79258.14,
+          "rect": [
+            645,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-effect_hand6-slot3-008.png",
+          "sha256": "edd21642c7b208b41ea8e63b1e55ca5ae4205611afd492c81e9c1bb5e162cf17",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0008.png",
+          "original_sha256": "ea52e06f750f6247f570e7deb7e4c4e2a969ec792db9f93b9187a9d2b65459cb",
+          "capture_sequence": 8,
+          "captured_at_monotonic": 79258.312,
+          "rect": [
+            645,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-effect_hand6-slot3-009.png",
+          "sha256": "25022395164036c6a0f37ea72fec6f72769b47e53e7c9cfab8f99f9bef7f3f51",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0009.png",
+          "original_sha256": "4f6097f46f9c6b4e6a4d358afde09576890e0d93b0d53eeec3c4f6adf4107c70",
+          "capture_sequence": 9,
+          "captured_at_monotonic": 79258.484,
+          "rect": [
+            645,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        }
+      ]
+    },
+    "effect_hand7-slot3": {
+      "rect": [
+        601,
+        487,
+        78,
+        91
+      ],
+      "references": [
+        {
+          "image": "hand-search-effect_hand7-slot3-000.png",
+          "sha256": "453a0f6e62dd651f8ff3429a56b3661e1b2c08232c97acaa797665de0cc4c6ae",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0000.png",
+          "original_sha256": "0ed957a314cc7503287353f06860dde9691b6eaff6c071cf15073a04a6a163ca",
+          "capture_sequence": 0,
+          "captured_at_monotonic": 81008.875,
+          "rect": [
+            601,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-effect_hand7-slot3-001.png",
+          "sha256": "418a326e410f239a1b750c593ad8cabea854983de8eb55cb8260a5dc9b00e182",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0001.png",
+          "original_sha256": "6527500c44172679c4776cb71092dd370d6718c6927949b31fe05ed1e1960068",
+          "capture_sequence": 1,
+          "captured_at_monotonic": 81009.046,
+          "rect": [
+            601,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-effect_hand7-slot3-002.png",
+          "sha256": "29eaf1419923d823fd4651689fd7e2c26b6c3978d0260fc8b94fb58eb0c86a88",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0002.png",
+          "original_sha256": "276087419ece90e39da6344dbc2996f279b9a541f38ec1157ffbf6b304c957ec",
+          "capture_sequence": 2,
+          "captured_at_monotonic": 81009.218,
+          "rect": [
+            601,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-effect_hand7-slot3-003.png",
+          "sha256": "3de98c73f83b2726fcacc03810bf765ab77881f6ad70821d7e5e611edb1a85c9",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0003.png",
+          "original_sha256": "e32492e5bdaad9305f7d1ef9315ad558b94aee97f2d54fdb9b4ce4c4b0e592e1",
+          "capture_sequence": 3,
+          "captured_at_monotonic": 81009.406,
+          "rect": [
+            601,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-effect_hand7-slot3-004.png",
+          "sha256": "48f2cd06a9fcb836825d93197d719a60e0a7308b13cfeb308b7859297d225f85",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0004.png",
+          "original_sha256": "2b4a100da47204b3175c7997720d0104a151e605a1f119d8af55f3a0d9af9143",
+          "capture_sequence": 4,
+          "captured_at_monotonic": 81009.578,
+          "rect": [
+            601,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-effect_hand7-slot3-005.png",
+          "sha256": "3254506b982a30f870e1dcbda5a912257fc699dcf0aa14140002898c6a2f0572",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0005.png",
+          "original_sha256": "c5717d376064eb3935a3ce10db47fb355292f41431884278424bbf19f4ae784a",
+          "capture_sequence": 5,
+          "captured_at_monotonic": 81009.765,
+          "rect": [
+            601,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-effect_hand7-slot3-006.png",
+          "sha256": "d6c34b50188db6993b560e6de2655d4fc991d60232771362aabcb68bc42e8601",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0006.png",
+          "original_sha256": "bf215025d7859338c657971c207142426b8a3e1c2709cac9b3bf5290d443818a",
+          "capture_sequence": 6,
+          "captured_at_monotonic": 81009.953,
+          "rect": [
+            601,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-effect_hand7-slot3-007.png",
+          "sha256": "1e5650287ac4a7c412136fb831c6834cf87f36bc1743bb6f4af02b99c0f57d68",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0007.png",
+          "original_sha256": "325ba85022f948c6a5bc821eec00338952f3255eae9eff9087f412d80d37f238",
+          "capture_sequence": 7,
+          "captured_at_monotonic": 81010.125,
+          "rect": [
+            601,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-effect_hand7-slot3-008.png",
+          "sha256": "2cb550693c961d409ec0015e7374b55e7b7c55912c84b230b0cf94ef8b138e3b",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0008.png",
+          "original_sha256": "2c1fa76ed2a552635c48dec79ee5503c8d423bf1178a2b3068eefd87edbbe231",
+          "capture_sequence": 8,
+          "captured_at_monotonic": 81010.296,
+          "rect": [
+            601,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-effect_hand7-slot3-009.png",
+          "sha256": "9885ecd55cd2a2ce5ad65a3487abaae10061892da55272823763c657a38cf4dc",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0009.png",
+          "original_sha256": "bb49a9f2342deab8660a35bef5b67226418c412cdaf0ef9ac6e911d8cdefe93f",
+          "capture_sequence": 9,
+          "captured_at_monotonic": 81010.484,
+          "rect": [
+            601,
+            487,
+            78,
+            91
+          ],
+          "use": "known method selection, not holdout"
+        }
+      ]
+    },
+    "own_chain": {
+      "rect": [
+        424,
+        439,
+        432,
+        53
+      ],
+      "references": [
+        {
+          "image": "hand-search-own_chain-000.png",
+          "sha256": "813634109e3f51c4d59a9ff0d0e806be16333a185606a74ec18444e1e8c92155",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\own-chain-optional-before\\frame-0000.png",
+          "original_sha256": "9616a9ec3d347fb6a821957a75dbfe25675c984e7879a6b3709109ac50862a4b",
+          "capture_sequence": 10,
+          "captured_at_monotonic": 79351.671,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-001.png",
+          "sha256": "7e015f0e102e28df59f986822b87fd2aad2a71191b5bfe6c92dffeb97bb4fefb",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\own-chain-optional-before\\frame-0001.png",
+          "original_sha256": "1dc33b48ad3424420e3054ccb0f14ceaf8aabfa4676433edd7e672e019b48d5a",
+          "capture_sequence": 11,
+          "captured_at_monotonic": 79351.843,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-002.png",
+          "sha256": "1d36f630eebfd76f7e946ab3da3d1f2637a2e7fbfabcce896bba31578ceae1db",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\own-chain-optional-before\\frame-0002.png",
+          "original_sha256": "7b5b878e4046caf7cbc70a3f3133bca3469efa574f2f215e1ba52e2c27b7b79c",
+          "capture_sequence": 12,
+          "captured_at_monotonic": 79352.031,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-003.png",
+          "sha256": "295cb31648bc1b8e00f2e165225c8c7f9b7082a741aee91ac031ee84a435435b",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\own-chain-optional-before\\frame-0003.png",
+          "original_sha256": "f4b22f7b827493023e6ee4488157f68754db3c88964c17e96fdb30897d6d5cd5",
+          "capture_sequence": 13,
+          "captured_at_monotonic": 79352.218,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-004.png",
+          "sha256": "793f7159dfe2c5365c25f0f1cc1c91cf53e1db7d8600c2c01a3645c7ecd835ed",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\own-chain-optional-before\\frame-0004.png",
+          "original_sha256": "cc58dbe6a54e8a3cce34a6b93369c197a23278ebaa80c88da8028d1954abae9f",
+          "capture_sequence": 14,
+          "captured_at_monotonic": 79352.39,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-005.png",
+          "sha256": "bfa1db3704eba873e44c2076849096f9781f3675ffa2dc34904c75ad4177b5b0",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\own-chain-optional-before\\frame-0005.png",
+          "original_sha256": "0c6f68f9305f01488c75535d2792742d4084e56f4dbab3f50be8145674fce8a8",
+          "capture_sequence": 15,
+          "captured_at_monotonic": 79352.562,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-006.png",
+          "sha256": "286c2cce704c028a13994ce09ff35f917fa95845e4510830af1ebd8f74c3b459",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\own-chain-optional-before\\frame-0006.png",
+          "original_sha256": "6a91db34a23db18ffebd4429c1c35fca32cf5a76a58777b46363fd5b81c6bfd1",
+          "capture_sequence": 16,
+          "captured_at_monotonic": 79352.75,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-007.png",
+          "sha256": "f85289a6c24fbcedf03161234dd41ae3df05b9a0a6eff87c7c5de4468b364e2e",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\own-chain-optional-before\\frame-0007.png",
+          "original_sha256": "af3f987a491a2a2f689f67e95f7cdaaa67d4ba10aef790c4ca4e46ccf02c0187",
+          "capture_sequence": 17,
+          "captured_at_monotonic": 79352.937,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-008.png",
+          "sha256": "a79b4dec0f79bda5f839c088721c0fc36b2eee294152da1c03104264b70fee44",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\own-chain-optional-before\\frame-0008.png",
+          "original_sha256": "40edf1369f00bca8e31ccd9c7c85ddf3a6d20d019159b0055a0843ece2f36d1e",
+          "capture_sequence": 18,
+          "captured_at_monotonic": 79353.125,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-009.png",
+          "sha256": "3ebf1372055a8e7d7fb2b4b85a3d424c477346ac50a40949699c5a1350bec535",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\own-chain-optional-before\\frame-0009.png",
+          "original_sha256": "7c4657c7253f18081473e5bef9661037714eacf062f8518f6fdfeb23e6e4161b",
+          "capture_sequence": 19,
+          "captured_at_monotonic": 79353.296,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-010.png",
+          "sha256": "2022c45d0cf39ff37c65e7bfd4aac4baa6caa763e5629697f281ac8ad7143477",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\own-chain-before\\frame-0000.png",
+          "original_sha256": "a1879cdf018613c6ff9749cfd8d8127ed387f0f89c5433035559feee88325b2a",
+          "capture_sequence": 10,
+          "captured_at_monotonic": 81139.0,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-011.png",
+          "sha256": "b6e06f1146c659a818609a20c73b64cf7bbe18d02457a46e7a780fafe1d1334a",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\own-chain-before\\frame-0001.png",
+          "original_sha256": "442eec3cbb803f40864a8ebf1dc80662ccae81599bec7cd7e1efd97256f77bb7",
+          "capture_sequence": 11,
+          "captured_at_monotonic": 81139.187,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-012.png",
+          "sha256": "4e6a83e52243277091f8a56a682fbd96699dbdbaa501aa11d9fcb487e80d8be9",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\own-chain-before\\frame-0002.png",
+          "original_sha256": "042fccbd2b6c256a10281a35e29e91df1f47b0a021c7f8b5b405bbff9ea58461",
+          "capture_sequence": 12,
+          "captured_at_monotonic": 81139.375,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-013.png",
+          "sha256": "97d9dfc402eb4c1e9dfc540bef3bf8e9911b7a41c36c25ed82c492053aff0f30",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\own-chain-before\\frame-0003.png",
+          "original_sha256": "9a11d17006d20980d047484e907aa7c9dd939a6350fd5338aea0461dea69a7e2",
+          "capture_sequence": 13,
+          "captured_at_monotonic": 81139.546,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-014.png",
+          "sha256": "8e22b3d708eec38ee3bfe0d246e5064cd8123b2e26fed1d2d79974903191e790",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\own-chain-before\\frame-0004.png",
+          "original_sha256": "a1e0b81429f8e7eb9483a5b43fe693053e598e8f3fed9e8c86428a31889466d2",
+          "capture_sequence": 14,
+          "captured_at_monotonic": 81139.718,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-015.png",
+          "sha256": "a3afac1dc8647d6abdccd54085242848daf1165cb46a0e77f210a976a6954b90",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\own-chain-before\\frame-0005.png",
+          "original_sha256": "b6e78deb37f75fd66de2135de3a61b7c8b10469f1ede7055cc688bfd7cd2c641",
+          "capture_sequence": 15,
+          "captured_at_monotonic": 81139.906,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-016.png",
+          "sha256": "b7aa4d293f91bba70322f2dc8936e1efefa220e7dcf27988c5e72a55524e6c48",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\own-chain-before\\frame-0006.png",
+          "original_sha256": "6722af79a2dd18687fa821ebee8a440fd9fee7a557e590487052dc70ec7423bc",
+          "capture_sequence": 16,
+          "captured_at_monotonic": 81140.078,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-017.png",
+          "sha256": "2748a35fbfdccb0cc0b75bb6ff8a82d5a0e7cf185333146a0f7d87a9fc68e248",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\own-chain-before\\frame-0007.png",
+          "original_sha256": "bb761ba04eef8aff4e2798d26a3842bab74a6683cd2023132ffe38e23330b335",
+          "capture_sequence": 17,
+          "captured_at_monotonic": 81140.265,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-018.png",
+          "sha256": "4d8e5d9f4cb3279ded941d17ede4a159d546aa710da1dafab083049a96983c7c",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\own-chain-before\\frame-0008.png",
+          "original_sha256": "905ed40c435fc53772cc67387874354c95bbdca2ea0f4fb47cd94506adfa3614",
+          "capture_sequence": 18,
+          "captured_at_monotonic": 81140.437,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-own_chain-019.png",
+          "sha256": "1ef8c0ac1f98e6f73488932bf813b84b93f37c467675f83f69cfe6713c7a91ae",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\own-chain-before\\frame-0009.png",
+          "original_sha256": "9696ed9dfcfee9d47174c58c5058e71a766e9b2393d4e80433a66ee289cfcb05",
+          "capture_sequence": 19,
+          "captured_at_monotonic": 81140.625,
+          "rect": [
+            424,
+            439,
+            432,
+            53
+          ],
+          "use": "known method selection, not holdout"
+        }
+      ]
+    },
+    "ready_hand6-slot3": {
+      "rect": [
+        320,
+        595,
+        650,
+        125
+      ],
+      "references": [
+        {
+          "image": "hand-search-ready_hand6-slot3-000.png",
+          "sha256": "2fd53b668c737ed5c41befe5fd3a13b2da4728f5a315b09dbd98eba7b0adf4eb",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-unselected\\frame-0000.png",
+          "original_sha256": "8a0a3af28ac40bc618334cd110839de0243e4b39105cdcf555dcde06305d575b",
+          "capture_sequence": 20,
+          "captured_at_monotonic": 79471.234,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-ready_hand6-slot3-001.png",
+          "sha256": "71f888faa7a1f7852f3e715b293aab0a90f5e84212c4cf4e4375184e51bbd3b3",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-unselected\\frame-0001.png",
+          "original_sha256": "ed6ae57472303fca1dc94a1735ee90a0fc84562c2a839000b42873edba80a886",
+          "capture_sequence": 21,
+          "captured_at_monotonic": 79471.406,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-ready_hand6-slot3-002.png",
+          "sha256": "bb40ee009f4f878688a5f5272b7df3ca32f2c84ccb423f6f687764561f97536e",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-unselected\\frame-0002.png",
+          "original_sha256": "9cbbca10bd4487a49188b9912b716470f081a8d84a9685190c6196598c40b072",
+          "capture_sequence": 22,
+          "captured_at_monotonic": 79471.593,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-ready_hand6-slot3-003.png",
+          "sha256": "75405230e0b1eed8ed7487128253f8af8672302ecaf6983e708c4495145993df",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-unselected\\frame-0003.png",
+          "original_sha256": "5eb45db384671a4e2d88b43ded5028ce479c9cfad217dbf95e2b74f6801e906c",
+          "capture_sequence": 23,
+          "captured_at_monotonic": 79471.765,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-ready_hand6-slot3-004.png",
+          "sha256": "f386a27bd7c2a7e597efcc9afcd42f3cc29af48d6dbda11c8413335d62e1434c",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-unselected\\frame-0004.png",
+          "original_sha256": "a8e793a54c94f29d468d5765c10e9dd49535f88935f22608d6c36d82fc7fb4dd",
+          "capture_sequence": 24,
+          "captured_at_monotonic": 79471.937,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-ready_hand6-slot3-005.png",
+          "sha256": "aa86ea9ed93486daa34ea959f3db6d969ffdab87987f9086176ef870ea41c79a",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-unselected\\frame-0005.png",
+          "original_sha256": "db1d50a38578a1690f41bd5f8be123a49e9f93d2c5d1e520229be7eb3c2d8c17",
+          "capture_sequence": 25,
+          "captured_at_monotonic": 79472.125,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-ready_hand6-slot3-006.png",
+          "sha256": "4d24ce4ab3a0524116f60d26f1a229c1d5360766e9f52c6bcaced80eb1a2e032",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-unselected\\frame-0006.png",
+          "original_sha256": "b0381ac1bf5bc84b1e695da76ba14c967087f20488a9c6a42b996e90da763ea8",
+          "capture_sequence": 26,
+          "captured_at_monotonic": 79472.312,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-ready_hand6-slot3-007.png",
+          "sha256": "767b035811a741493f4b798353a2fea39684e1d37d61485d57f931a57176a3ab",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-unselected\\frame-0007.png",
+          "original_sha256": "0eea649dcedd9c0a9c071669ee3e62b75d9ed0f18579526723f5698e804dd16c",
+          "capture_sequence": 27,
+          "captured_at_monotonic": 79472.484,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-ready_hand6-slot3-008.png",
+          "sha256": "9e5302ffc02f8edce8ad8ac14b776a0a7a8a67d19f759d499b67c98dfb36cd81",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-unselected\\frame-0008.png",
+          "original_sha256": "685ebd91ffb80e32dc749de5459af7341aefd7e2a305d8b9fd592cada0284cbb",
+          "capture_sequence": 28,
+          "captured_at_monotonic": 79472.656,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-ready_hand6-slot3-009.png",
+          "sha256": "b29c9267ba7049d27dd595216fb0bc9d8cf228a6f199bfa8f3388b913daf18f1",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-unselected\\frame-0009.png",
+          "original_sha256": "e2724702d09a74b18a2aa780955f80f8527cf0b3ad0fa8b9c7f6e2028db15de2",
+          "capture_sequence": 29,
+          "captured_at_monotonic": 79472.843,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        }
+      ]
+    },
+    "ready_hand7-slot3": {
+      "rect": [
+        320,
+        595,
+        650,
+        125
+      ],
+      "references": [
+        {
+          "image": "hand-search-ready_hand7-slot3-000.png",
+          "sha256": "755ce15906ab64ef3e88a2b14e5beefadfbae49804f871fdbc7e09423503ed89",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0041.png",
+          "original_sha256": "31ca429e6ff6854f1c08e7b953a69441cec903fb8b2a3ff384ca4669f8fbf50f",
+          "capture_sequence": 61,
+          "captured_at_monotonic": 81230.046,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-ready_hand7-slot3-001.png",
+          "sha256": "8cccfd3140b3272519dfb8b4b0d1b4741a9f6e41aa36c57b3b57734b5c84ff1b",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0042.png",
+          "original_sha256": "530f28b67d6653c99ac9fabf3d26808996dae974cdb92291c4b64941209065f2",
+          "capture_sequence": 62,
+          "captured_at_monotonic": 81230.125,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-ready_hand7-slot3-002.png",
+          "sha256": "173660201283172b97e7a0fc4f6f5ff1db4ec52fb699b79ceb7105b1868cf94b",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0043.png",
+          "original_sha256": "6d491f0849d99f0eb83ba2845b2d615bf34d6ccc1da58d3deed4dd1bc9aadcb2",
+          "capture_sequence": 63,
+          "captured_at_monotonic": 81230.203,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-ready_hand7-slot3-003.png",
+          "sha256": "8801c51923048c35bfcf55a741ffe5a49defea0cb0e9a7c74c76e54731476d51",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0044.png",
+          "original_sha256": "e08fd82a1e25a55c57f8084baa0ee15df7817e75fddda3ceeed3358c57c14772",
+          "capture_sequence": 64,
+          "captured_at_monotonic": 81230.281,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-ready_hand7-slot3-004.png",
+          "sha256": "31204b016a8c7873e6648e0292ebdd7183a52d4da1b618d6742536d217969162",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0045.png",
+          "original_sha256": "c2876cfb67ced57efb1e6fb030c4256a4d092e05d1e63f6f1cb962a735e5135e",
+          "capture_sequence": 65,
+          "captured_at_monotonic": 81230.343,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-ready_hand7-slot3-005.png",
+          "sha256": "555291ce9e63a53331660a996e63a7418af4a7af770278bc581485f5504764e5",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0046.png",
+          "original_sha256": "7b5d9e66a9e910034b02a254113b94374cb969b12a02627e600a0a77418ca74d",
+          "capture_sequence": 66,
+          "captured_at_monotonic": 81230.421,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-ready_hand7-slot3-006.png",
+          "sha256": "5f5257d6e09cf7be30b95d6eeaf1812412d3f17ed8d3141288e343c4aeab0791",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0047.png",
+          "original_sha256": "339b0ce727c713b6dddd6bfde7bf2ff13102df1339e79653b933b63ed4106d01",
+          "capture_sequence": 67,
+          "captured_at_monotonic": 81230.5,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-ready_hand7-slot3-007.png",
+          "sha256": "f14509b65f2713230f8ed296df03fcca903036e812c4ed3a901d5bb62cb59fe0",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0048.png",
+          "original_sha256": "cfdd03a8265a9e725a7191020d23bfd86be4265a6b645cc77708fd2fdc846b2d",
+          "capture_sequence": 68,
+          "captured_at_monotonic": 81230.578,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-ready_hand7-slot3-008.png",
+          "sha256": "2076fe0b0457a7cb82e19e3d5054b298f85094fa6877e1c7217cab88aa3f872f",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0049.png",
+          "original_sha256": "640ef18c25f830242aa8c4741bbf07fd8bf65567429ed9c4bc89217ab587ebef",
+          "capture_sequence": 69,
+          "captured_at_monotonic": 81230.671,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-ready_hand7-slot3-009.png",
+          "sha256": "fc1c0d2318e4bed20d6f6c5c5f39d2832bcd4cb12b67347343efad98d3f01afe",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0050.png",
+          "original_sha256": "f139ba754a7afa2319867fc6bd54027e9a6ef2fc20795549af8e2bf5d604a5b9",
+          "capture_sequence": 70,
+          "captured_at_monotonic": 81230.75,
+          "rect": [
+            320,
+            595,
+            650,
+            125
+          ],
+          "use": "known method selection, not holdout"
+        }
+      ]
+    },
+    "selected_hand6-slot3": {
+      "rect": [
+        320,
+        540,
+        650,
+        180
+      ],
+      "references": [
+        {
+          "image": "hand-search-selected_hand6-slot3-000.png",
+          "sha256": "4ac8cefc642225e5a975884b1c9b0ac4f7695d369a0f8dda661d3925600d4058",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-inspected\\frame-0000.png",
+          "original_sha256": "9babcbb89b3bb05e0c3d6f757917032c6df9208c173fcdf2ff0bd2cd73265932",
+          "capture_sequence": 30,
+          "captured_at_monotonic": 79526.281,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-selected_hand6-slot3-001.png",
+          "sha256": "c1197b1a85e8d87e3f799a0fdc2802ab878774a23e34a71fd337e07e47e60caf",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-inspected\\frame-0001.png",
+          "original_sha256": "51b534ad6c915ed14d6e3d3490607ca36ade9203902c3fc2b9bec221121459fd",
+          "capture_sequence": 31,
+          "captured_at_monotonic": 79526.468,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-selected_hand6-slot3-002.png",
+          "sha256": "75234e212ac9c4deefab1e1bb2c3d56fd32e8ad693e03f031940315ea5c3fcae",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-inspected\\frame-0002.png",
+          "original_sha256": "a73870ccbb59b2b7fc3be46ce720e5ffd229eefc9ba0e032b36aab3bed363a4f",
+          "capture_sequence": 32,
+          "captured_at_monotonic": 79526.64,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-selected_hand6-slot3-003.png",
+          "sha256": "5700349a32261db5ed1faf639a1641c9df9b338abb2618d9a8e168e4c8564bae",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-inspected\\frame-0003.png",
+          "original_sha256": "36346d0814a63b45120c4df1b00a766b3cacaf2a841eb77f6cdf57e863e74fb5",
+          "capture_sequence": 33,
+          "captured_at_monotonic": 79526.828,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-selected_hand6-slot3-004.png",
+          "sha256": "094661812d089e18ee1045708b4722cf50e076486aab60afb12404dca9ae01fc",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-inspected\\frame-0004.png",
+          "original_sha256": "97751d44db8c9860345cd6a8ec7be737032006f608f7510a6a85155d38adc99c",
+          "capture_sequence": 34,
+          "captured_at_monotonic": 79527.0,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-selected_hand6-slot3-005.png",
+          "sha256": "0131e1db05aa60cd87a9dd6dc231d2343b33b7c124ec4487ee229f34a52e3fbe",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-inspected\\frame-0005.png",
+          "original_sha256": "4f45a338150a026ea8f34f5f8de4459bd3c05beaccf22bfec8766aee3f68e219",
+          "capture_sequence": 35,
+          "captured_at_monotonic": 79527.187,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-selected_hand6-slot3-006.png",
+          "sha256": "095c30f01331d5581f6175b0cec57b3837327a1d9edfd432f8bfb0ba06174417",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-inspected\\frame-0006.png",
+          "original_sha256": "b49e4f7225959b7853fd945a789025e2cdfc4b62a7d33af0ea6ca6b0aa8a92e9",
+          "capture_sequence": 36,
+          "captured_at_monotonic": 79527.359,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-selected_hand6-slot3-007.png",
+          "sha256": "6cb34c0c57f15f92df47b4a12dd42e0e3e281499a41e1b6a3773b0064e5aa840",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-inspected\\frame-0007.png",
+          "original_sha256": "7804a61770e697bf48133c9f90b4a3d7d05893f8fe6a51b30a225df6da97e558",
+          "capture_sequence": 37,
+          "captured_at_monotonic": 79527.546,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-selected_hand6-slot3-008.png",
+          "sha256": "dae5b0739cf67db547a77e378382e30afffc300d5f291ea295ea435941edbfd9",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-inspected\\frame-0008.png",
+          "original_sha256": "8bc13e57821a04a11ca0e9ef6e8d91257bb780d023436b28a2211444e7f48b8b",
+          "capture_sequence": 38,
+          "captured_at_monotonic": 79527.734,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-selected_hand6-slot3-009.png",
+          "sha256": "f1e9bdbe93cd041323b6715123cbf04f6bdfe528d0ae557748d5417f8e949a6f",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\post-search-hand-inspected\\frame-0009.png",
+          "original_sha256": "c9a586cff7c9ca09f12bd9252af2a3094e7f4a97fd2d8f31ac666db887b2ac2b",
+          "capture_sequence": 39,
+          "captured_at_monotonic": 79527.906,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        }
+      ]
+    },
+    "selected_hand7-slot3": {
+      "rect": [
+        320,
+        540,
+        650,
+        180
+      ],
+      "references": [
+        {
+          "image": "hand-search-selected_hand7-slot3-000.png",
+          "sha256": "1403bd8741a586072514b0dbaa41fd8f2c0014df23836ce2d7a0ba1f03a105b9",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\post-reveal-fresh-hand-inspect\\frame-0000.png",
+          "original_sha256": "752ba96e2659de24702f169c62e3519de0d8e3cc443129ede960d196ed421d97",
+          "capture_sequence": 119,
+          "captured_at_monotonic": 81469.078,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-selected_hand7-slot3-001.png",
+          "sha256": "138219cc6186f0bc5aed5f9022ec8959ce8face1adc6d696b9e5bdaac4354bc2",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\post-reveal-fresh-hand-inspect\\frame-0001.png",
+          "original_sha256": "6e03abb71a030441bee5a3912fe410cdb40d5f505d5a39255aedc44b99155f73",
+          "capture_sequence": 120,
+          "captured_at_monotonic": 81469.25,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-selected_hand7-slot3-002.png",
+          "sha256": "5ae17da91f55df8f9f93d56faa2f483ae281086e4af66c0f21d537163f16c58c",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\post-reveal-fresh-hand-inspect\\frame-0002.png",
+          "original_sha256": "58902a8f86aa1c0ce45bf454f4e07c91180fd441de32ecf2177c45fe0b085293",
+          "capture_sequence": 121,
+          "captured_at_monotonic": 81469.421,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-selected_hand7-slot3-003.png",
+          "sha256": "a4161d9db3e8b270aff441ca9abe81b00ba71bf3a1b1c838da28555a0c63f84d",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\post-reveal-fresh-hand-inspect\\frame-0003.png",
+          "original_sha256": "dac3f24cc9b58c59f316028645dffe36cf4df73551c2270813781b22bd66a635",
+          "capture_sequence": 122,
+          "captured_at_monotonic": 81469.609,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-selected_hand7-slot3-004.png",
+          "sha256": "8f8c7273b070fd5c585efd924d5633a6d035d9adfd4afb64553549a9e7c863cb",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\post-reveal-fresh-hand-inspect\\frame-0004.png",
+          "original_sha256": "696ca3a0cff8d322ed63e16b4263b730aa880edc2307153bfbfebdf5792ad8a9",
+          "capture_sequence": 123,
+          "captured_at_monotonic": 81469.781,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-selected_hand7-slot3-005.png",
+          "sha256": "8da64b949bc6f33e948e2ecc3bce65a1f2e5416afb2f1b469e323d37c8ce3123",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\post-reveal-fresh-hand-inspect\\frame-0005.png",
+          "original_sha256": "bb56fe2d9153eb8a5c906690f14881b3b8b2b5a5ba854967fcbbc85a63dfa076",
+          "capture_sequence": 124,
+          "captured_at_monotonic": 81469.968,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-selected_hand7-slot3-006.png",
+          "sha256": "e6d377589de649605785ded338418921d12f1bc2833a579f5edde27e71ced0e4",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\post-reveal-fresh-hand-inspect\\frame-0006.png",
+          "original_sha256": "619b74992192176a05bcadf96a983d0b94b180e80b52fc6f8a94aae6b2619975",
+          "capture_sequence": 125,
+          "captured_at_monotonic": 81470.14,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-selected_hand7-slot3-007.png",
+          "sha256": "f9188690350850fa3b0f428e3aa3f531f6101b2966766362198604a8b5531abf",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\post-reveal-fresh-hand-inspect\\frame-0007.png",
+          "original_sha256": "088da54c0332cf7138389af53bdeb1a72d8ae5b2b2cc2b272147a99c57e2fef0",
+          "capture_sequence": 126,
+          "captured_at_monotonic": 81470.312,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-selected_hand7-slot3-008.png",
+          "sha256": "34bc854b6843af0b8900fd6f24668ec9df6fa4d4eae779d7caebb9ae026aa049",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\post-reveal-fresh-hand-inspect\\frame-0008.png",
+          "original_sha256": "63e58b9bbacce4a97b2aca51d98b7c4f32373f71e63f50da6ad2d745526b2eb4",
+          "capture_sequence": 127,
+          "captured_at_monotonic": 81470.5,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-selected_hand7-slot3-009.png",
+          "sha256": "b1ee7bf37da5542205406a24c64b2284772d6b5022fea06edde39414feaf91bb",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\post-reveal-fresh-hand-inspect\\frame-0009.png",
+          "original_sha256": "95ca39711ae663e219b2d04a1bb78adec92ba10693b3ab0f6285a1c669ba47c4",
+          "capture_sequence": 128,
+          "captured_at_monotonic": 81470.687,
+          "rect": [
+            320,
+            540,
+            650,
+            180
+          ],
+          "use": "known method selection, not holdout"
+        }
+      ]
+    },
+    "gy_panel": {
+      "rect": [
+        1130,
+        130,
+        135,
+        250
+      ],
+      "references": [
+        {
+          "image": "hand-search-gy_panel-000.png",
+          "sha256": "8a861f543272e6889cf927af0f884a6ef1c596ce9ef8a399b1be4cabba7c21d4",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\gy-list-before-fresh-inspect\\frame-0000.png",
+          "original_sha256": "cc4f9e9742b55f9e0ca2243d1d04c04dd5fbfadc6ccaaaf31e4a91c4d922bc7a",
+          "capture_sequence": 40,
+          "captured_at_monotonic": 79578.14,
+          "rect": [
+            1130,
+            130,
+            135,
+            250
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-gy_panel-001.png",
+          "sha256": "fdcd6bc9ade84a8883713954b6753b485c78ae81d05c509289e781aa50c00b25",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\gy-list-before-fresh-inspect\\frame-0001.png",
+          "original_sha256": "f430df29d6a4d1c06f49b1df39b43540f42451597a12304c0f0f9273d6dc1b94",
+          "capture_sequence": 41,
+          "captured_at_monotonic": 79578.312,
+          "rect": [
+            1130,
+            130,
+            135,
+            250
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-gy_panel-002.png",
+          "sha256": "5f0df0695389c23d795ee47abfcc3c532d3f7c9a42078c43ce741a851e0ef001",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\gy-list-before-fresh-inspect\\frame-0002.png",
+          "original_sha256": "87874a7169be0d2f792a061f5f999b1a42fcc476fbe70d4729f2e79b2e5adc10",
+          "capture_sequence": 42,
+          "captured_at_monotonic": 79578.5,
+          "rect": [
+            1130,
+            130,
+            135,
+            250
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-gy_panel-003.png",
+          "sha256": "07e8c14a7cb9187ba7b5d2fb34dfcdea037657357870b72581a58c248efd54c8",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\gy-list-before-fresh-inspect\\frame-0003.png",
+          "original_sha256": "12b27375d2e951f23ee83bda4f1cb9f40f764995cf29541bb1dc123de9dd0365",
+          "capture_sequence": 43,
+          "captured_at_monotonic": 79578.671,
+          "rect": [
+            1130,
+            130,
+            135,
+            250
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-gy_panel-004.png",
+          "sha256": "9fbcb86414dbfa07e8b714f80ca3d4b84a854d282b9d4f8b6c5a6de19236fbce",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\gy-list-before-fresh-inspect\\frame-0004.png",
+          "original_sha256": "b2b771f11b2a58e9ee4f3660b4a3acdcdc318664aff2b496a4c2cc1144e5d8db",
+          "capture_sequence": 44,
+          "captured_at_monotonic": 79578.859,
+          "rect": [
+            1130,
+            130,
+            135,
+            250
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-gy_panel-005.png",
+          "sha256": "1e70bf5ef53963155c7dbb71e1405a962b1ba6f61bc2e5f0e70400002336aaee",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\gy-list-before-fresh-inspect\\frame-0005.png",
+          "original_sha256": "62ca7ed19720d720f0be90a6dfbd6ecc85f576ade21730f877c12fed201266e8",
+          "capture_sequence": 45,
+          "captured_at_monotonic": 79579.015,
+          "rect": [
+            1130,
+            130,
+            135,
+            250
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-gy_panel-006.png",
+          "sha256": "bbc21d6ca9a284aaa0f9e902a6e364d6acf32425266e5f9c187f744fb95370b7",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\gy-list-before-fresh-inspect\\frame-0006.png",
+          "original_sha256": "4f3668618c75791c855592c949e1524b594f53dd5cbf8e9c09e24a7eec466071",
+          "capture_sequence": 46,
+          "captured_at_monotonic": 79579.218,
+          "rect": [
+            1130,
+            130,
+            135,
+            250
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-gy_panel-007.png",
+          "sha256": "ab17960484b4b29b3f269bc0851713487c97b3e2e6b0fb71ed126b79ddbe76b5",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\gy-list-before-fresh-inspect\\frame-0007.png",
+          "original_sha256": "3790d8db9d45edc25c14252578681ef5d7366a4eda8ac752e1a837ef8a36d5c2",
+          "capture_sequence": 47,
+          "captured_at_monotonic": 79579.406,
+          "rect": [
+            1130,
+            130,
+            135,
+            250
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-gy_panel-008.png",
+          "sha256": "827d2937308f0d197414f84f9d878c4eef168da3a696b882a912430ef81806a6",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\gy-list-before-fresh-inspect\\frame-0008.png",
+          "original_sha256": "aad54a7704f97642915b0b8f2fd971f07312b5fbdde1225bc5e8d37d77b86da7",
+          "capture_sequence": 48,
+          "captured_at_monotonic": 79579.562,
+          "rect": [
+            1130,
+            130,
+            135,
+            250
+          ],
+          "use": "known method selection, not holdout"
+        },
+        {
+          "image": "hand-search-gy_panel-009.png",
+          "sha256": "6d9fc57a5d51064218fc3903309c785de959fa74ab79b4d400328035229a1378",
+          "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\gy-list-before-fresh-inspect\\frame-0009.png",
+          "original_sha256": "cd1342fb14a20b64265592fcb809da5d9b18b144fb53c3fec5e79902a9ff4963",
+          "capture_sequence": 49,
+          "captured_at_monotonic": 79579.75,
+          "rect": [
+            1130,
+            130,
+            135,
+            250
+          ],
+          "use": "known method selection, not holdout"
+        }
+      ]
+    }
+  },
+  "detail_references": [
+    {
+      "image": "hand-search-detail13906-before6.png",
+      "sha256": "235d9b0821b36b8cb80d589ce722bd8aec7c401b206316a13e44fd44862e998c",
+      "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0000.png",
+      "original_sha256": "b0daa93144dc768f13fddadd16cb2411b98e322d19563a87f956a4dd5de784ef",
+      "capture_sequence": 0,
+      "captured_at_monotonic": 79256.89,
+      "rect": [
+        27,
+        151,
+        103,
+        150
+      ],
+      "use": "known method selection, not holdout"
+    },
+    {
+      "image": "hand-search-detail13906-before7.png",
+      "sha256": "75b6c19586af5d77218cca353db3f00408a237bbf6147d6e8c7a3c1dd38da29a",
+      "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0000.png",
+      "original_sha256": "0ed957a314cc7503287353f06860dde9691b6eaff6c071cf15073a04a6a163ca",
+      "capture_sequence": 0,
+      "captured_at_monotonic": 81008.875,
+      "rect": [
+        27,
+        151,
+        103,
+        150
+      ],
+      "use": "known method selection, not holdout"
+    }
+  ],
+  "public_references": [
+    {
+      "image": "hand-search-public-23.png",
+      "sha256": "2459a35bb43c0ddf2e710f558d420de12d238849249149be4ad25133c63512ae",
+      "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0023.png",
+      "original_sha256": "4d2bb4996a526dc4648998d0dbd08a0a0c05a501f506d801bc86f6463166e713",
+      "capture_sequence": 43,
+      "captured_at_monotonic": 81228.5,
+      "rect": [
+        622,
+        458,
+        113,
+        167
+      ],
+      "use": "known method selection, not holdout"
+    },
+    {
+      "image": "hand-search-public-24.png",
+      "sha256": "faab317c06b0d9d70462ed7c2c3c0d0ed62ad8b1002669091ba9ce3a32ae7c0f",
+      "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0024.png",
+      "original_sha256": "8dca378f00d3bdead05bb8a48f48cb371dcbbe5ae6131fb9289eefce612e31c7",
+      "capture_sequence": 44,
+      "captured_at_monotonic": 81228.578,
+      "rect": [
+        586,
+        448,
+        118,
+        174
+      ],
+      "use": "known method selection, not holdout"
+    },
+    {
+      "image": "hand-search-public-25.png",
+      "sha256": "0202442c2f5a2176906fce710ca2cd1f486f516a60aa561a2a1adb01de9746da",
+      "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0025.png",
+      "original_sha256": "25d4da06a9b4558b016cb9c2f659d2f00b252e867e759c206348a05656084de8",
+      "capture_sequence": 45,
+      "captured_at_monotonic": 81228.656,
+      "rect": [
+        582,
+        447,
+        118,
+        174
+      ],
+      "use": "known method selection, not holdout"
+    },
+    {
+      "image": "hand-search-public-26.png",
+      "sha256": "d9b217a84aa3ae5b3cfb4a4cd30785be3120cae038729775e0f0844298ed3949",
+      "original": "C:\\Users\\user\\Documents\\ChatGPT\\\u30de\u30b9\u30bf\u30fc\u30c7\u30e5\u30a8\u30eb\u81ea\u52d5\u64cd\u4f5c\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0026.png",
+      "original_sha256": "a2fa57a2af219bdaa2a2dcdf9b01c13012ca4fb67b0b59c637e705715cc95132",
+      "capture_sequence": 46,
+      "captured_at_monotonic": 81228.75,
+      "rect": [
+        582,
+        449,
+        118,
+        174
+      ],
+      "use": "known method selection, not holdout"
+    }
+  ],
+  "layouts": {
+    "hand6-slot3": {
+      "effect_box": [
+        645,
+        487,
+        78,
+        91
+      ],
+      "effect_point": [
+        683,
+        524
+      ]
+    },
+    "hand7-slot3": {
+      "effect_box": [
+        601,
+        487,
+        78,
+        91
+      ],
+      "effect_point": [
+        640,
+        522
+      ]
+    }
+  },
+  "scope": "known source hand6/7 slot3. Destination from actual public-instance handoff, not source slot label.",
+  "original_training_integrity": false,
+  "unrelated_original_missing": 1,
+  "detail_recognition_mode": "rgb_or_native_art_sift_v1",
+  "detail_art_parameters": {
+    "art_inside_thumbnail": [
+      12,
+      30,
+      78,
+      72
+    ],
+    "SIFT_nfeatures": 200,
+    "footprint_radius_factor": 5.31,
+    "support_boundary_tolerance_px": 1e-12,
+    "mutual_lowe": 0.75,
+    "ransac_px": 2.0,
+    "minimum_inliers": 6,
+    "minimum_ratio": 0.7,
+    "scale": [
+      0.9,
+      1.1
+    ],
+    "shift_px": 3,
+    "art_spread": [
+      39,
+      36
+    ]
+  }
+}

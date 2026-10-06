@@ -1,0 +1,10 @@
+{
+  "schema": "microbench-execution-note-v1",
+  "report": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\source-art-runtime-microbench-v1.json",
+  "report_sha256": "ceb8bf424d69371b815b6a0a814620cd4214c3ea5e0cc5c5cefd11bc8b764ab9",
+  "limitation": "microbench29233完了回収前にfullhost18405開始。計測区間の負荷独立性未証明。原数値保持・参考値扱い、full終了後単独v2を実施。",
+  "microbench_exit": 0,
+  "pipeline_source_passed": 10,
+  "input_count": 0,
+  "e2e_count": 0
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="1.902" timestamp="2026-10-06T12:19:58.619507+09:00" hostname="DESKTOP-KILPD1G"><testcase classname="tests.test_own_chain_parent_permission" name="test_current_exact_own_chain_and_parent_receipt_allow_cancel_without_inventing_phase_or_idle" time="1.786"><failure message="AttributeError: 'Perception' object has no attribute 'hand_cancel_caption'. Did you mean: 'cancel_caption'?">def test_current_exact_own_chain_and_parent_receipt_allow_cancel_without_inventing_phase_or_idle():
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        try:
+            context=json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0])
+            context=deepcopy(context);context["result"]=None
+            goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+            p.perception.hand_goal=goal;context["hand_search_confirmation"]=goal.model_dump(mode="json")
+            step=context["steps"][0];after=json.loads((RUN/"actions.jsonl").read_text(encoding="utf-8").splitlines()[0])["state_after"]
+            # 原runtime snapshot/mono/seqをそのまま使い、入力は呼びません。
+            frame=Frame(read_image(RUN/"screenshots/after-0001.png"),after["captured_at"],after["sequence"],
+                capture_source="live_mss",capture_rect=tuple(step["client_rect"]),input_epoch=step["input_epoch"])
+            p.perception.inspect_client_rect=frame.capture_rect
+&gt;           state=p.perception.process(frame,hand_episode_context=context)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:27: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\master_duel_advisor\perception.py:599: in process
+    self._hand_search_observations(frame,observed,actions,proposed,hand_episode_context)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;master_duel_advisor.perception.Perception object at 0x00000225512D8B60&gt;
+frame = Frame(pixels=array([[[ 39,  28,  22],
+        [129, 125, 130],
+        [206, 206, 222],
+        ...,
+        [202, 202...e_start=None, capture_end=None, capture_source='live_mss', capture_rect=(-1918, 817, -638, 1537), input_epoch=96850593)
+observed = {'fact.detail.card_id': Observation(value=None, confidence=0.0, source='detail_registry:86e6cc60a004b0d8aff769bd6ee0b0....0, source='hand_search:a5997715ebcfe556607238b8a4b6f00ad3c9bfc29ba94fb508e8aadf7c5b865e', observed_at=96856.187), ...}
+actions = [Action(type=&lt;ActionType.CANCEL: 'CANCEL'&gt;, card_id=None, target=None, confidence=1.0, source_region='action.cancel_op...source_region='action.cancel_opponent_turn_end', observed_at=96856.187, coordinate_proof=None, hand_search_proof=None)]
+proposed = {}
+context = {'action_id': 'a7d51b2dc59c42dcad656f90d7f1e8f2', 'admission': 'scheduled_trial', 'admitted_at': 96850.3506553, 'before_sequence': 0, ...}
+
+    def _hand_search_observations(self,frame,observed,actions,proposed,context):
+        vision=self.hand_vision;goal=self.hand_goal;static=vision.recognize(frame)
+        if context is not None:self.hand_context=context
+        context=self.hand_context
+        if context is not None and (context.get("result") is not None or context.get("hand_search_confirmation")!=goal.model_dump(mode="json")):
+            context=None;self.hand_context=None
+        episode=vision.observe(frame,context,static)
+        self.hand_episode=episode
+        def fact(key,value,positive=True):
+            observed["fact."+key]=Observation(value=value,confidence=1 if positive else 0,
+                source="hand_search:"+vision.sha256,observed_at=frame.captured_at)
+        fact(goal.detail_fact,static["detail_cid"],static["detail_cid"] is not None)
+        layout=static["source_layout"]
+        source_ready=layout is not None and not static["gy_panel"]
+        fact(goal.source_ready_fact,"true" if source_ready else None,source_ready)
+        fact("hand_search.layout",layout,layout is not None)
+        own=static["own_chain"] and context is not None and len(context.get("steps",[]))&gt;=1
+        fact(goal.own_chain_fact,"true" if own else None,own)
+        permission=False
+        if own and goal.own_chain_mode=="parent_activation_ui":
+            from .hand_search import activation_parent_valid
+&gt;           caption=self.hand_cancel_caption.detect(frame.pixels)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'Perception' object has no attribute 'hand_cancel_caption'. Did you mean: 'cancel_caption'?
+
+src\master_duel_advisor\perception.py:359: AttributeError</failure></testcase></testsuite></testsuites>

@@ -1,0 +1,37 @@
+{
+  "image_only": true,
+  "independent": false,
+  "combined_post_not_adopted": {
+    "occupied": {
+      "samples": 31,
+      "stable_pixels": 304,
+      "required_minimum": 256,
+      "ready": true
+    },
+    "fieldCID": {
+      "samples": 31,
+      "stable_pixels": 72,
+      "required_minimum": 256,
+      "ready": false
+    }
+  },
+  "v2_observed_margin": {
+    "self.zones.monster_2": {
+      "min_positive_score": 0.9999846816062927,
+      "max_negative_score": 0.7589077949523926,
+      "observed_separation": 0.24107688665390015,
+      "threshold": 0.98,
+      "negative_above_threshold": 0,
+      "stable_pixels": 2048
+    },
+    "fact.zone.self.monster_2.occupancy": {
+      "min_positive_score": 0.9999540448188782,
+      "max_negative_score": 0.7939325571060181,
+      "observed_separation": 0.2060214877128601,
+      "threshold": 0.98,
+      "negative_above_threshold": 0,
+      "stable_pixels": 2048
+    }
+  },
+  "note": "負例は探索確認済み88枚。別対戦独立精度ではない"
+}

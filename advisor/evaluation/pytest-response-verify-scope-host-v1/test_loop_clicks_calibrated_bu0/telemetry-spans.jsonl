@@ -1,0 +1,14 @@
+{"run_id": "c3ee6ca937b64df28290ba300d52defb", "mode": "unclassified", "stage": "capture", "start": 80085.4507821, "end": 80085.4507889}
+{"run_id": "c3ee6ca937b64df28290ba300d52defb", "mode": "unclassified", "stage": "coordinate", "start": 80085.4511065, "end": 80085.4511249}
+{"run_id": "c3ee6ca937b64df28290ba300d52defb", "mode": "unclassified", "stage": "artifact_write", "start": 80085.4511612, "end": 80085.4527845}
+{"run_id": "c3ee6ca937b64df28290ba300d52defb", "mode": "unclassified", "stage": "input", "start": 80085.452829, "end": 80085.4528464}
+{"run_id": "c3ee6ca937b64df28290ba300d52defb", "mode": "unclassified", "stage": "pre_input_control", "start": 80085.4528319, "end": 80085.452842}
+{"run_id": "c3ee6ca937b64df28290ba300d52defb", "mode": "unclassified", "stage": "verify", "start": 80085.452861, "end": 80085.4542012}
+{"run_id": "c3ee6ca937b64df28290ba300d52defb", "mode": "unclassified", "stage": "frontmost_stop_check", "start": 80085.4528689, "end": 80085.4528702}
+{"run_id": "c3ee6ca937b64df28290ba300d52defb", "mode": "unclassified", "stage": "poll_wait", "start": 80085.4528719, "end": 80085.4539532}
+{"run_id": "c3ee6ca937b64df28290ba300d52defb", "mode": "unclassified", "stage": "frontmost_stop_check", "start": 80085.4539882, "end": 80085.4539932}
+{"run_id": "c3ee6ca937b64df28290ba300d52defb", "mode": "unclassified", "stage": "capture", "start": 80085.4540045, "end": 80085.4540161}
+{"run_id": "c3ee6ca937b64df28290ba300d52defb", "mode": "unclassified", "stage": "verify_input_control", "start": 80085.4540496, "end": 80085.4540579}
+{"run_id": "c3ee6ca937b64df28290ba300d52defb", "mode": "unclassified", "stage": "recognition", "start": 80085.454059, "end": 80085.4541907}
+{"run_id": "c3ee6ca937b64df28290ba300d52defb", "mode": "unclassified", "stage": "artifact_write", "start": 80085.4563429, "end": 80085.4573985}
+{"run_id": "c3ee6ca937b64df28290ba300d52defb", "mode": "unclassified", "stage": "log_write", "start": 80085.4575294, "end": 80085.4577275}

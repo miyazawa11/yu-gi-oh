@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "profile_id": "masterduel-windowed-1280x720",
+  "status": "observed_requires_calibration",
+  "game_content_size": {
+    "width": 1280,
+    "height": 720
+  },
+  "window_capture_size": {
+    "width": 1282,
+    "height": 752
+  },
+  "window_content_crop": {
+    "x": 1,
+    "y": 31,
+    "width": 1280,
+    "height": 720
+  },
+  "aspect_ratio": 1.7777777777777777,
+  "calibration_path": null,
+  "automatic_input_ready": false,
+  "input_policy": {
+    "settle_seconds": 0,
+    "verify_poll_seconds": 0.05,
+    "decision_limit_seconds": 10
+  },
+  "observed_ui": {
+    "phase_button": {
+      "x": 990,
+      "y": 360
+    },
+    "phase_dialog_end": {
+      "x": 1006,
+      "y": 548
+    }
+  },
+  "coordinate_space": "window_screenshot_pixels",
+  "note": "画面確認用の記録。現CLIへそのまま渡す校正manifestではありません。座標は再観測なしで入力に使用しない。既存1280x800校正を流用しない。",
+  "observed_flows": {
+    "chain_response": [
+      "カード選択",
+      "効果発動",
+      "再観測"
+    ],
+    "optional_trigger": [
+      "任意効果選択",
+      "選択確定",
+      "残り誘発の再観測",
+      "追加チェーン応答",
+      "サーチ候補選択",
+      "確定"
+    ],
+    "colossus_destruction_replacement": [
+      "はい",
+      "墓地雷族選択",
+      "選択確定",
+      "除外時誘発の再観測"
+    ],
+    "collapserpent_special_summon": [
+      "手札選択",
+      "特殊召喚",
+      "配置位置",
+      "墓地光属性選択",
+      "選択確定",
+      "表示形式",
+      "召喚完了確認"
+    ],
+    "battle": [
+      "攻撃カード選択",
+      "攻撃アイコン",
+      "追加効果確認",
+      "戦闘結果確認"
+    ]
+  },
+  "observed_latency": {
+    "source": "今回のツール出力のwall_time（個々のAPI内部時間ではない）",
+    "successful_tool_roundtrip_seconds_range": [
+      0.2,
+      17.6
+    ],
+    "approval_capacity_failure_seconds_lower_bound": 30,
+    "under_1_second_action_interval_verified": false,
+    "under_10_second_end_to_end_verified": false
+  },
+  "improvement_backlog": [
+    "現在の1280x720用の領域と独立評価画像を整備する",
+    "チェーン確認・破壊代替・任意誘発・除外選択を別promptとして登録する",
+    "召喚UIの順序を固定せず最新promptで分岐する",
+    "承認サービス容量不足は未実行として記録し、回復後の最新画面で再判断する",
+    "入力送信・取得・画面解釈・承認待ちを別の時刻で計測する"
+  ]
+}

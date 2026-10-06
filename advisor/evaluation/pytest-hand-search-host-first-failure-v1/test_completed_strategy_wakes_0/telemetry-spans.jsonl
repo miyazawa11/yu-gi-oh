@@ -1,0 +1,16 @@
+{"run_id": "ce3aba841177430c8e421d42a8f361a3", "mode": "unclassified", "stage": "capture", "start": 90603.3395904, "end": 90603.3395944}
+{"run_id": "ce3aba841177430c8e421d42a8f361a3", "mode": "unclassified", "stage": "log_write", "start": 90603.3397876, "end": 90603.3398879}
+{"run_id": "ce3aba841177430c8e421d42a8f361a3", "mode": "unclassified", "stage": "capture", "start": 90603.3414514, "end": 90603.3414808}
+{"run_id": "ce3aba841177430c8e421d42a8f361a3", "mode": "unclassified", "stage": "coordinate", "start": 90603.3418136, "end": 90603.3418234}
+{"run_id": "ce3aba841177430c8e421d42a8f361a3", "mode": "unclassified", "stage": "artifact_write", "start": 90603.3418567, "end": 90603.3428286}
+{"run_id": "ce3aba841177430c8e421d42a8f361a3", "mode": "unclassified", "stage": "input", "start": 90603.342852, "end": 90603.34286}
+{"run_id": "ce3aba841177430c8e421d42a8f361a3", "mode": "unclassified", "stage": "pre_input_control", "start": 90603.3428546, "end": 90603.3428584}
+{"run_id": "ce3aba841177430c8e421d42a8f361a3", "mode": "unclassified", "stage": "verify", "start": 90603.3428677, "end": 90603.3441623}
+{"run_id": "ce3aba841177430c8e421d42a8f361a3", "mode": "unclassified", "stage": "frontmost_stop_check", "start": 90603.3428717, "end": 90603.3428729}
+{"run_id": "ce3aba841177430c8e421d42a8f361a3", "mode": "unclassified", "stage": "poll_wait", "start": 90603.3428743, "end": 90603.3440714}
+{"run_id": "ce3aba841177430c8e421d42a8f361a3", "mode": "unclassified", "stage": "frontmost_stop_check", "start": 90603.3440835, "end": 90603.3440851}
+{"run_id": "ce3aba841177430c8e421d42a8f361a3", "mode": "unclassified", "stage": "capture", "start": 90603.3440882, "end": 90603.3440908}
+{"run_id": "ce3aba841177430c8e421d42a8f361a3", "mode": "unclassified", "stage": "verify_input_control", "start": 90603.3441053, "end": 90603.3441074}
+{"run_id": "ce3aba841177430c8e421d42a8f361a3", "mode": "unclassified", "stage": "recognition", "start": 90603.3441078, "end": 90603.3441576}
+{"run_id": "ce3aba841177430c8e421d42a8f361a3", "mode": "unclassified", "stage": "artifact_write", "start": 90603.3452144, "end": 90603.3458468}
+{"run_id": "ce3aba841177430c8e421d42a8f361a3", "mode": "unclassified", "stage": "log_write", "start": 90603.3460999, "end": 90603.3462982}

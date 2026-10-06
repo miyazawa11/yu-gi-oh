@@ -1,0 +1,9 @@
+{
+  "mode": "assisted",
+  "inputs": 2,
+  "kpiIncluded": false,
+  "chainCancelVerified": "after-chain-cancel-sky.jpg modal absent; opponent End prompt later",
+  "endCancelVerified": "after-end-cancel-sky.jpg Turn2 seen",
+  "initialCaptureApiMs": 205.2389,
+  "artifactError": "first save expected PNG; actual API JPEG saved subsequently; no input failure"
+}

@@ -1,0 +1,195 @@
+{
+  "image": "artifacts\\baseline-tester\\calibration-20261005\\046-HOLDOUT-v2-frozen-self-turn5-main1.png",
+  "image_sha256": "bc9b5d1de9dc09984f5e03f3d139ce8c646d99abb2cad160e1aa04b33556f341",
+  "calibration_sha256": "be737032831c29e15487b8113e03d4e7bd74a7099ed93b8b02dd4076729bd7bb",
+  "independent": true,
+  "input_count": 0,
+  "result": {
+    "state": {
+      "sequence": 46,
+      "captured_at": 53062.703,
+      "media_time": null,
+      "turn": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "unknown",
+        "observed_at": 53062.703
+      },
+      "turn_player": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "unknown",
+        "observed_at": 53062.703
+      },
+      "phase": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "template:phase",
+        "observed_at": 53062.703
+      },
+      "terminal": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "unknown",
+        "observed_at": 53062.703
+      },
+      "prompt": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "unknown",
+        "observed_at": 53062.703
+      },
+      "animation": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "unknown",
+        "observed_at": 53062.703
+      },
+      "card_states": {},
+      "facts": {
+        "phase_context.self_main1": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "template:fact.phase_context.self_main1",
+          "observed_at": 53062.703
+        },
+        "phase_context.clear_center": {
+          "value": "true",
+          "confidence": 0.9962303638458252,
+          "source": "template:fact.phase_context.clear_center",
+          "observed_at": 53062.703
+        },
+        "phase_context.clear_card_menu": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "template:fact.phase_context.clear_card_menu",
+          "observed_at": 53062.703
+        },
+        "phase_context.menu_title": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "template:fact.phase_context.menu_title",
+          "observed_at": 53062.703
+        },
+        "phase_context.menu_end": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "template:fact.phase_context.menu_end",
+          "observed_at": 53062.703
+        },
+        "phase_context.menu_main1": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "template:fact.phase_context.menu_main1",
+          "observed_at": 53062.703
+        }
+      },
+      "material_sets": {},
+      "self": {
+        "lp": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 53062.703
+        },
+        "hand_count": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 53062.703
+        },
+        "zones": {}
+      },
+      "opponent": {
+        "lp": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 53062.703
+        },
+        "hand_count": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 53062.703
+        },
+        "zones": {}
+      },
+      "visible_actions": []
+    },
+    "events": [],
+    "legal_actions": [],
+    "recommendation": {
+      "action": null,
+      "target": null,
+      "confidence": 0.0,
+      "reason": "展開条件または操作結果の確認を待っています",
+      "recognition_status": "rule_blocked"
+    },
+    "error": null,
+    "metrics": {
+      "capture_read_ms": 0,
+      "perception_ms": 1.953200000571087,
+      "decision_ms": 0.029499999072868377,
+      "decision_elapsed_ms": 0.0,
+      "decision_limit_ms": 10000,
+      "total_compute_ms": 2.054700002190657,
+      "api_calls": 0,
+      "api_cost_usd": 0,
+      "cache_hits": 0,
+      "recognized_regions": 9,
+      "ocr_ms": 0,
+      "state_build_ms": 0.16959999629762024,
+      "perception_reused": false
+    },
+    "stage_spans": [
+      {
+        "stage": "recognition",
+        "start": 53062.7320011,
+        "end": 53062.7337436
+      },
+      {
+        "stage": "state_build",
+        "start": 53062.7337436,
+        "end": 53062.7339317
+      },
+      {
+        "stage": "state_build",
+        "start": 53062.7339362,
+        "end": 53062.7339408
+      },
+      {
+        "stage": "candidate",
+        "start": 53062.7339412,
+        "end": 53062.7339616
+      },
+      {
+        "stage": "decision",
+        "start": 53062.7339619,
+        "end": 53062.7340379
+      }
+    ],
+    "plan": {
+      "recipe": null,
+      "goal": "既知盤面限定Main1からEnd",
+      "step": null,
+      "pending": false,
+      "last_completed": null,
+      "reason": "盤面ごとに条件を再評価します",
+      "blocked": {},
+      "inference_mode": "strict",
+      "assumptions": {},
+      "inferred_used": [],
+      "inferred_normal_used": false,
+      "inferred_summon_lock": false
+    },
+    "planner_source": "rule_blocked"
+  },
+  "expected": {
+    "phase": "MAIN1",
+    "prompt": "none",
+    "turn_player": "self",
+    "action": "action.phase_open"
+  },
+  "passed": false
+}

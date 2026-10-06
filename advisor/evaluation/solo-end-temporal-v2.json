@@ -1,0 +1,3203 @@
+{
+  "schema": "solo-response-temporal-v1",
+  "passed": true,
+  "cases": 10,
+  "input_count": 0,
+  "e2e_count": 0,
+  "logical_action": "decline_opponent_turn_end",
+  "training_used": false,
+  "source_sha256": "8a61a55cc99c223d5c36a78980d7ee8b7c043cd181afeca41cf02e94c4471d14",
+  "manifest": "artifacts\\baseline-tester\\SOLO_END_FIXED_TEMPORAL_v2_20261006\\end\\manifest.json",
+  "original_manifest_metadata": {
+    "purpose": "fixed end temporal evaluation; not training; input0",
+    "stage": "end",
+    "capture_session_utc": "2026-10-05T20:54:20.763188+00:00",
+    "capture_source": "mss",
+    "clock_domain": "python_monotonic captured_at; perf_counter duration separate",
+    "input_count": 0
+  },
+  "evaluation_capture_context": "offline_saved_image_observed_at_zero",
+  "scope": "同scene固定後時間的再取得。別scene汎化/実入力/E2Eの評価ではありません",
+  "rows": [
+    {
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0000.png",
+        "capture_start_utc": "2026-10-05T20:54:20.764219+00:00",
+        "capture_start_perf": 76224.3006483,
+        "capture_end_perf": 76224.3264363,
+        "captured_at_monotonic": 76224.296,
+        "capture_sequence": 0,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "63053f6d7fbc7734dd02dc27b9374b94a0b400dcbbf544cfdf2e630581f719d9"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 0,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "opponent",
+          "confidence": 0.9976916909217834,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "END",
+          "confidence": 0.9976916909217834,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9976916909217834,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "response.opponent_turn_end",
+          "confidence": 0.9976916909217834,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9976916909217834,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9988073706626892,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": "true",
+            "confidence": 0.9895749688148499,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": "true",
+            "confidence": 0.9842731356620789,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9994980096817017,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9995589256286621,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9976916909217834,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": "true",
+            "confidence": 0.9976916909217834,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.modal_absent",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.8922155688622755, \"yellow_pixels\": 334}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_summon_success",
+            "observed_at": 0.0
+          },
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_turn_end",
+            "observed_at": 0.0
+          }
+        ]
+      },
+      "strict_candidates": [
+        {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        }
+      ],
+      "ui_policy": {
+        "action": {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "target": null,
+        "confidence": 0.9976916909217834,
+        "reason": "登録した確認UIルール: response.opponent_turn_end",
+        "recognition_status": "ui_rule"
+      }
+    },
+    {
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0001.png",
+        "capture_start_utc": "2026-10-05T20:54:20.938310+00:00",
+        "capture_start_perf": 76224.4745373,
+        "capture_end_perf": 76224.4912787,
+        "captured_at_monotonic": 76224.468,
+        "capture_sequence": 1,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "b0776659d3748dea66e255049121b5e1648880858f8277a9962f6fa0402333f3"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 1,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "opponent",
+          "confidence": 0.9977360963821411,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "END",
+          "confidence": 0.9977360963821411,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9977360963821411,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "response.opponent_turn_end",
+          "confidence": 0.9977360963821411,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9977360963821411,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9988089799880981,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": "true",
+            "confidence": 0.9897769689559937,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": "true",
+            "confidence": 0.9842731356620789,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9994431138038635,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9994957447052002,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9977360963821411,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": "true",
+            "confidence": 0.9977360963821411,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.modal_absent",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.8925373134328358, \"yellow_pixels\": 335}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_summon_success",
+            "observed_at": 0.0
+          },
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_turn_end",
+            "observed_at": 0.0
+          }
+        ]
+      },
+      "strict_candidates": [
+        {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        }
+      ],
+      "ui_policy": {
+        "action": {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "target": null,
+        "confidence": 0.9977360963821411,
+        "reason": "登録した確認UIルール: response.opponent_turn_end",
+        "recognition_status": "ui_rule"
+      }
+    },
+    {
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0002.png",
+        "capture_start_utc": "2026-10-05T20:54:21.125510+00:00",
+        "capture_start_perf": 76224.6618242,
+        "capture_end_perf": 76224.6796989,
+        "captured_at_monotonic": 76224.656,
+        "capture_sequence": 2,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "b50414358df0f751bf376658fd819afe42174ca65d2a42aa18b162d62be25d6c"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 2,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "opponent",
+          "confidence": 0.9978693127632141,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "END",
+          "confidence": 0.9978693127632141,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9978693127632141,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "response.opponent_turn_end",
+          "confidence": 0.9978693127632141,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9978693127632141,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9988203644752502,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": "true",
+            "confidence": 0.9902652502059937,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": "true",
+            "confidence": 0.9843452572822571,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9994584321975708,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9994804263114929,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9978693127632141,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": "true",
+            "confidence": 0.9978693127632141,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.modal_absent",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.8928571428571429, \"yellow_pixels\": 336}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_summon_success",
+            "observed_at": 0.0
+          },
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_turn_end",
+            "observed_at": 0.0
+          }
+        ]
+      },
+      "strict_candidates": [
+        {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        }
+      ],
+      "ui_policy": {
+        "action": {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "target": null,
+        "confidence": 0.9978693127632141,
+        "reason": "登録した確認UIルール: response.opponent_turn_end",
+        "recognition_status": "ui_rule"
+      }
+    },
+    {
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0003.png",
+        "capture_start_utc": "2026-10-05T20:54:21.302612+00:00",
+        "capture_start_perf": 76224.8389224,
+        "capture_end_perf": 76224.8534033,
+        "captured_at_monotonic": 76224.828,
+        "capture_sequence": 3,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "196b2fb5f07226bb81c989143bf20bbb12ee3fe86b3ecdfd32ef3f0d6691e7f6"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 3,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "opponent",
+          "confidence": 0.9979156255722046,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "END",
+          "confidence": 0.9979156255722046,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9979156255722046,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "response.opponent_turn_end",
+          "confidence": 0.9979156255722046,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9979156255722046,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9988471865653992,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": "true",
+            "confidence": 0.990520179271698,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": "true",
+            "confidence": 0.9845232963562012,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9995267391204834,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9995391368865967,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9979156255722046,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": "true",
+            "confidence": 0.9979156255722046,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.modal_absent",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.8962536023054755, \"yellow_pixels\": 347}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_summon_success",
+            "observed_at": 0.0
+          },
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_turn_end",
+            "observed_at": 0.0
+          }
+        ]
+      },
+      "strict_candidates": [
+        {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        }
+      ],
+      "ui_policy": {
+        "action": {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "target": null,
+        "confidence": 0.9979156255722046,
+        "reason": "登録した確認UIルール: response.opponent_turn_end",
+        "recognition_status": "ui_rule"
+      }
+    },
+    {
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0004.png",
+        "capture_start_utc": "2026-10-05T20:54:21.481646+00:00",
+        "capture_start_perf": 76225.0179078,
+        "capture_end_perf": 76225.0338557,
+        "captured_at_monotonic": 76225.0,
+        "capture_sequence": 4,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "9b961334028e02feee2b4cc3d456595d93b324f20f571f6e39a9aa38268988af"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 4,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "opponent",
+          "confidence": 0.9980508089065552,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "END",
+          "confidence": 0.9980508089065552,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9980508089065552,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "response.opponent_turn_end",
+          "confidence": 0.9980508089065552,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9980508089065552,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9988983273506165,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": "true",
+            "confidence": 0.9904696345329285,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": "true",
+            "confidence": 0.9845594167709351,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9995592832565308,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9995889663696289,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9980508089065552,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": "true",
+            "confidence": 0.9980508089065552,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.modal_absent",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.8983050847457628, \"yellow_pixels\": 354}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_summon_success",
+            "observed_at": 0.0
+          },
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_turn_end",
+            "observed_at": 0.0
+          }
+        ]
+      },
+      "strict_candidates": [
+        {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        }
+      ],
+      "ui_policy": {
+        "action": {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "target": null,
+        "confidence": 0.9980508089065552,
+        "reason": "登録した確認UIルール: response.opponent_turn_end",
+        "recognition_status": "ui_rule"
+      }
+    },
+    {
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0005.png",
+        "capture_start_utc": "2026-10-05T20:54:21.659501+00:00",
+        "capture_start_perf": 76225.1959966,
+        "capture_end_perf": 76225.2129684,
+        "captured_at_monotonic": 76225.187,
+        "capture_sequence": 5,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "17d56f8d13b91087461f299b3d93afdf9a4ba8e837faccbba633b2b5804c378e"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 5,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "opponent",
+          "confidence": 0.9980199337005615,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "END",
+          "confidence": 0.9980199337005615,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9980199337005615,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "response.opponent_turn_end",
+          "confidence": 0.9980199337005615,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9980199337005615,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9989170432090759,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": "true",
+            "confidence": 0.9902399778366089,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": "true",
+            "confidence": 0.9844692349433899,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9996078014373779,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9995959997177124,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9980199337005615,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": "true",
+            "confidence": 0.9980199337005615,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.modal_absent",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.8968481375358166, \"yellow_pixels\": 349}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_summon_success",
+            "observed_at": 0.0
+          },
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_turn_end",
+            "observed_at": 0.0
+          }
+        ]
+      },
+      "strict_candidates": [
+        {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        }
+      ],
+      "ui_policy": {
+        "action": {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "target": null,
+        "confidence": 0.9980199337005615,
+        "reason": "登録した確認UIルール: response.opponent_turn_end",
+        "recognition_status": "ui_rule"
+      }
+    },
+    {
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0006.png",
+        "capture_start_utc": "2026-10-05T20:54:21.834199+00:00",
+        "capture_start_perf": 76225.370418,
+        "capture_end_perf": 76225.3883849,
+        "captured_at_monotonic": 76225.359,
+        "capture_sequence": 6,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "62c396194c7493191650d493686e6aaa589f72e57cba829619f0b2eaafffbe3e"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 6,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "opponent",
+          "confidence": 0.9980894327163696,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "END",
+          "confidence": 0.9980894327163696,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9980894327163696,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "response.opponent_turn_end",
+          "confidence": 0.9980894327163696,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9980894327163696,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9989454746246338,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": "true",
+            "confidence": 0.9900740385055542,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": "true",
+            "confidence": 0.9844850301742554,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9996071457862854,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9996297955513,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9980894327163696,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": "true",
+            "confidence": 0.9980894327163696,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.modal_absent",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.8928571428571429, \"yellow_pixels\": 336}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_summon_success",
+            "observed_at": 0.0
+          },
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_turn_end",
+            "observed_at": 0.0
+          }
+        ]
+      },
+      "strict_candidates": [
+        {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        }
+      ],
+      "ui_policy": {
+        "action": {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "target": null,
+        "confidence": 0.9980894327163696,
+        "reason": "登録した確認UIルール: response.opponent_turn_end",
+        "recognition_status": "ui_rule"
+      }
+    },
+    {
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0007.png",
+        "capture_start_utc": "2026-10-05T20:54:22.017151+00:00",
+        "capture_start_perf": 76225.5533827,
+        "capture_end_perf": 76225.5686351,
+        "captured_at_monotonic": 76225.546,
+        "capture_sequence": 7,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "25589a544d385ce4ad17fc7294971c7fb7bb6d638c61220ac4b6a37e2b8fc262"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 7,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "opponent",
+          "confidence": 0.9980643391609192,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "END",
+          "confidence": 0.9980643391609192,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9980643391609192,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "response.opponent_turn_end",
+          "confidence": 0.9980643391609192,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9980643391609192,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9990023374557495,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": "true",
+            "confidence": 0.9900727868080139,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": "true",
+            "confidence": 0.9845007658004761,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9996052384376526,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9996406435966492,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9980643391609192,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": "true",
+            "confidence": 0.9980643391609192,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.modal_absent",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.8925373134328358, \"yellow_pixels\": 335}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_summon_success",
+            "observed_at": 0.0
+          },
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_turn_end",
+            "observed_at": 0.0
+          }
+        ]
+      },
+      "strict_candidates": [
+        {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        }
+      ],
+      "ui_policy": {
+        "action": {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "target": null,
+        "confidence": 0.9980643391609192,
+        "reason": "登録した確認UIルール: response.opponent_turn_end",
+        "recognition_status": "ui_rule"
+      }
+    },
+    {
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0008.png",
+        "capture_start_utc": "2026-10-05T20:54:22.203775+00:00",
+        "capture_start_perf": 76225.7400113,
+        "capture_end_perf": 76225.7562459,
+        "captured_at_monotonic": 76225.734,
+        "capture_sequence": 8,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "51ec1b4a14b447f3d6b6baf012f5ace75f415ce4c78637c7cdd566935ee90b98"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 8,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "opponent",
+          "confidence": 0.9980469346046448,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "END",
+          "confidence": 0.9980469346046448,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9980469346046448,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "response.opponent_turn_end",
+          "confidence": 0.9980469346046448,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9980469346046448,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9990519285202026,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": "true",
+            "confidence": 0.9902339577674866,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": "true",
+            "confidence": 0.9844669699668884,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9995643496513367,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9996323585510254,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9980469346046448,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": "true",
+            "confidence": 0.9980469346046448,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.modal_absent",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.8922155688622755, \"yellow_pixels\": 334}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_summon_success",
+            "observed_at": 0.0
+          },
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_turn_end",
+            "observed_at": 0.0
+          }
+        ]
+      },
+      "strict_candidates": [
+        {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        }
+      ],
+      "ui_policy": {
+        "action": {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "target": null,
+        "confidence": 0.9980469346046448,
+        "reason": "登録した確認UIルール: response.opponent_turn_end",
+        "recognition_status": "ui_rule"
+      }
+    },
+    {
+      "passed": true,
+      "original_capture": {
+        "file": "frame-0009.png",
+        "capture_start_utc": "2026-10-05T20:54:22.377283+00:00",
+        "capture_start_perf": 76225.9136124,
+        "capture_end_perf": 76225.9293319,
+        "captured_at_monotonic": 76225.906,
+        "capture_sequence": 9,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "636409bd5713a081c30be4de52f0784752baaa2c6a16b72293870568ad6b2f19"
+      },
+      "recognition_observed_at": 0,
+      "state": {
+        "sequence": 9,
+        "captured_at": 0.0,
+        "media_time": null,
+        "turn": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "turn_player": {
+          "value": "opponent",
+          "confidence": 0.9980469346046448,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "phase": {
+          "value": "END",
+          "confidence": 0.9980469346046448,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "terminal": {
+          "value": false,
+          "confidence": 0.9980469346046448,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "prompt": {
+          "value": "response.opponent_turn_end",
+          "confidence": 0.9980469346046448,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "animation": {
+          "value": false,
+          "confidence": 0.9980469346046448,
+          "source": "composite:response_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "card_states": {},
+        "facts": {
+          "inspect_context.main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.main1",
+            "observed_at": 0.0
+          },
+          "inspect_context.clear_center": {
+            "value": "true",
+            "confidence": 0.9990705847740173,
+            "source": "template:fact.inspect_context.clear_center",
+            "observed_at": 0.0
+          },
+          "inspect_context.hand_selected": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.hand_selected",
+            "observed_at": 0.0
+          },
+          "inspect_context.summon_enabled": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "readonly_detector:99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement",
+            "observed_at": 0.0
+          },
+          "inspect_context.placement_target": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.placement_target",
+            "observed_at": 0.0
+          },
+          "zone.self.monster_2.occupancy": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.zone.self.monster_2.occupancy",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_blank": {
+            "value": "true",
+            "confidence": 0.9907546639442444,
+            "source": "template:fact.inspect_context.detail_blank",
+            "observed_at": 0.0
+          },
+          "inspect_context.detail_panel": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.inspect_context.detail_panel",
+            "observed_at": 0.0
+          },
+          "phase_context.self_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.self_main1",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_center": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.clear_center",
+            "observed_at": 0.0
+          },
+          "phase_context.clear_card_menu": {
+            "value": "true",
+            "confidence": 0.9844759702682495,
+            "source": "template:fact.phase_context.clear_card_menu",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_title": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_title",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_end": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_end",
+            "observed_at": 0.0
+          },
+          "phase_context.menu_main1": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.phase_context.menu_main1",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.prompt.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.phrase.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_summon_success": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.badge.opponent_summon_success",
+            "observed_at": 0.0
+          },
+          "response.prompt.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9995362758636475,
+            "source": "template:fact.response.prompt.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.phrase.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9995902180671692,
+            "source": "template:fact.response.phrase.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.badge.opponent_turn_end": {
+            "value": "true",
+            "confidence": 0.9980469346046448,
+            "source": "template:fact.response.badge.opponent_turn_end",
+            "observed_at": 0.0
+          },
+          "response.outcome.opponent_end_response": {
+            "value": "true",
+            "confidence": 0.9980469346046448,
+            "source": "template:fact.response.outcome.opponent_end_response",
+            "observed_at": 0.0
+          },
+          "response.modal_absent": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.modal_absent",
+            "observed_at": 0.0
+          },
+          "response.outcome.self_draw": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "template:fact.response.outcome.self_draw",
+            "observed_at": 0.0
+          },
+          "detail.card_id": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "detail_registry:86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_summon_success": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.cancel_enabled.opponent_turn_end": {
+            "value": "true",
+            "confidence": 1.0,
+            "source": "caption_shape:fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4",
+            "observed_at": 0.0
+          },
+          "response.caption_diagnostic": {
+            "value": "{\"acceptance_score\": 0.85, \"binary_confidence\": \"predicate, not probability\", \"caption_bbox\": [506, 674, 78, 14], \"click_bbox\": [456, 661, 178, 40], \"click_point\": [545, 681], \"config_sha256\": \"fbb8780508c71410efaca2d36ebc64a03d184e1933ea969d29342de8cc6857f4\", \"score\": 0.8918918918918919, \"yellow_pixels\": 333}",
+            "confidence": 0.0,
+            "source": "diagnostic:not_a_legal_fact",
+            "observed_at": 0.0
+          }
+        },
+        "material_sets": {},
+        "self": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "opponent": {
+          "lp": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "hand_count": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 0.0
+          },
+          "zones": {}
+        },
+        "visible_actions": [
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_summon_success",
+            "observed_at": 0.0
+          },
+          {
+            "type": "CANCEL",
+            "card_id": null,
+            "target": null,
+            "confidence": 1.0,
+            "source_region": "action.cancel_opponent_turn_end",
+            "observed_at": 0.0
+          }
+        ]
+      },
+      "strict_candidates": [
+        {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        }
+      ],
+      "ui_policy": {
+        "action": {
+          "type": "CANCEL",
+          "card_id": null,
+          "target": null,
+          "confidence": 1.0,
+          "source_region": "action.cancel_opponent_turn_end",
+          "observed_at": 0.0
+        },
+        "target": null,
+        "confidence": 0.9980469346046448,
+        "reason": "登録した確認UIルール: response.opponent_turn_end",
+        "recognition_status": "ui_rule"
+      }
+    }
+  ]
+}

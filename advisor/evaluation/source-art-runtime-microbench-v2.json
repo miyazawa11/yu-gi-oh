@@ -1,0 +1,401 @@
+{
+  "schema": "source-art-runtime-microbench-v2",
+  "scope": "fullhost18405 exit0後・単独保存画像比較。参照cache後・順序反転20回、source10/verify8。input0/E2E0。",
+  "started_perf": 96270.2339048,
+  "ended_perf": 96278.1361522,
+  "input_hashes": {
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006\\menu\\frame-0000.png": "365af1d71729946692f8e3d56c5a92c335770a458f057cd9f9b2810d432235b5",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006\\menu\\frame-0001.png": "ff34bcd746e39b8b63c55f448315280c1e12dcd3f7331d8e415247af9615a245",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006\\menu\\frame-0002.png": "af8a5e3ddc93732b88b326b859cb3ddcbf0067a0b348834a553ae0d7ce5c5a6f",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006\\menu\\frame-0003.png": "7fa9b6363630ca7d71992ab44865c62853e8028322546a21b6ec6cc217433236",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006\\menu\\frame-0004.png": "4cc4d6a38313f5dd80ee26c9c54a8a5d14d2febf9cf5b8e60798deb2f8841929",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006\\menu\\frame-0005.png": "d4c409a06e4866847d6034d82cff0a2fa3806f673e7d00dac1f8231191d810c1",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006\\menu\\frame-0006.png": "bd8c4f2c03a5176c183c1dab8c2c7f6a0017d5f28b9b5ca09908046ffaa66133",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006\\menu\\frame-0007.png": "7a16159315c0355752b4238176d00b9d52f79c857a5465e0ba33e62aa2c1593d",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006\\menu\\frame-0008.png": "1b41faff99b2ee0d1b42e43abc30521d9216c02621f5d8a9057ff50b80f420c9",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006\\menu\\frame-0009.png": "19145258c3354f27601342eea124f8551f34d8188e253fac116a2b53b73405ee",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0000.png": "38d0b1fab49ba044d7254a812968361f0aaaa6f6c9e8c8b130135109ebd01068",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0018.png": "0318ae7001ef8b20f7653b2ab50c527f743e869c81b5417ca8719da8106f5b69",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0023.png": "4d2bb4996a526dc4648998d0dbd08a0a0c05a501f506d801bc86f6463166e713",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0026.png": "a2fa57a2af219bdaa2a2dcdf9b01c13012ca4fb67b0b59c637e705715cc95132",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0030.png": "b073c5d7719297f12fbdbd3c3c45151eb754d2ac9d178ca9d0fcf6dfd1542de6",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0035.png": "c0709636789a2a2b51c3dbea1db8218132db876753dfd324e304d040829ca7ea",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0041.png": "31ca429e6ff6854f1c08e7b953a69441cec903fb8b2a3ff384ca4669f8fbf50f",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0050.png": "f139ba754a7afa2319867fc6bd54027e9a6ef2fc20795549af8e2bf5d604a5b9"
+  },
+  "milliseconds": {
+    "source:old": {
+      "mean": 8.007356000453001,
+      "p50": 7.900599994172808,
+      "p95": 9.18939999100985,
+      "maximum": 9.812099990085699,
+      "samples": 200
+    },
+    "source:new": {
+      "mean": 17.0806564996019,
+      "p50": 17.099100004998036,
+      "p95": 19.33806000306504,
+      "maximum": 20.71779999823775,
+      "samples": 200
+    },
+    "verify:old": {
+      "mean": 8.25126062536583,
+      "p50": 8.44800000777468,
+      "p95": 9.771750000800239,
+      "maximum": 11.208299998543225,
+      "samples": 160
+    },
+    "verify:new": {
+      "mean": 5.516388124669902,
+      "p50": 5.5089000015868805,
+      "p95": 6.970304987771668,
+      "maximum": 9.665000005043112,
+      "samples": 160
+    }
+  },
+  "signatures": [
+    {
+      "group": "source",
+      "mode": "old",
+      "seq": 0,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {}
+    },
+    {
+      "group": "source",
+      "mode": "new",
+      "seq": 0,
+      "source_layout": "hand6-slot3",
+      "detail_cid": "13906",
+      "source_statuses": {
+        "hand6-slot3": "supported",
+        "hand7-slot3": "not_applicable"
+      }
+    },
+    {
+      "group": "source",
+      "mode": "old",
+      "seq": 1,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {}
+    },
+    {
+      "group": "source",
+      "mode": "new",
+      "seq": 1,
+      "source_layout": "hand6-slot3",
+      "detail_cid": "13906",
+      "source_statuses": {
+        "hand6-slot3": "supported",
+        "hand7-slot3": "not_applicable"
+      }
+    },
+    {
+      "group": "source",
+      "mode": "old",
+      "seq": 2,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {}
+    },
+    {
+      "group": "source",
+      "mode": "new",
+      "seq": 2,
+      "source_layout": "hand6-slot3",
+      "detail_cid": "13906",
+      "source_statuses": {
+        "hand6-slot3": "supported",
+        "hand7-slot3": "not_applicable"
+      }
+    },
+    {
+      "group": "source",
+      "mode": "old",
+      "seq": 3,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {}
+    },
+    {
+      "group": "source",
+      "mode": "new",
+      "seq": 3,
+      "source_layout": "hand6-slot3",
+      "detail_cid": "13906",
+      "source_statuses": {
+        "hand6-slot3": "supported",
+        "hand7-slot3": "not_applicable"
+      }
+    },
+    {
+      "group": "source",
+      "mode": "old",
+      "seq": 4,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {}
+    },
+    {
+      "group": "source",
+      "mode": "new",
+      "seq": 4,
+      "source_layout": "hand6-slot3",
+      "detail_cid": "13906",
+      "source_statuses": {
+        "hand6-slot3": "supported",
+        "hand7-slot3": "not_applicable"
+      }
+    },
+    {
+      "group": "source",
+      "mode": "old",
+      "seq": 5,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {}
+    },
+    {
+      "group": "source",
+      "mode": "new",
+      "seq": 5,
+      "source_layout": "hand6-slot3",
+      "detail_cid": "13906",
+      "source_statuses": {
+        "hand6-slot3": "supported",
+        "hand7-slot3": "not_applicable"
+      }
+    },
+    {
+      "group": "source",
+      "mode": "old",
+      "seq": 6,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {}
+    },
+    {
+      "group": "source",
+      "mode": "new",
+      "seq": 6,
+      "source_layout": "hand6-slot3",
+      "detail_cid": "13906",
+      "source_statuses": {
+        "hand6-slot3": "supported",
+        "hand7-slot3": "not_applicable"
+      }
+    },
+    {
+      "group": "source",
+      "mode": "old",
+      "seq": 7,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {}
+    },
+    {
+      "group": "source",
+      "mode": "new",
+      "seq": 7,
+      "source_layout": "hand6-slot3",
+      "detail_cid": "13906",
+      "source_statuses": {
+        "hand6-slot3": "supported",
+        "hand7-slot3": "not_applicable"
+      }
+    },
+    {
+      "group": "source",
+      "mode": "old",
+      "seq": 8,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {}
+    },
+    {
+      "group": "source",
+      "mode": "new",
+      "seq": 8,
+      "source_layout": "hand6-slot3",
+      "detail_cid": "13906",
+      "source_statuses": {
+        "hand6-slot3": "supported",
+        "hand7-slot3": "not_applicable"
+      }
+    },
+    {
+      "group": "source",
+      "mode": "old",
+      "seq": 9,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {}
+    },
+    {
+      "group": "source",
+      "mode": "new",
+      "seq": 9,
+      "source_layout": "hand6-slot3",
+      "detail_cid": "13906",
+      "source_statuses": {
+        "hand6-slot3": "supported",
+        "hand7-slot3": "not_applicable"
+      }
+    },
+    {
+      "group": "verify",
+      "mode": "old",
+      "seq": 0,
+      "source_layout": null,
+      "detail_cid": "13906",
+      "source_statuses": {}
+    },
+    {
+      "group": "verify",
+      "mode": "new",
+      "seq": 0,
+      "source_layout": null,
+      "detail_cid": "13906",
+      "source_statuses": {
+        "hand6-slot3": "not_applicable",
+        "hand7-slot3": "not_applicable"
+      }
+    },
+    {
+      "group": "verify",
+      "mode": "old",
+      "seq": 1,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {}
+    },
+    {
+      "group": "verify",
+      "mode": "new",
+      "seq": 1,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {
+        "hand6-slot3": "not_applicable",
+        "hand7-slot3": "not_applicable"
+      }
+    },
+    {
+      "group": "verify",
+      "mode": "old",
+      "seq": 2,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {}
+    },
+    {
+      "group": "verify",
+      "mode": "new",
+      "seq": 2,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {
+        "hand6-slot3": "not_applicable",
+        "hand7-slot3": "not_applicable"
+      }
+    },
+    {
+      "group": "verify",
+      "mode": "old",
+      "seq": 3,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {}
+    },
+    {
+      "group": "verify",
+      "mode": "new",
+      "seq": 3,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {
+        "hand6-slot3": "not_applicable",
+        "hand7-slot3": "not_applicable"
+      }
+    },
+    {
+      "group": "verify",
+      "mode": "old",
+      "seq": 4,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {}
+    },
+    {
+      "group": "verify",
+      "mode": "new",
+      "seq": 4,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {
+        "hand6-slot3": "not_applicable",
+        "hand7-slot3": "not_applicable"
+      }
+    },
+    {
+      "group": "verify",
+      "mode": "old",
+      "seq": 5,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {}
+    },
+    {
+      "group": "verify",
+      "mode": "new",
+      "seq": 5,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {
+        "hand6-slot3": "not_applicable",
+        "hand7-slot3": "not_applicable"
+      }
+    },
+    {
+      "group": "verify",
+      "mode": "old",
+      "seq": 6,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {}
+    },
+    {
+      "group": "verify",
+      "mode": "new",
+      "seq": 6,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {
+        "hand6-slot3": "not_applicable",
+        "hand7-slot3": "not_applicable"
+      }
+    },
+    {
+      "group": "verify",
+      "mode": "old",
+      "seq": 7,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {}
+    },
+    {
+      "group": "verify",
+      "mode": "new",
+      "seq": 7,
+      "source_layout": null,
+      "detail_cid": null,
+      "source_statuses": {
+        "hand6-slot3": "not_applicable",
+        "hand7-slot3": "not_applicable"
+      }
+    }
+  ],
+  "capture_decode_E2E_excluded": true
+}

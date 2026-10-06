@@ -1,0 +1,34 @@
+{
+  "min_confidence": 0.98,
+  "recipes": [
+    {
+      "id": "thunder-colossus-finish",
+      "goal": "雷族の手札効果を使った状態から超雷龍を立てる",
+      "priority": 100,
+      "requires": [
+        {"zone_prefix": "monster_", "card_id": "13906"}
+      ],
+      "steps": [
+        {
+          "description": "ゲーム側で表示された超雷龍の特殊召喚を選ぶ",
+          "type": "SPECIAL_SUMMON",
+          "source_region": "action.colossus_summon",
+          "card_id": "13923",
+          "requires": [{"zone_prefix": "monster_", "card_id": "13906"}]
+        },
+        {
+          "description": "素材選択画面で雷電龍を選ぶ",
+          "type": "SELECT_CARD",
+          "source_region": "action.dragondark_material",
+          "card_id": "13906"
+        },
+        {
+          "description": "選択済みの素材を確定する",
+          "type": "CONFIRM",
+          "source_region": "action.material_confirm",
+          "target": "colossus_material"
+        }
+      ]
+    }
+  ]
+}

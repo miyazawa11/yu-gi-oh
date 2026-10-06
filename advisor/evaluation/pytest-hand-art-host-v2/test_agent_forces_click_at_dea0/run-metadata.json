@@ -1,0 +1,94 @@
+{
+  "run_id": "2fd3443a3bab4bc9a0334f37a8c8fccd",
+  "mode": "unclassified",
+  "source_sha256": "e6260451be5aa37c539de0c38788cc5ce519c9d414e25c73d782112bf6e869ad",
+  "python": "3.12.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "clock": "perf_counter",
+  "clock_resolution_seconds": 1e-07,
+  "registered_trials": [],
+  "run_purpose": "pilot",
+  "cohort_id": null,
+  "cohort_manifest_sha256": null,
+  "cohort_slot": null,
+  "data_integrity": true,
+  "calibration_sha256": "602eb48cc12813028416a868ccdf7ac549d1eb4973634e16b69cab05e5db2dec",
+  "calibration": {
+    "name": "期限試験",
+    "viewport": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 1.0,
+      "height": 1.0
+    },
+    "aspect_ratio": 1.0,
+    "aspect_tolerance": 0.02,
+    "regions": {
+      "action.low": {
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 0.4,
+          "height": 0.4
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.high": {
+        "rect": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 0.4,
+          "height": 0.4
+        },
+        "kind": "action",
+        "exemplars": [],
+        "threshold": 0.95,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      }
+    },
+    "composites": []
+  },
+  "template_assets_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "template_assets": {},
+  "stable_features_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "stable_features": {},
+  "strategy_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "strategy": null,
+  "limits_sha256": "63818f06711a435de7149da3cb5a69c89b8da2d3c384affd0af84f9c7e0545d1",
+  "limits": {
+    "max_seconds": 12,
+    "max_actions": 100,
+    "min_confidence": 0.98,
+    "max_retries": 1,
+    "max_same_action": 3,
+    "settle_seconds": 0,
+    "verify_seconds": 3,
+    "verify_poll_seconds": 0.05,
+    "min_image_change": 0.005,
+    "max_observation_age": 1.0
+  },
+  "capture_sha256": "9adb2a6e8a3e8aa1de1e5760d714ea4d149501da40fc6d1f3186de1e32ef0887",
+  "capture": {
+    "type": "SimpleNamespace",
+    "rect": [
+      0,
+      0,
+      10,
+      10
+    ]
+  },
+  "execution_conditions_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "execution_conditions": null,
+  "recognition_components_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "recognition_components": {},
+  "provenance_frozen_before_capture": true
+}

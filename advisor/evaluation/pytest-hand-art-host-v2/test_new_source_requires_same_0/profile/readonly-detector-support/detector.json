@@ -1,0 +1,102 @@
+{
+  "schema": "readonly-action-evidence-v1",
+  "capture_shape": [
+    720,
+    1280,
+    3
+  ],
+  "search": {
+    "radius_x": 64,
+    "radius_y": 24,
+    "coarse_step": 4,
+    "refine_radius": 3,
+    "suppression": "half_template_width_or_height"
+  },
+  "minimum_score": 0.98,
+  "minimum_position_margin": 0.03,
+  "action_kind": "NORMAL_SUMMON",
+  "usable_for_input": false,
+  "unverified_alternatives": [
+    "SPECIAL_SUMMON",
+    "FLIP_SUMMON",
+    "DISABLED_NORMAL_SUMMON"
+  ],
+  "profiles": {
+    "maxxc-menu-v1": {
+      "calibration": "..\\..\\normal-maxxc-calibration-v1\\calibration.json",
+      "calibration_sha256": "eab254044b68585b0d0d3ad1881023f1873c412aeb127db2f8016657f26d851b",
+      "evidence_roi": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "template_assets": {
+        "action_normal_summon-NORMAL_SUMMON-menu-00.png": "ef2e1b8f71337af72872c7728a76e9ddb91a68883d3ff01d772919548007db58",
+        "action_normal_summon-NORMAL_SUMMON-menu-01.png": "ff75aa1100125c38f94496245bb518a07b76b03a0ef05146a403671afada0f01",
+        "action_normal_summon-NORMAL_SUMMON-menu-02.png": "cd5659a196b68b32b9deeb5cb4358943139fd091b9c48cbde0bc030ba1139712",
+        "action_normal_summon-NORMAL_SUMMON-menu-03.png": "e860eb04ff62f923649fe25ed03640127366e1bd6c838542b6d3fd3a9e28a465",
+        "action_normal_summon-NORMAL_SUMMON-menu-04.png": "ea526c1e1a40674cac69cede97a0af0fdae597a46d5e16e80639b34bc25be671",
+        "action_normal_summon-NORMAL_SUMMON-menu-05.png": "071328faf46173f186497bea3987b2634a60613d0488e87768b77f9a3ac5acd4",
+        "action_normal_summon-NORMAL_SUMMON-menu-06.png": "258bc27c6b4b66e341b063c64815413f66c8637d08bc849bee2217e1c3c67e50",
+        "action_normal_summon-NORMAL_SUMMON-menu-07.png": "1799b3971730e369863cb156704382d9b43d673819f5c56b3df9264df62c4386",
+        "action_normal_summon-NORMAL_SUMMON-menu-08.png": "458e8712fb4442faba758235fedd238ea9638b719677e221f72fc019fa44e710",
+        "action_normal_summon-NORMAL_SUMMON-menu-09.png": "5e951f06db9c78746efd0dd5bb139bc124020a208943158d1c822f9566c19b3f",
+        "action_normal_summon-NORMAL_SUMMON-menu-10.png": "831693265e8abdf6f7daf1e8e3be4c35e640807e340908f790180cdb2a5636aa",
+        "action_normal_summon-NORMAL_SUMMON-menu-11.png": "c9fd7d8207ee0132911f8ff2e9d9c65b469fe464a963cd0007bc4d08741f8124",
+        "action_normal_summon-NORMAL_SUMMON-menu-12.png": "437083dc04ccd2306ce5f41191a2ddf3c4b1af0ab870a1c280bbd9113d162e40",
+        "action_normal_summon-NORMAL_SUMMON-menu-13.png": "029cece72515ac264cf5e726614f82aff179240e1aaa36f9d4d157f161197ec6",
+        "action_normal_summon-NORMAL_SUMMON-menu-14.png": "6ff56f9387e32d81ed4d7968e3356b8540bbf068375b1cdde32774e1501890bd",
+        "action_normal_summon-NORMAL_SUMMON-menu-15.png": "fe4656837808b6a4bb4efacff1bf3067350c942966e974574f1fd2e579fc32ac",
+        "action_normal_summon-NORMAL_SUMMON-menu-16.png": "7225d751539f8becfc6711d4f242f69170fa4943be8b787eabebec2eb5683654",
+        "action_normal_summon-NORMAL_SUMMON-menu-17.png": "c1bc27d4e77362cfafc8bdc2176f3c76e253083d79f5d53bbee4329ee0ff149c",
+        "action_normal_summon-NORMAL_SUMMON-menu-18.png": "cfc9ade76d03194177feaa0d6c1c751850070a3ed423be5385edc23ece15c6de",
+        "action_normal_summon-NORMAL_SUMMON-menu-19.png": "b01ae5fe379dc91303f5fa5493baf316402b957c2bf32f819050e2c6f0e1f4f1"
+      },
+      "stable_features": {
+        "NORMAL_SUMMON": {
+          "training_samples": 20,
+          "valid_pixels": 742,
+          "total_pixels": 2048,
+          "maximum_deviation": 0.01,
+          "minimum_pixels": 256,
+          "mask_sha256": "3db12031d75085034eb7527853e7b7d5ccdcd35b4013922728abddd80937f740",
+          "prototype_sha256": "d01762ce452a89d746c2128996124c8633caf74308dc564f834f6a517fc7fc53"
+        }
+      }
+    },
+    "solar-menu-v2": {
+      "calibration": "calibration.json",
+      "calibration_sha256": "a6df5ec4805ce9ee14853e70b2ec5317f94fd98015d9e4d26e50c40617260564",
+      "evidence_roi": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "template_assets": {
+        "normal-layout2-00.png": "0a9cedafaac87faff52a89e11df6193f855d7714fa764ec88c3b3febc7359fd8",
+        "normal-layout2-01.png": "4463d8e064ef1009d8efcbadc588ea3627ffda855248167236847246faf9d19f",
+        "normal-layout2-02.png": "e7c720f3c1c3b9c62ad97996bee8483a20e90e03f559bb4bfa68c127e6af2424",
+        "normal-layout2-03.png": "2be4463f6e80311eb20ccfc2d6fc8f65226f80d28b25b72d77b551254aac2e47",
+        "normal-layout2-04.png": "275e712a0bf1e8f63d66164daa1c475245d63e95c4eb26677ff59e892e891b0f",
+        "normal-layout2-05.png": "f6ee0f5e81c37667631c43af824b0cf313937871921459f88d823d1540d0af17",
+        "normal-layout2-06.png": "c350c695b3464b2f427299bbba225fc168f6a2cfc60b548b5919c23895ca213e",
+        "normal-layout2-07.png": "7d2f4dc5fa80e999b681b3f9320ff19fafb49f1f5f5c120f85e3c58e60f1d510",
+        "normal-layout2-08.png": "6d67354a2e829a055601e65fe07b6735795b5ce1a5e6c7199922b061ea0cc415",
+        "normal-layout2-09.png": "9098cff403b54cea01c615c92b3d1068980eb64cf9d474a71e41d4f9ef46e74e"
+      },
+      "stable_features": {
+        "NORMAL_SUMMON": {
+          "training_samples": 10,
+          "valid_pixels": 1341,
+          "total_pixels": 2048,
+          "maximum_deviation": 0.01,
+          "minimum_pixels": 256,
+          "mask_sha256": "db1fe8366270b89a9c7d40221b18200dd63ff43a241985710e9b01edb26c51ac",
+          "prototype_sha256": "ea0683a9df3a3f5cdee626568fb4c2aad4b33bddbe19d106d21c82865e340b91"
+        }
+      }
+    }
+  }
+}

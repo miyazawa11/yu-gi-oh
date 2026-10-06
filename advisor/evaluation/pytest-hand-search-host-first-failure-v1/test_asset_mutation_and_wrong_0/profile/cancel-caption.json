@@ -1,0 +1,140 @@
+{
+  "schema": "response-cancel-caption-v1",
+  "parameters": {
+    "caption_bbox": [
+      506,
+      674,
+      78,
+      14
+    ],
+    "click_bbox": [
+      456,
+      661,
+      178,
+      40
+    ],
+    "click_point": [
+      545,
+      681
+    ],
+    "r_min": 160,
+    "g_min": 160,
+    "b_max": 100,
+    "tolerance_native_pixels": 1,
+    "acceptance_score": 0.85
+  },
+  "references": [
+    {
+      "image": "response_action_cancel_opponent_turn_end_000.png",
+      "sha256": "f930919443c5cb0c60b753609d915becfc78c898ad1e1f7e5125f97ac0af4072",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_001.png",
+      "sha256": "29e8a8c6270199c2d547c240816491b63eb2f4805b61a2a96a4692b03c6bdedc",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_002.png",
+      "sha256": "641bdb4ddfc36b9c828650d7a0e3b0591a635a605bab1c0bc18e9c1ee6680770",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_003.png",
+      "sha256": "ebaf5318eb7164efba07bcc4a7ba3749959d25dd73297eec3b2845d23b955cd9",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_004.png",
+      "sha256": "6e3a3194b7f50b173156d2a87026fa8fa116b86aab74bc48d3445dcf1c4782a0",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_005.png",
+      "sha256": "49fa2ae8902bf6df28589dccbe3114b169018923a7e3a806e662a8b84e8a488e",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_006.png",
+      "sha256": "a12d612fa8aa0711c4ec8564b5019c42ec43249710b39f74ba16ac207f6ebb38",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_007.png",
+      "sha256": "bdbdeac8f52a1c9250394009fc7b10597c85feabb84f79463f54e92ec382bf7f",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_008.png",
+      "sha256": "8f7a80309b5d067d5604c62b00efd817de413b9601b0cefc0322c478f1c0549d",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_009.png",
+      "sha256": "18f9f28036623e9c970a3cd96eee5a7dc174964362764eea3dab099e998b2f1e",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_010.png",
+      "sha256": "d87bcc41dc8aed421d9db7fdcdef2fd67f76a9597b60bf74867dc92bb6c966f1",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_011.png",
+      "sha256": "b37666e77d21219391995782d5364ce0c7aacdc5b500f2371612a346329c5794",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_012.png",
+      "sha256": "16f9608f3cd99497db51217f90d1b4bea31f2b8ba6ca307e7d1373263eed403d",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_013.png",
+      "sha256": "3ccab0aecf83fadf389ec39f0fc1043c8959a6f8e7f3f7a5424caf1b03bbb06e",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_014.png",
+      "sha256": "4c8bc0520fce1817cbdfc6d327e87b830d620b91c65dbaf00899e84193e56aee",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_015.png",
+      "sha256": "e62b1759c21aa0a556687ce57d9f7128b0e2064607e532b498d0243af53c01c2",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_016.png",
+      "sha256": "456a0532d6d661ae488e492490629a4fad4508beb9781787b5eb0e7ab996872e",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_017.png",
+      "sha256": "ebb4eed9af74037b48eee092f57c8edea349e1a7862c46b6ab1f2519aa51c3c1",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_018.png",
+      "sha256": "ebb4eed9af74037b48eee092f57c8edea349e1a7862c46b6ab1f2519aa51c3c1",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    },
+    {
+      "image": "response_action_cancel_opponent_turn_end_019.png",
+      "sha256": "398d5b76edd8366bc730693b81135be934039d15df37bf3235cec760beaacd74",
+      "provenance": "fixed derived button crop created before original-frame loss"
+    }
+  ],
+  "prototype_sha256": "9386ccaebe43eac17b2b845e3e4eb6aa5be6906b2fee77fd234053f3d5b11864",
+  "prototype_pixels": 219,
+  "original_training_integrity": false,
+  "original_training_available": 81,
+  "original_training_missing": 1,
+  "input_incident": {
+    "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\solo-cancel-training-input-incident-v1.json",
+    "sha256": "873539704753851405a01127f23d71f5f34e433ab2b4f76da9f47debc79f6a03"
+  },
+  "scope": "同じcaptionの2応答のみ。意味は全文/phaseAND。色は有効表示proxy、disabled実資料なし。",
+  "method_selection": "既存派生crop＋無傷81＋既知新10。新holdout/原82再現/実機E2Eではない。"
+}
+ 

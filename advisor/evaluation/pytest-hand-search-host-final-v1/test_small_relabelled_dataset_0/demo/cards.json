@@ -1,0 +1,38 @@
+[
+  {
+    "card_id": "demo-alpha",
+    "name": "合成カード・アルファ",
+    "type": "monster",
+    "attribute": null,
+    "race": null,
+    "level": null,
+    "rank": null,
+    "link": null,
+    "atk": 300,
+    "defense": null,
+    "effect_text": "",
+    "effect_language": null,
+    "effect_source": null,
+    "effect_fetched_at": null,
+    "external_ids": {},
+    "master_duel_verified": false
+  },
+  {
+    "card_id": "demo-beta",
+    "name": "合成カード・ベータ",
+    "type": "monster",
+    "attribute": null,
+    "race": null,
+    "level": null,
+    "rank": null,
+    "link": null,
+    "atk": 500,
+    "defense": null,
+    "effect_text": "",
+    "effect_language": null,
+    "effect_source": null,
+    "effect_fetched_at": null,
+    "external_ids": {},
+    "master_duel_verified": false
+  }
+]

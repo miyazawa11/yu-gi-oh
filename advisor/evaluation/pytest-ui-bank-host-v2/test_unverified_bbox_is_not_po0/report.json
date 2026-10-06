@@ -1,0 +1,183 @@
+{
+  "schema": "action-evidence-evaluation-report-v1",
+  "purpose": "A1未接続召喚候補位置の40訓練/目視no-button4画像8照合/SET2crop診断。独立評価・入力許可・E2Eではない",
+  "dataset_kind": "training_and_diagnostic",
+  "manifest_sha256": "b1c3ebed1df162fe04579831cad34dd4b4a26a055a36834077f4655e13ea0b01",
+  "mode": "offline_saved_image",
+  "usable_for_input": false,
+  "provenance": {
+    "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+    "files": {
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\action-evidence-detector-v1.json": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\calibration.json": "eab254044b68585b0d0d3ad1881023f1873c412aeb127db2f8016657f26d851b",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-00.png": "ef2e1b8f71337af72872c7728a76e9ddb91a68883d3ff01d772919548007db58",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-01.png": "ff75aa1100125c38f94496245bb518a07b76b03a0ef05146a403671afada0f01",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-02.png": "cd5659a196b68b32b9deeb5cb4358943139fd091b9c48cbde0bc030ba1139712",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-03.png": "e860eb04ff62f923649fe25ed03640127366e1bd6c838542b6d3fd3a9e28a465",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-04.png": "ea526c1e1a40674cac69cede97a0af0fdae597a46d5e16e80639b34bc25be671",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-05.png": "071328faf46173f186497bea3987b2634a60613d0488e87768b77f9a3ac5acd4",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-06.png": "258bc27c6b4b66e341b063c64815413f66c8637d08bc849bee2217e1c3c67e50",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-07.png": "1799b3971730e369863cb156704382d9b43d673819f5c56b3df9264df62c4386",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-08.png": "458e8712fb4442faba758235fedd238ea9638b719677e221f72fc019fa44e710",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-09.png": "5e951f06db9c78746efd0dd5bb139bc124020a208943158d1c822f9566c19b3f",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-10.png": "831693265e8abdf6f7daf1e8e3be4c35e640807e340908f790180cdb2a5636aa",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-11.png": "c9fd7d8207ee0132911f8ff2e9d9c65b469fe464a963cd0007bc4d08741f8124",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-12.png": "437083dc04ccd2306ce5f41191a2ddf3c4b1af0ab870a1c280bbd9113d162e40",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-13.png": "029cece72515ac264cf5e726614f82aff179240e1aaa36f9d4d157f161197ec6",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-14.png": "6ff56f9387e32d81ed4d7968e3356b8540bbf068375b1cdde32774e1501890bd",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-15.png": "fe4656837808b6a4bb4efacff1bf3067350c942966e974574f1fd2e579fc32ac",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-16.png": "7225d751539f8becfc6711d4f242f69170fa4943be8b787eabebec2eb5683654",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-17.png": "c1bc27d4e77362cfafc8bdc2176f3c76e253083d79f5d53bbee4329ee0ff149c",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-18.png": "cfc9ade76d03194177feaa0d6c1c751850070a3ed423be5385edc23ece15c6de",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-19.png": "b01ae5fe379dc91303f5fa5493baf316402b957c2bf32f819050e2c6f0e1f4f1",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\calibration.json": "4d82031330e6b67d7eccdf947a00eb60c506419508ec368bd9f8380811bece3f",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-00.png": "056233e39efd9a259e8ccaba79f02f4fbef9380f02df6889e980cdb3475f79af",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-01.png": "31a79d69d23b4e7eb4828097bce6413fdc77469342a9ec5d6adb4e0783d1c2bd",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-02.png": "0d0b4e76f1896fd0246d4c0b75ebbd8456f7e6a35fef1a8f30a28de019118c4f",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-03.png": "c0e349377ab99c96849b01776c3745d645413db496cb668bc2a7ef57d8ae6b08",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-04.png": "4a82398b7832fcb143473b77b084640e6874a2745f7b0766e1d2f1816051180e",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-05.png": "31ae38aef5c33bc9d9ab8a9ff1728231bbbb64ecc831bcca5edd0e0f95bc862d",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-06.png": "562dbca5ba832182ed7bc9bcbfc859700e0d9a58e6f7e5a7f3f7f25c1aa866e7",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-07.png": "83334b8d54597f4a278f541b366089bd3bcd15ee3ca368f870848ca453a6ff77",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-08.png": "808e9f003e43f6cf375b417eb00ac416796d32bbe03d5f0e6fa689c22d78e13d",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-09.png": "fbd122248dc137bffbd496c46e2c17954a8b6a3ae3b565ed42929b998db2a777",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-10.png": "e1062d18224a2e236c095f32ec7e704a43fd7e15416983eabd00adb27bfeb81e",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-11.png": "771baa329cddf2dc5757a8ecd549995530d361b94dbff5dd6cf5b3f9747fdc61",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-12.png": "9db619d686114eabd5b35c55712ffa77f9a427f61b707f01ac935dd01cc6a7b1",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-13.png": "ae29795a56e9de63203eb98e6e08df859350e05d6ff7458a0bd487f62d8033a6",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-14.png": "aa26cf29e0a8aab758ab74c466a8140bdc38082af1793f3fb345e653881f2993",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-15.png": "1b7ff14c7daf10254d836cc248d289917bbbd3075a42ba12c87f60b35f83a161",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-16.png": "45eab36b604d4c508391ca44e5ba59960a5ea56597ff7cef945f931c3cef7a2c",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-17.png": "fb803cf1be0f6899e8391f5eab6680d0c1254d2240494e45a767347a97bf8f86",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-18.png": "f8f251fa1648e4f37ccafeaf2695c34a142b8df54946cbe80bd09388f61277c4",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-19.png": "64331c767157d6b991d0bf012105c877a081654534ec10dbbf4035b913f1c281"
+    },
+    "profile_sha256": {
+      "maxxc-menu-v1": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+      "solar-menu-v2": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d"
+    },
+    "component_source_sha256": {
+      "action_evidence": "8c818d99c8b3da29d9b2b34e78b42234b58d6fe4d7cc91ce7f7907beb2570032",
+      "perception": "ea757b4b76a29fbc82f1d17bd787cb7759b0113814f361111a434bfd7f2d39a3",
+      "regions": "a3b03e3c6b3bf578c5e5542d2cff673aa1bee3d2e408d18c56a21f6ebbafd5a5",
+      "capture": "e9d2050d2cba00b50f8a96963b39a88d85bc3d7954c9ea0e096c0b2beb0f6c93",
+      "models": "463d825f54a987efd4144c3376a6e305108ce71a5c3e0ed5344a762c2aebd6b1",
+      "image_io": "f13e2340623a8725efca3a359affafa25e278315e9d633e4159746580fd90cf8"
+    },
+    "usable_for_input": false,
+    "unverified_alternatives": [
+      "SPECIAL_SUMMON",
+      "FLIP_SUMMON",
+      "DISABLED_NORMAL_SUMMON"
+    ]
+  },
+  "cases": 1,
+  "unique_images": 1,
+  "passed_cases": 0,
+  "passed": false,
+  "groups": {
+    "training_positive": {
+      "cases": 1,
+      "passed": 0,
+      "detection_passed": 1,
+      "position_unverified": 1,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  "detection_passed": true,
+  "joint_position_passed": false,
+  "search_only_ms": {
+    "calls": 1,
+    "average": 32.8379,
+    "p50": 32.8379,
+    "p90": 32.8379,
+    "p95": 32.8379,
+    "max": 32.8379
+  },
+  "fixed_roi_only_ms": {
+    "calls": 1,
+    "average": 0.2865,
+    "p50": 0.2865,
+    "p90": 0.2865,
+    "p95": 0.2865,
+    "max": 0.2865
+  },
+  "crop_diagnostic_only_ms": {
+    "calls": 0,
+    "average": null,
+    "p50": null,
+    "p90": null,
+    "p95": null,
+    "max": null
+  },
+  "input_count": 0,
+  "e2e_count": 0,
+  "rows": [
+    {
+      "image": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\MAXXC_MENU_TRAIN_v1_full\\frame-0000.png",
+      "sha256": "7b15e9e1fc6d1f736d0112c857838f8f73e22b44b04a0e154724cf8f2dc30df6",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": null,
+      "bbox_tolerance_pixels": 0,
+      "position_groundtruth": "unverified",
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9986699223518372,
+        "position_runner_up_score": 0.7648168802261353,
+        "position_runner_up_bbox": [
+          390,
+          488,
+          73,
+          98
+        ],
+        "position_margin": 0.2338530421257019,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 0,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": null,
+      "position_validation": false,
+      "detection_passed": true,
+      "passed": false
+    }
+  ]
+}

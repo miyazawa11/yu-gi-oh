@@ -1,0 +1,27 @@
+{
+  "schema": "actual-verification-failure-v1",
+  "role": "last_captured",
+  "reason": "verify_timeout",
+  "telemetry_mode": "synthetic",
+  "capture_source": "live_mss",
+  "capture_rect": [
+    -1920,
+    785,
+    -1720,
+    885
+  ],
+  "sequence": 2,
+  "captured_at_monotonic": 1.1,
+  "capture_start_perf": 80196.050097,
+  "capture_end_perf": 80196.0500978,
+  "input_epoch": 7,
+  "image": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-response-verify-scope-host-v1\\test_verify_timeout_preserves_1\\screenshots\\verify-failure-0000-last_captured-seq2.png",
+  "image_sha256": "ea67dfc461e291ea1e1db1f2acd76d3743264aff9e44a6279c68f6b3538d5dea",
+  "state": null,
+  "state_unavailable_reason": "recognition_not_completed",
+  "expected_facts": {},
+  "expected_prompts": [],
+  "observed_expected_facts": {},
+  "configured_roi_diagnostic_scores": {},
+  "notice": "rawscoreは失敗保存時の診断再計算。実取得clockを保持しfresh化しません。相対手札ROIとは別です"
+}

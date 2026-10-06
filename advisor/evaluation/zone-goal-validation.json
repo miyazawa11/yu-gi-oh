@@ -1,0 +1,14 @@
+{
+  "source_sha256": "7e64d1100a136e925ac3fcce55f49053103bc8823f6070050e17955b0ab1e9a5",
+  "full_tests": {
+    "passed": 278,
+    "skipped": 4,
+    "xml": "artifacts/zone-goal-final-tests.xml"
+  },
+  "compileall": "passed",
+  "live_tests": 0,
+  "baseline_pilot_source_sha256": "a6f0f7ffe6b8960a08a7c5000b3fb785f231e6252e6d4dcd0bfcebd2f13aa619",
+  "baseline_source_archive": "artifacts/phase-pilot-20261006T0012/source-before-zone-goal.zip",
+  "targeted_tests_passed": 56,
+  "review_fix": "配置後の別カード選択で過去の配置証拠も無効化"
+}

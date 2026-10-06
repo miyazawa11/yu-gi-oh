@@ -1,0 +1,10 @@
+{
+  "book": "既知盤面限定Main1からEnd",
+  "calibration": "phase-only-1280x720-known-board",
+  "ui_steps": 2,
+  "structural_ready": true,
+  "real_game_validated": false,
+  "missing": [],
+  "audit_profile": "phase_transition",
+  "note": "構造検査のみ。画像の識別精度・同じ外観の競合・位置変動・10秒以内の実動作は別途検証が必要"
+}

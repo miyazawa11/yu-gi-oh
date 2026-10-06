@@ -1,0 +1,15 @@
+{
+  "source_sha256": "6c9116cafe0c297f530608b0e4b2ec21831fc9abc059c544e468511a78fdc979",
+  "existing_source_excluding_new_module_sha256": "ac8d0752039ffc64b38bcf9744a417c231a6853b66ae45d0c5ae75e8f038491f",
+  "expected_existing_source_sha256": "ac8d0752039ffc64b38bcf9744a417c231a6853b66ae45d0c5ae75e8f038491f",
+  "existing_source_unchanged": true,
+  "files": {
+    "src\\master_duel_advisor\\action_evidence.py": "8c818d99c8b3da29d9b2b34e78b42234b58d6fe4d7cc91ce7f7907beb2570032",
+    "scripts\\evaluate_action_evidence.py": "da17f14f7d0292e27da204529b549aec8af089f81f1af1dd6f2a864c7b248340",
+    "tests\\test_action_evidence.py": "2db28592f9a1b00f39a465a6c50724054cc0fb45decb84aafdc522d32ddda633",
+    "evaluation\\action-evidence-detector-v1.json": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+    "evaluation\\action-evidence-exploration-manifest-v1.json": "6bde515f8917f6ad4a7d5febb43f6afcaad8876866e79c70fa53b443d447ab1c"
+  },
+  "input_count": 0,
+  "e2e_count": 0
+}

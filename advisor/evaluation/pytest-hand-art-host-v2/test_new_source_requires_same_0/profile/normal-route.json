@@ -1,0 +1,176 @@
+{
+  "format": "deck-strategy-v1",
+  "name": "Ash中央通常召喚と実zoneinspect",
+  "source": "補助MSS40枚。独立試験・実入力証明・E2Eから除外",
+  "rules": [
+    {
+      "id": "inspect_normal",
+      "card_id": "12950",
+      "description": "有効Ash通常召喚UIを選択",
+      "type": "NORMAL_SUMMON",
+      "source_region": "action.inspect_normal",
+      "target": null,
+      "priority": 1000,
+      "players": [
+        "self"
+      ],
+      "phases": [
+        "MAIN1"
+      ],
+      "prompt": "card.menu",
+      "additional_prompts": [],
+      "follows": [],
+      "observed_facts": {
+        "detail.card_id": "12950",
+        "inspect_context.hand_selected": "true",
+        "inspect_context.summon_enabled": "true",
+        "zone.self.monster_2.occupancy": "empty"
+      },
+      "expected_prompts": [
+        "placement.select"
+      ],
+      "requires": [],
+      "facts": {},
+      "expected_facts": {},
+      "enabled": true,
+      "material_method": null,
+      "logical_action": "normal_ash_inspect_center",
+      "logical_category": "NORMAL_SUMMON",
+      "logical_start": true,
+      "logical_end": false,
+      "logical_count_fact": null,
+      "logical_phase": null,
+      "logical_turn_advance": false,
+      "logical_zone_transition": null,
+      "logical_inspect_confirmation": {
+        "side": "self",
+        "zone": "monster_2",
+        "card_id": "12950",
+        "summon_region": "action.inspect_normal",
+        "placement_region": "action.inspect_place",
+        "inspect_region": "action.inspect_zone",
+        "clear_region": null,
+        "detail_card_fact": "detail.card_id",
+        "hand_selected_fact": "inspect_context.hand_selected",
+        "evidence_mode": "blank_to_detail_with_verified_zone_input",
+        "detail_blank_fact": "inspect_context.detail_blank",
+        "summon_enabled_fact": "inspect_context.summon_enabled"
+      }
+    },
+    {
+      "id": "inspect_place",
+      "card_id": "12950",
+      "description": "中央へ実配置し明示detail空を確認",
+      "type": "CONFIRM",
+      "source_region": "action.inspect_place",
+      "target": "self.monster_2",
+      "priority": 1000,
+      "players": [
+        "self"
+      ],
+      "phases": [
+        "MAIN1"
+      ],
+      "prompt": "placement.select",
+      "additional_prompts": [],
+      "follows": [
+        "inspect_normal"
+      ],
+      "observed_facts": {
+        "inspect_context.placement": "true",
+        "inspect_context.placement_target": "true"
+      },
+      "expected_prompts": [
+        "none"
+      ],
+      "requires": [],
+      "facts": {},
+      "expected_facts": {
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": "true"
+      },
+      "enabled": true,
+      "material_method": null,
+      "logical_action": "normal_ash_inspect_center",
+      "logical_category": "NORMAL_SUMMON",
+      "logical_start": false,
+      "logical_end": false,
+      "logical_count_fact": null,
+      "logical_phase": null,
+      "logical_turn_advance": false,
+      "logical_zone_transition": null,
+      "logical_inspect_confirmation": {
+        "side": "self",
+        "zone": "monster_2",
+        "card_id": "12950",
+        "summon_region": "action.inspect_normal",
+        "placement_region": "action.inspect_place",
+        "inspect_region": "action.inspect_zone",
+        "clear_region": null,
+        "detail_card_fact": "detail.card_id",
+        "hand_selected_fact": "inspect_context.hand_selected",
+        "evidence_mode": "blank_to_detail_with_verified_zone_input",
+        "detail_blank_fact": "inspect_context.detail_blank",
+        "summon_enabled_fact": "inspect_context.summon_enabled"
+      }
+    },
+    {
+      "id": "inspect_zone",
+      "card_id": "12950",
+      "description": "実配置先を選択し新Ash詳細を確認",
+      "type": "SELECT_CARD",
+      "source_region": "action.inspect_zone",
+      "target": "self.monster_2",
+      "priority": 1000,
+      "players": [
+        "self"
+      ],
+      "phases": [
+        "MAIN1"
+      ],
+      "prompt": "none",
+      "additional_prompts": [],
+      "follows": [
+        "inspect_place"
+      ],
+      "observed_facts": {
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": "true"
+      },
+      "expected_prompts": [],
+      "requires": [],
+      "facts": {},
+      "expected_facts": {
+        "detail.card_id": "12950",
+        "zone.self.monster_2.occupancy": "occupied"
+      },
+      "enabled": true,
+      "material_method": null,
+      "logical_action": "normal_ash_inspect_center",
+      "logical_category": "NORMAL_SUMMON",
+      "logical_start": false,
+      "logical_end": true,
+      "logical_count_fact": null,
+      "logical_phase": null,
+      "logical_turn_advance": false,
+      "logical_zone_transition": null,
+      "logical_inspect_confirmation": {
+        "side": "self",
+        "zone": "monster_2",
+        "card_id": "12950",
+        "summon_region": "action.inspect_normal",
+        "placement_region": "action.inspect_place",
+        "inspect_region": "action.inspect_zone",
+        "clear_region": null,
+        "detail_card_fact": "detail.card_id",
+        "hand_selected_fact": "inspect_context.hand_selected",
+        "evidence_mode": "blank_to_detail_with_verified_zone_input",
+        "detail_blank_fact": "inspect_context.detail_blank",
+        "summon_enabled_fact": "inspect_context.summon_enabled"
+      }
+    }
+  ],
+  "min_confidence": 0.98,
+  "inference_mode": "strict",
+  "audit_profile": "normal_inspect_confirmation"
+}

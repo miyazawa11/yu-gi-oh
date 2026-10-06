@@ -1,0 +1,599 @@
+{
+  "calibration_sha256": "7b9c7773ec978aca9ae3d44544997fde35b5d51c3603f8b3bce94677769f7c06",
+  "independent": false,
+  "stable_statistics": {
+    "fact.phase_context.self_main1": {
+      "true": {
+        "training_samples": 20,
+        "valid_pixels": 589,
+        "total_pixels": 2048,
+        "maximum_deviation": 0.01,
+        "minimum_pixels": 256,
+        "mask_sha256": "ba35c3844e34b360599f5ac88d3216530dc8a776fcd28c31d895ae6ed90e3960",
+        "prototype_sha256": "63d88d02dc53cc226aba74fd7ba5de23c89292e6b9822d8c9fa8e251e17b8b53"
+      }
+    },
+    "fact.phase_context.clear_card_menu": {
+      "true": {
+        "training_samples": 20,
+        "valid_pixels": 580,
+        "total_pixels": 2048,
+        "maximum_deviation": 0.01,
+        "minimum_pixels": 256,
+        "mask_sha256": "b505e042a6c9afabf6d0ef64f8d2a92468352c1ff47b4888ac7c54fe2f4a5dbf",
+        "prototype_sha256": "d63e316f917a1ad0c0525b49f4ec99e2db229e9421b489835567d3c690407644"
+      }
+    },
+    "action.phase_open": {
+      "CHANGE_PHASE": {
+        "training_samples": 20,
+        "valid_pixels": 589,
+        "total_pixels": 2048,
+        "maximum_deviation": 0.01,
+        "minimum_pixels": 256,
+        "mask_sha256": "ba35c3844e34b360599f5ac88d3216530dc8a776fcd28c31d895ae6ed90e3960",
+        "prototype_sha256": "63d88d02dc53cc226aba74fd7ba5de23c89292e6b9822d8c9fa8e251e17b8b53"
+      }
+    }
+  },
+  "template_assets": {
+    "fact.phase_context.self_main1": {
+      "fact_phase_context_self_main1-47.png": "9b6e17c044f9932921a77958d8ee987e4393a303d0b37a43d005b51aa3ef3cbd",
+      "fact_phase_context_self_main1-48.png": "a841a850e18e1ea5dd59d04372de1249248d59b1704cd7fa1e9a5dd2e12dd0f7",
+      "fact_phase_context_self_main1-49.png": "74aa54690fa0d5439dc1bd80f95548edb188e010f8b6b2f75d94e006ebcb98b3",
+      "fact_phase_context_self_main1-50.png": "66a2a4090e5909848b3ffd3cfea5c39fff7afbd6806edee88a56c0eeb1897486",
+      "fact_phase_context_self_main1-51.png": "c38b49e630bc884fbf80556ca0203b216d409637a7fd6984d7ff8478ad120d52",
+      "fact_phase_context_self_main1-52.png": "a3f9e3ae6f0b5db4f55a9ae4a4f7b8d13bcc9740c36cf82fec32c262010c1166",
+      "fact_phase_context_self_main1-53.png": "b4ef2777b658c41ffa2bd9968028bd3ace73e645accfed874d35fd1e49b3f0d1",
+      "fact_phase_context_self_main1-54.png": "539b880384d2f475322712716771878d23932f22ff811e7a00573b8b23d8722d",
+      "fact_phase_context_self_main1-55.png": "30f07101c95e0447360b7dd7ec9d5a6cbb19ee5dac1d798bed7802f248d26b1e",
+      "fact_phase_context_self_main1-56.png": "1e768148821eb68e71b27cc028a9ecfa6ea72370d5fc257b1c4d7d8349d23e03",
+      "fact_phase_context_self_main1-57.png": "77fed6f750bb84b932fd1546dfae5e9554f311c31b2716792f81e8c38597c5d1",
+      "fact_phase_context_self_main1-58.png": "4a53e4d0b79c54fecbc279ff32088543eb7349b514c196902019b3f58728e3bd",
+      "fact_phase_context_self_main1-59.png": "27b8379ebaac6fff7ffe722b259a70c0485bc6f834570f13bfcfebf14e6bae70",
+      "fact_phase_context_self_main1-60.png": "b03361054dee23df4aaf03afcdccf4a1544d870d00752d9eb46ce662de15fcc5",
+      "fact_phase_context_self_main1-61.png": "00d035821e3e0e4b957e53d2150eff21833097ac040f25b8ecbc1749f284056d",
+      "fact_phase_context_self_main1-62.png": "82f20493190af978e53e557dfc725635fcbf61646de78b1ee37fe53216dab47c",
+      "fact_phase_context_self_main1-63.png": "0ebc4e8812618a077f27230418e7cd637d47e50f7aa7d9d15dabe57180078020",
+      "fact_phase_context_self_main1-64.png": "1e57bcce87ba7fc70719609b2abc96e25b9d5b52634c4c4fe32329c758ad3e41",
+      "fact_phase_context_self_main1-65.png": "a575ad38a90bb12d66d0858131d8fbaa61b8f3cea0fbb32250d9040635203ce0",
+      "fact_phase_context_self_main1-66.png": "98729df017843fc5dea18ff1494d26cf61ff3ee4aa4d3125df39bbb6296fa254"
+    },
+    "fact.phase_context.clear_center": {
+      "fact_phase_context_clear_center-7.png": "2450181cf9ebed21286e6b04a0971dd9ba62a894286f3f0f862ffcf009935f66",
+      "fact_phase_context_clear_center-22.png": "090c1d055b123f12af38a3295e53ce1ac3f2558ec133ed3ed54ab8be7f0b9997",
+      "fact_phase_context_clear_center-23.png": "d1b6972d0a0dcc596e97d7690cde750e216c292e5d3a0c4a7cae48f3442d7c5f",
+      "fact_phase_context_clear_center-45.png": "6ec37f47fbcd8c0215e06fdf0c8e4112a5f9b5e010f6bae28d1dc63ec952fd5b"
+    },
+    "fact.phase_context.clear_card_menu": {
+      "fact_phase_context_clear_card_menu-47.png": "f64f9071661052e54e871b558f3cbd1cb4cd09cdbe90a6d62adcd7964c483cb7",
+      "fact_phase_context_clear_card_menu-48.png": "eed00b152fe61827321fd9c17ea53150f106457ab443f71789888d1ff1c1bf35",
+      "fact_phase_context_clear_card_menu-49.png": "e17a47d65cdbb50bdb4fa462d4bca6456133dbdac07c10daaced8eaceac7c8c5",
+      "fact_phase_context_clear_card_menu-50.png": "1121c9889c097a53a71ad6211636d336f8c436b14ff2097ef8ac0e07f7a4dd2a",
+      "fact_phase_context_clear_card_menu-51.png": "1e81715861b138ce8084f5c98aee44a7b571126d2283f82420d5262d94184de1",
+      "fact_phase_context_clear_card_menu-52.png": "a1952d39426a7809e65992f375881e1c37461e222f7453b3c44a70a9a6fd9c18",
+      "fact_phase_context_clear_card_menu-53.png": "76bc8143783cf0a89298c491db338ddde2c01dd2287d8b8fd8a90990e27773ab",
+      "fact_phase_context_clear_card_menu-54.png": "7b847ae5d8598b216605bfd52de065c59ba66d3f33c25fcbebcff18202e83dc3",
+      "fact_phase_context_clear_card_menu-55.png": "18edaf0e1f9ab4bc053ad9dae05213447365537b12b0340f203fe09024783f13",
+      "fact_phase_context_clear_card_menu-56.png": "a20067c2d8e7e0ceb3b7fec998e0161d5f047a053bd8180b5cc078fc5d710bfd",
+      "fact_phase_context_clear_card_menu-57.png": "2a8f267e77c11a42843120aa748d752fcca36fb4792ecc22e33b69e311c66fb5",
+      "fact_phase_context_clear_card_menu-58.png": "dbfce55b15328d4926289fefe9fc0883eb1f1112b5d3459fab567000e7a179d2",
+      "fact_phase_context_clear_card_menu-59.png": "19826a7fee31c51d52830c3a5dac7724bae3e3f2a6a6f7ae6e98da1b0e93282b",
+      "fact_phase_context_clear_card_menu-60.png": "3d0d7f2bf2ed09a36491ac76bb943512069ee373b4edaa5b6caf8f2228035141",
+      "fact_phase_context_clear_card_menu-61.png": "267fc664476ae35bfb66b1b3e316a09e32781001045a3177ed7c54dabd785de1",
+      "fact_phase_context_clear_card_menu-62.png": "72301823fafd08be9b04a15654b933ff0327db658fdbc7e05ce07931d2210e04",
+      "fact_phase_context_clear_card_menu-63.png": "5b36937e208b3f2f0d4bac01d5fdde8814ece5f53dcc2c00bc62cce04c97f658",
+      "fact_phase_context_clear_card_menu-64.png": "bf9fe8331bb1b8f48a40694a6fbc483d1c93467ec00764706e49e913fe5cf4c6",
+      "fact_phase_context_clear_card_menu-65.png": "758bc2c1415ec11c71e5043e84ff7e565b0c7c2aa891e0dc67e95181fa139e8f",
+      "fact_phase_context_clear_card_menu-66.png": "8289dea72cf09f5162b722404bf22095bba2a378703174fb37d3f53f5d67c06e"
+    },
+    "fact.phase_context.menu_title": {
+      "fact_phase_context_menu_title-9.png": "97384c4a4861c8b6444f5d200fb240b57131dd03a81af459aeccf285dbe835bd"
+    },
+    "fact.phase_context.menu_end": {
+      "fact_phase_context_menu_end-9.png": "be8bd21427f653c49ab0ebe9f8b6dcc9ece6b7f5874bbba94a0f11a3ef6bc632"
+    },
+    "fact.phase_context.menu_main1": {
+      "fact_phase_context_menu_main1-9.png": "09e07d52dfd376c29d7a5691e1a0154ab5e05c12f68d6834e77a5bae15f1dd27"
+    },
+    "action.phase_open": {
+      "action_phase_open-47.png": "9b6e17c044f9932921a77958d8ee987e4393a303d0b37a43d005b51aa3ef3cbd",
+      "action_phase_open-48.png": "a841a850e18e1ea5dd59d04372de1249248d59b1704cd7fa1e9a5dd2e12dd0f7",
+      "action_phase_open-49.png": "74aa54690fa0d5439dc1bd80f95548edb188e010f8b6b2f75d94e006ebcb98b3",
+      "action_phase_open-50.png": "66a2a4090e5909848b3ffd3cfea5c39fff7afbd6806edee88a56c0eeb1897486",
+      "action_phase_open-51.png": "c38b49e630bc884fbf80556ca0203b216d409637a7fd6984d7ff8478ad120d52",
+      "action_phase_open-52.png": "a3f9e3ae6f0b5db4f55a9ae4a4f7b8d13bcc9740c36cf82fec32c262010c1166",
+      "action_phase_open-53.png": "b4ef2777b658c41ffa2bd9968028bd3ace73e645accfed874d35fd1e49b3f0d1",
+      "action_phase_open-54.png": "539b880384d2f475322712716771878d23932f22ff811e7a00573b8b23d8722d",
+      "action_phase_open-55.png": "30f07101c95e0447360b7dd7ec9d5a6cbb19ee5dac1d798bed7802f248d26b1e",
+      "action_phase_open-56.png": "1e768148821eb68e71b27cc028a9ecfa6ea72370d5fc257b1c4d7d8349d23e03",
+      "action_phase_open-57.png": "77fed6f750bb84b932fd1546dfae5e9554f311c31b2716792f81e8c38597c5d1",
+      "action_phase_open-58.png": "4a53e4d0b79c54fecbc279ff32088543eb7349b514c196902019b3f58728e3bd",
+      "action_phase_open-59.png": "27b8379ebaac6fff7ffe722b259a70c0485bc6f834570f13bfcfebf14e6bae70",
+      "action_phase_open-60.png": "b03361054dee23df4aaf03afcdccf4a1544d870d00752d9eb46ce662de15fcc5",
+      "action_phase_open-61.png": "00d035821e3e0e4b957e53d2150eff21833097ac040f25b8ecbc1749f284056d",
+      "action_phase_open-62.png": "82f20493190af978e53e557dfc725635fcbf61646de78b1ee37fe53216dab47c",
+      "action_phase_open-63.png": "0ebc4e8812618a077f27230418e7cd637d47e50f7aa7d9d15dabe57180078020",
+      "action_phase_open-64.png": "1e57bcce87ba7fc70719609b2abc96e25b9d5b52634c4c4fe32329c758ad3e41",
+      "action_phase_open-65.png": "a575ad38a90bb12d66d0858131d8fbaa61b8f3cea0fbb32250d9040635203ce0",
+      "action_phase_open-66.png": "98729df017843fc5dea18ff1494d26cf61ff3ee4aa4d3125df39bbb6296fa254"
+    },
+    "action.phase_end": {
+      "action_phase_end-9.png": "be8bd21427f653c49ab0ebe9f8b6dcc9ece6b7f5874bbba94a0f11a3ef6bc632"
+    },
+    "phase": {
+      "phase-11.png": "0f61df3ad4139fb40ec7c61b62f24363dc0d9dbe834b55985419402bfe5f299f"
+    }
+  },
+  "rows": [
+    {
+      "image": "000-story-list.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "001-gate-loading.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "002-monarch-gate.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "003-duel-node-selected.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "004-duel-rental-tab.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "005-my-deck-thunder.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "006-duel-first-player-loading.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "007-self-turn1-main1-training.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9933497309684753,
+      "phase_confidence": 0.9933497309684753
+    },
+    {
+      "image": "008-self-turn1-main1-holdout.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9929835796356201,
+      "phase_confidence": 0.9929835796356201
+    },
+    {
+      "image": "009-phase-menu-end-training.png",
+      "phase": "MAIN1",
+      "prompt": "phase.select",
+      "confidence": 1.0,
+      "phase_confidence": 1.0
+    },
+    {
+      "image": "010-phase-menu-end-holdout.png",
+      "phase": "MAIN1",
+      "prompt": "phase.select",
+      "confidence": 0.9977060556411743,
+      "phase_confidence": 0.9977060556411743
+    },
+    {
+      "image": "011-self-turn1-end-animation.png",
+      "phase": "END",
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 1.0
+    },
+    {
+      "image": "012-self-turn3-draw-animation.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "013-self-turn3-main1-animation.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "014-self-turn3-main1-stable.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.993027925491333,
+      "phase_confidence": 0.993027925491333
+    },
+    {
+      "image": "015-ash-hand-menu.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "016-ash-place-select.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "017-ash-summon-animation.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "018-opponent-apophis-chain-response.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "019-apophis-chain-before-cancel.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "020-apophis-resolving.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "021-opponent-summon-response.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "022-main1-new-training-1-summon-confirmed.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9932787418365479,
+      "phase_confidence": 0.9932787418365479
+    },
+    {
+      "image": "023-main1-new-training-2.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9936005473136902,
+      "phase_confidence": 0.9936005473136902
+    },
+    {
+      "image": "024-main1-new-holdout-1.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9934917688369751,
+      "phase_confidence": 0.9934917688369751
+    },
+    {
+      "image": "025-turn3-phase-menu-opening.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "026-turn3-phase-menu-battle-enabled-holdout.png",
+      "phase": "MAIN1",
+      "prompt": "phase.select",
+      "confidence": 0.9971737265586853,
+      "phase_confidence": 0.9971737265586853
+    },
+    {
+      "image": "027-turn3-end-click-menu-closing.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "028-opponent-turn4-main1-chain-negative.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "029-turn4-chain-before-cancel.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "030-opponent-turn4-main1-resolution-negative.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "031-turn4-opponent-special-response.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "032-turn4-opponent-tribute-animation.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "033-turn4-opponent-normal-response.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "034-turn4-opponent-main1-no-modal.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "035-turn4-attack-response-independent.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "036-turn4-battle-resolving-independent.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "037-turn4-second-attack-response.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "038-turn4-second-attack-resolving.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "039-turn4-third-attack-response.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "040-turn4-third-attack-resolving.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "041-opponent-turn4-end-response.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "042-self-turn5-transition.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "043-self-turn5-draw-independent.png",
+      "phase": null,
+      "prompt": null,
+      "confidence": 0.0,
+      "phase_confidence": 0.0
+    },
+    {
+      "image": "044-self-turn5-main1-independent-ready.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9945331811904907,
+      "phase_confidence": 0.9945331811904907
+    },
+    {
+      "image": "045-TRAINING-self-turn5-main1-low-lp-v2.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.995345950126648,
+      "phase_confidence": 0.995345950126648
+    },
+    {
+      "image": "046-HOLDOUT-v2-frozen-self-turn5-main1.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9953707456588745,
+      "phase_confidence": 0.9953707456588745
+    },
+    {
+      "image": "047-TRAIN_SEQUENCE_v3_00.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9961614012718201,
+      "phase_confidence": 0.9961614012718201
+    },
+    {
+      "image": "048-TRAIN_SEQUENCE_v3_01.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9962660670280457,
+      "phase_confidence": 0.9962660670280457
+    },
+    {
+      "image": "049-TRAIN_SEQUENCE_v3_02.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9961231350898743,
+      "phase_confidence": 0.9961231350898743
+    },
+    {
+      "image": "050-TRAIN_SEQUENCE_v3_03.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9959792494773865,
+      "phase_confidence": 0.9959792494773865
+    },
+    {
+      "image": "051-TRAIN_SEQUENCE_v3_04.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.994498074054718,
+      "phase_confidence": 0.994498074054718
+    },
+    {
+      "image": "052-TRAIN_SEQUENCE_v3_05.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9944910407066345,
+      "phase_confidence": 0.9944910407066345
+    },
+    {
+      "image": "053-TRAIN_SEQUENCE_v3_06.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9947348833084106,
+      "phase_confidence": 0.9947348833084106
+    },
+    {
+      "image": "054-TRAIN_SEQUENCE_v3_07.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9946538209915161,
+      "phase_confidence": 0.9946538209915161
+    },
+    {
+      "image": "055-TRAIN_SEQUENCE_v3_08.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.994773805141449,
+      "phase_confidence": 0.994773805141449
+    },
+    {
+      "image": "056-TRAIN_SEQUENCE_v3_09.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9948867559432983,
+      "phase_confidence": 0.9948867559432983
+    },
+    {
+      "image": "057-TRAIN_SEQUENCE_v3_10.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9949321150779724,
+      "phase_confidence": 0.9949321150779724
+    },
+    {
+      "image": "058-TRAIN_SEQUENCE_v3_11.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9950891137123108,
+      "phase_confidence": 0.9950891137123108
+    },
+    {
+      "image": "059-TRAIN_SEQUENCE_v3_12.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9953795075416565,
+      "phase_confidence": 0.9953795075416565
+    },
+    {
+      "image": "060-TRAIN_SEQUENCE_v3_13.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9955224990844727,
+      "phase_confidence": 0.9955224990844727
+    },
+    {
+      "image": "061-TRAIN_SEQUENCE_v3_14.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.995474636554718,
+      "phase_confidence": 0.995474636554718
+    },
+    {
+      "image": "062-TRAIN_SEQUENCE_v3_15.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9954223036766052,
+      "phase_confidence": 0.9954223036766052
+    },
+    {
+      "image": "063-TRAIN_SEQUENCE_v3_16.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9955703616142273,
+      "phase_confidence": 0.9955703616142273
+    },
+    {
+      "image": "064-TRAIN_SEQUENCE_v3_17.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9956271648406982,
+      "phase_confidence": 0.9956271648406982
+    },
+    {
+      "image": "065-TRAIN_SEQUENCE_v3_18.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9959214329719543,
+      "phase_confidence": 0.9959214329719543
+    },
+    {
+      "image": "066-TRAIN_SEQUENCE_v3_19.png",
+      "phase": "MAIN1",
+      "prompt": "none",
+      "confidence": 0.9959360957145691,
+      "phase_confidence": 0.9959360957145691
+    }
+  ]
+}

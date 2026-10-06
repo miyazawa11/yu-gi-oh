@@ -1,0 +1,2 @@
+{"time":"2026-10-05T16:15:46.117Z","mode":"assisted","action":"chain_cancel","input":{"x":544,"y":712},"inputAndCaptureApiMs":1054.8594999999914,"verified":false}
+{"time":"2026-10-05T16:16:23.200Z","mode":"assisted","action":"opponent_end_chain_cancel","input":{"x":544,"y":712},"inputAndCaptureApiMs":661.568299999999}

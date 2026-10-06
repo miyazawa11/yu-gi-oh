@@ -1,0 +1,1077 @@
+{
+  "schema": "neighbor-detail-independent-v1",
+  "scope": "saved-image detail-only; geometry/hand-source/receipt not evaluated",
+  "mode": "rgb_or_native_art_sift_v1",
+  "parameters": {
+    "art_inside_thumbnail": [
+      12,
+      30,
+      78,
+      72
+    ],
+    "SIFT_nfeatures": 200,
+    "footprint_radius_factor": 5.31,
+    "support_boundary_tolerance_px": 1e-12,
+    "mutual_lowe": 0.75,
+    "ransac_px": 2.0,
+    "minimum_inliers": 6,
+    "minimum_ratio": 0.7,
+    "scale": [
+      0.9,
+      1.1
+    ],
+    "shift_px": 3,
+    "art_spread": [
+      39,
+      36
+    ]
+  },
+  "threshold_rgb": 0.98,
+  "detail_roi": [
+    27,
+    151,
+    103,
+    150
+  ],
+  "reference_config_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\dragondark-hand-search-calibration-v3\\hand-search.json",
+  "reference_config_sha256": "4461e76ea0d62a421e473460cfcb7a35e4a1824479bbb8ee3574bac1b793eb33",
+  "reference_assets": [
+    {
+      "image": "hand-search-detail13906-before6.png",
+      "sha256": "235d9b0821b36b8cb80d589ce722bd8aec7c401b206316a13e44fd44862e998c",
+      "original": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0000.png",
+      "original_sha256": "b0daa93144dc768f13fddadd16cb2411b98e322d19563a87f956a4dd5de784ef",
+      "capture_sequence": 0,
+      "captured_at_monotonic": 79256.89,
+      "rect": [
+        27,
+        151,
+        103,
+        150
+      ],
+      "use": "known method selection, not holdout"
+    },
+    {
+      "image": "hand-search-detail13906-before7.png",
+      "sha256": "75b6c19586af5d77218cca353db3f00408a237bbf6147d6e8c7a3c1dd38da29a",
+      "original": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0000.png",
+      "original_sha256": "0ed957a314cc7503287353f06860dde9691b6eaff6c071cf15073a04a6a163ca",
+      "capture_sequence": 0,
+      "captured_at_monotonic": 81008.875,
+      "rect": [
+        27,
+        151,
+        103,
+        150
+      ],
+      "use": "known method selection, not holdout"
+    }
+  ],
+  "source_before_sha256": "40f668c8871e69321b91e4b9c4696bd2d86a68c13af7d5dfa74f85c2f99e0209",
+  "source_after_sha256": "40f668c8871e69321b91e4b9c4696bd2d86a68c13af7d5dfa74f85c2f99e0209",
+  "source_fixed": true,
+  "original_clocks_preserved": true,
+  "input_count": 0,
+  "e2e_count": 0,
+  "threshold_tuning": false,
+  "manifests": [
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\roar-detail-negative\\manifest.json",
+      "sha256": "de224e51c493787935c3bc7123b1049328539b248a9ab08e9f1c678f1f59ef18",
+      "metadata": {
+        "purpose": "neighbor detail assisted viewing training; KPI excluded",
+        "stage": "roar-detail-negative",
+        "capture_session_utc": "2026-10-06T01:45:40.910668+00:00",
+        "capture_source": "mss",
+        "clock_domain": "python_monotonic captured_at; perf_counter duration separate",
+        "input_count": 0
+      }
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\thunderstormech-detail-negative\\manifest.json",
+      "sha256": "141be5445b9c83280b856d2a9aad3f50c58f92f04e4d99ba7e98de8b6016a629",
+      "metadata": {
+        "purpose": "neighbor detail assisted viewing training; KPI excluded",
+        "stage": "thunderstormech-detail-negative",
+        "capture_session_utc": "2026-10-06T01:45:40.910668+00:00",
+        "capture_source": "mss",
+        "clock_domain": "python_monotonic captured_at; perf_counter duration separate",
+        "input_count": 0
+      }
+    },
+    {
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\dragondark-restored-positive\\manifest.json",
+      "sha256": "0fbdd27c0e04ff382043c80c9d7df14c66eb0f11ebee02819f704149ea3cf78a",
+      "metadata": {
+        "purpose": "neighbor detail assisted viewing training; KPI excluded",
+        "stage": "dragondark-restored-positive",
+        "capture_session_utc": "2026-10-06T01:45:40.910668+00:00",
+        "capture_source": "mss",
+        "clock_domain": "python_monotonic captured_at; perf_counter duration separate",
+        "input_count": 0
+      }
+    }
+  ],
+  "rows": [
+    {
+      "group": "roar-detail-negative",
+      "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\roar-detail-negative\\manifest.json",
+      "image_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\roar-detail-negative\\frame-0000.png",
+      "original_capture": {
+        "file": "frame-0000.png",
+        "capture_start_utc": "2026-10-06T01:47:40.858509+00:00",
+        "capture_start_perf": 93824.1719838,
+        "capture_end_perf": 93824.1958308,
+        "captured_at_monotonic": 93824.171,
+        "capture_sequence": 0,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "604989a3cd00a26254c16c057dd7d2b09046bf94879b5ee10c3b115e70e3728d"
+      },
+      "original_sha256": "604989a3cd00a26254c16c057dd7d2b09046bf94879b5ee10c3b115e70e3728d",
+      "expected_actual_cid": "13908",
+      "expected_match13906": false,
+      "raw_rgb_score": 0.8956161141395569,
+      "raw_art": {
+        "accepted": false,
+        "keypoints": 34,
+        "references": [
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          },
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          }
+        ]
+      },
+      "result_cid": null,
+      "correct": true
+    },
+    {
+      "group": "roar-detail-negative",
+      "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\roar-detail-negative\\manifest.json",
+      "image_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\roar-detail-negative\\frame-0001.png",
+      "original_capture": {
+        "file": "frame-0001.png",
+        "capture_start_utc": "2026-10-06T01:47:41.034295+00:00",
+        "capture_start_perf": 93824.3471688,
+        "capture_end_perf": 93824.3646185,
+        "captured_at_monotonic": 93824.328,
+        "capture_sequence": 1,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "5c5582fb907a37dedcad70a080ee7f445e5e2746c19785c7238657331a71b386"
+      },
+      "original_sha256": "5c5582fb907a37dedcad70a080ee7f445e5e2746c19785c7238657331a71b386",
+      "expected_actual_cid": "13908",
+      "expected_match13906": false,
+      "raw_rgb_score": 0.8956158757209778,
+      "raw_art": {
+        "accepted": false,
+        "keypoints": 34,
+        "references": [
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          },
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          }
+        ]
+      },
+      "result_cid": null,
+      "correct": true
+    },
+    {
+      "group": "roar-detail-negative",
+      "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\roar-detail-negative\\manifest.json",
+      "image_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\roar-detail-negative\\frame-0002.png",
+      "original_capture": {
+        "file": "frame-0002.png",
+        "capture_start_utc": "2026-10-06T01:47:41.220974+00:00",
+        "capture_start_perf": 93824.5337954,
+        "capture_end_perf": 93824.5533907,
+        "captured_at_monotonic": 93824.531,
+        "capture_sequence": 2,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "222a8cf4578532528b78beec0555da1472e7867725e1566db9df4945ac017bf7"
+      },
+      "original_sha256": "222a8cf4578532528b78beec0555da1472e7867725e1566db9df4945ac017bf7",
+      "expected_actual_cid": "13908",
+      "expected_match13906": false,
+      "raw_rgb_score": 0.8956161141395569,
+      "raw_art": {
+        "accepted": false,
+        "keypoints": 34,
+        "references": [
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          },
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          }
+        ]
+      },
+      "result_cid": null,
+      "correct": true
+    },
+    {
+      "group": "roar-detail-negative",
+      "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\roar-detail-negative\\manifest.json",
+      "image_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\roar-detail-negative\\frame-0003.png",
+      "original_capture": {
+        "file": "frame-0003.png",
+        "capture_start_utc": "2026-10-06T01:47:41.402075+00:00",
+        "capture_start_perf": 93824.7148886,
+        "capture_end_perf": 93824.7315044,
+        "captured_at_monotonic": 93824.703,
+        "capture_sequence": 3,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "3511b8efef063787baf0e7da81cdf62dd6749134054659ea1466be52e43e1240"
+      },
+      "original_sha256": "3511b8efef063787baf0e7da81cdf62dd6749134054659ea1466be52e43e1240",
+      "expected_actual_cid": "13908",
+      "expected_match13906": false,
+      "raw_rgb_score": 0.8956156969070435,
+      "raw_art": {
+        "accepted": false,
+        "keypoints": 34,
+        "references": [
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          },
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          }
+        ]
+      },
+      "result_cid": null,
+      "correct": true
+    },
+    {
+      "group": "roar-detail-negative",
+      "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\roar-detail-negative\\manifest.json",
+      "image_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\roar-detail-negative\\frame-0004.png",
+      "original_capture": {
+        "file": "frame-0004.png",
+        "capture_start_utc": "2026-10-06T01:47:41.579186+00:00",
+        "capture_start_perf": 93824.8922698,
+        "capture_end_perf": 93824.9150885,
+        "captured_at_monotonic": 93824.89,
+        "capture_sequence": 4,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "5384d23a9709a928fe9f8e7e5ba1dea836860c39303e0519b60bd86df2ef27dd"
+      },
+      "original_sha256": "5384d23a9709a928fe9f8e7e5ba1dea836860c39303e0519b60bd86df2ef27dd",
+      "expected_actual_cid": "13908",
+      "expected_match13906": false,
+      "raw_rgb_score": 0.8956169486045837,
+      "raw_art": {
+        "accepted": false,
+        "keypoints": 34,
+        "references": [
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          },
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          }
+        ]
+      },
+      "result_cid": null,
+      "correct": true
+    },
+    {
+      "group": "thunderstormech-detail-negative",
+      "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\thunderstormech-detail-negative\\manifest.json",
+      "image_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\thunderstormech-detail-negative\\frame-0000.png",
+      "original_capture": {
+        "file": "frame-0000.png",
+        "capture_start_utc": "2026-10-06T01:50:39.536035+00:00",
+        "capture_start_perf": 94002.8468808,
+        "capture_end_perf": 94002.8642461,
+        "captured_at_monotonic": 94002.828,
+        "capture_sequence": 5,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "b2570da4c5307ce5586d1ebf6e60cb1c14a1f96bf9dcb4e51384e7c06fa7b381"
+      },
+      "original_sha256": "b2570da4c5307ce5586d1ebf6e60cb1c14a1f96bf9dcb4e51384e7c06fa7b381",
+      "expected_actual_cid": "15011",
+      "expected_match13906": false,
+      "raw_rgb_score": 0.9079990983009338,
+      "raw_art": {
+        "accepted": false,
+        "keypoints": 28,
+        "references": [
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          },
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          }
+        ]
+      },
+      "result_cid": null,
+      "correct": true
+    },
+    {
+      "group": "thunderstormech-detail-negative",
+      "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\thunderstormech-detail-negative\\manifest.json",
+      "image_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\thunderstormech-detail-negative\\frame-0001.png",
+      "original_capture": {
+        "file": "frame-0001.png",
+        "capture_start_utc": "2026-10-06T01:50:39.710700+00:00",
+        "capture_start_perf": 94003.0215708,
+        "capture_end_perf": 94003.0399313,
+        "captured_at_monotonic": 94003.015,
+        "capture_sequence": 6,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "ba328f849fc1384e9537cdad34cac791207ef8b911b46b4bdb219394247c3c65"
+      },
+      "original_sha256": "ba328f849fc1384e9537cdad34cac791207ef8b911b46b4bdb219394247c3c65",
+      "expected_actual_cid": "15011",
+      "expected_match13906": false,
+      "raw_rgb_score": 0.9079969525337219,
+      "raw_art": {
+        "accepted": false,
+        "keypoints": 28,
+        "references": [
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          },
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          }
+        ]
+      },
+      "result_cid": null,
+      "correct": true
+    },
+    {
+      "group": "thunderstormech-detail-negative",
+      "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\thunderstormech-detail-negative\\manifest.json",
+      "image_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\thunderstormech-detail-negative\\frame-0002.png",
+      "original_capture": {
+        "file": "frame-0002.png",
+        "capture_start_utc": "2026-10-06T01:50:39.883979+00:00",
+        "capture_start_perf": 94003.1947561,
+        "capture_end_perf": 94003.2113029,
+        "captured_at_monotonic": 94003.187,
+        "capture_sequence": 7,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "99263534693d074f29632cb74fb7ae9b3a4ba0f8bc4b2832b1fa51d296245f69"
+      },
+      "original_sha256": "99263534693d074f29632cb74fb7ae9b3a4ba0f8bc4b2832b1fa51d296245f69",
+      "expected_actual_cid": "15011",
+      "expected_match13906": false,
+      "raw_rgb_score": 0.9079950451850891,
+      "raw_art": {
+        "accepted": false,
+        "keypoints": 28,
+        "references": [
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          },
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          }
+        ]
+      },
+      "result_cid": null,
+      "correct": true
+    },
+    {
+      "group": "thunderstormech-detail-negative",
+      "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\thunderstormech-detail-negative\\manifest.json",
+      "image_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\thunderstormech-detail-negative\\frame-0003.png",
+      "original_capture": {
+        "file": "frame-0003.png",
+        "capture_start_utc": "2026-10-06T01:50:40.075554+00:00",
+        "capture_start_perf": 94003.3864305,
+        "capture_end_perf": 94003.4074311,
+        "captured_at_monotonic": 94003.375,
+        "capture_sequence": 8,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "25ab375d81a5116edb66b265ec76a9ba6a22250fd8e737a212ed0a24c141fad2"
+      },
+      "original_sha256": "25ab375d81a5116edb66b265ec76a9ba6a22250fd8e737a212ed0a24c141fad2",
+      "expected_actual_cid": "15011",
+      "expected_match13906": false,
+      "raw_rgb_score": 0.9079950451850891,
+      "raw_art": {
+        "accepted": false,
+        "keypoints": 28,
+        "references": [
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          },
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          }
+        ]
+      },
+      "result_cid": null,
+      "correct": true
+    },
+    {
+      "group": "thunderstormech-detail-negative",
+      "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\thunderstormech-detail-negative\\manifest.json",
+      "image_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\thunderstormech-detail-negative\\frame-0004.png",
+      "original_capture": {
+        "file": "frame-0004.png",
+        "capture_start_utc": "2026-10-06T01:50:40.254655+00:00",
+        "capture_start_perf": 94003.5654832,
+        "capture_end_perf": 94003.5858156,
+        "captured_at_monotonic": 94003.562,
+        "capture_sequence": 9,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "4bdfa6482ff9a65adf84c28d375a7133b8657f3831b880b0e9415c454783bb38"
+      },
+      "original_sha256": "4bdfa6482ff9a65adf84c28d375a7133b8657f3831b880b0e9415c454783bb38",
+      "expected_actual_cid": "15011",
+      "expected_match13906": false,
+      "raw_rgb_score": 0.9079943895339966,
+      "raw_art": {
+        "accepted": false,
+        "keypoints": 28,
+        "references": [
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          },
+          {
+            "matches": 0,
+            "accepted": false,
+            "reason": "matches_under6"
+          }
+        ]
+      },
+      "result_cid": null,
+      "correct": true
+    },
+    {
+      "group": "dragondark-restored-positive",
+      "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\dragondark-restored-positive\\manifest.json",
+      "image_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\dragondark-restored-positive\\frame-0000.png",
+      "original_capture": {
+        "file": "frame-0000.png",
+        "capture_start_utc": "2026-10-06T01:52:31.937151+00:00",
+        "capture_start_perf": 94115.246755,
+        "capture_end_perf": 94115.2637048,
+        "captured_at_monotonic": 94115.234,
+        "capture_sequence": 10,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "29485e2cb0ee422ab11d17c903a2c84fc0ea83471cfc17d6e503e54ac790c557"
+      },
+      "original_sha256": "29485e2cb0ee422ab11d17c903a2c84fc0ea83471cfc17d6e503e54ac790c557",
+      "expected_actual_cid": "13906",
+      "expected_match13906": true,
+      "raw_rgb_score": 0.9661656022071838,
+      "raw_art": {
+        "accepted": true,
+        "keypoints": 58,
+        "references": [
+          {
+            "matches": 44,
+            "accepted": true,
+            "inliers": 44,
+            "ratio": 1.0,
+            "spread": [
+              52.9771728515625,
+              45.10941696166992
+            ],
+            "scale": 0.9996685135229264,
+            "shift": [
+              -0.007367628903566181,
+              0.03315262701483204
+            ],
+            "reason": []
+          },
+          {
+            "matches": 47,
+            "accepted": true,
+            "inliers": 47,
+            "ratio": 1.0,
+            "spread": [
+              52.93313980102539,
+              45.238346099853516
+            ],
+            "scale": 1.0002449140112974,
+            "shift": [
+              0.07244573613987057,
+              -0.05667081995053955
+            ],
+            "reason": []
+          }
+        ]
+      },
+      "result_cid": "13906",
+      "correct": true
+    },
+    {
+      "group": "dragondark-restored-positive",
+      "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\dragondark-restored-positive\\manifest.json",
+      "image_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\dragondark-restored-positive\\frame-0001.png",
+      "original_capture": {
+        "file": "frame-0001.png",
+        "capture_start_utc": "2026-10-06T01:52:32.120721+00:00",
+        "capture_start_perf": 94115.4302522,
+        "capture_end_perf": 94115.4503957,
+        "captured_at_monotonic": 94115.421,
+        "capture_sequence": 11,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "e0fbd5f11e5d4967b9afcac2578deb5d342329d226ff2c507a480acd87c55bcf"
+      },
+      "original_sha256": "e0fbd5f11e5d4967b9afcac2578deb5d342329d226ff2c507a480acd87c55bcf",
+      "expected_actual_cid": "13906",
+      "expected_match13906": true,
+      "raw_rgb_score": 0.9659388065338135,
+      "raw_art": {
+        "accepted": true,
+        "keypoints": 58,
+        "references": [
+          {
+            "matches": 44,
+            "accepted": true,
+            "inliers": 44,
+            "ratio": 1.0,
+            "spread": [
+              52.9771728515625,
+              45.10941696166992
+            ],
+            "scale": 0.9996685135229264,
+            "shift": [
+              -0.007367628903566181,
+              0.03315262701483204
+            ],
+            "reason": []
+          },
+          {
+            "matches": 47,
+            "accepted": true,
+            "inliers": 47,
+            "ratio": 1.0,
+            "spread": [
+              52.93313980102539,
+              45.238346099853516
+            ],
+            "scale": 1.0002449140112974,
+            "shift": [
+              0.07244573613987057,
+              -0.05667081995053955
+            ],
+            "reason": []
+          }
+        ]
+      },
+      "result_cid": "13906",
+      "correct": true
+    },
+    {
+      "group": "dragondark-restored-positive",
+      "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\dragondark-restored-positive\\manifest.json",
+      "image_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\dragondark-restored-positive\\frame-0002.png",
+      "original_capture": {
+        "file": "frame-0002.png",
+        "capture_start_utc": "2026-10-06T01:52:32.290924+00:00",
+        "capture_start_perf": 94115.6004237,
+        "capture_end_perf": 94115.6179238,
+        "captured_at_monotonic": 94115.593,
+        "capture_sequence": 12,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "73d8eda2d78360641b63fbffe6425ced66e9bbb9c791f23bd7b3839b6e2a21c4"
+      },
+      "original_sha256": "73d8eda2d78360641b63fbffe6425ced66e9bbb9c791f23bd7b3839b6e2a21c4",
+      "expected_actual_cid": "13906",
+      "expected_match13906": true,
+      "raw_rgb_score": 0.966109037399292,
+      "raw_art": {
+        "accepted": true,
+        "keypoints": 58,
+        "references": [
+          {
+            "matches": 44,
+            "accepted": true,
+            "inliers": 44,
+            "ratio": 1.0,
+            "spread": [
+              52.9771728515625,
+              45.10941696166992
+            ],
+            "scale": 0.9996685135229264,
+            "shift": [
+              -0.007367628903566181,
+              0.03315262701483204
+            ],
+            "reason": []
+          },
+          {
+            "matches": 47,
+            "accepted": true,
+            "inliers": 47,
+            "ratio": 1.0,
+            "spread": [
+              52.93313980102539,
+              45.238346099853516
+            ],
+            "scale": 1.0002449140112974,
+            "shift": [
+              0.07244573613987057,
+              -0.05667081995053955
+            ],
+            "reason": []
+          }
+        ]
+      },
+      "result_cid": "13906",
+      "correct": true
+    },
+    {
+      "group": "dragondark-restored-positive",
+      "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\dragondark-restored-positive\\manifest.json",
+      "image_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\dragondark-restored-positive\\frame-0003.png",
+      "original_capture": {
+        "file": "frame-0003.png",
+        "capture_start_utc": "2026-10-06T01:52:32.477984+00:00",
+        "capture_start_perf": 94115.7874791,
+        "capture_end_perf": 94115.8034223,
+        "captured_at_monotonic": 94115.781,
+        "capture_sequence": 13,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "ff5dd2203591032421d57c5eda20f77543521b484dd41974db4d0b41ae46682a"
+      },
+      "original_sha256": "ff5dd2203591032421d57c5eda20f77543521b484dd41974db4d0b41ae46682a",
+      "expected_actual_cid": "13906",
+      "expected_match13906": true,
+      "raw_rgb_score": 0.9692914485931396,
+      "raw_art": {
+        "accepted": true,
+        "keypoints": 58,
+        "references": [
+          {
+            "matches": 46,
+            "accepted": true,
+            "inliers": 46,
+            "ratio": 1.0,
+            "spread": [
+              52.9771728515625,
+              45.10941696166992
+            ],
+            "scale": 0.9996344170751191,
+            "shift": [
+              -0.037910106031987134,
+              0.04724308810461335
+            ],
+            "reason": []
+          },
+          {
+            "matches": 48,
+            "accepted": true,
+            "inliers": 48,
+            "ratio": 1.0,
+            "spread": [
+              52.93313980102539,
+              45.238346099853516
+            ],
+            "scale": 1.0003565135901695,
+            "shift": [
+              0.05924573112254994,
+              -0.060756690973944254
+            ],
+            "reason": []
+          }
+        ]
+      },
+      "result_cid": "13906",
+      "correct": true
+    },
+    {
+      "group": "dragondark-restored-positive",
+      "manifest_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\dragondark-restored-positive\\manifest.json",
+      "image_path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGON_NEIGHBOR_DETAIL_TRAIN_v1_20261006\\dragondark-restored-positive\\frame-0004.png",
+      "original_capture": {
+        "file": "frame-0004.png",
+        "capture_start_utc": "2026-10-06T01:52:32.663130+00:00",
+        "capture_start_perf": 94115.9726877,
+        "capture_end_perf": 94115.9914549,
+        "captured_at_monotonic": 94115.968,
+        "capture_sequence": 14,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "340e2e11d19e6335aaa0d607ab74cde6ea5efe8fb5ca23c7e45b7e59c8a1e80f"
+      },
+      "original_sha256": "340e2e11d19e6335aaa0d607ab74cde6ea5efe8fb5ca23c7e45b7e59c8a1e80f",
+      "expected_actual_cid": "13906",
+      "expected_match13906": true,
+      "raw_rgb_score": 0.971429705619812,
+      "raw_art": {
+        "accepted": true,
+        "keypoints": 53,
+        "references": [
+          {
+            "matches": 45,
+            "accepted": true,
+            "inliers": 45,
+            "ratio": 1.0,
+            "spread": [
+              52.9771728515625,
+              45.10941696166992
+            ],
+            "scale": 1.0000916215895121,
+            "shift": [
+              -0.004205505689693243,
+              -0.024706720153663982
+            ],
+            "reason": []
+          },
+          {
+            "matches": 45,
+            "accepted": true,
+            "inliers": 45,
+            "ratio": 1.0,
+            "spread": [
+              52.93313980102539,
+              45.238346099853516
+            ],
+            "scale": 1.0003595866782158,
+            "shift": [
+              0.0945108762873263,
+              -0.08853993955757852
+            ],
+            "reason": []
+          }
+        ]
+      },
+      "result_cid": "13906",
+      "correct": true
+    }
+  ],
+  "summary": {
+    "samples": 15,
+    "correct": 15,
+    "negative_samples": 10,
+    "false_13906": 0,
+    "positive_samples": 5,
+    "recognized_positive": 5,
+    "limitation": "small same-theme sample; no E2E or general accuracy proof"
+  },
+  "write_note": "Parent-authorized persistence repeat of memory evaluation, not additional independent sample"
+}

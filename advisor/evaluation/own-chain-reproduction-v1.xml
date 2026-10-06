@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="2.163" timestamp="2026-10-06T12:13:52.873657+09:00" hostname="DESKTOP-KILPD1G"><testcase classname="tests.test_own_chain_parent_permission" name="test_current_exact_own_chain_and_parent_receipt_allow_cancel_without_inventing_phase_or_idle" time="2.048"><failure message="AssertionError: assert None == 'hand.dragondark.own_chain'&#10; +  where None = Observation[str](value=None, confidence=0.0, source='unknown', observed_at=96856.187).value&#10; +    where Observation[str](value=None, confidence=0.0, source='unknown', observed_at=96856.187) = GameState(sequence=20, captured_at=96856.187, media_time=None, turn=Observation[int](value=None, confidence=0.0, sourc...ource_region='action.cancel_opponent_turn_end', observed_at=96856.187, coordinate_proof=None, hand_search_proof=None)]).prompt">def test_current_exact_own_chain_and_parent_receipt_allow_cancel_without_inventing_phase_or_idle():
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        try:
+            context=json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0])
+            context=deepcopy(context);context["result"]=None
+            goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+            p.perception.hand_goal=goal;context["hand_search_confirmation"]=goal.model_dump(mode="json")
+            step=context["steps"][0];after=json.loads((RUN/"actions.jsonl").read_text(encoding="utf-8").splitlines()[0])["state_after"]
+            # 原runtime snapshot/mono/seqをそのまま使い、入力は呼びません。
+            frame=Frame(read_image(RUN/"screenshots/after-0001.png"),after["captured_at"],after["sequence"],
+                capture_source="live_mss",capture_rect=tuple(step["client_rect"]),input_epoch=step["input_epoch"])
+            p.perception.inspect_client_rect=frame.capture_rect
+            state=p.perception.process(frame,hand_episode_context=context)
+            assert state.phase.value is None and state.animation.value is None
+&gt;           assert state.prompt.value=="hand.dragondark.own_chain"
+E           AssertionError: assert None == 'hand.dragondark.own_chain'
+E            +  where None = Observation[str](value=None, confidence=0.0, source='unknown', observed_at=96856.187).value
+E            +    where Observation[str](value=None, confidence=0.0, source='unknown', observed_at=96856.187) = GameState(sequence=20, captured_at=96856.187, media_time=None, turn=Observation[int](value=None, confidence=0.0, sourc...ource_region='action.cancel_opponent_turn_end', observed_at=96856.187, coordinate_proof=None, hand_search_proof=None)]).prompt
+
+tests\test_own_chain_parent_permission.py:29: AssertionError</failure></testcase></testsuite></testsuites>

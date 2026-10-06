@@ -1,0 +1,2791 @@
+{
+  "schema": "inspect-ui-bank-microbench-v4",
+  "input_count": 0,
+  "e2e_count": 0,
+  "offline_clock": 0,
+  "image": "artifacts\\baseline-tester\\ASH_INSPECT_MENU_TEMPORAL_v4_20261006\\menu\\frame-0007.png",
+  "image_sha256": "de2d7e112657f301570d5aa47d6739c891bbf81f16abc450b0e2bb537952829f",
+  "iterations": 20,
+  "legacy_detector_sha256": "d23fe218af54afc642b04e792ab8cb7d548cadd030c938a9470e60a0866fe6e4",
+  "bank_sha256": "99c88335c50213265621f10753595693f34e1d22aeb72bda2ed2941466c60fab",
+  "notice": "既知画像の追加認識コスト。手札探索/2表示参照により正確性coverageを回復、速度改善主張無し",
+  "summary": {
+    "legacy_button_ms": {
+      "average_ms": 35.60383999865735,
+      "p50_ms": 34.961249999469146,
+      "max_ms": 39.06219999771565
+    },
+    "bank_button_ms": {
+      "average_ms": 48.24627500274801,
+      "p50_ms": 48.22874999808846,
+      "max_ms": 51.26350000500679
+    },
+    "bank_hand_ms": {
+      "average_ms": 7.334960001753643,
+      "p50_ms": 7.0367500084103085,
+      "max_ms": 14.628400007495657
+    }
+  },
+  "rows": [
+    {
+      "index": 0,
+      "legacy_button_ms": 34.730500003206544,
+      "legacy_detected": false,
+      "bank_button_ms": 47.125600001891144,
+      "bank_detected": true,
+      "bank_hand_ms": 14.628400007495657,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 1,
+      "bank_button_ms": 48.44020000018645,
+      "bank_detected": true,
+      "legacy_button_ms": 33.89809999498539,
+      "legacy_detected": false,
+      "bank_hand_ms": 6.770400010282174,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 2,
+      "legacy_button_ms": 34.83669999695849,
+      "legacy_detected": false,
+      "bank_button_ms": 49.21270000340883,
+      "bank_detected": true,
+      "bank_hand_ms": 7.27990000450518,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 3,
+      "bank_button_ms": 49.4271000061417,
+      "bank_detected": true,
+      "legacy_button_ms": 36.76949998771306,
+      "legacy_detected": false,
+      "bank_hand_ms": 7.043400008114986,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 4,
+      "legacy_button_ms": 37.87200000078883,
+      "legacy_detected": false,
+      "bank_button_ms": 51.036700009717606,
+      "bank_detected": true,
+      "bank_hand_ms": 6.75760000012815,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 5,
+      "bank_button_ms": 51.26350000500679,
+      "bank_detected": true,
+      "legacy_button_ms": 37.76580000703689,
+      "legacy_detected": false,
+      "bank_hand_ms": 7.581500001833774,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 6,
+      "legacy_button_ms": 38.81659999024123,
+      "legacy_detected": false,
+      "bank_button_ms": 46.60339999827556,
+      "bank_detected": true,
+      "bank_hand_ms": 5.872499998076819,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 7,
+      "bank_button_ms": 47.057400006451644,
+      "bank_detected": true,
+      "legacy_button_ms": 35.72300000814721,
+      "legacy_detected": false,
+      "bank_hand_ms": 6.323100009467453,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 8,
+      "legacy_button_ms": 39.06219999771565,
+      "legacy_detected": false,
+      "bank_button_ms": 48.49709999689367,
+      "bank_detected": true,
+      "bank_hand_ms": 6.332300006761216,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 9,
+      "bank_button_ms": 45.582499995362014,
+      "bank_detected": true,
+      "legacy_button_ms": 34.26719999697525,
+      "legacy_detected": false,
+      "bank_hand_ms": 6.699699995806441,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 10,
+      "legacy_button_ms": 35.51209998840932,
+      "legacy_detected": false,
+      "bank_button_ms": 48.647100004018284,
+      "bank_detected": true,
+      "bank_hand_ms": 6.077400001231581,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 11,
+      "bank_button_ms": 48.36359999899287,
+      "bank_detected": true,
+      "legacy_button_ms": 33.75459999369923,
+      "legacy_detected": false,
+      "bank_hand_ms": 6.323900001007132,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 12,
+      "legacy_button_ms": 34.19140000187326,
+      "legacy_detected": false,
+      "bank_button_ms": 48.09389999718405,
+      "bank_detected": true,
+      "bank_hand_ms": 7.987700009834953,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 13,
+      "bank_button_ms": 47.86830001103226,
+      "bank_detected": true,
+      "legacy_button_ms": 34.48740000021644,
+      "legacy_detected": false,
+      "bank_hand_ms": 7.030100008705631,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 14,
+      "legacy_button_ms": 34.858400002121925,
+      "legacy_detected": false,
+      "bank_button_ms": 48.93840001022909,
+      "bank_detected": true,
+      "bank_hand_ms": 7.67469999846071,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 15,
+      "bank_button_ms": 46.68499999388587,
+      "bank_detected": true,
+      "legacy_button_ms": 35.06409999681637,
+      "legacy_detected": false,
+      "bank_hand_ms": 7.25609999790322,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 16,
+      "legacy_button_ms": 35.36100000201259,
+      "legacy_detected": false,
+      "bank_button_ms": 47.65910000423901,
+      "bank_detected": true,
+      "bank_hand_ms": 6.707599997753277,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 17,
+      "bank_button_ms": 47.509700001683086,
+      "bank_detected": true,
+      "legacy_button_ms": 36.3056000060169,
+      "legacy_detected": false,
+      "bank_hand_ms": 7.331599990720861,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 18,
+      "legacy_button_ms": 34.66699999989942,
+      "legacy_detected": false,
+      "bank_button_ms": 47.9605000000447,
+      "bank_detected": true,
+      "bank_hand_ms": 7.247999994433485,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    },
+    {
+      "index": 19,
+      "bank_button_ms": 48.953700010315515,
+      "bank_detected": true,
+      "legacy_button_ms": 34.133599998313,
+      "legacy_detected": false,
+      "bank_hand_ms": 7.7732999925501645,
+      "bank_hand_detected": true,
+      "hand_diagnostic": {
+        "rgb_raw_score": 0.9582460522651672,
+        "rgb_threshold": 0.98,
+        "rgb_not_used_as_gate": true,
+        "geometry": {
+          "schema": "raised-hand-connected-lines-v1",
+          "passed": true,
+          "roi": [
+            400,
+            567,
+            135,
+            150
+          ],
+          "line_count": 15,
+          "selected_rectangle": {
+            "left": [
+              419,
+              567,
+              419,
+              716
+            ],
+            "right": [
+              522,
+              568,
+              522,
+              716
+            ],
+            "top": [
+              404,
+              568,
+              530,
+              568
+            ]
+          },
+          "vertical_lines": [
+            [
+              419,
+              716,
+              419,
+              568
+            ],
+            [
+              522,
+              716,
+              522,
+              571
+            ],
+            [
+              425,
+              706,
+              425,
+              585
+            ],
+            [
+              511,
+              673,
+              511,
+              580
+            ],
+            [
+              513,
+              683,
+              513,
+              570
+            ]
+          ],
+          "top_lines": [
+            [
+              445,
+              575,
+              534,
+              575
+            ],
+            [
+              404,
+              568,
+              530,
+              568
+            ],
+            [
+              430,
+              584,
+              516,
+              584
+            ],
+            [
+              401,
+              586,
+              534,
+              586
+            ]
+          ],
+          "parameters_sha256": "db39809cdbf73606a40eaea4d93c28c1a7f475a459ed9ef708260c15449471e2",
+          "edge_supported_vertical_projections": [
+            [
+              419,
+              567,
+              419,
+              716
+            ],
+            [
+              522,
+              568,
+              522,
+              716
+            ],
+            [
+              425,
+              567,
+              425,
+              706
+            ],
+            [
+              511,
+              567,
+              511,
+              673
+            ],
+            [
+              513,
+              567,
+              513,
+              683
+            ]
+          ],
+          "confidence_semantics": "binary geometric constraints satisfied; not CID/probability/legal-action proof",
+          "unknown_reason": null
+        }
+      }
+    }
+  ]
+}

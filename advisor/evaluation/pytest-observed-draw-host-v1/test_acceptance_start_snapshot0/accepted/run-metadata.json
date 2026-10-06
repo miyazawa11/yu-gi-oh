@@ -1,0 +1,61 @@
+{
+  "run_id": "f9b6923b0e754c3883f550f90f5f1920",
+  "mode": "unclassified",
+  "source_sha256": "c3acec46294c7a6856038601a10785fcc41444923d6b0ab32c37f23ebc82a370",
+  "python": "3.12.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "clock": "perf_counter",
+  "clock_resolution_seconds": 1e-07,
+  "registered_trials": [
+    {
+      "logical_action": "summon",
+      "category": "SPECIAL_SUMMON"
+    }
+  ],
+  "run_purpose": "acceptance",
+  "cohort_id": "fixture",
+  "cohort_manifest_sha256": "7489bdd58eea4a1d72b5376c3f1a2cef02198a42461e7d5849791e9c8be40c63",
+  "cohort_slot": "one",
+  "data_integrity": true,
+  "calibration_sha256": "3f530c0c449d4f09d01f98e60597c24c620867e2d2e133687ecfb2da9632b671",
+  "calibration": {
+    "fixture": "合成検証のみ"
+  },
+  "template_assets_sha256": "3f530c0c449d4f09d01f98e60597c24c620867e2d2e133687ecfb2da9632b671",
+  "template_assets": {
+    "fixture": "合成検証のみ"
+  },
+  "stable_features_sha256": "3f530c0c449d4f09d01f98e60597c24c620867e2d2e133687ecfb2da9632b671",
+  "stable_features": {
+    "fixture": "合成検証のみ"
+  },
+  "strategy_sha256": "3f530c0c449d4f09d01f98e60597c24c620867e2d2e133687ecfb2da9632b671",
+  "strategy": {
+    "fixture": "合成検証のみ"
+  },
+  "limits_sha256": "3f530c0c449d4f09d01f98e60597c24c620867e2d2e133687ecfb2da9632b671",
+  "limits": {
+    "fixture": "合成検証のみ"
+  },
+  "capture_sha256": "3f530c0c449d4f09d01f98e60597c24c620867e2d2e133687ecfb2da9632b671",
+  "capture": {
+    "fixture": "合成検証のみ"
+  },
+  "execution_conditions_sha256": "abac6c3b692b8b3364d8ec77b9954d1444fa9b37d7123f2853f9cb8746d458cd",
+  "execution_conditions": {
+    "runtime": {
+      "offline_cards": true,
+      "data_files": {
+        "database": {
+          "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-observed-draw-host-v1\\test_acceptance_start_snapshot0\\fixture.db",
+          "sha256": "2b9cc4a9db471dbe900f09fbe469af30efdd8a740f938e325120903fb274339d"
+        }
+      }
+    }
+  },
+  "recognition_components_sha256": "3f530c0c449d4f09d01f98e60597c24c620867e2d2e133687ecfb2da9632b671",
+  "recognition_components": {
+    "fixture": "合成検証のみ"
+  },
+  "provenance_frozen_before_capture": true
+}

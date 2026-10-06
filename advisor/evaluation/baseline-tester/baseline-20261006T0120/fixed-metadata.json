@@ -1,0 +1,12 @@
+{
+  "created_utc": 1791217045.190077,
+  "mode": "passive_preflight",
+  "source_sha256": "0f6ef470e7a0395c9672b961a63b21c1a8098fc859cf223b85726bd44980d1e4",
+  "config_sha256": {
+    "artifacts/phase-mss-complete-calibration/calibration.json": "170497ece4845f8b9ce69999eaba6e465016471745329f4d41d798c3ac1631dc",
+    "artifacts/phase-only-calibration/phase-route.json": "40d4d3d661702b8e83bbe71cc514a972e5e6454f93e7b1c7df795bc1e38b77ad",
+    "artifacts/normal-maxxc-calibration-v1/calibration.json": "eab254044b68585b0d0d3ad1881023f1873c412aeb127db2f8016657f26d851b",
+    "artifacts/normal-maxxc-calibration-v1/normal-route.json": "7c178bb4922e069c3e16dbca800d98cb2ef387f4d7036edb0e7ae67dd729b7f2"
+  },
+  "inputs": 0
+}

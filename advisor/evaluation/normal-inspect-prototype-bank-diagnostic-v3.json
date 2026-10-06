@@ -1,0 +1,2748 @@
+{
+  "schema": "existing-prototype-bank-relative-hand-diagnostic",
+  "input_count": 0,
+  "e2e_count": 0,
+  "training_used": false,
+  "unseen_holdout": false,
+  "threshold": 0.98,
+  "position_margin": 0.03,
+  "button_bank": "existing-v1-v3-prototypes-at-each-position-max",
+  "hand_relative_offset": [
+    27,
+    82
+  ],
+  "hand_search_radii": [
+    0,
+    1,
+    3
+  ],
+  "summary": {
+    "a1-known-ash": {
+      "count": 3,
+      "button_detected": 3,
+      "button_min": 0.996273934841156,
+      "button_max": 0.9965116381645203,
+      "hand_r0_min": 0.9900539517402649,
+      "hand_r1_min": 0.9900539517402649,
+      "hand_r3_min": 0.9900539517402649,
+      "hand_r3_max": 0.9909234046936035,
+      "hand_joint_r3": 3
+    },
+    "known-initial": {
+      "count": 1,
+      "button_detected": 0,
+      "button_min": 0.7646215558052063,
+      "button_max": 0.7646215558052063,
+      "hand_r0_min": 0.6841837763786316,
+      "hand_r1_min": 0.6874334812164307,
+      "hand_r3_min": 0.6874334812164307,
+      "hand_r3_max": 0.6874334812164307,
+      "hand_joint_r3": 0
+    },
+    "known-post-failure": {
+      "count": 1,
+      "button_detected": 0,
+      "button_min": 0.763785183429718,
+      "button_max": 0.763785183429718,
+      "hand_r0_min": 0.6465078592300415,
+      "hand_r1_min": 0.6588592529296875,
+      "hand_r3_min": 0.6866689920425415,
+      "hand_r3_max": 0.6866689920425415,
+      "hand_joint_r3": 0
+    },
+    "known-preflight-v1": {
+      "count": 1,
+      "button_detected": 1,
+      "button_min": 0.9944997429847717,
+      "button_max": 0.9944997429847717,
+      "hand_r0_min": 0.9963225722312927,
+      "hand_r1_min": 0.9963225722312927,
+      "hand_r3_min": 0.9963225722312927,
+      "hand_r3_max": 0.9963225722312927,
+      "hand_joint_r3": 1
+    },
+    "known-preflight-v2": {
+      "count": 1,
+      "button_detected": 1,
+      "button_min": 0.993930459022522,
+      "button_max": 0.993930459022522,
+      "hand_r0_min": 0.9941097497940063,
+      "hand_r1_min": 0.9941097497940063,
+      "hand_r3_min": 0.9941097497940063,
+      "hand_r3_max": 0.9941097497940063,
+      "hand_joint_r3": 1
+    },
+    "known-preflight-v3": {
+      "count": 1,
+      "button_detected": 1,
+      "button_min": 0.9934301972389221,
+      "button_max": 0.9934301972389221,
+      "hand_r0_min": 0.9787962436676025,
+      "hand_r1_min": 0.9803921580314636,
+      "hand_r3_min": 0.9803921580314636,
+      "hand_r3_max": 0.9803921580314636,
+      "hand_joint_r3": 1
+    },
+    "known-solar-menu": {
+      "count": 1,
+      "button_detected": 1,
+      "button_min": 0.9983273148536682,
+      "button_max": 0.9983273148536682,
+      "hand_r0_min": 0.9658477306365967,
+      "hand_r1_min": 0.9658477306365967,
+      "hand_r3_min": 0.9658477306365967,
+      "hand_r3_max": 0.9658477306365967,
+      "hand_joint_r3": 0
+    },
+    "known-solar-placement": {
+      "count": 1,
+      "button_detected": 0,
+      "button_min": 0.72237628698349,
+      "button_max": 0.72237628698349,
+      "hand_r0_min": 0.8571882247924805,
+      "hand_r1_min": 0.8762632608413696,
+      "hand_r3_min": 0.8852612972259521,
+      "hand_r3_max": 0.8852612972259521,
+      "hand_joint_r3": 0
+    },
+    "known-solar-post": {
+      "count": 1,
+      "button_detected": 0,
+      "button_min": 0.7531878352165222,
+      "button_max": 0.7531878352165222,
+      "hand_r0_min": 0.7109194993972778,
+      "hand_r1_min": 0.7220699787139893,
+      "hand_r3_min": 0.7471900582313538,
+      "hand_r3_max": 0.7471900582313538,
+      "hand_joint_r3": 0
+    },
+    "layout2-menu": {
+      "count": 10,
+      "button_detected": 10,
+      "button_min": 0.9983199834823608,
+      "button_max": 0.9991904497146606,
+      "hand_r0_min": 0.998910665512085,
+      "hand_r1_min": 0.998910665512085,
+      "hand_r3_min": 0.998910665512085,
+      "hand_r3_max": 0.999611496925354,
+      "hand_joint_r3": 10
+    },
+    "menu": {
+      "count": 10,
+      "button_detected": 10,
+      "button_min": 0.9954697489738464,
+      "button_max": 0.9968985319137573,
+      "hand_r0_min": 0.9984123706817627,
+      "hand_r1_min": 0.9984123706817627,
+      "hand_r3_min": 0.9984123706817627,
+      "hand_r3_max": 0.9994444251060486,
+      "hand_joint_r3": 10
+    },
+    "opponent-no-button": {
+      "count": 3,
+      "button_detected": 0,
+      "button_min": 0.7612848281860352,
+      "button_max": 0.7621972560882568,
+      "hand_r0_min": 0.5678454637527466,
+      "hand_r1_min": 0.5727139115333557,
+      "hand_r3_min": 0.5785491466522217,
+      "hand_r3_max": 0.8146992921829224,
+      "hand_joint_r3": 0
+    },
+    "placement": {
+      "count": 10,
+      "button_detected": 0,
+      "button_min": 0.6970242857933044,
+      "button_max": 0.7237097024917603,
+      "hand_r0_min": 0.7916651368141174,
+      "hand_r1_min": 0.79604172706604,
+      "hand_r3_min": 0.8122686743736267,
+      "hand_r3_max": 0.8875029683113098,
+      "hand_joint_r3": 0
+    },
+    "post-inspected": {
+      "count": 10,
+      "button_detected": 0,
+      "button_min": 0.7592144012451172,
+      "button_max": 0.7615938782691956,
+      "hand_r0_min": 0.5206984281539917,
+      "hand_r1_min": 0.5274639129638672,
+      "hand_r3_min": 0.5443357229232788,
+      "hand_r3_max": 0.5950390100479126,
+      "hand_joint_r3": 0
+    },
+    "post-unselected": {
+      "count": 10,
+      "button_detected": 0,
+      "button_min": 0.7254176139831543,
+      "button_max": 0.7607857584953308,
+      "hand_r0_min": 0.5275551080703735,
+      "hand_r1_min": 0.5373468399047852,
+      "hand_r3_min": 0.5561932325363159,
+      "hand_r3_max": 0.775691568851471,
+      "hand_joint_r3": 0
+    }
+  },
+  "rows": [
+    {
+      "stage": "menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0000.png",
+      "sha256": "8e82ae997dc817e1dd39c24c1975ab5a53e3fa2f2e7b6d515b72395d3f5e3572",
+      "button": {
+        "score": 0.9968985319137573,
+        "margin": 0.22744596004486084,
+        "bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9990553259849548,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9990553259849548,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.9990553259849548,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 61.618399995495565
+    },
+    {
+      "stage": "menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0001.png",
+      "sha256": "9e061493abbe859147c4f72f13be6c1cf2401a0b83b3f71cfb76ef77a32e4a65",
+      "button": {
+        "score": 0.9968612194061279,
+        "margin": 0.227979838848114,
+        "bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9992650747299194,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9992650747299194,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.9992650747299194,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 58.2321999972919
+    },
+    {
+      "stage": "menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0002.png",
+      "sha256": "bf293c433e4073865780312537d2a28c81a0027a1dbc145ce87d19c3d4972240",
+      "button": {
+        "score": 0.9966318607330322,
+        "margin": 0.22940081357955933,
+        "bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9993410706520081,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9993410706520081,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.9993410706520081,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 56.98619999748189
+    },
+    {
+      "stage": "menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0003.png",
+      "sha256": "9db102fe201ccb773f121780a586001238bf4f5d0c4dc0a75079352654a8f01a",
+      "button": {
+        "score": 0.9964370131492615,
+        "margin": 0.2296757698059082,
+        "bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9993805885314941,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9993805885314941,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.9993805885314941,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 56.17529999290127
+    },
+    {
+      "stage": "menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0004.png",
+      "sha256": "3f57f3caeb9d39ca532f8645829c273f0e8c887f2b77de616cad6be093ca2558",
+      "button": {
+        "score": 0.9963416457176208,
+        "margin": 0.22993719577789307,
+        "bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9994444251060486,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9994444251060486,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.9994444251060486,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 58.097400004044175
+    },
+    {
+      "stage": "menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0005.png",
+      "sha256": "1c89607f61009250e5ae1933b7107ec2ef73be4c58069f7130386dc68c491577",
+      "button": {
+        "score": 0.9960901737213135,
+        "margin": 0.2293270230293274,
+        "bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.999330461025238,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.999330461025238,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.999330461025238,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 57.89999999979045
+    },
+    {
+      "stage": "menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0006.png",
+      "sha256": "d0aca4e5debf455b529a6160fd21f76c8e7b6a4784cc2d5029e47da0f70d9905",
+      "button": {
+        "score": 0.9955167174339294,
+        "margin": 0.2296883463859558,
+        "bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9984123706817627,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9984123706817627,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.9984123706817627,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 57.01040000712965
+    },
+    {
+      "stage": "menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0007.png",
+      "sha256": "1d907f5d935ee0d003f22b4a329a7d91520be02b677b128a83bac2d9be9f0040",
+      "button": {
+        "score": 0.9954697489738464,
+        "margin": 0.2299904227256775,
+        "bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.998559832572937,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.998559832572937,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.998559832572937,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 63.1979999889154
+    },
+    {
+      "stage": "menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0008.png",
+      "sha256": "dbbcccd115e1f14741dfd8f62145d722930d7cdaf6a1ad931432f3f92f77edf4",
+      "button": {
+        "score": 0.9955803155899048,
+        "margin": 0.2294897437095642,
+        "bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9988166689872742,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9988166689872742,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.9988166689872742,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 59.13460000010673
+    },
+    {
+      "stage": "menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\menu\\frame-0009.png",
+      "sha256": "e780135141f5ca231614d4a20a7184dbf9c4815d984d6050a89937302f4694a7",
+      "button": {
+        "score": 0.9958718419075012,
+        "margin": 0.22755390405654907,
+        "bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.998670756816864,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.998670756816864,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.998670756816864,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 62.6953000028152
+    },
+    {
+      "stage": "placement",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0000.png",
+      "sha256": "4be4bd395a93cec2d98dd83cbcc5a27b5e39f641acec8eccbd5af6aa53a7edf6",
+      "button": {
+        "score": 0.7024976015090942,
+        "margin": 0.012957215309143066,
+        "bbox": [
+          444,
+          521,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.8789957165718079,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.8856655359268188,
+          [
+            0,
+            1
+          ]
+        ],
+        "3": [
+          0.8860776424407959,
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 52.49059999187011
+    },
+    {
+      "stage": "placement",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0001.png",
+      "sha256": "2208dcbc354a54d345a2cda8afed28be624f536a5d925b7eade7605fe3b82d55",
+      "button": {
+        "score": 0.6986962556838989,
+        "margin": 0.01998370885848999,
+        "bbox": [
+          444,
+          521,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.8788251280784607,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.8856629133224487,
+          [
+            0,
+            1
+          ]
+        ],
+        "3": [
+          0.8857967853546143,
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 50.96980000962503
+    },
+    {
+      "stage": "placement",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0002.png",
+      "sha256": "fb9dbaa42b92140aa7687df0fd531fbcc6064d8a8ff367727f1fd2bd245e2d23",
+      "button": {
+        "score": 0.6970242857933044,
+        "margin": 0.021137595176696777,
+        "bbox": [
+          444,
+          521,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.8783447742462158,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.885697066783905,
+          [
+            0,
+            1
+          ]
+        ],
+        "3": [
+          0.8859831690788269,
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 55.860099993878976
+    },
+    {
+      "stage": "placement",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0003.png",
+      "sha256": "b741d7c325fa4f181e90dcf14400c9210fb6984922890ff628a34f2aacaf54e4",
+      "button": {
+        "score": 0.6981076002120972,
+        "margin": 0.021366000175476074,
+        "bbox": [
+          444,
+          521,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.8784602284431458,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.8861616253852844,
+          [
+            0,
+            1
+          ]
+        ],
+        "3": [
+          0.8869333863258362,
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 52.14059998979792
+    },
+    {
+      "stage": "placement",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0004.png",
+      "sha256": "e703283e3f85970abb6671c192a0999c9e2bc7aeb3e0063a615d1f76d38744a4",
+      "button": {
+        "score": 0.702438235282898,
+        "margin": 0.01671576499938965,
+        "bbox": [
+          444,
+          521,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.8774601817131042,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.8860329985618591,
+          [
+            0,
+            1
+          ]
+        ],
+        "3": [
+          0.8875029683113098,
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 54.85729999782052
+    },
+    {
+      "stage": "placement",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0005.png",
+      "sha256": "65c0a2e4f7c789dc1838c585cf5d70ce9ef448b14256b55e79ef1a5129eb61f0",
+      "button": {
+        "score": 0.7088746428489685,
+        "margin": 0.015612423419952393,
+        "bbox": [
+          409,
+          496,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.8226045370101929,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.8283926248550415,
+          [
+            1,
+            -1
+          ]
+        ],
+        "3": [
+          0.8423430919647217,
+          [
+            2,
+            -3
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 56.944899988593534
+    },
+    {
+      "stage": "placement",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0006.png",
+      "sha256": "9801d8985ef2ecb7f5e5da5cd0ee91e983038cea67d152546cb25e29cad318e5",
+      "button": {
+        "score": 0.7178702354431152,
+        "margin": 0.02347332239151001,
+        "bbox": [
+          409,
+          497,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.8121637105941772,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.8171507716178894,
+          [
+            1,
+            -1
+          ]
+        ],
+        "3": [
+          0.8256915807723999,
+          [
+            3,
+            -2
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 56.2865999963833
+    },
+    {
+      "stage": "placement",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0007.png",
+      "sha256": "0a88684278e4ecc440b70d41e3090560e2512746c07246b14142d9cfc19c79e4",
+      "button": {
+        "score": 0.7237097024917603,
+        "margin": 0.01118016242980957,
+        "bbox": [
+          406,
+          500,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.7916651368141174,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.79604172706604,
+          [
+            -1,
+            1
+          ]
+        ],
+        "3": [
+          0.8122686743736267,
+          [
+            -1,
+            3
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 56.864099999074824
+    },
+    {
+      "stage": "placement",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0008.png",
+      "sha256": "a2d2a8a9d62b1ae6015cefb92b032dd3dd293baa7352cd25c0cd88198c6b6f09",
+      "button": {
+        "score": 0.7219492793083191,
+        "margin": 0.02705329656600952,
+        "bbox": [
+          408,
+          497,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.8016408085823059,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.8074471950531006,
+          [
+            1,
+            0
+          ]
+        ],
+        "3": [
+          0.8168604373931885,
+          [
+            3,
+            -2
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 61.10100001387764
+    },
+    {
+      "stage": "placement",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\placement\\frame-0009.png",
+      "sha256": "3ab88b152cfd7d969107f6bfa231413a3a1ef34c4c104a8406e7a43b314a91af",
+      "button": {
+        "score": 0.7168269157409668,
+        "margin": 0.02708655595779419,
+        "bbox": [
+          409,
+          497,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.8164637684822083,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.8219721913337708,
+          [
+            1,
+            -1
+          ]
+        ],
+        "3": [
+          0.8306665420532227,
+          [
+            3,
+            -2
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 57.40950000472367
+    },
+    {
+      "stage": "post-unselected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0000.png",
+      "sha256": "9e7e40f376ef23b5084f6614ad8bf7895dd78776e6b428699f7fbdda8a8afb17",
+      "button": {
+        "score": 0.7254176139831543,
+        "margin": 0.027334868907928467,
+        "bbox": [
+          316,
+          476,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.7284184694290161,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.7323354482650757,
+          [
+            0,
+            -1
+          ]
+        ],
+        "3": [
+          0.7387484312057495,
+          [
+            2,
+            -3
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 61.81079999078065
+    },
+    {
+      "stage": "post-unselected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0001.png",
+      "sha256": "3a4c2de0620afabff54b74ea7a15046eccd20de203caee433f6fd64c5d076acd",
+      "button": {
+        "score": 0.7543317079544067,
+        "margin": 0.0011512041091918945,
+        "bbox": [
+          323,
+          497,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.5275551080703735,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.5373468399047852,
+          [
+            -1,
+            -1
+          ]
+        ],
+        "3": [
+          0.5561932325363159,
+          [
+            -3,
+            -3
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 59.745899998233654
+    },
+    {
+      "stage": "post-unselected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0002.png",
+      "sha256": "62f2c91105cdb73508627c0e3062a1dbdc24611e026f06509db3e7e33a6fb9c1",
+      "button": {
+        "score": 0.7536854147911072,
+        "margin": 0.0010741949081420898,
+        "bbox": [
+          408,
+          505,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.7625437378883362,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.7642871141433716,
+          [
+            1,
+            0
+          ]
+        ],
+        "3": [
+          0.775691568851471,
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 57.41989999660291
+    },
+    {
+      "stage": "post-unselected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0003.png",
+      "sha256": "9419c7056335b1b7ebe67ada10c63dedd644c7bf2ee7bdd7722051e83fc2bc7f",
+      "button": {
+        "score": 0.7536863684654236,
+        "margin": 0.0019388198852539062,
+        "bbox": [
+          408,
+          505,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.7622199654579163,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.7642643451690674,
+          [
+            1,
+            0
+          ]
+        ],
+        "3": [
+          0.7755821347236633,
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 60.76110000140034
+    },
+    {
+      "stage": "post-unselected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0004.png",
+      "sha256": "b82c3ac166db9012f30d0d1a47fef38bea3322e4dafe46d55493afb8588e310b",
+      "button": {
+        "score": 0.7535703778266907,
+        "margin": 0.00035381317138671875,
+        "bbox": [
+          408,
+          504,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.7491708993911743,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.761614978313446,
+          [
+            1,
+            1
+          ]
+        ],
+        "3": [
+          0.7720025777816772,
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 56.36199998843949
+    },
+    {
+      "stage": "post-unselected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0005.png",
+      "sha256": "40f83dcf04e88c3037a309cfdc771a9c0e677922e4b0811563534ddd1872dc8a",
+      "button": {
+        "score": 0.7575943470001221,
+        "margin": 0.004486978054046631,
+        "bbox": [
+          319,
+          481,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.5655380487442017,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.5731091499328613,
+          [
+            1,
+            -1
+          ]
+        ],
+        "3": [
+          0.579949140548706,
+          [
+            1,
+            -2
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 57.31519999972079
+    },
+    {
+      "stage": "post-unselected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0006.png",
+      "sha256": "1dc03d8e14a63200967af5c970dc9acb91b39eb3051874f03ca4e5fc6c1ffeaf",
+      "button": {
+        "score": 0.757002592086792,
+        "margin": 0.003993690013885498,
+        "bbox": [
+          318,
+          481,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.5597894787788391,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.5695569515228271,
+          [
+            1,
+            -1
+          ]
+        ],
+        "3": [
+          0.5720405578613281,
+          [
+            2,
+            -1
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 64.70139999873936
+    },
+    {
+      "stage": "post-unselected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0007.png",
+      "sha256": "8d2f244f5f14568bdce2902f8885c29b2de8abfad62bd68b7952a74054c00e0b",
+      "button": {
+        "score": 0.7553493976593018,
+        "margin": 0.0029497146606445312,
+        "bbox": [
+          319,
+          481,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.5691784620285034,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.5773240327835083,
+          [
+            1,
+            -1
+          ]
+        ],
+        "3": [
+          0.5773240327835083,
+          [
+            1,
+            -1
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 60.602699988521636
+    },
+    {
+      "stage": "post-unselected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0008.png",
+      "sha256": "5cd2c167a0d3e3c0d7ad1b7c3e000ba6a00785252d399b5fdf94451ce1205e50",
+      "button": {
+        "score": 0.7576596140861511,
+        "margin": 0.004381656646728516,
+        "bbox": [
+          323,
+          497,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.5454833507537842,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.5551201105117798,
+          [
+            -1,
+            -1
+          ]
+        ],
+        "3": [
+          0.5694885849952698,
+          [
+            -3,
+            -3
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 61.37900000612717
+    },
+    {
+      "stage": "post-unselected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-unselected\\frame-0009.png",
+      "sha256": "a3945b81208d89668dfc5258fe0d7bf49396888bf076924660362f3ac3995106",
+      "button": {
+        "score": 0.7607857584953308,
+        "margin": 0.006009519100189209,
+        "bbox": [
+          323,
+          497,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.5386890172958374,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.5469334125518799,
+          [
+            -1,
+            -1
+          ]
+        ],
+        "3": [
+          0.5625117421150208,
+          [
+            -3,
+            -3
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 61.8082000000868
+    },
+    {
+      "stage": "post-inspected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0000.png",
+      "sha256": "5a2e70e279bce665a9aac341e22d69d8db37cf23fd92cce42fa83bc444160a7b",
+      "button": {
+        "score": 0.7603812217712402,
+        "margin": 0.005615711212158203,
+        "bbox": [
+          323,
+          498,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.5206984281539917,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.5274639129638672,
+          [
+            -1,
+            -1
+          ]
+        ],
+        "3": [
+          0.5443357229232788,
+          [
+            -3,
+            -3
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 60.49249999341555
+    },
+    {
+      "stage": "post-inspected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0001.png",
+      "sha256": "50e41d7570c098afcaf1753621344b3667508d3aef02b8b08818cdc2c7e0d915",
+      "button": {
+        "score": 0.7594707608222961,
+        "margin": 0.005792140960693359,
+        "bbox": [
+          323,
+          498,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.524782657623291,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.5302971601486206,
+          [
+            -1,
+            0
+          ]
+        ],
+        "3": [
+          0.547553539276123,
+          [
+            -3,
+            -3
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 61.06710000312887
+    },
+    {
+      "stage": "post-inspected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0002.png",
+      "sha256": "5b0997b2a982e608012e473123736c3247bdf35f5e9ab91f0ebb5bfc1c836ce0",
+      "button": {
+        "score": 0.7596472501754761,
+        "margin": 0.007311880588531494,
+        "bbox": [
+          323,
+          503,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.5390507578849792,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.5422335863113403,
+          [
+            -1,
+            1
+          ]
+        ],
+        "3": [
+          0.5564835071563721,
+          [
+            -3,
+            2
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 61.79079999856185
+    },
+    {
+      "stage": "post-inspected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0003.png",
+      "sha256": "124bb90d9c22f2356f718170769b4fd55285d38f3b56e539cd785b1ffb0ba673",
+      "button": {
+        "score": 0.7596813440322876,
+        "margin": 0.006191849708557129,
+        "bbox": [
+          323,
+          503,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.5641229748725891,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.5694096088409424,
+          [
+            -1,
+            0
+          ]
+        ],
+        "3": [
+          0.5876026749610901,
+          [
+            -3,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 61.05970000498928
+    },
+    {
+      "stage": "post-inspected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0004.png",
+      "sha256": "20dd6a52c37446c8c10b09da12a47a9ae2c3b8f83af72284dcb22f45f04563ee",
+      "button": {
+        "score": 0.7596043348312378,
+        "margin": 0.0052716732025146484,
+        "bbox": [
+          322,
+          498,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.5627079010009766,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.5701131820678711,
+          [
+            -1,
+            0
+          ]
+        ],
+        "3": [
+          0.5919758081436157,
+          [
+            -3,
+            3
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 62.92339999345131
+    },
+    {
+      "stage": "post-inspected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0005.png",
+      "sha256": "0618d51e9416872726b4432748c246a7fe7a5a15d2d984dcf09f296e0d7b13e8",
+      "button": {
+        "score": 0.7592144012451172,
+        "margin": 0.003783106803894043,
+        "bbox": [
+          322,
+          498,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.5627458095550537,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.57068932056427,
+          [
+            -1,
+            -1
+          ]
+        ],
+        "3": [
+          0.5950390100479126,
+          [
+            -3,
+            3
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 61.632600001757964
+    },
+    {
+      "stage": "post-inspected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0006.png",
+      "sha256": "9628859984f3288f30a74a398f16911de9800d9b805e65de3f1e72da2b31fdd7",
+      "button": {
+        "score": 0.7599542737007141,
+        "margin": 0.004168212413787842,
+        "bbox": [
+          322,
+          498,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.5612121820449829,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.5681098699569702,
+          [
+            -1,
+            0
+          ]
+        ],
+        "3": [
+          0.5864759683609009,
+          [
+            -3,
+            -2
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 58.87259999872185
+    },
+    {
+      "stage": "post-inspected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0007.png",
+      "sha256": "977e3507afd05bc3ca878fa8b33db70a29f880807d623a9984d9606fc1ecad3d",
+      "button": {
+        "score": 0.7611571550369263,
+        "margin": 0.006066083908081055,
+        "bbox": [
+          323,
+          503,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.5684857368469238,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.5723810195922852,
+          [
+            -1,
+            1
+          ]
+        ],
+        "3": [
+          0.587384819984436,
+          [
+            -3,
+            3
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 63.05100000463426
+    },
+    {
+      "stage": "post-inspected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0008.png",
+      "sha256": "002486295491cd6e4422684291603258bab75b118a31751121b71032288ee603",
+      "button": {
+        "score": 0.7615938782691956,
+        "margin": 0.007910430431365967,
+        "bbox": [
+          323,
+          503,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.5645955801010132,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.5721737146377563,
+          [
+            -1,
+            1
+          ]
+        ],
+        "3": [
+          0.5842717289924622,
+          [
+            -3,
+            3
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 64.14950000180397
+    },
+    {
+      "stage": "post-inspected",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_TRAIN_v1_20261006\\post-inspected\\frame-0009.png",
+      "sha256": "2e135bb8fe4a8307709a677dd85bd8cf3f274a93984ecd7ad25b866cce88c067",
+      "button": {
+        "score": 0.760852038860321,
+        "margin": 0.007613062858581543,
+        "bbox": [
+          323,
+          503,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.5699661374092102,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.5763000249862671,
+          [
+            -1,
+            1
+          ]
+        ],
+        "3": [
+          0.5890122652053833,
+          [
+            -3,
+            3
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 64.72540000686422
+    },
+    {
+      "stage": "layout2-menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0000.png",
+      "sha256": "fff1066278088d9f66d542da8f49a1cc78be712cf85b4e37522ee7d0adaa6eef",
+      "button": {
+        "score": 0.9989184737205505,
+        "margin": 0.19680851697921753,
+        "bbox": [
+          338,
+          502,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.998910665512085,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.998910665512085,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.998910665512085,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 59.96309999318328
+    },
+    {
+      "stage": "layout2-menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0001.png",
+      "sha256": "73ca45a8f7e9e9f59224309548f6a48e4aaefa76c52c66f4a4691d8586687a57",
+      "button": {
+        "score": 0.9989867210388184,
+        "margin": 0.19674324989318848,
+        "bbox": [
+          338,
+          502,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.999199390411377,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.999199390411377,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.999199390411377,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 64.43270000454504
+    },
+    {
+      "stage": "layout2-menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0002.png",
+      "sha256": "e73c05c23e3641209aa5e91e667d102a62682b67eacbe407db3c64e0701b2cff",
+      "button": {
+        "score": 0.9990744590759277,
+        "margin": 0.1968056559562683,
+        "bbox": [
+          338,
+          502,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9993674159049988,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9993674159049988,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.9993674159049988,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 60.81770001037512
+    },
+    {
+      "stage": "layout2-menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0003.png",
+      "sha256": "feede5507b44ece78b34a4c5b52cc680592ff7d3015bc21c6482ee7b88d24fe6",
+      "button": {
+        "score": 0.9991124272346497,
+        "margin": 0.19696450233459473,
+        "bbox": [
+          338,
+          502,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9994723796844482,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9994723796844482,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.9994723796844482,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 58.811499999137595
+    },
+    {
+      "stage": "layout2-menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0004.png",
+      "sha256": "6433e80abfd6b43e39fbda47a0276eba755e905ddb56086f5329b22a7c35cbe1",
+      "button": {
+        "score": 0.9991748332977295,
+        "margin": 0.19698399305343628,
+        "bbox": [
+          338,
+          502,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9993936419487,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9993936419487,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.9993936419487,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 63.18029999965802
+    },
+    {
+      "stage": "layout2-menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0005.png",
+      "sha256": "dc9e7e03470f49a260f7feb1ac5c86ab4be64897f892e03f201d0fb3219204db",
+      "button": {
+        "score": 0.9991904497146606,
+        "margin": 0.19710004329681396,
+        "bbox": [
+          338,
+          502,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.999249279499054,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.999249279499054,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.999249279499054,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 63.896400009980425
+    },
+    {
+      "stage": "layout2-menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0006.png",
+      "sha256": "14af77c0842572934f1d94ad3cc34871403705c131dfd878b171d8bb8bbe609b",
+      "button": {
+        "score": 0.9991251230239868,
+        "margin": 0.19738465547561646,
+        "bbox": [
+          338,
+          502,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9994697570800781,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9994697570800781,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.9994697570800781,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 63.57309999293648
+    },
+    {
+      "stage": "layout2-menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0007.png",
+      "sha256": "21e21b7722e1d2b64ca02669ca6516ff09e1a5e5c76bb556343fe79490458f61",
+      "button": {
+        "score": 0.9989428520202637,
+        "margin": 0.19802898168563843,
+        "bbox": [
+          338,
+          502,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.999611496925354,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.999611496925354,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.999611496925354,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 66.48160000622738
+    },
+    {
+      "stage": "layout2-menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0008.png",
+      "sha256": "cc5e156b6a42a43007c37d9d0ffd08f72ee6cbab785d404526ba7b213124ffa2",
+      "button": {
+        "score": 0.9986854791641235,
+        "margin": 0.19829893112182617,
+        "bbox": [
+          338,
+          502,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9993017911911011,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9993017911911011,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.9993017911911011,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 58.673000006820075
+    },
+    {
+      "stage": "layout2-menu",
+      "path": "artifacts\\baseline-tester\\ASH_NORMAL_INSPECT_LAYOUT2_TRAIN_v2_20261006\\menu\\frame-0009.png",
+      "sha256": "841dcd0d1ec3aa13f61bcc99acbde73f3d9320fd68ca04d4131b996490d5f995",
+      "button": {
+        "score": 0.9983199834823608,
+        "margin": 0.1977199912071228,
+        "bbox": [
+          338,
+          502,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.998960554599762,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.998960554599762,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.998960554599762,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 63.96410000161268
+    },
+    {
+      "stage": "a1-known-ash",
+      "path": "artifacts\\baseline-tester\\ACTION_EVIDENCE_ASH_FIXED_v1_20261006_retry\\frame-0000.png",
+      "sha256": "65c8d741c33abc33f7802aaa033fbce331f7865187dcc85b89c307a73b3fec03",
+      "button": {
+        "score": 0.9965116381645203,
+        "margin": 0.22742456197738647,
+        "bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9909234046936035,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9909234046936035,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.9909234046936035,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 67.2193999926094
+    },
+    {
+      "stage": "a1-known-ash",
+      "path": "artifacts\\baseline-tester\\ACTION_EVIDENCE_ASH_FIXED_v1_20261006_retry\\frame-0001.png",
+      "sha256": "5322050e0986779aa3a6be9723e1ca8e6e49c7f4f5a57bd24019cba84594b03f",
+      "button": {
+        "score": 0.9963430762290955,
+        "margin": 0.22701722383499146,
+        "bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9905114769935608,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9905114769935608,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.9905114769935608,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 64.05929999891669
+    },
+    {
+      "stage": "a1-known-ash",
+      "path": "artifacts\\baseline-tester\\ACTION_EVIDENCE_ASH_FIXED_v1_20261006_retry\\frame-0002.png",
+      "sha256": "e8879d3aac52ed7e8038ef303df1a39551cf0686ffa2e1364797dee99ad09b4f",
+      "button": {
+        "score": 0.996273934841156,
+        "margin": 0.22704845666885376,
+        "bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9900539517402649,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9900539517402649,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.9900539517402649,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 64.16790001094341
+    },
+    {
+      "stage": "opponent-no-button",
+      "path": "artifacts\\baseline-tester\\CARD_NAME_OCR_EXPLORATION_20261006\\driver-first\\frame-0000.png",
+      "sha256": "45ed581f638a4c133cc82e702368b058270eedfc594a05865639aa281f3be7fc",
+      "button": {
+        "score": 0.7612848281860352,
+        "margin": 0.0033707618713378906,
+        "bbox": [
+          406,
+          502,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.786395251750946,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.8071606755256653,
+          [
+            -1,
+            -1
+          ]
+        ],
+        "3": [
+          0.8146992921829224,
+          [
+            1,
+            -2
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 63.6744999937946
+    },
+    {
+      "stage": "opponent-no-button",
+      "path": "artifacts\\baseline-tester\\CARD_NAME_OCR_EXPLORATION_20261006\\ash-first\\frame-0000.png",
+      "sha256": "cf5534235e16e00f0a118dac7b4c69702403d3dfcfb653d1368c7e590a60d010",
+      "button": {
+        "score": 0.7614164352416992,
+        "margin": 0.009368658065795898,
+        "bbox": [
+          316,
+          478,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.5678454637527466,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.5727139115333557,
+          [
+            1,
+            -1
+          ]
+        ],
+        "3": [
+          0.5785491466522217,
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 64.5414000027813
+    },
+    {
+      "stage": "opponent-no-button",
+      "path": "artifacts\\baseline-tester\\CARD_NAME_OCR_EXPLORATION_20261006\\dragondark-first\\frame-0000.png",
+      "sha256": "151ca6be8e2353bbdf75d3a2e5f90de9a67b2c7cd0610432dc63afcbab69fac3",
+      "button": {
+        "score": 0.7621972560882568,
+        "margin": 0.0075740814208984375,
+        "bbox": [
+          324,
+          503,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.6201952695846558,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.625607967376709,
+          [
+            1,
+            1
+          ]
+        ],
+        "3": [
+          0.6326029896736145,
+          [
+            -3,
+            2
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 61.079099992639385
+    },
+    {
+      "stage": "known-initial",
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\initial\\frame-0000.png",
+      "sha256": "a8f9bd6c4bf7fb0d8e875e21aa0ea82c74f85a229f02cf0774decca7d6f139b4",
+      "button": {
+        "score": 0.7646215558052063,
+        "margin": 0.014090955257415771,
+        "bbox": [
+          323,
+          496,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.6841837763786316,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.6874334812164307,
+          [
+            1,
+            1
+          ]
+        ],
+        "3": [
+          0.6874334812164307,
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 73.32229999883566
+    },
+    {
+      "stage": "known-solar-menu",
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-menu\\frame-0000.png",
+      "sha256": "cc7b48b8f9310f04894d7a02781995dcaa84c292807449b43433d02ce417b3b5",
+      "button": {
+        "score": 0.9983273148536682,
+        "margin": 0.22400271892547607,
+        "bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9658477306365967,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9658477306365967,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.9658477306365967,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 60.22389999998268
+    },
+    {
+      "stage": "known-solar-placement",
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-placement\\frame-0000.png",
+      "sha256": "a5fd145b5c07f3f375326c40d4236135c6f4f09298d420ba7932a7460576ccdb",
+      "button": {
+        "score": 0.72237628698349,
+        "margin": 0.003174006938934326,
+        "bbox": [
+          401,
+          500,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.8571882247924805,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.8762632608413696,
+          [
+            1,
+            1
+          ]
+        ],
+        "3": [
+          0.8852612972259521,
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 65.47159999900032
+    },
+    {
+      "stage": "known-solar-post",
+      "path": "artifacts\\baseline-tester\\MAXXC_CURRENT_HAND_TRAIN_20261006\\solar-post\\frame-0000.png",
+      "sha256": "112c953fc2a65788db6730a4fdb79dcc7a14786a53c0d3d699333c551430faf4",
+      "button": {
+        "score": 0.7531878352165222,
+        "margin": 0.0008476376533508301,
+        "bbox": [
+          368,
+          521,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.7109194993972778,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.7220699787139893,
+          [
+            -1,
+            0
+          ]
+        ],
+        "3": [
+          0.7471900582313538,
+          [
+            -2,
+            -3
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 60.09810000250582
+    },
+    {
+      "stage": "known-preflight-v1",
+      "path": "artifacts\\baseline-tester\\ASH_INSPECT_PREFLIGHT_v1_20261006\\frame.png",
+      "sha256": "2f05a99c8772a1eaf38c0d688b60ce838f162ca20af48b9ea058e422facc8fb9",
+      "button": {
+        "score": 0.9944997429847717,
+        "margin": 0.1928313970565796,
+        "bbox": [
+          338,
+          502,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9963225722312927,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9963225722312927,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.9963225722312927,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 59.948499998426996
+    },
+    {
+      "stage": "known-preflight-v2",
+      "path": "artifacts\\baseline-tester\\ASH_INSPECT_PREFLIGHT_v2_20261006\\frame.png",
+      "sha256": "646007ab153021f3bf2fde85a75ad15f50796d6a06afabbeec70fd9c7717b421",
+      "button": {
+        "score": 0.993930459022522,
+        "margin": 0.19253605604171753,
+        "bbox": [
+          338,
+          502,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9941097497940063,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9941097497940063,
+          [
+            0,
+            0
+          ]
+        ],
+        "3": [
+          0.9941097497940063,
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 67.83980000182055
+    },
+    {
+      "stage": "known-preflight-v3",
+      "path": "artifacts\\baseline-tester\\ASH_INSPECT_PREFLIGHT_v3_20261006\\frame.png",
+      "sha256": "b830d2eb146af0ef47551bcfd7111b6d4c45d7aed9cf382062db3980679c8a0c",
+      "button": {
+        "score": 0.9934301972389221,
+        "margin": 0.22311294078826904,
+        "bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "detected": true
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.9787962436676025,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.9803921580314636,
+          [
+            1,
+            -1
+          ]
+        ],
+        "3": [
+          0.9803921580314636,
+          [
+            1,
+            -1
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 69.4398000050569
+    },
+    {
+      "stage": "known-post-failure",
+      "path": "artifacts\\baseline-tester\\ASH_INSPECT_PILOT_v2_20261006\\failure-current-mss\\frame.png",
+      "sha256": "16121a3d3090de2b0a2d1e59b061adcf5f5b976747ce7094568e723c220610a3",
+      "button": {
+        "score": 0.763785183429718,
+        "margin": 0.0017818808555603027,
+        "bbox": [
+          398,
+          497,
+          74,
+          79
+        ],
+        "detected": false
+      },
+      "hand_bank_relative": {
+        "0": [
+          0.6465078592300415,
+          [
+            0,
+            0
+          ]
+        ],
+        "1": [
+          0.6588592529296875,
+          [
+            -1,
+            0
+          ]
+        ],
+        "3": [
+          0.6866689920425415,
+          [
+            -3,
+            -3
+          ]
+        ]
+      },
+      "diagnostic_total_ms": 66.84569999924861
+    }
+  ]
+}

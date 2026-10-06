@@ -1,0 +1,582 @@
+{
+  "calibration_sha256": "cefdee498ceb9dba3494db0d9d9118ad6fbfa8207edfd3dc46285ae5d667364c",
+  "independent": true,
+  "input_count": 0,
+  "passed": true,
+  "rows": [
+    {
+      "image": "artifacts\\baseline-tester\\MSS_MENU_HOLDOUT_v4_foreground\\MSS_MENU_HOLDOUT_v4_000.png",
+      "sha256": "9dcd893fbc632f7c323fdf8904096a269f3d8cbd9f60c4aaac95e3e74550579f",
+      "passed": true,
+      "result": {
+        "state": {
+          "sequence": 0,
+          "captured_at": 54817.312,
+          "media_time": null,
+          "turn": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 54817.312
+          },
+          "turn_player": {
+            "value": "self",
+            "confidence": 0.9992366433143616,
+            "source": "composite:stable_phase_menu",
+            "observed_at": 54817.312
+          },
+          "phase": {
+            "value": "MAIN1",
+            "confidence": 0.9992366433143616,
+            "source": "composite:stable_phase_menu",
+            "observed_at": 54817.312
+          },
+          "terminal": {
+            "value": false,
+            "confidence": 0.9992366433143616,
+            "source": "composite:stable_phase_menu",
+            "observed_at": 54817.312
+          },
+          "prompt": {
+            "value": "phase.select",
+            "confidence": 0.9992366433143616,
+            "source": "composite:stable_phase_menu",
+            "observed_at": 54817.312
+          },
+          "animation": {
+            "value": false,
+            "confidence": 0.9992366433143616,
+            "source": "composite:stable_phase_menu",
+            "observed_at": 54817.312
+          },
+          "card_states": {},
+          "facts": {
+            "phase_context.clear_card_menu": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "template:fact.phase_context.clear_card_menu",
+              "observed_at": 54817.312
+            },
+            "phase_context.clear_center": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "template:fact.phase_context.clear_center",
+              "observed_at": 54817.312
+            },
+            "phase_context.menu_end": {
+              "value": "true",
+              "confidence": 0.999773383140564,
+              "source": "template:fact.phase_context.menu_end",
+              "observed_at": 54817.312
+            },
+            "phase_context.menu_main1": {
+              "value": "true",
+              "confidence": 0.9992366433143616,
+              "source": "template:fact.phase_context.menu_main1",
+              "observed_at": 54817.312
+            },
+            "phase_context.menu_title": {
+              "value": "true",
+              "confidence": 0.9999827742576599,
+              "source": "template:fact.phase_context.menu_title",
+              "observed_at": 54817.312
+            },
+            "phase_context.self_main1": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "template:fact.phase_context.self_main1",
+              "observed_at": 54817.312
+            }
+          },
+          "material_sets": {},
+          "self": {
+            "lp": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54817.312
+            },
+            "hand_count": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54817.312
+            },
+            "zones": {}
+          },
+          "opponent": {
+            "lp": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54817.312
+            },
+            "hand_count": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54817.312
+            },
+            "zones": {}
+          },
+          "visible_actions": [
+            {
+              "type": "CONFIRM",
+              "card_id": null,
+              "target": null,
+              "confidence": 0.999773383140564,
+              "source_region": "action.phase_end",
+              "observed_at": 54817.312
+            }
+          ]
+        },
+        "events": [],
+        "legal_actions": [
+          {
+            "type": "CONFIRM",
+            "card_id": null,
+            "target": null,
+            "confidence": 0.999773383140564,
+            "source_region": "action.phase_end",
+            "observed_at": 54817.312
+          }
+        ],
+        "recommendation": {
+          "action": null,
+          "target": null,
+          "confidence": 0.0,
+          "reason": "確認UIの意味または対象を一意に確認できません",
+          "recognition_status": "abstained"
+        },
+        "error": null,
+        "metrics": {
+          "capture_read_ms": 0,
+          "perception_ms": 2.7755999981309287,
+          "decision_ms": 0.03210000431863591,
+          "decision_elapsed_ms": 0.0,
+          "decision_limit_ms": 10000,
+          "total_compute_ms": 2.917699996032752,
+          "api_calls": 0,
+          "api_cost_usd": 0,
+          "cache_hits": 0,
+          "recognized_regions": 8,
+          "ocr_ms": 0,
+          "state_build_ms": 0.097999996796716,
+          "perception_reused": false
+        },
+        "stage_spans": [
+          {
+            "stage": "recognition",
+            "start": 54817.3375906,
+            "end": 54817.340237
+          },
+          {
+            "stage": "state_build",
+            "start": 54817.340237,
+            "end": 54817.3403521
+          },
+          {
+            "stage": "state_build",
+            "start": 54817.3403568,
+            "end": 54817.3403601
+          },
+          {
+            "stage": "candidate",
+            "start": 54817.3403605,
+            "end": 54817.3403816
+          },
+          {
+            "stage": "decision",
+            "start": 54817.3403818,
+            "end": 54817.3404998
+          }
+        ],
+        "plan": null,
+        "planner_source": "abstained"
+      }
+    },
+    {
+      "image": "artifacts\\baseline-tester\\MSS_MENU_HOLDOUT_v4_foreground\\MSS_MENU_HOLDOUT_v4_001.png",
+      "sha256": "7b8650fd8d46e2a10bfba33274d38a19b1dc148bd2d335e4a26ee200b568eace",
+      "passed": true,
+      "result": {
+        "state": {
+          "sequence": 1,
+          "captured_at": 54817.328,
+          "media_time": null,
+          "turn": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 54817.328
+          },
+          "turn_player": {
+            "value": "self",
+            "confidence": 0.9993048906326294,
+            "source": "composite:stable_phase_menu",
+            "observed_at": 54817.328
+          },
+          "phase": {
+            "value": "MAIN1",
+            "confidence": 0.9993048906326294,
+            "source": "composite:stable_phase_menu",
+            "observed_at": 54817.328
+          },
+          "terminal": {
+            "value": false,
+            "confidence": 0.9993048906326294,
+            "source": "composite:stable_phase_menu",
+            "observed_at": 54817.328
+          },
+          "prompt": {
+            "value": "phase.select",
+            "confidence": 0.9993048906326294,
+            "source": "composite:stable_phase_menu",
+            "observed_at": 54817.328
+          },
+          "animation": {
+            "value": false,
+            "confidence": 0.9993048906326294,
+            "source": "composite:stable_phase_menu",
+            "observed_at": 54817.328
+          },
+          "card_states": {},
+          "facts": {
+            "phase_context.clear_card_menu": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "template:fact.phase_context.clear_card_menu",
+              "observed_at": 54817.328
+            },
+            "phase_context.clear_center": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "template:fact.phase_context.clear_center",
+              "observed_at": 54817.328
+            },
+            "phase_context.menu_end": {
+              "value": "true",
+              "confidence": 0.9997230172157288,
+              "source": "template:fact.phase_context.menu_end",
+              "observed_at": 54817.328
+            },
+            "phase_context.menu_main1": {
+              "value": "true",
+              "confidence": 0.9993048906326294,
+              "source": "template:fact.phase_context.menu_main1",
+              "observed_at": 54817.328
+            },
+            "phase_context.menu_title": {
+              "value": "true",
+              "confidence": 0.999993622303009,
+              "source": "template:fact.phase_context.menu_title",
+              "observed_at": 54817.328
+            },
+            "phase_context.self_main1": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "template:fact.phase_context.self_main1",
+              "observed_at": 54817.328
+            }
+          },
+          "material_sets": {},
+          "self": {
+            "lp": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54817.328
+            },
+            "hand_count": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54817.328
+            },
+            "zones": {}
+          },
+          "opponent": {
+            "lp": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54817.328
+            },
+            "hand_count": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54817.328
+            },
+            "zones": {}
+          },
+          "visible_actions": [
+            {
+              "type": "CONFIRM",
+              "card_id": null,
+              "target": null,
+              "confidence": 0.9997230172157288,
+              "source_region": "action.phase_end",
+              "observed_at": 54817.328
+            }
+          ]
+        },
+        "events": [],
+        "legal_actions": [
+          {
+            "type": "CONFIRM",
+            "card_id": null,
+            "target": null,
+            "confidence": 0.9997230172157288,
+            "source_region": "action.phase_end",
+            "observed_at": 54817.328
+          }
+        ],
+        "recommendation": {
+          "action": null,
+          "target": null,
+          "confidence": 0.0,
+          "reason": "確認UIの意味または対象を一意に確認できません",
+          "recognition_status": "abstained"
+        },
+        "error": null,
+        "metrics": {
+          "capture_read_ms": 0,
+          "perception_ms": 2.1097999997437,
+          "decision_ms": 0.024300003133248538,
+          "decision_elapsed_ms": 0.0,
+          "decision_limit_ms": 10000,
+          "total_compute_ms": 2.1980000019539148,
+          "api_calls": 0,
+          "api_cost_usd": 0,
+          "cache_hits": 0,
+          "recognized_regions": 8,
+          "ocr_ms": 0,
+          "state_build_ms": 0.07980000373208895,
+          "perception_reused": false
+        },
+        "stage_spans": [
+          {
+            "stage": "recognition",
+            "start": 54817.3577371,
+            "end": 54817.3597371
+          },
+          {
+            "stage": "state_build",
+            "start": 54817.3597371,
+            "end": 54817.3598345
+          },
+          {
+            "stage": "state_build",
+            "start": 54817.3598403,
+            "end": 54817.3598591
+          },
+          {
+            "stage": "candidate",
+            "start": 54817.3598601,
+            "end": 54817.3598741
+          },
+          {
+            "stage": "decision",
+            "start": 54817.3598743,
+            "end": 54817.359928
+          }
+        ],
+        "plan": null,
+        "planner_source": "abstained"
+      }
+    },
+    {
+      "image": "artifacts\\baseline-tester\\MSS_MENU_HOLDOUT_v4_foreground\\MSS_MENU_HOLDOUT_v4_002.png",
+      "sha256": "e6e820efa3238aaa60c44165b51fb230b71a3e18617a89c37ca64a1192354fef",
+      "passed": true,
+      "result": {
+        "state": {
+          "sequence": 2,
+          "captured_at": 54817.343,
+          "media_time": null,
+          "turn": {
+            "value": null,
+            "confidence": 0.0,
+            "source": "unknown",
+            "observed_at": 54817.343
+          },
+          "turn_player": {
+            "value": "self",
+            "confidence": 0.9993444681167603,
+            "source": "composite:stable_phase_menu",
+            "observed_at": 54817.343
+          },
+          "phase": {
+            "value": "MAIN1",
+            "confidence": 0.9993444681167603,
+            "source": "composite:stable_phase_menu",
+            "observed_at": 54817.343
+          },
+          "terminal": {
+            "value": false,
+            "confidence": 0.9993444681167603,
+            "source": "composite:stable_phase_menu",
+            "observed_at": 54817.343
+          },
+          "prompt": {
+            "value": "phase.select",
+            "confidence": 0.9993444681167603,
+            "source": "composite:stable_phase_menu",
+            "observed_at": 54817.343
+          },
+          "animation": {
+            "value": false,
+            "confidence": 0.9993444681167603,
+            "source": "composite:stable_phase_menu",
+            "observed_at": 54817.343
+          },
+          "card_states": {},
+          "facts": {
+            "phase_context.clear_card_menu": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "template:fact.phase_context.clear_card_menu",
+              "observed_at": 54817.343
+            },
+            "phase_context.clear_center": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "template:fact.phase_context.clear_center",
+              "observed_at": 54817.343
+            },
+            "phase_context.menu_end": {
+              "value": "true",
+              "confidence": 0.9997159838676453,
+              "source": "template:fact.phase_context.menu_end",
+              "observed_at": 54817.343
+            },
+            "phase_context.menu_main1": {
+              "value": "true",
+              "confidence": 0.9993444681167603,
+              "source": "template:fact.phase_context.menu_main1",
+              "observed_at": 54817.343
+            },
+            "phase_context.menu_title": {
+              "value": "true",
+              "confidence": 0.9999865889549255,
+              "source": "template:fact.phase_context.menu_title",
+              "observed_at": 54817.343
+            },
+            "phase_context.self_main1": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "template:fact.phase_context.self_main1",
+              "observed_at": 54817.343
+            }
+          },
+          "material_sets": {},
+          "self": {
+            "lp": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54817.343
+            },
+            "hand_count": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54817.343
+            },
+            "zones": {}
+          },
+          "opponent": {
+            "lp": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54817.343
+            },
+            "hand_count": {
+              "value": null,
+              "confidence": 0.0,
+              "source": "unknown",
+              "observed_at": 54817.343
+            },
+            "zones": {}
+          },
+          "visible_actions": [
+            {
+              "type": "CONFIRM",
+              "card_id": null,
+              "target": null,
+              "confidence": 0.9997159838676453,
+              "source_region": "action.phase_end",
+              "observed_at": 54817.343
+            }
+          ]
+        },
+        "events": [],
+        "legal_actions": [
+          {
+            "type": "CONFIRM",
+            "card_id": null,
+            "target": null,
+            "confidence": 0.9997159838676453,
+            "source_region": "action.phase_end",
+            "observed_at": 54817.343
+          }
+        ],
+        "recommendation": {
+          "action": null,
+          "target": null,
+          "confidence": 0.0,
+          "reason": "確認UIの意味または対象を一意に確認できません",
+          "recognition_status": "abstained"
+        },
+        "error": null,
+        "metrics": {
+          "capture_read_ms": 0,
+          "perception_ms": 3.573800000594929,
+          "decision_ms": 0.018200000340584666,
+          "decision_elapsed_ms": 15.999999995983671,
+          "decision_limit_ms": 10000,
+          "total_compute_ms": 3.6458000031416304,
+          "api_calls": 0,
+          "api_cost_usd": 0,
+          "cache_hits": 0,
+          "recognized_regions": 8,
+          "ocr_ms": 0,
+          "state_build_ms": 0.07119999645510688,
+          "perception_reused": false
+        },
+        "stage_spans": [
+          {
+            "stage": "recognition",
+            "start": 54817.3761936,
+            "end": 54817.3796702
+          },
+          {
+            "stage": "state_build",
+            "start": 54817.3796702,
+            "end": 54817.3797552
+          },
+          {
+            "stage": "state_build",
+            "start": 54817.3797593,
+            "end": 54817.3797734
+          },
+          {
+            "stage": "candidate",
+            "start": 54817.3797737,
+            "end": 54817.3797848
+          },
+          {
+            "stage": "decision",
+            "start": 54817.3797849,
+            "end": 54817.3798316
+          }
+        ],
+        "plan": null,
+        "planner_source": "abstained"
+      }
+    }
+  ],
+  "invalid_capture_source_preserved": "artifacts/baseline-tester/MSS_MENU_HOLDOUT_v4"
+}

@@ -1,0 +1,560 @@
+{
+  "scope": "same two saved before/after; 10 paired blocks with reversed instrumentation order; cold cache. Local replay, no live latency improvement claim. No source/asset/helper changes.",
+  "fixed_source_sha256": "c3acec46294c7a6856038601a10785fcc41444923d6b0ab32c37f23ebc82a370",
+  "groups": {
+    "before": {
+      "bare": {
+        "samples": 10,
+        "recognition_mean_ms": 59.345940001367126,
+        "recognition_p50_ms": 59.25905000185594,
+        "bank_mean_ms": null
+      },
+      "top_bank_only": {
+        "samples": 10,
+        "recognition_mean_ms": 58.21482999890577,
+        "recognition_p50_ms": 58.36009999620728,
+        "bank_mean_ms": 53.10215999925276
+      }
+    },
+    "after": {
+      "bare": {
+        "samples": 10,
+        "recognition_mean_ms": 60.34264999907464,
+        "recognition_p50_ms": 60.70414999703644,
+        "bank_mean_ms": null
+      },
+      "top_bank_only": {
+        "samples": 10,
+        "recognition_mean_ms": 60.49859000049764,
+        "recognition_p50_ms": 60.9037999965949,
+        "bank_mean_ms": 55.02570999960881
+      }
+    }
+  },
+  "rows": [
+    {
+      "block": 0,
+      "image": "before",
+      "instrumentation": "bare",
+      "process_ms": 63.41330001305323,
+      "recognition_ms": 63.16980000701733,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 0,
+      "image": "before",
+      "instrumentation": "top_bank_only",
+      "process_ms": 60.383500007446855,
+      "recognition_ms": 60.171000004629605,
+      "top_bank_ms": 54.37730000994634,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 0,
+      "image": "after",
+      "instrumentation": "bare",
+      "process_ms": 65.64889999572188,
+      "recognition_ms": 65.5140000017127,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 0,
+      "image": "after",
+      "instrumentation": "top_bank_only",
+      "process_ms": 63.52790001255926,
+      "recognition_ms": 63.40569999883883,
+      "top_bank_ms": 57.741800002986565,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 1,
+      "image": "before",
+      "instrumentation": "top_bank_only",
+      "process_ms": 61.91170000238344,
+      "recognition_ms": 61.7803999921307,
+      "top_bank_ms": 55.06559999776073,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 1,
+      "image": "before",
+      "instrumentation": "bare",
+      "process_ms": 59.493100008694455,
+      "recognition_ms": 59.343500004615635,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 1,
+      "image": "after",
+      "instrumentation": "top_bank_only",
+      "process_ms": 63.760199991520494,
+      "recognition_ms": 63.64409999514464,
+      "top_bank_ms": 59.0719000028912,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 1,
+      "image": "after",
+      "instrumentation": "bare",
+      "process_ms": 57.15579999377951,
+      "recognition_ms": 56.876699993154034,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 2,
+      "image": "before",
+      "instrumentation": "bare",
+      "process_ms": 54.59260000498034,
+      "recognition_ms": 54.46200000005774,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 2,
+      "image": "before",
+      "instrumentation": "top_bank_only",
+      "process_ms": 53.9810999907786,
+      "recognition_ms": 53.82919999829028,
+      "top_bank_ms": 48.50119999900926,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 2,
+      "image": "after",
+      "instrumentation": "bare",
+      "process_ms": 58.93149999610614,
+      "recognition_ms": 58.75920000835322,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 2,
+      "image": "after",
+      "instrumentation": "top_bank_only",
+      "process_ms": 58.96599999687169,
+      "recognition_ms": 58.845599996857345,
+      "top_bank_ms": 51.879999999073334,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 3,
+      "image": "before",
+      "instrumentation": "top_bank_only",
+      "process_ms": 54.43409999134019,
+      "recognition_ms": 54.177100013475865,
+      "top_bank_ms": 49.932399997487664,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 3,
+      "image": "before",
+      "instrumentation": "bare",
+      "process_ms": 57.85910000849981,
+      "recognition_ms": 57.64949999866076,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 3,
+      "image": "after",
+      "instrumentation": "top_bank_only",
+      "process_ms": 55.57080000289716,
+      "recognition_ms": 55.45220000203699,
+      "top_bank_ms": 50.047700002323836,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 3,
+      "image": "after",
+      "instrumentation": "bare",
+      "process_ms": 61.093199998140335,
+      "recognition_ms": 60.9684999944875,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 4,
+      "image": "before",
+      "instrumentation": "bare",
+      "process_ms": 61.10140000237152,
+      "recognition_ms": 60.91139999625739,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 4,
+      "image": "before",
+      "instrumentation": "top_bank_only",
+      "process_ms": 58.2832999934908,
+      "recognition_ms": 58.16939999931492,
+      "top_bank_ms": 53.88249999668915,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 4,
+      "image": "after",
+      "instrumentation": "bare",
+      "process_ms": 63.111299998126924,
+      "recognition_ms": 62.9798000009032,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 4,
+      "image": "after",
+      "instrumentation": "top_bank_only",
+      "process_ms": 59.34559999150224,
+      "recognition_ms": 59.13710000459105,
+      "top_bank_ms": 52.84410000604112,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 5,
+      "image": "before",
+      "instrumentation": "top_bank_only",
+      "process_ms": 58.67189999844413,
+      "recognition_ms": 58.550799993099645,
+      "top_bank_ms": 54.099299988592975,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 5,
+      "image": "before",
+      "instrumentation": "bare",
+      "process_ms": 60.05639999057166,
+      "recognition_ms": 59.89380000391975,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 5,
+      "image": "after",
+      "instrumentation": "top_bank_only",
+      "process_ms": 58.96119998942595,
+      "recognition_ms": 58.77770000370219,
+      "top_bank_ms": 54.84859998978209,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 5,
+      "image": "after",
+      "instrumentation": "bare",
+      "process_ms": 60.632600012468174,
+      "recognition_ms": 60.514500000863336,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 6,
+      "image": "before",
+      "instrumentation": "bare",
+      "process_ms": 59.14309999207035,
+      "recognition_ms": 58.89759999990929,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 6,
+      "image": "before",
+      "instrumentation": "top_bank_only",
+      "process_ms": 59.97709999792278,
+      "recognition_ms": 59.85279999731574,
+      "top_bank_ms": 54.91010000696406,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 6,
+      "image": "after",
+      "instrumentation": "bare",
+      "process_ms": 61.012600010144524,
+      "recognition_ms": 60.89379999320954,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 6,
+      "image": "after",
+      "instrumentation": "top_bank_only",
+      "process_ms": 61.1161999986507,
+      "recognition_ms": 60.924499994143844,
+      "top_bank_ms": 55.42589999095071,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 7,
+      "image": "before",
+      "instrumentation": "top_bank_only",
+      "process_ms": 57.03429999994114,
+      "recognition_ms": 56.9138999999268,
+      "top_bank_ms": 52.77799999748822,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 7,
+      "image": "before",
+      "instrumentation": "bare",
+      "process_ms": 63.28899999789428,
+      "recognition_ms": 63.161500002024695,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 7,
+      "image": "after",
+      "instrumentation": "top_bank_only",
+      "process_ms": 62.88040000072215,
+      "recognition_ms": 62.759500011452474,
+      "top_bank_ms": 57.03769999672659,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 7,
+      "image": "after",
+      "instrumentation": "bare",
+      "process_ms": 62.0607999881031,
+      "recognition_ms": 61.932600001455285,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 8,
+      "image": "before",
+      "instrumentation": "bare",
+      "process_ms": 59.397599994554184,
+      "recognition_ms": 59.174599999096245,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 8,
+      "image": "before",
+      "instrumentation": "top_bank_only",
+      "process_ms": 58.192399999825284,
+      "recognition_ms": 58.076100001926534,
+      "top_bank_ms": 53.65660000825301,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 8,
+      "image": "after",
+      "instrumentation": "bare",
+      "process_ms": 57.50059999991208,
+      "recognition_ms": 57.28349999117199,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 8,
+      "image": "after",
+      "instrumentation": "top_bank_only",
+      "process_ms": 61.27959999139421,
+      "recognition_ms": 61.15639999916311,
+      "top_bank_ms": 55.729100000462495,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 9,
+      "image": "before",
+      "instrumentation": "top_bank_only",
+      "process_ms": 60.744999995222315,
+      "recognition_ms": 60.62759998894762,
+      "top_bank_ms": 53.818599990336224,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 9,
+      "image": "before",
+      "instrumentation": "bare",
+      "process_ms": 56.96299999544863,
+      "recognition_ms": 56.795700002112426,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "END",
+        "player": "opponent",
+        "prompt": "response.opponent_turn_end"
+      }
+    },
+    {
+      "block": 9,
+      "image": "after",
+      "instrumentation": "top_bank_only",
+      "process_ms": 61.00529999821447,
+      "recognition_ms": 60.88309999904595,
+      "top_bank_ms": 55.63030000485014,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    },
+    {
+      "block": 9,
+      "image": "after",
+      "instrumentation": "bare",
+      "process_ms": 57.92429999564774,
+      "recognition_ms": 57.70390000543557,
+      "top_bank_ms": null,
+      "state_signature": {
+        "phase": "DRAW",
+        "player": "self",
+        "prompt": null
+      }
+    }
+  ],
+  "input_hashes": {
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_PILOT_v4_20261006\\screenshots\\before-0000.png": "1dea00e055625cc8552ab7a53dee8969162b5ba929cd3f63fd0195a4b92cca18",
+    "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\SOLO_END_PILOT_v4_20261006\\screenshots\\after-0001.png": "3c67d3c9796db78dcc8b449d3b349e77087b5761575bca39c86c882a43125042"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "duel_ended",
+  "actions": 0,
+  "elapsed_seconds": 0.0,
+  "action_log": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-ui-bank-host-v2\\test_loop_pre_admitted_no_cand0\\actions.jsonl",
+  "screenshots": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-ui-bank-host-v2\\test_loop_pre_admitted_no_cand0\\screenshots",
+  "logical_actions": 1,
+  "logical_action_log": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\pytest-ui-bank-host-v2\\test_loop_pre_admitted_no_cand0\\logical-actions.jsonl",
+  "telemetry_mode": "unclassified",
+  "observation_to_click_ms_p95": null
+}

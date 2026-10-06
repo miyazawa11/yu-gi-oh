@@ -1,0 +1,15 @@
+{
+  "schema": "ash-ui-bank-v4",
+  "existing_source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\ash-normal-inspect-calibration-v3",
+  "new_training_images": 0,
+  "method_selection_is_holdout": false,
+  "diagnostics": [
+    "normal-inspect-hand5-diagnostic-v3.json",
+    "normal-inspect-prototype-bank-diagnostic-v3.json"
+  ],
+  "hand_radius_basis": "既存UIの3px精探索と同一relative offset、旧/新cropの1px偏差、既知負例比較",
+  "scope": "Ash normal inspect限定。Special/Flip/disabledは未検証、入力許可は別runtime guard",
+  "bank_sha256": "5773996a24154a694d011e9cbdf4c7c7e893218fb4ca28352b33b6a11dea53e2",
+  "input_count": 0,
+  "e2e_count": 0
+}

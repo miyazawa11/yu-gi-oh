@@ -1,0 +1,9 @@
+{
+  "source_sha256": "0f6ef470e7a0395c9672b961a63b21c1a8098fc859cf223b85726bd44980d1e4",
+  "tests_passed": 304,
+  "skipped": 4,
+  "targeted_passed": 97,
+  "xml": "artifacts/normal-profile-tests.xml",
+  "calibration_sha256": "eab254044b68585b0d0d3ad1881023f1873c412aeb127db2f8016657f26d851b",
+  "normal_live_attempts": 0
+}

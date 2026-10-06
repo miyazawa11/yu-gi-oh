@@ -1,0 +1,1586 @@
+{
+  "run_id": "34d91f1657c44f56a494e380a452d3e5",
+  "mode": "live_autonomous",
+  "source_sha256": "0f6ef470e7a0395c9672b961a63b21c1a8098fc859cf223b85726bd44980d1e4",
+  "python": "3.12.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "clock": "perf_counter",
+  "clock_resolution_seconds": 1e-07,
+  "registered_trials": [
+    {
+      "logical_action": "main1_to_end",
+      "category": "CHANGE_PHASE",
+      "count_fact": null,
+      "zone_transition": null
+    }
+  ],
+  "calibration_sha256": "5e3ba1d9b5460ebb0981c82f5b68e350bf5cf894acd48c033c04c9434ba20d0c",
+  "calibration": {
+    "name": "phase-MSS-complete",
+    "viewport": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 1.0,
+      "height": 1.0
+    },
+    "aspect_ratio": 1.7777777777777777,
+    "aspect_tolerance": 0.02,
+    "regions": {
+      "action.phase_end": {
+        "rect": {
+          "x": 0.742968828125,
+          "y": 0.6388890277777778,
+          "width": 0.08906234375,
+          "height": 0.16666638888888888
+        },
+        "kind": "action",
+        "exemplars": [
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-000.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-001.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-002.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-003.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-004.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-005.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-006.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-007.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-008.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-009.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-010.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-011.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-012.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-013.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-014.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-015.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-016.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-017.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-018.png"
+          },
+          {
+            "label": "CONFIRM",
+            "image": "action_phase_end-mss-019.png"
+          }
+        ],
+        "threshold": 0.98,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "action.phase_open": {
+        "rect": {
+          "x": 0.7320313281249999,
+          "y": 0.3902779166666666,
+          "width": 0.07890609374999999,
+          "height": 0.13194416666666667
+        },
+        "kind": "action",
+        "exemplars": [
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-000.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-001.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-002.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-003.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-004.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-005.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-006.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-007.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-008.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-009.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-010.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-011.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-012.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-013.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-014.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-015.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-016.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-017.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-018.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-019.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-020.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-021.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-022.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-023.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-024.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-025.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-026.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-027.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-028.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-029.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-030.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-031.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-032.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-033.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-034.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-035.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-036.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-037.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-038.png"
+          },
+          {
+            "label": "CHANGE_PHASE",
+            "image": "action_phase_open-mss-039.png"
+          }
+        ],
+        "threshold": 0.98,
+        "margin": 0.03,
+        "feature": "stable_rgb",
+        "card_id": null,
+        "target": null
+      },
+      "fact.phase_context.clear_card_menu": {
+        "rect": {
+          "x": 0.208593828125,
+          "y": 0.3041668055555556,
+          "width": 0.00937484375,
+          "height": 0.05555527777777778
+        },
+        "kind": "template",
+        "exemplars": [
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-000.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-001.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-002.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-003.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-004.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-005.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-006.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-007.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-008.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-009.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-010.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-011.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-012.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-013.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-014.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-015.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-016.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-017.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-018.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-019.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-020.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-021.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-022.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-023.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-024.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-025.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-026.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-027.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-028.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-029.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-030.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-031.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-032.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-033.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-034.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-035.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-036.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-037.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-038.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_card_menu-mss-039.png"
+          }
+        ],
+        "threshold": 0.98,
+        "margin": 0.03,
+        "feature": "stable_rgb",
+        "card_id": null,
+        "target": null
+      },
+      "fact.phase_context.clear_center": {
+        "rect": {
+          "x": 0.37421882812499996,
+          "y": 0.5152779166666667,
+          "width": 0.24999984375,
+          "height": 0.05555527777777778
+        },
+        "kind": "template",
+        "exemplars": [
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-000.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-001.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-002.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-003.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-004.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-005.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-006.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-007.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-008.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-009.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-010.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-011.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-012.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-013.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-014.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-015.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-016.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-017.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-018.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-019.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-020.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-021.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-022.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-023.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-024.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-025.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-026.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-027.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-028.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-029.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-030.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-031.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-032.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-033.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-034.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-035.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-036.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-037.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-038.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_clear_center-mss-039.png"
+          }
+        ],
+        "threshold": 0.98,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "fact.phase_context.menu_end": {
+        "rect": {
+          "x": 0.742968828125,
+          "y": 0.6388890277777778,
+          "width": 0.08906234375,
+          "height": 0.16666638888888888
+        },
+        "kind": "template",
+        "exemplars": [
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-000.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-001.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-002.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-003.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-004.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-005.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-006.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-007.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-008.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-009.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-010.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-011.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-012.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-013.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-014.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-015.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-016.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-017.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-018.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_end-mss-019.png"
+          }
+        ],
+        "threshold": 0.98,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "fact.phase_context.menu_main1": {
+        "rect": {
+          "x": 0.39765632812499996,
+          "y": 0.6430556944444444,
+          "width": 0.09140609375,
+          "height": 0.1652775
+        },
+        "kind": "template",
+        "exemplars": [
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-000.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-001.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-002.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-003.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-004.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-005.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-006.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-007.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-008.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-009.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-010.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-011.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-012.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-013.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-014.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-015.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-016.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-017.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-018.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_main1-mss-019.png"
+          }
+        ],
+        "threshold": 0.98,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "fact.phase_context.menu_title": {
+        "rect": {
+          "x": 0.38593757812499996,
+          "y": 0.5152779166666667,
+          "width": 0.23046859375,
+          "height": 0.037499722222222226
+        },
+        "kind": "template",
+        "exemplars": [
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-000.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-001.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-002.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-003.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-004.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-005.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-006.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-007.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-008.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-009.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-010.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-011.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-012.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-013.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-014.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-015.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-016.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-017.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-018.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_menu_title-mss-019.png"
+          }
+        ],
+        "threshold": 0.98,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      },
+      "fact.phase_context.self_main1": {
+        "rect": {
+          "x": 0.7320313281249999,
+          "y": 0.3902779166666666,
+          "width": 0.07890609374999999,
+          "height": 0.13194416666666667
+        },
+        "kind": "template",
+        "exemplars": [
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-000.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-001.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-002.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-003.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-004.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-005.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-006.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-007.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-008.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-009.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-010.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-011.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-012.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-013.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-014.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-015.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-016.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-017.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-018.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-019.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-020.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-021.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-022.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-023.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-024.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-025.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-026.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-027.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-028.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-029.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-030.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-031.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-032.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-033.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-034.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-035.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-036.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-037.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-038.png"
+          },
+          {
+            "label": "true",
+            "image": "fact_phase_context_self_main1-mss-039.png"
+          }
+        ],
+        "threshold": 0.98,
+        "margin": 0.03,
+        "feature": "stable_rgb",
+        "card_id": null,
+        "target": null
+      },
+      "phase": {
+        "rect": {
+          "x": 0.350000078125,
+          "y": 0.4652779166666666,
+          "width": 0.31484359375,
+          "height": 0.07361083333333333
+        },
+        "kind": "template",
+        "exemplars": [
+          {
+            "label": "END",
+            "image": "phase-mss-000.png"
+          },
+          {
+            "label": "END",
+            "image": "phase-mss-001.png"
+          }
+        ],
+        "threshold": 0.98,
+        "margin": 0.03,
+        "feature": "rgb",
+        "card_id": null,
+        "target": null
+      }
+    },
+    "composites": [
+      {
+        "id": "known_main1_clear",
+        "when": {
+          "fact.phase_context.self_main1": "true",
+          "fact.phase_context.clear_center": "true",
+          "fact.phase_context.clear_card_menu": "true"
+        },
+        "emit": {
+          "phase": "MAIN1",
+          "turn_player": "self",
+          "game.terminal": "active",
+          "ui.animation": "idle",
+          "ui.prompt": "none"
+        }
+      },
+      {
+        "id": "stable_phase_menu",
+        "when": {
+          "fact.phase_context.menu_title": "true",
+          "fact.phase_context.menu_end": "true",
+          "fact.phase_context.menu_main1": "true"
+        },
+        "emit": {
+          "phase": "MAIN1",
+          "turn_player": "self",
+          "game.terminal": "active",
+          "ui.animation": "idle",
+          "ui.prompt": "phase.select"
+        }
+      }
+    ]
+  },
+  "template_assets_sha256": "72b9a108402d769eb3bc11d5746850b1a0b0e795d1ccaaeadb1b96e12c293a03",
+  "template_assets": {
+    "action.phase_end": {
+      "action_phase_end-mss-000.png": "f88b1743164a9c8848cc178a8f4345952d1df6ad454d8c9bafe0ce28ca3eed40",
+      "action_phase_end-mss-001.png": "e3cc9311241d6247001ac0830ec56084e59d9ddf8c82ed88d8ee25778c86d99c",
+      "action_phase_end-mss-002.png": "ef0543a1e2b19d7fef23149ec5cbdf40777a4d8cc258327585a3050b9f497f23",
+      "action_phase_end-mss-003.png": "382e2a6dde13d1a1e8d0619adc29c515b3a2a77e7b7fea8bc9e6d323a2697a1a",
+      "action_phase_end-mss-004.png": "564dbeb9935fdb7fe35f95b038a04dd467820b2dd6a8dd9f6c9d0f7a28495a49",
+      "action_phase_end-mss-005.png": "55fadc7fa0ef9d173ca377aa113fe7938430fa6ecec560ddd779a51df8a7aa3b",
+      "action_phase_end-mss-006.png": "727a5596670ab156c2e9ffc20fdc6125f57d0d2ec8c28c6cf38dd78b23bddd80",
+      "action_phase_end-mss-007.png": "7f17a2c0abf98f8a044a1eaec746fe05ce314e6c5d2927bcc8ee47ae083037dc",
+      "action_phase_end-mss-008.png": "216933a3b2c3f1d95f9fd98b664842cd1b96d2a25508363280e73dd3938dcf4a",
+      "action_phase_end-mss-009.png": "d2b1a096bf778452d8aadcf4a6581ccee6792105aa735e4bf595db2654563ed6",
+      "action_phase_end-mss-010.png": "0e10d35c41edbaab78f53d2afcec3544b19998cccd8a67d857ca3082ab381c40",
+      "action_phase_end-mss-011.png": "ddfcdd1730967e3dd2958676f2fe2290b226754762cf2913985eb1d9a57daeb9",
+      "action_phase_end-mss-012.png": "d10ea40926215e54c5fbe98b3032c480b1bacfa071b221817a83e2a2a96ed886",
+      "action_phase_end-mss-013.png": "61cfdd097751a875995bf9f613b336202f4275309f43c9b9966d76eb795e4883",
+      "action_phase_end-mss-014.png": "e91e877a7116f9ecb65c1f384986a5687c26dce9f68ca457e3a7f4c5ac0ad056",
+      "action_phase_end-mss-015.png": "4463e3bd651a65f640202463ccaf6b199b0a56a3354d65d77770d5c4af836fc8",
+      "action_phase_end-mss-016.png": "8c8fec3dbf01914b015067908f84f19a095087d3e797a38a37cfe3c68a791d56",
+      "action_phase_end-mss-017.png": "0fbead8b74c95353a51c1f4de665212e68abe10ff636bfb731b42c1aa9f687aa",
+      "action_phase_end-mss-018.png": "78c6462f6a65ebb50b1e9bc2b77e09b16b993e27d9a7952ea61d0415049a5a7f",
+      "action_phase_end-mss-019.png": "2306e3db4ea430d12c07cd7787b9bca2b87fbaca4503bfd69fe5080b63165ffc"
+    },
+    "action.phase_open": {
+      "action_phase_open-mss-000.png": "d020f7a405ac06b914c4a82fee8fc326bd4b99ca32a4e565fdcace02de3bb482",
+      "action_phase_open-mss-001.png": "d0785691b53386666da572d9af689b6ffca59534e0818cb1505aba345cd29257",
+      "action_phase_open-mss-002.png": "eb53489be5cf0848d3389d937ff63e838420c3482b5fbbdf8a6ecd3481a5224e",
+      "action_phase_open-mss-003.png": "ca043d603732fc18e27806dd27c6ee46c5f1b519475e89804c0dca5d8e3d644c",
+      "action_phase_open-mss-004.png": "9100e79c288185ec647581972dcaf1aff834f26af0d06825f25139c6edf47262",
+      "action_phase_open-mss-005.png": "5eb59bd5e44ecbfb597184b15bc3bc4e4f36797dde622ffd38a949bfa13ddf9d",
+      "action_phase_open-mss-006.png": "11f6e874b588c586621f779a72829c58d7d7cc104dbb17c168f59e3f51638c1c",
+      "action_phase_open-mss-007.png": "ca4bee0429352348634db4615870c9cd2d3aa7b24f507f2838ab4edae0b66ddf",
+      "action_phase_open-mss-008.png": "72c72c0052c068a791a6316f037b5ebd0b0a5debfeeb4ad6f114494c984eeb02",
+      "action_phase_open-mss-009.png": "8fbb0241fe4ea37daadba35e75a0cf4d37291c96f7e3102ddf1dd1668755612f",
+      "action_phase_open-mss-010.png": "b47dda7f1d83360b1f790ab436619954c7cfa942bd8917ddbfb12a038ff08638",
+      "action_phase_open-mss-011.png": "18846663af986d325232c46af7179aec7f57402ad7cda375950911d6f27805b1",
+      "action_phase_open-mss-012.png": "862d2ff0471be2aa979ecddb8ac7f9beb889ff268a156b6a4ea4748bc1ef614a",
+      "action_phase_open-mss-013.png": "a3215011d6af81a22695c298159b34c9db3aa350fa1a204d84d7e4e08dff9951",
+      "action_phase_open-mss-014.png": "5b69b81e134b1507f5d68229e49836a0477223f991ae3771b8afb57db7764a03",
+      "action_phase_open-mss-015.png": "c5c4991dd5e036a543c8678e1762c443feb55eff662942c78009577032131d2d",
+      "action_phase_open-mss-016.png": "07ad837f2d1ade5602cad9141534fbf2190d914470e92be0bbed362cab93c38f",
+      "action_phase_open-mss-017.png": "c2f9e24668e1299a9153965132e6e075009363caa66e88ebff9e936e7a276704",
+      "action_phase_open-mss-018.png": "a27d6b3ee10a4d8430ae2cc3acef4d8f3dfeaa5f20cbedf5682f061f4b531b63",
+      "action_phase_open-mss-019.png": "444fc64fba0a3554a95faeb0215663d164af7695f743f83e9fbeaf937550d05a",
+      "action_phase_open-mss-020.png": "74079b551d24c78c151446905ab1110aef5fbc00ff478d2a9b299b9c10a788e9",
+      "action_phase_open-mss-021.png": "bd186e3b65cc3ca0c6b24df0e6cb53587c099d1bb6a253c3026a308d73c6f2b2",
+      "action_phase_open-mss-022.png": "c94ea3f4d07ded944c9d055aa4c5c7aff930ddc81b170059c87ba8b56db6375a",
+      "action_phase_open-mss-023.png": "b955d79a43df806abc155c3438be5cdcfe4c4db492fffd87e4338fe2eca0844c",
+      "action_phase_open-mss-024.png": "2ab061677e7b5282616b832cc5a16087ca4f1ea923f6acbcc0066ebb6843fc5e",
+      "action_phase_open-mss-025.png": "363e503c209e6065796a0ca97a31b338658cf253a28c61cfe39275e699841e71",
+      "action_phase_open-mss-026.png": "3da3861666b60d864187e61566f139181660ff8aa1ce4635d923538dacb56d07",
+      "action_phase_open-mss-027.png": "f59d676f129dd9a32443d88968fe1256c9e99ee07ee5e4045ab0e03929fe9da0",
+      "action_phase_open-mss-028.png": "458a1a289c17d1711c3daf7db99a16516b7328ffe5393a6ad8b14f337b65334a",
+      "action_phase_open-mss-029.png": "109e38272809454c7009a91e637f0d3c916c40aef15f40a4882d25be9e69e67f",
+      "action_phase_open-mss-030.png": "87be8a92baa02529764a30087ff11b6c9d3c2bd0d2f610d9ca94f76bb788251a",
+      "action_phase_open-mss-031.png": "aef07f87c4fbb91402b78ec0b3d8dbec0f67ce07a8b271ca97bc91308f77c2c8",
+      "action_phase_open-mss-032.png": "35e8e4043011f9935daf14635360cd7a0611779f049f7db10243ee1cef8c3227",
+      "action_phase_open-mss-033.png": "393497bbe63c4e226fe3981e016a2469c8570ecf1c787e9d954ec97de415fd7d",
+      "action_phase_open-mss-034.png": "5dd7acccb07bd52eb5ab1f119a07533056511d9e8b07df48b75022f7e5d55fdf",
+      "action_phase_open-mss-035.png": "ca85d96ceb5601f6d231c56ec609c4bd35cdc8852d937482c20d0fc5915676ab",
+      "action_phase_open-mss-036.png": "8369e7d300c4f4fa34a1a342e8bb2229796141024ac7b79d07bfb2a803c055fa",
+      "action_phase_open-mss-037.png": "43ad73ae4e2e53e3576cc7b1cdad8ca500e043e30bd8fd0f20011f3bb2ff2d0f",
+      "action_phase_open-mss-038.png": "29cc03d75b6d60447a5bab0e5338e8acef9a37e566c322a4ae6a387e68bce016",
+      "action_phase_open-mss-039.png": "00d79e1b2f7696941f1b8957ee81110f87080ce335e9126ffa143e84ead56b47"
+    },
+    "fact.phase_context.clear_card_menu": {
+      "fact_phase_context_clear_card_menu-mss-000.png": "a4f6e41b86417aecc59ea7dd31902bd527538b03058e1d71314e1bf8449eb8c8",
+      "fact_phase_context_clear_card_menu-mss-001.png": "62b5eccd3c7aeac1984cd9e133c69b652d150483aecd2abe60c8fdd131a949ea",
+      "fact_phase_context_clear_card_menu-mss-002.png": "b55118810ee9945d5a76e4c44ece8ac141532cbdace1247d20f6b4a3d2880d0a",
+      "fact_phase_context_clear_card_menu-mss-003.png": "af024d715e91b4e7662ce5187bf059373191e1f2dcbeb4d30dd37a20b8dac966",
+      "fact_phase_context_clear_card_menu-mss-004.png": "ae3ae5e18d9811155ea2f4271eeaaa9ac2dd3b064932e393c3999da72255f15c",
+      "fact_phase_context_clear_card_menu-mss-005.png": "38576e00b040e41a624570b44f81a52ed5409f628f657ffb7bda00bad8213730",
+      "fact_phase_context_clear_card_menu-mss-006.png": "486172df406fdd73dbdf3e5adac182edcf470fb858d3d95a05d756e840bbcac6",
+      "fact_phase_context_clear_card_menu-mss-007.png": "0b8741043e49185a0dfdd16abbedf7ae566f00a90d12a03756e18043716d87b0",
+      "fact_phase_context_clear_card_menu-mss-008.png": "5c2c078ee49581b9d7404abd24c368eb1d523bb4bc88b4410e637a0979ca4431",
+      "fact_phase_context_clear_card_menu-mss-009.png": "6154a31711ae6140c4aac98d364dc7594ae06abd489444e8084e9c616276df9a",
+      "fact_phase_context_clear_card_menu-mss-010.png": "6bf6bcb0d3ed76f32470e7485ec1ebae778faf95249fa022962502efc8d06be9",
+      "fact_phase_context_clear_card_menu-mss-011.png": "6e6c40c8a2391b2cdf82aa169a15f9c613971ff159442b4b3a174934d9062205",
+      "fact_phase_context_clear_card_menu-mss-012.png": "76bf061127d8d418b576c6b0511b22a3cb838fcd695b7ec2ff9484b851042f50",
+      "fact_phase_context_clear_card_menu-mss-013.png": "9995e635d5beb0647c60c6460d3860c71d44ce5b6227871b654fa5bcb3ca0f6f",
+      "fact_phase_context_clear_card_menu-mss-014.png": "e00a2114a31baf355fc9dd876aa52f7b34a5780c6c55ab9a28c493c1be2c5da3",
+      "fact_phase_context_clear_card_menu-mss-015.png": "22ebf6d18cca295e108e651a3611834b9316238114c4d0c8007e909c41e5837a",
+      "fact_phase_context_clear_card_menu-mss-016.png": "4271d350270e110e9b5bf018ed4b841a9bacd3022d1c89c44c41e7dfd60169f1",
+      "fact_phase_context_clear_card_menu-mss-017.png": "608809ddf305f97ee789a2411dea8289b4863f6bd3637f59df319d937653dda6",
+      "fact_phase_context_clear_card_menu-mss-018.png": "1c18ee6001fde24382c024b62f2d552063cf1a2de3a3050ee692ad40052db2b6",
+      "fact_phase_context_clear_card_menu-mss-019.png": "ff696020834466396d5adf481409f0760a51b51fc8c5a6362dc181e9dd0417ff",
+      "fact_phase_context_clear_card_menu-mss-020.png": "b833006fbc591e229e51ee68040591143fc63e59b3d702d9fb4ff7fe2aeb5731",
+      "fact_phase_context_clear_card_menu-mss-021.png": "db15634a9a949492084c79cb8a5dd91be9e7dc917549f070dc1bfb3e8fcb132f",
+      "fact_phase_context_clear_card_menu-mss-022.png": "30c905e7b620b36e223b71cca08a96a8a0697e427fbbb3eeb33e703be724453e",
+      "fact_phase_context_clear_card_menu-mss-023.png": "037a4a357807c51010064e96735078f3ab2347910f76a6a7eaf64ece11b83236",
+      "fact_phase_context_clear_card_menu-mss-024.png": "27f84d3133c84e94378f810ba4a71713b3b9eb7dbd8cc34a440674d9d0697176",
+      "fact_phase_context_clear_card_menu-mss-025.png": "4ebc6fb55971ba3c037d156aa71683a75e42a6c3020481193a22e0c02275bf50",
+      "fact_phase_context_clear_card_menu-mss-026.png": "c4f08d74ef8e11955e0eaa0f5d91c965bd3d86060fc85f717cc4a4fea336102f",
+      "fact_phase_context_clear_card_menu-mss-027.png": "f0e175211d1c2e098e2f9c810e26bf3912db99890f10dd40c0f79ebff1d9a103",
+      "fact_phase_context_clear_card_menu-mss-028.png": "3eade4cbfafaed8b83860732ed53893ae6923635342eb4507838d89ade7b2d10",
+      "fact_phase_context_clear_card_menu-mss-029.png": "fd5fbcaa0c75589899dd5530f2b56595b3d345f95375ca7a0b9adbedb32c0ab8",
+      "fact_phase_context_clear_card_menu-mss-030.png": "a66282efc9a8b2a2403f816b04aad4a4af9b87a536229640914cc20708e6aead",
+      "fact_phase_context_clear_card_menu-mss-031.png": "2094ac6be4c5a8d45352860fe4b628e4e132ee8843073859f677461877b30e66",
+      "fact_phase_context_clear_card_menu-mss-032.png": "a2dcb4c95bc0e8ba404752992dc57e7fb61dd5530200ad0dd901e1f7feb6aa96",
+      "fact_phase_context_clear_card_menu-mss-033.png": "9be30d6ca4d3b30b038d75cea587a1577de0ef68fb4640ed1fff6bd5e303ab07",
+      "fact_phase_context_clear_card_menu-mss-034.png": "74d3efa7e151d785abcc0892171f9a79ab6fc5377ec4f6bf84ae2f2f6189f7d8",
+      "fact_phase_context_clear_card_menu-mss-035.png": "626793c349a7b6c2e715071dad331ca71a658c6c64118cc5ca9d75740ad20779",
+      "fact_phase_context_clear_card_menu-mss-036.png": "aa3889c88bdde7e1064df5fe822628f365b6db7f4e65e0053bd8f28b34c559a8",
+      "fact_phase_context_clear_card_menu-mss-037.png": "873e9bd5bf76bf7a75e7c1447aa75e60377469cf311db00a9b909618c0218bb0",
+      "fact_phase_context_clear_card_menu-mss-038.png": "973b00d9021e2ac8fe4d15cd5906263d35d1486a5d329bf5b56d9a214aa33b0e",
+      "fact_phase_context_clear_card_menu-mss-039.png": "1ccaba09d56b3b50173b27cc1d9a5bf641e879b134865c779be56a04eeb714ec"
+    },
+    "fact.phase_context.clear_center": {
+      "fact_phase_context_clear_center-mss-000.png": "4317c76233e4aacc008a5b8bb4d2e113e1322e49561637dc3956f5bf3f26f597",
+      "fact_phase_context_clear_center-mss-001.png": "3c7d566145974a09fdf61843d2714242b2e169f502b252973169caf28217f82e",
+      "fact_phase_context_clear_center-mss-002.png": "ddd89f3f4dae354fb7481a53700c7a976cca73d58c7ce31eeb25b2beac4e03a3",
+      "fact_phase_context_clear_center-mss-003.png": "f550688ca7dea91bf729daad1687837f97cc1659a79d1abdaa31bc14406d693c",
+      "fact_phase_context_clear_center-mss-004.png": "551b4a50c4a5eddd4554ca543e8ba2b8fbdef55c61dcd72544753522047e816a",
+      "fact_phase_context_clear_center-mss-005.png": "b00687c240085c61c11149d03aff823dfcaf704d41abbc7f5a75f206a5dd9c4b",
+      "fact_phase_context_clear_center-mss-006.png": "70e9784706e2048425a0fdab38476357314cd34710363542fac4375e8b355212",
+      "fact_phase_context_clear_center-mss-007.png": "54e6accd781625afc1f16efa1d65c3a799061e38d01fed67195afe9116205bdc",
+      "fact_phase_context_clear_center-mss-008.png": "84b0dad5c0d2fbec9af370d75d08beef51d63512975c1f29eac28604ec4d120a",
+      "fact_phase_context_clear_center-mss-009.png": "653fc9af9cc5d9822aed57494e13a5d5c11175a4211bdb0e4e0fec89661943cf",
+      "fact_phase_context_clear_center-mss-010.png": "0e47f986cfb0d60855671e2a51c00d47560fc5ed485eeb507df5759ef64939f3",
+      "fact_phase_context_clear_center-mss-011.png": "e245c96a17928b2d1ced7ca8f541b0a22156319ac29d8a69cca04a0e7e56d166",
+      "fact_phase_context_clear_center-mss-012.png": "49f4d8f569411a20e695133ef6a025f3a67ccdf88649d23152bedd750e089bb3",
+      "fact_phase_context_clear_center-mss-013.png": "d1ecf8dca1f0b9054abdab4be81fd06a4d09ee6ae98223f1db50b081fe041fee",
+      "fact_phase_context_clear_center-mss-014.png": "13eab942b8f2080bf542fb14de6bebd7a5c535fc4d404afd074b7178926b8947",
+      "fact_phase_context_clear_center-mss-015.png": "a7729aa036cd6d96cd25e4c6c5452177a4a819c771bb5bd249330ccb553ea81f",
+      "fact_phase_context_clear_center-mss-016.png": "8ffb3196ccea0bc5d0416995684c563fe2e8e701c1f402425796ce46c5a2b8dd",
+      "fact_phase_context_clear_center-mss-017.png": "fe710215c027324957d701f241632a888acf1d039f5e6d80628be5cf1457f901",
+      "fact_phase_context_clear_center-mss-018.png": "352fe200ee12b484497cbd6d67ea7a4c132ef551d9ceb549e5a093931764b84d",
+      "fact_phase_context_clear_center-mss-019.png": "469c6bbeda1f09cef74c42d175a311c8fefca1396a173d515054b24c6bb2ee46",
+      "fact_phase_context_clear_center-mss-020.png": "9ba6342fa8b2be94476e2467b3b129c00a98b2048679844c87f998899b374479",
+      "fact_phase_context_clear_center-mss-021.png": "5e40439dd18b5c9a526b72d39c77acda8287a47e7259905b97e10ee386b84990",
+      "fact_phase_context_clear_center-mss-022.png": "1cf80d426656a215bd915ef6b21038484302d84e3e325332eda7046d8b736af8",
+      "fact_phase_context_clear_center-mss-023.png": "11fc4cdc5d034fab7e1a85dda1b707cc1745529c3c3200ea431e2e3d7e1de8fd",
+      "fact_phase_context_clear_center-mss-024.png": "3f54dffb037e0e489a89503c08eb5b82c653d3a110ff5fc80f319d2010fe7bfa",
+      "fact_phase_context_clear_center-mss-025.png": "b524664b35b5681f94e1eab7e3bb2c3aee1b9b43d9a8afc0d38a9840fd7d8197",
+      "fact_phase_context_clear_center-mss-026.png": "29ab18e3cfb67f0332378dfb0b8861efae0a93285369391be096dd0e1f0a2391",
+      "fact_phase_context_clear_center-mss-027.png": "06d7cd0ecec67517d477aa315e9067397152eaca117601a7b0f7b2c4833bdf04",
+      "fact_phase_context_clear_center-mss-028.png": "c1a6566446a591eae9ee8f09cc494350024f4973b110134389cf02eeb98cbd9f",
+      "fact_phase_context_clear_center-mss-029.png": "3a6851d34f799051ebaca6bb3331438f43ebd421e7ef43f809096b3c0bc22e97",
+      "fact_phase_context_clear_center-mss-030.png": "e83835e6ec8aacd86968e64921cb9f977d5435f8838d71c644babe2502fcbbe5",
+      "fact_phase_context_clear_center-mss-031.png": "a2dac45065e1ebfe753ee242c85f82c1882b6ed64a2814f9b43feb5097c689c3",
+      "fact_phase_context_clear_center-mss-032.png": "f284b8df5d8bdb379db55a957806d44b2c668f17e5552885f0f3f855f18d6a6d",
+      "fact_phase_context_clear_center-mss-033.png": "0ee85020b18bef894d4a2ddec315df795f051495753dbf45fc190e9a49e54b79",
+      "fact_phase_context_clear_center-mss-034.png": "8a51fc11811bb0c7542e791805a448566ed2197e57b0fa971b8220bab693c6c3",
+      "fact_phase_context_clear_center-mss-035.png": "deb7d813697f726f42f339b36e9b1b1b3b459ccd4e2e50edc07a456c12d5151e",
+      "fact_phase_context_clear_center-mss-036.png": "15022b33f9b9a3e9cbfd0361ab62cef11706569df9c7fd1278938316b119057e",
+      "fact_phase_context_clear_center-mss-037.png": "15ebd9a74f36bf0e9dcfa8ad4bf05bfba37c2ac32b8be9a12bc7e28b7eef9053",
+      "fact_phase_context_clear_center-mss-038.png": "20343756f6e32fb5147f369309512c15f47f5a51c8edf84a8313db0b0d81de56",
+      "fact_phase_context_clear_center-mss-039.png": "4a924cd0946620a14240094b1c4dd154325081a3f177761aec46e292672ab94a"
+    },
+    "fact.phase_context.menu_end": {
+      "fact_phase_context_menu_end-mss-000.png": "f88b1743164a9c8848cc178a8f4345952d1df6ad454d8c9bafe0ce28ca3eed40",
+      "fact_phase_context_menu_end-mss-001.png": "e3cc9311241d6247001ac0830ec56084e59d9ddf8c82ed88d8ee25778c86d99c",
+      "fact_phase_context_menu_end-mss-002.png": "ef0543a1e2b19d7fef23149ec5cbdf40777a4d8cc258327585a3050b9f497f23",
+      "fact_phase_context_menu_end-mss-003.png": "382e2a6dde13d1a1e8d0619adc29c515b3a2a77e7b7fea8bc9e6d323a2697a1a",
+      "fact_phase_context_menu_end-mss-004.png": "564dbeb9935fdb7fe35f95b038a04dd467820b2dd6a8dd9f6c9d0f7a28495a49",
+      "fact_phase_context_menu_end-mss-005.png": "55fadc7fa0ef9d173ca377aa113fe7938430fa6ecec560ddd779a51df8a7aa3b",
+      "fact_phase_context_menu_end-mss-006.png": "727a5596670ab156c2e9ffc20fdc6125f57d0d2ec8c28c6cf38dd78b23bddd80",
+      "fact_phase_context_menu_end-mss-007.png": "7f17a2c0abf98f8a044a1eaec746fe05ce314e6c5d2927bcc8ee47ae083037dc",
+      "fact_phase_context_menu_end-mss-008.png": "216933a3b2c3f1d95f9fd98b664842cd1b96d2a25508363280e73dd3938dcf4a",
+      "fact_phase_context_menu_end-mss-009.png": "d2b1a096bf778452d8aadcf4a6581ccee6792105aa735e4bf595db2654563ed6",
+      "fact_phase_context_menu_end-mss-010.png": "0e10d35c41edbaab78f53d2afcec3544b19998cccd8a67d857ca3082ab381c40",
+      "fact_phase_context_menu_end-mss-011.png": "ddfcdd1730967e3dd2958676f2fe2290b226754762cf2913985eb1d9a57daeb9",
+      "fact_phase_context_menu_end-mss-012.png": "d10ea40926215e54c5fbe98b3032c480b1bacfa071b221817a83e2a2a96ed886",
+      "fact_phase_context_menu_end-mss-013.png": "61cfdd097751a875995bf9f613b336202f4275309f43c9b9966d76eb795e4883",
+      "fact_phase_context_menu_end-mss-014.png": "e91e877a7116f9ecb65c1f384986a5687c26dce9f68ca457e3a7f4c5ac0ad056",
+      "fact_phase_context_menu_end-mss-015.png": "4463e3bd651a65f640202463ccaf6b199b0a56a3354d65d77770d5c4af836fc8",
+      "fact_phase_context_menu_end-mss-016.png": "8c8fec3dbf01914b015067908f84f19a095087d3e797a38a37cfe3c68a791d56",
+      "fact_phase_context_menu_end-mss-017.png": "0fbead8b74c95353a51c1f4de665212e68abe10ff636bfb731b42c1aa9f687aa",
+      "fact_phase_context_menu_end-mss-018.png": "78c6462f6a65ebb50b1e9bc2b77e09b16b993e27d9a7952ea61d0415049a5a7f",
+      "fact_phase_context_menu_end-mss-019.png": "2306e3db4ea430d12c07cd7787b9bca2b87fbaca4503bfd69fe5080b63165ffc"
+    },
+    "fact.phase_context.menu_main1": {
+      "fact_phase_context_menu_main1-mss-000.png": "482dea219740ec8eebd8683be2807c2338c1b39bb9e608cabe93037fcdf0a443",
+      "fact_phase_context_menu_main1-mss-001.png": "3016b9c5d01b759688d725f1a705d2cfd9bb3f7133cab6aefa0a5436ea63a64e",
+      "fact_phase_context_menu_main1-mss-002.png": "951458109a3568ac1fc03583225e9f13ddb27824fb7cf6805edcbd776c07d721",
+      "fact_phase_context_menu_main1-mss-003.png": "8f5b24d9cc571438fa2c74f5b6cc9610fa9497f099315b19002eb7d1e39eb80f",
+      "fact_phase_context_menu_main1-mss-004.png": "5f16e5ba9ff4b4cd07b4d3fae6044136c4531e7a70ca5d737827058343aef3c5",
+      "fact_phase_context_menu_main1-mss-005.png": "cbbc0bd9581b58329359bcd77d8ca8f22f73accecbe914f8bd4a29649eef6f2e",
+      "fact_phase_context_menu_main1-mss-006.png": "9d62bb720f08db72ab8887508dbba939bfcafe605c86ccd287fda7d578032ac1",
+      "fact_phase_context_menu_main1-mss-007.png": "f90c1af351b628607f67b6290f83ba068723abf788548908167d1c6fd91649b3",
+      "fact_phase_context_menu_main1-mss-008.png": "ff16e48d81ac16b5af28e359d3a5783daf2a6d74f4185b8652783d05f31bc8c5",
+      "fact_phase_context_menu_main1-mss-009.png": "208f96a43bf5f1dfdefb666136ad95c470d8e8929448c818a1b733006fc5c35a",
+      "fact_phase_context_menu_main1-mss-010.png": "d0002d2a7de986e93f30ee5cf0b98cfcdc4d14762e1c0557f4ef9657ccc0f861",
+      "fact_phase_context_menu_main1-mss-011.png": "6dcffa5a0fb4bd39e86327e225d7949b99f7dd935314deee757f3e98063f6c22",
+      "fact_phase_context_menu_main1-mss-012.png": "395a44e7c1359ad6f7267f39286afb975431e0df42c73f91117ac49d774aeea6",
+      "fact_phase_context_menu_main1-mss-013.png": "0a410d2302778b75a977ea60ea034b49737a3a6081ca232427bc94dfa0003283",
+      "fact_phase_context_menu_main1-mss-014.png": "8203da3015bc20e7be70d855320072eee934cb2fb50c1906059171b321ac05f4",
+      "fact_phase_context_menu_main1-mss-015.png": "28936754712f71fa63e28cf1f4cd6b48bad37f5860c824399f08eac8e73e08a0",
+      "fact_phase_context_menu_main1-mss-016.png": "f8c9bb5c9bd677bb0b7f5e5b5ad14bb1f18bcf37fde9666956bcb7592a4b6b5f",
+      "fact_phase_context_menu_main1-mss-017.png": "99c2ac8595fd22113cd764035e91254c090c564ba73a4821f0b2ce03b5374ea3",
+      "fact_phase_context_menu_main1-mss-018.png": "f4ed700e4d15fa54bdb8d584a3c9f6ef7bb4065ba65ed061a669cf3b9e5b2c3e",
+      "fact_phase_context_menu_main1-mss-019.png": "6bd55db42155f1ff65f72f20c442c3f86f87db89b50bcd4b48668eb4067a1f00"
+    },
+    "fact.phase_context.menu_title": {
+      "fact_phase_context_menu_title-mss-000.png": "c0e40484ac44c4c43480b0d8cf2ace903b5b0f3dc145266297890f3a47f02861",
+      "fact_phase_context_menu_title-mss-001.png": "c3b13585c5b0c46b28d24417ea1953b0aa5df0548f6434a0e3029b28f3eef0e4",
+      "fact_phase_context_menu_title-mss-002.png": "7dc541c60d07a6b9243d22fd8c256484afa71cc8bd947f5b72958a4c9a91fcd1",
+      "fact_phase_context_menu_title-mss-003.png": "cc5be0c1edbb2a364621dc73011ea9701825476990f837bce6d179c428f83537",
+      "fact_phase_context_menu_title-mss-004.png": "a4e798dfbec7822842599f6e1949b89c39825202917d0cdd2c186d5020da3c69",
+      "fact_phase_context_menu_title-mss-005.png": "018a3dd7468ff65680c076f68e14bc1f4c453b890ffda106ee2d71dcadd2563d",
+      "fact_phase_context_menu_title-mss-006.png": "8d4a3e8ddcdc1397b3fb0827983654fc13eba4d74c689182984b22ce51f717f1",
+      "fact_phase_context_menu_title-mss-007.png": "7a7a45d4375c2701260559f181e5ea639a2ab176fadb38da69a048697965535e",
+      "fact_phase_context_menu_title-mss-008.png": "e9898707658a18c64f4cecfa32633f72a86adbaa00550516959c78c75f257cd6",
+      "fact_phase_context_menu_title-mss-009.png": "71e2f336fec6bba4147346dd5af73f93a1ecb163ff2ee559a5cbeccb95c939f6",
+      "fact_phase_context_menu_title-mss-010.png": "02ec798725c22fabaf6212c958506ef7330145ef3f31a4be7500cb4dd2565aaa",
+      "fact_phase_context_menu_title-mss-011.png": "248305a0035a067ff8e0445921663501df96e43b8b9427d176d209d27a87db86",
+      "fact_phase_context_menu_title-mss-012.png": "df33ba56f7c874762c81099b0d982447782a316339cac56fdf04eb82b8470001",
+      "fact_phase_context_menu_title-mss-013.png": "d6ce53bbe37278da36bbbf5129c78d26274c9e44bc223232d82d38748367cbce",
+      "fact_phase_context_menu_title-mss-014.png": "c54e476a0e65f36ad1f17399a214e81d08dcc01fa2bc97f359641a7e47ab092b",
+      "fact_phase_context_menu_title-mss-015.png": "b3bed166ed40a394682ff8500a506a52bde15721ba8fe5f189b668d1305d2683",
+      "fact_phase_context_menu_title-mss-016.png": "5f169674dd62dcccadc549db7c300b12ce01c80ae7085e53228064e3d445ab42",
+      "fact_phase_context_menu_title-mss-017.png": "a9e760c2dc87e1f7e9258bcfcdf94283d307532fb07df2500bf49dfddf60715f",
+      "fact_phase_context_menu_title-mss-018.png": "02e6d3c5e3aea341783eda3c7e505eeecb55b4c51363845314a12a13403749bc",
+      "fact_phase_context_menu_title-mss-019.png": "ab73406c9e26a2e8ce0a3244bf238c7889289455514dd670215dc70b67ff23f7"
+    },
+    "fact.phase_context.self_main1": {
+      "fact_phase_context_self_main1-mss-000.png": "d020f7a405ac06b914c4a82fee8fc326bd4b99ca32a4e565fdcace02de3bb482",
+      "fact_phase_context_self_main1-mss-001.png": "d0785691b53386666da572d9af689b6ffca59534e0818cb1505aba345cd29257",
+      "fact_phase_context_self_main1-mss-002.png": "eb53489be5cf0848d3389d937ff63e838420c3482b5fbbdf8a6ecd3481a5224e",
+      "fact_phase_context_self_main1-mss-003.png": "ca043d603732fc18e27806dd27c6ee46c5f1b519475e89804c0dca5d8e3d644c",
+      "fact_phase_context_self_main1-mss-004.png": "9100e79c288185ec647581972dcaf1aff834f26af0d06825f25139c6edf47262",
+      "fact_phase_context_self_main1-mss-005.png": "5eb59bd5e44ecbfb597184b15bc3bc4e4f36797dde622ffd38a949bfa13ddf9d",
+      "fact_phase_context_self_main1-mss-006.png": "11f6e874b588c586621f779a72829c58d7d7cc104dbb17c168f59e3f51638c1c",
+      "fact_phase_context_self_main1-mss-007.png": "ca4bee0429352348634db4615870c9cd2d3aa7b24f507f2838ab4edae0b66ddf",
+      "fact_phase_context_self_main1-mss-008.png": "72c72c0052c068a791a6316f037b5ebd0b0a5debfeeb4ad6f114494c984eeb02",
+      "fact_phase_context_self_main1-mss-009.png": "8fbb0241fe4ea37daadba35e75a0cf4d37291c96f7e3102ddf1dd1668755612f",
+      "fact_phase_context_self_main1-mss-010.png": "b47dda7f1d83360b1f790ab436619954c7cfa942bd8917ddbfb12a038ff08638",
+      "fact_phase_context_self_main1-mss-011.png": "18846663af986d325232c46af7179aec7f57402ad7cda375950911d6f27805b1",
+      "fact_phase_context_self_main1-mss-012.png": "862d2ff0471be2aa979ecddb8ac7f9beb889ff268a156b6a4ea4748bc1ef614a",
+      "fact_phase_context_self_main1-mss-013.png": "a3215011d6af81a22695c298159b34c9db3aa350fa1a204d84d7e4e08dff9951",
+      "fact_phase_context_self_main1-mss-014.png": "5b69b81e134b1507f5d68229e49836a0477223f991ae3771b8afb57db7764a03",
+      "fact_phase_context_self_main1-mss-015.png": "c5c4991dd5e036a543c8678e1762c443feb55eff662942c78009577032131d2d",
+      "fact_phase_context_self_main1-mss-016.png": "07ad837f2d1ade5602cad9141534fbf2190d914470e92be0bbed362cab93c38f",
+      "fact_phase_context_self_main1-mss-017.png": "c2f9e24668e1299a9153965132e6e075009363caa66e88ebff9e936e7a276704",
+      "fact_phase_context_self_main1-mss-018.png": "a27d6b3ee10a4d8430ae2cc3acef4d8f3dfeaa5f20cbedf5682f061f4b531b63",
+      "fact_phase_context_self_main1-mss-019.png": "444fc64fba0a3554a95faeb0215663d164af7695f743f83e9fbeaf937550d05a",
+      "fact_phase_context_self_main1-mss-020.png": "74079b551d24c78c151446905ab1110aef5fbc00ff478d2a9b299b9c10a788e9",
+      "fact_phase_context_self_main1-mss-021.png": "bd186e3b65cc3ca0c6b24df0e6cb53587c099d1bb6a253c3026a308d73c6f2b2",
+      "fact_phase_context_self_main1-mss-022.png": "c94ea3f4d07ded944c9d055aa4c5c7aff930ddc81b170059c87ba8b56db6375a",
+      "fact_phase_context_self_main1-mss-023.png": "b955d79a43df806abc155c3438be5cdcfe4c4db492fffd87e4338fe2eca0844c",
+      "fact_phase_context_self_main1-mss-024.png": "2ab061677e7b5282616b832cc5a16087ca4f1ea923f6acbcc0066ebb6843fc5e",
+      "fact_phase_context_self_main1-mss-025.png": "363e503c209e6065796a0ca97a31b338658cf253a28c61cfe39275e699841e71",
+      "fact_phase_context_self_main1-mss-026.png": "3da3861666b60d864187e61566f139181660ff8aa1ce4635d923538dacb56d07",
+      "fact_phase_context_self_main1-mss-027.png": "f59d676f129dd9a32443d88968fe1256c9e99ee07ee5e4045ab0e03929fe9da0",
+      "fact_phase_context_self_main1-mss-028.png": "458a1a289c17d1711c3daf7db99a16516b7328ffe5393a6ad8b14f337b65334a",
+      "fact_phase_context_self_main1-mss-029.png": "109e38272809454c7009a91e637f0d3c916c40aef15f40a4882d25be9e69e67f",
+      "fact_phase_context_self_main1-mss-030.png": "87be8a92baa02529764a30087ff11b6c9d3c2bd0d2f610d9ca94f76bb788251a",
+      "fact_phase_context_self_main1-mss-031.png": "aef07f87c4fbb91402b78ec0b3d8dbec0f67ce07a8b271ca97bc91308f77c2c8",
+      "fact_phase_context_self_main1-mss-032.png": "35e8e4043011f9935daf14635360cd7a0611779f049f7db10243ee1cef8c3227",
+      "fact_phase_context_self_main1-mss-033.png": "393497bbe63c4e226fe3981e016a2469c8570ecf1c787e9d954ec97de415fd7d",
+      "fact_phase_context_self_main1-mss-034.png": "5dd7acccb07bd52eb5ab1f119a07533056511d9e8b07df48b75022f7e5d55fdf",
+      "fact_phase_context_self_main1-mss-035.png": "ca85d96ceb5601f6d231c56ec609c4bd35cdc8852d937482c20d0fc5915676ab",
+      "fact_phase_context_self_main1-mss-036.png": "8369e7d300c4f4fa34a1a342e8bb2229796141024ac7b79d07bfb2a803c055fa",
+      "fact_phase_context_self_main1-mss-037.png": "43ad73ae4e2e53e3576cc7b1cdad8ca500e043e30bd8fd0f20011f3bb2ff2d0f",
+      "fact_phase_context_self_main1-mss-038.png": "29cc03d75b6d60447a5bab0e5338e8acef9a37e566c322a4ae6a387e68bce016",
+      "fact_phase_context_self_main1-mss-039.png": "00d79e1b2f7696941f1b8957ee81110f87080ce335e9126ffa143e84ead56b47"
+    },
+    "phase": {
+      "phase-mss-000.png": "3dac7cddc54975e43507f28abba5e4fd1b0977d4eb98a6bbd5157b20f8b89ba2",
+      "phase-mss-001.png": "2c5183ad9a730be947b06c3bef591f73d6224737c397a64e3aefed3608041e14"
+    }
+  },
+  "stable_features_sha256": "5e72b92797e20efd26afdc6a2d9da305c92ba634fec9d8faa50eded88dade4f8",
+  "stable_features": {
+    "action.phase_open": {
+      "CHANGE_PHASE": {
+        "training_samples": 40,
+        "valid_pixels": 923,
+        "total_pixels": 2048,
+        "maximum_deviation": 0.01,
+        "minimum_pixels": 256,
+        "mask_sha256": "f606bd52327003a2ab2d535af7984c052a9813c0a880e5fefb958f72868dc5aa",
+        "prototype_sha256": "808d49eb4c0a7b009dfed750ef7a433a866da18f1df04dcd9f19b8cdd12c2bd7"
+      }
+    },
+    "fact.phase_context.clear_card_menu": {
+      "true": {
+        "training_samples": 40,
+        "valid_pixels": 912,
+        "total_pixels": 2048,
+        "maximum_deviation": 0.01,
+        "minimum_pixels": 256,
+        "mask_sha256": "2f3d15be94dffbba895d16146f37cd75968b57362b3742a6b8812bcf24edb4b9",
+        "prototype_sha256": "19720afa20477146ec90e955b0707234fb5ed377bf19fff6c9a7a85837e8b53c"
+      }
+    },
+    "fact.phase_context.self_main1": {
+      "true": {
+        "training_samples": 40,
+        "valid_pixels": 923,
+        "total_pixels": 2048,
+        "maximum_deviation": 0.01,
+        "minimum_pixels": 256,
+        "mask_sha256": "f606bd52327003a2ab2d535af7984c052a9813c0a880e5fefb958f72868dc5aa",
+        "prototype_sha256": "808d49eb4c0a7b009dfed750ef7a433a866da18f1df04dcd9f19b8cdd12c2bd7"
+      }
+    }
+  },
+  "strategy_sha256": "c26fe1ed46b74972fbdba92bb6203655cf15dd246c91e7e969229c3704f99f64",
+  "strategy": {
+    "format": "deck-strategy-v1",
+    "name": "既知盤面限定Main1からEnd",
+    "source": "実画面train007/009/011/022/023/045+時間変動train047-066",
+    "rules": [
+      {
+        "id": "phase_open",
+        "card_id": null,
+        "description": "フェイズ選択を開く",
+        "type": "CHANGE_PHASE",
+        "source_region": "action.phase_open",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1"
+        ],
+        "prompt": "none",
+        "additional_prompts": [],
+        "follows": [],
+        "observed_facts": {
+          "phase_context.self_main1": "true",
+          "phase_context.clear_center": "true",
+          "phase_context.clear_card_menu": "true"
+        },
+        "expected_prompts": [
+          "phase.select"
+        ],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "main1_to_end",
+        "logical_category": "CHANGE_PHASE",
+        "logical_start": true,
+        "logical_end": false,
+        "logical_count_fact": null,
+        "logical_phase": null,
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      },
+      {
+        "id": "phase_end",
+        "card_id": null,
+        "description": "Endを選びEndフェイズ到達を確認",
+        "type": "CONFIRM",
+        "source_region": "action.phase_end",
+        "target": null,
+        "priority": 1000,
+        "players": [
+          "self"
+        ],
+        "phases": [
+          "MAIN1"
+        ],
+        "prompt": "phase.select",
+        "additional_prompts": [],
+        "follows": [
+          "phase_open"
+        ],
+        "observed_facts": {
+          "phase_context.menu_title": "true",
+          "phase_context.menu_end": "true",
+          "phase_context.menu_main1": "true"
+        },
+        "expected_prompts": [],
+        "requires": [],
+        "facts": {},
+        "expected_facts": {},
+        "enabled": true,
+        "material_method": null,
+        "logical_action": "main1_to_end",
+        "logical_category": "CHANGE_PHASE",
+        "logical_start": false,
+        "logical_end": true,
+        "logical_count_fact": null,
+        "logical_phase": "END",
+        "logical_turn_advance": false,
+        "logical_zone_transition": null
+      }
+    ],
+    "min_confidence": 0.98,
+    "inference_mode": "strict",
+    "audit_profile": "phase_transition"
+  },
+  "limits_sha256": "710aad2f358f142a7421a88beb71305998aab58390df0b7df1b122ba39f9a09b",
+  "limits": {
+    "max_seconds": 20.0,
+    "max_actions": 2,
+    "min_confidence": 0.98,
+    "max_retries": 0,
+    "max_same_action": 1,
+    "settle_seconds": 0,
+    "verify_seconds": 3,
+    "verify_poll_seconds": 0.05,
+    "min_image_change": 0.005,
+    "max_observation_age": 1.0
+  },
+  "capture_sha256": "200dccd50c3005919fbcb4e1f7c5ad33c5abe7b96dce57848bd7158a09e52eeb",
+  "capture": {
+    "type": "LiveCaptureSource",
+    "rect": [
+      -1918,
+      817,
+      -638,
+      1537
+    ]
+  }
+}

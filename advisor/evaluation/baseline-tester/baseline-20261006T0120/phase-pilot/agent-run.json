@@ -1,0 +1,11 @@
+{
+  "status": "action_limit",
+  "actions": 2,
+  "elapsed_seconds": 0.6719999999986612,
+  "action_log": "evaluation\\baseline-tester\\baseline-20261006T0120\\phase-pilot\\actions.jsonl",
+  "screenshots": "evaluation\\baseline-tester\\baseline-20261006T0120\\phase-pilot\\screenshots",
+  "logical_actions": 1,
+  "logical_action_log": "evaluation\\baseline-tester\\baseline-20261006T0120\\phase-pilot\\logical-actions.jsonl",
+  "telemetry_mode": "live_autonomous",
+  "observation_to_click_ms_p95": 75.64999999412976
+}

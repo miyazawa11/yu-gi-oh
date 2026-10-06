@@ -1,0 +1,10 @@
+{
+  "variant": "raw",
+  "scale": 3,
+  "psm": 7,
+  "minimum_confidence": 0.9,
+  "repeats": 3,
+  "selection_basis": "G/Solarのtrain10枚で文字列exact10/10、.90採用3/10。raw2/raw4/PSM13/gray/otsuより文字列/採用率を優先。evalは未使用",
+  "manifest_sha256": "2fe24ccdd20c9c7ab7f4331fc2e54cefb5029ba5e1a820da56979eb6d85d8d8d",
+  "note": "OCRconfidenceは未校正の実験gate。画像matcherの.98と比較不可。KPI99%の保証ではない"
+}

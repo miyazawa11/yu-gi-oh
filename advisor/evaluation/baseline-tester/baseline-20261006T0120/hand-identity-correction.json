@@ -1,0 +1,22 @@
+{
+  "time": "2026-10-05T16:24:47.950Z",
+  "correction": "Baseline hand slot2 previously described as G was not Japanese-name verified. Subsequent Turn4 card detail identifies same yellow battery artwork as 太陽電池メン ATK1600/DEF1600. MaxxC presence not confirmed; no G-labelled current screenshots may be used for training.",
+  "baselineImpact": "Phase objective latency/success unaffected; normal preflight remains safely rejected; misidentification in human inspection, no incorrect summon performed.",
+  "evidence": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作/advisor/artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/card-menu.jpg",
+  "subsequentCorrection": {
+    "correctedUtc": "2026-10-05T16:32:17.7159464+00:00",
+    "originalText": "Baseline hand slot2 previously described as G was not Japanese-name verified. Subsequent Turn4 card detail identifies same yellow battery artwork as 太陽電池メン ATK1600/DEF1600. MaxxC presence not confirmed; no G-labelled current screenshots may be used for training.",
+    "correctedIdentity": {
+      "japaneseName": "太陽電池メン",
+      "konamiId": "13581",
+      "baseAtk": 1500,
+      "baseDef": 1500
+    },
+    "explanation": "Subsequent detailed menu and post-summon observations identify Batteryman Solar CID13581. Prior 1600/1600 was a human glyph misread; no game buff established. Baseline preflight was calibration-incompatible and sent no input; no MaxxC position mismatch is established.",
+    "evidence": [
+      "advisor/artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0000.png",
+      "advisor/artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-post/frame-0000.png",
+      "advisor/artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/collection-report.json"
+    ]
+  }
+}

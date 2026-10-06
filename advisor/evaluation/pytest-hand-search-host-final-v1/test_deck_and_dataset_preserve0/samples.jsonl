@@ -1,0 +1,2 @@
+{"state": {"unknown": null}, "action": {"type": "ACTIVATE"}, "state_after": null, "verification": "changed", "metrics": {}, "screen_before": null, "screen_after": null, "label_quality": "observed_execution_not_optimality"}
+{"state": {"unknown": null}, "action": {"type": "ACTIVATE"}, "state_after": null, "verification": "duel_ended", "metrics": {}, "screen_before": null, "screen_after": null, "label_quality": "observed_execution_not_optimality"}

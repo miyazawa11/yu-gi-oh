@@ -1,0 +1,92 @@
+{
+  "schema": "source-selected-art-condition-v1",
+  "scope": "read-only1方式・方法選択。runtime未接続。原画像/時計不変。",
+  "reference_art_parameters": {
+    "art_inside_thumbnail": [
+      12,
+      30,
+      78,
+      72
+    ],
+    "SIFT_nfeatures": 200,
+    "footprint_radius_factor": 5.31,
+    "support_boundary_tolerance_px": 1e-12,
+    "mutual_lowe": 0.75,
+    "ransac_px": 2.0,
+    "minimum_inliers": 6,
+    "minimum_ratio": 0.7,
+    "scale": [
+      0.9,
+      1.1
+    ],
+    "shift_px": 3,
+    "art_spread": [
+      39,
+      36
+    ]
+  },
+  "candidate_roi": {
+    "x": "effect_center_x - 78",
+    "y": 536,
+    "width": 155,
+    "height": 184
+  },
+  "candidate_SIFT_nfeatures": 300,
+  "matching": "reference forward Lowe .75 + candidate reverse nearest identity; no reverse ratio",
+  "affine_ransac_px": 2.0,
+  "minimum_inliers": 6,
+  "minimum_ratio": 0.7,
+  "spread_in_reference": [
+    39,
+    36
+  ],
+  "scale": [
+    0.9,
+    1.1
+  ],
+  "rotation_degrees": [
+    -3,
+    3
+  ],
+  "effect_to_art_top": [
+    58,
+    74
+  ],
+  "art_center_to_effect_x_px": 20,
+  "candidate_support": "inverse affine maps entire descriptor radius5.31*size/scale inside reference art rectangle; remove outside then recheck inlier counts/ratio/spread",
+  "same_position_merge_px": 3,
+  "ambiguity": "different eligible model position between references is unknown; reference-to-candidate Lowe rejects ambiguous per-descriptor positions",
+  "legal_action_AND": "detailUID13906 + selected-hand art pose + enabled effect scene + known selfMain1; selected7 without effect is action0",
+  "references": [
+    {
+      "image": "hand-search-detail13906-before6.png",
+      "sha256": "235d9b0821b36b8cb80d589ce722bd8aec7c401b206316a13e44fd44862e998c",
+      "original": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_SEARCH_TRAIN_v1_20261006\\effect-menu-before\\frame-0000.png",
+      "original_sha256": "b0daa93144dc768f13fddadd16cb2411b98e322d19563a87f956a4dd5de784ef",
+      "capture_sequence": 0,
+      "captured_at_monotonic": 79256.89,
+      "rect": [
+        27,
+        151,
+        103,
+        150
+      ],
+      "use": "known method selection, not holdout"
+    },
+    {
+      "image": "hand-search-detail13906-before7.png",
+      "sha256": "75b6c19586af5d77218cca353db3f00408a237bbf6147d6e8c7a3c1dd38da29a",
+      "original": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\effect-menu-before\\frame-0000.png",
+      "original_sha256": "0ed957a314cc7503287353f06860dde9691b6eaff6c071cf15073a04a6a163ca",
+      "capture_sequence": 0,
+      "captured_at_monotonic": 81008.875,
+      "rect": [
+        27,
+        151,
+        103,
+        150
+      ],
+      "use": "known method selection, not holdout"
+    }
+  ]
+}

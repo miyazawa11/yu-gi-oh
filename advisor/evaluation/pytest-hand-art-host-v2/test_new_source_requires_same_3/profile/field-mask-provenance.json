@@ -1,0 +1,109 @@
+{
+  "schema": "ash-field-mask-v3",
+  "condition": "stable_rgb descriptor rows6..24 excluded",
+  "scope": "Ash中央field表示限定、CID生成無し",
+  "source_training": "v2参照維持・新規画像訓練無し",
+  "method_selection_diagnostics": [
+    "normal-inspect-central-mask-diagnostic-v2.json",
+    "normal-inspect-central-mask-contrasts-v2.json"
+  ],
+  "method_selection_not_holdout": true,
+  "input_count": 0,
+  "e2e_count": 0,
+  "statistics": {
+    "fact.zone.self.monster_2.occupancy": {
+      "empty": {
+        "training_samples": 20,
+        "valid_pixels": 330,
+        "total_pixels": 2048,
+        "maximum_deviation": 0.01,
+        "minimum_pixels": 256,
+        "mask_sha256": "8c3f3c6f5c5e53d10eced5de9d3bae89e34b417c77dab010bc1028fca51bd0ad",
+        "prototype_sha256": "e6903fa91c1df04fa6a1aff9ff36341a14e71b51295f75a0631613cf9ecdf66b",
+        "excluded_descriptor_rows": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      "occupied": {
+        "training_samples": 20,
+        "valid_pixels": 778,
+        "total_pixels": 2048,
+        "maximum_deviation": 0.01,
+        "minimum_pixels": 256,
+        "mask_sha256": "fb2a62ea56ac182f6aa61389b84ad754bee6724322308312c2ca47988b778019",
+        "prototype_sha256": "4ccedeae7b879dc3d5fea69a4eb15ba7de289cc14ffe40429c632f0ba2d8dc29",
+        "excluded_descriptor_rows": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      }
+    },
+    "action.inspect_zone": {
+      "SELECT_CARD": {
+        "training_samples": 10,
+        "valid_pixels": 778,
+        "total_pixels": 2048,
+        "maximum_deviation": 0.01,
+        "minimum_pixels": 256,
+        "mask_sha256": "fb2a62ea56ac182f6aa61389b84ad754bee6724322308312c2ca47988b778019",
+        "prototype_sha256": "2d3ba1138d9e374f7527c958c33170bb3257ad24871ad80181814acf604cf1db",
+        "excluded_descriptor_rows": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      }
+    }
+  }
+}

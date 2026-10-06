@@ -1,0 +1,40 @@
+{
+  "rules": [
+    {
+      "prompt": "response.opponent_summon_success",
+      "type": "CANCEL",
+      "source_region": "action.cancel_opponent_summon_success",
+      "card_id": null,
+      "target": null
+    },
+    {
+      "prompt": "response.opponent_turn_end",
+      "type": "CANCEL",
+      "source_region": "action.cancel_opponent_turn_end",
+      "card_id": null,
+      "target": null
+    },
+    {
+      "prompt": "hand.dragondark.effect_menu",
+      "type": "ACTIVATE",
+      "source_region": "action.dragondark_hand_activate",
+      "card_id": "13906",
+      "target": null
+    },
+    {
+      "prompt": "hand.dragondark.own_chain",
+      "type": "CANCEL",
+      "source_region": "action.dragondark_own_chain_cancel",
+      "card_id": null,
+      "target": null
+    },
+    {
+      "prompt": "hand.dragondark.result_ready",
+      "type": "SELECT_CARD",
+      "source_region": "action.dragondark_result_hand_inspect",
+      "card_id": "13906",
+      "target": "self.hand.received"
+    }
+  ],
+  "min_confidence": 0.98
+}

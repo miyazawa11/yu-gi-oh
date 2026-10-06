@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="19" skipped="0" tests="19" time="39.738" timestamp="2026-10-06T10:28:46.678406+09:00" hostname="DESKTOP-KILPD1G"><testcase classname="tests.test_hand_search_art" name="test_new_temporal_detail_color_variation_requires_art_identity[0]" time="2.015"><failure message="AssertionError: assert None == '13906'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000002914470AA80&gt;
+index = 0
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_temporal_detail_color_variation_requires_art_identity(vision,index):
+        image=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(image,0,index,capture_source="saved_image"))
+        assert result["detail_score"]&lt;.98  # 既知失敗のRGB値は下げません。
+&gt;       assert result["detail_cid"]=="13906"
+E       AssertionError: assert None == '13906'
+
+tests\test_hand_search_art.py:36: AssertionError</failure></testcase><testcase classname="tests.test_hand_search_art" name="test_new_temporal_detail_color_variation_requires_art_identity[1]" time="2.088"><failure message="AssertionError: assert None == '13906'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x00000291447FF410&gt;
+index = 1
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_temporal_detail_color_variation_requires_art_identity(vision,index):
+        image=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(image,0,index,capture_source="saved_image"))
+        assert result["detail_score"]&lt;.98  # 既知失敗のRGB値は下げません。
+&gt;       assert result["detail_cid"]=="13906"
+E       AssertionError: assert None == '13906'
+
+tests\test_hand_search_art.py:36: AssertionError</failure></testcase><testcase classname="tests.test_hand_search_art" name="test_new_temporal_detail_color_variation_requires_art_identity[2]" time="2.162"><failure message="AssertionError: assert None == '13906'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x00000291447FE540&gt;
+index = 2
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_temporal_detail_color_variation_requires_art_identity(vision,index):
+        image=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(image,0,index,capture_source="saved_image"))
+        assert result["detail_score"]&lt;.98  # 既知失敗のRGB値は下げません。
+&gt;       assert result["detail_cid"]=="13906"
+E       AssertionError: assert None == '13906'
+
+tests\test_hand_search_art.py:36: AssertionError</failure></testcase><testcase classname="tests.test_hand_search_art" name="test_new_temporal_detail_color_variation_requires_art_identity[3]" time="2.219"><failure message="AssertionError: assert None == '13906'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x00000291446D4C80&gt;
+index = 3
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_temporal_detail_color_variation_requires_art_identity(vision,index):
+        image=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(image,0,index,capture_source="saved_image"))
+        assert result["detail_score"]&lt;.98  # 既知失敗のRGB値は下げません。
+&gt;       assert result["detail_cid"]=="13906"
+E       AssertionError: assert None == '13906'
+
+tests\test_hand_search_art.py:36: AssertionError</failure></testcase><testcase classname="tests.test_hand_search_art" name="test_new_temporal_detail_color_variation_requires_art_identity[4]" time="2.180"><failure message="AssertionError: assert None == '13906'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x000002914487EA50&gt;
+index = 4
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_temporal_detail_color_variation_requires_art_identity(vision,index):
+        image=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(image,0,index,capture_source="saved_image"))
+        assert result["detail_score"]&lt;.98  # 既知失敗のRGB値は下げません。
+&gt;       assert result["detail_cid"]=="13906"
+E       AssertionError: assert None == '13906'
+
+tests\test_hand_search_art.py:36: AssertionError</failure></testcase><testcase classname="tests.test_hand_search_art" name="test_new_temporal_detail_color_variation_requires_art_identity[5]" time="1.900"><failure message="AssertionError: assert None == '13906'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x00000291459B4E00&gt;
+index = 5
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_temporal_detail_color_variation_requires_art_identity(vision,index):
+        image=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(image,0,index,capture_source="saved_image"))
+        assert result["detail_score"]&lt;.98  # 既知失敗のRGB値は下げません。
+&gt;       assert result["detail_cid"]=="13906"
+E       AssertionError: assert None == '13906'
+
+tests\test_hand_search_art.py:36: AssertionError</failure></testcase><testcase classname="tests.test_hand_search_art" name="test_new_temporal_detail_color_variation_requires_art_identity[6]" time="2.105"><failure message="AssertionError: assert None == '13906'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x00000291459B72C0&gt;
+index = 6
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_temporal_detail_color_variation_requires_art_identity(vision,index):
+        image=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(image,0,index,capture_source="saved_image"))
+        assert result["detail_score"]&lt;.98  # 既知失敗のRGB値は下げません。
+&gt;       assert result["detail_cid"]=="13906"
+E       AssertionError: assert None == '13906'
+
+tests\test_hand_search_art.py:36: AssertionError</failure></testcase><testcase classname="tests.test_hand_search_art" name="test_new_temporal_detail_color_variation_requires_art_identity[7]" time="2.090"><failure message="AssertionError: assert None == '13906'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x0000029145A31490&gt;
+index = 7
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_temporal_detail_color_variation_requires_art_identity(vision,index):
+        image=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(image,0,index,capture_source="saved_image"))
+        assert result["detail_score"]&lt;.98  # 既知失敗のRGB値は下げません。
+&gt;       assert result["detail_cid"]=="13906"
+E       AssertionError: assert None == '13906'
+
+tests\test_hand_search_art.py:36: AssertionError</failure></testcase><testcase classname="tests.test_hand_search_art" name="test_new_temporal_detail_color_variation_requires_art_identity[8]" time="2.181"><failure message="AssertionError: assert None == '13906'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x0000029145A339B0&gt;
+index = 8
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_temporal_detail_color_variation_requires_art_identity(vision,index):
+        image=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(image,0,index,capture_source="saved_image"))
+        assert result["detail_score"]&lt;.98  # 既知失敗のRGB値は下げません。
+&gt;       assert result["detail_cid"]=="13906"
+E       AssertionError: assert None == '13906'
+
+tests\test_hand_search_art.py:36: AssertionError</failure></testcase><testcase classname="tests.test_hand_search_art" name="test_new_temporal_detail_color_variation_requires_art_identity[9]" time="2.086"><failure message="AssertionError: assert None == '13906'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x0000029145AA1B50&gt;
+index = 9
+
+    @pytest.mark.parametrize("index",range(10))
+    def test_new_temporal_detail_color_variation_requires_art_identity(vision,index):
+        image=read_image(DATA/"DRAGONDARK_SOURCE_TEMPORAL_FIXED_v1_20261006/menu"/f"frame-{index:04d}.png")
+        result=vision.recognize(Frame(image,0,index,capture_source="saved_image"))
+        assert result["detail_score"]&lt;.98  # 既知失敗のRGB値は下げません。
+&gt;       assert result["detail_cid"]=="13906"
+E       AssertionError: assert None == '13906'
+
+tests\test_hand_search_art.py:36: AssertionError</failure></testcase><testcase classname="tests.test_hand_search_art" name="test_wrong_cids_are_rejected_by_both_rgb_and_art_branches[CARD_NAME_OCR_EXPLORATION_20261006/ash-first]" time="1.957"><failure message="KeyError: 'detail_art'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x0000029145AF4170&gt;
+folder = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/ash-first')
+
+    @pytest.mark.parametrize("folder",["CARD_NAME_OCR_EXPLORATION_20261006/ash-first",
+        "CARD_NAME_OCR_EXPLORATION_20261006/driver-first","MAXXC_MENU_TRAIN_v1_full",
+        "MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu"])
+    def test_wrong_cids_are_rejected_by_both_rgb_and_art_branches(vision,folder):
+        folder=DATA/folder;manifest=json.loads((folder/"manifest.json").read_text(encoding="utf-8"))
+        for item in manifest["frames"]:
+            result=vision.recognize(Frame(read_image(folder/item["file"]),0,0,capture_source="saved_image"))
+            assert result["detail_score"]&lt;.98
+            assert result["detail_cid"] is None
+&gt;           assert not result["detail_art"]["accepted"]
+                       ^^^^^^^^^^^^^^^^^^^^
+E           KeyError: 'detail_art'
+
+tests\test_hand_search_art.py:49: KeyError</failure></testcase><testcase classname="tests.test_hand_search_art" name="test_wrong_cids_are_rejected_by_both_rgb_and_art_branches[CARD_NAME_OCR_EXPLORATION_20261006/driver-first]" time="2.143"><failure message="KeyError: 'detail_art'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x0000029145AF6300&gt;
+folder = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/driver-first')
+
+    @pytest.mark.parametrize("folder",["CARD_NAME_OCR_EXPLORATION_20261006/ash-first",
+        "CARD_NAME_OCR_EXPLORATION_20261006/driver-first","MAXXC_MENU_TRAIN_v1_full",
+        "MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu"])
+    def test_wrong_cids_are_rejected_by_both_rgb_and_art_branches(vision,folder):
+        folder=DATA/folder;manifest=json.loads((folder/"manifest.json").read_text(encoding="utf-8"))
+        for item in manifest["frames"]:
+            result=vision.recognize(Frame(read_image(folder/item["file"]),0,0,capture_source="saved_image"))
+            assert result["detail_score"]&lt;.98
+            assert result["detail_cid"] is None
+&gt;           assert not result["detail_art"]["accepted"]
+                       ^^^^^^^^^^^^^^^^^^^^
+E           KeyError: 'detail_art'
+
+tests\test_hand_search_art.py:49: KeyError</failure></testcase><testcase classname="tests.test_hand_search_art" name="test_wrong_cids_are_rejected_by_both_rgb_and_art_branches[MAXXC_MENU_TRAIN_v1_full]" time="1.985"><failure message="KeyError: 'detail_art'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x0000029146510620&gt;
+folder = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full')
+
+    @pytest.mark.parametrize("folder",["CARD_NAME_OCR_EXPLORATION_20261006/ash-first",
+        "CARD_NAME_OCR_EXPLORATION_20261006/driver-first","MAXXC_MENU_TRAIN_v1_full",
+        "MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu"])
+    def test_wrong_cids_are_rejected_by_both_rgb_and_art_branches(vision,folder):
+        folder=DATA/folder;manifest=json.loads((folder/"manifest.json").read_text(encoding="utf-8"))
+        for item in manifest["frames"]:
+            result=vision.recognize(Frame(read_image(folder/item["file"]),0,0,capture_source="saved_image"))
+            assert result["detail_score"]&lt;.98
+            assert result["detail_cid"] is None
+&gt;           assert not result["detail_art"]["accepted"]
+                       ^^^^^^^^^^^^^^^^^^^^
+E           KeyError: 'detail_art'
+
+tests\test_hand_search_art.py:49: KeyError</failure></testcase><testcase classname="tests.test_hand_search_art" name="test_wrong_cids_are_rejected_by_both_rgb_and_art_branches[MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu]" time="2.132"><failure message="KeyError: 'detail_art'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x0000029146512C30&gt;
+folder = WindowsPath('C:/Users/user/Documents/ChatGPT/マスターデュエル自動操作/advisor/artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu')
+
+    @pytest.mark.parametrize("folder",["CARD_NAME_OCR_EXPLORATION_20261006/ash-first",
+        "CARD_NAME_OCR_EXPLORATION_20261006/driver-first","MAXXC_MENU_TRAIN_v1_full",
+        "MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu"])
+    def test_wrong_cids_are_rejected_by_both_rgb_and_art_branches(vision,folder):
+        folder=DATA/folder;manifest=json.loads((folder/"manifest.json").read_text(encoding="utf-8"))
+        for item in manifest["frames"]:
+            result=vision.recognize(Frame(read_image(folder/item["file"]),0,0,capture_source="saved_image"))
+            assert result["detail_score"]&lt;.98
+            assert result["detail_cid"] is None
+&gt;           assert not result["detail_art"]["accepted"]
+                       ^^^^^^^^^^^^^^^^^^^^
+E           KeyError: 'detail_art'
+
+tests\test_hand_search_art.py:49: KeyError</failure></testcase><testcase classname="tests.test_hand_search_art" name="test_legacy_reference_still_uses_rgb_and_known_low_spread_stays_unknown" time="2.039"><failure message="KeyError: 'detail_recognition'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x0000029146511F70&gt;
+
+    def test_legacy_reference_still_uses_rgb_and_known_low_spread_stays_unknown(vision):
+        image=read_image(DATA/"DRAGONDARK_SEARCH_TRAIN_v1_20261006/effect-menu-before/frame-0000.png")
+        result=vision.recognize(Frame(image,0,0,capture_source="saved_image"))
+&gt;       assert result["detail_score"]&gt;=.98 and result["detail_recognition"]=="rgb"
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'detail_recognition'
+
+tests\test_hand_search_art.py:55: KeyError</failure></testcase><testcase classname="tests.test_hand_search_art" name="test_synthetic_blank_common_frame_and_few_art_features_are_unknown[blank]" time="1.970"><failure message="KeyError: 'detail_art'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x0000029145AF7DA0&gt;
+case = 'blank'
+
+    @pytest.mark.parametrize("case",["blank","common_frame_only","few_features"])
+    def test_synthetic_blank_common_frame_and_few_art_features_are_unknown(vision,case):
+        image=np.zeros((720,1280,3),np.uint8)
+        if case=="common_frame_only":
+            # synthetic: 既知cardの共通枠だけ。実イラストを白へ置換、元assetは不変。
+            reference=read_image(vision.asset(vision.config["detail_references"][0])).copy()
+            reference[30:102,12:90]=255;image[151:301,27:130]=reference
+        elif case=="few_features":
+            image[151:301,27:130]=255
+            image[210:212,75:77]=0
+        result=vision.recognize(Frame(image,0,0,capture_source="saved_image"))
+&gt;       assert result["detail_cid"] is None and not result["detail_art"]["accepted"]
+                                                    ^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'detail_art'
+
+tests\test_hand_search_art.py:72: KeyError</failure></testcase><testcase classname="tests.test_hand_search_art" name="test_synthetic_blank_common_frame_and_few_art_features_are_unknown[common_frame_only]" time="2.186"><failure message="KeyError: 'detail_art'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x0000029145AF51F0&gt;
+case = 'common_frame_only'
+
+    @pytest.mark.parametrize("case",["blank","common_frame_only","few_features"])
+    def test_synthetic_blank_common_frame_and_few_art_features_are_unknown(vision,case):
+        image=np.zeros((720,1280,3),np.uint8)
+        if case=="common_frame_only":
+            # synthetic: 既知cardの共通枠だけ。実イラストを白へ置換、元assetは不変。
+            reference=read_image(vision.asset(vision.config["detail_references"][0])).copy()
+            reference[30:102,12:90]=255;image[151:301,27:130]=reference
+        elif case=="few_features":
+            image[151:301,27:130]=255
+            image[210:212,75:77]=0
+        result=vision.recognize(Frame(image,0,0,capture_source="saved_image"))
+&gt;       assert result["detail_cid"] is None and not result["detail_art"]["accepted"]
+                                                    ^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'detail_art'
+
+tests\test_hand_search_art.py:72: KeyError</failure></testcase><testcase classname="tests.test_hand_search_art" name="test_synthetic_blank_common_frame_and_few_art_features_are_unknown[few_features]" time="2.089"><failure message="KeyError: 'detail_art'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x0000029145AA31D0&gt;
+case = 'few_features'
+
+    @pytest.mark.parametrize("case",["blank","common_frame_only","few_features"])
+    def test_synthetic_blank_common_frame_and_few_art_features_are_unknown(vision,case):
+        image=np.zeros((720,1280,3),np.uint8)
+        if case=="common_frame_only":
+            # synthetic: 既知cardの共通枠だけ。実イラストを白へ置換、元assetは不変。
+            reference=read_image(vision.asset(vision.config["detail_references"][0])).copy()
+            reference[30:102,12:90]=255;image[151:301,27:130]=reference
+        elif case=="few_features":
+            image[151:301,27:130]=255
+            image[210:212,75:77]=0
+        result=vision.recognize(Frame(image,0,0,capture_source="saved_image"))
+&gt;       assert result["detail_cid"] is None and not result["detail_art"]["accepted"]
+                                                    ^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'detail_art'
+
+tests\test_hand_search_art.py:72: KeyError</failure></testcase><testcase classname="tests.test_hand_search_art" name="test_art_method_and_reference_hashes_are_in_provenance" time="2.043"><failure message="KeyError: 'detail_recognition'">vision = &lt;master_duel_advisor.hand_search.HandSearchVision object at 0x0000029145AA0350&gt;
+
+    def test_art_method_and_reference_hashes_are_in_provenance(vision):
+&gt;       provenance=vision.provenance()["detail_recognition"]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'detail_recognition'
+
+tests\test_hand_search_art.py:76: KeyError</failure></testcase></testsuite></testsuites>

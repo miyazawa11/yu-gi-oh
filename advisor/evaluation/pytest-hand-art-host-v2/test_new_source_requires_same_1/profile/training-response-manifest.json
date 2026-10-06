@@ -1,0 +1,2962 @@
+{
+  "schema": "typed-response-training-v1",
+  "sources": [
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0000.png",
+      "sha256": "a21ebf409fcdef181d68c86656fd7f6eda578379c1de55bd80b0a74d671cd1a1",
+      "capture_sequence": 62,
+      "captured_at_monotonic": 73809.953,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_summon_success_000.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0001.png",
+      "sha256": "00b82010bb89d13d5bc3faeafb399c3a3855176f5ee8c73bd734238420e1d7fc",
+      "capture_sequence": 63,
+      "captured_at_monotonic": 73810.109,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_summon_success_001.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0002.png",
+      "sha256": "edf9b41b4badf3470a3342fc05fcb26d773d108227b57dd791a9c1a5260d0f2f",
+      "capture_sequence": 64,
+      "captured_at_monotonic": 73810.312,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_summon_success_002.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0003.png",
+      "sha256": "ee2f88b47bedd19e1a5e11d23910e5c4a8acee3c3ad932613bde0ecc5dd8aa4b",
+      "capture_sequence": 65,
+      "captured_at_monotonic": 73810.484,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_summon_success_003.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0004.png",
+      "sha256": "8b84874cb9dbf0be7cc1778f9f9bcd3b5b80708d49f2d286182c868e38b08508",
+      "capture_sequence": 66,
+      "captured_at_monotonic": 73810.656,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_summon_success_004.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0005.png",
+      "sha256": "db85a04f46ce33f5a2b4b22f877fb31b14da25b7bfae4a0a8de91a1515150242",
+      "capture_sequence": 67,
+      "captured_at_monotonic": 73810.843,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_summon_success_005.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0006.png",
+      "sha256": "73da6a5af94318bb6d792e561318e4e0450bd047e8ce9b4bb8ec3e545ef5a0b4",
+      "capture_sequence": 68,
+      "captured_at_monotonic": 73811.015,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_summon_success_006.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0007.png",
+      "sha256": "2b07655352c1d1fb5e7132c39329637e2eaf9892060d9c2bb9a3b4412d572b8d",
+      "capture_sequence": 69,
+      "captured_at_monotonic": 73811.203,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_summon_success_007.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0008.png",
+      "sha256": "480f40736c33238a15cd4d1fab9140601e98b5341827b9fcb7102135760924e7",
+      "capture_sequence": 70,
+      "captured_at_monotonic": 73811.39,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_summon_success_008.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0009.png",
+      "sha256": "d164adb13d9fd62c77a40eea57751f3e905f6e5a364dde71efd8ce11fc5ebb71",
+      "capture_sequence": 71,
+      "captured_at_monotonic": 73811.562,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_summon_success_009.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0000.png",
+      "sha256": "a21ebf409fcdef181d68c86656fd7f6eda578379c1de55bd80b0a74d671cd1a1",
+      "capture_sequence": 62,
+      "captured_at_monotonic": 73809.953,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_summon_success_000.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0001.png",
+      "sha256": "00b82010bb89d13d5bc3faeafb399c3a3855176f5ee8c73bd734238420e1d7fc",
+      "capture_sequence": 63,
+      "captured_at_monotonic": 73810.109,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_summon_success_001.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0002.png",
+      "sha256": "edf9b41b4badf3470a3342fc05fcb26d773d108227b57dd791a9c1a5260d0f2f",
+      "capture_sequence": 64,
+      "captured_at_monotonic": 73810.312,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_summon_success_002.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0003.png",
+      "sha256": "ee2f88b47bedd19e1a5e11d23910e5c4a8acee3c3ad932613bde0ecc5dd8aa4b",
+      "capture_sequence": 65,
+      "captured_at_monotonic": 73810.484,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_summon_success_003.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0004.png",
+      "sha256": "8b84874cb9dbf0be7cc1778f9f9bcd3b5b80708d49f2d286182c868e38b08508",
+      "capture_sequence": 66,
+      "captured_at_monotonic": 73810.656,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_summon_success_004.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0005.png",
+      "sha256": "db85a04f46ce33f5a2b4b22f877fb31b14da25b7bfae4a0a8de91a1515150242",
+      "capture_sequence": 67,
+      "captured_at_monotonic": 73810.843,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_summon_success_005.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0006.png",
+      "sha256": "73da6a5af94318bb6d792e561318e4e0450bd047e8ce9b4bb8ec3e545ef5a0b4",
+      "capture_sequence": 68,
+      "captured_at_monotonic": 73811.015,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_summon_success_006.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0007.png",
+      "sha256": "2b07655352c1d1fb5e7132c39329637e2eaf9892060d9c2bb9a3b4412d572b8d",
+      "capture_sequence": 69,
+      "captured_at_monotonic": 73811.203,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_summon_success_007.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0008.png",
+      "sha256": "480f40736c33238a15cd4d1fab9140601e98b5341827b9fcb7102135760924e7",
+      "capture_sequence": 70,
+      "captured_at_monotonic": 73811.39,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_summon_success_008.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0009.png",
+      "sha256": "d164adb13d9fd62c77a40eea57751f3e905f6e5a364dde71efd8ce11fc5ebb71",
+      "capture_sequence": 71,
+      "captured_at_monotonic": 73811.562,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_summon_success_009.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0000.png",
+      "sha256": "a21ebf409fcdef181d68c86656fd7f6eda578379c1de55bd80b0a74d671cd1a1",
+      "capture_sequence": 62,
+      "captured_at_monotonic": 73809.953,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_summon_success_000.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0001.png",
+      "sha256": "00b82010bb89d13d5bc3faeafb399c3a3855176f5ee8c73bd734238420e1d7fc",
+      "capture_sequence": 63,
+      "captured_at_monotonic": 73810.109,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_summon_success_001.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0002.png",
+      "sha256": "edf9b41b4badf3470a3342fc05fcb26d773d108227b57dd791a9c1a5260d0f2f",
+      "capture_sequence": 64,
+      "captured_at_monotonic": 73810.312,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_summon_success_002.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0003.png",
+      "sha256": "ee2f88b47bedd19e1a5e11d23910e5c4a8acee3c3ad932613bde0ecc5dd8aa4b",
+      "capture_sequence": 65,
+      "captured_at_monotonic": 73810.484,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_summon_success_003.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0004.png",
+      "sha256": "8b84874cb9dbf0be7cc1778f9f9bcd3b5b80708d49f2d286182c868e38b08508",
+      "capture_sequence": 66,
+      "captured_at_monotonic": 73810.656,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_summon_success_004.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0005.png",
+      "sha256": "db85a04f46ce33f5a2b4b22f877fb31b14da25b7bfae4a0a8de91a1515150242",
+      "capture_sequence": 67,
+      "captured_at_monotonic": 73810.843,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_summon_success_005.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0006.png",
+      "sha256": "73da6a5af94318bb6d792e561318e4e0450bd047e8ce9b4bb8ec3e545ef5a0b4",
+      "capture_sequence": 68,
+      "captured_at_monotonic": 73811.015,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_summon_success_006.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0007.png",
+      "sha256": "2b07655352c1d1fb5e7132c39329637e2eaf9892060d9c2bb9a3b4412d572b8d",
+      "capture_sequence": 69,
+      "captured_at_monotonic": 73811.203,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_summon_success_007.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0008.png",
+      "sha256": "480f40736c33238a15cd4d1fab9140601e98b5341827b9fcb7102135760924e7",
+      "capture_sequence": 70,
+      "captured_at_monotonic": 73811.39,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_summon_success_008.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0009.png",
+      "sha256": "d164adb13d9fd62c77a40eea57751f3e905f6e5a364dde71efd8ce11fc5ebb71",
+      "capture_sequence": 71,
+      "captured_at_monotonic": 73811.562,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_summon_success_009.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0000.png",
+      "sha256": "a21ebf409fcdef181d68c86656fd7f6eda578379c1de55bd80b0a74d671cd1a1",
+      "capture_sequence": 62,
+      "captured_at_monotonic": 73809.953,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_summon_success_000.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0001.png",
+      "sha256": "00b82010bb89d13d5bc3faeafb399c3a3855176f5ee8c73bd734238420e1d7fc",
+      "capture_sequence": 63,
+      "captured_at_monotonic": 73810.109,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_summon_success_001.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0002.png",
+      "sha256": "edf9b41b4badf3470a3342fc05fcb26d773d108227b57dd791a9c1a5260d0f2f",
+      "capture_sequence": 64,
+      "captured_at_monotonic": 73810.312,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_summon_success_002.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0003.png",
+      "sha256": "ee2f88b47bedd19e1a5e11d23910e5c4a8acee3c3ad932613bde0ecc5dd8aa4b",
+      "capture_sequence": 65,
+      "captured_at_monotonic": 73810.484,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_summon_success_003.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0004.png",
+      "sha256": "8b84874cb9dbf0be7cc1778f9f9bcd3b5b80708d49f2d286182c868e38b08508",
+      "capture_sequence": 66,
+      "captured_at_monotonic": 73810.656,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_summon_success_004.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0005.png",
+      "sha256": "db85a04f46ce33f5a2b4b22f877fb31b14da25b7bfae4a0a8de91a1515150242",
+      "capture_sequence": 67,
+      "captured_at_monotonic": 73810.843,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_summon_success_005.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0006.png",
+      "sha256": "73da6a5af94318bb6d792e561318e4e0450bd047e8ce9b4bb8ec3e545ef5a0b4",
+      "capture_sequence": 68,
+      "captured_at_monotonic": 73811.015,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_summon_success_006.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0007.png",
+      "sha256": "2b07655352c1d1fb5e7132c39329637e2eaf9892060d9c2bb9a3b4412d572b8d",
+      "capture_sequence": 69,
+      "captured_at_monotonic": 73811.203,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_summon_success_007.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0008.png",
+      "sha256": "480f40736c33238a15cd4d1fab9140601e98b5341827b9fcb7102135760924e7",
+      "capture_sequence": 70,
+      "captured_at_monotonic": 73811.39,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_summon_success_008.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0009.png",
+      "sha256": "d164adb13d9fd62c77a40eea57751f3e905f6e5a364dde71efd8ce11fc5ebb71",
+      "capture_sequence": 71,
+      "captured_at_monotonic": 73811.562,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_summon_success_009.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0000.png",
+      "sha256": "a21ebf409fcdef181d68c86656fd7f6eda578379c1de55bd80b0a74d671cd1a1",
+      "capture_sequence": 62,
+      "captured_at_monotonic": 73809.953,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_summon_success_000.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0001.png",
+      "sha256": "00b82010bb89d13d5bc3faeafb399c3a3855176f5ee8c73bd734238420e1d7fc",
+      "capture_sequence": 63,
+      "captured_at_monotonic": 73810.109,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_summon_success_001.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0002.png",
+      "sha256": "edf9b41b4badf3470a3342fc05fcb26d773d108227b57dd791a9c1a5260d0f2f",
+      "capture_sequence": 64,
+      "captured_at_monotonic": 73810.312,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_summon_success_002.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0003.png",
+      "sha256": "ee2f88b47bedd19e1a5e11d23910e5c4a8acee3c3ad932613bde0ecc5dd8aa4b",
+      "capture_sequence": 65,
+      "captured_at_monotonic": 73810.484,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_summon_success_003.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0004.png",
+      "sha256": "8b84874cb9dbf0be7cc1778f9f9bcd3b5b80708d49f2d286182c868e38b08508",
+      "capture_sequence": 66,
+      "captured_at_monotonic": 73810.656,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_summon_success_004.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0005.png",
+      "sha256": "db85a04f46ce33f5a2b4b22f877fb31b14da25b7bfae4a0a8de91a1515150242",
+      "capture_sequence": 67,
+      "captured_at_monotonic": 73810.843,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_summon_success_005.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0006.png",
+      "sha256": "73da6a5af94318bb6d792e561318e4e0450bd047e8ce9b4bb8ec3e545ef5a0b4",
+      "capture_sequence": 68,
+      "captured_at_monotonic": 73811.015,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_summon_success_006.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0007.png",
+      "sha256": "2b07655352c1d1fb5e7132c39329637e2eaf9892060d9c2bb9a3b4412d572b8d",
+      "capture_sequence": 69,
+      "captured_at_monotonic": 73811.203,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_summon_success_007.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0008.png",
+      "sha256": "480f40736c33238a15cd4d1fab9140601e98b5341827b9fcb7102135760924e7",
+      "capture_sequence": 70,
+      "captured_at_monotonic": 73811.39,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_summon_success_008.png"
+    },
+    {
+      "source_stage": "summon-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-before\\frame-0009.png",
+      "sha256": "d164adb13d9fd62c77a40eea57751f3e905f6e5a364dde71efd8ce11fc5ebb71",
+      "capture_sequence": 71,
+      "captured_at_monotonic": 73811.562,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_summon_success_009.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0000.png",
+      "sha256": "d33b71a4da30eb3b47c7fcf89be7bf5f1b6136c2d48e632a2bf0376f50a2fb89",
+      "capture_sequence": 29,
+      "captured_at_monotonic": 73465.828,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_000.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0001.png",
+      "sha256": "36a1d1cb0bbe416752b8289e70ace92db80291025a0c0aecb5d09913cdaeda26",
+      "capture_sequence": 30,
+      "captured_at_monotonic": 73466.015,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_001.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0002.png",
+      "sha256": "81d8b98fdd1634be7e0bf9aa28e165399c17bcb8599cda9ba354bf14350e4505",
+      "capture_sequence": 31,
+      "captured_at_monotonic": 73466.187,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_002.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0003.png",
+      "sha256": "d8d1d3ccd0a396b6abdfaea581a89ec2d89781e0f31fef7f073c025475764401",
+      "capture_sequence": 32,
+      "captured_at_monotonic": 73466.359,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_003.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0004.png",
+      "sha256": "acc3cfd68dfb75e3a35efc5f2507da049fba174f421d0792e26cf9d36bc1a31c",
+      "capture_sequence": 33,
+      "captured_at_monotonic": 73466.546,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_004.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0005.png",
+      "sha256": "9f518e770d219cbe93e0cbe9090757afb271525979e4a268424ba047933f5464",
+      "capture_sequence": 34,
+      "captured_at_monotonic": 73466.718,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_005.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0006.png",
+      "sha256": "5c41dc8597e6930a6cb7e3c79e5ee53c203a98b2c33653dc28e94c2a96f38200",
+      "capture_sequence": 35,
+      "captured_at_monotonic": 73466.906,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_006.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0007.png",
+      "sha256": "a45f1689800c38043383b0d324c14c1b96c252189a20aa03e794f0ebc6358f4b",
+      "capture_sequence": 36,
+      "captured_at_monotonic": 73467.093,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_007.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0008.png",
+      "sha256": "c41accaf13195c87df9f74119810824b84de1a70bc7be3d112d0631ea4ae244d",
+      "capture_sequence": 37,
+      "captured_at_monotonic": 73467.265,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_008.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0009.png",
+      "sha256": "a9f002de3b0301dd4815ea28febcf893da089a106b90bbb27b214988591efae7",
+      "capture_sequence": 38,
+      "captured_at_monotonic": 73467.453,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_009.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0000.png",
+      "sha256": "20519d762222052b59fb2dbc54d838e52558b84e1485e6ab01c2e8fefb9b6484",
+      "capture_sequence": 72,
+      "captured_at_monotonic": 73844.718,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_010.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0001.png",
+      "sha256": "7b5a332d10e767319e9331550b2a03d2c64ba6928979b545cd731c97f542675b",
+      "capture_sequence": 73,
+      "captured_at_monotonic": 73844.89,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_011.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0002.png",
+      "sha256": "bbaa83cf2d1c71b845bccb23c4ab39c7a30a4fb70bd5a178bcc06dab107d5125",
+      "capture_sequence": 74,
+      "captured_at_monotonic": 73845.078,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_012.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0003.png",
+      "sha256": "598e9d1efb5b58847578dcbc9c6ae01322b45ddab87c2138df2416ca7ddc744d",
+      "capture_sequence": 75,
+      "captured_at_monotonic": 73845.265,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_013.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0004.png",
+      "sha256": "1cc3ea3006706341732231e10d9eab7af7efbb3f4a3da4a25bf9b4d005582e8d",
+      "capture_sequence": 76,
+      "captured_at_monotonic": 73845.421,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_014.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0005.png",
+      "sha256": "d51c0af40577149394172de7af34402c8b99c690393748c3462f284ca65d0949",
+      "capture_sequence": 77,
+      "captured_at_monotonic": 73845.609,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_015.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0006.png",
+      "sha256": "c7e08967d627c3f72f00604ff58d86da857490eb8ce586f15ad69868e7741160",
+      "capture_sequence": 78,
+      "captured_at_monotonic": 73845.781,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_016.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0007.png",
+      "sha256": "f26541bc0e7476eef40f73e49e2fd9f51a897577abcaed8bc93234ffc937d205",
+      "capture_sequence": 79,
+      "captured_at_monotonic": 73845.968,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_017.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0008.png",
+      "sha256": "bce8a8899b7851a14631162b0fb06ebf23a7a6ec82b6143ad36356ef6178e758",
+      "capture_sequence": 80,
+      "captured_at_monotonic": 73846.156,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_018.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0009.png",
+      "sha256": "dd53d427696bd6bc14575a9614dcbe18fc2894305f9d0109f54813dee4e0cef7",
+      "capture_sequence": 81,
+      "captured_at_monotonic": 73846.328,
+      "roi": [
+        500,
+        449,
+        267,
+        34
+      ],
+      "asset": "response_fact_response_prompt_opponent_turn_end_019.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0000.png",
+      "sha256": "d33b71a4da30eb3b47c7fcf89be7bf5f1b6136c2d48e632a2bf0376f50a2fb89",
+      "capture_sequence": 29,
+      "captured_at_monotonic": 73465.828,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_000.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0001.png",
+      "sha256": "36a1d1cb0bbe416752b8289e70ace92db80291025a0c0aecb5d09913cdaeda26",
+      "capture_sequence": 30,
+      "captured_at_monotonic": 73466.015,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_001.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0002.png",
+      "sha256": "81d8b98fdd1634be7e0bf9aa28e165399c17bcb8599cda9ba354bf14350e4505",
+      "capture_sequence": 31,
+      "captured_at_monotonic": 73466.187,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_002.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0003.png",
+      "sha256": "d8d1d3ccd0a396b6abdfaea581a89ec2d89781e0f31fef7f073c025475764401",
+      "capture_sequence": 32,
+      "captured_at_monotonic": 73466.359,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_003.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0004.png",
+      "sha256": "acc3cfd68dfb75e3a35efc5f2507da049fba174f421d0792e26cf9d36bc1a31c",
+      "capture_sequence": 33,
+      "captured_at_monotonic": 73466.546,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_004.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0005.png",
+      "sha256": "9f518e770d219cbe93e0cbe9090757afb271525979e4a268424ba047933f5464",
+      "capture_sequence": 34,
+      "captured_at_monotonic": 73466.718,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_005.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0006.png",
+      "sha256": "5c41dc8597e6930a6cb7e3c79e5ee53c203a98b2c33653dc28e94c2a96f38200",
+      "capture_sequence": 35,
+      "captured_at_monotonic": 73466.906,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_006.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0007.png",
+      "sha256": "a45f1689800c38043383b0d324c14c1b96c252189a20aa03e794f0ebc6358f4b",
+      "capture_sequence": 36,
+      "captured_at_monotonic": 73467.093,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_007.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0008.png",
+      "sha256": "c41accaf13195c87df9f74119810824b84de1a70bc7be3d112d0631ea4ae244d",
+      "capture_sequence": 37,
+      "captured_at_monotonic": 73467.265,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_008.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0009.png",
+      "sha256": "a9f002de3b0301dd4815ea28febcf893da089a106b90bbb27b214988591efae7",
+      "capture_sequence": 38,
+      "captured_at_monotonic": 73467.453,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_009.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0000.png",
+      "sha256": "20519d762222052b59fb2dbc54d838e52558b84e1485e6ab01c2e8fefb9b6484",
+      "capture_sequence": 72,
+      "captured_at_monotonic": 73844.718,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_010.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0001.png",
+      "sha256": "7b5a332d10e767319e9331550b2a03d2c64ba6928979b545cd731c97f542675b",
+      "capture_sequence": 73,
+      "captured_at_monotonic": 73844.89,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_011.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0002.png",
+      "sha256": "bbaa83cf2d1c71b845bccb23c4ab39c7a30a4fb70bd5a178bcc06dab107d5125",
+      "capture_sequence": 74,
+      "captured_at_monotonic": 73845.078,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_012.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0003.png",
+      "sha256": "598e9d1efb5b58847578dcbc9c6ae01322b45ddab87c2138df2416ca7ddc744d",
+      "capture_sequence": 75,
+      "captured_at_monotonic": 73845.265,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_013.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0004.png",
+      "sha256": "1cc3ea3006706341732231e10d9eab7af7efbb3f4a3da4a25bf9b4d005582e8d",
+      "capture_sequence": 76,
+      "captured_at_monotonic": 73845.421,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_014.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0005.png",
+      "sha256": "d51c0af40577149394172de7af34402c8b99c690393748c3462f284ca65d0949",
+      "capture_sequence": 77,
+      "captured_at_monotonic": 73845.609,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_015.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0006.png",
+      "sha256": "c7e08967d627c3f72f00604ff58d86da857490eb8ce586f15ad69868e7741160",
+      "capture_sequence": 78,
+      "captured_at_monotonic": 73845.781,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_016.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0007.png",
+      "sha256": "f26541bc0e7476eef40f73e49e2fd9f51a897577abcaed8bc93234ffc937d205",
+      "capture_sequence": 79,
+      "captured_at_monotonic": 73845.968,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_017.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0008.png",
+      "sha256": "bce8a8899b7851a14631162b0fb06ebf23a7a6ec82b6143ad36356ef6178e758",
+      "capture_sequence": 80,
+      "captured_at_monotonic": 73846.156,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_018.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0009.png",
+      "sha256": "dd53d427696bd6bc14575a9614dcbe18fc2894305f9d0109f54813dee4e0cef7",
+      "capture_sequence": 81,
+      "captured_at_monotonic": 73846.328,
+      "roi": [
+        501,
+        449,
+        263,
+        17
+      ],
+      "asset": "response_fact_response_phrase_opponent_turn_end_019.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0000.png",
+      "sha256": "d33b71a4da30eb3b47c7fcf89be7bf5f1b6136c2d48e632a2bf0376f50a2fb89",
+      "capture_sequence": 29,
+      "captured_at_monotonic": 73465.828,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_000.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0001.png",
+      "sha256": "36a1d1cb0bbe416752b8289e70ace92db80291025a0c0aecb5d09913cdaeda26",
+      "capture_sequence": 30,
+      "captured_at_monotonic": 73466.015,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_001.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0002.png",
+      "sha256": "81d8b98fdd1634be7e0bf9aa28e165399c17bcb8599cda9ba354bf14350e4505",
+      "capture_sequence": 31,
+      "captured_at_monotonic": 73466.187,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_002.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0003.png",
+      "sha256": "d8d1d3ccd0a396b6abdfaea581a89ec2d89781e0f31fef7f073c025475764401",
+      "capture_sequence": 32,
+      "captured_at_monotonic": 73466.359,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_003.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0004.png",
+      "sha256": "acc3cfd68dfb75e3a35efc5f2507da049fba174f421d0792e26cf9d36bc1a31c",
+      "capture_sequence": 33,
+      "captured_at_monotonic": 73466.546,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_004.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0005.png",
+      "sha256": "9f518e770d219cbe93e0cbe9090757afb271525979e4a268424ba047933f5464",
+      "capture_sequence": 34,
+      "captured_at_monotonic": 73466.718,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_005.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0006.png",
+      "sha256": "5c41dc8597e6930a6cb7e3c79e5ee53c203a98b2c33653dc28e94c2a96f38200",
+      "capture_sequence": 35,
+      "captured_at_monotonic": 73466.906,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_006.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0007.png",
+      "sha256": "a45f1689800c38043383b0d324c14c1b96c252189a20aa03e794f0ebc6358f4b",
+      "capture_sequence": 36,
+      "captured_at_monotonic": 73467.093,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_007.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0008.png",
+      "sha256": "c41accaf13195c87df9f74119810824b84de1a70bc7be3d112d0631ea4ae244d",
+      "capture_sequence": 37,
+      "captured_at_monotonic": 73467.265,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_008.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0009.png",
+      "sha256": "a9f002de3b0301dd4815ea28febcf893da089a106b90bbb27b214988591efae7",
+      "capture_sequence": 38,
+      "captured_at_monotonic": 73467.453,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_009.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0000.png",
+      "sha256": "20519d762222052b59fb2dbc54d838e52558b84e1485e6ab01c2e8fefb9b6484",
+      "capture_sequence": 72,
+      "captured_at_monotonic": 73844.718,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_010.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0001.png",
+      "sha256": "7b5a332d10e767319e9331550b2a03d2c64ba6928979b545cd731c97f542675b",
+      "capture_sequence": 73,
+      "captured_at_monotonic": 73844.89,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_011.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0002.png",
+      "sha256": "bbaa83cf2d1c71b845bccb23c4ab39c7a30a4fb70bd5a178bcc06dab107d5125",
+      "capture_sequence": 74,
+      "captured_at_monotonic": 73845.078,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_012.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0003.png",
+      "sha256": "598e9d1efb5b58847578dcbc9c6ae01322b45ddab87c2138df2416ca7ddc744d",
+      "capture_sequence": 75,
+      "captured_at_monotonic": 73845.265,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_013.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0004.png",
+      "sha256": "1cc3ea3006706341732231e10d9eab7af7efbb3f4a3da4a25bf9b4d005582e8d",
+      "capture_sequence": 76,
+      "captured_at_monotonic": 73845.421,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_014.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0005.png",
+      "sha256": "d51c0af40577149394172de7af34402c8b99c690393748c3462f284ca65d0949",
+      "capture_sequence": 77,
+      "captured_at_monotonic": 73845.609,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_015.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0006.png",
+      "sha256": "c7e08967d627c3f72f00604ff58d86da857490eb8ce586f15ad69868e7741160",
+      "capture_sequence": 78,
+      "captured_at_monotonic": 73845.781,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_016.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0007.png",
+      "sha256": "f26541bc0e7476eef40f73e49e2fd9f51a897577abcaed8bc93234ffc937d205",
+      "capture_sequence": 79,
+      "captured_at_monotonic": 73845.968,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_017.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0008.png",
+      "sha256": "bce8a8899b7851a14631162b0fb06ebf23a7a6ec82b6143ad36356ef6178e758",
+      "capture_sequence": 80,
+      "captured_at_monotonic": 73846.156,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_018.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0009.png",
+      "sha256": "dd53d427696bd6bc14575a9614dcbe18fc2894305f9d0109f54813dee4e0cef7",
+      "capture_sequence": 81,
+      "captured_at_monotonic": 73846.328,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_badge_opponent_turn_end_019.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0000.png",
+      "sha256": "d33b71a4da30eb3b47c7fcf89be7bf5f1b6136c2d48e632a2bf0376f50a2fb89",
+      "capture_sequence": 29,
+      "captured_at_monotonic": 73465.828,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_000.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0001.png",
+      "sha256": "36a1d1cb0bbe416752b8289e70ace92db80291025a0c0aecb5d09913cdaeda26",
+      "capture_sequence": 30,
+      "captured_at_monotonic": 73466.015,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_001.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0002.png",
+      "sha256": "81d8b98fdd1634be7e0bf9aa28e165399c17bcb8599cda9ba354bf14350e4505",
+      "capture_sequence": 31,
+      "captured_at_monotonic": 73466.187,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_002.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0003.png",
+      "sha256": "d8d1d3ccd0a396b6abdfaea581a89ec2d89781e0f31fef7f073c025475764401",
+      "capture_sequence": 32,
+      "captured_at_monotonic": 73466.359,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_003.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0004.png",
+      "sha256": "acc3cfd68dfb75e3a35efc5f2507da049fba174f421d0792e26cf9d36bc1a31c",
+      "capture_sequence": 33,
+      "captured_at_monotonic": 73466.546,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_004.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0005.png",
+      "sha256": "9f518e770d219cbe93e0cbe9090757afb271525979e4a268424ba047933f5464",
+      "capture_sequence": 34,
+      "captured_at_monotonic": 73466.718,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_005.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0006.png",
+      "sha256": "5c41dc8597e6930a6cb7e3c79e5ee53c203a98b2c33653dc28e94c2a96f38200",
+      "capture_sequence": 35,
+      "captured_at_monotonic": 73466.906,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_006.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0007.png",
+      "sha256": "a45f1689800c38043383b0d324c14c1b96c252189a20aa03e794f0ebc6358f4b",
+      "capture_sequence": 36,
+      "captured_at_monotonic": 73467.093,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_007.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0008.png",
+      "sha256": "c41accaf13195c87df9f74119810824b84de1a70bc7be3d112d0631ea4ae244d",
+      "capture_sequence": 37,
+      "captured_at_monotonic": 73467.265,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_008.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0009.png",
+      "sha256": "a9f002de3b0301dd4815ea28febcf893da089a106b90bbb27b214988591efae7",
+      "capture_sequence": 38,
+      "captured_at_monotonic": 73467.453,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_009.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0000.png",
+      "sha256": "20519d762222052b59fb2dbc54d838e52558b84e1485e6ab01c2e8fefb9b6484",
+      "capture_sequence": 72,
+      "captured_at_monotonic": 73844.718,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_010.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0001.png",
+      "sha256": "7b5a332d10e767319e9331550b2a03d2c64ba6928979b545cd731c97f542675b",
+      "capture_sequence": 73,
+      "captured_at_monotonic": 73844.89,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_011.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0002.png",
+      "sha256": "bbaa83cf2d1c71b845bccb23c4ab39c7a30a4fb70bd5a178bcc06dab107d5125",
+      "capture_sequence": 74,
+      "captured_at_monotonic": 73845.078,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_012.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0003.png",
+      "sha256": "598e9d1efb5b58847578dcbc9c6ae01322b45ddab87c2138df2416ca7ddc744d",
+      "capture_sequence": 75,
+      "captured_at_monotonic": 73845.265,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_013.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0004.png",
+      "sha256": "1cc3ea3006706341732231e10d9eab7af7efbb3f4a3da4a25bf9b4d005582e8d",
+      "capture_sequence": 76,
+      "captured_at_monotonic": 73845.421,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_014.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0005.png",
+      "sha256": "d51c0af40577149394172de7af34402c8b99c690393748c3462f284ca65d0949",
+      "capture_sequence": 77,
+      "captured_at_monotonic": 73845.609,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_015.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0006.png",
+      "sha256": "c7e08967d627c3f72f00604ff58d86da857490eb8ce586f15ad69868e7741160",
+      "capture_sequence": 78,
+      "captured_at_monotonic": 73845.781,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_016.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0007.png",
+      "sha256": "f26541bc0e7476eef40f73e49e2fd9f51a897577abcaed8bc93234ffc937d205",
+      "capture_sequence": 79,
+      "captured_at_monotonic": 73845.968,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_017.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0008.png",
+      "sha256": "bce8a8899b7851a14631162b0fb06ebf23a7a6ec82b6143ad36356ef6178e758",
+      "capture_sequence": 80,
+      "captured_at_monotonic": 73846.156,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_018.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0009.png",
+      "sha256": "dd53d427696bd6bc14575a9614dcbe18fc2894305f9d0109f54813dee4e0cef7",
+      "capture_sequence": 81,
+      "captured_at_monotonic": 73846.328,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_fact_response_cancel_enabled_opponent_turn_end_019.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0000.png",
+      "sha256": "d33b71a4da30eb3b47c7fcf89be7bf5f1b6136c2d48e632a2bf0376f50a2fb89",
+      "capture_sequence": 29,
+      "captured_at_monotonic": 73465.828,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_000.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0001.png",
+      "sha256": "36a1d1cb0bbe416752b8289e70ace92db80291025a0c0aecb5d09913cdaeda26",
+      "capture_sequence": 30,
+      "captured_at_monotonic": 73466.015,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_001.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0002.png",
+      "sha256": "81d8b98fdd1634be7e0bf9aa28e165399c17bcb8599cda9ba354bf14350e4505",
+      "capture_sequence": 31,
+      "captured_at_monotonic": 73466.187,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_002.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0003.png",
+      "sha256": "d8d1d3ccd0a396b6abdfaea581a89ec2d89781e0f31fef7f073c025475764401",
+      "capture_sequence": 32,
+      "captured_at_monotonic": 73466.359,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_003.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0004.png",
+      "sha256": "acc3cfd68dfb75e3a35efc5f2507da049fba174f421d0792e26cf9d36bc1a31c",
+      "capture_sequence": 33,
+      "captured_at_monotonic": 73466.546,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_004.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0005.png",
+      "sha256": "9f518e770d219cbe93e0cbe9090757afb271525979e4a268424ba047933f5464",
+      "capture_sequence": 34,
+      "captured_at_monotonic": 73466.718,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_005.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0006.png",
+      "sha256": "5c41dc8597e6930a6cb7e3c79e5ee53c203a98b2c33653dc28e94c2a96f38200",
+      "capture_sequence": 35,
+      "captured_at_monotonic": 73466.906,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_006.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0007.png",
+      "sha256": "a45f1689800c38043383b0d324c14c1b96c252189a20aa03e794f0ebc6358f4b",
+      "capture_sequence": 36,
+      "captured_at_monotonic": 73467.093,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_007.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0008.png",
+      "sha256": "c41accaf13195c87df9f74119810824b84de1a70bc7be3d112d0631ea4ae244d",
+      "capture_sequence": 37,
+      "captured_at_monotonic": 73467.265,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_008.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0009.png",
+      "sha256": "a9f002de3b0301dd4815ea28febcf893da089a106b90bbb27b214988591efae7",
+      "capture_sequence": 38,
+      "captured_at_monotonic": 73467.453,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_009.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0000.png",
+      "sha256": "20519d762222052b59fb2dbc54d838e52558b84e1485e6ab01c2e8fefb9b6484",
+      "capture_sequence": 72,
+      "captured_at_monotonic": 73844.718,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_010.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0001.png",
+      "sha256": "7b5a332d10e767319e9331550b2a03d2c64ba6928979b545cd731c97f542675b",
+      "capture_sequence": 73,
+      "captured_at_monotonic": 73844.89,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_011.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0002.png",
+      "sha256": "bbaa83cf2d1c71b845bccb23c4ab39c7a30a4fb70bd5a178bcc06dab107d5125",
+      "capture_sequence": 74,
+      "captured_at_monotonic": 73845.078,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_012.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0003.png",
+      "sha256": "598e9d1efb5b58847578dcbc9c6ae01322b45ddab87c2138df2416ca7ddc744d",
+      "capture_sequence": 75,
+      "captured_at_monotonic": 73845.265,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_013.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0004.png",
+      "sha256": "1cc3ea3006706341732231e10d9eab7af7efbb3f4a3da4a25bf9b4d005582e8d",
+      "capture_sequence": 76,
+      "captured_at_monotonic": 73845.421,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_014.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0005.png",
+      "sha256": "d51c0af40577149394172de7af34402c8b99c690393748c3462f284ca65d0949",
+      "capture_sequence": 77,
+      "captured_at_monotonic": 73845.609,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_015.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0006.png",
+      "sha256": "c7e08967d627c3f72f00604ff58d86da857490eb8ce586f15ad69868e7741160",
+      "capture_sequence": 78,
+      "captured_at_monotonic": 73845.781,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_016.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0007.png",
+      "sha256": "f26541bc0e7476eef40f73e49e2fd9f51a897577abcaed8bc93234ffc937d205",
+      "capture_sequence": 79,
+      "captured_at_monotonic": 73845.968,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_017.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0008.png",
+      "sha256": "bce8a8899b7851a14631162b0fb06ebf23a7a6ec82b6143ad36356ef6178e758",
+      "capture_sequence": 80,
+      "captured_at_monotonic": 73846.156,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_018.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0009.png",
+      "sha256": "dd53d427696bd6bc14575a9614dcbe18fc2894305f9d0109f54813dee4e0cef7",
+      "capture_sequence": 81,
+      "captured_at_monotonic": 73846.328,
+      "roi": [
+        456,
+        661,
+        178,
+        40
+      ],
+      "asset": "response_action_cancel_opponent_turn_end_019.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0000.png",
+      "sha256": "d33b71a4da30eb3b47c7fcf89be7bf5f1b6136c2d48e632a2bf0376f50a2fb89",
+      "capture_sequence": 29,
+      "captured_at_monotonic": 73465.828,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_000.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0001.png",
+      "sha256": "36a1d1cb0bbe416752b8289e70ace92db80291025a0c0aecb5d09913cdaeda26",
+      "capture_sequence": 30,
+      "captured_at_monotonic": 73466.015,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_001.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0002.png",
+      "sha256": "81d8b98fdd1634be7e0bf9aa28e165399c17bcb8599cda9ba354bf14350e4505",
+      "capture_sequence": 31,
+      "captured_at_monotonic": 73466.187,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_002.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0003.png",
+      "sha256": "d8d1d3ccd0a396b6abdfaea581a89ec2d89781e0f31fef7f073c025475764401",
+      "capture_sequence": 32,
+      "captured_at_monotonic": 73466.359,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_003.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0004.png",
+      "sha256": "acc3cfd68dfb75e3a35efc5f2507da049fba174f421d0792e26cf9d36bc1a31c",
+      "capture_sequence": 33,
+      "captured_at_monotonic": 73466.546,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_004.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0005.png",
+      "sha256": "9f518e770d219cbe93e0cbe9090757afb271525979e4a268424ba047933f5464",
+      "capture_sequence": 34,
+      "captured_at_monotonic": 73466.718,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_005.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0006.png",
+      "sha256": "5c41dc8597e6930a6cb7e3c79e5ee53c203a98b2c33653dc28e94c2a96f38200",
+      "capture_sequence": 35,
+      "captured_at_monotonic": 73466.906,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_006.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0007.png",
+      "sha256": "a45f1689800c38043383b0d324c14c1b96c252189a20aa03e794f0ebc6358f4b",
+      "capture_sequence": 36,
+      "captured_at_monotonic": 73467.093,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_007.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0008.png",
+      "sha256": "c41accaf13195c87df9f74119810824b84de1a70bc7be3d112d0631ea4ae244d",
+      "capture_sequence": 37,
+      "captured_at_monotonic": 73467.265,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_008.png"
+    },
+    {
+      "source_stage": "end-response-before",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-before\\frame-0009.png",
+      "sha256": "a9f002de3b0301dd4815ea28febcf893da089a106b90bbb27b214988591efae7",
+      "capture_sequence": 38,
+      "captured_at_monotonic": 73467.453,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_009.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0000.png",
+      "sha256": "20519d762222052b59fb2dbc54d838e52558b84e1485e6ab01c2e8fefb9b6484",
+      "capture_sequence": 72,
+      "captured_at_monotonic": 73844.718,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_010.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0001.png",
+      "sha256": "7b5a332d10e767319e9331550b2a03d2c64ba6928979b545cd731c97f542675b",
+      "capture_sequence": 73,
+      "captured_at_monotonic": 73844.89,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_011.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0002.png",
+      "sha256": "bbaa83cf2d1c71b845bccb23c4ab39c7a30a4fb70bd5a178bcc06dab107d5125",
+      "capture_sequence": 74,
+      "captured_at_monotonic": 73845.078,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_012.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0003.png",
+      "sha256": "598e9d1efb5b58847578dcbc9c6ae01322b45ddab87c2138df2416ca7ddc744d",
+      "capture_sequence": 75,
+      "captured_at_monotonic": 73845.265,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_013.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0004.png",
+      "sha256": "1cc3ea3006706341732231e10d9eab7af7efbb3f4a3da4a25bf9b4d005582e8d",
+      "capture_sequence": 76,
+      "captured_at_monotonic": 73845.421,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_014.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0005.png",
+      "sha256": "d51c0af40577149394172de7af34402c8b99c690393748c3462f284ca65d0949",
+      "capture_sequence": 77,
+      "captured_at_monotonic": 73845.609,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_015.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0006.png",
+      "sha256": "c7e08967d627c3f72f00604ff58d86da857490eb8ce586f15ad69868e7741160",
+      "capture_sequence": 78,
+      "captured_at_monotonic": 73845.781,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_016.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0007.png",
+      "sha256": "f26541bc0e7476eef40f73e49e2fd9f51a897577abcaed8bc93234ffc937d205",
+      "capture_sequence": 79,
+      "captured_at_monotonic": 73845.968,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_017.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0008.png",
+      "sha256": "bce8a8899b7851a14631162b0fb06ebf23a7a6ec82b6143ad36356ef6178e758",
+      "capture_sequence": 80,
+      "captured_at_monotonic": 73846.156,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_018.png"
+    },
+    {
+      "source_stage": "summon-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\summon-response-after\\frame-0009.png",
+      "sha256": "dd53d427696bd6bc14575a9614dcbe18fc2894305f9d0109f54813dee4e0cef7",
+      "capture_sequence": 81,
+      "captured_at_monotonic": 73846.328,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_opponent_end_response_019.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0000.png",
+      "sha256": "2bf1e2eeef9af635a77a31c007a33a91edf5cc1ff0e36929967094aed7862816",
+      "capture_sequence": 39,
+      "captured_at_monotonic": 73501.953,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_000.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0001.png",
+      "sha256": "489d1c1ee81d819c7859b3fa57e6055c7b26ac3383a1aee1e65c5c22dd075063",
+      "capture_sequence": 40,
+      "captured_at_monotonic": 73502.062,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_001.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0002.png",
+      "sha256": "b5c243046884e07f5e99490725c3a704bd6a4fae712e6b8da2fa2690f1a069e1",
+      "capture_sequence": 41,
+      "captured_at_monotonic": 73502.156,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_002.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0003.png",
+      "sha256": "030c344fed3491783da2697f6f10d373c9ba6c227fe6c0465c52ccfc6ebaf98a",
+      "capture_sequence": 42,
+      "captured_at_monotonic": 73502.25,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_003.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0004.png",
+      "sha256": "5fa73fbffcb19f70d1c319480e6c888eaf7b6596f05824d562173aafe2ef1c09",
+      "capture_sequence": 43,
+      "captured_at_monotonic": 73502.359,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_004.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0005.png",
+      "sha256": "cf25656727b196a4781116265406dfefe8de139d1d78d7680255631b7b9adb86",
+      "capture_sequence": 44,
+      "captured_at_monotonic": 73502.453,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_005.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0006.png",
+      "sha256": "8d1d5a0261017eb8ea8cf32ef6683c79fb33a5984fd08d8d37a7a2ee0f6d2ece",
+      "capture_sequence": 45,
+      "captured_at_monotonic": 73502.546,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_006.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0007.png",
+      "sha256": "41dc6da4dcd8c4ec8f6ccf5bf7db9585e8984521af3b7c5b7c99c4ecabdc2a78",
+      "capture_sequence": 46,
+      "captured_at_monotonic": 73502.656,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_007.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0008.png",
+      "sha256": "b1d615793c7213ea8bda7c138f9462f81c270cf436030af39115a4c1c7077a57",
+      "capture_sequence": 47,
+      "captured_at_monotonic": 73502.765,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_008.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0009.png",
+      "sha256": "dce13431b582773138444218be9cbe82feb05bdf933c1a194fc598854758c5f7",
+      "capture_sequence": 48,
+      "captured_at_monotonic": 73502.859,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_009.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0010.png",
+      "sha256": "bc7ae36c439edc7cfd52600561b8d91b85654aa2e3e4d9de510cc423f9a6fcad",
+      "capture_sequence": 49,
+      "captured_at_monotonic": 73502.968,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_010.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0011.png",
+      "sha256": "8e5f3aefd7a6c15258bdce220c51a437d875edf428deca747e2c31641dc88099",
+      "capture_sequence": 50,
+      "captured_at_monotonic": 73503.046,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_011.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0012.png",
+      "sha256": "274c2b58c668069b5bcc54ac738952a453312220583ea8f907f61295167c59df",
+      "capture_sequence": 51,
+      "captured_at_monotonic": 73503.156,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_012.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0013.png",
+      "sha256": "458fe270a5662ece6ec515c30bd66abf3d1e42740734b9c6bb46e9b75605da81",
+      "capture_sequence": 52,
+      "captured_at_monotonic": 73503.265,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_013.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0014.png",
+      "sha256": "15355d680cf06668811ee5810fab708345b0068707f801ad73c113c714ba996c",
+      "capture_sequence": 53,
+      "captured_at_monotonic": 73503.359,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_014.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0015.png",
+      "sha256": "62bc57d891bf8fab950c42180a85b9d6db30efde4c38b176b5a23153f936ba2c",
+      "capture_sequence": 54,
+      "captured_at_monotonic": 73503.468,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_015.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0016.png",
+      "sha256": "a4c09361587aa7d6f7e17518bb32d028f022e1839b425548d7c99cbc2121701f",
+      "capture_sequence": 55,
+      "captured_at_monotonic": 73503.562,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_016.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0017.png",
+      "sha256": "cd439e9507bb88a9475ba9c1f4f3178eef319676c28a041a953c28ff6e306288",
+      "capture_sequence": 56,
+      "captured_at_monotonic": 73503.656,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_017.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0018.png",
+      "sha256": "2e0e498ac0a61309ba585de0975067d99ad89dc5a26edc8b2d6241996920121b",
+      "capture_sequence": 57,
+      "captured_at_monotonic": 73503.75,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_018.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0019.png",
+      "sha256": "9f6d8d844477d72be65f055e9716fffb82752fec8be5aac4c23bfc18d689441a",
+      "capture_sequence": 58,
+      "captured_at_monotonic": 73503.859,
+      "roi": [
+        425,
+        440,
+        427,
+        42
+      ],
+      "asset": "response_fact_response_modal_absent_019.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0000.png",
+      "sha256": "2bf1e2eeef9af635a77a31c007a33a91edf5cc1ff0e36929967094aed7862816",
+      "capture_sequence": 39,
+      "captured_at_monotonic": 73501.953,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_000.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0001.png",
+      "sha256": "489d1c1ee81d819c7859b3fa57e6055c7b26ac3383a1aee1e65c5c22dd075063",
+      "capture_sequence": 40,
+      "captured_at_monotonic": 73502.062,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_001.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0002.png",
+      "sha256": "b5c243046884e07f5e99490725c3a704bd6a4fae712e6b8da2fa2690f1a069e1",
+      "capture_sequence": 41,
+      "captured_at_monotonic": 73502.156,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_002.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0003.png",
+      "sha256": "030c344fed3491783da2697f6f10d373c9ba6c227fe6c0465c52ccfc6ebaf98a",
+      "capture_sequence": 42,
+      "captured_at_monotonic": 73502.25,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_003.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0004.png",
+      "sha256": "5fa73fbffcb19f70d1c319480e6c888eaf7b6596f05824d562173aafe2ef1c09",
+      "capture_sequence": 43,
+      "captured_at_monotonic": 73502.359,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_004.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0005.png",
+      "sha256": "cf25656727b196a4781116265406dfefe8de139d1d78d7680255631b7b9adb86",
+      "capture_sequence": 44,
+      "captured_at_monotonic": 73502.453,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_005.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0006.png",
+      "sha256": "8d1d5a0261017eb8ea8cf32ef6683c79fb33a5984fd08d8d37a7a2ee0f6d2ece",
+      "capture_sequence": 45,
+      "captured_at_monotonic": 73502.546,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_006.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0007.png",
+      "sha256": "41dc6da4dcd8c4ec8f6ccf5bf7db9585e8984521af3b7c5b7c99c4ecabdc2a78",
+      "capture_sequence": 46,
+      "captured_at_monotonic": 73502.656,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_007.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0008.png",
+      "sha256": "b1d615793c7213ea8bda7c138f9462f81c270cf436030af39115a4c1c7077a57",
+      "capture_sequence": 47,
+      "captured_at_monotonic": 73502.765,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_008.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0009.png",
+      "sha256": "dce13431b582773138444218be9cbe82feb05bdf933c1a194fc598854758c5f7",
+      "capture_sequence": 48,
+      "captured_at_monotonic": 73502.859,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_009.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0010.png",
+      "sha256": "bc7ae36c439edc7cfd52600561b8d91b85654aa2e3e4d9de510cc423f9a6fcad",
+      "capture_sequence": 49,
+      "captured_at_monotonic": 73502.968,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_010.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0011.png",
+      "sha256": "8e5f3aefd7a6c15258bdce220c51a437d875edf428deca747e2c31641dc88099",
+      "capture_sequence": 50,
+      "captured_at_monotonic": 73503.046,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_011.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0012.png",
+      "sha256": "274c2b58c668069b5bcc54ac738952a453312220583ea8f907f61295167c59df",
+      "capture_sequence": 51,
+      "captured_at_monotonic": 73503.156,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_012.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0013.png",
+      "sha256": "458fe270a5662ece6ec515c30bd66abf3d1e42740734b9c6bb46e9b75605da81",
+      "capture_sequence": 52,
+      "captured_at_monotonic": 73503.265,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_013.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0014.png",
+      "sha256": "15355d680cf06668811ee5810fab708345b0068707f801ad73c113c714ba996c",
+      "capture_sequence": 53,
+      "captured_at_monotonic": 73503.359,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_014.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0015.png",
+      "sha256": "62bc57d891bf8fab950c42180a85b9d6db30efde4c38b176b5a23153f936ba2c",
+      "capture_sequence": 54,
+      "captured_at_monotonic": 73503.468,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_015.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0016.png",
+      "sha256": "a4c09361587aa7d6f7e17518bb32d028f022e1839b425548d7c99cbc2121701f",
+      "capture_sequence": 55,
+      "captured_at_monotonic": 73503.562,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_016.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0017.png",
+      "sha256": "cd439e9507bb88a9475ba9c1f4f3178eef319676c28a041a953c28ff6e306288",
+      "capture_sequence": 56,
+      "captured_at_monotonic": 73503.656,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_017.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0018.png",
+      "sha256": "2e0e498ac0a61309ba585de0975067d99ad89dc5a26edc8b2d6241996920121b",
+      "capture_sequence": 57,
+      "captured_at_monotonic": 73503.75,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_018.png"
+    },
+    {
+      "source_stage": "end-response-after",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\OPTIONAL_RESPONSE_TRAIN_v1_20261006\\end-response-after\\frame-0019.png",
+      "sha256": "9f6d8d844477d72be65f055e9716fffb82752fec8be5aac4c23bfc18d689441a",
+      "capture_sequence": 58,
+      "captured_at_monotonic": 73503.859,
+      "roi": [
+        946,
+        320,
+        86,
+        26
+      ],
+      "asset": "response_fact_response_outcome_self_draw_019.png"
+    }
+  ],
+  "outcomes": [
+    {
+      "kind": "opponent_summon_success",
+      "outcome": "opponent_end_response",
+      "cancel_region": "action.cancel_opponent_summon_success",
+      "modal_absent_fact": "response.modal_absent"
+    },
+    {
+      "kind": "opponent_turn_end",
+      "outcome": "self_draw",
+      "cancel_region": "action.cancel_opponent_turn_end",
+      "modal_absent_fact": "response.modal_absent"
+    }
+  ],
+  "threshold": 0.98,
+  "margin": 0.03,
+  "limitation": "補助収集・方式選択資料、E2E0。Draw解決/idle/候補CID/戦略最善を主張しない。clearMain1 after欠測。"
+}

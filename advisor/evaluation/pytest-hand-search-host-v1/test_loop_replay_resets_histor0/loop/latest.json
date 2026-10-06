@@ -1,0 +1,172 @@
+{
+  "state": {
+    "sequence": 12,
+    "captured_at": 89652.937,
+    "media_time": 0.0,
+    "turn": {
+      "value": 1,
+      "confidence": 0.9864876866340637,
+      "source": "template:turn",
+      "observed_at": 89652.937
+    },
+    "turn_player": {
+      "value": "self",
+      "confidence": 0.9862355589866638,
+      "source": "template:turn_player",
+      "observed_at": 89652.937
+    },
+    "phase": {
+      "value": "MAIN1",
+      "confidence": 0.9859745502471924,
+      "source": "template:phase",
+      "observed_at": 89652.937
+    },
+    "terminal": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "unknown",
+      "observed_at": 89652.937
+    },
+    "prompt": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "unknown",
+      "observed_at": 89652.937
+    },
+    "animation": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "unknown",
+      "observed_at": 89652.937
+    },
+    "card_states": {},
+    "facts": {},
+    "material_sets": {},
+    "self": {
+      "lp": {
+        "value": 8000,
+        "confidence": 0.9861098527908325,
+        "source": "template:self.lp",
+        "observed_at": 89652.937
+      },
+      "hand_count": {
+        "value": 5,
+        "confidence": 0.9864296317100525,
+        "source": "template:self.hand_count",
+        "observed_at": 89652.937
+      },
+      "zones": {
+        "monster_1": {
+          "value": {
+            "card_id": "demo-alpha",
+            "name": "合成カード・アルファ",
+            "card_type": "monster"
+          },
+          "confidence": 0.9852896332740784,
+          "source": "card:self.zones.monster_1",
+          "observed_at": 89652.937
+        }
+      }
+    },
+    "opponent": {
+      "lp": {
+        "value": 8000,
+        "confidence": 0.9859413504600525,
+        "source": "template:opponent.lp",
+        "observed_at": 89652.937
+      },
+      "hand_count": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "unknown",
+        "observed_at": 89652.937
+      },
+      "zones": {}
+    },
+    "visible_actions": [
+      {
+        "type": "NORMAL_SUMMON",
+        "card_id": null,
+        "target": null,
+        "confidence": 0.9846571087837219,
+        "source_region": "action.primary",
+        "observed_at": 89652.937
+      }
+    ]
+  },
+  "events": [],
+  "legal_actions": [
+    {
+      "type": "NORMAL_SUMMON",
+      "card_id": null,
+      "target": null,
+      "confidence": 0.9846571087837219,
+      "source_region": "action.primary",
+      "observed_at": 89652.937
+    }
+  ],
+  "recommendation": {
+    "action": {
+      "type": "NORMAL_SUMMON",
+      "card_id": null,
+      "target": null,
+      "confidence": 0.9846571087837219,
+      "source_region": "action.primary",
+      "observed_at": 89652.937
+    },
+    "target": null,
+    "confidence": 0.9846571087837219,
+    "reason": "表示中の校正済み候補をターン・フェイズの対応ルールで絞り込み、最も信頼度の高い行動を選びました。基準実装であり、戦略的な最善手や全ルールの合法性は保証しません。",
+    "recognition_status": "partial"
+  },
+  "error": null,
+  "metrics": {
+    "capture_read_ms": 4.497000001720153,
+    "perception_ms": 1.2497999996412545,
+    "decision_ms": 0.17499999376013875,
+    "decision_elapsed_ms": 0.0,
+    "decision_limit_ms": 10000,
+    "total_compute_ms": 6.000200010021217,
+    "api_calls": 0,
+    "api_cost_usd": 0,
+    "cache_hits": 0,
+    "recognized_regions": 8,
+    "ocr_ms": 0,
+    "state_build_ms": 0.07590001041535288,
+    "perception_reused": false
+  },
+  "stage_spans": [
+    {
+      "stage": "recognition",
+      "start": 89652.9625327,
+      "end": 89652.9636772
+    },
+    {
+      "stage": "state_build",
+      "start": 89652.9636772,
+      "end": 89652.9637651
+    },
+    {
+      "stage": "state_build",
+      "start": 89652.9637697,
+      "end": 89652.9637711
+    },
+    {
+      "stage": "candidate",
+      "start": 89652.9637714,
+      "end": 89652.9639103
+    },
+    {
+      "stage": "decision",
+      "start": 89652.9639108,
+      "end": 89652.964024
+    }
+  ],
+  "plan": null,
+  "planner_source": "partial",
+  "card_knowledge": {
+    "pending": 0,
+    "ready": 0,
+    "last_error": null
+  }
+}

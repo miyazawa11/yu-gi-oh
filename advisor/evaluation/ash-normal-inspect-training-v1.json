@@ -1,0 +1,889 @@
+{
+  "passed": true,
+  "cases": 40,
+  "training_only": true,
+  "input_count": 0,
+  "e2e_count": 0,
+  "rows": [
+    {
+      "stage": "menu",
+      "index": 0,
+      "passed": true,
+      "prompt": "card.menu",
+      "detail_cid": "12950",
+      "actions": [
+        "NORMAL_SUMMON"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": "true",
+        "inspect_context.summon_enabled": "true",
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "empty",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "menu",
+      "index": 1,
+      "passed": true,
+      "prompt": "card.menu",
+      "detail_cid": "12950",
+      "actions": [
+        "NORMAL_SUMMON"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": "true",
+        "inspect_context.summon_enabled": "true",
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "empty",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "menu",
+      "index": 2,
+      "passed": true,
+      "prompt": "card.menu",
+      "detail_cid": "12950",
+      "actions": [
+        "NORMAL_SUMMON"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": "true",
+        "inspect_context.summon_enabled": "true",
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "empty",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "menu",
+      "index": 3,
+      "passed": true,
+      "prompt": "card.menu",
+      "detail_cid": "12950",
+      "actions": [
+        "NORMAL_SUMMON"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": "true",
+        "inspect_context.summon_enabled": "true",
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "empty",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "menu",
+      "index": 4,
+      "passed": true,
+      "prompt": "card.menu",
+      "detail_cid": "12950",
+      "actions": [
+        "NORMAL_SUMMON"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": "true",
+        "inspect_context.summon_enabled": "true",
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "empty",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "menu",
+      "index": 5,
+      "passed": true,
+      "prompt": "card.menu",
+      "detail_cid": "12950",
+      "actions": [
+        "NORMAL_SUMMON"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": "true",
+        "inspect_context.summon_enabled": "true",
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "empty",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "menu",
+      "index": 6,
+      "passed": true,
+      "prompt": "card.menu",
+      "detail_cid": "12950",
+      "actions": [
+        "NORMAL_SUMMON"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": "true",
+        "inspect_context.summon_enabled": "true",
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "empty",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "menu",
+      "index": 7,
+      "passed": true,
+      "prompt": "card.menu",
+      "detail_cid": "12950",
+      "actions": [
+        "NORMAL_SUMMON"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": "true",
+        "inspect_context.summon_enabled": "true",
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "empty",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "menu",
+      "index": 8,
+      "passed": true,
+      "prompt": "card.menu",
+      "detail_cid": "12950",
+      "actions": [
+        "NORMAL_SUMMON"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": "true",
+        "inspect_context.summon_enabled": "true",
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "empty",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "menu",
+      "index": 9,
+      "passed": true,
+      "prompt": "card.menu",
+      "detail_cid": "12950",
+      "actions": [
+        "NORMAL_SUMMON"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": "true",
+        "inspect_context.summon_enabled": "true",
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "empty",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "placement",
+      "index": 0,
+      "passed": true,
+      "prompt": "placement.select",
+      "detail_cid": "12950",
+      "actions": [
+        "CONFIRM"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": null,
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": "true",
+        "inspect_context.placement_target": "true",
+        "zone.self.monster_2.occupancy": null,
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "placement",
+      "index": 1,
+      "passed": true,
+      "prompt": "placement.select",
+      "detail_cid": "12950",
+      "actions": [
+        "CONFIRM"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": null,
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": "true",
+        "inspect_context.placement_target": "true",
+        "zone.self.monster_2.occupancy": null,
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "placement",
+      "index": 2,
+      "passed": true,
+      "prompt": "placement.select",
+      "detail_cid": "12950",
+      "actions": [
+        "CONFIRM"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": null,
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": "true",
+        "inspect_context.placement_target": "true",
+        "zone.self.monster_2.occupancy": null,
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "placement",
+      "index": 3,
+      "passed": true,
+      "prompt": "placement.select",
+      "detail_cid": "12950",
+      "actions": [
+        "CONFIRM"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": null,
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": "true",
+        "inspect_context.placement_target": "true",
+        "zone.self.monster_2.occupancy": null,
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "placement",
+      "index": 4,
+      "passed": true,
+      "prompt": "placement.select",
+      "detail_cid": "12950",
+      "actions": [
+        "CONFIRM"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": null,
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": "true",
+        "inspect_context.placement_target": "true",
+        "zone.self.monster_2.occupancy": null,
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "placement",
+      "index": 5,
+      "passed": true,
+      "prompt": "placement.select",
+      "detail_cid": "12950",
+      "actions": [
+        "CONFIRM"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": null,
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": "true",
+        "inspect_context.placement_target": "true",
+        "zone.self.monster_2.occupancy": null,
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "placement",
+      "index": 6,
+      "passed": true,
+      "prompt": "placement.select",
+      "detail_cid": "12950",
+      "actions": [
+        "CONFIRM"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": null,
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": "true",
+        "inspect_context.placement_target": "true",
+        "zone.self.monster_2.occupancy": null,
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "placement",
+      "index": 7,
+      "passed": true,
+      "prompt": "placement.select",
+      "detail_cid": "12950",
+      "actions": [
+        "CONFIRM"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": null,
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": "true",
+        "inspect_context.placement_target": "true",
+        "zone.self.monster_2.occupancy": null,
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "placement",
+      "index": 8,
+      "passed": true,
+      "prompt": "placement.select",
+      "detail_cid": "12950",
+      "actions": [
+        "CONFIRM"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": null,
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": "true",
+        "inspect_context.placement_target": "true",
+        "zone.self.monster_2.occupancy": null,
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "placement",
+      "index": 9,
+      "passed": true,
+      "prompt": "placement.select",
+      "detail_cid": "12950",
+      "actions": [
+        "CONFIRM"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": null,
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": "true",
+        "inspect_context.placement_target": "true",
+        "zone.self.monster_2.occupancy": null,
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "post-unselected",
+      "index": 0,
+      "passed": true,
+      "prompt": "none",
+      "detail_cid": null,
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": "true",
+        "inspect_context.detail_panel": null,
+        "detail.card_id": null
+      }
+    },
+    {
+      "stage": "post-unselected",
+      "index": 1,
+      "passed": true,
+      "prompt": "none",
+      "detail_cid": null,
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": "true",
+        "inspect_context.detail_panel": null,
+        "detail.card_id": null
+      }
+    },
+    {
+      "stage": "post-unselected",
+      "index": 2,
+      "passed": true,
+      "prompt": "none",
+      "detail_cid": null,
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": "true",
+        "inspect_context.detail_panel": null,
+        "detail.card_id": null
+      }
+    },
+    {
+      "stage": "post-unselected",
+      "index": 3,
+      "passed": true,
+      "prompt": "none",
+      "detail_cid": null,
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": "true",
+        "inspect_context.detail_panel": null,
+        "detail.card_id": null
+      }
+    },
+    {
+      "stage": "post-unselected",
+      "index": 4,
+      "passed": true,
+      "prompt": "none",
+      "detail_cid": null,
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": "true",
+        "inspect_context.detail_panel": null,
+        "detail.card_id": null
+      }
+    },
+    {
+      "stage": "post-unselected",
+      "index": 5,
+      "passed": true,
+      "prompt": "none",
+      "detail_cid": null,
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": "true",
+        "inspect_context.detail_panel": null,
+        "detail.card_id": null
+      }
+    },
+    {
+      "stage": "post-unselected",
+      "index": 6,
+      "passed": true,
+      "prompt": "none",
+      "detail_cid": null,
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": "true",
+        "inspect_context.detail_panel": null,
+        "detail.card_id": null
+      }
+    },
+    {
+      "stage": "post-unselected",
+      "index": 7,
+      "passed": true,
+      "prompt": "none",
+      "detail_cid": null,
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": "true",
+        "inspect_context.detail_panel": null,
+        "detail.card_id": null
+      }
+    },
+    {
+      "stage": "post-unselected",
+      "index": 8,
+      "passed": true,
+      "prompt": "none",
+      "detail_cid": null,
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": "true",
+        "inspect_context.detail_panel": null,
+        "detail.card_id": null
+      }
+    },
+    {
+      "stage": "post-unselected",
+      "index": 9,
+      "passed": true,
+      "prompt": "none",
+      "detail_cid": null,
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": "true",
+        "inspect_context.detail_panel": null,
+        "detail.card_id": null
+      }
+    },
+    {
+      "stage": "post-inspected",
+      "index": 0,
+      "passed": true,
+      "prompt": "field.inspect",
+      "detail_cid": "12950",
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "post-inspected",
+      "index": 1,
+      "passed": true,
+      "prompt": "field.inspect",
+      "detail_cid": "12950",
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "post-inspected",
+      "index": 2,
+      "passed": true,
+      "prompt": "field.inspect",
+      "detail_cid": "12950",
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "post-inspected",
+      "index": 3,
+      "passed": true,
+      "prompt": "field.inspect",
+      "detail_cid": "12950",
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "post-inspected",
+      "index": 4,
+      "passed": true,
+      "prompt": "field.inspect",
+      "detail_cid": "12950",
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "post-inspected",
+      "index": 5,
+      "passed": true,
+      "prompt": "field.inspect",
+      "detail_cid": "12950",
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "post-inspected",
+      "index": 6,
+      "passed": true,
+      "prompt": "field.inspect",
+      "detail_cid": "12950",
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "post-inspected",
+      "index": 7,
+      "passed": true,
+      "prompt": "field.inspect",
+      "detail_cid": "12950",
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "post-inspected",
+      "index": 8,
+      "passed": true,
+      "prompt": "field.inspect",
+      "detail_cid": "12950",
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    },
+    {
+      "stage": "post-inspected",
+      "index": 9,
+      "passed": true,
+      "prompt": "field.inspect",
+      "detail_cid": "12950",
+      "actions": [
+        "SELECT_CARD"
+      ],
+      "facts": {
+        "inspect_context.main1": "true",
+        "inspect_context.clear_center": "true",
+        "inspect_context.hand_selected": null,
+        "inspect_context.summon_enabled": null,
+        "inspect_context.placement": null,
+        "inspect_context.placement_target": null,
+        "zone.self.monster_2.occupancy": "occupied",
+        "inspect_context.detail_blank": null,
+        "inspect_context.detail_panel": "true",
+        "detail.card_id": "12950"
+      }
+    }
+  ]
+}

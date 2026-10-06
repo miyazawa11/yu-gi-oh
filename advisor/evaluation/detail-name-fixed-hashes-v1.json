@@ -1,0 +1,7 @@
+{
+  "source_sha256": "ac8d0752039ffc64b38bcf9744a417c231a6853b66ae45d0c5ae75e8f038491f",
+  "scripts/build_detail_name_registry.py": "60634d0da2c1974c167fb4a9406cf71a6d0547eef7920673b44f4239ffdf882d",
+  "scripts/evaluate_detail_name_registry.py": "04026bfe77120bcaf31c9185be0520a98b928edd65b0c6a2e48c2b3bfafd3b7e",
+  "src/master_duel_advisor/detail_name_registry.py": "dd31b53db196279784804d26702f3f4cca80f55a31ed57617c36041ce4cd2152",
+  "artifacts/detail-name-registry-v1/registry.json": "86e6cc60a004b0d8aff769bd6ee0b0d8c0653f136199cae9af612e47babd6950"
+}

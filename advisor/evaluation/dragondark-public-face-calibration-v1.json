@@ -1,0 +1,5027 @@
+{
+  "schema": "dragondark-known-public-face-method-calibration-v1",
+  "prototype": {
+    "source": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0025.png",
+    "source_sha256": "25d4da06a9b4558b016cb9c2f659d2f00b252e867e759c206348a05656084de8",
+    "bbox": [
+      582,
+      447,
+      118,
+      174
+    ]
+  },
+  "training_manifest": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\manifest.json",
+  "frames_hash_verified": 99,
+  "full_templates_scales": [
+    0.96,
+    1.0,
+    1.04
+  ],
+  "tracking_scales": [
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1.0
+  ],
+  "tracking_warning": "partial upper-card pixels only track already publicly recognized incoming instance; not CID assignment from hand pixels",
+  "timing_mean_ms": 15.295865656978526,
+  "groups": {
+    "chain": {
+      "count": 18,
+      "full_min": 0.25472697615623474,
+      "full_max": 0.26269736886024475,
+      "track_min": 0.29757577180862427,
+      "track_max": 0.29820048809051514
+    },
+    "resolve": {
+      "count": 4,
+      "full_min": 0.2017890065908432,
+      "full_max": 0.27793195843696594,
+      "track_min": 0.24201858043670654,
+      "track_max": 0.2568627595901489
+    },
+    "partial": {
+      "count": 1,
+      "full_min": 0.27969110012054443,
+      "full_max": 0.27969110012054443,
+      "track_min": 0.2411929965019226,
+      "track_max": 0.2411929965019226
+    },
+    "public": {
+      "count": 4,
+      "full_min": 0.8190585374832153,
+      "full_max": 1.0,
+      "track_min": 0.8569382429122925,
+      "track_max": 1.0
+    },
+    "move": {
+      "count": 14,
+      "full_min": 0.2666340470314026,
+      "full_max": 0.32182592153549194,
+      "track_min": 0.7006605267524719,
+      "track_max": 0.9418014287948608
+    },
+    "stored": {
+      "count": 58,
+      "full_min": 0.2696356177330017,
+      "full_max": 0.32215672731399536,
+      "track_min": 0.4394173324108124,
+      "track_max": 0.6955944895744324
+    }
+  },
+  "rows": [
+    {
+      "index": 0,
+      "sequence": 20,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0000.png",
+      "sha256": "38d0b1fab49ba044d7254a812968361f0aaaa6f6c9e8c8b130135109ebd01068",
+      "capture": {
+        "file": "frame-0000.png",
+        "capture_start_utc": "2026-10-05T22:17:43.307899+00:00",
+        "capture_start_perf": 81226.7689529,
+        "capture_end_perf": 81226.7883264,
+        "captured_at_monotonic": 81226.765,
+        "capture_sequence": 20,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "38d0b1fab49ba044d7254a812968361f0aaaa6f6c9e8c8b130135109ebd01068"
+      },
+      "full_face_ncc": 0.25472697615623474,
+      "full_face_bbox": [
+        536,
+        438,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.298148512840271,
+      "tracking_top_bbox": [
+        650,
+        583,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 1,
+      "sequence": 21,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0001.png",
+      "sha256": "710acde6600f5fb94fe39769c25a2189c98b8cb0838a28415965764d92076fbc",
+      "capture": {
+        "file": "frame-0001.png",
+        "capture_start_utc": "2026-10-05T22:17:43.390194+00:00",
+        "capture_start_perf": 81226.8511925,
+        "capture_end_perf": 81226.8678347,
+        "captured_at_monotonic": 81226.843,
+        "capture_sequence": 21,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "710acde6600f5fb94fe39769c25a2189c98b8cb0838a28415965764d92076fbc"
+      },
+      "full_face_ncc": 0.25473374128341675,
+      "full_face_bbox": [
+        536,
+        438,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.29815980792045593,
+      "tracking_top_bbox": [
+        650,
+        583,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 2,
+      "sequence": 22,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0002.png",
+      "sha256": "9181f85332c22cce6f2f9bc7a6319d0287cfec9176f0e80b353fe9b47aeb1e78",
+      "capture": {
+        "file": "frame-0002.png",
+        "capture_start_utc": "2026-10-05T22:17:43.480306+00:00",
+        "capture_start_perf": 81226.9405257,
+        "capture_end_perf": 81226.9597026,
+        "captured_at_monotonic": 81226.937,
+        "capture_sequence": 22,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "9181f85332c22cce6f2f9bc7a6319d0287cfec9176f0e80b353fe9b47aeb1e78"
+      },
+      "full_face_ncc": 0.2547415494918823,
+      "full_face_bbox": [
+        536,
+        438,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.29816290736198425,
+      "tracking_top_bbox": [
+        650,
+        583,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 3,
+      "sequence": 23,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0003.png",
+      "sha256": "a01602d8c79f16739a7afb3f8c9390db057ec9c8a5ff7e66517d925d6ba7fba5",
+      "capture": {
+        "file": "frame-0003.png",
+        "capture_start_utc": "2026-10-05T22:17:43.545488+00:00",
+        "capture_start_perf": 81227.0062749,
+        "capture_end_perf": 81227.021818,
+        "captured_at_monotonic": 81227.0,
+        "capture_sequence": 23,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "a01602d8c79f16739a7afb3f8c9390db057ec9c8a5ff7e66517d925d6ba7fba5"
+      },
+      "full_face_ncc": 0.2547456920146942,
+      "full_face_bbox": [
+        536,
+        438,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.29816633462905884,
+      "tracking_top_bbox": [
+        650,
+        583,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 4,
+      "sequence": 24,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0004.png",
+      "sha256": "9b7eccc408198f4ff8dabc70597aa4f1e96e031650323d50e63b094e246bd032",
+      "capture": {
+        "file": "frame-0004.png",
+        "capture_start_utc": "2026-10-05T22:17:43.612844+00:00",
+        "capture_start_perf": 81227.0736829,
+        "capture_end_perf": 81227.0923756,
+        "captured_at_monotonic": 81227.062,
+        "capture_sequence": 24,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "9b7eccc408198f4ff8dabc70597aa4f1e96e031650323d50e63b094e246bd032"
+      },
+      "full_face_ncc": 0.25475430488586426,
+      "full_face_bbox": [
+        536,
+        438,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.2981787919998169,
+      "tracking_top_bbox": [
+        650,
+        583,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 5,
+      "sequence": 25,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0005.png",
+      "sha256": "d73f8a5b7c2249956f99f4b0052b88a129966c32ec7d48c63c4cbedacc4e5653",
+      "capture": {
+        "file": "frame-0005.png",
+        "capture_start_utc": "2026-10-05T22:17:43.684580+00:00",
+        "capture_start_perf": 81227.145322,
+        "capture_end_perf": 81227.1619108,
+        "captured_at_monotonic": 81227.14,
+        "capture_sequence": 25,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "d73f8a5b7c2249956f99f4b0052b88a129966c32ec7d48c63c4cbedacc4e5653"
+      },
+      "full_face_ncc": 0.2547743320465088,
+      "full_face_bbox": [
+        536,
+        438,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.29817822575569153,
+      "tracking_top_bbox": [
+        650,
+        583,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 6,
+      "sequence": 26,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0006.png",
+      "sha256": "63d46db2e1a6107d779cc076978cdd33edae74e24e3381efccfcf6455e87571c",
+      "capture": {
+        "file": "frame-0006.png",
+        "capture_start_utc": "2026-10-05T22:17:43.748760+00:00",
+        "capture_start_perf": 81227.2090786,
+        "capture_end_perf": 81227.2316918,
+        "captured_at_monotonic": 81227.203,
+        "capture_sequence": 26,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "63d46db2e1a6107d779cc076978cdd33edae74e24e3381efccfcf6455e87571c"
+      },
+      "full_face_ncc": 0.25478464365005493,
+      "full_face_bbox": [
+        536,
+        438,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.29818087816238403,
+      "tracking_top_bbox": [
+        650,
+        583,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 7,
+      "sequence": 27,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0007.png",
+      "sha256": "5465f51d9cd1e32ace06b5a37f5112ed09573b93a19e766205415b792a80fdee",
+      "capture": {
+        "file": "frame-0007.png",
+        "capture_start_utc": "2026-10-05T22:17:43.816351+00:00",
+        "capture_start_perf": 81227.2767648,
+        "capture_end_perf": 81227.2934244,
+        "captured_at_monotonic": 81227.265,
+        "capture_sequence": 27,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "5465f51d9cd1e32ace06b5a37f5112ed09573b93a19e766205415b792a80fdee"
+      },
+      "full_face_ncc": 0.25480398535728455,
+      "full_face_bbox": [
+        536,
+        438,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.29817551374435425,
+      "tracking_top_bbox": [
+        650,
+        583,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 8,
+      "sequence": 28,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0008.png",
+      "sha256": "42a96d3d3025a8dfec93c2c4df0b2bebedb68a17c052954c228a54fdde562f93",
+      "capture": {
+        "file": "frame-0008.png",
+        "capture_start_utc": "2026-10-05T22:17:43.875039+00:00",
+        "capture_start_perf": 81227.3359533,
+        "capture_end_perf": 81227.3539391,
+        "captured_at_monotonic": 81227.328,
+        "capture_sequence": 28,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "42a96d3d3025a8dfec93c2c4df0b2bebedb68a17c052954c228a54fdde562f93"
+      },
+      "full_face_ncc": 0.2548091411590576,
+      "full_face_bbox": [
+        536,
+        438,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.29820048809051514,
+      "tracking_top_bbox": [
+        650,
+        583,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 9,
+      "sequence": 29,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0009.png",
+      "sha256": "a7757dd2f7931bc1cf7becebc935ff40619846cd737953d8dd00b526510687a1",
+      "capture": {
+        "file": "frame-0009.png",
+        "capture_start_utc": "2026-10-05T22:17:43.938933+00:00",
+        "capture_start_perf": 81227.3995649,
+        "capture_end_perf": 81227.4189132,
+        "captured_at_monotonic": 81227.39,
+        "capture_sequence": 29,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "a7757dd2f7931bc1cf7becebc935ff40619846cd737953d8dd00b526510687a1"
+      },
+      "full_face_ncc": 0.2548060417175293,
+      "full_face_bbox": [
+        536,
+        438,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.2981492578983307,
+      "tracking_top_bbox": [
+        650,
+        583,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 10,
+      "sequence": 30,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0010.png",
+      "sha256": "36f5aeeb4283840ff93a7ca8d396d5aa27374e3cd4455066998257decbc432a5",
+      "capture": {
+        "file": "frame-0010.png",
+        "capture_start_utc": "2026-10-05T22:17:44.011653+00:00",
+        "capture_start_perf": 81227.4722005,
+        "capture_end_perf": 81227.486836,
+        "captured_at_monotonic": 81227.453,
+        "capture_sequence": 30,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "36f5aeeb4283840ff93a7ca8d396d5aa27374e3cd4455066998257decbc432a5"
+      },
+      "full_face_ncc": 0.25480079650878906,
+      "full_face_bbox": [
+        536,
+        438,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.29796120524406433,
+      "tracking_top_bbox": [
+        650,
+        583,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 11,
+      "sequence": 31,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0011.png",
+      "sha256": "584e4fdd104980433d2e67631024b08c28f36304555d1d894557a61417c71e68",
+      "capture": {
+        "file": "frame-0011.png",
+        "capture_start_utc": "2026-10-05T22:17:44.084834+00:00",
+        "capture_start_perf": 81227.5456315,
+        "capture_end_perf": 81227.5639473,
+        "captured_at_monotonic": 81227.531,
+        "capture_sequence": 31,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "584e4fdd104980433d2e67631024b08c28f36304555d1d894557a61417c71e68"
+      },
+      "full_face_ncc": 0.2547997534275055,
+      "full_face_bbox": [
+        536,
+        438,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.2977050840854645,
+      "tracking_top_bbox": [
+        650,
+        583,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 12,
+      "sequence": 32,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0012.png",
+      "sha256": "340532ef33ba6b495717658b42e5649c417f33f77a08988dc12fdb2a6b53a73a",
+      "capture": {
+        "file": "frame-0012.png",
+        "capture_start_utc": "2026-10-05T22:17:44.158716+00:00",
+        "capture_start_perf": 81227.6190596,
+        "capture_end_perf": 81227.6386697,
+        "captured_at_monotonic": 81227.609,
+        "capture_sequence": 32,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "340532ef33ba6b495717658b42e5649c417f33f77a08988dc12fdb2a6b53a73a"
+      },
+      "full_face_ncc": 0.254780650138855,
+      "full_face_bbox": [
+        536,
+        438,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.29757577180862427,
+      "tracking_top_bbox": [
+        650,
+        583,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 13,
+      "sequence": 33,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0013.png",
+      "sha256": "3cb7db3c48d6db6ee7e678a8cadc836eba03a7e6d5bac73675890ab9a0fae6b8",
+      "capture": {
+        "file": "frame-0013.png",
+        "capture_start_utc": "2026-10-05T22:17:44.233040+00:00",
+        "capture_start_perf": 81227.6936714,
+        "capture_end_perf": 81227.709653,
+        "captured_at_monotonic": 81227.687,
+        "capture_sequence": 33,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "3cb7db3c48d6db6ee7e678a8cadc836eba03a7e6d5bac73675890ab9a0fae6b8"
+      },
+      "full_face_ncc": 0.25478097796440125,
+      "full_face_bbox": [
+        536,
+        438,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.2976059019565582,
+      "tracking_top_bbox": [
+        650,
+        583,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 14,
+      "sequence": 34,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0014.png",
+      "sha256": "e02bbb8b53c07f50499832f4a825ba76562fc0a9a1e7bc043c9558422b711304",
+      "capture": {
+        "file": "frame-0014.png",
+        "capture_start_utc": "2026-10-05T22:17:44.306025+00:00",
+        "capture_start_perf": 81227.7669249,
+        "capture_end_perf": 81227.7858552,
+        "captured_at_monotonic": 81227.75,
+        "capture_sequence": 34,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "e02bbb8b53c07f50499832f4a825ba76562fc0a9a1e7bc043c9558422b711304"
+      },
+      "full_face_ncc": 0.2548002600669861,
+      "full_face_bbox": [
+        536,
+        438,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.2977975308895111,
+      "tracking_top_bbox": [
+        650,
+        583,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 15,
+      "sequence": 35,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0015.png",
+      "sha256": "fadfb4e0159c96979d4cd2d2635aa9f9678fbd2e46b95178e40d4a14fb9a5010",
+      "capture": {
+        "file": "frame-0015.png",
+        "capture_start_utc": "2026-10-05T22:17:44.386502+00:00",
+        "capture_start_perf": 81227.8475599,
+        "capture_end_perf": 81227.8690204,
+        "captured_at_monotonic": 81227.843,
+        "capture_sequence": 35,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "fadfb4e0159c96979d4cd2d2635aa9f9678fbd2e46b95178e40d4a14fb9a5010"
+      },
+      "full_face_ncc": 0.2548051178455353,
+      "full_face_bbox": [
+        536,
+        438,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.2980286180973053,
+      "tracking_top_bbox": [
+        650,
+        583,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 16,
+      "sequence": 36,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0016.png",
+      "sha256": "0081f02d5c7a966284ba88b0e4a8c81a437242c0a46c102d4cf74c09a8aa8dcc",
+      "capture": {
+        "file": "frame-0016.png",
+        "capture_start_utc": "2026-10-05T22:17:44.472648+00:00",
+        "capture_start_perf": 81227.9332844,
+        "capture_end_perf": 81227.9557672,
+        "captured_at_monotonic": 81227.921,
+        "capture_sequence": 36,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "0081f02d5c7a966284ba88b0e4a8c81a437242c0a46c102d4cf74c09a8aa8dcc"
+      },
+      "full_face_ncc": 0.2548060119152069,
+      "full_face_bbox": [
+        536,
+        438,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.29813218116760254,
+      "tracking_top_bbox": [
+        650,
+        583,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 17,
+      "sequence": 37,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0017.png",
+      "sha256": "3b98ecb731d824d73b67235eb01070a17c366fb0a2762dd602731fdcdc37e627",
+      "capture": {
+        "file": "frame-0017.png",
+        "capture_start_utc": "2026-10-05T22:17:44.551148+00:00",
+        "capture_start_perf": 81228.0118005,
+        "capture_end_perf": 81228.0311037,
+        "captured_at_monotonic": 81228.0,
+        "capture_sequence": 37,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "3b98ecb731d824d73b67235eb01070a17c366fb0a2762dd602731fdcdc37e627"
+      },
+      "full_face_ncc": 0.26269736886024475,
+      "full_face_bbox": [
+        537,
+        438,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.298122376203537,
+      "tracking_top_bbox": [
+        650,
+        583,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 18,
+      "sequence": 38,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0018.png",
+      "sha256": "0318ae7001ef8b20f7653b2ab50c527f743e869c81b5417ca8719da8106f5b69",
+      "capture": {
+        "file": "frame-0018.png",
+        "capture_start_utc": "2026-10-05T22:17:44.631375+00:00",
+        "capture_start_perf": 81228.0917307,
+        "capture_end_perf": 81228.11202,
+        "captured_at_monotonic": 81228.078,
+        "capture_sequence": 38,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "0318ae7001ef8b20f7653b2ab50c527f743e869c81b5417ca8719da8106f5b69"
+      },
+      "full_face_ncc": 0.2017890065908432,
+      "full_face_bbox": [
+        717,
+        457,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.25644251704216003,
+      "tracking_top_bbox": [
+        656,
+        501,
+        94,
+        98
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 19,
+      "sequence": 39,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0019.png",
+      "sha256": "759c7666e2fd2f0e6d50dab7291dcffc30474bf625d02c457a74656aa1064566",
+      "capture": {
+        "file": "frame-0019.png",
+        "capture_start_utc": "2026-10-05T22:17:44.721831+00:00",
+        "capture_start_perf": 81228.1822604,
+        "capture_end_perf": 81228.2022637,
+        "captured_at_monotonic": 81228.171,
+        "capture_sequence": 39,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "759c7666e2fd2f0e6d50dab7291dcffc30474bf625d02c457a74656aa1064566"
+      },
+      "full_face_ncc": 0.2606048882007599,
+      "full_face_bbox": [
+        511,
+        455,
+        123,
+        181
+      ],
+      "tracking_top_ncc": 0.2568627595901489,
+      "tracking_top_bbox": [
+        547,
+        589,
+        106,
+        111
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 20,
+      "sequence": 40,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0020.png",
+      "sha256": "a37f8164a54cc9d1fda16a9debd0c70a95ade20cec4df8fe08b5d04174092815",
+      "capture": {
+        "file": "frame-0020.png",
+        "capture_start_utc": "2026-10-05T22:17:44.792091+00:00",
+        "capture_start_perf": 81228.2529107,
+        "capture_end_perf": 81228.2710898,
+        "captured_at_monotonic": 81228.25,
+        "capture_sequence": 40,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "a37f8164a54cc9d1fda16a9debd0c70a95ade20cec4df8fe08b5d04174092815"
+      },
+      "full_face_ncc": 0.27620017528533936,
+      "full_face_bbox": [
+        521,
+        464,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.24735113978385925,
+      "tracking_top_bbox": [
+        546,
+        585,
+        106,
+        111
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 21,
+      "sequence": 41,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0021.png",
+      "sha256": "3aefb5b62da9639138b531a4356f2a6b5d4f0d80eb3603e6c55dd527b33c3f59",
+      "capture": {
+        "file": "frame-0021.png",
+        "capture_start_utc": "2026-10-05T22:17:44.874105+00:00",
+        "capture_start_perf": 81228.3346138,
+        "capture_end_perf": 81228.355319,
+        "captured_at_monotonic": 81228.328,
+        "capture_sequence": 41,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "3aefb5b62da9639138b531a4356f2a6b5d4f0d80eb3603e6c55dd527b33c3f59"
+      },
+      "full_face_ncc": 0.27793195843696594,
+      "full_face_bbox": [
+        521,
+        464,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.24201858043670654,
+      "tracking_top_bbox": [
+        545,
+        585,
+        106,
+        111
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 22,
+      "sequence": 42,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0022.png",
+      "sha256": "c5c71b858f9709c2c905240f129e2320aab7edb20e08531fe4d7bc54d3006f6a",
+      "capture": {
+        "file": "frame-0022.png",
+        "capture_start_utc": "2026-10-05T22:17:44.957056+00:00",
+        "capture_start_perf": 81228.4176415,
+        "capture_end_perf": 81228.439502,
+        "captured_at_monotonic": 81228.406,
+        "capture_sequence": 42,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "c5c71b858f9709c2c905240f129e2320aab7edb20e08531fe4d7bc54d3006f6a"
+      },
+      "full_face_ncc": 0.27969110012054443,
+      "full_face_bbox": [
+        521,
+        464,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.2411929965019226,
+      "tracking_top_bbox": [
+        545,
+        585,
+        106,
+        111
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 23,
+      "sequence": 43,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0023.png",
+      "sha256": "4d2bb4996a526dc4648998d0dbd08a0a0c05a501f506d801bc86f6463166e713",
+      "capture": {
+        "file": "frame-0023.png",
+        "capture_start_utc": "2026-10-05T22:17:45.039942+00:00",
+        "capture_start_perf": 81228.5003935,
+        "capture_end_perf": 81228.5225386,
+        "captured_at_monotonic": 81228.5,
+        "capture_sequence": 43,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "4d2bb4996a526dc4648998d0dbd08a0a0c05a501f506d801bc86f6463166e713"
+      },
+      "full_face_ncc": 0.8190585374832153,
+      "full_face_bbox": [
+        622,
+        458,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.8569382429122925,
+      "tracking_top_bbox": [
+        623,
+        459,
+        112,
+        117
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 24,
+      "sequence": 44,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0024.png",
+      "sha256": "8dca378f00d3bdead05bb8a48f48cb371dcbbe5ae6131fb9289eefce612e31c7",
+      "capture": {
+        "file": "frame-0024.png",
+        "capture_start_utc": "2026-10-05T22:17:45.126968+00:00",
+        "capture_start_perf": 81228.5873808,
+        "capture_end_perf": 81228.6060312,
+        "captured_at_monotonic": 81228.578,
+        "capture_sequence": 44,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "8dca378f00d3bdead05bb8a48f48cb371dcbbe5ae6131fb9289eefce612e31c7"
+      },
+      "full_face_ncc": 0.8564895391464233,
+      "full_face_bbox": [
+        586,
+        448,
+        118,
+        174
+      ],
+      "tracking_top_ncc": 0.8619630336761475,
+      "tracking_top_bbox": [
+        586,
+        448,
+        118,
+        123
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 25,
+      "sequence": 45,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0025.png",
+      "sha256": "25d4da06a9b4558b016cb9c2f659d2f00b252e867e759c206348a05656084de8",
+      "capture": {
+        "file": "frame-0025.png",
+        "capture_start_utc": "2026-10-05T22:17:45.208547+00:00",
+        "capture_start_perf": 81228.6700456,
+        "capture_end_perf": 81228.6886839,
+        "captured_at_monotonic": 81228.656,
+        "capture_sequence": 45,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "25d4da06a9b4558b016cb9c2f659d2f00b252e867e759c206348a05656084de8"
+      },
+      "full_face_ncc": 1.0,
+      "full_face_bbox": [
+        582,
+        447,
+        118,
+        174
+      ],
+      "tracking_top_ncc": 1.0,
+      "tracking_top_bbox": [
+        582,
+        447,
+        118,
+        123
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 26,
+      "sequence": 46,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0026.png",
+      "sha256": "a2fa57a2af219bdaa2a2dcdf9b01c13012ca4fb67b0b59c637e705715cc95132",
+      "capture": {
+        "file": "frame-0026.png",
+        "capture_start_utc": "2026-10-05T22:17:45.293442+00:00",
+        "capture_start_perf": 81228.7537604,
+        "capture_end_perf": 81228.7724989,
+        "captured_at_monotonic": 81228.75,
+        "capture_sequence": 46,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "a2fa57a2af219bdaa2a2dcdf9b01c13012ca4fb67b0b59c637e705715cc95132"
+      },
+      "full_face_ncc": 0.899283766746521,
+      "full_face_bbox": [
+        582,
+        449,
+        118,
+        174
+      ],
+      "tracking_top_ncc": 0.9173188805580139,
+      "tracking_top_bbox": [
+        582,
+        448,
+        118,
+        123
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 27,
+      "sequence": 47,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0027.png",
+      "sha256": "ab4accf48d68b026020137e007a07d028587ccd1a35bc3b0f67e10963d52bbb0",
+      "capture": {
+        "file": "frame-0027.png",
+        "capture_start_utc": "2026-10-05T22:17:45.376427+00:00",
+        "capture_start_perf": 81228.8367083,
+        "capture_end_perf": 81228.8554092,
+        "captured_at_monotonic": 81228.828,
+        "capture_sequence": 47,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "ab4accf48d68b026020137e007a07d028587ccd1a35bc3b0f67e10963d52bbb0"
+      },
+      "full_face_ncc": 0.2666340470314026,
+      "full_face_bbox": [
+        587,
+        418,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.9418014287948608,
+      "tracking_top_bbox": [
+        585,
+        521,
+        112,
+        117
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 28,
+      "sequence": 48,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0028.png",
+      "sha256": "862c20ff5819753ef8d5d7333f39fbf6222dba3900f4cd76fa731265e17caf93",
+      "capture": {
+        "file": "frame-0028.png",
+        "capture_start_utc": "2026-10-05T22:17:45.453939+00:00",
+        "capture_start_perf": 81228.9141892,
+        "capture_end_perf": 81228.9349475,
+        "captured_at_monotonic": 81228.906,
+        "capture_sequence": 48,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "862c20ff5819753ef8d5d7333f39fbf6222dba3900f4cd76fa731265e17caf93"
+      },
+      "full_face_ncc": 0.26767438650131226,
+      "full_face_bbox": [
+        500,
+        464,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.7006605267524719,
+      "tracking_top_bbox": [
+        591,
+        602,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 29,
+      "sequence": 49,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0029.png",
+      "sha256": "3b9b50a2ee12264b82d41da65f69d7299741db66691fddcfb64fdd6dd68be70e",
+      "capture": {
+        "file": "frame-0029.png",
+        "capture_start_utc": "2026-10-05T22:17:45.546554+00:00",
+        "capture_start_perf": 81229.0076032,
+        "capture_end_perf": 81229.0360324,
+        "captured_at_monotonic": 81229.0,
+        "capture_sequence": 49,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "3b9b50a2ee12264b82d41da65f69d7299741db66691fddcfb64fdd6dd68be70e"
+      },
+      "full_face_ncc": 0.2959584891796112,
+      "full_face_bbox": [
+        588,
+        460,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.7045832872390747,
+      "tracking_top_bbox": [
+        591,
+        598,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 30,
+      "sequence": 50,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0030.png",
+      "sha256": "b073c5d7719297f12fbdbd3c3c45151eb754d2ac9d178ca9d0fcf6dfd1542de6",
+      "capture": {
+        "file": "frame-0030.png",
+        "capture_start_utc": "2026-10-05T22:17:45.629804+00:00",
+        "capture_start_perf": 81229.0913863,
+        "capture_end_perf": 81229.1129868,
+        "captured_at_monotonic": 81229.078,
+        "capture_sequence": 50,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "b073c5d7719297f12fbdbd3c3c45151eb754d2ac9d178ca9d0fcf6dfd1542de6"
+      },
+      "full_face_ncc": 0.3003747761249542,
+      "full_face_bbox": [
+        587,
+        420,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.8512352108955383,
+      "tracking_top_bbox": [
+        588,
+        560,
+        106,
+        111
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 31,
+      "sequence": 51,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0031.png",
+      "sha256": "68aff18f3a7f73d8214c7a29515ed4fa311f2c32a81541081fb00927640d257d",
+      "capture": {
+        "file": "frame-0031.png",
+        "capture_start_utc": "2026-10-05T22:17:45.725202+00:00",
+        "capture_start_perf": 81229.1857253,
+        "capture_end_perf": 81229.2065471,
+        "captured_at_monotonic": 81229.171,
+        "capture_sequence": 51,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "68aff18f3a7f73d8214c7a29515ed4fa311f2c32a81541081fb00927640d257d"
+      },
+      "full_face_ncc": 0.2673693597316742,
+      "full_face_bbox": [
+        561,
+        430,
+        123,
+        181
+      ],
+      "tracking_top_ncc": 0.855089008808136,
+      "tracking_top_bbox": [
+        588,
+        560,
+        106,
+        111
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 32,
+      "sequence": 52,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0032.png",
+      "sha256": "966a9bfe851f917e4944935197c01a020bd9475fc465f0ecc7b6c66e950b7e00",
+      "capture": {
+        "file": "frame-0032.png",
+        "capture_start_utc": "2026-10-05T22:17:45.823479+00:00",
+        "capture_start_perf": 81229.2842233,
+        "capture_end_perf": 81229.3049032,
+        "captured_at_monotonic": 81229.281,
+        "capture_sequence": 52,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "966a9bfe851f917e4944935197c01a020bd9475fc465f0ecc7b6c66e950b7e00"
+      },
+      "full_face_ncc": 0.2938207685947418,
+      "full_face_bbox": [
+        582,
+        432,
+        118,
+        174
+      ],
+      "tracking_top_ncc": 0.8586124777793884,
+      "tracking_top_bbox": [
+        588,
+        560,
+        106,
+        111
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 33,
+      "sequence": 53,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0033.png",
+      "sha256": "99cbb79dbc5bcd58814709211eb722c28b6bda7c2e48e2b3086eeb4642485e48",
+      "capture": {
+        "file": "frame-0033.png",
+        "capture_start_utc": "2026-10-05T22:17:45.899859+00:00",
+        "capture_start_perf": 81229.3603085,
+        "capture_end_perf": 81229.3775283,
+        "captured_at_monotonic": 81229.343,
+        "capture_sequence": 53,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "99cbb79dbc5bcd58814709211eb722c28b6bda7c2e48e2b3086eeb4642485e48"
+      },
+      "full_face_ncc": 0.3133658468723297,
+      "full_face_bbox": [
+        578,
+        426,
+        123,
+        181
+      ],
+      "tracking_top_ncc": 0.8586035370826721,
+      "tracking_top_bbox": [
+        588,
+        560,
+        106,
+        111
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 34,
+      "sequence": 54,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0034.png",
+      "sha256": "29a7bbd9215b034134779d55a12f25b2586b776fc6fa2b7f107ae42aa2b060ef",
+      "capture": {
+        "file": "frame-0034.png",
+        "capture_start_utc": "2026-10-05T22:17:45.989934+00:00",
+        "capture_start_perf": 81229.4502407,
+        "capture_end_perf": 81229.469042,
+        "captured_at_monotonic": 81229.437,
+        "capture_sequence": 54,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "29a7bbd9215b034134779d55a12f25b2586b776fc6fa2b7f107ae42aa2b060ef"
+      },
+      "full_face_ncc": 0.3215859830379486,
+      "full_face_bbox": [
+        578,
+        426,
+        123,
+        181
+      ],
+      "tracking_top_ncc": 0.8580266833305359,
+      "tracking_top_bbox": [
+        588,
+        560,
+        106,
+        111
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 35,
+      "sequence": 55,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0035.png",
+      "sha256": "c0709636789a2a2b51c3dbea1db8218132db876753dfd324e304d040829ca7ea",
+      "capture": {
+        "file": "frame-0035.png",
+        "capture_start_utc": "2026-10-05T22:17:46.075392+00:00",
+        "capture_start_perf": 81229.5354875,
+        "capture_end_perf": 81229.5578328,
+        "captured_at_monotonic": 81229.531,
+        "capture_sequence": 55,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "c0709636789a2a2b51c3dbea1db8218132db876753dfd324e304d040829ca7ea"
+      },
+      "full_face_ncc": 0.3206612765789032,
+      "full_face_bbox": [
+        588,
+        425,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.8588299751281738,
+      "tracking_top_bbox": [
+        588,
+        560,
+        106,
+        111
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 36,
+      "sequence": 56,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0036.png",
+      "sha256": "2dd40a354ac52438449f8d8e263eb8f20bdd67fdb0fb022fb98a202cd191c517",
+      "capture": {
+        "file": "frame-0036.png",
+        "capture_start_utc": "2026-10-05T22:17:46.167338+00:00",
+        "capture_start_perf": 81229.6276729,
+        "capture_end_perf": 81229.6479725,
+        "captured_at_monotonic": 81229.625,
+        "capture_sequence": 56,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "2dd40a354ac52438449f8d8e263eb8f20bdd67fdb0fb022fb98a202cd191c517"
+      },
+      "full_face_ncc": 0.2841780483722687,
+      "full_face_bbox": [
+        587,
+        420,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.8465796709060669,
+      "tracking_top_bbox": [
+        588,
+        560,
+        106,
+        111
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 37,
+      "sequence": 57,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0037.png",
+      "sha256": "13b36420e2bf14c21df1501c13a33e047ebe9ba38a46ee308746a200c0b57425",
+      "capture": {
+        "file": "frame-0037.png",
+        "capture_start_utc": "2026-10-05T22:17:46.258532+00:00",
+        "capture_start_perf": 81229.7192092,
+        "capture_end_perf": 81229.7399645,
+        "captured_at_monotonic": 81229.703,
+        "capture_sequence": 57,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "13b36420e2bf14c21df1501c13a33e047ebe9ba38a46ee308746a200c0b57425"
+      },
+      "full_face_ncc": 0.2741679251194,
+      "full_face_bbox": [
+        562,
+        430,
+        123,
+        181
+      ],
+      "tracking_top_ncc": 0.8577966690063477,
+      "tracking_top_bbox": [
+        588,
+        560,
+        106,
+        111
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 38,
+      "sequence": 58,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0038.png",
+      "sha256": "f53526d8056765fe095334fd4c7d01d3d1e5f601d1df14fd798037a914fe69a2",
+      "capture": {
+        "file": "frame-0038.png",
+        "capture_start_utc": "2026-10-05T22:17:46.346301+00:00",
+        "capture_start_perf": 81229.8069669,
+        "capture_end_perf": 81229.8295876,
+        "captured_at_monotonic": 81229.796,
+        "capture_sequence": 58,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "f53526d8056765fe095334fd4c7d01d3d1e5f601d1df14fd798037a914fe69a2"
+      },
+      "full_face_ncc": 0.3014898896217346,
+      "full_face_bbox": [
+        578,
+        426,
+        123,
+        181
+      ],
+      "tracking_top_ncc": 0.8588941693305969,
+      "tracking_top_bbox": [
+        588,
+        560,
+        106,
+        111
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 39,
+      "sequence": 59,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0039.png",
+      "sha256": "44c713834be7d615a07e6e5fb4e64cbc8ae91726acef83622bbe37963cab366d",
+      "capture": {
+        "file": "frame-0039.png",
+        "capture_start_utc": "2026-10-05T22:17:46.436475+00:00",
+        "capture_start_perf": 81229.8972664,
+        "capture_end_perf": 81229.918968,
+        "captured_at_monotonic": 81229.89,
+        "capture_sequence": 59,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "44c713834be7d615a07e6e5fb4e64cbc8ae91726acef83622bbe37963cab366d"
+      },
+      "full_face_ncc": 0.31944331526756287,
+      "full_face_bbox": [
+        578,
+        426,
+        123,
+        181
+      ],
+      "tracking_top_ncc": 0.8581598997116089,
+      "tracking_top_bbox": [
+        588,
+        560,
+        106,
+        111
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 40,
+      "sequence": 60,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0040.png",
+      "sha256": "8ffb9b39f2b5f0c674466e12e7f84683e324ca437b9f7de2ec5d272dc3b65f80",
+      "capture": {
+        "file": "frame-0040.png",
+        "capture_start_utc": "2026-10-05T22:17:46.517457+00:00",
+        "capture_start_perf": 81229.9776653,
+        "capture_end_perf": 81229.9941701,
+        "captured_at_monotonic": 81229.968,
+        "capture_sequence": 60,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "8ffb9b39f2b5f0c674466e12e7f84683e324ca437b9f7de2ec5d272dc3b65f80"
+      },
+      "full_face_ncc": 0.32182592153549194,
+      "full_face_bbox": [
+        578,
+        426,
+        123,
+        181
+      ],
+      "tracking_top_ncc": 0.8580191135406494,
+      "tracking_top_bbox": [
+        588,
+        560,
+        106,
+        111
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 41,
+      "sequence": 61,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0041.png",
+      "sha256": "31ca429e6ff6854f1c08e7b953a69441cec903fb8b2a3ff384ca4669f8fbf50f",
+      "capture": {
+        "file": "frame-0041.png",
+        "capture_start_utc": "2026-10-05T22:17:46.594036+00:00",
+        "capture_start_perf": 81230.0545183,
+        "capture_end_perf": 81230.0708885,
+        "captured_at_monotonic": 81230.046,
+        "capture_sequence": 61,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "31ca429e6ff6854f1c08e7b953a69441cec903fb8b2a3ff384ca4669f8fbf50f"
+      },
+      "full_face_ncc": 0.2696356177330017,
+      "full_face_bbox": [
+        578,
+        455,
+        123,
+        181
+      ],
+      "tracking_top_ncc": 0.6955944895744324,
+      "tracking_top_bbox": [
+        591,
+        597,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 42,
+      "sequence": 62,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0042.png",
+      "sha256": "530f28b67d6653c99ac9fabf3d26808996dae974cdb92291c4b64941209065f2",
+      "capture": {
+        "file": "frame-0042.png",
+        "capture_start_utc": "2026-10-05T22:17:46.672202+00:00",
+        "capture_start_perf": 81230.1325656,
+        "capture_end_perf": 81230.1543339,
+        "captured_at_monotonic": 81230.125,
+        "capture_sequence": 62,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "530f28b67d6653c99ac9fabf3d26808996dae974cdb92291c4b64941209065f2"
+      },
+      "full_face_ncc": 0.2710713744163513,
+      "full_face_bbox": [
+        500,
+        464,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.5270301699638367,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 43,
+      "sequence": 63,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0043.png",
+      "sha256": "6d491f0849d99f0eb83ba2845b2d615bf34d6ccc1da58d3deed4dd1bc9aadcb2",
+      "capture": {
+        "file": "frame-0043.png",
+        "capture_start_utc": "2026-10-05T22:17:46.756590+00:00",
+        "capture_start_perf": 81230.217399,
+        "capture_end_perf": 81230.2385292,
+        "captured_at_monotonic": 81230.203,
+        "capture_sequence": 63,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "6d491f0849d99f0eb83ba2845b2d615bf34d6ccc1da58d3deed4dd1bc9aadcb2"
+      },
+      "full_face_ncc": 0.271695613861084,
+      "full_face_bbox": [
+        500,
+        464,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.5270442366600037,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 44,
+      "sequence": 64,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0044.png",
+      "sha256": "e08fd82a1e25a55c57f8084baa0ee15df7817e75fddda3ceeed3358c57c14772",
+      "capture": {
+        "file": "frame-0044.png",
+        "capture_start_utc": "2026-10-05T22:17:46.833752+00:00",
+        "capture_start_perf": 81230.2944308,
+        "capture_end_perf": 81230.3137549,
+        "captured_at_monotonic": 81230.281,
+        "capture_sequence": 64,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "e08fd82a1e25a55c57f8084baa0ee15df7817e75fddda3ceeed3358c57c14772"
+      },
+      "full_face_ncc": 0.3037374019622803,
+      "full_face_bbox": [
+        517,
+        460,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4394173324108124,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 45,
+      "sequence": 65,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0045.png",
+      "sha256": "c2876cfb67ced57efb1e6fb030c4256a4d092e05d1e63f6f1cb962a735e5135e",
+      "capture": {
+        "file": "frame-0045.png",
+        "capture_start_utc": "2026-10-05T22:17:46.897641+00:00",
+        "capture_start_perf": 81230.3585037,
+        "capture_end_perf": 81230.3774366,
+        "captured_at_monotonic": 81230.343,
+        "capture_sequence": 65,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "c2876cfb67ced57efb1e6fb030c4256a4d092e05d1e63f6f1cb962a735e5135e"
+      },
+      "full_face_ncc": 0.3108174502849579,
+      "full_face_bbox": [
+        503,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4403318762779236,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 46,
+      "sequence": 66,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0046.png",
+      "sha256": "7b5d9e66a9e910034b02a254113b94374cb969b12a02627e600a0a77418ca74d",
+      "capture": {
+        "file": "frame-0046.png",
+        "capture_start_utc": "2026-10-05T22:17:46.969762+00:00",
+        "capture_start_perf": 81230.4303145,
+        "capture_end_perf": 81230.4465767,
+        "captured_at_monotonic": 81230.421,
+        "capture_sequence": 66,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "7b5d9e66a9e910034b02a254113b94374cb969b12a02627e600a0a77418ca74d"
+      },
+      "full_face_ncc": 0.31314194202423096,
+      "full_face_bbox": [
+        503,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.44099584221839905,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 47,
+      "sequence": 67,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0047.png",
+      "sha256": "339b0ce727c713b6dddd6bfde7bf2ff13102df1339e79653b933b63ed4106d01",
+      "capture": {
+        "file": "frame-0047.png",
+        "capture_start_utc": "2026-10-05T22:17:47.047578+00:00",
+        "capture_start_perf": 81230.5077822,
+        "capture_end_perf": 81230.5293953,
+        "captured_at_monotonic": 81230.5,
+        "capture_sequence": 67,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "339b0ce727c713b6dddd6bfde7bf2ff13102df1339e79653b933b63ed4106d01"
+      },
+      "full_face_ncc": 0.313735693693161,
+      "full_face_bbox": [
+        503,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4410415589809418,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 48,
+      "sequence": 68,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0048.png",
+      "sha256": "cfdd03a8265a9e725a7191020d23bfd86be4265a6b645cc77708fd2fdc846b2d",
+      "capture": {
+        "file": "frame-0048.png",
+        "capture_start_utc": "2026-10-05T22:17:47.132339+00:00",
+        "capture_start_perf": 81230.5931738,
+        "capture_end_perf": 81230.6127601,
+        "captured_at_monotonic": 81230.578,
+        "capture_sequence": 68,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "cfdd03a8265a9e725a7191020d23bfd86be4265a6b645cc77708fd2fdc846b2d"
+      },
+      "full_face_ncc": 0.3128772974014282,
+      "full_face_bbox": [
+        503,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.44137194752693176,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 49,
+      "sequence": 69,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0049.png",
+      "sha256": "640ef18c25f830242aa8c4741bbf07fd8bf65567429ed9c4bc89217ab587ebef",
+      "capture": {
+        "file": "frame-0049.png",
+        "capture_start_utc": "2026-10-05T22:17:47.215493+00:00",
+        "capture_start_perf": 81230.6761105,
+        "capture_end_perf": 81230.6955339,
+        "captured_at_monotonic": 81230.671,
+        "capture_sequence": 69,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "640ef18c25f830242aa8c4741bbf07fd8bf65567429ed9c4bc89217ab587ebef"
+      },
+      "full_face_ncc": 0.312703013420105,
+      "full_face_bbox": [
+        503,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.44233378767967224,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 50,
+      "sequence": 70,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0050.png",
+      "sha256": "f139ba754a7afa2319867fc6bd54027e9a6ef2fc20795549af8e2bf5d604a5b9",
+      "capture": {
+        "file": "frame-0050.png",
+        "capture_start_utc": "2026-10-05T22:17:47.303547+00:00",
+        "capture_start_perf": 81230.7640183,
+        "capture_end_perf": 81230.7795745,
+        "captured_at_monotonic": 81230.75,
+        "capture_sequence": 70,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "f139ba754a7afa2319867fc6bd54027e9a6ef2fc20795549af8e2bf5d604a5b9"
+      },
+      "full_face_ncc": 0.3129958212375641,
+      "full_face_bbox": [
+        503,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4442504346370697,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 51,
+      "sequence": 71,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0051.png",
+      "sha256": "b533938a1a38bb8fdeae4ca6d485c9c3e2938fbce5bcc9715e7bf231719d87ad",
+      "capture": {
+        "file": "frame-0051.png",
+        "capture_start_utc": "2026-10-05T22:17:47.374013+00:00",
+        "capture_start_perf": 81230.8343096,
+        "capture_end_perf": 81230.8554105,
+        "captured_at_monotonic": 81230.828,
+        "capture_sequence": 71,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "b533938a1a38bb8fdeae4ca6d485c9c3e2938fbce5bcc9715e7bf231719d87ad"
+      },
+      "full_face_ncc": 0.3114495277404785,
+      "full_face_bbox": [
+        503,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.44575005769729614,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 52,
+      "sequence": 72,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0052.png",
+      "sha256": "a3277361f5b4b41cd013cb0808662c0681bdd35ea551aea89c017d3cae673fcd",
+      "capture": {
+        "file": "frame-0052.png",
+        "capture_start_utc": "2026-10-05T22:17:47.468508+00:00",
+        "capture_start_perf": 81230.9293906,
+        "capture_end_perf": 81230.9462536,
+        "captured_at_monotonic": 81230.921,
+        "capture_sequence": 72,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "a3277361f5b4b41cd013cb0808662c0681bdd35ea551aea89c017d3cae673fcd"
+      },
+      "full_face_ncc": 0.3114381432533264,
+      "full_face_bbox": [
+        518,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.44760245084762573,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 53,
+      "sequence": 73,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0053.png",
+      "sha256": "38c85354a4f2aba618130454e215fa896f66c75651ccbb270e7250f65c282d07",
+      "capture": {
+        "file": "frame-0053.png",
+        "capture_start_utc": "2026-10-05T22:17:47.541905+00:00",
+        "capture_start_perf": 81231.002007,
+        "capture_end_perf": 81231.0220407,
+        "captured_at_monotonic": 81231.0,
+        "capture_sequence": 73,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "38c85354a4f2aba618130454e215fa896f66c75651ccbb270e7250f65c282d07"
+      },
+      "full_face_ncc": 0.3125256896018982,
+      "full_face_bbox": [
+        518,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.44961535930633545,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 54,
+      "sequence": 74,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0054.png",
+      "sha256": "89d4b2fc9fc377bd53f77e6bf8e55cf190acf87d3d79109cb7ed61d2a0ba26fa",
+      "capture": {
+        "file": "frame-0054.png",
+        "capture_start_utc": "2026-10-05T22:17:47.625484+00:00",
+        "capture_start_perf": 81231.085793,
+        "capture_end_perf": 81231.1062854,
+        "captured_at_monotonic": 81231.078,
+        "capture_sequence": 74,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "89d4b2fc9fc377bd53f77e6bf8e55cf190acf87d3d79109cb7ed61d2a0ba26fa"
+      },
+      "full_face_ncc": 0.31392911076545715,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.45223021507263184,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 55,
+      "sequence": 75,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0055.png",
+      "sha256": "499643cfc694af2d0f5e5c4b7b39f962aea881bf9e1c8790dab5b2481bf1e60a",
+      "capture": {
+        "file": "frame-0055.png",
+        "capture_start_utc": "2026-10-05T22:17:47.709654+00:00",
+        "capture_start_perf": 81231.1702684,
+        "capture_end_perf": 81231.1892033,
+        "captured_at_monotonic": 81231.156,
+        "capture_sequence": 75,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "499643cfc694af2d0f5e5c4b7b39f962aea881bf9e1c8790dab5b2481bf1e60a"
+      },
+      "full_face_ncc": 0.31458649039268494,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.45489493012428284,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 56,
+      "sequence": 76,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0056.png",
+      "sha256": "d79aa1776247a12d6eb6c0f1f635b03acea87dc675c051af532535fc5dd0162b",
+      "capture": {
+        "file": "frame-0056.png",
+        "capture_start_utc": "2026-10-05T22:17:47.793514+00:00",
+        "capture_start_perf": 81231.2545377,
+        "capture_end_perf": 81231.2734877,
+        "captured_at_monotonic": 81231.25,
+        "capture_sequence": 76,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "d79aa1776247a12d6eb6c0f1f635b03acea87dc675c051af532535fc5dd0162b"
+      },
+      "full_face_ncc": 0.315444678068161,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4573404788970947,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 57,
+      "sequence": 77,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0057.png",
+      "sha256": "bb1f3754c9a58a6565743132e709e930a2b512c344566d0ee473c3c1ef445dcb",
+      "capture": {
+        "file": "frame-0057.png",
+        "capture_start_utc": "2026-10-05T22:17:47.872499+00:00",
+        "capture_start_perf": 81231.3328408,
+        "capture_end_perf": 81231.3484927,
+        "captured_at_monotonic": 81231.312,
+        "capture_sequence": 77,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "bb1f3754c9a58a6565743132e709e930a2b512c344566d0ee473c3c1ef445dcb"
+      },
+      "full_face_ncc": 0.3173106908798218,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4593701958656311,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 58,
+      "sequence": 78,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0058.png",
+      "sha256": "68323ea1698c74a6a8109be38d1819c19916123544dcfaf137afd1bca50426a0",
+      "capture": {
+        "file": "frame-0058.png",
+        "capture_start_utc": "2026-10-05T22:17:47.958525+00:00",
+        "capture_start_perf": 81231.418863,
+        "capture_end_perf": 81231.4401622,
+        "captured_at_monotonic": 81231.406,
+        "capture_sequence": 78,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "68323ea1698c74a6a8109be38d1819c19916123544dcfaf137afd1bca50426a0"
+      },
+      "full_face_ncc": 0.3184749484062195,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.46149346232414246,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 59,
+      "sequence": 79,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0059.png",
+      "sha256": "6341942f8c00ab15c134c5cf5ed891e01790e76a9358fbedcc62d3413004dfbc",
+      "capture": {
+        "file": "frame-0059.png",
+        "capture_start_utc": "2026-10-05T22:17:48.022463+00:00",
+        "capture_start_perf": 81231.4828247,
+        "capture_end_perf": 81231.5022176,
+        "captured_at_monotonic": 81231.468,
+        "capture_sequence": 79,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "6341942f8c00ab15c134c5cf5ed891e01790e76a9358fbedcc62d3413004dfbc"
+      },
+      "full_face_ncc": 0.31865739822387695,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4627106487751007,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 60,
+      "sequence": 80,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0060.png",
+      "sha256": "f8f02157a37519c03ed598c123cbe4a16c78fc3c81dd18077a72e2456d823b99",
+      "capture": {
+        "file": "frame-0060.png",
+        "capture_start_utc": "2026-10-05T22:17:48.103072+00:00",
+        "capture_start_perf": 81231.5638822,
+        "capture_end_perf": 81231.5855272,
+        "captured_at_monotonic": 81231.562,
+        "capture_sequence": 80,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "f8f02157a37519c03ed598c123cbe4a16c78fc3c81dd18077a72e2456d823b99"
+      },
+      "full_face_ncc": 0.31980010867118835,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.46427372097969055,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 61,
+      "sequence": 81,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0061.png",
+      "sha256": "1e9bdae93827b9bb32a5b03bb0585d02ca2b8dd2f4aae9d7df13376f1ee1d5d9",
+      "capture": {
+        "file": "frame-0061.png",
+        "capture_start_utc": "2026-10-05T22:17:48.194799+00:00",
+        "capture_start_perf": 81231.6552184,
+        "capture_end_perf": 81231.6751007,
+        "captured_at_monotonic": 81231.64,
+        "capture_sequence": 81,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "1e9bdae93827b9bb32a5b03bb0585d02ca2b8dd2f4aae9d7df13376f1ee1d5d9"
+      },
+      "full_face_ncc": 0.32138609886169434,
+      "full_face_bbox": [
+        517,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4646337330341339,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 62,
+      "sequence": 82,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0062.png",
+      "sha256": "755c042551c568b66fc2d18bafcf99ff5e8815f58dd9db03f44211603ab13193",
+      "capture": {
+        "file": "frame-0062.png",
+        "capture_start_utc": "2026-10-05T22:17:48.260261+00:00",
+        "capture_start_perf": 81231.7205568,
+        "capture_end_perf": 81231.7379803,
+        "captured_at_monotonic": 81231.703,
+        "capture_sequence": 82,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "755c042551c568b66fc2d18bafcf99ff5e8815f58dd9db03f44211603ab13193"
+      },
+      "full_face_ncc": 0.3219100534915924,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4644313454627991,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 63,
+      "sequence": 83,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0063.png",
+      "sha256": "4db05939e72d2ad7d471960a46bbfd4cb0fac14cf5c9cb9942c7e843bc9a11e5",
+      "capture": {
+        "file": "frame-0063.png",
+        "capture_start_utc": "2026-10-05T22:17:48.321302+00:00",
+        "capture_start_perf": 81231.7821013,
+        "capture_end_perf": 81231.8008048,
+        "captured_at_monotonic": 81231.765,
+        "capture_sequence": 83,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "4db05939e72d2ad7d471960a46bbfd4cb0fac14cf5c9cb9942c7e843bc9a11e5"
+      },
+      "full_face_ncc": 0.3220537602901459,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4639641344547272,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 64,
+      "sequence": 84,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0064.png",
+      "sha256": "98dfb02747005445cec814192e5b4771607bbb24d006f8f2b8cc32dc9d23ab24",
+      "capture": {
+        "file": "frame-0064.png",
+        "capture_start_utc": "2026-10-05T22:17:48.393561+00:00",
+        "capture_start_perf": 81231.8544812,
+        "capture_end_perf": 81231.8700026,
+        "captured_at_monotonic": 81231.843,
+        "capture_sequence": 84,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "98dfb02747005445cec814192e5b4771607bbb24d006f8f2b8cc32dc9d23ab24"
+      },
+      "full_face_ncc": 0.32215672731399536,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.46343958377838135,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 65,
+      "sequence": 85,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0065.png",
+      "sha256": "ed47e286073ac4190859f3a37e24689f882bb3453bf2a2fb36762d87e7e7169d",
+      "capture": {
+        "file": "frame-0065.png",
+        "capture_start_utc": "2026-10-05T22:17:48.469787+00:00",
+        "capture_start_perf": 81231.9309658,
+        "capture_end_perf": 81231.9472938,
+        "captured_at_monotonic": 81231.921,
+        "capture_sequence": 85,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "ed47e286073ac4190859f3a37e24689f882bb3453bf2a2fb36762d87e7e7169d"
+      },
+      "full_face_ncc": 0.3220612108707428,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.46258437633514404,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 66,
+      "sequence": 86,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0066.png",
+      "sha256": "1bb9af87fb8dfa41965ae657b0ac648585ceaf6f43cd5eb4ce81c112d45b40d1",
+      "capture": {
+        "file": "frame-0066.png",
+        "capture_start_utc": "2026-10-05T22:17:48.556733+00:00",
+        "capture_start_perf": 81232.0168886,
+        "capture_end_perf": 81232.0383534,
+        "captured_at_monotonic": 81232.015,
+        "capture_sequence": 86,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "1bb9af87fb8dfa41965ae657b0ac648585ceaf6f43cd5eb4ce81c112d45b40d1"
+      },
+      "full_face_ncc": 0.3214409649372101,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4611910283565521,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 67,
+      "sequence": 87,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0067.png",
+      "sha256": "2b58fe25f5452045d6408243a01326939d5e8c90a6d22bc221ef4fc43020365c",
+      "capture": {
+        "file": "frame-0067.png",
+        "capture_start_utc": "2026-10-05T22:17:48.636823+00:00",
+        "capture_start_perf": 81232.0973226,
+        "capture_end_perf": 81232.114409,
+        "captured_at_monotonic": 81232.078,
+        "capture_sequence": 87,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "2b58fe25f5452045d6408243a01326939d5e8c90a6d22bc221ef4fc43020365c"
+      },
+      "full_face_ncc": 0.3204970061779022,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4607328176498413,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 68,
+      "sequence": 88,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0068.png",
+      "sha256": "65c2ef12b07feb8ce9b365b16c56c6ce4724402925c825ee7e5a56dd913ba87f",
+      "capture": {
+        "file": "frame-0068.png",
+        "capture_start_utc": "2026-10-05T22:17:48.721483+00:00",
+        "capture_start_perf": 81232.1821421,
+        "capture_end_perf": 81232.2040447,
+        "captured_at_monotonic": 81232.171,
+        "capture_sequence": 88,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "65c2ef12b07feb8ce9b365b16c56c6ce4724402925c825ee7e5a56dd913ba87f"
+      },
+      "full_face_ncc": 0.3202228844165802,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4606253504753113,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 69,
+      "sequence": 89,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0069.png",
+      "sha256": "8ae5b1530351b50b3affe2514f33a6e6adcbc4c33bf508d6af5d48a1d30796f1",
+      "capture": {
+        "file": "frame-0069.png",
+        "capture_start_utc": "2026-10-05T22:17:48.818589+00:00",
+        "capture_start_perf": 81232.2789382,
+        "capture_end_perf": 81232.3012144,
+        "captured_at_monotonic": 81232.265,
+        "capture_sequence": 89,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "8ae5b1530351b50b3affe2514f33a6e6adcbc4c33bf508d6af5d48a1d30796f1"
+      },
+      "full_face_ncc": 0.3214426636695862,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.46080300211906433,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 70,
+      "sequence": 90,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0070.png",
+      "sha256": "04b013eec55faa96c03b72b56a4bd6fddbd31f47ec921e5b8243057347405111",
+      "capture": {
+        "file": "frame-0070.png",
+        "capture_start_utc": "2026-10-05T22:17:48.902936+00:00",
+        "capture_start_perf": 81232.3637514,
+        "capture_end_perf": 81232.384575,
+        "captured_at_monotonic": 81232.359,
+        "capture_sequence": 90,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "04b013eec55faa96c03b72b56a4bd6fddbd31f47ec921e5b8243057347405111"
+      },
+      "full_face_ncc": 0.32083383202552795,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4605899453163147,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 71,
+      "sequence": 91,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0071.png",
+      "sha256": "65c67adfe48b5c78a3e332740f2c43e05ea4d150baac21dc7a2d51d1a375b92d",
+      "capture": {
+        "file": "frame-0071.png",
+        "capture_start_utc": "2026-10-05T22:17:48.987418+00:00",
+        "capture_start_perf": 81232.448404,
+        "capture_end_perf": 81232.4686561,
+        "captured_at_monotonic": 81232.437,
+        "capture_sequence": 91,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "65c67adfe48b5c78a3e332740f2c43e05ea4d150baac21dc7a2d51d1a375b92d"
+      },
+      "full_face_ncc": 0.32066503167152405,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4605286717414856,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 72,
+      "sequence": 92,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0072.png",
+      "sha256": "4247779354179fde92d39b00c6336bf3289095c5805556a754e9ffe5c3f8eca5",
+      "capture": {
+        "file": "frame-0072.png",
+        "capture_start_utc": "2026-10-05T22:17:49.065045+00:00",
+        "capture_start_perf": 81232.525296,
+        "capture_end_perf": 81232.5473804,
+        "captured_at_monotonic": 81232.515,
+        "capture_sequence": 92,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "4247779354179fde92d39b00c6336bf3289095c5805556a754e9ffe5c3f8eca5"
+      },
+      "full_face_ncc": 0.3209458291530609,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.45948517322540283,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 73,
+      "sequence": 93,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0073.png",
+      "sha256": "40bc108fd5736274eae4a4786617d81656da8616216215df4cf3b61e28d735ab",
+      "capture": {
+        "file": "frame-0073.png",
+        "capture_start_utc": "2026-10-05T22:17:49.149408+00:00",
+        "capture_start_perf": 81232.6106846,
+        "capture_end_perf": 81232.6285349,
+        "captured_at_monotonic": 81232.593,
+        "capture_sequence": 93,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "40bc108fd5736274eae4a4786617d81656da8616216215df4cf3b61e28d735ab"
+      },
+      "full_face_ncc": 0.32147330045700073,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.45803970098495483,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 74,
+      "sequence": 94,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0074.png",
+      "sha256": "0a82e8199422317ca43e7cd084cf22e0e3bfb57fa0430b4ce2a2c2644005e908",
+      "capture": {
+        "file": "frame-0074.png",
+        "capture_start_utc": "2026-10-05T22:17:49.239773+00:00",
+        "capture_start_perf": 81232.7007796,
+        "capture_end_perf": 81232.7183615,
+        "captured_at_monotonic": 81232.687,
+        "capture_sequence": 94,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "0a82e8199422317ca43e7cd084cf22e0e3bfb57fa0430b4ce2a2c2644005e908"
+      },
+      "full_face_ncc": 0.32140281796455383,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.45600107312202454,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 75,
+      "sequence": 95,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0075.png",
+      "sha256": "e55961935e745cb7420e2bd59001dad84960e814ab843cb0a102bb2e69b763ed",
+      "capture": {
+        "file": "frame-0075.png",
+        "capture_start_utc": "2026-10-05T22:17:49.321555+00:00",
+        "capture_start_perf": 81232.7819281,
+        "capture_end_perf": 81232.8022836,
+        "captured_at_monotonic": 81232.781,
+        "capture_sequence": 95,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "e55961935e745cb7420e2bd59001dad84960e814ab843cb0a102bb2e69b763ed"
+      },
+      "full_face_ncc": 0.3213266134262085,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.45332401990890503,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 76,
+      "sequence": 96,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0076.png",
+      "sha256": "80c8256944ca1dc20ca3eec8aad8f9c91ce56fedf5770dbbacb4aff3bf631f5a",
+      "capture": {
+        "file": "frame-0076.png",
+        "capture_start_utc": "2026-10-05T22:17:49.387334+00:00",
+        "capture_start_perf": 81232.8479347,
+        "capture_end_perf": 81232.8714868,
+        "captured_at_monotonic": 81232.843,
+        "capture_sequence": 96,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "80c8256944ca1dc20ca3eec8aad8f9c91ce56fedf5770dbbacb4aff3bf631f5a"
+      },
+      "full_face_ncc": 0.3211733400821686,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4513219892978668,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 77,
+      "sequence": 97,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0077.png",
+      "sha256": "7058610acb81e92f5f5f59862a5ee228ae0b19462e06c1eff5b4bda285af4fd3",
+      "capture": {
+        "file": "frame-0077.png",
+        "capture_start_utc": "2026-10-05T22:17:49.470572+00:00",
+        "capture_start_perf": 81232.9318811,
+        "capture_end_perf": 81232.9547861,
+        "captured_at_monotonic": 81232.921,
+        "capture_sequence": 97,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "7058610acb81e92f5f5f59862a5ee228ae0b19462e06c1eff5b4bda285af4fd3"
+      },
+      "full_face_ncc": 0.32020556926727295,
+      "full_face_bbox": [
+        519,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.44887906312942505,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 78,
+      "sequence": 98,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0078.png",
+      "sha256": "d39c83924bb0aeb21b4febdf6bdd0c552d7c9109a83da38f0ca002e7b2bdac00",
+      "capture": {
+        "file": "frame-0078.png",
+        "capture_start_utc": "2026-10-05T22:17:49.540269+00:00",
+        "capture_start_perf": 81233.000569,
+        "capture_end_perf": 81233.0177175,
+        "captured_at_monotonic": 81232.984,
+        "capture_sequence": 98,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "d39c83924bb0aeb21b4febdf6bdd0c552d7c9109a83da38f0ca002e7b2bdac00"
+      },
+      "full_face_ncc": 0.3202768564224243,
+      "full_face_bbox": [
+        517,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4473820626735687,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 79,
+      "sequence": 99,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0079.png",
+      "sha256": "43be4738cf2419798b5bd82238dfb0ea592aef2a499e6c2c4b797b9a8ce88905",
+      "capture": {
+        "file": "frame-0079.png",
+        "capture_start_utc": "2026-10-05T22:17:49.626760+00:00",
+        "capture_start_perf": 81233.0876484,
+        "capture_end_perf": 81233.1077573,
+        "captured_at_monotonic": 81233.078,
+        "capture_sequence": 99,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "43be4738cf2419798b5bd82238dfb0ea592aef2a499e6c2c4b797b9a8ce88905"
+      },
+      "full_face_ncc": 0.320323646068573,
+      "full_face_bbox": [
+        517,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.44579485058784485,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 80,
+      "sequence": 100,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0080.png",
+      "sha256": "04c97942a0f933adbe18ca9e8d5ff46865f91d31ddfe7d7432058d59318d7014",
+      "capture": {
+        "file": "frame-0080.png",
+        "capture_start_utc": "2026-10-05T22:17:49.716890+00:00",
+        "capture_start_perf": 81233.1773766,
+        "capture_end_perf": 81233.1984835,
+        "captured_at_monotonic": 81233.171,
+        "capture_sequence": 100,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "04c97942a0f933adbe18ca9e8d5ff46865f91d31ddfe7d7432058d59318d7014"
+      },
+      "full_face_ncc": 0.3191658854484558,
+      "full_face_bbox": [
+        517,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.44548916816711426,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 81,
+      "sequence": 101,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0081.png",
+      "sha256": "d7cf73fd13a182db5a188cebba4c65493254076fcaeefbafe5e874494163b24c",
+      "capture": {
+        "file": "frame-0081.png",
+        "capture_start_utc": "2026-10-05T22:17:49.805691+00:00",
+        "capture_start_perf": 81233.2660668,
+        "capture_end_perf": 81233.2874992,
+        "captured_at_monotonic": 81233.265,
+        "capture_sequence": 101,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "d7cf73fd13a182db5a188cebba4c65493254076fcaeefbafe5e874494163b24c"
+      },
+      "full_face_ncc": 0.31876304745674133,
+      "full_face_bbox": [
+        517,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4456726312637329,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 82,
+      "sequence": 102,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0082.png",
+      "sha256": "b7deca539b66d5752dfa8290397faab8628461c0333830bda5391efcd33603f5",
+      "capture": {
+        "file": "frame-0082.png",
+        "capture_start_utc": "2026-10-05T22:17:49.902924+00:00",
+        "capture_start_perf": 81233.3637314,
+        "capture_end_perf": 81233.3853502,
+        "captured_at_monotonic": 81233.359,
+        "capture_sequence": 102,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "b7deca539b66d5752dfa8290397faab8628461c0333830bda5391efcd33603f5"
+      },
+      "full_face_ncc": 0.3179871737957001,
+      "full_face_bbox": [
+        517,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.44716793298721313,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 83,
+      "sequence": 103,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0083.png",
+      "sha256": "fc1dc76a01c4baf9b2811ebf555f8e1948b82c81ab349f41090010ea67966150",
+      "capture": {
+        "file": "frame-0083.png",
+        "capture_start_utc": "2026-10-05T22:17:50.002124+00:00",
+        "capture_start_perf": 81233.46221,
+        "capture_end_perf": 81233.4828677,
+        "captured_at_monotonic": 81233.453,
+        "capture_sequence": 103,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "fc1dc76a01c4baf9b2811ebf555f8e1948b82c81ab349f41090010ea67966150"
+      },
+      "full_face_ncc": 0.3170377314090729,
+      "full_face_bbox": [
+        517,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4492807388305664,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 84,
+      "sequence": 104,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0084.png",
+      "sha256": "795026cd8e11a1e301ca3bbae1f8a908bbf7176e39e8089aae3c0e2f1a80a8c9",
+      "capture": {
+        "file": "frame-0084.png",
+        "capture_start_utc": "2026-10-05T22:17:50.092395+00:00",
+        "capture_start_perf": 81233.5525488,
+        "capture_end_perf": 81233.5725858,
+        "captured_at_monotonic": 81233.546,
+        "capture_sequence": 104,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "795026cd8e11a1e301ca3bbae1f8a908bbf7176e39e8089aae3c0e2f1a80a8c9"
+      },
+      "full_face_ncc": 0.3155669867992401,
+      "full_face_bbox": [
+        517,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4514367878437042,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 85,
+      "sequence": 105,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0085.png",
+      "sha256": "3c9d5b3be3348f1eac05867e31893e33e2b0a779a54b9ef10fbcece5b581fbc5",
+      "capture": {
+        "file": "frame-0085.png",
+        "capture_start_utc": "2026-10-05T22:17:50.163561+00:00",
+        "capture_start_perf": 81233.6242927,
+        "capture_end_perf": 81233.6429261,
+        "captured_at_monotonic": 81233.609,
+        "capture_sequence": 105,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "3c9d5b3be3348f1eac05867e31893e33e2b0a779a54b9ef10fbcece5b581fbc5"
+      },
+      "full_face_ncc": 0.31524941325187683,
+      "full_face_bbox": [
+        517,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.45290684700012207,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 86,
+      "sequence": 106,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0086.png",
+      "sha256": "8916beb11c62be389e5437d67a550323cda7ebee19e204f038079e671f0bcb50",
+      "capture": {
+        "file": "frame-0086.png",
+        "capture_start_utc": "2026-10-05T22:17:50.247884+00:00",
+        "capture_start_perf": 81233.7083542,
+        "capture_end_perf": 81233.7261195,
+        "captured_at_monotonic": 81233.703,
+        "capture_sequence": 106,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "8916beb11c62be389e5437d67a550323cda7ebee19e204f038079e671f0bcb50"
+      },
+      "full_face_ncc": 0.3150339722633362,
+      "full_face_bbox": [
+        517,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4547356069087982,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 87,
+      "sequence": 107,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0087.png",
+      "sha256": "3a84316fbc91eb4fc82cdbc7da8a9369b759df61db74a6f8d0e72522a1894ffb",
+      "capture": {
+        "file": "frame-0087.png",
+        "capture_start_utc": "2026-10-05T22:17:50.341706+00:00",
+        "capture_start_perf": 81233.8027052,
+        "capture_end_perf": 81233.8226102,
+        "captured_at_monotonic": 81233.796,
+        "capture_sequence": 107,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "3a84316fbc91eb4fc82cdbc7da8a9369b759df61db74a6f8d0e72522a1894ffb"
+      },
+      "full_face_ncc": 0.31468459963798523,
+      "full_face_bbox": [
+        517,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.456783264875412,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 88,
+      "sequence": 108,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0088.png",
+      "sha256": "0927388756d46f3ff9a3a6aff9a70e40100685f32d6226196add68a259690841",
+      "capture": {
+        "file": "frame-0088.png",
+        "capture_start_utc": "2026-10-05T22:17:50.433707+00:00",
+        "capture_start_perf": 81233.8938712,
+        "capture_end_perf": 81233.9130303,
+        "captured_at_monotonic": 81233.89,
+        "capture_sequence": 108,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "0927388756d46f3ff9a3a6aff9a70e40100685f32d6226196add68a259690841"
+      },
+      "full_face_ncc": 0.31656479835510254,
+      "full_face_bbox": [
+        517,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.457696795463562,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 89,
+      "sequence": 109,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0089.png",
+      "sha256": "5357f9196570213a3abbbc961f3d278ce4a7782ec9de153cd113b5c5d795ee75",
+      "capture": {
+        "file": "frame-0089.png",
+        "capture_start_utc": "2026-10-05T22:17:50.508575+00:00",
+        "capture_start_perf": 81233.9694158,
+        "capture_end_perf": 81233.9895027,
+        "captured_at_monotonic": 81233.953,
+        "capture_sequence": 109,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "5357f9196570213a3abbbc961f3d278ce4a7782ec9de153cd113b5c5d795ee75"
+      },
+      "full_face_ncc": 0.3170143663883209,
+      "full_face_bbox": [
+        510,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4577174782752991,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 90,
+      "sequence": 110,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0090.png",
+      "sha256": "0c6358486beb4d33b8d1e7d6850330cbc54e83339f954eece4bedcf95dcbf188",
+      "capture": {
+        "file": "frame-0090.png",
+        "capture_start_utc": "2026-10-05T22:17:50.600010+00:00",
+        "capture_start_perf": 81234.0600949,
+        "capture_end_perf": 81234.0792036,
+        "captured_at_monotonic": 81234.046,
+        "capture_sequence": 110,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "0c6358486beb4d33b8d1e7d6850330cbc54e83339f954eece4bedcf95dcbf188"
+      },
+      "full_face_ncc": 0.31826943159103394,
+      "full_face_bbox": [
+        510,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4575192928314209,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 91,
+      "sequence": 111,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0091.png",
+      "sha256": "1f1f985ff3741ce6edc89494646366d7adef524b59487d7fe400bccbe9515ba5",
+      "capture": {
+        "file": "frame-0091.png",
+        "capture_start_utc": "2026-10-05T22:17:50.681515+00:00",
+        "capture_start_perf": 81234.1420401,
+        "capture_end_perf": 81234.1631011,
+        "captured_at_monotonic": 81234.14,
+        "capture_sequence": 111,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "1f1f985ff3741ce6edc89494646366d7adef524b59487d7fe400bccbe9515ba5"
+      },
+      "full_face_ncc": 0.31941309571266174,
+      "full_face_bbox": [
+        510,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4577608108520508,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 92,
+      "sequence": 112,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0092.png",
+      "sha256": "4e3218a483bb4adfe3ba9c584b954be1108ba07a60a6c4d29aa69deeccb9422b",
+      "capture": {
+        "file": "frame-0092.png",
+        "capture_start_utc": "2026-10-05T22:17:50.780569+00:00",
+        "capture_start_perf": 81234.2407955,
+        "capture_end_perf": 81234.2592626,
+        "captured_at_monotonic": 81234.234,
+        "capture_sequence": 112,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "4e3218a483bb4adfe3ba9c584b954be1108ba07a60a6c4d29aa69deeccb9422b"
+      },
+      "full_face_ncc": 0.32018306851387024,
+      "full_face_bbox": [
+        510,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4572921693325043,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 93,
+      "sequence": 113,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0093.png",
+      "sha256": "2b92c8ccd0e4a05c660a86256cd69ed200406b692db23fe8a38030ff2bc82893",
+      "capture": {
+        "file": "frame-0093.png",
+        "capture_start_utc": "2026-10-05T22:17:50.860960+00:00",
+        "capture_start_perf": 81234.3213585,
+        "capture_end_perf": 81234.3435777,
+        "captured_at_monotonic": 81234.312,
+        "capture_sequence": 113,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "2b92c8ccd0e4a05c660a86256cd69ed200406b692db23fe8a38030ff2bc82893"
+      },
+      "full_face_ncc": 0.3192315101623535,
+      "full_face_bbox": [
+        510,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4573005735874176,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 94,
+      "sequence": 114,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0094.png",
+      "sha256": "4ab033528c96b637ebc42db2a9443197a989f350ff45129a3b25c3767a10b78d",
+      "capture": {
+        "file": "frame-0094.png",
+        "capture_start_utc": "2026-10-05T22:17:50.938579+00:00",
+        "capture_start_perf": 81234.398807,
+        "capture_end_perf": 81234.4188824,
+        "captured_at_monotonic": 81234.39,
+        "capture_sequence": 114,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "4ab033528c96b637ebc42db2a9443197a989f350ff45129a3b25c3767a10b78d"
+      },
+      "full_face_ncc": 0.3179374933242798,
+      "full_face_bbox": [
+        510,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.457766592502594,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 95,
+      "sequence": 115,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0095.png",
+      "sha256": "7ad080763326300e2d4248d5d0fd4f34742fc2570514a734f21ffdb4c5baad43",
+      "capture": {
+        "file": "frame-0095.png",
+        "capture_start_utc": "2026-10-05T22:17:51.024982+00:00",
+        "capture_start_perf": 81234.4851861,
+        "capture_end_perf": 81234.503585,
+        "captured_at_monotonic": 81234.468,
+        "capture_sequence": 115,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "7ad080763326300e2d4248d5d0fd4f34742fc2570514a734f21ffdb4c5baad43"
+      },
+      "full_face_ncc": 0.3160633146762848,
+      "full_face_bbox": [
+        510,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4577396512031555,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 96,
+      "sequence": 116,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0096.png",
+      "sha256": "265546cdbc54a7582e9748a20f21d58fed54cf0703c8c35e56102b57e9751865",
+      "capture": {
+        "file": "frame-0096.png",
+        "capture_start_utc": "2026-10-05T22:17:51.105555+00:00",
+        "capture_start_perf": 81234.5665017,
+        "capture_end_perf": 81234.5862827,
+        "captured_at_monotonic": 81234.562,
+        "capture_sequence": 116,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "265546cdbc54a7582e9748a20f21d58fed54cf0703c8c35e56102b57e9751865"
+      },
+      "full_face_ncc": 0.3154609501361847,
+      "full_face_bbox": [
+        517,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.45764052867889404,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 97,
+      "sequence": 117,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0097.png",
+      "sha256": "9f7a54dd64d5b91e95e89af1bbf674fa0a7aaf8399301eb2999eae597821c5ef",
+      "capture": {
+        "file": "frame-0097.png",
+        "capture_start_utc": "2026-10-05T22:17:51.192491+00:00",
+        "capture_start_perf": 81234.6531193,
+        "capture_end_perf": 81234.6708118,
+        "captured_at_monotonic": 81234.64,
+        "capture_sequence": 117,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "9f7a54dd64d5b91e95e89af1bbf674fa0a7aaf8399301eb2999eae597821c5ef"
+      },
+      "full_face_ncc": 0.313994824886322,
+      "full_face_bbox": [
+        517,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.4572191536426544,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    },
+    {
+      "index": 98,
+      "sequence": 118,
+      "path": "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\baseline-tester\\DRAGONDARK_REVEAL_TEMPORAL_TRAIN_v2_20261006\\chain-cancel-reveal-continuous\\frame-0098.png",
+      "sha256": "1dae6bdef6a16a50680e6088fc9124a6bdefe4235e7d87efd97de397a8258bc5",
+      "capture": {
+        "file": "frame-0098.png",
+        "capture_start_utc": "2026-10-05T22:17:51.263291+00:00",
+        "capture_start_perf": 81234.7242943,
+        "capture_end_perf": 81234.74618,
+        "captured_at_monotonic": 81234.718,
+        "capture_sequence": 118,
+        "foreground_before": 264156,
+        "foreground_after": 264156,
+        "rect_before": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "rect_after": [
+          -1918,
+          817,
+          -638,
+          1537
+        ],
+        "eligible": true,
+        "shape": [
+          720,
+          1280,
+          3
+        ],
+        "sha256": "1dae6bdef6a16a50680e6088fc9124a6bdefe4235e7d87efd97de397a8258bc5"
+      },
+      "full_face_ncc": 0.3130379319190979,
+      "full_face_bbox": [
+        517,
+        459,
+        113,
+        167
+      ],
+      "tracking_top_ncc": 0.45675647258758545,
+      "tracking_top_bbox": [
+        591,
+        611,
+        100,
+        105
+      ],
+      "score_scope": "unthresholded method-selection; upper fragment is instance continuity, not independent hand CID"
+    }
+  ],
+  "scope": "known129 source collection with99 burst; no holdout/no input/no E2E claim"
+}

@@ -1,0 +1,380 @@
+{
+  "purpose": "exploration_existing_images_not_independent_holdout",
+  "frames": [
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0001.png",
+      "sha256": "d19f6fd6de06389dcb0cbd57cb35fdde50ba3c6207b72fc6fe2fe9ff58e9a15f",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0002.png",
+      "sha256": "54c334d9a248913d936a1df58f7c9f68d9bf7915566e0935a1232600d476e9ea",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0003.png",
+      "sha256": "4c0059db175b48017523d62fcf0563958d8313eaaeedff01895f2074987036f4",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0004.png",
+      "sha256": "ef970f1abf9b1b9c4e6a344718f876906fc34b6f444f8628445fb05e81a9bf2f",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0005.png",
+      "sha256": "00504104366c8137313aa5f185c65651e17c5f4269a05d750d6be46dfa9e3b66",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0006.png",
+      "sha256": "89b603747c34d5af2d00795277a302c18f7b3eddf3f532ba601ea786fa88b22c",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0007.png",
+      "sha256": "2759eb6728d2e8d92cdc96ffd76f38ea50ace743e431df2fffc900fe43e50e00",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0008.png",
+      "sha256": "001b72c8741dc4b7c53b95ddd69ad62e4dceca6bb9983d1e596cb0debe60f42c",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0009.png",
+      "sha256": "3a83de18a6fe8082f585ac60f86915da2f537875643f95400b4454754e9ad338",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0010.png",
+      "sha256": "9271af39e32d5fba72a27aa4557248a61d6024eebe13c134e8bac15d0d23ab1b",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0011.png",
+      "sha256": "7c8ddbaf703cacd9923ca296696a62b938c573cd453a780ac0d742ba8e786104",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0012.png",
+      "sha256": "975341b98e5ee624cc8edb0270dc193ee3c19fd724101e598d58634613153f3f",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0013.png",
+      "sha256": "64a0ee56f4e2c59b386228c9206b13f761dab590ba940de5555094e8227fe373",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0014.png",
+      "sha256": "9485c1e363bb981a1dc1fc880f81156d2c8e1efc1a97c7ac7fc7e629fada7859",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0015.png",
+      "sha256": "f142b3b4cbfc725f7082881124b9b433d6fb7bd8b9d5739488ac84e4e1afc66d",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0016.png",
+      "sha256": "eadee0121780967add64e021bf0e3f3a363942d5ca9dfeaf9733bc168c394f5c",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0017.png",
+      "sha256": "9274c4fd4cdd5fbfc4844d8fc298284131a901eea0ed682d1f1fdcd7749b4248",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0018.png",
+      "sha256": "4cec8548ea456fb0e015de5ab32d3943eb0e65a80a7f603d5f8064330e2affa6",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0019.png",
+      "sha256": "55df31f022d64bf1106f84706fd45233c676e73e740df37414c59e6afaf219d6",
+      "expected_cid": "9455"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0001.png",
+      "sha256": "1cdd2575c775f1b96e8c4ac288ebe686d42a7dccb5397c33bd23f323559d7698",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0002.png",
+      "sha256": "c6338dc65b0269c3c871babffba9bcde68207622042a8f16ac2b6c905792035a",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0003.png",
+      "sha256": "362d37b191a97df4e246a18cee71a97ea612f9db5555b357512ee95db28fcfd0",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0004.png",
+      "sha256": "0770392fc83c6457645fb4bddd91758ba46f52b5b3eb90777c955304af7f89f3",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0005.png",
+      "sha256": "71356096759f1be98c0bb922b043d1a0b480dc9f26b3a7e8370a786796d3ba36",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0006.png",
+      "sha256": "b897914e0b5c115843108db65b4c106bb1e93b2debbe834527ed16a66d263342",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0007.png",
+      "sha256": "f8f86c52d7a4cc722b7820574128bac6f508de47631c59ef5ab84b5c4d78e72e",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0008.png",
+      "sha256": "62cbac638d1d1bd933ea770c4c5035868b295d2df77aa36cf189de55ad16c8d3",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0009.png",
+      "sha256": "54fdb391014800b8c8aca3908b0058a555eb0d68af1f28374e1f0db280a4a59b",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0010.png",
+      "sha256": "ad7d0bb66c0e64467da4b5229a8ce5b9fd82b71058f9e2e4f7f5d699b791ec37",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0011.png",
+      "sha256": "908dcdc06e477929f2be0fb762441acc30c83bd50ded256a63e087a0b23f0722",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0012.png",
+      "sha256": "38a4021964fd2c625da0579de99465058a6e7329eff673581d3eed4b2784cf4d",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0013.png",
+      "sha256": "b6711865b6efa43b47f7dc188c615f4e791fe4d9965fe8bb8f925cd15388ff02",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0014.png",
+      "sha256": "45bd4686fd3a84f3024cc7e59ec9030b7f9e5edb11412748a7bfbe3627adcea3",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0015.png",
+      "sha256": "43760b9383ec341fcc1a60e94ce6e1fc22911b3332a6379fb0e1599438742563",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0016.png",
+      "sha256": "41c341d4f0ef55232ea2c03bfd0094690eb66ed3bab81997e0305e63822f9d33",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0017.png",
+      "sha256": "0511c795a3c67df3201b5978babbd34e26e26b1e65044ef22cc209a517b71f13",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0018.png",
+      "sha256": "9974c8ac30d88a0308a0a8fad4a92b3b94cde886dcb6a87b820b187e93c9aa63",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0019.png",
+      "sha256": "99865cf43d2a1c00ec245a2f8c0807245352e7f90dc2a749cfd33e36f1db7c98",
+      "expected_cid": "13581"
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/ash-first/frame-0001.png",
+      "sha256": "204624acca13e58a12e8ba4f587a019bb6aa1911f2da45a10884bf956826a07d",
+      "expected_cid": "12950"
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/ash-first/frame-0002.png",
+      "sha256": "2208d8a69ca5cc2d705d3ee7726003b83cafd4e363cacb6b0918e28126959ec5",
+      "expected_cid": "12950"
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/ash-reopened/frame-0000.png",
+      "sha256": "e08c7f50ac174e63e29559a66092dd2bde61cffc1f69b41b0e0e1f1d2b3507c3",
+      "expected_cid": "12950"
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/ash-reopened/frame-0001.png",
+      "sha256": "348d2b46c338a3e7e9330058829e4c99c0e75409b731dabca009f1a621c24918",
+      "expected_cid": "12950"
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/ash-reopened/frame-0002.png",
+      "sha256": "1fe0e2e844b8fe67612b84ad5166ca89d846db1c94ebaadf65fc0da21905b454",
+      "expected_cid": "12950"
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/driver-first/frame-0000.png",
+      "sha256": "45ed581f638a4c133cc82e702368b058270eedfc594a05865639aa281f3be7fc",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/driver-first/frame-0001.png",
+      "sha256": "9667e60711a7a346214c4ce308188b0330ce6a7305aaa9496a7c5aa47445c3e0",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/driver-first/frame-0002.png",
+      "sha256": "7c1566c3d50673e81b41d04bd929661aaaf44640a2515ba703085c74dc4ec437",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/driver-reopened/frame-0000.png",
+      "sha256": "682fde2d6cc38676775f5d87d9fd7f6ea3796e5b2342e572d213657cee69f4c6",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/driver-reopened/frame-0001.png",
+      "sha256": "3c6abc9868b6cc5c7d218693176763e2124fcfe171ba1c982ec513cc08fcf045",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/driver-reopened/frame-0002.png",
+      "sha256": "86e4de96d87d07ab7ed403ef3ce5fff69f38ea9c16a0b01373f9d0dc9fbc007e",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/dragondark-first/frame-0000.png",
+      "sha256": "151ca6be8e2353bbdf75d3a2e5f90de9a67b2c7cd0610432dc63afcbab69fac3",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/dragondark-first/frame-0001.png",
+      "sha256": "54621ab90f48fc4148527e05437d1941b1124693a9e417c6ea761fda3f5fad06",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/dragondark-first/frame-0002.png",
+      "sha256": "a5ffaa1bd9a7e813cf363f677272f7e0fa55a89a9918aea98a12bf50ace6e3c2",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/dragondark-reopened/frame-0000.png",
+      "sha256": "0681275467cd2811b27ed2a82236d847d1ba2a078967bfdf232e1519dea288c7",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/dragondark-reopened/frame-0001.png",
+      "sha256": "c0775bb4943702ac4f967ad569d71b72e6d6d49ab75aab1b03eb4cd03d971657",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/dragondark-reopened/frame-0002.png",
+      "sha256": "703f9d1515453ff2f252a038e401a91ad4d24455810208f0961c51cb8d568e8e",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0000.png",
+      "sha256": "a8f9bd6c4bf7fb0d8e875e21aa0ea82c74f85a229f02cf0774decca7d6f139b4",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0001.png",
+      "sha256": "8a245051b024cbcc807ef13701e0011361481e8784948101097bc58fe5b2b17a",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0002.png",
+      "sha256": "6995bcb77fb2668710c5b991954d28d691a57bddce6e64b4354bd5e012c1fcd7",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0003.png",
+      "sha256": "870998b672b3b114550695ab162d11e6ef1918dee9bf8e8b8fb803df30e40d6c",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0004.png",
+      "sha256": "eb96d53ee5f40c99662a907de52d38209deb589e94d70bce6034e981b54e829c",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0005.png",
+      "sha256": "d1fccb59e2c3289107966b6595d5ab8b69eea2f86bc9e1781996c13d7c9a5b03",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0006.png",
+      "sha256": "8b31578e42d72abc5bc7760b696160452f20b7e6b6c2d13714507f1e06709c2d",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0007.png",
+      "sha256": "2fd682ae18de41f4c00c9a0b2207b6a10465bd31265f7162abbcc2bb89c02ced",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0008.png",
+      "sha256": "4675f26d47c0b04619d9f4b531292761d98098534b442764a91a7dbf33452098",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0009.png",
+      "sha256": "673798e01715fa19c33e9ca57abca4bf61daa20ab05e63810c32a4bca17a4812",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0010.png",
+      "sha256": "b37c2c0c135ece581254c72182b1ee6982063ce551ae8229507a87da1335857c",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0011.png",
+      "sha256": "f30616f11e05d43628815f98a8ec695b31ac226bafb4fb2340843eb6124cfa99",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0012.png",
+      "sha256": "d81f03ae03c569dbdf1d488829dc8c40b785b66c4179e053d1c166d7bfebb9b0",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0013.png",
+      "sha256": "eb9e45f4fd3c85a928ad785538a3dae2f81658abd44ce33421aa26776bfa716b",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0014.png",
+      "sha256": "c63c091692db696ce39ae558a70e1f5967ed247d7edafc8058cf3a550d3be483",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0015.png",
+      "sha256": "5572924728162e440810744e2a49d888f6c43cd0779aa4467a19f4dee03e8f56",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0016.png",
+      "sha256": "ea6cfaaf28ffbbde2607336d0a73306d288858d5a3361fc1db0ead53d9c00f2a",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0017.png",
+      "sha256": "a4645355cfad2f90dcc2826c780f2dc5d6c4624933ca965550bcb06b2e32d953",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0018.png",
+      "sha256": "b84cc6296117a5f8a8e98756257ba6b846f178d47f0f5e0817f327229c637124",
+      "expected_cid": null
+    },
+    {
+      "image": "artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0019.png",
+      "sha256": "029ef11e3889870ae89fbfc0c9c94aa34bb6625b70300a2531368b2a99605024",
+      "expected_cid": null
+    }
+  ]
+}

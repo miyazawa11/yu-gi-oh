@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="26" failures="0" skipped="0" tests="27" time="59.125" timestamp="2026-10-06T12:43:54.272556+09:00" hostname="DESKTOP-KILPD1G"><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[valid]" time="1.957"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[closed]" time="2.162"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[missing_sent]" time="2.253"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[unverified_epoch]" time="2.064"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[wrong_spec]" time="2.089"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[duplicate_cancel]" time="2.116"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[wrong_epoch]" time="2.094"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[old_sequence]" time="2.110"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[old_clock]" time="2.086"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[saved]" time="2.291"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[different_client]" time="2.036"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[wrong_profile]" time="2.145"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[stale_source]" time="2.122"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[wrong_parent_point]" time="2.335"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[wrong_proof_client]" time="1.988"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_parent_receipt_permission_boundaries[different_parent_purpose]" time="2.040"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_current_known_or_merged_conflict_never_allowed_by_unknown_exception[terminal-True-synthetic]" time="2.129"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_current_known_or_merged_conflict_never_allowed_by_unknown_exception[turn_player-opponent-synthetic]" time="2.010"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_current_known_or_merged_conflict_never_allowed_by_unknown_exception[phase-DRAW-synthetic]" time="2.046"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_current_known_or_merged_conflict_never_allowed_by_unknown_exception[animation-True-synthetic]" time="1.993"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_current_known_or_merged_conflict_never_allowed_by_unknown_exception[phase-None-conflicting_positive_evidence]" time="2.330"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_current_known_or_merged_conflict_never_allowed_by_unknown_exception[turn_player-None-conflicting_positive_evidence]" time="2.264"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_current_known_or_merged_conflict_never_allowed_by_unknown_exception[animation-None-conflicting_positive_evidence]" time="2.525"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_unknown_phase_idle_permission_is_actually_accepted_by_new_strict_rule" time="2.295"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_positive_main1_does_not_escape_new_mode_into_old_idle_branch[closed_parent]" time="2.086"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_positive_main1_does_not_escape_new_mode_into_old_idle_branch[caption_missing]" time="2.184"><error message="failed on setup with &quot;pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule&#10;logical_hand_search_confirmation&#10;  Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]&#10;    For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance&quot;">@pytest.fixture
+    def current_case():
+        """合成active/new specと元途中画像。閉じた実trialの再開ではありません。"""
+        p=build_pipeline(BASE/"calibration.json",ROOT/"data/decks/thunder-dragon-review/cards.sqlite3",BASE/"solo-route.json",BASE/"ui-rules.json")
+        context=deepcopy(json.loads((RUN/"logical-actions.jsonl").read_text(encoding="utf-8").splitlines()[0]))
+        context["result"]=None
+        goal=p.perception.hand_goal.model_copy(update={"own_chain_mode":"parent_activation_ui"})
+        p.perception.configure_hand_search(goal,BASE)
+        for rule in p.planner.book.rules:
+&gt;           if rule.logical_hand_search_confirmation:rule.logical_hand_search_confirmation=goal
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_own_chain_parent_permission.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\pydantic\main.py:1032: in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\pydantic\main.py:1068: in _setattr_handler
+    _check_frozen(cls, name, value)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model_cls = &lt;class 'master_duel_advisor.strategy_rules.StrategyRule'&gt;
+name = 'logical_hand_search_confirmation'
+value = LogicalHandSearchConfirmation(card_id='13906', activate_region='action.dragondark_hand_activate', cancel_region='actio...nd_search.own_chain', result_ready_fact='hand_search.result_ready', result_selected_fact='hand_search.result_selected')
+
+    def _check_frozen(model_cls: type[BaseModel], name: str, value: Any) -&gt; None:
+        if model_cls.model_config.get('frozen'):
+            error_type = 'frozen_instance'
+        elif getattr(model_cls.__pydantic_fields__.get(name), 'frozen', False):
+            error_type = 'frozen_field'
+        else:
+            return
+    
+&gt;       raise ValidationError.from_exception_data(
+            model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+        )
+E       pydantic_core._pydantic_core.ValidationError: 1 validation error for StrategyRule
+E       logical_hand_search_confirmation
+E         Instance is frozen [type=frozen_instance, input_value=LogicalHandSearchConfirma...search.result_selected'), input_type=LogicalHandSearchConfirmation]
+E           For further information visit https://errors.pydantic.dev/2.12/v/frozen_instance
+
+.venv\Lib\site-packages\pydantic\main.py:89: ValidationError</error></testcase><testcase classname="tests.test_own_chain_parent_permission" name="test_current_exact_own_chain_and_parent_receipt_allow_cancel_without_inventing_phase_or_idle" time="2.095" /></testsuite></testsuites>

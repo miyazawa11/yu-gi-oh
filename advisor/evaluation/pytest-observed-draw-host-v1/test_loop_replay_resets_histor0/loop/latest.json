@@ -1,0 +1,172 @@
+{
+  "state": {
+    "sequence": 12,
+    "captured_at": 78204.234,
+    "media_time": 0.0,
+    "turn": {
+      "value": 1,
+      "confidence": 0.9864876866340637,
+      "source": "template:turn",
+      "observed_at": 78204.234
+    },
+    "turn_player": {
+      "value": "self",
+      "confidence": 0.9862355589866638,
+      "source": "template:turn_player",
+      "observed_at": 78204.234
+    },
+    "phase": {
+      "value": "MAIN1",
+      "confidence": 0.9859745502471924,
+      "source": "template:phase",
+      "observed_at": 78204.234
+    },
+    "terminal": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "unknown",
+      "observed_at": 78204.234
+    },
+    "prompt": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "unknown",
+      "observed_at": 78204.234
+    },
+    "animation": {
+      "value": null,
+      "confidence": 0.0,
+      "source": "unknown",
+      "observed_at": 78204.234
+    },
+    "card_states": {},
+    "facts": {},
+    "material_sets": {},
+    "self": {
+      "lp": {
+        "value": 8000,
+        "confidence": 0.9861098527908325,
+        "source": "template:self.lp",
+        "observed_at": 78204.234
+      },
+      "hand_count": {
+        "value": 5,
+        "confidence": 0.9864296317100525,
+        "source": "template:self.hand_count",
+        "observed_at": 78204.234
+      },
+      "zones": {
+        "monster_1": {
+          "value": {
+            "card_id": "demo-alpha",
+            "name": "合成カード・アルファ",
+            "card_type": "monster"
+          },
+          "confidence": 0.9852896332740784,
+          "source": "card:self.zones.monster_1",
+          "observed_at": 78204.234
+        }
+      }
+    },
+    "opponent": {
+      "lp": {
+        "value": 8000,
+        "confidence": 0.9859413504600525,
+        "source": "template:opponent.lp",
+        "observed_at": 78204.234
+      },
+      "hand_count": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "unknown",
+        "observed_at": 78204.234
+      },
+      "zones": {}
+    },
+    "visible_actions": [
+      {
+        "type": "NORMAL_SUMMON",
+        "card_id": null,
+        "target": null,
+        "confidence": 0.9846571087837219,
+        "source_region": "action.primary",
+        "observed_at": 78204.234
+      }
+    ]
+  },
+  "events": [],
+  "legal_actions": [
+    {
+      "type": "NORMAL_SUMMON",
+      "card_id": null,
+      "target": null,
+      "confidence": 0.9846571087837219,
+      "source_region": "action.primary",
+      "observed_at": 78204.234
+    }
+  ],
+  "recommendation": {
+    "action": {
+      "type": "NORMAL_SUMMON",
+      "card_id": null,
+      "target": null,
+      "confidence": 0.9846571087837219,
+      "source_region": "action.primary",
+      "observed_at": 78204.234
+    },
+    "target": null,
+    "confidence": 0.9846571087837219,
+    "reason": "表示中の校正済み候補をターン・フェイズの対応ルールで絞り込み、最も信頼度の高い行動を選びました。基準実装であり、戦略的な最善手や全ルールの合法性は保証しません。",
+    "recognition_status": "partial"
+  },
+  "error": null,
+  "metrics": {
+    "capture_read_ms": 6.756999995559454,
+    "perception_ms": 2.275299993925728,
+    "decision_ms": 0.20920000679325312,
+    "decision_elapsed_ms": 16.00000000325963,
+    "decision_limit_ms": 10000,
+    "total_compute_ms": 9.332100002211519,
+    "api_calls": 0,
+    "api_cost_usd": 0,
+    "cache_hits": 0,
+    "recognized_regions": 8,
+    "ocr_ms": 0,
+    "state_build_ms": 0.12070000229869038,
+    "perception_reused": false
+  },
+  "stage_spans": [
+    {
+      "stage": "recognition",
+      "start": 78204.2701636,
+      "end": 78204.272263
+    },
+    {
+      "stage": "state_build",
+      "start": 78204.272263,
+      "end": 78204.2724058
+    },
+    {
+      "stage": "state_build",
+      "start": 78204.2724172,
+      "end": 78204.2724199
+    },
+    {
+      "stage": "candidate",
+      "start": 78204.2724205,
+      "end": 78204.2725953
+    },
+    {
+      "stage": "decision",
+      "start": 78204.2725958,
+      "end": 78204.2727165
+    }
+  ],
+  "plan": null,
+  "planner_source": "partial",
+  "card_knowledge": {
+    "pending": 0,
+    "ready": 0,
+    "last_error": null
+  }
+}

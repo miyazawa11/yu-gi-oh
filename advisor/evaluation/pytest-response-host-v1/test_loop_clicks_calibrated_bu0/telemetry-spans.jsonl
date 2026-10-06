@@ -1,0 +1,14 @@
+{"run_id": "81295c2ee4454902958c41bb7572536d", "mode": "unclassified", "stage": "capture", "start": 74482.5653452, "end": 74482.5653588}
+{"run_id": "81295c2ee4454902958c41bb7572536d", "mode": "unclassified", "stage": "coordinate", "start": 74482.5659508, "end": 74482.5659754}
+{"run_id": "81295c2ee4454902958c41bb7572536d", "mode": "unclassified", "stage": "artifact_write", "start": 74482.5660323, "end": 74482.5675396}
+{"run_id": "81295c2ee4454902958c41bb7572536d", "mode": "unclassified", "stage": "input", "start": 74482.5675843, "end": 74482.5676015}
+{"run_id": "81295c2ee4454902958c41bb7572536d", "mode": "unclassified", "stage": "pre_input_control", "start": 74482.5675883, "end": 74482.5675974}
+{"run_id": "81295c2ee4454902958c41bb7572536d", "mode": "unclassified", "stage": "verify", "start": 74482.5676158, "end": 74482.5693938}
+{"run_id": "81295c2ee4454902958c41bb7572536d", "mode": "unclassified", "stage": "frontmost_stop_check", "start": 74482.5676215, "end": 74482.5676235}
+{"run_id": "81295c2ee4454902958c41bb7572536d", "mode": "unclassified", "stage": "poll_wait", "start": 74482.5676257, "end": 74482.5692456}
+{"run_id": "81295c2ee4454902958c41bb7572536d", "mode": "unclassified", "stage": "frontmost_stop_check", "start": 74482.5692622, "end": 74482.5692653}
+{"run_id": "81295c2ee4454902958c41bb7572536d", "mode": "unclassified", "stage": "capture", "start": 74482.5692718, "end": 74482.5692772}
+{"run_id": "81295c2ee4454902958c41bb7572536d", "mode": "unclassified", "stage": "verify_input_control", "start": 74482.569298, "end": 74482.5693021}
+{"run_id": "81295c2ee4454902958c41bb7572536d", "mode": "unclassified", "stage": "recognition", "start": 74482.569303, "end": 74482.5693853}
+{"run_id": "81295c2ee4454902958c41bb7572536d", "mode": "unclassified", "stage": "artifact_write", "start": 74482.5705738, "end": 74482.571407}
+{"run_id": "81295c2ee4454902958c41bb7572536d", "mode": "unclassified", "stage": "log_write", "start": 74482.5715104, "end": 74482.5716817}

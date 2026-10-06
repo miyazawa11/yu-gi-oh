@@ -1,0 +1,149 @@
+{
+  "format": "deck-strategy-v1",
+  "name": "同位置MaxxC中央通常召喚",
+  "source": "MSS訓練80枚、補助収集はKPI除外",
+  "rules": [
+    {
+      "id": "normal_open",
+      "card_id": "9455",
+      "description": "同位置の増殖するGを選択",
+      "type": "SELECT_CARD",
+      "source_region": "action.normal_hand",
+      "target": null,
+      "priority": 1000,
+      "players": [
+        "self"
+      ],
+      "phases": [
+        "MAIN1"
+      ],
+      "prompt": "none",
+      "additional_prompts": [],
+      "follows": [],
+      "observed_facts": {
+        "normal_context.hand_layout": "true",
+        "normal_context.main1": "true",
+        "normal_context.clear_center": "true",
+        "normal_context.clear_card_menu": "true",
+        "normal_context.hand_card": "9455",
+        "zone.self.monster_2.occupancy": "empty"
+      },
+      "expected_prompts": [
+        "card.menu"
+      ],
+      "requires": [],
+      "facts": {},
+      "expected_facts": {},
+      "enabled": true,
+      "material_method": null,
+      "logical_action": "normal_maxxc_center",
+      "logical_category": "NORMAL_SUMMON",
+      "logical_start": true,
+      "logical_end": false,
+      "logical_count_fact": null,
+      "logical_phase": null,
+      "logical_turn_advance": false,
+      "logical_zone_transition": {
+        "side": "self",
+        "zone": "monster_2",
+        "card_id": "9455",
+        "selected_card_fact": "selection.card_id",
+        "placement_region": "action.normal_place"
+      }
+    },
+    {
+      "id": "normal_summon",
+      "card_id": "9455",
+      "description": "有効な通常召喚UIを選択",
+      "type": "NORMAL_SUMMON",
+      "source_region": "action.normal_summon",
+      "target": null,
+      "priority": 1000,
+      "players": [
+        "self"
+      ],
+      "phases": [
+        "MAIN1"
+      ],
+      "prompt": "card.menu",
+      "additional_prompts": [],
+      "follows": [
+        "normal_open"
+      ],
+      "observed_facts": {
+        "selection.card_id": "9455",
+        "normal_context.summon_enabled": "true"
+      },
+      "expected_prompts": [
+        "placement.select"
+      ],
+      "requires": [],
+      "facts": {},
+      "expected_facts": {},
+      "enabled": true,
+      "material_method": null,
+      "logical_action": "normal_maxxc_center",
+      "logical_category": "NORMAL_SUMMON",
+      "logical_start": false,
+      "logical_end": false,
+      "logical_count_fact": null,
+      "logical_phase": null,
+      "logical_turn_advance": false,
+      "logical_zone_transition": {
+        "side": "self",
+        "zone": "monster_2",
+        "card_id": "9455",
+        "selected_card_fact": "selection.card_id",
+        "placement_region": "action.normal_place"
+      }
+    },
+    {
+      "id": "normal_place",
+      "card_id": "9455",
+      "description": "中央へ配置し指定カード成立を確認",
+      "type": "CONFIRM",
+      "source_region": "action.normal_place",
+      "target": "self.monster_2",
+      "priority": 1000,
+      "players": [
+        "self"
+      ],
+      "phases": [
+        "MAIN1"
+      ],
+      "prompt": "placement.select",
+      "additional_prompts": [],
+      "follows": [
+        "normal_summon"
+      ],
+      "observed_facts": {
+        "selection.card_id": "9455",
+        "normal_context.placement": "true",
+        "normal_context.placement_target": "true"
+      },
+      "expected_prompts": [],
+      "requires": [],
+      "facts": {},
+      "expected_facts": {},
+      "enabled": true,
+      "material_method": null,
+      "logical_action": "normal_maxxc_center",
+      "logical_category": "NORMAL_SUMMON",
+      "logical_start": false,
+      "logical_end": true,
+      "logical_count_fact": null,
+      "logical_phase": null,
+      "logical_turn_advance": false,
+      "logical_zone_transition": {
+        "side": "self",
+        "zone": "monster_2",
+        "card_id": "9455",
+        "selected_card_fact": "selection.card_id",
+        "placement_region": "action.normal_place"
+      }
+    }
+  ],
+  "min_confidence": 0.98,
+  "inference_mode": "strict",
+  "audit_profile": "normal_summon"
+}

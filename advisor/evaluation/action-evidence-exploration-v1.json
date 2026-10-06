@@ -1,0 +1,3464 @@
+{
+  "schema": "action-evidence-evaluation-report-v1",
+  "purpose": "A1未接続召喚候補位置の40訓練/目視no-button4画像8照合/SET2crop診断。独立評価・入力許可・E2Eではない",
+  "dataset_kind": "training_and_diagnostic",
+  "manifest_sha256": "6bde515f8917f6ad4a7d5febb43f6afcaad8876866e79c70fa53b443d447ab1c",
+  "mode": "offline_saved_image",
+  "usable_for_input": false,
+  "provenance": {
+    "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+    "files": {
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\evaluation\\action-evidence-detector-v1.json": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\calibration.json": "eab254044b68585b0d0d3ad1881023f1873c412aeb127db2f8016657f26d851b",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-00.png": "ef2e1b8f71337af72872c7728a76e9ddb91a68883d3ff01d772919548007db58",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-01.png": "ff75aa1100125c38f94496245bb518a07b76b03a0ef05146a403671afada0f01",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-02.png": "cd5659a196b68b32b9deeb5cb4358943139fd091b9c48cbde0bc030ba1139712",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-03.png": "e860eb04ff62f923649fe25ed03640127366e1bd6c838542b6d3fd3a9e28a465",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-04.png": "ea526c1e1a40674cac69cede97a0af0fdae597a46d5e16e80639b34bc25be671",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-05.png": "071328faf46173f186497bea3987b2634a60613d0488e87768b77f9a3ac5acd4",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-06.png": "258bc27c6b4b66e341b063c64815413f66c8637d08bc849bee2217e1c3c67e50",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-07.png": "1799b3971730e369863cb156704382d9b43d673819f5c56b3df9264df62c4386",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-08.png": "458e8712fb4442faba758235fedd238ea9638b719677e221f72fc019fa44e710",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-09.png": "5e951f06db9c78746efd0dd5bb139bc124020a208943158d1c822f9566c19b3f",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-10.png": "831693265e8abdf6f7daf1e8e3be4c35e640807e340908f790180cdb2a5636aa",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-11.png": "c9fd7d8207ee0132911f8ff2e9d9c65b469fe464a963cd0007bc4d08741f8124",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-12.png": "437083dc04ccd2306ce5f41191a2ddf3c4b1af0ab870a1c280bbd9113d162e40",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-13.png": "029cece72515ac264cf5e726614f82aff179240e1aaa36f9d4d157f161197ec6",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-14.png": "6ff56f9387e32d81ed4d7968e3356b8540bbf068375b1cdde32774e1501890bd",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-15.png": "fe4656837808b6a4bb4efacff1bf3067350c942966e974574f1fd2e579fc32ac",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-16.png": "7225d751539f8becfc6711d4f242f69170fa4943be8b787eabebec2eb5683654",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-17.png": "c1bc27d4e77362cfafc8bdc2176f3c76e253083d79f5d53bbee4329ee0ff149c",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-18.png": "cfc9ade76d03194177feaa0d6c1c751850070a3ed423be5385edc23ece15c6de",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\normal-maxxc-calibration-v1\\action_normal_summon-NORMAL_SUMMON-menu-19.png": "b01ae5fe379dc91303f5fa5493baf316402b957c2bf32f819050e2c6f0e1f4f1",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\calibration.json": "4d82031330e6b67d7eccdf947a00eb60c506419508ec368bd9f8380811bece3f",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-00.png": "056233e39efd9a259e8ccaba79f02f4fbef9380f02df6889e980cdb3475f79af",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-01.png": "31a79d69d23b4e7eb4828097bce6413fdc77469342a9ec5d6adb4e0783d1c2bd",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-02.png": "0d0b4e76f1896fd0246d4c0b75ebbd8456f7e6a35fef1a8f30a28de019118c4f",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-03.png": "c0e349377ab99c96849b01776c3745d645413db496cb668bc2a7ef57d8ae6b08",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-04.png": "4a82398b7832fcb143473b77b084640e6874a2745f7b0766e1d2f1816051180e",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-05.png": "31ae38aef5c33bc9d9ab8a9ff1728231bbbb64ecc831bcca5edd0e0f95bc862d",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-06.png": "562dbca5ba832182ed7bc9bcbfc859700e0d9a58e6f7e5a7f3f7f25c1aa866e7",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-07.png": "83334b8d54597f4a278f541b366089bd3bcd15ee3ca368f870848ca453a6ff77",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-08.png": "808e9f003e43f6cf375b417eb00ac416796d32bbe03d5f0e6fa689c22d78e13d",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-09.png": "fbd122248dc137bffbd496c46e2c17954a8b6a3ae3b565ed42929b998db2a777",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-10.png": "e1062d18224a2e236c095f32ec7e704a43fd7e15416983eabd00adb27bfeb81e",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-11.png": "771baa329cddf2dc5757a8ecd549995530d361b94dbff5dd6cf5b3f9747fdc61",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-12.png": "9db619d686114eabd5b35c55712ffa77f9a427f61b707f01ac935dd01cc6a7b1",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-13.png": "ae29795a56e9de63203eb98e6e08df859350e05d6ff7458a0bd487f62d8033a6",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-14.png": "aa26cf29e0a8aab758ab74c466a8140bdc38082af1793f3fb345e653881f2993",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-15.png": "1b7ff14c7daf10254d836cc248d289917bbbd3075a42ba12c87f60b35f83a161",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-16.png": "45eab36b604d4c508391ca44e5ba59960a5ea56597ff7cef945f931c3cef7a2c",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-17.png": "fb803cf1be0f6899e8391f5eab6680d0c1254d2240494e45a767347a97bf8f86",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-18.png": "f8f251fa1648e4f37ccafeaf2695c34a142b8df54946cbe80bd09388f61277c4",
+      "C:\\Users\\user\\Documents\\ChatGPT\\マスターデュエル自動操作\\advisor\\artifacts\\solar-normal-calibration-v2\\action_normal_summon-NORMAL_SUMMON-menu-19.png": "64331c767157d6b991d0bf012105c877a081654534ec10dbbf4035b913f1c281"
+    },
+    "profile_sha256": {
+      "maxxc-menu-v1": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+      "solar-menu-v2": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d"
+    },
+    "component_source_sha256": {
+      "action_evidence": "8c818d99c8b3da29d9b2b34e78b42234b58d6fe4d7cc91ce7f7907beb2570032",
+      "perception": "4b515a27b7d003985ef5cf7b49d686474b14a533aafd5ebd7587f1aed565e817",
+      "regions": "3c49ad5f740ce6781ee8e2ea4d7654ff94f38551dcb5a5d08b293dc6b9ac0449",
+      "capture": "3ba23d545b5458e7e4541408aa5be1e1b29ab6a3bbf78581310936d09c97d2b5",
+      "models": "3f21f82895b7e6ab4ee491650c94f0ee06796ada62cbf461cfded0a2e7ffe3e1",
+      "image_io": "f13e2340623a8725efca3a359affafa25e278315e9d633e4159746580fd90cf8"
+    },
+    "usable_for_input": false,
+    "unverified_alternatives": [
+      "SPECIAL_SUMMON",
+      "FLIP_SUMMON",
+      "DISABLED_NORMAL_SUMMON"
+    ]
+  },
+  "cases": 50,
+  "unique_images": 44,
+  "passed_cases": 50,
+  "passed": true,
+  "groups": {
+    "training_positive": {
+      "cases": 40,
+      "passed": 40,
+      "detection_passed": 40,
+      "position_unverified": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "reviewed_no_button_diagnostic": {
+      "cases": 8,
+      "passed": 8,
+      "detection_passed": 8,
+      "position_unverified": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "reviewed_set_crop_diagnostic": {
+      "cases": 2,
+      "passed": 2,
+      "detection_passed": 2,
+      "position_unverified": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  "detection_passed": true,
+  "joint_position_passed": true,
+  "search_only_ms": {
+    "calls": 144,
+    "average": 33.40721527777777,
+    "p50": 33.27485,
+    "p90": 35.32811,
+    "p95": 35.90177,
+    "max": 40.3086
+  },
+  "fixed_roi_only_ms": {
+    "calls": 144,
+    "average": 0.18636041666666667,
+    "p50": 0.1422,
+    "p90": 0.3655000000000001,
+    "p95": 0.40172499999999994,
+    "max": 0.9918
+  },
+  "crop_diagnostic_only_ms": {
+    "calls": 6,
+    "average": 0.14768333333333333,
+    "p50": 0.10655,
+    "p90": 0.26545,
+    "p95": 0.284625,
+    "max": 0.3038
+  },
+  "input_count": 0,
+  "e2e_count": 0,
+  "rows": [
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0000.png",
+      "sha256": "7b15e9e1fc6d1f736d0112c857838f8f73e22b44b04a0e154724cf8f2dc30df6",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9986699223518372,
+        "position_runner_up_score": 0.7648168802261353,
+        "position_runner_up_bbox": [
+          390,
+          488,
+          73,
+          98
+        ],
+        "position_margin": 0.2338530421257019,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 0,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0001.png",
+      "sha256": "d19f6fd6de06389dcb0cbd57cb35fdde50ba3c6207b72fc6fe2fe9ff58e9a15f",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9987139701843262,
+        "position_runner_up_score": 0.7640364170074463,
+        "position_runner_up_bbox": [
+          390,
+          488,
+          73,
+          98
+        ],
+        "position_margin": 0.23467755317687988,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 1,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0002.png",
+      "sha256": "54c334d9a248913d936a1df58f7c9f68d9bf7915566e0935a1232600d476e9ea",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9987667798995972,
+        "position_runner_up_score": 0.7640029788017273,
+        "position_runner_up_bbox": [
+          394,
+          488,
+          73,
+          98
+        ],
+        "position_margin": 0.23476380109786987,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 2,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0003.png",
+      "sha256": "4c0059db175b48017523d62fcf0563958d8313eaaeedff01895f2074987036f4",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9988408088684082,
+        "position_runner_up_score": 0.7642760276794434,
+        "position_runner_up_bbox": [
+          394,
+          488,
+          73,
+          98
+        ],
+        "position_margin": 0.23456478118896484,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 3,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0004.png",
+      "sha256": "ef970f1abf9b1b9c4e6a344718f876906fc34b6f444f8628445fb05e81a9bf2f",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9989376664161682,
+        "position_runner_up_score": 0.7651851177215576,
+        "position_runner_up_bbox": [
+          390,
+          492,
+          73,
+          98
+        ],
+        "position_margin": 0.2337525486946106,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 4,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0005.png",
+      "sha256": "00504104366c8137313aa5f185c65651e17c5f4269a05d750d6be46dfa9e3b66",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.999083936214447,
+        "position_runner_up_score": 0.7660853266716003,
+        "position_runner_up_bbox": [
+          394,
+          488,
+          73,
+          98
+        ],
+        "position_margin": 0.23299860954284668,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 5,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0006.png",
+      "sha256": "89b603747c34d5af2d00795277a302c18f7b3eddf3f532ba601ea786fa88b22c",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9993059039115906,
+        "position_runner_up_score": 0.7669960856437683,
+        "position_runner_up_bbox": [
+          394,
+          488,
+          73,
+          98
+        ],
+        "position_margin": 0.23230981826782227,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 6,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0007.png",
+      "sha256": "2759eb6728d2e8d92cdc96ffd76f38ea50ace743e431df2fffc900fe43e50e00",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9995260834693909,
+        "position_runner_up_score": 0.767482340335846,
+        "position_runner_up_bbox": [
+          394,
+          488,
+          73,
+          98
+        ],
+        "position_margin": 0.23204374313354492,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 7,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0008.png",
+      "sha256": "001b72c8741dc4b7c53b95ddd69ad62e4dceca6bb9983d1e596cb0debe60f42c",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9995684027671814,
+        "position_runner_up_score": 0.7673237919807434,
+        "position_runner_up_bbox": [
+          394,
+          488,
+          73,
+          98
+        ],
+        "position_margin": 0.232244610786438,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 8,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0009.png",
+      "sha256": "3a83de18a6fe8082f585ac60f86915da2f537875643f95400b4454754e9ad338",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9989007115364075,
+        "position_runner_up_score": 0.7870391011238098,
+        "position_runner_up_bbox": [
+          390,
+          488,
+          73,
+          98
+        ],
+        "position_margin": 0.21186161041259766,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 9,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0010.png",
+      "sha256": "9271af39e32d5fba72a27aa4557248a61d6024eebe13c134e8bac15d0d23ab1b",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9980656504631042,
+        "position_runner_up_score": 0.7675862908363342,
+        "position_runner_up_bbox": [
+          394,
+          488,
+          73,
+          98
+        ],
+        "position_margin": 0.23047935962677002,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 10,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0011.png",
+      "sha256": "7c8ddbaf703cacd9923ca296696a62b938c573cd453a780ac0d742ba8e786104",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9994344711303711,
+        "position_runner_up_score": 0.7673783898353577,
+        "position_runner_up_bbox": [
+          390,
+          492,
+          73,
+          98
+        ],
+        "position_margin": 0.23205608129501343,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 11,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0012.png",
+      "sha256": "975341b98e5ee624cc8edb0270dc193ee3c19fd724101e598d58634613153f3f",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9994908571243286,
+        "position_runner_up_score": 0.767667293548584,
+        "position_runner_up_bbox": [
+          390,
+          492,
+          73,
+          98
+        ],
+        "position_margin": 0.23182356357574463,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 12,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0013.png",
+      "sha256": "64a0ee56f4e2c59b386228c9206b13f761dab590ba940de5555094e8227fe373",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9993816614151001,
+        "position_runner_up_score": 0.7664746046066284,
+        "position_runner_up_bbox": [
+          390,
+          492,
+          73,
+          98
+        ],
+        "position_margin": 0.23290705680847168,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 13,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0014.png",
+      "sha256": "9485c1e363bb981a1dc1fc880f81156d2c8e1efc1a97c7ac7fc7e629fada7859",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9992231130599976,
+        "position_runner_up_score": 0.7641192674636841,
+        "position_runner_up_bbox": [
+          394,
+          488,
+          73,
+          98
+        ],
+        "position_margin": 0.23510384559631348,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 14,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0015.png",
+      "sha256": "f142b3b4cbfc725f7082881124b9b433d6fb7bd8b9d5739488ac84e4e1afc66d",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9990962147712708,
+        "position_runner_up_score": 0.7615929841995239,
+        "position_runner_up_bbox": [
+          394,
+          488,
+          73,
+          98
+        ],
+        "position_margin": 0.23750323057174683,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 15,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0016.png",
+      "sha256": "eadee0121780967add64e021bf0e3f3a363942d5ca9dfeaf9733bc168c394f5c",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9990416169166565,
+        "position_runner_up_score": 0.758876383304596,
+        "position_runner_up_bbox": [
+          394,
+          484,
+          73,
+          98
+        ],
+        "position_margin": 0.24016523361206055,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 16,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0017.png",
+      "sha256": "9274c4fd4cdd5fbfc4844d8fc298284131a901eea0ed682d1f1fdcd7749b4248",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.998932421207428,
+        "position_runner_up_score": 0.7576167583465576,
+        "position_runner_up_bbox": [
+          394,
+          484,
+          73,
+          98
+        ],
+        "position_margin": 0.24131566286087036,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 17,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0018.png",
+      "sha256": "4cec8548ea456fb0e015de5ab32d3943eb0e65a80a7f603d5f8064330e2affa6",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9987368583679199,
+        "position_runner_up_score": 0.758277416229248,
+        "position_runner_up_bbox": [
+          394,
+          484,
+          73,
+          98
+        ],
+        "position_margin": 0.24045944213867188,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 18,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0019.png",
+      "sha256": "55df31f022d64bf1106f84706fd45233c676e73e740df37414c59e6afaf219d6",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_maxxc-menu-v1",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        434,
+        496,
+        73,
+        98
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          434,
+          496,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.9986329078674316,
+        "position_runner_up_score": 0.760909378528595,
+        "position_runner_up_bbox": [
+          394,
+          484,
+          73,
+          98
+        ],
+        "position_margin": 0.23772352933883667,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 19,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0000.png",
+      "sha256": "cc7b48b8f9310f04894d7a02781995dcaa84c292807449b43433d02ce417b3b5",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9983273148536682,
+        "position_runner_up_score": 0.7635997533798218,
+        "position_runner_up_bbox": [
+          336,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.23472756147384644,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 20,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0001.png",
+      "sha256": "1cdd2575c775f1b96e8c4ac288ebe686d42a7dccb5397c33bd23f323559d7698",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9987142086029053,
+        "position_runner_up_score": 0.7634795308113098,
+        "position_runner_up_bbox": [
+          336,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.23523467779159546,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 21,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0002.png",
+      "sha256": "c6338dc65b0269c3c871babffba9bcde68207622042a8f16ac2b6c905792035a",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9988759160041809,
+        "position_runner_up_score": 0.7630276679992676,
+        "position_runner_up_bbox": [
+          336,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.23584824800491333,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 22,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0003.png",
+      "sha256": "362d37b191a97df4e246a18cee71a97ea612f9db5555b357512ee95db28fcfd0",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9989408254623413,
+        "position_runner_up_score": 0.7621433138847351,
+        "position_runner_up_bbox": [
+          336,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.2367975115776062,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 23,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0004.png",
+      "sha256": "0770392fc83c6457645fb4bddd91758ba46f52b5b3eb90777c955304af7f89f3",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9989850521087646,
+        "position_runner_up_score": 0.7610751390457153,
+        "position_runner_up_bbox": [
+          336,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.23790991306304932,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 24,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0005.png",
+      "sha256": "71356096759f1be98c0bb922b043d1a0b480dc9f26b3a7e8370a786796d3ba36",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9990500211715698,
+        "position_runner_up_score": 0.7602419853210449,
+        "position_runner_up_bbox": [
+          336,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.2388080358505249,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 25,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0006.png",
+      "sha256": "b897914e0b5c115843108db65b4c106bb1e93b2debbe834527ed16a66d263342",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9990610480308533,
+        "position_runner_up_score": 0.7599061727523804,
+        "position_runner_up_bbox": [
+          420,
+          489,
+          74,
+          79
+        ],
+        "position_margin": 0.2391548752784729,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 26,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0007.png",
+      "sha256": "f8f86c52d7a4cc722b7820574128bac6f508de47631c59ef5ab84b5c4d78e72e",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9989173412322998,
+        "position_runner_up_score": 0.7610448002815247,
+        "position_runner_up_bbox": [
+          420,
+          489,
+          74,
+          79
+        ],
+        "position_margin": 0.23787254095077515,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 27,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0008.png",
+      "sha256": "62cbac638d1d1bd933ea770c4c5035868b295d2df77aa36cf189de55ad16c8d3",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9987376928329468,
+        "position_runner_up_score": 0.7615242600440979,
+        "position_runner_up_bbox": [
+          420,
+          489,
+          74,
+          79
+        ],
+        "position_margin": 0.23721343278884888,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 28,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0009.png",
+      "sha256": "54fdb391014800b8c8aca3908b0058a555eb0d68af1f28374e1f0db280a4a59b",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.99868243932724,
+        "position_runner_up_score": 0.7620963454246521,
+        "position_runner_up_bbox": [
+          420,
+          489,
+          74,
+          79
+        ],
+        "position_margin": 0.2365860939025879,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 29,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0010.png",
+      "sha256": "ad7d0bb66c0e64467da4b5229a8ce5b9fd82b71058f9e2e4f7f5d699b791ec37",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9988054037094116,
+        "position_runner_up_score": 0.7616140842437744,
+        "position_runner_up_bbox": [
+          424,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.2371913194656372,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 30,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0011.png",
+      "sha256": "908dcdc06e477929f2be0fb762441acc30c83bd50ded256a63e087a0b23f0722",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9990002512931824,
+        "position_runner_up_score": 0.7610779404640198,
+        "position_runner_up_bbox": [
+          424,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.2379223108291626,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 31,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0012.png",
+      "sha256": "38a4021964fd2c625da0579de99465058a6e7329eff673581d3eed4b2784cf4d",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9990375638008118,
+        "position_runner_up_score": 0.7613736391067505,
+        "position_runner_up_bbox": [
+          336,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.23766392469406128,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 32,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0013.png",
+      "sha256": "b6711865b6efa43b47f7dc188c615f4e791fe4d9965fe8bb8f925cd15388ff02",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9990873336791992,
+        "position_runner_up_score": 0.7617785334587097,
+        "position_runner_up_bbox": [
+          336,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.2373088002204895,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 33,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0014.png",
+      "sha256": "45bd4686fd3a84f3024cc7e59ec9030b7f9e5edb11412748a7bfbe3627adcea3",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9990610480308533,
+        "position_runner_up_score": 0.7621281147003174,
+        "position_runner_up_bbox": [
+          336,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.2369329333305359,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 34,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0015.png",
+      "sha256": "43760b9383ec341fcc1a60e94ce6e1fc22911b3332a6379fb0e1599438742563",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9991246461868286,
+        "position_runner_up_score": 0.7616872787475586,
+        "position_runner_up_bbox": [
+          336,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.23743736743927002,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 35,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0016.png",
+      "sha256": "41c341d4f0ef55232ea2c03bfd0094690eb66ed3bab81997e0305e63822f9d33",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9989615678787231,
+        "position_runner_up_score": 0.7619318962097168,
+        "position_runner_up_bbox": [
+          336,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.23702967166900635,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 36,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0017.png",
+      "sha256": "0511c795a3c67df3201b5978babbd34e26e26b1e65044ef22cc209a517b71f13",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9988109469413757,
+        "position_runner_up_score": 0.7626117467880249,
+        "position_runner_up_bbox": [
+          336,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.23619920015335083,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 37,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0018.png",
+      "sha256": "9974c8ac30d88a0308a0a8fad4a92b3b94cde886dcb6a87b820b187e93c9aa63",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9986658692359924,
+        "position_runner_up_score": 0.7621115446090698,
+        "position_runner_up_bbox": [
+          336,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.2365543246269226,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 38,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0019.png",
+      "sha256": "99865cf43d2a1c00ec245a2f8c0807245352e7f90dc2a749cfd33e36f1db7c98",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "training_positive",
+      "reviewed_label": "original_assisted_menu_training_solar-menu-v2",
+      "expected_detected": true,
+      "expected_evidence_bbox": [
+        380,
+        497,
+        74,
+        79
+      ],
+      "bbox_tolerance_pixels": 0,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": "NORMAL_SUMMON",
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          380,
+          497,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.9985110759735107,
+        "position_runner_up_score": 0.7611539363861084,
+        "position_runner_up_bbox": [
+          336,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.23735713958740234,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 39,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": null,
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": true,
+      "bbox_passed": true,
+      "position_validation": true,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/driver-first/frame-0000.png",
+      "sha256": "45ed581f638a4c133cc82e702368b058270eedfc594a05865639aa281f3be7fc",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "reviewed_no_button_diagnostic",
+      "reviewed_label": "Researcher目視Driver相手Turn3/Main1召喚UIなし",
+      "expected_detected": false,
+      "expected_evidence_bbox": null,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": null,
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          406,
+          501,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.7933988571166992,
+        "position_runner_up_score": 0.7430210113525391,
+        "position_runner_up_bbox": [
+          498,
+          520,
+          73,
+          98
+        ],
+        "position_margin": 0.050377845764160156,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 40,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": "below_score_threshold",
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": false,
+      "bbox_passed": true,
+      "position_validation": false,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/driver-first/frame-0000.png",
+      "sha256": "45ed581f638a4c133cc82e702368b058270eedfc594a05865639aa281f3be7fc",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "reviewed_no_button_diagnostic",
+      "reviewed_label": "Researcher目視Driver相手Turn3/Main1召喚UIなし",
+      "expected_detected": false,
+      "expected_evidence_bbox": null,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": null,
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          398,
+          500,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.7486845254898071,
+        "position_runner_up_score": 0.7440499067306519,
+        "position_runner_up_bbox": [
+          320,
+          497,
+          74,
+          79
+        ],
+        "position_margin": 0.0046346187591552734,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 41,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": "below_score_threshold",
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": false,
+      "bbox_passed": true,
+      "position_validation": false,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/ash-first/frame-0000.png",
+      "sha256": "cf5534235e16e00f0a118dac7b4c69702403d3dfcfb653d1368c7e590a60d010",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "reviewed_no_button_diagnostic",
+      "reviewed_label": "Researcher目視Ash相手Turn3/Main1召喚UIなし",
+      "expected_detected": false,
+      "expected_evidence_bbox": null,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": null,
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          477,
+          492,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.7829660177230835,
+        "position_runner_up_score": 0.7429698705673218,
+        "position_runner_up_bbox": [
+          438,
+          492,
+          73,
+          98
+        ],
+        "position_margin": 0.03999614715576172,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 42,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": "below_score_threshold",
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": false,
+      "bbox_passed": true,
+      "position_validation": false,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/ash-first/frame-0000.png",
+      "sha256": "cf5534235e16e00f0a118dac7b4c69702403d3dfcfb653d1368c7e590a60d010",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "reviewed_no_button_diagnostic",
+      "reviewed_label": "Researcher目視Ash相手Turn3/Main1召喚UIなし",
+      "expected_detected": false,
+      "expected_evidence_bbox": null,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": null,
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          321,
+          508,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.74953293800354,
+        "position_runner_up_score": 0.7480295300483704,
+        "position_runner_up_bbox": [
+          376,
+          505,
+          74,
+          79
+        ],
+        "position_margin": 0.0015034079551696777,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 43,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": "below_score_threshold",
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": false,
+      "bbox_passed": true,
+      "position_validation": false,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/dragondark-first/frame-0000.png",
+      "sha256": "151ca6be8e2353bbdf75d3a2e5f90de9a67b2c7cd0610432dc63afcbab69fac3",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "reviewed_no_button_diagnostic",
+      "reviewed_label": "Researcher目視Dark相手Turn3/Main1手札発光あり召喚UIなし",
+      "expected_detected": false,
+      "expected_evidence_bbox": null,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": null,
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          475,
+          520,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.7248630523681641,
+        "position_runner_up_score": 0.6734263896942139,
+        "position_runner_up_bbox": [
+          438,
+          520,
+          73,
+          98
+        ],
+        "position_margin": 0.051436662673950195,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 44,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": "below_score_threshold",
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": false,
+      "bbox_passed": true,
+      "position_validation": false,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/CARD_NAME_OCR_EXPLORATION_20261006/dragondark-first/frame-0000.png",
+      "sha256": "151ca6be8e2353bbdf75d3a2e5f90de9a67b2c7cd0610432dc63afcbab69fac3",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "reviewed_no_button_diagnostic",
+      "reviewed_label": "Researcher目視Dark相手Turn3/Main1手札発光あり召喚UIなし",
+      "expected_detected": false,
+      "expected_evidence_bbox": null,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": null,
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          322,
+          501,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.7497043013572693,
+        "position_runner_up_score": 0.7447366714477539,
+        "position_runner_up_bbox": [
+          408,
+          505,
+          74,
+          79
+        ],
+        "position_margin": 0.004967629909515381,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 45,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": "below_score_threshold",
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": false,
+      "bbox_passed": true,
+      "position_validation": false,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0000.png",
+      "sha256": "a8f9bd6c4bf7fb0d8e875e21aa0ea82c74f85a229f02cf0774decca7d6f139b4",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "reviewed_no_button_diagnostic",
+      "reviewed_label": "Researcher目視自分Turn4/Main1孤高hover召喚UIなし",
+      "expected_detected": false,
+      "expected_evidence_bbox": null,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": null,
+        "profile_id": "maxxc-menu-v1",
+        "evidence_bbox": [
+          498,
+          520,
+          73,
+          98
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          370,
+          472,
+          201,
+          146
+        ],
+        "score": 0.7870848774909973,
+        "position_runner_up_score": 0.7126296758651733,
+        "position_runner_up_bbox": [
+          458,
+          520,
+          73,
+          98
+        ],
+        "position_margin": 0.07445520162582397,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 46,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "140ce8129e046ce2fb8cdc6caa4073a8ddaf608d267ed6059ab3bfe89b9f16ef",
+        "unknown_reason": "below_score_threshold",
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": false,
+      "bbox_passed": true,
+      "position_validation": false,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/initial/frame-0000.png",
+      "sha256": "a8f9bd6c4bf7fb0d8e875e21aa0ea82c74f85a229f02cf0774decca7d6f139b4",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "reviewed_no_button_diagnostic",
+      "reviewed_label": "Researcher目視自分Turn4/Main1孤高hover召喚UIなし",
+      "expected_detected": false,
+      "expected_evidence_bbox": null,
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "candidate_type": null,
+        "profile_id": "solar-menu-v2",
+        "evidence_bbox": [
+          322,
+          496,
+          74,
+          79
+        ],
+        "bbox_semantics": "template_evidence_crop_not_button_boundary",
+        "search_bbox": [
+          316,
+          473,
+          202,
+          127
+        ],
+        "score": 0.7535042762756348,
+        "position_runner_up_score": 0.7505306005477905,
+        "position_runner_up_bbox": [
+          396,
+          521,
+          74,
+          79
+        ],
+        "position_margin": 0.0029736757278442383,
+        "type_runner_up": null,
+        "type_margin": null,
+        "unverified_alternatives": [
+          "SPECIAL_SUMMON",
+          "FLIP_SUMMON",
+          "DISABLED_NORMAL_SUMMON"
+        ],
+        "frame_seq": 47,
+        "observed_at": 0.0,
+        "capture_context": {
+          "mode": "offline_saved_image",
+          "capture_source": "saved_MSS_client_image",
+          "client_rect": null,
+          "captured_at_clock": "unspecified_zero_not_capture_time",
+          "frame_seq_semantics": "manifest_index_not_capture_sequence"
+        },
+        "detector_sha256": "38ac24d4a30f0606a8d46cd4c1dfcf16c1289cf6528f8c5e844a434867f38e1f",
+        "profile_sha256": "5eb1cdda1303fc4cb907e3a7eddb3ba86b9be16aaef69c37d46046bc766cbc5d",
+        "unknown_reason": "below_score_threshold",
+        "scope": "readonly_ui_location_candidate",
+        "usable_for_input": false
+      },
+      "detected": false,
+      "bbox_passed": true,
+      "position_validation": false,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_MENU_TRAIN_v1_full/frame-0000.png",
+      "sha256": "7b15e9e1fc6d1f736d0112c857838f8f73e22b44b04a0e154724cf8f2dc30df6",
+      "profile_id": "maxxc-menu-v1",
+      "sample_role": "reviewed_set_crop_diagnostic",
+      "reviewed_label": "Researcher目視同画面右SETbutton(種別限定crop診断)",
+      "expected_detected": false,
+      "evaluation_scope": "crop_similarity_diagnostic",
+      "diagnostic_bbox": [
+        540,
+        496,
+        73,
+        98
+      ],
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "crop_score": 0.7131528854370117,
+        "bbox": [
+          540,
+          496,
+          73,
+          98
+        ],
+        "scope": "crop_similarity_diagnostic",
+        "usable_for_input": false
+      },
+      "detected": false,
+      "bbox_passed": true,
+      "position_validation": false,
+      "detection_passed": true,
+      "passed": true
+    },
+    {
+      "image": "../artifacts/baseline-tester/MAXXC_CURRENT_HAND_TRAIN_20261006/solar-menu/frame-0000.png",
+      "sha256": "cc7b48b8f9310f04894d7a02781995dcaa84c292807449b43433d02ce417b3b5",
+      "profile_id": "solar-menu-v2",
+      "sample_role": "reviewed_set_crop_diagnostic",
+      "reviewed_label": "Researcher目視同画面右SETbutton(種別限定crop診断)",
+      "expected_detected": false,
+      "evaluation_scope": "crop_similarity_diagnostic",
+      "diagnostic_bbox": [
+        486,
+        497,
+        74,
+        79
+      ],
+      "observed_at_semantics": "unspecified_zero_not_capture_time",
+      "frame_seq_semantics": "manifest_index_not_capture_sequence",
+      "evidence": {
+        "crop_score": 0.785957396030426,
+        "bbox": [
+          486,
+          497,
+          74,
+          79
+        ],
+        "scope": "crop_similarity_diagnostic",
+        "usable_for_input": false
+      },
+      "detected": false,
+      "bbox_passed": true,
+      "position_validation": false,
+      "detection_passed": true,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "book": "既知盤面限定Main1からEnd",
+  "calibration": "phase-MSS-normal-only-v4",
+  "ui_steps": 2,
+  "structural_ready": false,
+  "real_game_validated": false,
+  "missing": [
+    {
+      "region": "action.phase_end",
+      "reason": "missing_region",
+      "labels": [
+        "CONFIRM"
+      ]
+    },
+    {
+      "region": "ui.prompt",
+      "reason": "missing_region",
+      "labels": [
+        "none",
+        "phase.select"
+      ]
+    },
+    {
+      "region": "fact.phase_context.menu_end",
+      "reason": "missing_region",
+      "labels": [
+        "true"
+      ]
+    },
+    {
+      "region": "fact.phase_context.menu_main1",
+      "reason": "missing_region",
+      "labels": [
+        "true"
+      ]
+    },
+    {
+      "region": "fact.phase_context.menu_title",
+      "reason": "missing_region",
+      "labels": [
+        "true"
+      ]
+    }
+  ],
+  "audit_profile": "phase_transition",
+  "note": "構造検査のみ。画像の識別精度・同じ外観の競合・位置変動・10秒以内の実動作は別途検証が必要"
+}

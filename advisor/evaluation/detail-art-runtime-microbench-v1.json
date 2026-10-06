@@ -1,0 +1,191 @@
+{
+  "schema": "detail-art-runtime-microbench-v1",
+  "scope": "同保存10画像・順序反転20回・参照cache済。saved_image/observed_at0/input0/E2E0。geometry未修正。",
+  "parameters": {
+    "art_inside_thumbnail": [
+      12,
+      30,
+      78,
+      72
+    ],
+    "SIFT_nfeatures": 200,
+    "footprint_radius_factor": 5.31,
+    "support_boundary_tolerance_px": 1e-12,
+    "mutual_lowe": 0.75,
+    "ransac_px": 2.0,
+    "minimum_inliers": 6,
+    "minimum_ratio": 0.7,
+    "scale": [
+      0.9,
+      1.1
+    ],
+    "shift_px": 3,
+    "art_spread": [
+      39,
+      36
+    ]
+  },
+  "reference_hashes": [
+    "235d9b0821b36b8cb80d589ce722bd8aec7c401b206316a13e44fd44862e998c",
+    "75b6c19586af5d77218cca353db3f00408a237bbf6147d6e8c7a3c1dd38da29a"
+  ],
+  "signatures": [
+    {
+      "mode": "legacy_rgb",
+      "sequence": 0,
+      "detail_cid": null,
+      "detail_recognition": null,
+      "source_layout": null
+    },
+    {
+      "mode": "rgb_or_art",
+      "sequence": 0,
+      "detail_cid": "13906",
+      "detail_recognition": "native_art_sift",
+      "source_layout": null
+    },
+    {
+      "mode": "legacy_rgb",
+      "sequence": 1,
+      "detail_cid": null,
+      "detail_recognition": null,
+      "source_layout": null
+    },
+    {
+      "mode": "rgb_or_art",
+      "sequence": 1,
+      "detail_cid": "13906",
+      "detail_recognition": "native_art_sift",
+      "source_layout": null
+    },
+    {
+      "mode": "legacy_rgb",
+      "sequence": 2,
+      "detail_cid": null,
+      "detail_recognition": null,
+      "source_layout": null
+    },
+    {
+      "mode": "rgb_or_art",
+      "sequence": 2,
+      "detail_cid": "13906",
+      "detail_recognition": "native_art_sift",
+      "source_layout": null
+    },
+    {
+      "mode": "legacy_rgb",
+      "sequence": 3,
+      "detail_cid": null,
+      "detail_recognition": null,
+      "source_layout": null
+    },
+    {
+      "mode": "rgb_or_art",
+      "sequence": 3,
+      "detail_cid": "13906",
+      "detail_recognition": "native_art_sift",
+      "source_layout": null
+    },
+    {
+      "mode": "legacy_rgb",
+      "sequence": 4,
+      "detail_cid": null,
+      "detail_recognition": null,
+      "source_layout": null
+    },
+    {
+      "mode": "rgb_or_art",
+      "sequence": 4,
+      "detail_cid": "13906",
+      "detail_recognition": "native_art_sift",
+      "source_layout": null
+    },
+    {
+      "mode": "legacy_rgb",
+      "sequence": 5,
+      "detail_cid": null,
+      "detail_recognition": null,
+      "source_layout": null
+    },
+    {
+      "mode": "rgb_or_art",
+      "sequence": 5,
+      "detail_cid": "13906",
+      "detail_recognition": "native_art_sift",
+      "source_layout": "hand6-slot3"
+    },
+    {
+      "mode": "legacy_rgb",
+      "sequence": 6,
+      "detail_cid": null,
+      "detail_recognition": null,
+      "source_layout": null
+    },
+    {
+      "mode": "rgb_or_art",
+      "sequence": 6,
+      "detail_cid": "13906",
+      "detail_recognition": "native_art_sift",
+      "source_layout": null
+    },
+    {
+      "mode": "legacy_rgb",
+      "sequence": 7,
+      "detail_cid": null,
+      "detail_recognition": null,
+      "source_layout": null
+    },
+    {
+      "mode": "rgb_or_art",
+      "sequence": 7,
+      "detail_cid": "13906",
+      "detail_recognition": "native_art_sift",
+      "source_layout": null
+    },
+    {
+      "mode": "legacy_rgb",
+      "sequence": 8,
+      "detail_cid": null,
+      "detail_recognition": null,
+      "source_layout": null
+    },
+    {
+      "mode": "rgb_or_art",
+      "sequence": 8,
+      "detail_cid": "13906",
+      "detail_recognition": "native_art_sift",
+      "source_layout": null
+    },
+    {
+      "mode": "legacy_rgb",
+      "sequence": 9,
+      "detail_cid": null,
+      "detail_recognition": null,
+      "source_layout": null
+    },
+    {
+      "mode": "rgb_or_art",
+      "sequence": 9,
+      "detail_cid": "13906",
+      "detail_recognition": "native_art_sift",
+      "source_layout": null
+    }
+  ],
+  "milliseconds": {
+    "legacy_rgb": {
+      "samples": 200,
+      "mean": 8.781779000419192,
+      "p50": 8.529149999958463,
+      "p95": 10.595929998817155,
+      "maximum": 12.952600009157322
+    },
+    "rgb_or_art": {
+      "samples": 200,
+      "mean": 13.323233499759226,
+      "p50": 13.232750003226101,
+      "p95": 15.194119996886,
+      "maximum": 16.883899996173568
+    }
+  },
+  "includes": "HandSearchVision.recognize全体: asset stat、scene RGB診断、detailRGB、art枝、source Hough。画像取得/decode/実入力/画面結果確認は含まない。"
+}

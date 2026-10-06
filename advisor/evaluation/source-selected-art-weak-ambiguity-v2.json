@@ -1,0 +1,83 @@
+{
+  "schema": "source-art-weak-ambiguity-v2",
+  "condition": "source-selected-art-condition-v2.json",
+  "scope": "synthetic correspondence fixture only; weak points intentionally span fixed required region. No pixel-extractor/real-game precision claim. Recognition parameters unchanged.",
+  "strong_count": 60,
+  "weak_count": 14,
+  "weak_reference_indices": [
+    0,
+    4,
+    5,
+    10,
+    16,
+    19,
+    21,
+    26,
+    32,
+    37,
+    42,
+    48,
+    53,
+    59
+  ],
+  "first": {
+    "accepted": true,
+    "pairs": 74,
+    "inliers": 60,
+    "ratio": 0.8108108108108109,
+    "spread": [
+      52.9771728515625,
+      45.10941696166992
+    ],
+    "scale": 1.0650003175060592,
+    "angle": 8.194950011203402e-06,
+    "bbox": [
+      640.1799926757812,
+      589.9500122070312,
+      83.070068359375,
+      76.6800537109375
+    ],
+    "guards": {
+      "inliers": true,
+      "ratio": true,
+      "spread": true,
+      "scale": true,
+      "rotation": true,
+      "relative_y": true,
+      "relative_x": true
+    },
+    "reason": []
+  },
+  "second": {
+    "accepted": true,
+    "pairs": 14,
+    "inliers": 14,
+    "ratio": 1.0,
+    "spread": [
+      52.9771728515625,
+      45.10941696166992
+    ],
+    "scale": 1.0650002872424458,
+    "angle": 8.94219105594485e-06,
+    "bbox": [
+      648.1799926757812,
+      591.949951171875,
+      83.070068359375,
+      76.6800537109375
+    ],
+    "guards": {
+      "inliers": true,
+      "ratio": true,
+      "spread": true,
+      "scale": true,
+      "rotation": true,
+      "relative_y": true,
+      "relative_x": true
+    },
+    "reason": []
+  },
+  "ambiguous": true,
+  "input_count": 0,
+  "e2e_count": 0,
+  "prior_fixture": "v1 evenly selected weak subset had yspread34.04<36; correctly not eligible, retained as quality negative"
+}

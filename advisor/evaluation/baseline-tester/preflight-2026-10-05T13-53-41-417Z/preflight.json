@@ -1,0 +1,169 @@
+{
+  "run_id": "preflight-2026-10-05T13-53-41-417Z",
+  "mode": "menu_read_only_pipeline_preflight",
+  "recorded_at_utc": "2026-10-05T13:54:31.614969+00:00",
+  "automatic_perception": true,
+  "capture_metadata": {
+    "run_id": "preflight-2026-10-05T13-53-41-417Z",
+    "mode": "computer_use_snapshot_for_read_only_pipeline_preflight",
+    "scene": "solo_story_list",
+    "capture_start_utc": "2026-10-05T13:53:41.417Z",
+    "capture_start_node_ms": 159620.4521,
+    "capture_end_node_ms": 159780.3811,
+    "sky_snapshot_call_ms": 159.92900000000373,
+    "input_count": 0,
+    "logical_action_samples": 0,
+    "screenshot": {
+      "width": 1282,
+      "height": 752,
+      "originX": -1919,
+      "originY": 786
+    },
+    "limitations": [
+      "sky snapshot call includes helper overhead and is not local runtime capture latency",
+      "no duel action executed",
+      "not E2E measurement"
+    ]
+  },
+  "window_shape": [
+    752,
+    1282,
+    3
+  ],
+  "game_shape": [
+    720,
+    1280,
+    3
+  ],
+  "crop_xywh": [
+    1,
+    31,
+    1280,
+    720
+  ],
+  "expected_scene": "solo_story_list",
+  "input_count": 0,
+  "logical_action_samples": 0,
+  "e2e_ms": null,
+  "real_accuracy_gate": false,
+  "pipeline_build_ms": 33.4582,
+  "pipeline_start_perf_ns": 51035995111100,
+  "pipeline_end_perf_ns": 51035995987800,
+  "pipeline_call_ms": 0.8767,
+  "result": {
+    "state": {
+      "sequence": 0,
+      "captured_at": 51035.968,
+      "media_time": null,
+      "turn": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "unknown",
+        "observed_at": 0.0
+      },
+      "turn_player": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "unknown",
+        "observed_at": 0.0
+      },
+      "phase": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "unknown",
+        "observed_at": 0.0
+      },
+      "terminal": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "unknown",
+        "observed_at": 0.0
+      },
+      "prompt": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "unknown",
+        "observed_at": 0.0
+      },
+      "animation": {
+        "value": null,
+        "confidence": 0.0,
+        "source": "unknown",
+        "observed_at": 0.0
+      },
+      "card_states": {},
+      "facts": {},
+      "material_sets": {},
+      "self": {
+        "lp": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "hand_count": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "zones": {}
+      },
+      "opponent": {
+        "lp": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "hand_count": {
+          "value": null,
+          "confidence": 0.0,
+          "source": "unknown",
+          "observed_at": 0.0
+        },
+        "zones": {}
+      },
+      "visible_actions": []
+    },
+    "events": [],
+    "legal_actions": [],
+    "recommendation": {
+      "action": null,
+      "target": null,
+      "confidence": 0.0,
+      "reason": "新しく十分な信頼度で認識できた対応行動がありません。画面上の情報を待ってください。",
+      "recognition_status": "abstained"
+    },
+    "error": "表示範囲の縦横比が校正と異なります。黒帯や切り抜き範囲を設定してください",
+    "metrics": {
+      "capture_read_ms": 0,
+      "perception_ms": 0.305800000205636,
+      "decision_ms": 0.060800004575867206,
+      "decision_elapsed_ms": 0.0,
+      "decision_limit_ms": 10000,
+      "total_compute_ms": 0.8509999970556237,
+      "api_calls": 0,
+      "api_cost_usd": 0,
+      "cache_hits": 0,
+      "recognized_regions": 0,
+      "ocr_ms": 0,
+      "state_build_ms": 0,
+      "perception_reused": false
+    },
+    "plan": {
+      "recipe": null,
+      "goal": null,
+      "step": 0,
+      "pending": false,
+      "reason": "手札と盤面の認識を待っています"
+    },
+    "planner_source": "abstained"
+  },
+  "limitations": [
+    "menu frame only, no duel action",
+    "capture and pipeline clocks are separate runtimes; cannot sum as E2E",
+    "pipeline timestamps represent existing coarse metrics only",
+    "no code or calibration changes"
+  ]
+}

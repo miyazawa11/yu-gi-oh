@@ -1,0 +1,38 @@
+{
+  "name": "user-calibration",
+  "viewport": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "aspect_ratio": 1.7777777777777777,
+  "aspect_tolerance": 0.02,
+  "regions": {
+    "phase": {
+      "rect": {
+        "x": 0.5,
+        "y": 0.5,
+        "width": 0.1,
+        "height": 0.1
+      },
+      "kind": "template",
+      "exemplars": [
+        {
+          "label": "MAIN1",
+          "image": "templates/3461bac1073540afbb806e4567b5ce1f.png"
+        },
+        {
+          "label": "BATTLE",
+          "image": "templates/328470a9d30742fdb2b7ecc7c422fa32.png"
+        }
+      ],
+      "threshold": 0.95,
+      "margin": 0.03,
+      "feature": "rgb",
+      "card_id": null,
+      "target": null
+    }
+  },
+  "composites": []
+}
